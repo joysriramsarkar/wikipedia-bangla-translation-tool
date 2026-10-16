@@ -1,0 +1,362 @@
+{{short description|none}} <!-- "none" is preferred when the title is sufficiently descriptive; see [[WP:SDNONE]] -->
+{{redirect|Shabiyah|the genre of Arabic popular epic|Sīra shaʿbiyya}}
+{{Politics of Libya|administrative}}
+
+In Libya there are currently 106 districts, second level administrative subdivisions known in Arabic as [[Baladiyat of Libya|''baladiyat'']] (singular ''baladiyah'').<ref>{{Cite web|title=Baladiyat |language=ar |publisher=Central Committee for the election of baladiyah councils |url=https://ccmce.ly/index.php/ar/municipalities |archive-url=https://web.archive.org/web/20211228224836/https://ccmce.ly/index.php/ar/municipalities |archive-date=28 December 2021 |url-status=live }}</ref>  The number has varied since 2013 between 99<ref>{{Cite web|title=Baladiyat |language=ar |url=https://ccmce.ly/index.php/ar/municipalities |archive-url=https://web.archive.org/web/20210125051042/https://ccmce.ly/index.php/ar/municipalities |archive-date=25 January 2021 |url-status=unfit }}</ref> and 108.<ref>{{Cite web |title=اسماء البلديات |trans-title=The names of the baladiyat |date=26 March 2015 |language=ar |publisher=اللجنة المركزية لانتخاب المجالس البلدية [The Central Committee for the election of baladiyah councils] |url=http://ccmce.ly/web/index.php/ar/cities |archive-url=https://web.archive.org/web/20151213154820/http://ccmce.ly/web/index.php/ar/cities |archive-date=13 December 2015 |url-status=dead }}</ref>  The first level administrative divisions in Libya are currently the governorates (''muhafazat''), which have yet to be formally delineated,<ref>{{Cite book|author=Vandewalle, Dirk |year=2015 |chapter=Libya's Uncertain Revolution |editor1=Cole, Peter |editor2=McQuin, Brian |title=The Libyan Revolution and its Aftermath |location=Oxford, England |publisher=Oxford University Press |page=[https://books.google.com/books?id=VRQoBgAAQBAJ&pg=PT35 35] |isbn=978-0-19-025733-0}}</ref><ref>{{Cite web|last1=Ross |first1=Simona |last2=Wolff |first2=Stefan |last3=Marc |first3=Alexandre |title=Building peace through subnational governance: The case of Libya |date=26 January 2021 |publisher=Brookings Institution |url=https://www.brookings.edu/blog/order-from-chaos/2021/01/26/building-peace-through-subnational-governance-the-case-of-libya/ }}</ref> but which were originally tripartite as: [[Tripolitania]] in the northwest, [[Cyrenaica]] in the east, and [[Fezzan]] in the southwest; and later divided into [[Governorates of Libya|ten governorates]].
+
+Prior to 2013 there were twenty-two first level administrative subdivisions known by the term '''''shabiyah''''' ([[Arabic language|Arabic]] singular {{lang|ar|شعبية}} ''šaʿbiyya'', plural ''šaʿbiyyāt'') which constituted the '''districts of [[Libya]]'''. In the 1990s the shabiyat had replaced an older [[baladiyat]] system.
+
+Historically the area of Libya was considered three provinces (or states), [[Tripolitania]] in the northwest, [[Cyrenaica]] in the east, and [[Fezzan]] in the southwest.  It was the conquest by Italy in the [[Italo-Turkish War]] that united them in a single political unit. Under the Italians Libya was eventually divided into four provinces and one territory: Tripoli, Misrata, Benghazi, Derna, (in the north) and the Territory of the Libyan Sahara (in the south).<ref>Pan, Chia-Lin (1949) "The Population of Libya" ''Population Studies,'' 3(1):  pp. 100–125, p. 104</ref> After the French and British occupied Libya in 1943, it was again split into three provinces: [[Tripolitania]] in the northwest, [[Cyrenaica]] in the east, and [[Fezzan-Ghadames]] in the southwest.<ref>[http://www.zum.de/whkmla/histatlas/northafrica/libya19431951.gif "Map of Libya 1943–1951" ''Zentrale für Unterrichtsmedien'']</ref>
+
+Article 176 of the [[Constitution of Libya (1951)|1951 constitution of Libya]] stated "The Kingdom of Libya shall be divided into administrative units in conformity with the law to be promulgated in this connection. Local and regional councils may be formed in the Kingdom. The extent of these units shall be determined by law which shall likewise organize these Councils." in exact quote.{{Citation needed|date=February 2009}}
+
+After independence (1951), Libya was divided into three [[Governorates of Libya|governorates]] (''[[muhafazah|muhafazat]]''), matching the three provinces of before, but in 1963 it was divided into ten governorates. In 1983 a new system was introduced dividing the country into forty-six districts (''[[baladiyat]]''). In 1987 this was reduced to twenty-five districts.
+
+On 2 August 1995, Libya reorganized into thirteen districts (''[[shabiyah|shabiyat]]''). In 1998 this was increased to 26 shabiyat districts. In 2001 it was increased to thirty-two districts plus three administrative regions.  Finally in 2007 it was reduced to twenty-two districts.
+
+For historical evolution see also: [[Subdivisions of Libya]].
+
+Libyan districts were further subdivided into [[Basic People's Congress (administrative division)|Basic People's Congresses]] which act as [[township]]s or [[borough]]s until 2011.
+
+==Etymology==
+The term {{lang|ar|شعبية}} in Arabic can mean both "popularity" or "That that is of the people" or more simply "pertaining to the people".  The second meaning was used by the Libyan government to refer to the districts of Libya, in tandem with the general ideology of the state.  Sha'biyat in Libya are the highest administrative level.  A lower level, equivalent to a county, exists and divides each Shabiyah into smaller entities.
+
+The term was new and exclusive to Libya, in line with exclusive terms for republic ([[Great Socialist People's Libyan Arab Jamahiriya|jamahiriya]]), ministry (amanah) and embassy (people's-bureau)—all of which are different from what is used throughout Arabic-speaking countries, including even Libya itself before its adoption of the neology.
+
+==Districts (''Shabiya'')==
+''Shabiyah'' ({{Langx|ar|شعبية}}  ''šaʿbiyyah'' English: popularity, plural:  {{lang|ar| شعبيات}} ''šaʿbiyyāt'' English: popularities)  is a [[neologism]] exclusive to [[Libya under Gaddafi]],  in line with exclusive terms for republic ([[Great Socialist People's Libyan Arab Jamahiriya|jamahiriya]]), ministry (secretariat) and embassy (people's-bureau).
+The term basically means a district, that is, a top level administrative division. Etymologically, it is an adjective meaning "of or pertaining to the people, popular".
+
+=== 22 districts (2007) ===
+In 2007 the twenty-two districts (''shabiya'') replaced the older thirty-two district system.<ref name="GPCO-shabiya">[http://gpco.gov.ly/online/shabyat.php ''شعبيات الجماهيرية العظمى''{{spaced ndash}}Sha'biyat of Great Jamahiriya] {{webarchive |url=https://web.archive.org/web/20081220214410/http://gpco.gov.ly/online/shabyat.php |date=December 20, 2008 }}, accessed 10 May 2009, in Arabic</ref><ref>:{{cite web|url=http://www.geohive.com/cntry/libya.aspx|title=Libya population statistics|publisher=Geohive|access-date=30 October 2009|language=en, ar|url-status=dead|archive-url=https://web.archive.org/web/20091015051855/http://www.geohive.com/cntry/libya.aspx|archive-date=15 October 2009}}</ref><ref name="statoids">{{cite web|url=http://statoids.com/uly.html|title=Districts of Libya|publisher=Statoids.com|access-date=7 November 2010}}</ref>
+
+The list is as following:
+[[File:Lybian Shabiat 2007 with numbers.svg|thumb|right|234x234px|The current twenty-two district system in Libya (since 2007)]]
+
+{{table alignment}}
+{| class="wikitable sortable defaultright col1center col2center col3center"
+|-
+! Map no. 
+! Name 
+! English <br>transliteration
+! Area (km<sup>2</sup>)
+! Population <br> (2006)<ref>[http://www.gai.gov.ly/shabiat Libyan General Information Authority] {{webarchive|url=https://web.archive.org/web/20110224023241/http://www.gai.gov.ly/shabiat |date=2011-02-24 }} accessed 22 July 2009</ref>
+! Population <br> (2020)<ref>Bureau of Statistics and Census Libya (website).</ref>
+!Density
+(2020 in km<sup>2</sup>)
+|-
+!colspan="7"|Cyrenaica
+|-
+|1|| البطنان        || [[Butnan District|Al Butnan]] || 84,996 || 159,536 || 195,088
+|2.3
+|-
+|2|| درنة           || [[Derna District|Darnah]] || 31,511 || 163,351 || 201,639
+|6.4
+|-
+|3|| الجبل الاخضر     || [[Al Jabal al Akhdar]] || 11,429 || 203,156 || 250,020
+|21.9
+|-
+|4|| المرج           || [[Marj District|Al Marj]] || 13,515 || 185,848 || 286,045
+|21.2
+|-
+|5|| بنغازي         || [[Benghazi]] || 11,372 || 670,797 || 807,255
+|71.0
+|-
+|6|| الواحات        || [[Al Wahat District|Al Wahat]] || 103,143 || 177,047 || 213,728
+|20.3
+|-
+|7|| الكفرة         || [[Kufra District|Al Kufrah]] || 453,161 || 50,104 || 55,495
+|0.1
+|-
+!colspan="7"|Tripolitania
+|-
+|8|| سرت            || [[Sirte District|Surt]] || 77,660 || 193,720 || 170,869
+|2.2
+|-
+|9|| مصراتة         || [[Misrata District|Misrata]] || 29,172 || 550,938 || 663,853
+|22.8
+|-
+|10|| المرقب          || [[Murqub District|Marqab]] || 6,796 || 432,202 || 532,227
+|78.3
+|-
+|11|| طرابلس         || [[Tripoli District, Libya|Tarabulus]] || 2,666 || 1,065,405 || 1,293,016
+|485.0
+|-
+|12|| الجفارة         || [[Jafara|Al Jafarah]] || 835 || 453,198 || 548,855
+|657.3
+|-
+|13|| الزاوية        || [[Zawiya District|Az Zawiyah]] || 2,753 || 290,993 || 351,306
+|127.6
+|-
+|14|| النقاط الخمس    || [[An Nuqat al Khams]] || 6,089 || 287,662 || 349,755
+|57.4
+|-
+|15|| الجبل الغربي     || [[Jabal al Gharbi District| Al Jabal al Gharbi]] || 76,717 || 304,159 || 374,911
+|4.9
+|-
+|16|| نالوت          || [[Nalut District|Nalut]] || 67,191 || 93,224 || 113,886
+|1.7
+|-
+!colspan="7"|Fezzan
+|-
+|17|| الجفرة          || [[Jufra District|Al Jufrah]] || 117,410 || 52,342 || 60,853
+|0.5
+|-
+|18|| وادي الشاطئ    || [[Wadi al Shatii District|Wadi ash Shati']] || 97,160 || 78,532 || 95,294
+|1.0
+|-
+|19|| سبها           || [[Sabha District|Sabha]] || 15,330 || 134,162 || 153,454
+|1.4
+|-
+|20|| وادي الحياة     || [[Wadi al Hayaa District|Wadi al Hayat]] || 31,485 || 76,858 || 91,749
+|2.9
+|-
+|21|| غات            || [[Ghat District|Ghat]] || 68,482 || 23,518 || 27,675
+|0.4
+|-
+|22|| مرزق           || [[Murzuq District|Murzuq]] || 356,308 || 78,621 || 94,088
+|0.3
+|}
+
+===32 districts (2001)===
+The 2001 reorganization of Libya into districts (''shabiya'')<ref>[https://web.archive.org/web/20060830011946/http://www.gpc.gov.ly/online_alshabyat/index.php "الشعبيات بالجماهيرية" ("Districts of Libya")] Website of the General People's Committee of Libya, from [[WebArchive]] dated 30 August 2006</ref> resulted in thirty-two districts and three administrative regions (المنطقة الإدارية): 
+[[File:Libya Municipalities 2001-2007.svg|thumb|right|300px|The old thirty-two shabiyat system in Libya (2001–2007)]]
+
+{| class="wikitable sortable" style="text-align:right"
+! بلدية          !! ''Sha'biyah''                            !! Population !! Area<br />{{smaller|(km<sup>2</sup>)}} !! Number<br />{{smaller|(on map)}}
+|-
+| إجدابيا        ||align="center"| [[Ajdabiya District|Ajdabiya]]              ||    165,839 ||  91,620 ||  1
+|-
+| البطنان        ||align="center"| [[Butnan District|Butnan]]             ||    144,527 ||  83,860 ||  2
+|-
+| الحزام الاخضر    ||align="center"| [[Hizam al Akhdar District|Hizam al Akhdar]]    ||    108,860 ||  12,800 ||  3
+|-
+| الجبل الاخضر     ||align="center"| [[Jabal al Akhdar]]    ||    194,185 ||   7,800 ||  4
+|-
+| الجفارة         ||align="center"| [[Jafara]]              ||    289,340 ||   1,940 ||  5
+|-
+| الجفرة          ||align="center"| [[Jufra District|Jufra]]             ||     45,117 || 117,410 ||  6
+|-
+| الكفرة         ||align="center"| [[Kufra District|Kufra]]             ||     51,433 || 483,510 ||  7
+|-
+| المرج           ||align="center"| [[Marj District|Marj]]               ||    116,318 ||  10,000 ||  8
+|-
+| المرقب          ||align="center"| [[Murqub District|Murqub]]             ||    328,292 ||   3,000 ||  9
+|-
+| زوارة   ||align="center"| [[Nuqat al Khams]]     ||    208,954 ||   5,250 || 10
+|-
+| القبة          ||align="center"| [[Quba District (Libya)|Quba]]              ||     93,895 ||  14,722 || 11
+|-
+| الواحات        ||align="center"| [[Al Wahat District|Al Wahat]]              ||     29,257 || 108,670 || 12
+|-
+| الزاوية        ||align="center"| [[Zawiya District|Zawiya]]
+                                                              |    197,177 ||   1,520 || 13
+|-
+| بنغازي         ||align="center"| [[Benghazi]]              ||    636,992 ||     800 || 14
+|-
+| بنى وليد        ||align="center"| [[Bani Walid District|Bani Walid]]  ||     77,424 ||  19,710 || 15
+|-
+| درنة           ||align="center"| [[Derna District|Derna]]                ||     81,174 ||   4,908 ||  16
+|-
+| غات            ||align="center"| [[Ghat District|Ghat]]                  ||     22,770 ||  72,700 || 17
+|-
+| غدامس          ||align="center"| [[Ghadames District|Ghadames]]              ||     19,000 ||  51,750 || 18
+|-
+| غريان          ||align="center"| [[Gharyan District|Gharyan]]               ||    161,408 ||   4,660 || 19
+|-
+| مرزق           ||align="center"| [[Murzuq District|Murzuq]]                ||     68,718 || 349,790 || 20
+|-
+| مزدة           ||align="center"| [[Mizda District|Mizda]]                ||     41,476 ||  72,180 || 21
+|-
+| مصراتة         ||align="center"| [[Misrata District|Misrata]]              ||    360,521 ||   2,770 || 22
+|-
+| نالوت          ||align="center"| [[Nalut District|Nalut]]                 ||     86,801 ||  13,300 || 23
+|-
+| تاجوراء والنواحي الأربع 
+                  |align="center"| [[Tajura wa Arba‘ District|Tajura wa Arba‘]]
+                                                              |    267,031 ||   1,430 || 24
+|-
+| ترهونة و مسلاته ||align="center"| [[Tarhuna wa Msalata District|Tarhuna wa Msalata]]
+                                                              |    296,092 ||   5,840 || 25
+|-
+| طرابلس         ||align="center"| [[Tripoli District, Libya|Tripoli]]             ||    882,926 ||     400 || 26
+|-
+| سبها           ||align="center"| [[Sabha District|Sabha]]                 ||    126,610 ||  15,330 || 27
+|-
+| سرت            ||align="center"| [[Sirte District|Sirte]]                  ||    156,389 ||  77,660 || 28
+|-
+| صبراته و صرمان  ||align="center"| [[Sabratha wa Sorman District|Sabratha wa Sorman]]    ||    152,521 ||   1,370 || 29
+|-
+| وادي الحياة     ||align="center"| [[Wadi al Hayaa District|Wadi al Hayaa]]         ||     72,587 ||  31,890 || 30
+|-
+| وادي الشاطئ    ||align="center"| [[Wadi al Shatii District|Wadi al Shatii]]        ||     77,203 ||  97,160 || 31
+|-
+| يفرن           ||align="center"| [[Yafran District|Yafran]]                ||    117,647 ||   9,310 || 32
+|}
+The three administrative regions are missing from the above map, [[Qatrun]],<ref>[https://web.archive.org/web/20061015234451/http://www.gpc.gov.ly/online_alshabyat/index.php?sh=33 "Districts of Libya:Alqtron Tjrhi"] Website of the General People's Committee of Libya, in Arabic, from [[Web Archive]] dated 30 August 2006</ref> [[Marada, Libya|Marada]],<ref>[https://web.archive.org/web/20061015234503/http://www.gpc.gov.ly/online_alshabyat/index.php?sh=34 "Districts of Libya:Mradq"] Website of the General People's Committee of Libya, in Arabic, from [[Web Archive]] dated 30 August 2006</ref> and [[Jaghbub, Libya|Jaghbub]]<ref>[https://web.archive.org/web/20061015234451/http://www.gpc.gov.ly/online_alshabyat/index.php?sh=35 "Districts of Libya:Aljgbob"] Website of the General People's Committee of Libya, in Arabic, from [[Web Archive]] dated 30 August 2006</ref>
+
+===26 districts (1998)===
+In 1998 Libya was reorganized into twenty-six districts which were: Butnan, Jafara, Jufra, Kufra, Marj, Murqub, Quba, Al Wahat, Bani Walid, Benghazi, Derna, Gharyan, Jabal al Akhdar, Murzuq, Misrata, Nalut, Nuqat al Khams, Sabha, Sabrata/Sorman, Sirte, Tarhuna/Msalata, Tripoli, Wadi al Hayaa, Wadi al Shatii, Yafran, and Zawiya<ref>"Libya" ''2006 Statesman's Yearbook''</ref>
+
+===13 districts (1995)===
+On 2 August 1995 Libya dropped the baladiyat system and reorganized into thirteen districts (''shabiyat'').  Among them were Butnan (formerly Tobruk), Jabal al Akhdar, Jabal al Gharbi, Zawiya, Benghazi, and Tripoli.  However, there is not agreement about the other seven names.<ref name="statoids"/>
+
+==<span class="anchor" id="Baladiyat"></span>Former ''baladiya''==
+''[[Baladiyah]]'' (singular) or ''baladiyat'' (plural), are [[Arabic language|Arabic]] words used in many Arab countries to denote administrative divisions of the country. In Libya, the baladiyat system of districts was introduced in 1983 to replace the governorate system.  Originally there were forty-six baladiyat districts,<ref name="statoids"/> but in 1988 that number was reduced to twenty-five baladiyat. The table hereunder lists the old twenty-five baladiyat in alphabetical order with a link to each one and numbered to be located on the map. Note that each district linked may be both a baladiyah and a shabiyah. The many changes may not always be reflected in the article. 
+ 
+{{col-begin}}
+{{col-break}}
+*  1 [[Ajdabiya District|Ajdabiya]]
+*  2 [[‘Aziziya District|‘Aziziya]]
+*  3 [[Butnan District|Butnan]]
+*  4 [[Fati District|Fati]]
+*  5 [[Jabal al Akhdar]]
+*  6 [[Jufra District|Jufra]]
+*  7 [[Khoms District|Khoms]]
+*  8 [[Kufra District|Kufra]]
+*  9 [[Nuqat al Khams]]
+* 10 [[Wadi al Shatii District|Wadi al Shatii]]
+* 11 [[Ubari]]
+* 12 [[Zawiya District|Zawiya]]
+* 13 [[Benghazi]]
+{{col-break}}
+* 14 [[Derna District|Derna]]
+* 15 [[Ghadames District|Ghadames]]
+* 16 [[Gharyan District|Gharyan]]
+* 17 [[Misrata District|Misrata]]
+* 18 [[Murzuq District|Murzuq]]
+* 19 [[Sabha District|Sabha]]
+* 20 [[Sawfajjin District|Sawfajjin]]
+* 21 [[Sirte District|Sirte]]
+* 22 [[Tripoli District, Libya|Tripoli]]
+* 23 [[Tarhuna District|Tarhuna]]
+* 24 [[Yafran District|Yafran]]
+* 25 [[Zlitan District|Zlitan]]
+{{col-break}}
+[[File:Libia regions with numbers.svg|thumb|400px|Map showing subdivision of former governorates into the 25 ''baladiya'']] 
+{{col-end}}
+
+== Evolution ==
+{|class="wikitable sortable" style="text-align:left"
+! شعبية / بلدية !! Name !! 2007 (22) !! 2001 (32) !! Name in 1998 (26) !! 1995 (13) !! 1988 (25) !! Capital
+|-
+| إجدابيا        ||[[Ajdabiya District]]                                                 ||   || x ||                 ||   || x || [[Ajdabiya]]
+|-
+| البطنان        ||[[Butnan District]] (Tobruk in 1995, from 1988 [[Tobruk District]])
+                                                                                         || x || x || Batan        || x || [[Tobruk District|Tobruk]] || [[Tobruk]]
+|-
+| الحزام الاخضر    ||[[Hizam al Akhdar District]]                                       ||   || x ||                 ||   ||   || [[Abyar, Libya|Aybar]]
+|-
+| الجبل الاخضر     ||[[Jabal al Akhdar]]                                       || x || x || Jabal al Akhdar || x || x || [[Bayda, Libya|Bayda]]
+|-
+| الجبل الغربي    ||[[Jabal al Gharbi District]]                                       || x ||   ||                 || x ||   || [[Gharyan]]
+|-
+| الجغبوب         ||[[Jaghbub, Libya|Jaghbub]] Administrative Region              ||   || AR||                 ||   ||   || Administrative Region
+|-
+| الجفارة         ||[[Jafara]] (from 1988 [['Aziziya District]])           || x || x || Jafara       ||   || [['Aziziya District|'Aziziya]] || [['Aziziya]]
+|-
+| الجفرة          ||[[Jufra District]]                                                || x || x || Jufra        || 4 || x || [[Hun, Libya|Hun]]
+|-
+| الكفرة         ||[[Kufra District]]                                                || x || x || Kufra        || 5 || x || [[Al Jawf, Libya|Al Jawf]]
+|-
+| المرج           ||[[Marj District]] (1983–1988 [[Fati District]])           || x || x || Marj         ||   || [[Fati District|Fati]] || [[Marj, Libya|Marj]], [[Barca (ancient city)|Barca]] in antiquity
+|-
+| المرقب          ||[[Murqub District]] (Morqib) (from 1995 & 1988 [[Khoms District]])       || x || x || Murqub       || 5 || [[Khoms District|Khoms]] || [[Khoms, Libya|Khoms]]
+|-
+| القطرون        ||[[Qatrun]] Administrative Region                                   ||   || AR||                 ||   ||   || Administrative Region
+|-
+| القبة          ||[[Quba District (Libya)|Quba District]]                                                 ||   || x || Quba         ||   ||   || [[Quba, Libya|Quba]], or Giovanni Berta
+|-
+| الواحات        ||[[Al Wahat District]] (Waha in 1995)                              || x || x || Wahad        || 4 ||   || [[Ajdabiya]] (cf. Ajdabiya District)
+|-
+|               الوسطى ||Wusta                                                          ||   ||   ||                 || 4 ||   || 
+|-
+| النقاط الخمس    ||[[Nuqat al Khams]] (Nikat al Khums in 1995)                                                                                    || x || x || Nikat al Khams  || 5 || x || [[Zuwara]]
+|-
+| أوباري         ||[[Ubari|Awbari District]]                                                   ||   ||   ||                 || 5a|| x || [[Ubari]]
+|-
+| الزاوية        ||[[Zawiya District]]                                || x || x || Zawiya         || x || x || [[Zawiya, Libya|Zawiya]]
+|-
+| بني وليد        ||[[Bani Walid District]] (from 1988 [[Sawfajjin District]])            ||   || x || Bani Walid       ||   ||   || [[Bani Walid]]
+|-
+| بنغازي         ||[[Benghazi]]                                                 || x || x || Benghazi        || x || x || [[Benghazi]]
+|-
+| درنة           ||[[Derna District]]                                                   || x || x || Derna           ||   || x || [[Derna, Libya|Derna]]
+|-
+| فزان           ||[[Fezzan]] (or Fazzan)                                       ||   ||   ||                 || 4 ||   || [[Sabha, Libya|Sabha]]
+|-
+| غدامس          ||[[Ghadames District]]                                    ||   || x ||                 ||   || x || [[Ghadames]]
+|-
+| غريان          ||[[Gharyan District]]                                                  ||   || x || Gharyan         ||   || x || [[Gharyan]]
+|-
+| غات            ||[[Ghat District]] (from 1988 [[Ubari]])                              || x || x ||                 ||   ||   || [[Ghat, Libya|Ghat]]
+|-
+| مرادة          ||[[Marada, Libya|Marada]] Administrative Region                                     ||   || AR||                 ||   ||   || Administrative Region
+|-
+| مصراتة         ||[[Misrata District]] (includes 1988 [[Bani Walid District]] and [[Zlitan District]])
+                                                                                         || x || x || Misrata         || 4 || x || [[Misrata]]
+|-
+| مزدة           ||[[Mizda District]]                                                   ||   || x ||                 ||   ||   || [[Mizda]]
+|-
+| مرزق           ||[[Murzuq District]] (Marzug in 1995)                                  || x || x || Murzaq          || 5 || x || [[Murzuk]]
+|-
+|      النقازة          ||[[Naggaza]]|| ||   ||                 || 4 ||   || 
+|-
+| نالوت          ||[[Nalut District]]                                                    || x || x || Nalout          ||   ||   || [[Nalut]]
+|-
+| سبها           ||[[Sabha District]]                                                || x || x || Sabha     || 5 || x || [[Sabha, Libya|Sabha]]
+|-
+| صبراته و صرمان  ||[[Sabratha wa Sorman District]]                                       ||   || x || Sabratha & Sorman  ||   ||   || 
+|-
+| سوف الجين         ||[[Sawfajjin District]]                                                ||   ||   ||                 || 4 || x || [[Bani Walid]]
+|-
+| سرت            ||[[Sirte District]] (Khalij Sirte in 1995)                               || x || x || Sirte           || 5 || x || [[Sirte]]
+|-
+| تاجوراء والنواحي الأربع  ||[[Tajura wa Arba‘ District]]                     ||   || x ||                 ||   ||   || [[Tajura]]
+|-
+| طرابلس         ||[[Tripoli District, Libya|Tripoli District]]                                      || x || x || Tripoli         || x || x || [[Tripoli, Libya|Tripoli]]
+|-
+| ترهونة و مسلاته ||[[Tarhuna wa Msalata District]] (from 1988 [[Tarhuna District]])     ||   || x || Tarhuna & Msalata ||   || [[Tarhuna District|Tarhuna]] || [[Tarhuna]]
+|-
+| وادي الحياة     ||[[Wadi al Hayaa District]] (1995 Wadi al Hait?, from 1988 [[Ubari]]) || x || x || Wadi al Hait?   || 5b||   || 
+|-
+| وادي الشاطئ    ||[[Wadi al Shatii District]] (Shati' in 1988)                      || x || x || Wadi al Shaati  ||   || Shati' || [[Adiri, Libya|Adiri]]<ref>{{cite web |url=http://statoids.com/uly.html |title=Districts of Libya|publisher= statoids.com |access-date= 27 October 2009}} and [[:de:Libyen#Aktuelle Gliederung|German]] wikipedia</ref> or [[Brak, Libya|Brak]]<ref>[[:es:Wadi Al Shatii|Spanish]], [[:it:Municipalità di Wadi al Shati|Italian]], [[:pl:Wadi asz-Szati|Polish]] and [[:pt:Ash Shatii|Portuguese]] wikipedias</ref>
+|-
+| يفرن           ||[[Yafran District]] (Yifren)                                                  ||   || x || Yefrin          ||   || x || [[Yafran]]
+|-
+| زليتن          ||[[Zlitan District]]                                                   ||   ||   ||                 ||   || x || [[Zliten]]
+|}
+For 1995 data, [4] and [5] are the two different sources mentioned in the bibliography:<ref name="statoids"/> "The Europa World Year Book 2001" and "Ershiyi (21) Shiji Shijie Diming Lu", Beijing, 2001.
+
+For 1988, name is provided if different from nowadays. As said above, AR stands for the three "Administrative Region" of 2001.
+
+Fazzan wasn't strictly a district, but a historical [[muhafazah]] or [[wilayah]] along with [[Tripolitania]] (capital [[Tripoli, Libya|Tripoli]]) and [[Cyrenaica]] (capital [[Cyrene, Libya|Cyrene]] -near nowadays [[Shahhat]]- with [[Diocletian]], moved to [[Ptolemais (Cyrenaica)|Ptolemais]] after the [[365 Crete earthquake|earthquake of 365]], and to [[Barca (ancient city)|Barce]] -nowadays [[Barca (ancient city)|Barca]]- with [[Omer Bin Khattab]] in 643).
+
+== See also ==
+* [[List of FIPS region codes (J–L)#LY: Libya|FIPS region codes of Libya]]
+* [[ISO 3166-2:LY]]
+* [[List of cities in Libya]]
+* [[Subdivisions of Libya]]
+
+==Notes==
+{{Reflist}}
+
+==External links==
+{{wiktionary|شعبية}}
+*[https://web.archive.org/web/20060502173225/http://www.library.uu.nl/wesp/populstat/Africa/libyap.htm Historical population data by district] from Universiteitsbibliotheek Utrecht (Library, University of Utrecht), retrieved by WebArchive.
+*[http://www.nationsonline.org/oneworld/map/libya-administrative-map.htm Administrative Map of Libya – Nations Online Project]
+
+{{Districts of Libya}}
+{{Districts of Libya 2001-2007}}
+{{District capitals of Libya}}
+{{Libya topics}}
+{{Regions of Libya}}
+{{Articles on first-level administrative divisions of African countries}}
+
+{{DEFAULTSORT:Districts Of Libya}}
+<!-- Categories -->
+[[Category:Districts of Libya| ]]
+[[Category:Administrative divisions in Africa|Libya]]
+[[Category:First-level administrative divisions by country|Districts, Libya]]
+[[Category:Libya geography-related lists]]
+[[Category:Lists of administrative divisions|Libya, Districts]]

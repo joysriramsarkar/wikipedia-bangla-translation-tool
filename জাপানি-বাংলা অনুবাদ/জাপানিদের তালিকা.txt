@@ -1,0 +1,3379 @@
+{{Short description|none}}
+{{Cleanup|reason=All (post-1868) names need to be written in standard [given name] + [family name] order|date=April 2015}}
+{{TopicTOC-Country-Japan}}
+This is a '''list of notable [[Japanese people]]'''.
+
+To be included in this list, the person must have a Wikipedia article showing they are Japanese.
+{{TOC limit|3}}
+
+==Architects==
+{{main|List of Japanese architects}}
+
+==Artists==
+{{main|List of Japanese artists|List of Japanese photographers}}
+
+==Athletes==
+{{main|List of Japanese sportspeople}}
+
+==Authors==
+{{main|List of Japanese writers}}
+{{colbegin|colwidth=25em}}
+* [[Kobo Abe]], author of ''[[The Woman in the Dunes (novel)|The Woman in the Dunes]]''<ref name="AsianMasterworks1">{{cite book |editor1-last=Stoler Miller |editor1-first=Barbara |title=Masterworks of Asian Literature in Comparative Perspective: A Guide for Teaching |date=1994 |publisher=ME Sharpe Inc. |isbn=1563242575 |pages=51–52}}</ref>
+* [[Ryunosuke Akutagawa]]
+* [[Matsuo Basho]], author of ''[[Oku no Hosomichi|The Narrow Road to the Deep North]]''<ref name="AsianMasterworks2">{{cite book |editor1-last=Stoler Miller |editor1-first=Barbara |title=Masterworks of Asian Literature in Comparative Perspective: A Guide for Teaching |date=1994 |publisher=ME Sharpe Inc. |isbn=1563242575 |pages=37–49 |ref=none}}</ref>
+* [[Osamu Dazai]], author of ''[[No Longer Human]]''
+* [[Yasunari Kawabata]], winner of the [[Nobel Prize in Literature]]<ref name="Literature1968">{{cite web|url=http://nobelprize.org/nobel_prizes/literature/laureates/1968/index.html|title=Nobel Prize in Literature 1968|publisher=Nobel Foundation|access-date=2021-03-04}}</ref>
+* [[Yukio Mishima]]<ref name="AsianMasterworks1" />
+* [[Haruki Murakami]]
+* [[Kenzaburo Oe]], winner of the [[Nobel Prize in Literature]]<ref name="Literature1994">{{cite web|url=http://nobelprize.org/nobel_prizes/literature/laureates/1994/index.html|title=Nobel Prize in Literature 1994|publisher=Nobel Foundation|access-date=2021-03-04}}</ref>
+* [[Murasaki Shikibu]], author of ''[[The Tale of Genji]]''<ref name="AsianMasterworks2" /><ref name="TheGuardian2002">{{cite news |title=The top 100 books of all time |url=https://www.theguardian.com/world/2002/may/08/books.booksnews |access-date=4 March 2021 |date=8 May 2002}}</ref>
+* [[Sei Shonagon]], author of ''[[The Pillow Book]]''<ref name="AsianMasterworks2" />
+* [[Natsume Soseki]], author of ''[[Kokoro]]''<ref name="AsianMasterworks1" />
+* [[Junichiro Tanizaki]]<ref name="AsianMasterworks1" />
+* [[Yoshida Kenkō]], author of ''[[Essays in Idleness]]''<ref name="AsianMasterworks2" />
+{{colend}}
+
+==Company founders==
+{{main|List of Japanese entrepreneurs}}
+*[[Yoshisuke Aikawa]] (1880–1967), founder of Nissan
+*[[Takeo Fujisawa]] (1910–1988), co-founder of the automobile manufacturer Honda
+*[[Hirotoshi Honda]] (born 1942), founder of Mugen Motorsports
+*[[Konosuke Matsushita]] (1894–1989), founder of Panasonic
+*[[Hiroshi Mikitani]] (born 1965), founder of Rakuten
+*[[Mitsui Takatoshi]] (1622–1694), founder of Mitsui
+*[[Kokichi Mikimoto]] (1858–1954), founder of Mikimoto
+*[[Soichiro Honda]] (1906–1991), co-founder of the automobile manufacturer Honda
+*[[Jujiro Matsuda]] (1875–1952), founder of Mazda automobile company 
+*[[Michio Suzuki (inventor)|Michio Suzuki]] (1887–1982), founder of Suzuki
+*[[Eiji Toyoda]] (1913–2013), founder of luxury automobile manufacturer Lexus
+*[[Kiichiro Toyoda]] (1894–1952), founder of automobile manufacturer Toyota in 1937 
+*[[Sakichi Toyoda]] (1867–1930), founder of Toyota Industries and Toyota Group
+
+==Educators==
+
+*[[Mori Arinori]]
+*[[Tsunesaburō Makiguchi]]
+*[[Midori Suzuki (educator)|Midori Suzuki]]
+*[[Fukuzawa Yukichi]]
+*[[Yukio Tsuda (professor)|Yukio Tsuda]]
+*[[Kanō Jigorō]]
+*[[Imai Yone]]
+
+==Emperors==
+{{main|List of emperors of Japan}}
+{|class="wikitable" style="text-align:center"
+|- 
+! style="width:3%;"| No.
+! style="width:13%;"| [[Reign]]
+! width=60|Portrait
+! style="width:21%;"| [[Posthumous name]]
+! style="width:30%;"| [[Japanese name|Personal name]] (''imina'')
+! style="width:33%;"| Notes
+|-
+!colspan="6"|[[:Category:Legendary Emperors of Japan|Legendary Emperors]]
+|-
+| {{sort|0010|1}}
+| {{hs|00340}}660&nbsp;BC–585&nbsp;BCE
+| [[File:Emperor Jimmu.jpg|60px]]
+| [[Emperor Jimmu]]
+| Kan'yamato Iwarebiko
+| &nbsp; presumed legendary; claimed descent from the [[solar deity|sun goddess]], [[Amaterasu]]<ref>[[Delmer M. Brown|Brown, Delmer M.]] (1979). [https://books.google.com/books?id=w4f5FrmIJKIC&pg=PA249 ''Gukanshō'', p. 249]; [[H. Paul Varley|Varley, H. Paul]]. (1980). ''Jinnō Shōtōki'', pp. 84–88; [[Isaac Titsingh|Titsingh, Isaac]]. (1834). [https://books.google.com/books?id=18oNAAAAIAAJ&pg=PA1 ''Annales des empereurs du japon'', pp. 1–3].</ref>
+|-
+| {{sort|0020|2}}
+| {{hs|00491}}581&nbsp;BCE–549&nbsp;BCE
+| [[File:Suizei thumb 1.jpg|60px]]
+| [[Emperor Suizei]]
+| Kamu Nunagawamimi no Mikoto
+| &nbsp; presumed legendary;<ref>Brown, [https://books.google.com/books?id=w4f5FrmIJKIC&pg=PA250 pp. 250-251]; Varley, pp. 88-89; [https://books.google.com/books?id=18oNAAAAIAAJ&pg=PA3 Titisingh, pp. 3-4].</ref> 3rd son of Jimmu<ref name="brown248">Brown, [https://books.google.com/books?id=w4f5FrmIJKIC&pg=PA248 p. 248].</ref> 
+|-
+| {{sort|0030|3}}
+| {{hs|00451}}549&nbsp;BCE–511&nbsp;BCE
+| [[File:Tennō Annei thumb.jpg|60px]]
+| [[Emperor Annei]]
+| Shikitsuhiko Tamademi no Mikoto
+| &nbsp; presumed legendary;<ref name="brown251">Brown, [https://books.google.com/books?id=w4f5FrmIJKIC&pg=PA251 p. 251]; Varley, p. 89; [https://books.google.com/books?id=18oNAAAAIAAJ&pg=PA4 Titsingh, p. 4].</ref> son and heir of Suizei<ref name="brown248"/>
+|-
+| {{sort|0040|4}}
+| {{hs|00490}}510&nbsp;BCE–476&nbsp;BCE
+| [[File:Tennō Itoku thumb.jpg|60px]]
+| [[Emperor Itoku]]
+| Oho Yamatohiko Sukitomo no Mikoto
+| &nbsp; presumed legendary;<ref name="brown251"/> 2nd son of Annei<ref name="brown248"/>
+|-
+| {{sort|0050|5}}
+| {{hs|00525}}475&nbsp;BCE–393&nbsp;BCE
+| [[File:Tennō Kōshō thumb.jpg|60px]]
+| [[Emperor Kōshō]]
+| Mimatsuhiko Kaeshine no Mikoto
+| &nbsp; presumed legendary;<ref>Brown, [https://books.google.com/books?id=w4f5FrmIJKIC&pg=PA251 p. 251]; Varley, p. 90; [https://books.google.com/books?id=18oNAAAAIAAJ&pg=PA4 Titsingh, pp. 4-5].</ref> son and heir of Itoku<ref name="brown248"/>
+|-
+| {{sort|0060|6}}
+| {{hs|00608}}392&nbsp;BCE–291&nbsp;BCE
+| [[File:Tennō Kōan thumb.jpg|60px]]
+| [[Emperor Kōan]]
+| Oho Yamato Tarasihiko Kunioshi Hito no Mikoto
+| &nbsp; presumed legendary;<ref>Brown, [https://books.google.com/books?id=w4f5FrmIJKIC&pg=PA251 pp. 251-252]; Varley, p. 90; [https://books.google.com/books?id=18oNAAAAIAAJ&pg=PA5 Titsingh, p. 5].</ref> 2nd son of Kōshō<ref name="brown248"/>
+|-
+| {{sort|0070|7}}
+| {{hs|00710}}290&nbsp;BCE–215&nbsp;BCE
+| [[File:Tennō Kōrei thumb.jpg|60px]]
+| [[Emperor Kōrei]]
+| Oho Yamato Nekohiko Futoni no Mikoto
+| presumed legendary<ref>Brown, p. 252; Varley, pp. 90–92; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 5]–6.</ref>
+|-
+| {{sort|0080|8}}
+| {{hs|00786}}214&nbsp;BCE–158&nbsp;BCE
+| [[File:Tennō Kōgen thumb.gif|60px]]
+| [[Emperor Kōgen]]
+| Oho Yamato Nekohiko Kuni Kuru no Mikoto
+| presumed legendary<ref>Brown, p. 251; Varley, pp. 92–93; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, p. 6].</ref>
+|-
+| {{sort|0090|9}}
+| {{hs|00843}}157&nbsp;BCE–98&nbsp;BCE
+| [[File:Tennō Kaika thumb.jpg|60px]]
+| [[Emperor Kaika]]
+| Waka Yamato Nekohiko Oho Bibino no Mikoto
+| presumed legendary<ref>Brown, p. 251; Varley, p. 93; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 6]–7.</ref>
+|-
+| {{sort|0100|10}}
+| {{hs|00903}}97&nbsp;BCE–30&nbsp;BCE
+| [[File:Emperor Sujin.jpg|60px]]
+| [[Emperor Sujin]]
+| Mimaki Irihiko Inie no Mikoto
+| first emperor with a direct possibility of existence<ref>Brown, p. 253; Varley, pp. 93–95; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 7]–9.</ref>
+|-
+| {{sort|0110|11}}
+| {{hs|00971}}29&nbsp;BCE–70&nbsp;CE
+| [[File:No image.png|60px]]
+| [[Emperor Suinin]]
+| Ikume Irihiko Isachi no Mikoto
+| <ref>Brown, pp. 253–254; Varley, pp. 95–96; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 9]–10.</ref>
+|-
+| {{sort|0120|12}}
+| {{hs|90071}}71–130
+| [[File:No image.png|60px]]
+| [[Emperor Keikō]]
+| Oho Tarasihiko Osirowake no Mikoto
+| <ref>Brown, p. 254; Varley, pp. 96–99; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 11]–14.</ref>
+|-
+| {{sort|0130|13}}
+| {{hs|9131}}131–191
+| [[File:No image.png|60px]]
+| [[Emperor Seimu]]
+| Waka Tarasihiko
+| <ref>Brown, p. 254; Varley, pp. 99–100; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 14]–15.</ref>
+|-
+| {{sort|0140|14}}
+| {{hs|9192}}192–200
+| [[File:Tennō Chūaii thumb.gif|60px]]
+| [[Emperor Chūai]]
+| Tarasi Nakatsuhiko no Mikoto
+| <ref>Brown, pp. 254–255; Varley, pp. 100–101; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, p. 15].</ref>
+|-
+| {{hs|0145}}
+| {{hs|90201}}201–269
+| [[File:Empress OKINAGA TARASI.JPG|60px]]
+| [[Empress Jingū]]
+| Okinaga Tarashihime no Mikoto
+| Served as regent for Emperor Ōjin; not counted among the officially numbered emperors<ref>Brown, p. 255; Varley, pp. 101–103; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 16]–19.</ref>
+|-
+!colspan="6"|[[Kofun period]] 
+|-
+| {{sort|0150|15}}
+| {{hs|90270}}270–310
+| [[File:Emperor Ōjin.jpg|60px]]
+| [[Emperor Ōjin]]
+| Honda no Sumera-mikoto / Ōtomowake no Mikoto / Homutawake no Mikoto
+| Last proto-historical emperor, deified as [[Hachiman]]<ref>Brown, pp. 255–256; Varley, pp. 17, 103–110; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 19]–21.</ref>
+|-
+| {{sort|0160|16}}
+| {{hs|90313}}313–399
+| [[File:Nintoku-tennō detail.jpg|60px]]
+| [[Emperor Nintoku]]
+| Ō Sazaki no Mikoto
+| Inaccurate dates<ref>Brown, pp. 256–257; Varley, pp. 110–111; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 22]–24.</ref>
+|-
+| {{sort|0170|17}}
+| {{hs|90400}}400–405
+| [[File:No image.png|60px]]
+| [[Emperor Richū]]
+| Isaho Wake no Mikoto
+| Inaccurate dates<ref>Brown, p. 257; Varley, p. 111; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 24]–25.</ref>
+|-
+| {{sort|0180|18}}
+| {{hs|90406}}406–410
+| [[File:No image.png|60px]]
+| [[Emperor Hanzei]]
+| Tajihi Mizuha Wake no Mikoto
+| Inaccurate dates<ref>Brown, p. 257; Varley, p. 112; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, p. 25].</ref>
+|-
+| {{sort|0190|19}}
+| {{hs|90411}}411–453
+| [[File:No image.png|60px]]
+| [[Emperor Ingyō]]
+| Wo Asazuma Wakugo no Sukune
+| Inaccurate dates.<ref>Brown, pp. 257–258; Varley, p. 112; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, p. 26].</ref>
+|-
+| {{sort|0200|20}}
+| {{hs|90453}}453–456
+| [[File:No image.png|60px]]
+| [[Emperor Ankō]]
+| Anaho no Mikoto
+| Inaccurate dates.<ref>Brown, p. 258; Varley, p. 113; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, p. 26].</ref>
+|-
+| {{sort|0210|21}}
+| {{hs|90456}}456–479
+| [[File:Tennō Yūryaku detail.jpg|60px]]
+| [[Emperor Yūryaku]]
+| Oho Hatsuse Wakatakeru no Mikoto
+| Inaccurate dates.<ref>Brown, p. 258; Varley, pp. 113–115; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 27]–28.</ref>
+|-
+| {{sort|0220|22}}
+| {{hs|90480}}480–484
+| [[File:No image.png|60px]]
+| [[Emperor Seinei]]
+| Siraka Takehiro Kuni Osi Waka Yamato Neko no Mikoto
+| Inaccurate dates.<ref>Brown, pp. 258–259; Varley, pp. 115–116; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 28]–29.</ref>
+|-
+| {{sort|0230|23}}
+| {{hs|90485}}485–487
+| [[File:No image.png|60px]]
+| [[Emperor Kenzō]]
+| Ohoke no Mikoto
+| Inaccurate dates.<ref>Brown, p. 259; Varley, p. 116; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 29]–30.</ref>
+|-
+| {{sort|0240|24}}
+| {{hs|90488}}488–498
+| [[File:No image.png|60px]]
+| [[Emperor Ninken]]
+| Ohosi(Ohosu) no Mikoto/ Simano Iratsuko
+| Inaccurate dates.<ref>Brown, pp. 259–260; Varley, p. 117; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, p. 30].</ref>
+|-
+| {{sort|0250|25}}
+| {{hs|90498}}498–506
+| [[File:No image.png|60px]]
+| [[Emperor Buretsu]]
+| Wohatsuse Wakasazaki
+| Inaccurate dates.<ref>Brown, p. 260; Varley, pp. 117–118; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, p. 31].</ref>
+|-
+| {{sort|0260|26}}
+| {{hs|90507}}507–531
+| [[File:No image.png|60px]]
+| [[Emperor Keitai]]
+| Ōto/Hikofuto (Hikofuto no Mikoto/Ōdo no Sumera Mikoto)
+| Genealogy from this point is considered accurate.<ref>Brown, pp. 260–261; Varley, pp. 17–18, 119–120; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 31]–32.</ref>
+|-
+| {{sort|0270|27}}
+| {{hs|90531}}531–535
+| [[File:No image.png|60px]]
+| [[Emperor Ankan]]
+| Hirokuni Oshitake Kanahi no Mikoto
+| Inaccurate dates.<ref>Brown, p. 261; Varley, pp. 120–121; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, p. 33].</ref>
+|-
+| {{sort|0280|28}}
+| {{hs|90535}}535–539
+| [[File:No image.png|60px]]
+| [[Emperor Senka]]
+| Takeo Hirokuni Oshitate no Mikoto
+| Inaccurate dates.<ref>Brown, p. 261; Varley, p. 121; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 33]–34.</ref>
+|-
+!colspan="6"|[[Asuka period]] (592–710)
+|-
+| {{sort|0290|29}}
+| {{hs|90539}}539–571
+| [[File:No image.png|60px]]
+| [[Emperor Kinmei]]
+| Amekuni Oshiharuki Hironiwa no Sumera Mikoto
+| Traditional dates.<ref>Brown, pp. 261–262; Varley, pp. 123–124; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 34]–36.</ref>
+|-
+| {{sort|0300|30}}
+| {{hs|90572}}572–585
+| [[File:No image.png|60px]]
+| [[Emperor Bidatsu]]
+| Osada no Nunakura no Futotamashiki no Mikoto
+| Traditional dates.<ref>Brown, pp. 262–263; Varley, pp. 124–125; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 36]–37.</ref>
+|-
+| {{sort|0310|31}}
+| {{hs|90585}}585–587
+| [[File:Yomeitenno.jpg|60px]]
+| [[Emperor Yōmei]]
+| Ooe/Tachibana no Toyohi no Sumera Mikoto
+| Traditional dates.<ref>Brown, p. 263; Varley, pp. 125–126; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 37]–38.</ref>
+|-
+| {{sort|0320|32}}
+| {{hs|90587}}587–592
+| [[File:No image.png|60px]]
+| [[Emperor Sushun]]
+| Hatsusebe no (Wakasasagi) Mikoto
+| Traditional dates.<ref>Brown, p. 263; Varley, p. 126; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 38]–39.</ref>
+|-
+| {{sort|0330|33}} 
+| {{hs|90592}}592–628
+| [[File:Empress_Suiko_painting.png|60px]]
+| [[Empress Suiko]]
+| Nukatabe/Toyomike Kashikiyahime
+| First non-legendary female emperor ([[Prince Shotoku]] acted as her regent); traditional dates.<ref>Brown, pp. 263–264; Varley, pp. 126–129; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 39]–42.</ref>
+|-
+| {{sort|0340|34}}
+| {{hs|90629}}629–641
+| [[File:No image.png|60px]]
+| [[Emperor Jomei]]
+| Tamura (Oki Nagatarashihi Hironuka no Sumera Mikoto)
+| Traditional dates.<ref>Brown, pp. 264–265; Varley, pp. 129–130; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 42]–43.</ref>
+|-
+| {{sort|0350|35}}
+| {{hs|90642}}642–645
+| [[File:Empress Kogyoku-Saimei.jpg|60px]]
+| [[Empress Kōgyoku]]
+| Takara (Ame Toyotakaraikashi Hitarashi Hime no Sumera Mikoto)
+| Traditional dates,<ref>Brown, pp. 265–266; Varley, pp. 130–132; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 43]–47.</ref> reigned twice
+|-
+| {{sort|0360|36}}
+| {{hs|90645}}645–654
+| [[File:No image.png|60px]]
+| [[Emperor Kōtoku]]
+| Karu (Ame Yorozu Toyohi no Sumera Mikoto)
+| Traditional dates.<ref>Brown, pp. 266–267; Varley, pp. 132–133; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 47]–50.</ref>
+|-
+| {{sort|0370|37}} 
+| {{hs|90655}}655–661
+| [[File:Empress Kogyoku-Saimei.jpg|60px]]
+| [[Empress Kōgyoku|Empress Saimei]]
+| Takara (Ame Toyotakaraikashi Hitarashi Hime no Sumera Mikoto)
+| Second reign of Empress Kōgyoku (35), traditional dates.<ref>Brown, p. 267; Varley, pp. 133–134; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 50]–52.</ref>
+|-
+| {{sort|0380|38}}
+| {{hs|90661}}661–672
+| [[File:Poem-by-Emperor-Tenchi-(Tenji)-by-Utagawa-Kuniyoshi.png|60px]]
+| [[Emperor Tenji]]
+| Katsuragi/Nakano-ooe (Ame Mikoto Hirakasuwake no Mikoto/Amatsu Mikoto Sakiwake no Mikoto)
+| Traditional dates.<ref>Brown, p. 268; Varley, p. 135; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 52]–56.</ref>
+|-
+| {{sort|0390|39}}
+| {{hs|90672}}672
+| [[File:No image.png|60px]]
+| [[Emperor Kōbun]]
+| Ōtomo
+| Posthumously named (1870),<ref>Brown, pp. 268–269; Varley, pp. 135–136; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 56]–58.</ref> usurped by Temmu
+|-
+| {{sort|0400|40}}
+| {{hs|90672}}672–686
+| [[File:Emperor Tenmu.jpg|60px]]
+| [[Emperor Tenmu]]
+| Ōama/Ohoshiama/Ōsama (Ame no Nunahara Oki no Mahito no Sumera Mikoto)
+| Traditional dates.<ref>Brown, pp. 268–269; Varley, pp. 135–136; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 58]–59.</ref>
+|-
+| {{sort|0410|41}}
+| {{hs|90686}}686–697
+| [[File:Empress_Jito_by_Katsukawa_Shunsho.png|60px]]
+| [[Empress Jitō]]
+| Unonosarara (Takama no Harahiro no Hime no Sumera Mikoto)
+| Traditional dates.<ref>Brown, pp. 269–270; Varley, pp. 136–137; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 59]–60.</ref>
+|-
+| {{sort|0420|42}}
+| {{hs|90697}}697–707
+| [[File:Emperor Monmu portrait.png|60px]]
+| [[Emperor Monmu]]
+| Karu (Ame no Mamune Toyoohoji no Sumera Mikoto)
+| Traditional dates.<ref>Brown, pp. 270–271; Varley, pp. 137–140; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 60]–63.</ref>
+|-
+| {{sort|0430|43}}
+| {{hs|90707}}707–715
+| [[File:No image.png|60px]]
+| [[Empress Genmei]]
+| Ahe (Yamatoneko Amatsu Mishiro Toyokuni Narihime no Sumera Mikoto)
+| Traditional dates.<ref name="Titsingh, pp. 63">Brown, p. 271; Varley, p. 140; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 63]–65.</ref>
+|-
+!colspan="6"|[[Nara period]] (710–794)
+|-
+| {{sort|0430|43}}
+| {{hs|90707}}707–715
+| [[File:No image.png|60px]]
+| [[Empress Genmei]]
+| Ahe (Yamatoneko Amatsu Mishiro Toyokuni Narihime no Sumera Mikoto)
+| Traditional dates.<ref name="Titsingh, pp. 63"/>
+|-
+| {{sort|0440|44}}
+| {{hs|90715}}715–724
+| [[File:No image.png|60px]]
+| [[Empress Genshō]]
+| Hidaka/Niinomi (Yamatoneko Takamizu Kiyotarashi Hime no Sumera Mikoto)
+| Traditional dates.<ref>Brown, pp. 271–272; Varley, pp. 140–141; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 65]–67.</ref>
+|-
+| {{sort|0450|45}}
+| {{hs|90724}}724–749
+| [[File:Emperor Shomu.jpg|60px]]
+| [[Emperor Shōmu]]
+| Obito (Ameshirushi Kunioshiharuki Toyosakurahiko no Sumera Mikoto)
+| Traditional dates.<ref>Brown, pp. 272–273; Varley, pp. 141–143; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 67]–73.</ref>
+|-
+| {{sort|0460|46}}
+| {{hs|90749}}749–758
+| [[File:No image.png|60px]]
+| [[Empress Kōken]]
+| Abe (Yamatoneko no Sumera Mikoto)
+| Traditional dates,<ref>Brown, pp. 274–275; Varley, p. 143; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 73]–75.</ref> reigned twice
+|-
+| {{sort|0470|47}}
+| {{hs|90758}}758–764
+| [[File:No image.png|60px]]
+| [[Emperor Junnin]]
+| Ōi
+| Posthumously named (1870),<ref>Brown, p. 275; Varley, pp. 143–144; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 75]–78.</ref> dethroned by Shōtoku
+|-
+| {{sort|0480|48}}
+| {{hs|90764}}764–770
+| [[File:No image.png|60px]]
+| [[Empress Kōken|Empress Shōtoku]]
+| Abe (Yamatoneko no Sumera Mikoto)
+|Second reign of Empress Kōken (46), traditional dates.<ref>Brown, p. 276; Varley, pp. 144–147; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 78]–81.</ref>
+|-
+| {{sort|0490|49}}
+| {{hs|90770}}770–781
+| [[File:No image.png|60px]]
+| [[Emperor Kōnin]]
+| Shirakabe (Amemune Takatsugi no Mikoto)
+| Traditional dates.<ref>Brown, pp. 276–277; Varley, pp. 147–148; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 81]–85.</ref>
+|-
+| {{sort|0500|50}}
+| {{hs|90781}}781–806
+| [[File:Emperor Kammu large.jpg|60px]]
+| [[Emperor Kanmu]]
+| Yamabe (Yamatoneko Amatsu Hitsugi Iyaderi no Mikoto)
+| Traditional dates.<ref name="Titsingh, pp. 86">Brown, pp. 277–279; Varley, pp. 148–150; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 86]–95.</ref>
+|-
+!colspan="6"|[[Heian period]] (794–1185)
+|-
+| {{sort|0500|50}}
+| {{hs|90781}}781–806
+| [[File:Emperor Kammu large.jpg|60px]]
+| [[Emperor Kanmu]]
+| Yamabe (Yamatoneko Amatsu Hitsugi Iyaderi no Mikoto)
+| Traditional dates.<ref name="Titsingh, pp. 86"/>
+|-
+| {{sort|0510|51}}
+| {{hs|90806}}806–809
+| [[File:No image.png|60px]]
+| [[Emperor Heizei]]
+| Ate (Yamatoneko Ameoshikuni Takahiko no Mikoto)
+| Traditional dates.<ref>Brown, pp. 279–280; Varley, p. 151; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 96]–97.</ref>
+|-
+| {{sort|0520|52}}
+| {{hs|90809}}809–823
+| [[File:Emperor Saga large.jpg|60px]]
+| [[Emperor Saga]]
+| Kamino
+| Traditional dates.<ref>Brown, pp. 280–282; Varley, pp. 151–164; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 97]–102.</ref>
+|-
+| {{sort|0530|53}}
+| {{hs|90823}}823–833
+| [[File:No image.png|60px]]
+| [[Emperor Junna]]
+| Ōtomo
+| Traditional dates.<ref>Brown, pp. 282–283; Varley, p. 164; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 103]–106.</ref>
+|-
+| {{sort|0540|54}}
+| {{hs|90833}}833–850
+| [[File:No image.png|60px]]
+| [[Emperor Ninmyō]]
+| Masara
+| Traditional dates.<ref>Brown, pp. 283–284; Varley, pp. 164–165; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 106]–112.</ref>
+|-
+| {{sort|0550|55}}
+| {{hs|90850}}850–858
+| [[File:Emperor Montoku.jpg|60px]]
+| [[Emperor Montoku]]
+| Michiyasu
+| Traditional dates.<ref>Brown, pp. 285–286; Varley, p. 165; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 112]–115.</ref>
+|-
+| {{sort|0560|56}}
+| {{hs|90858}}858–876
+| [[File:Emperor Seiwa.jpg|60px]]
+| [[Emperor Seiwa]]
+| Korehito
+| Traditional dates.<ref>Brown, pp. 286–288; Varley, pp. 166–170; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 115]–121.</ref>
+|-
+| {{sort|0570|57}}
+| {{hs|90876}}876–884
+| [[File:Hyakuninisshu 013.jpg|60px]]
+| [[Emperor Yōzei]]
+| Sadaakira
+| Traditional dates.<ref>Brown, pp. 288–289; Varley, pp. 170–171; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 121]–124.</ref>
+|-
+| {{sort|0580|58}}
+| {{hs|90884}}884–887
+| [[File:Tennō Kōkō.jpg|60px]]
+| [[Emperor Kōkō]]
+| Tokiyasu
+| Traditional dates.<ref>Brown, p. 289; Varley, pp. 171–175; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 124]–125.</ref>
+|-
+| {{sort|0590|59}}
+| {{hs|90887}}887–897
+| [[File:Emperor Uda large.jpg|60px]]
+| [[Emperor Uda]]
+| Sadami
+| Traditional dates.<ref>Brown, pp. 289–290; Varley, pp. 175–179; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 125]–129.</ref>
+|-
+| {{sort|0600|60}}
+| {{hs|90897}}897–930
+| [[File:Emperor Daigo.jpg|60px]]
+| [[Emperor Daigo]]
+| Atsuhito
+| Traditional dates.<ref>Brown, pp. 290–293; Varley, pp. 179–181; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 129]–134.</ref>
+|-
+| {{sort|0610|61}}
+| {{hs|90930}}930–946
+| 
+| [[Emperor Suzaku]]
+| Yutaakira
+| Traditional dates.<ref>Brown, pp. 294–295; Varley, pp. 181–183; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 134]–138.</ref>
+|-
+| {{sort|0620|62}}
+| {{hs|90946}}946–967
+| [[File:Emperor Murakami.jpg|60px]]
+| [[Emperor Murakami]]
+| Nariakira
+| Traditional dates.<ref>Brown, pp. 295–298; Varley, pp. 183–190; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 139]–142.</ref>
+|-
+| {{sort|0630|63}}
+| {{hs|90967}}967–969
+| [[File:No image.png|60px]]
+| [[Emperor Reizei]]
+| Norihira
+| Traditional dates.<ref>Brown, p. 298; Varley, pp. 190–191; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 142]–143.</ref>
+|-
+| {{sort|0640|64}}
+| {{hs|90969}}969–984
+| [[File:No image.png|60px]]
+| [[Emperor En'yū]]
+| Morihira
+| Traditional dates.<ref>Brown, pp. 299–300; Varley, pp. 191–192; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 144]–148.</ref>
+|-
+| {{sort|0650|65}}
+| {{hs|90984}}984–986
+| [[File:Tennō Kazan detail.jpg|60px]]
+| [[Emperor Kazan]]
+| Morosada
+| Traditional dates.<ref>Brown, pp. 300–302; Varley, p. 192; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 148]–149.</ref>
+|-
+| {{sort|0660|66}}
+| {{hs|90986}}986–1011
+| [[File:Emperor Ichijō.jpg|60px]]
+| [[Emperor Ichijō]]
+| Yasuhito/Kanehito
+| Traditional dates.<ref>Brown, pp. 302–307; Varley, pp. 192–195; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 150]–154.</ref>
+|-
+| {{sort|0670|67}}
+| {{hs|91011}}1011–1016
+| [[File:Hyakuninisshu 068.jpg|60px]]
+| [[Emperor Sanjō]]
+| Okisada/Iyasada
+| Traditional dates.<ref>Brown, p. 307; Varley, p. 195; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 154]–155.</ref>
+|-
+| {{sort|0680|68}}
+| {{hs|91016}}1016–1036
+| [[File:No image.png|60px]]
+| [[Emperor Go-Ichijō]]
+| Atsuhira
+| Traditional dates.<ref>Brown, pp. 307–310; Varley, pp. 195–196; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 156]–160.</ref>
+|-
+| {{sort|0690|69}}
+| {{hs|91036}}1036–1045
+| [[File:No image.png|60px]]
+| [[Emperor Go-Suzaku]]
+| Atsunaga/Atsuyoshi
+| Traditional dates.<ref>Brown, pp. 310–311; Varley, p. 197; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 160]–162.</ref>
+|-
+| {{sort|0700|70}}
+| {{hs|91045}}1045–1068
+| [[File:No image.png|60px]]
+| [[Emperor Go-Reizei]]
+| Chikahito
+| Traditional dates.<ref>Brown, pp. 311–314; Varley, pp. 197–198; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 162]–166.</ref>
+|-
+| {{sort|0710|71}}
+| {{hs|91068}}1068–1073
+| [[File:Retired-Emperor-Go-Sanjo-Ukiyo-e.png|60px]]
+| [[Emperor Go-Sanjō]]
+| Takahito
+| Traditional dates.<ref>Brown, pp. 314–315; Varley, pp. 198–199; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 166]–168.</ref>
+|-
+| {{sort|0720|72}}
+| {{hs|91073}}1073–1086
+| [[File:Emperor Shirakawa.jpg|60px]]
+| [[Emperor Shirakawa]]
+| Sadahito
+| Traditional dates.<ref>Brown, pp. 315–317; Varley, pp. 199–202; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 169]–171.</ref>
+|-
+| {{sort|0730|73}}
+| {{hs|91087}}1087–1107
+| [[File:No image.png|60px]]
+| [[Emperor Horikawa]]
+| Taruhito
+| Traditional dates.<ref>Brown, pp. 317–320; Varley, p. 202; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 172]–178.</ref>
+|-
+| {{sort|0740|74}} 
+| {{hs|91107}}1107–1123
+| [[File:Emperor Toba.jpg|60px]]
+| [[Emperor Toba]]
+| Munehito
+| Traditional dates.<ref>Brown, pp. 320–322; Varley, pp. 203–204; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 178]–181.</ref>
+|-
+| {{sort|0750|75}}
+| {{hs|91123}}1123–1142
+| [[File:Emperor Sutoku2.jpg|60px]]
+| [[Emperor Sutoku]]
+| Akihito
+| Traditional dates.<ref>Brown, pp. 322–324; Varley, pp. 204–205; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 181]–185.</ref>
+|-
+| {{sort|0760|76}}
+| {{hs|91142}}1142–1155
+| [[File:No image.png|60px]]
+| [[Emperor Konoe]]
+| Narihito
+| Traditional dates.<ref>Brown, pp. 324–326; Varley, p. 205; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 186]–188.</ref>
+|-
+| {{sort|0770|77}}
+| {{hs|91155}}1155–1158
+| [[File:Emperor Go-Shirakawa2.jpg|60px]]
+| [[Emperor Go-Shirakawa]]
+| Masahito
+| Traditional dates.<ref>Brown, pp. 326–327; Varley, pp. 205–208; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 188]–190.</ref>
+|-
+| {{sort|0780|78}}
+| {{hs|91158}}1158–1165
+| [[File:Nijotenno.jpg|60px]]
+| [[Emperor Nijō]]
+| Morihito
+| Traditional dates.<ref>Brown, pp. 327–329; Varley, pp. 208–212; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 191]–194.</ref>
+|-
+| {{sort|0790|79}}
+| {{hs|91165}}1165–1168
+| [[File:No image.png|60px]]
+| [[Emperor Rokujō]]
+| Yorihito
+| Traditional dates.<ref name="Titsingh, pp. 194">Brown, pp. 329–330; Varley, p. 212; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 194]–195.</ref>
+|-
+| {{sort|0800|80}}
+| {{hs|91168}}1168–1180
+| [[File:Emperor Takakura.jpg|60px]]
+| [[Emperor Takakura]]
+| Norihito
+| Traditional dates.<ref name="Titsingh, pp. 194"/>
+|-
+| {{sort|0810|81}}
+| {{hs|91180}}1180–1185
+| [[File:Emperor Antoku.jpg|60px]]
+| [[Emperor Antoku]]
+| Tokihito
+| Traditional dates.<ref>Brown, pp. 333–334; Varley, pp. 214–215; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 200]–207.</ref>
+|-
+!colspan="6"|[[Kamakura period]] (1185–1333)
+|-
+| {{sort|0820|82}}
+| {{hs|91183}}1183–1198
+| [[File:Emperor Go-Toba.jpg|60px]]
+| [[Emperor Go-Toba]]
+| Takahira
+| Traditional dates.<ref>Brown, pp. 334–339; Varley, pp. 215–220; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 207]–221.</ref>
+|-
+| {{sort|0830|83}}
+| {{hs|91198}}1198–1210
+| [[File:Emperor Tsuchimikado.jpg|60px]]
+| [[Emperor Tsuchimikado]]
+| Tamehito
+| Traditional dates.<ref>Brown, pp. 339–341; Varley, p. 220; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 221]–230.</ref>
+|-
+| {{sort|0840|84}}
+| {{hs|91210}}1210–1221
+| [[File:Emperor Juntoku large.jpg|60px]]
+| [[Emperor Juntoku]]
+| Morihira/Morinari
+| Traditional dates.<ref>Brown, pp. 341–343, Varley, pp. 221–223; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 230]–238.</ref>
+|-
+| {{sort|0850|85}}
+| {{hs|91221}}1221
+| [[File:No image.png|60px]]
+| [[Emperor Chūkyō]]
+| Kanehira/Kanenari
+| Posthumously named (1870)<ref>Brown, pp. 343–344; Varley, pp. 223–226; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 236]–238.</ref>
+|-
+| {{sort|0860|86}}
+| {{hs|91221}}1221–1232
+| [[File:Emperor Go-Horikawa.jpg|60px]]
+| [[Emperor Go-Horikawa]]
+| Yutahito
+| Traditional dates.<ref>Brown, pp. 344–349; Varley, pp. 226–227; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 238]–241.</ref>
+|-
+| {{sort|0870|87}}
+| {{hs|91232}}1232–1242
+| [[File:Emperor Shijō.jpg|60px]]
+| [[Emperor Shijō]]
+| Mitsuhito/Hidehito
+| Traditional dates.<ref>Varley, p. 227; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 242]–245.</ref>
+|-
+| {{sort|0880|88}}
+| {{hs|91242}}1242–1246
+| [[File:Emperor Go-Saga.jpg|60px]]
+| [[Emperor Go-Saga]]
+| Kunihito
+| Traditional dates.<ref>Varley, pp. 228–231; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 245]–247.</ref>
+|-
+| {{sort|0890|89}}
+| {{hs|91246}}1246–1260
+| [[File:Emperor Go-Fukakusa.jpg|60px]]
+| [[Emperor Go-Fukakusa]]
+| Hisahito
+| Traditional dates.<ref>Varley, pp. 231–232; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 248]–253.</ref>
+|-
+| {{sort|0900|90}}
+| {{hs|91260}}1260–1274
+| [[File:Emperor Kameyama.jpg|60px]]
+| [[Emperor Kameyama]]
+| Tsunehito
+| Traditional dates.<ref>Varley, pp. 232–233; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 253]–261.</ref>
+|-
+| {{sort|0910|91}}
+| {{hs|91274}}1274–1287
+| [[File:Emperor Go-Uda2.jpg|60px]]
+| [[Emperor Go-Uda]]
+| Yohito
+| Traditional dates.<ref>Varley, pp. 233–237; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 262]–269.</ref>
+|-
+| {{sort|0920|92}}
+| {{hs|91287}}1287–1298
+| [[File:Emperor Fushimi.jpg|60px]]
+| [[Emperor Fushimi]]
+| Hirohito
+| Traditional dates.<ref>Varley, pp. 237–238; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 269]–274.</ref>
+|-
+| {{sort|0930|93}}
+| {{hs|91298}}1298–1301
+| [[File:Emperor Go-Fushimi.jpg|60px]]
+| [[Emperor Go-Fushimi]]
+| Tanehito
+| Traditional dates.<ref>Varley, pp. 238–239; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 274]–275.</ref>
+|-
+| {{sort|0940|94}}
+| {{hs|91301}}1301–1308
+| [[File:Emperor Go-Nijō.jpg|60px]]
+| [[Emperor Go-Nijō]]
+| Kuniharu
+| Traditional dates.<ref>Varley, p. 239; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 275]–278.</ref>
+|-
+| {{sort|0950|95}}
+| {{hs|91308}}1308–1318
+| [[File:Tennō Hanazono detail.jpg|60px]]
+| [[Emperor Hanazono]]
+| Tomihito
+| Traditional dates.<ref>Varley, pp. 239–241; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 278]–281.</ref>
+|-
+| {{sort|0960|96}}
+| {{hs|91318}}1318–1339
+| [[File:Emperor Godaigo by Monkan-bō Kōshin.jpg|60px]]
+| [[Emperor Go-Daigo]]
+| Takaharu
+| Traditional dates;<ref name="Titsingh, pp. 281">Varley, pp. 241–269; [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 281]–286, [https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 290]–294.</ref> Southern Court
+|-
+!colspan="6"|[[Northern Court]] (1333–1392)
+|-
+| {{hs|0961}}
+| {{hs|91331}}1331–1333
+| [[File:光厳法皇像.jpg|60px]]
+| [[Emperor Kōgon]]
+| Kazuhito
+| <ref>[https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 286]–289.</ref>
+|-
+| {{hs|0962}}
+| {{hs|91336}}1336–1348
+| [[File:Emperor Kōmyō.jpg|60px]]
+| [[Emperor Kōmyō]]
+| Yutahito
+| <ref>[https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 294]–298.</ref>
+|-
+| {{hs|0962}}
+| {{hs|91348}}1348–1351
+| [[File:No image.png|60px]]
+| [[Emperor Sukō]]
+| Okihito
+| <ref>[https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 298]–301.</ref>
+|-
+| {{hs|0962}}
+| {{hs|91351}}1351–1352
+|colspan="3"|[[Interregnum]]
+|-
+| {{hs|0963}}
+| {{hs|91352}}1352–1371
+| [[File:Emperor Go-Kōgon.jpg|60px]]
+| [[Emperor Go-Kōgon]]
+| Iyahito
+| <ref>[https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 302]–309.</ref>
+|-
+| {{hs|0964}}
+| {{hs|91371}}1371–1382
+| [[File:Emperor Go-En'yū detail.jpg|60px]]
+| [[Emperor Go-En'yū]]
+| Ohito
+| <ref>[https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 310]–316.</ref> 
+|-
+| {{hs|0964}}
+| {{hs|91382}}1382–1392
+| [[File:Emperor Go-Komatsu.jpg|60px]]
+| [[Emperor Go-Komatsu]]
+| Motohito
+|Reunified courts in 1392, see 100 below<ref>[https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, p. 317].</ref> 
+|-
+!colspan="6"|[[Muromachi period]] (1333–1573)
+|-
+| {{sort|0960|96}}
+| {{hs|91318}}1318–1339
+| [[File:Emperor Godaigo by Monkan-bō Kōshin.jpg|60px]]
+| [[Emperor Go-Daigo]]
+| Takaharu
+| Traditional dates;<ref name="Titsingh, pp. 281"/> Southern Court
+|-
+| {{sort|0970|97}}
+| {{hs|91339}}1339–1368
+| [[File:Emperor Go-Murakami.jpg|60px]]
+| [[Emperor Go-Murakami]]
+| Norinaga/Noriyoshi
+| <ref>Varley, pp. 269–27; Titsingh, p. {{Page needed|date=May 2021}}.</ref> Southern Court 
+|-
+| {{sort|0980|98}}
+| {{hs|91368}}1368–1383
+| [[File:No image.png|60px]]
+| [[Emperor Chōkei]]
+| Yutanari
+| <ref>Titsingh, p. {{Page needed|date=May 2021}}.</ref> Southern Court
+|-
+| {{sort|0990|99}}
+| {{hs|91383}}1383–1392
+| [[File:Emperor Go-Kameyama.jpg|60px]]
+| [[Emperor Go-Kameyama]]
+| Hironari
+| <ref>[https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, p. 320].</ref> Southern Court
+|-
+| {{sort|1000|100}}
+| {{hs|91392}}1392–1412
+| [[File:Emperor Go-Komatsu.jpg|60px]]
+| [[Emperor Go-Komatsu]]
+| Motohito
+| Reunified courts, see also entry in Northern Court section.<ref>[https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 320]–327.</ref>
+|-
+| {{sort|1010|101}}
+| {{hs|91412}}1412–1428
+| [[File:No image.png|60px]]
+| [[Emperor Shōkō]]
+| Mihito
+| Traditional dates.<ref>[https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 327]–331.</ref>
+|-
+| {{sort|1020|102}}
+| {{hs|91428}}1428–1464
+| [[File:Emperor Go-Hanazono.jpg|60px]]
+| [[Emperor Go-Hanazono]]
+| Hikohito
+| Traditional dates.<ref>[https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 331]–351.</ref>
+|-
+| {{sort|1030|103}}
+| {{hs|91464}}1464–1500
+| [[File:No image.png|60px]]
+| [[Emperor Go-Tsuchimikado]]
+| Fusahito
+| Traditional dates.<ref>[https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 352]–364.</ref>
+|-
+| {{sort|1040|104}}
+| {{hs|91500}}1500–1526
+| [[File:No image.png|60px]]
+| [[Emperor Go-Kashiwabara]]
+| Katsuhito
+| Traditional dates.<ref>[https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 364]–372.</ref>
+|-
+| {{sort|1050|105}}
+| {{hs|91526}}1526–1557
+| [[File:Emperor Go-Nara.jpg|60px]]
+| [[Emperor Go-Nara]]
+| Tomohito
+| Traditional dates.<ref>[https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 372]–382.</ref>
+|-
+| {{sort|1060|106}}
+| {{hs|91557}}1557–1586
+| [[File:Emperor Ogimachi2.jpg|60px]]
+| [[Emperor Ōgimachi]]
+| Michihito
+| Traditional dates.<ref name="Titsingh, pp. 382">[https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 382]–402.</ref>
+|-
+!colspan="6"|[[Azuchi-Momoyama period]] (1573–1603)
+|-
+| {{sort|1060|106}}
+| {{hs|91557}}1557–1586
+| [[File:Emperor Ogimachi2.jpg|60px]]
+| [[Emperor Ōgimachi]]
+| Michihito
+| Traditional dates.<ref name="Titsingh, pp. 382"/>
+|-
+| {{sort|1070|107}}
+| {{hs|91586}}1586–1611
+| [[File:Emperor Go-Yōzei2.jpg|60px]]
+| [[Emperor Go-Yōzei]]
+| Kazuhito/Katahito
+| Traditional dates.<ref name="Titsingh, pp. 402">[https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 402]–409.</ref>
+|-
+!colspan="6"|[[Edo period]] (1603–1868)
+|-
+| {{sort|1070|107}}
+| {{hs|91586}}1586–1611
+| [[File:Emperor Go-Yōzei2.jpg|60px]]
+| [[Emperor Go-Yōzei]]
+| Kazuhito/Katahito
+| Traditional dates.<ref name="Titsingh, pp. 402"/>
+|-
+| {{sort|1080|108}}
+| {{hs|91611}}1611–1629
+| [[File:Emperor Go-Mizunoo2.jpg|60px]]
+| [[Emperor Go-Mizunoo]]<br />(Go-Minoo)
+| Kotohito
+| Traditional dates.<ref>[https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 410]–411.</ref>
+|-
+| {{sort|1090|109}}
+| {{hs|91629}}1629–1643
+| [[File:Meisho of Japan.jpg|60px]]
+| [[Empress Meishō]]
+| Okiko
+| Traditional dates.<ref>[https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 411]–412.</ref>
+|-
+| {{sort|1100|110}}
+| {{hs|91643}}1643–1654
+| [[File:Emperor Go-Kōmyō.jpg|60px]]
+| [[Emperor Go-Kōmyō]]
+| Tsuguhito
+| Traditional dates.<ref>[https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 412]–413.</ref>
+|-
+| {{sort|1110|111}}
+| {{hs|91655}}1655–1663
+| [[File:Emperor Go-Sai.jpg|60px]]
+| [[Emperor Go-Sai]]
+| Nagahito
+| Traditional dates.<ref>[https://books.google.com/books?id=Cg8oAAAAMAAJ&q=editions:OCLC63259938 Titsingh, p. 413].</ref>
+|-
+| {{sort|1120|112}}
+| {{hs|91663}}1663–1687
+| [[File:Emperor Reigen.jpg|60px]]
+| [[Emperor Reigen]]
+| Satohito
+| Traditional dates.<ref>[https://books.google.com/books?id=Cg8oAAAAMAAJ&q=editions:OCLC63259938 Titsingh, pp. 414]–415.</ref>
+|-
+| {{sort|1130|113}}
+| {{hs|91687}}1687–1709
+| [[File:Emperor Higashiyama.jpg|60px]]
+| [[Emperor Higashiyama]]
+| Asahito
+| Traditional dates.<ref>[https://books.google.com/books?id=Cg8oAAAAMAAJ&q=editions:OCLC63259938 Titsingh, pp. 415]–416.</ref>
+|-
+| {{sort|1140|114}}
+| {{hs|91709}}1709–1735
+| [[File:Emperor Nakamikado.jpg|60px]]
+| [[Emperor Nakamikado]]
+| Yasuhito
+| Traditional dates.<ref>[https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 416]–417.</ref>
+|-
+| {{sort|1150|115}}
+| {{hs|91735}}1735–1747
+| [[File:Emperor Sakuramachi.jpg|60px]]
+| [[Emperor Sakuramachi]]
+| Teruhito
+| Traditional dates.<ref>[https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 417]–418.</ref>
+|-
+| {{sort|1160|116}}
+| {{hs|91747}}1747–1762
+| [[File:Emperor Momozono.jpg|60px]]
+| [[Emperor Momozono]]
+| Toohito
+| Traditional dates.<ref>[https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 418]–419.</ref>
+|-
+| {{sort|1170|117}}
+| {{hs|91762}}1762–1771
+| [[File:Go-Sakuramachi cropped.jpg|60px]]
+| [[Empress Go-Sakuramachi]]
+| Toshiko
+| Traditional dates.<ref>[https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, p. 419].</ref>
+|-
+| {{sort|1180|118}}
+| {{hs|91771}}1771–1779
+| [[File:Emperor Go-Momozono.jpg|60px]]
+| [[Emperor Go-Momozono]]
+| Hidehito
+| Traditional dates.<ref>[https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 419]–420.</ref>
+|-
+| {{sort|1190|119}}
+| {{hs|91780}}1780–1817
+| [[File:Emperor Kōkaku.jpg|60px]]
+| [[Emperor Kōkaku]]
+| Tomohito
+| Traditional dates.<ref>[https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, pp. 420]–421.</ref>
+|-
+| {{sort|1200|120}}
+| {{hs|91817}}1817–1846
+| [[File:Emperor Ninkō.jpg|60px]]
+| [[Emperor Ninkō]]
+| Ayahito
+| Traditional dates.<ref>[https://books.google.com/books?id=18oNAAAAIAAJ&dq=nipon+o+dai+itsi+ran&pg=PP9 Titsingh, p. 421].</ref>
+|-
+| {{sort|1210|121}}
+| {{hs|91846}}1846–1867
+| [[File:孝明天皇.jpg|60px]]
+| [[Emperor Kōmei]]
+| Osahito
+|-
+!colspan="6"|Modern Japan ([[Empire of Japan|Imperial]] and [[Postwar Japan|Postwar]]) (1867–present)
+|-
+| {{sort|1220|122}}
+| {{hs|91867}}1867–1912
+| [[File:Meiji tenno3.jpg|60px]]
+| [[Emperor Meiji]]
+| Mutsuhito
+| First Emperor of the [[Empire of Japan]].
+|-
+| {{sort|1230|123}}
+| {{hs|91912}}1912–1926
+| [[File:Emperor Taisho of Japan.jpg|60px]]
+| [[Emperor Taishō]]
+| Yoshihito
+| Crown Prince Hirohito served as ''[[Sesshō and Kampaku|Sesshō]]'' (Prince Regent) 1921–1926.
+|-
+| {{sort|1240|124}}
+| {{hs|91926}}1926–1989
+| [[File:Emperor Showa.jpg|60px]]
+| [[Hirohito|Emperor Shōwa]]
+| Hirohito
+| Served as ''Sesshō'' (Prince Regent) 1921–1926. Last Emperor of the [[Empire of Japan]].
+|-
+| {{sort|1250|125}}
+| {{hs|91989}}1989–2019
+| [[File:Emperor Akihito 199011 1.jpg|60px]]
+| [[Akihito|Emperor Akihito]] <!-- As he is not dead, he doesn't have a "posthumous name" yet. -->
+| Akihito
+| Referred to as 'the Emperor Emeritus' or [[Daijō Tennō]] (i.e. ''His Majesty the Emperor Emeritus'') in Japanese and as Emperor Akihito in English. His posthumous name is likely to be Emperor [[Heisei period|Heisei]]. He abdicated in 2019 in favor of his eldest son  [[Naruhito]]. He was the first monarch since [[Emperor Kōkaku]] to do so. 
+|-
+| {{sort|1250|126}}
+| 2019–present
+| [[File:Emperor Naruhito (cropped).jpg|60px]]
+| [[Naruhito|Emperor "Kinjō"]] <br/>(''Reigning monarch'') <!-- As he is not dead, he doesn't have a "posthumous name" yet. -->
+| Naruhito
+| Referred to as 'the Present Emperor' or ''[[Emperor of Japan|Tenno Heika]]'' (i.e. ''His Majesty the Emperor'') in Japanese and as Emperor Naruhito in English. His posthumous name is likely to be Emperor [[Reiwa period|Reiwa]].
+|}
+
+==Historians==
+*[[Saburo Ienaga]]
+*[[Nobuo Kanda]]
+*[[Masao Maruyama (scholar)|Masao Maruyama]]
+*[[Naitō Torajirō]]
+* [[Ikuhiko Hata]]
+* [[Shinichi Kitaoka]]
+* [[Kan Kimura]]
+* [[Ichirō Inaba]]
+* [[Naoki Inose]]
+
+==Military leaders==
+
+===Samurai===
+{{colbegin|colwidth=25em}}
+
+====A====
+* [[Abe Masakatsu]]
+* [[Adachi Kagemori]]
+* [[William Adams (sailor, born 1564)|William Adams]] (foreign born) <!--He is British-born thus do not follow WP:MOS-JP regarding to Japanese names, but you can put it in format of "Surname - comma- first name", which is accepted and official in the West -->
+* [[Akao Kiyotsuna]]
+* [[Akechi Mitsuhide]]
+* [[Akiyama Nobutomo]]
+* [[Amago Haruhisa]]
+* [[Amago Yoshihisa]]
+** See also [[Amago clan]]
+* [[Ankokuji Ekei]]
+* [[Aochi Shigetsuna]]
+* [[Arai Hakuseki]]
+* [[Araki Murashige]]
+* [[Arima Kihei]]
+* [[Asakura Yoshikage]]
+* [[Azai Hisamasa]]
+* [[Azai Nagamasa]]
+* [[Azai Sukemasa]]
+
+====B====
+* [[Baba Nobufusa]]
+* [[Bessho Nagaharu]]
+
+====C====
+* [[Chōsokabe Morichika]]
+* [[Chōsokabe Kunichika]]
+* [[Chōsokabe Motochika]]
+* [[Chōsokabe Nobuchika]]
+* [[Eugène Collache|Collache, Eugène]]
+
+====D====
+* [[Date Masamune]]
+** See also [[Date clan]]
+* [[Doi Toshikatsu]]
+
+====E====
+* [[Endō Naotsune]]
+* [[Enomoto Takeaki]]
+
+====F====
+* [[Fūma Kotarō]]
+* [[Fuwa Mitsuharu]]
+* [[Fujiwara no Hidesato]] (Tawara no Tōda)
+* [[Fukushima Masanori]]
+
+====G====
+* [[Gamō Katahide]]
+* [[Gamō Ujisato]]
+
+====H====
+* [[Hasekura Tsunenaga]]
+* [[Hattori Hanzō]]
+* [[Hatano Hideharu]]
+* [[Hirate Masahide]]
+* [[Hitotsubashi Keiki]]
+* [[Hōjō Masako]]
+* [[Hōjō Tokimune]]
+* [[Hōjō Ujiyasu]]
+* [[Hōjō Ujimasa]]
+* [[Honda Tadakatsu]]
+* [[Komatsuhime|Honda Komatsu (Inahime)]]
+* [[Honganji Kennyo]]
+* [[Hosokawa Fujitaka]]
+* [[Hosokawa Gracia]]
+* [[Hosokawa Tadaoki]]
+* [[Hotta Masatoshi]]
+
+====I====
+* [[Ii Naomasa]]
+* [[Ii Naomori]]
+* [[Ii Naosuke]]
+* [[Ii Naotaka]]
+* [[Ii Naoyuki]]
+* [[Iizasa Ienao]]
+* [[Ijuin Tadaaki|Ijuin Tada'aki]]
+* [[Imagawa Yoshimoto]]
+* [[Imai Kanehira]]
+* [[Ishida Mitsunari]]
+* [[Itagaki Nobukata]]
+* [[Itagaki Taisuke]]
+* [[Itō Hirobumi]]
+* [[Iwanari Tomomichi]]
+
+====K====
+* [[Kaneko Ietada]]
+* [[Katagiri Katsumoto]]
+* [[Katō Kiyomasa]]
+* [[Kawakami Gensai]]
+* [[Kido Takayoshi]]
+* [[Kikkawa Hiroie]]
+* [[Kimotsuki Kanetsugu]]
+* [[Kobayakawa Hideaki]]
+* [[Kobayakawa Hidekane]]
+* [[Kobayakawa Takakage]]
+* [[Kojima Toyoharu]]
+* [[Kuroda Denta]]
+* [[Kuroda Yoshitaka|Kuroda Kanbei Don Sim(e)on Josui Yoshitaka]]
+* [[Kuroda Kiyotaka]]
+* [[Kusunoki Masashige]]
+* [[Kumagai Naozane]]
+
+====M====
+* [[Maeda Keiji]]
+* [[Maeda Nagatane]]
+* [[Maeda Toshiie]]
+* [[Maeda Toshinaga]]
+* [[Maeda Toshitsune]]
+* [[Manabe Akifusa]]
+* [[Matsudaira Nobutsuna]]
+* [[Matsudaira Nobuyasu]]
+* [[Matsudaira Katamori|Matsudaira Higo no Kami Katamori]]
+* [[Matsudaira Sadanobu]]
+* [[Saigō-no-Tsubone|Matsudaira Tadayoshi]]
+* [[Matsudaira Teru]]
+* [[Matsunaga Hisahide]]
+* [[Matsuo Bashō]]
+* [[Tokugawa Ieyasu|Matsudaira Motoyasu]]
+* [[Minamoto no Mitsunaka]]
+* [[Minamoto no Yoshiie]]
+* [[Minamoto no Yoshimitsu]]
+* [[Minamoto no Yoshinaka]]
+* [[Minamoto no Yoshitomo]]
+* [[Minamoto no Yoshitsune]]
+* [[Minamoto no Tameyoshi]]
+* [[Minamoto no Yorimasa]]
+* [[Minamoto no Yorimitsu]]
+* [[Minamoto no Yoritomo]]
+* [[Minamoto no Noriyori]]
+* [[Mirei Kiritani]]
+* [[William Adams (sailor, born 1564)|Miura Anjin]]
+* [[Miura Yoshimoto]]
+* [[Miyamoto Musashi]]
+* [[Miyoshi Chōkei]]
+* [[Miyoshi Yoshitsugu]]
+* [[Mizuno Tadakuni]]
+* [[Mōri Motonari]]
+* [[Mori Nagayoshi]]
+* [[Mōri Okimoto]]
+* [[Mori Ranmaru]]
+* [[Mōri Takamoto]]
+* [[Mōri Terumoto]]
+* [[Mori Yoshinari]]
+
+====N====
+* [[Nagakura Shinpachi]]
+* [[Nagao Harukage]]
+* [[Nagao Masakage]]
+* [[Nagao Tamekage]]
+* [[Naoe Kanetsugu]]
+* [[Nakagawa Kiyohide]]
+* [[Naoe Kagetsuna]]
+* [[Naoe Kanetsugu]]
+* [[Nihonmatsu Yoshitsugu]]
+* [[Niimi Nishiki]]
+* [[Niiro Tadamoto]]
+* [[Niwa Nagahide]]
+* [[Niwa Nagashige]]
+
+====O====
+* [[Oda Nobuhide]]
+* [[Oda Nobunaga]]
+* [[Oda Nobutada]]
+* [[Oda Nobutomo]]
+* [[Oda Nobukatsu]]
+* [[Ogasawara Shōsai]]
+* [[Ōishi Kuranosuke]]
+* [[Okada Izō]]
+* [[Ōoka Tadasuke|Judge Ōoka]]
+* [[Ōta Dōkan]]
+* [[Ōtomo Sōrin]]
+* [[Okita Sōji]]
+* [[Ōkubo Toshimichi]]
+* [[Ōuchi Yoshitaka]]
+
+====R====
+* [[Rokkaku Yoshitaka]]
+* [[Rusu Masakage]]
+* [[Ryūzōji Takanobu]]
+** See also [[Ryūzōji clan]]
+
+====S====
+* [[Nishikawa Castle|Saigo Kiyokazu]]
+* [[Sagara Taketō]]
+* [[Saigō Takamori]]
+* [[Saigō-no-Tsubone#Early life|Saigō Yoshikatsu]]
+* [[Saitō Dōsan]]
+* [[Saitō Hajime]]
+* [[Saitō Yoshitatsu]]
+* [[Sakai Tadakiyo]]
+* [[Sakai Tadashige]]
+* [[Sakai Tadayo]]
+* [[Sakamoto Ryōma]]
+* [[Sakuma Morimasa]]
+* [[Sakuma Nobumori]]
+* [[Sanada Masayuki]]
+* [[Sanada Nobuyuki]]
+* [[Sanada Yukimura]]
+* [[Sasaki Kojirō]]
+* [[Sasaki Yoshikiyo]]
+* [[Serizawa Kamo]]
+* [[Shibata Katsuie]]
+* [[Shima Sakon]]
+* [[Shimada Ichirō]]
+* [[Shimazu Katsuhisa]]
+* [[Shimazu Tadahisa]]
+* [[Shimazu Tadatsune]]
+* [[Shimazu Tadayoshi]]
+* [[Shimazu Takahisa]]
+* [[Shimazu Yoshihiro]]
+* [[Shimazu Yoshihisa]]
+* [[Battle of Miyajima|Sue Yoshitaka]]
+
+====T====
+* [[Tachibana Muneshige]]
+* [[Tachibana Dōsetsu]]
+* [[Tachibana Ginchiyo]]
+* [[Taigen Sessai]]
+* [[Taira no Kiyomori]]
+* [[Taira no Masakado]]
+* [[Takahashi Shigetane]]
+* [[Takenaka Shigeharu]]
+* [[Takaoka Muneyasu]]
+* [[Takasugi Shinsaku]]
+* [[Takayama Shigetomo|Takayama Justo (Shigetomo)]]
+* [[Takayama Ukon]]
+* [[Takechi Hanpeita]]
+* [[Takeda Katsuyori]]
+* [[Takeda Nobushige]]
+* [[Takeda Shingen]]
+* [[Tani Tateki]]
+* [[Toki Yorinari]]
+* [[Tokugawa Ieyasu]]
+* [[Tokugawa Hidetada]]
+* [[Tokugawa Nariaki]]
+* [[Tokugawa Yoshinobu]]
+* [[Toyotomi Hideyoshi]]
+* [[Toyotomi Hideyori]]
+* [[Saigō-no-Tsubone#Background|Tozuka Tadaharu]]
+* [[Tsukahara Bokuden]]
+
+====U====
+* [[Uesugi Kagekatsu]]
+* [[Uesugi Kagetora]]
+* [[Uesugi Kenshin]]
+* [[Ukita Naoie]]
+* [[Umezawa Michiharu]]
+* [[Usami Sadamitsu]]
+
+====W====
+* [[Watanabe Kazan]]
+* [[Watanabe no Tsuna]]
+
+====Y====
+* [[Yagyū Jūbei Mitsuyoshi]]
+* [[Yamada Arinaga]]
+* [[Yamada Arinobu]]
+* [[Yamada Nagamasa]]
+* [[Yamagata Masakage]]
+* [[Yamanami Keisuke]]
+* [[Yanagisawa Yoshiyasu]]
+* [[Yonekura Shigetsugu]]
+* [[Yagyū Munenori]]
+* [[Yamauchi Kazutoyo]]
+* [[Yūki Hideyasu]]
+{{colend}}
+
+===Kamakura ''shōguns''===
+[[File:Minamoto-no-Yoritomo Grave2-Kamakura.jpg|thumb|Grave of [[Minamoto no Yoritomo]] ]]
+# Minamoto no Yoritomo, r. 1192–1199<ref>Nussbaum, [https://books.google.com/books?id=p2QnPijAEmEC&pg=PA635 "Minamoto no Yoritomo"] at p. 635.</ref>
+# [[Minamoto no Yoriie]], r. 1202–1203<ref>Nussbaum, [https://books.google.com/books?id=p2QnPijAEmEC&pg=PA635 "Minamoto no Yoriie"] at p. 635.</ref>
+# [[Minamoto no Sanetomo]], r. 1203–1219<ref>Nussbaum, [https://books.google.com/books?id=p2QnPijAEmEC&pg=PA633 "Minamoto no Yoritomo"] at pp. 633-634.</ref>
+# [[Kujō Yoritsune]], r. 1226–1244<ref>Nussbaum, [https://books.google.com/books?id=p2QnPijAEmEC&pg=PA212 "Fujiwara no Yoritsune"] at p. 212; [https://books.google.com/books?id=p2QnPijAEmEC&pg=PA571 "Kujō Yoritsune"] at p. 571 linking [https://books.google.com/books?id=p2QnPijAEmEC&pg=PA340 "Hōjō Masako"] at p. 340</ref>
+# [[Kujō Yoritsugu]], r. 1244–1252<ref>Nussbaum, [https://books.google.com/books?id=p2QnPijAEmEC&pg=PA212 "Fujiwara no Yoritsugu"] at p. 212.</ref>
+# [[Prince Munetaka]], r. 1252–1266<ref>Nussbaum, [https://books.google.com/books?id=p2QnPijAEmEC&pg=PA666 "Munetaka Shinnō"] at p. 666.</ref>
+# [[Prince Koreyasu]], r. 1266–1289<ref>Nussbaum, [https://books.google.com/books?id=p2QnPijAEmEC&pg=PA561 "Koreyasu Shinnō"] at p. 561.</ref>
+# [[Prince Hisaakira]], r. 1289–1308<ref>Nussbaum, [https://books.google.com/books?id=p2QnPijAEmEC&pg=PA321 "Hisaakira Shinnō"] at p. 321.</ref>
+# [[Prince Morikuni]], r. 1308–1333<ref>Nussbaum, [https://books.google.com/books?id=p2QnPijAEmEC&pg=PA660 "Morikuni Shinnō"] at p. 660.</ref>
+# [[Prince Morinaga]], r.1333–1334<ref>Nussbaum, [https://books.google.com/books?id=p2QnPijAEmEC&pg=PA660 "Morinaga Shinnō"] at p. 660.</ref>
+# [[Prince Norinaga]], r. 1334–1338
+
+====Kamakura shikken====
+[[File:Hojo Takatoki Harakiri-Yagura.jpg|thumb|right|Site of Hōjō Takatoki's death]]
+# [[Hōjō Tokimasa]], r. 1203–1205<ref>Nussbaum, [https://books.google.com/books?id=p2QnPijAEmEC&pg=PA340 "Hōjō Tokimasa"] at p. 340.</ref>
+# [[Hōjō Yoshitoki]], r. 1205–1224<ref>Nussbaum, [https://books.google.com/books?id=p2QnPijAEmEC&pg=PA341 "Hōjō Yoshitoki"] at p. 341.</ref>
+# [[Hōjō Yasutoki]], r. 1224–1242<ref>Nussbaum, [https://books.google.com/books?id=p2QnPijAEmEC&pg=PA341 "Hōjō Yasutoki"] at p. 341.</ref>
+# [[Hōjō Tsunetoki]], r. 1242–1246<ref>Nussbaum, [https://books.google.com/books?id=p2QnPijAEmEC&pg=PA341 "Hōjō Tsunetoki"] at p. 341.</ref>
+# [[Hōjō Tokiyori]], r. 1246–1256<ref>Nussbaum, [https://books.google.com/books?id=p2QnPijAEmEC&pg=PA341 "Hōjō Tokiyori"] at p. 341.</ref>
+# [[Hōjō Tokimune]], r. 1268–1284<ref>Nussbaum, [https://books.google.com/books?id=p2QnPijAEmEC&pg=PA341 "Hōjō Tokimune"] at p. 341.</ref>
+# [[Hōjō Sadatoki]], r. 1284–1301<ref>Nussbaum, [https://books.google.com/books?id=p2QnPijAEmEC&pg=PA340 "Hōjō Sadatoki"] at p. 340.</ref>
+# [[Hōjō Morotoki]], r. 1301–1311<ref>Nussbaum, [https://books.google.com/books?id=p2QnPijAEmEC&pg=PA340 "Hōjō Morotoki"] at p. 340.</ref>
+# [[Hōjō Takatoki]], r. 1316–1326<ref>Nussbaum, [https://books.google.com/books?id=p2QnPijAEmEC&pg=PA340 "Hōjō Takatoki"] at p. 340.</ref>
+
+===Ashikaga ''shōguns''===
+# [[Ashikaga Takauji]], ruled 1338–1358<ref>Nussbaum, [https://books.google.com/books?id=p2QnPijAEmEC&pg=PA55 "Ashikaga Takauji"] at p. 55.</ref>
+# [[Ashikaga Yoshiakira]], r. 1359–1368<ref>Nussbaum, [https://books.google.com/books?id=p2QnPijAEmEC&pg=PA55 "Ashikaga Yoshiakira"] at p. 55.</ref>
+# [[Ashikaga Yoshimitsu]], r. 1368–1394<ref>Nussbaum, [https://books.google.com/books?id=p2QnPijAEmEC&pg=PA56 "Ashikaga Yoshimitsu"] at p. 56.</ref>
+# [[Ashikaga Yoshimochi]], r. 1395–1423<ref>Nussbaum, [https://books.google.com/books?id=p2QnPijAEmEC&pg=PA56 "Ashikaga Yoshimochi"] at p. 56.</ref>
+# [[Ashikaga Yoshikazu]], r. 1423–1425<ref>Nussbaum, [https://books.google.com/books?id=p2QnPijAEmEC&pg=PA56 "Ashikaga Yoshikazu"] at p. 56.</ref>
+# [[Ashikaga Yoshinori]], r. 1429–1441<ref>Nussbaum, [https://books.google.com/books?id=p2QnPijAEmEC&pg=PA56 "Ashikaga Yoshinori"] at p. 56.</ref>
+# [[Ashikaga Yoshikatsu]], r. 1442–1443<ref>Nussbaum, [https://books.google.com/books?id=p2QnPijAEmEC&pg=PA56 "Ashikaga Yoshikatsu"] at p. 56.</ref>
+# [[Ashikaga Yoshimasa]], r. 1449–1473<ref>Nussbaum, [https://books.google.com/books?id=p2QnPijAEmEC&pg=PA56 "Ashikaga Yoshimasa"] at p. 56; Ackroyd, p. 298; n.b., Shōgun Yoshimasa was succeeded by Shōgun Yoshihisa (Yoshimasa's natural son), then by Shōgun Yoshitane (Yoshimasa's first adopted son), and then by Shōgun Yoshizumi (Yoshimasa's second adopted son)</ref>
+# [[Ashikaga Yoshihisa]], r. 1474–1489<ref>Nussbaum, [https://books.google.com/books?id=p2QnPijAEmEC&pg=PA56 "Ashikaga Yoshihisa"] at p. 56.</ref>
+# [[Ashikaga Yoshitane]], r. 1490–1493, 1508–1521<ref>Nussbaum, [https://books.google.com/books?id=p2QnPijAEmEC&pg=PA57 "Ashikaga Yoshitane"] at p. 57; Ackroyd, p. 385 n104; excerpt, "Some apparent contradictions exist in various versions of the pedigree owing to adoptions and name-changes. Yoshitsuna (sometimes also read Yoshikore) changed his name and was adopted by Yoshitane. Some pedigrees show Yoshitsuna as Yoshizumi's son, and Yoshifuyu as Yoshizumi's son."</ref>
+# [[Ashikaga Yoshizumi]], r. 1494–1508<ref>Nussbaum, [https://books.google.com/books?id=p2QnPijAEmEC&pg=PA57 "Ashikaga Yoshizumi"] at p. 57.</ref>
+# [[Ashikaga Yoshiharu]], r. 1521–1546<ref>Nussbaum, [https://books.google.com/books?id=p2QnPijAEmEC&pg=PA55 "Ashikaga Yoshiharu"] at p. 55.</ref>
+# [[Ashikaga Yoshiteru]], r. 1546–1565<ref>Nussbaum, [https://books.google.com/books?id=p2QnPijAEmEC&pg=PA57 "Ashikaga Yoshiteru"] at p. 57.</ref>
+# [[Ashikaga Yoshihide]], r. 1568<ref>Nussbaum, [https://books.google.com/books?id=p2QnPijAEmEC&pg=PA56 "Ashikaga Yoshihide"] at p. 56.</ref>
+# [[Ashikaga Yoshiaki]], r. 1568–1573<ref>Nussbaum, [https://books.google.com/books?id=p2QnPijAEmEC&pg=PA55 "Ashikaga Yoshiaki"] at p. 55.</ref>
+
+===Tokugawa ''shōguns''===
+{| class="wikitable" style="text-align: center;"
+|-
+! scope="col" | Number
+! scope="col" colspan="2" | Tokugawas
+! scope="col" | Took office
+! scope="col" | Left office
+|-
+!| 1
+|| [[File:Tokugawa Ieyasu2.JPG|100px]]
+| style="width:16%;"| '''[[Tokugawa Ieyasu]]'''
+|| 1603
+|| 1605
+|-
+!| 2
+|| [[File:Hidetada2.jpg|100px]]
+| style="width:16%;"| '''[[Tokugawa Hidetada]]'''
+|| 1605
+|| 1623
+|-
+!| 3
+|| [[File:Iemitu.jpg|100px]]
+| style="width:16%;"| '''[[Tokugawa Iemitsu]]'''
+|| 1623
+|| 1651
+|-
+!| 4
+|| [[File:徳川家綱 (1).png|100px]]
+| style="width:16%;"| '''[[Tokugawa Ietsuna]]'''
+|| 1651
+|| 1680
+|-
+!| 5
+|| [[File:Tsunyaoshi.jpg|100px]]
+| style="width:16%;"| '''[[Tokugawa Tsunayoshi]]'''
+|| 1680
+|| 1709
+|-
+!| 6
+|| [[File:徳川家宣 (1).png|100px]]
+| style="width:16%;"| '''[[Tokugawa Ienobu]]'''
+|| 1709
+|| 1712
+|-
+!| 7
+|| [[File:Tokugawa ietsugu.jpg|100px]]
+| style="width:16%;"| '''[[Tokugawa Ietsugu]]'''
+|| 1713
+|| 1716
+|-
+!| 8
+|| [[File:Tokugawa Yoshimune.jpg|100px]]
+|| '''[[Tokugawa Yoshimune]]'''
+|| 1716
+|| 1745
+|-
+!| 9
+|| [[File:Tokugawa Ieshige.jpg|100px]]
+|| '''[[Tokugawa Ieshige]]'''
+|| 1745
+|| 1760
+|-
+!| 10
+|| [[File:徳川家治 (2).png|100px]]
+|| '''[[Tokugawa Ieharu]]'''
+|| 1760
+|| 1786
+|-
+!| 11
+|| [[File:徳川家斉像.png|100px]]
+|| '''[[Tokugawa Ienari]]'''
+|| 1786
+|| 1837
+|-
+!| 12
+|| [[File:Tokugawa Ieyoshi.JPG|100px]]
+|| '''[[Tokugawa Ieyoshi]]'''
+|| 1837
+|| 1853
+|-
+!| 13
+|| [[File:徳川家定像.png|100px]]
+|| '''[[Tokugawa Iesada]]'''
+|| 1853
+|| August 14, 1858
+|-
+!| 14
+|| [[File:Toku14-2.jpg|100px]]
+|| '''[[Tokugawa Iemochi]]'''
+|| August 14, 1858
+|| August 29, 1866
+|-
+!| 15
+|| [[File:Tokugawa Yoshinobu by oil painting.jpg|100px]]
+|| '''[[Tokugawa Yoshinobu]]'''
+|| August 29, 1866
+|| November 19, 1867
+|}
+
+Over the course of the Edo period, influential relatives of the shōgun included:
+* [[Tokugawa Mitsukuni]] of the [[Mito domain]]<ref>Nussbaum, [https://books.google.com/books?id=p2QnPijAEmEC&pg=PA979 "Tokugawa Mitsukuni"] at p. 979.</ref>
+* [[Tokugawa Nariaki]] of the [[Mito domain]]<ref>Nussbaum, [https://books.google.com/books?id=p2QnPijAEmEC&pg=PA979 "Tokugawa Nariaki"] at p. 979.</ref>
+* [[Tokugawa Mochiharu]] of the [[Gosankyo|Hitotsubashi]] branch
+* [[Tokugawa Munetake]] of the [[Gosankyo|Tayasu]] branch.<ref>Nussbaum, [https://books.google.com/books?id=p2QnPijAEmEC&pg=PA954 "Tayasu"] at p. 954.</ref>
+* [[Matsudaira Katamori]] of the [[Aizu]] branch.<ref>Nussbaum, [https://books.google.com/books?id=p2QnPijAEmEC&pg=PA616 "Matsudaira Katamori"] at p. 616.</ref>
+* [[Matsudaira Sadanobu]], born into the [[Gosankyo|Tayasu]] branch, adopted into the [[Hisamatsu clan|Hisamatsu-Matsudaira]] of [[Shirakawa han|Shirakawa]].<ref>Nussbaum, [https://books.google.com/books?id=p2QnPijAEmEC&pg=PA617 "Matsudaira Sadanobu"] at p. 617.</ref>
+
+===Pre-modern===
+====Emperors====
+*[[Emperor Jinmu]]
+*[[Emperor Kōbun]]
+*[[Emperor Tenmu]]
+*[[Emperor Go-Toba]]
+*[[Emperor Go-Daigo]]
+
+====Commanders from loyal family====
+*[[Kibitsuhiko-no-mikoto]]
+*[[Yamato Takeru]]
+*[[Empress Jingū]]
+
+====Commanders in [[Thirty-Eight Years' War]]====
+*[[Ōtomo no Otomaro]]
+*[[Sakanoue no Tamuramaro]]
+*[[Aterui]]
+
+===Modern===
+*[[Korechika Anami|Anami Korechika]]
+*[[Kenji Doihara|Doihara Kenji]]
+*[[Enomoto Takeaki]]
+*[[Kuroki Itei]] (Kuroki Tamemoto)
+*[[Iwane Matsui|Matsui Iwane]]
+*[[Minoru Ōta|Ōta Minoru]]
+*[[Kantarō Suzuki|Suzuki Kantarō]]
+*[[Tōgō Heihachirō]]
+*[[Hideki Tōjō|Tōjō Hideki]]
+*[[Isoroku Yamamoto|Yamamoto Isoroku]]
+*[[Shiro Kawase]]
+*[[Kanji Ishiwara|Ishiwara Kanji]]
+
+==Musicians==
+{{main|:Category:Lists of Japanese musicians}}
+
+==Personalities==
+
+===Comedians===
+{{main|List of Japanese comedians}}
+
+===Idols (male)===
+{{columns-list|colwidth=15em|
+*[[Daiki Arioka]]
+*[[Goro Inagaki]]
+*[[Hikaru Yaotome]]
+*[[Hiroki Uchi]]
+*[[Jin Akanishi]]
+*[[Jun Matsumoto]]
+*[[Junnosuke Taguchi]]
+*[[Junichi Okada]]
+*[[Kanata Hongō]]
+*[[Katori Shingo]]
+*[[Kazunari Ninomiya]]
+*[[Kazuya Kamenashi]]
+*[[Kei Inoo]]
+*[[Keiichiro Koyama]]
+*[[Keita Tachibana]]
+*[[Keito Okamoto]]
+*[[Kimura Takuya]]
+*[[Koichi Domoto]]
+*[[Koike Teppei]]
+*[[Kota Yabu]]
+*[[Kusano Hironori]]
+*[[Masahiro Nakai]]
+*[[Masaki Aiba]]
+*[[Ryutaro Morimoto]]
+*[[Shingo Murakami]]
+*[[Ryo Nishikido]]
+*[[Ryohei Chiba]]
+*[[Ryuichi Ogata]]
+*[[Ryosuke Yamada]]
+*[[Satoshi Ohno]]
+*[[Shigeaki Kato]]
+*[[Shingo Murakami]]
+*[[Sho Sakurai]]
+*[[Shota Yasuda]]
+*[[Subaru Shibutani]]
+*[[Takahisa Masuda]]
+*[[Tanaka Koki]]
+*[[Tatsuya Ueda]]
+*[[Tsuyoshi Domoto]]
+*[[Tsuyoshi Kusanagi]]
+*[[Tomohisa Yamashita]]
+*[[Toma Ikuta]]
+*[[Yu Yokoyama]]
+*[[Yuichi Nakamaru]]
+*[[Yuma Nakayama]]
+*[[Yuto Nakajima]]
+*[[Yuuri Chinen]]
+*[[Yuya Tegoshi]]
+*[[Yuya Takaki]]
+}}
+
+===Idols (female)===
+{{columns-list|colwidth=15em|
+*[[Sayaka Akimoto]]
+*[[Rina Akiyama]]
+*[[Tsugumi Aritomo]]
+*[[Momoka Ariyasu]]
+*[[Kano Fujihira]]
+*[[Mizuki Fukumura]]
+*[[Yui Hiwatashi]]
+*[[Haruna Iikubo]] 
+*[[Erina Ikuta]] 
+*[[Ayumi Ishida (Morning Musume member)|Ayumi Ishida]]
+*[[Tomomi Itano]]
+*[[Tomomi Kasai]]
+*[[Yuki Kashiwagi]]
+*[[Umika Kawashima]]
+*[[Rie Kitahara]]
+*[[Eiko Koike]]
+*[[Haruna Kojima]]
+*[[Haruka Kudo (singer)|Haruka Kudo]]
+*[[Koharu Kusumi]]
+*[[Atsuko Maeda]]
+*[[Erina Mano]]
+*[[Jurina Matsui]]
+*[[Rena Matsui]]
+*[[Aya Matsuura]]
+*[[Sayumi Michishige]] 
+*[[Minami Minegishi]]
+*[[Kanako Momota]]
+*[[Momoe Mori]]
+*[[Haruka Nakagawa]]
+*[[Shoko Nakagawa]]
+*[[Chise Nakamura]]
+*[[Jun Natsukawa]]
+*[[Yuko Oshima]]
+*[[Ayaka Sasaki]]
+*[[Masaki Sato]]
+*[[Riho Sayashi]]
+*[[Rino Sashihara]]
+*[[Mariko Shinoda]]
+*[[Kanon Suzuki]]
+*[[Reni Takagi]]
+*[[Aki Takajo]]
+*[[Minami Takahashi]]
+*[[Shiori Tamai]]
+*[[Takako Uehara]]
+*[[Aya Ueto]]
+*[[Mayu Watanabe]]
+*[[Azusa Yamamoto]]
+*[[Soyoka Yoshida]]
+}}
+
+===Models===
+{{columns-list|colwidth=15em|
+*[[Seika Furuhata]]
+*[[Kanata Hongō]]
+*[[Aki Hoshino]]
+*[[May J.]]
+*[[Meisa Kuroki]]
+*[[Riyo Mori]]
+*[[Suzuka Morita]]
+*[[Mariya Nishiuchi]]
+*[[Fujiwara Norika]]
+*[[Tao Okamoto]]
+*[[Moe Oshikiri|Oshikiri Moe]]
+*[[Anna Umemiya|Umemiya Anna]]
+*[[Inoue Waka]]
+*[[Yamada Yu]]
+*[[Ebihara Yuri]]
+}}
+
+===Musicians and singers (male)===
+{{columns-list|colwidth=15em|
+*[[Eiichi Ohtaki]]
+*[[Eikichi Yazawa]]
+*[[Gackt]]
+*[[Haruomi Hosono]]
+*[[Hide (musician)|hide]]
+*[[Hiromi Go]]
+*[[Kiyoshiro Imawano]]
+*[[Hideaki Tokunaga]]
+*[[Hyde (musician)|Hyde]]
+*[[Kazumasa Oda]]
+*[[Keisuke Kuwata]]
+*[[Koshi Inaba]]
+*[[Kōji Tamaki]]
+*[[Kyosuke Himuro]]
+*[[Miyavi]]
+*[[Noriyuki Makihara]]
+*[[Ryuichi Sakamoto]]
+*[[Saijo Hideki]]
+*[[Takanori Nishikawa]]
+*[[Tamio Okuda]]
+*[[Tatsuya Ishii]]
+*[[Tatsuro Yamashita]]
+*[[Tomoyasu Hotei]]
+*[[Toshi Kubota]]
+*[[Toshiki Kadomatsu]]
+*[[Yasuyuki Okamura]]
+*[[Yoshiki (musician)|Yoshiki]]
+*[[Yōsui Inoue]]
+*[[Yukihiro Takahashi]]
+}}
+
+===Musicians and singers (female)===
+{{columns-list|colwidth=15em|
+* [[Ai Otsuka]]
+* [[Ai Takahashi]]
+* [[Aiko Kayō]]
+* [[Akiko Wada]]
+* [[Alisa Durbrow]]
+* [[Angela Aki]]
+* [[Anna Tsuchiya]]
+* [[Airi Suzuki]]
+* [[Aya Hirano]]
+* [[Aya Matsuura]]
+* [[Aya Ueto]]
+* [[Ayaka Hirahara]]
+* [[Ayaka Komatsu]]
+* [[Ayaka]]
+* [[Ayumi Hamasaki]]
+* [[Ayumi Kinoshita]]
+* [[Beni Arashiro]]
+* [[Bonnie Pink]]
+* [[Chiaki Kuriyama]]
+* [[Chihiro Onitsuka]]
+* [[Chisaki Hama]]
+* [[Chitose Hajime]]
+* [[Crystal Kay]]
+* [[Erika Sawajiri]]
+* [[Emi Hinouchi]]
+* [[Emi Maria]]
+* [[Eri Ito]]
+* [[Emyli]]
+* [[Garnet Crow]]
+* [[Goto Maki]]
+* [[Hagiwara Mai]]
+* [[Halna]]
+* [[Hikaru Nishida]]
+* [[Hiro (photographer)|Hiro]]
+* [[Hiroko Anzai]]
+* [[Hiroko Shimabukuro]]
+* [[Hitomi (singer)|Hitomi]]
+* [[Ikue Sakakibara]]
+* [[Imai Eriko]]
+* [[JASMINE]]
+* [[Jhené Aiko]]
+* [[Jun Natsukawa]]
+* [[Junko Sakurada]]
+* [[JYONGRI]]
+* [[Kanako Enomoto]]
+* [[Kanbe Miyuki]]
+* [[Kanon Wakeshima]]
+* [[Kawabe Chieco]]
+* [[Kawase Tomoko]]
+* [[Keiko Kitagawa]] <!--more actress, not sure-->
+* [[Kumi Koda]]
+* [[Kusumi Koharu]]
+* [[Lia (Japanese singer)|Lia]]
+* [[Maaya Sakamoto]]
+* [[Maeda Atsuko]]
+* [[May J.]]
+* [[Mari Amachi]] 
+* [[Masako Mori (enka musician)|Masako Mori]]
+* [[Meisa Kuroki]]
+* [[Megumi Odaka]]
+* [[Megumi (actress)|Megumi]]
+* [[Megumi Hayashibara]]
+* [[Melody.]]
+* [[Mew Azama]]
+* [[Mihiro|Mihiro Taniguchi]]
+* [[Miho Komatsu]]
+* [[Miho Nakayama]]
+* [[Miki Fujimoto]]
+* [[Miki Jinbo]]
+* [[Miliyah Kato]]
+* [[MINMI]]
+* [[Miyuu Sawai]]
+* [[Mizuki Nana]]
+* [[Momoe Yamaguchi]]
+* [[Myco (singer)|Myco]]
+* [[Mika Nakashima]]
+* [[Namie Amuro]]
+* [[Natsuyaki Miyabi]]
+* [[Noriko Sakai]]
+* [[Reina Tanaka]]
+* [[Reon Kadena]]
+* [[Ribbon]]
+* [[Ryōko Hirosue]]
+* [[Saori Minami]]
+* [[Sayaka Kanda|Sayaka]]
+* [[Sayumi Michishige]]
+* [[Seiko Matsuda]]
+* [[Shoko Nakagawa]]
+* [[Takako Ōta]]
+* [[Takako Uehara]]
+* [[Thelma Aoyama]]
+* [[Toko Yasuda]]
+* [[Tomomi Itano]]
+* [[Tsugunaga Momoko]]
+* [[Hikaru Utada]]
+* [[Waka Inoue]] <!--borderline gravure, not sure-->
+* [[Yui (singer)|Yui]]
+* [[Yui Makino]]
+* [[Yukiko Okada]]
+* [[Yuko Ogura]]
+* [[Yuna Ito]]
+}}
+
+===Tarento===
+*[[Aya Ueto]]
+*[[Becky (television personality)|Becky]]
+*[[Kazushige Nagashima]]
+*[[Kano sisters]]
+*[[Matt Kuwata]]
+*[[Mina Fukui]]
+*[[Momoiro Clover Z]]
+*[[Naomi Watanabe]]
+*[[Roland (Japanese host)]]
+
+===Actors===
+{{main|List of Japanese actors}}
+
+===Actresses===
+{{main|List of Japanese actresses}}
+
+===TV and radio personalities===
+*[[Iijima Ai]]
+*[[Mao Inoue]]
+*[[Kano sisters]]
+*[[Sugita Kaoru]]
+*[[Mino Monta]]
+*[[Shinohara Tomoe]]
+
+===Others===
+*[[Harumi Kurihara|Kurihara Harumi]]
+*[[Ghib Ojisan]]
+*[[Papaya Suzuki]]
+*[[Rina Gonoi]]
+
+==Prime Ministers==
+{{main|List of prime ministers of Japan}}
+
+===Meiji period (1868–1912)===
+''Prime Ministers of [[Emperor Meiji]]''
+
+{| class="wikitable"  style="text-align:center; width:100%;"
+|-
+!rowspan=2 style="width:25px;"|No.
+!colspan=2 style="width:280px;"|Prime Minister
+!colspan=3|Term of office
+! style="width:100px;" rowspan="2"|Political Party
+! style="width:160px;" rowspan="2"|Government
+!rowspan=2|Elected
+!rowspan=2 style="width:20px;"|Ref
+|-
+!Portrait
+! style="width:180px;"|Name
+!Took office
+!Left office
+!Days
+|- style="background:#eee;"
+!rowspan=2 style="background:{{party color|Independent (politician)}};"| 1
+|rowspan=2|[[File:Itō Hirobumi.jpg|80px]]
+|rowspan=2|'''[[Itō Hirobumi]]'''<br/><span lang="ja"><span style="font-size:125%;">伊藤 博文</span></span><br />{{small|''Itō Hirobumi''<br/>(1841–1909)}}
+|22 December 1885
+|30 April 1888
+|{{age in days|1885|12|22|1888|4|30}}
+| style="background:{{party color|Independent (politician)}};"|None
+|''1.'' [[:ja:第1次伊藤内閣|Itō I]]
+| —
+|rowspan=2|<ref name=Ito>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/01.html |script-title=ja:第1•5•7•10代 伊藤 博文 |publisher=Official website of the Prime Minister of Japan |language=ja|trans-title=1st/5th/7th/10th Itō Hirobumi |access-date=28 May 2012}}</ref>
+|-
+| colspan="6" style="text-align:left;"| {{small|The first Prime Minister of the Empire of Japan.}}
+|- style="background:#eee;"
+!rowspan=2 style="background:{{party color|Independent (politician)}};"| 2
+|rowspan=2|[[File:Kiyotaka Kuroda formal cropped.jpg|80px]]
+|rowspan=2|'''[[Kuroda Kiyotaka]]'''<br/><span lang="ja"><span style="font-size:125%;">黑田 清隆</span></span><br />{{small|''Kuroda Kiyotaka''<br/>(1840–1900)}}
+|30 April 1888
+|25 October 1889
+|{{age in days|1888|4|30|1889|10|25}}
+| style="background:{{party color|Independent (politician)}};"|None
+|''2.'' [[:ja:黑田内閣|Kuroda]]
+| —
+|rowspan=2|<ref>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/02.html |script-title=ja:第2代 黑田 清隆 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=2nd Kuroda Kiyotaka |access-date=24 May 2012}}</ref>
+|-
+| colspan="6" style="text-align:left;"| {{small|Oversaw promulgation of the [[Meiji Constitution]]. Failed to secure revision of the [[Unequal treaty|unequal treaties]]; resigned.}}
+|- style="background:#eee;"
+!rowspan=2 style="background:{{party color|Independent (politician)}};"| —
+|rowspan=2|[[File:Sanetomi Sanjo formal cropped.jpg|80px]]
+|rowspan=2|'''[[Sanjō Sanetomi]]'''<br/><span lang="ja"><span style="font-size:125%;">三條 實美</span></span><br />{{small|''Sanjō Sanetomi''<br/>(1837–1891)}}
+|25 October 1889
+|24 December 1889
+|{{age in days|1889|10|25|1889|12|24}}
+| style="background:{{party color|Independent (politician)}};"|None
+|[[:ja:三條内閣|Sanjō]] (''interim'')
+| —
+|rowspan=2|
+|-
+| colspan="6" style="text-align:left;"|{{small|Upon the resignation of Kuroda’s government, the [[Emperor Meiji|Emperor]] only accepted Kuroda’s resignation and invited Sanjō to head the government for two more months. Today, however, Sanjō’s government is generally regarded as a continuation of Kuroda’s. Held concurrently by the [[Lord Keeper of the Privy Seal of Japan|Lord Keeper of the Privy Seal]].}}
+|- style="background:#eee;"
+!rowspan=2 style="background:{{party color|Independent (politician)}};"| 3
+|rowspan=2|[[File:Yamagata Aritomo.jpg|80px]]
+|rowspan=2|'''[[Yamagata Aritomo]]'''<br/><span lang="ja"><span style="font-size:125%;">山縣 有朋</span></span><br />{{small|''Yamagata Aritomo''<br/>(1838–1922)}}
+|24 December 1889
+|6 May 1891
+|{{age in days|1889|12|24|1891|5|6}}
+| style="background:{{party color|Independent (politician)}};"|None
+|''3.'' [[:ja:第1次山縣内閣|Yamagata I]]
+|[[1890 Japanese general election|1890]]
+|rowspan=2|<ref name=Yamagata>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/03.html |script-title=ja:第3•9代 山縣 有朋 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=3rd/9th Yamagata Aritomo |access-date=28 May 2012}}</ref>
+|-
+| colspan="6" style="text-align:left;"|
+|- style="background:#eee;"
+!rowspan=2 style="background:{{party color|Independent (politician)}};"| 4
+|rowspan=2|[[File:Masayoshi Matsukata suit.jpg|80px]]
+|rowspan=2|'''[[Matsukata Masayoshi]]'''<br/><span lang="ja"><span style="font-size:125%;">松方 正義</span></span><br />{{small|''Matsukata Masayoshi''<br/>(1835–1924)}}
+|6 May 1891
+|8 August 1892
+|{{age in days|1891|5|6|1892|8|8}}
+| style="background:{{party color|Independent (politician)}};"|None
+|''4.'' [[:ja:第1次松方内閣|Matsukata I]]
+|[[1892 Japanese general election|1892]]
+|rowspan=2|<ref name=Matsukata>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/04.html |script-title=ja:第4•5代 松方 正義 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=3rd/9th Matsukata Masayoshi |access-date=28 May 2012}}</ref>
+|-
+| colspan="6" style="text-align:left;"|
+|- style="background:#eee;"
+!rowspan=2 style="background:{{party color|Independent (politician)}};"| {{small|(1)}}
+|rowspan=2|[[File:Itō Hirobumi.jpg|80px]]
+|rowspan=2|'''[[Itō Hirobumi]]'''<br/><span lang="ja"><span style="font-size:125%;">伊藤 博文</span></span><br />{{small|''Itō Hirobumi''<br/>(1841–1909)}}
+|8 August 1892
+|31 August 1896
+|{{age in days|1892|8|8|1896|8|31}}
+| style="background:{{party color|Independent (politician)}};"|None
+|''5.'' [[:ja:第2次伊藤内閣|Itō II]]
+|[[March 1894 Japanese general election|{{small|Mar.}} 1894]]<br/>[[September 1894 Japanese general election|{{small|Sept.}} 1894]]
+|rowspan=2|<ref name="Ito"/>
+|-
+| colspan="6" style="text-align:left;"|{{small|Resigned.}}
+|- style="background:#eee;"
+|colspan=10| During this interval, Privy Council Chairman [[Kuroda Kiyotaka]] (<span lang="ja"><span style="font-size:125%;">黑田 清隆</span></span> ''Kuroda Kiyotaka'') was the acting prime minister.
+|- style="background:#eee;"
+!rowspan=2 style="background:{{party color|Independent (politician)}};"| {{small|(4)}}
+|rowspan=2|[[File:Masayoshi Matsukata suit.jpg|80px]]
+|rowspan=2|'''[[Matsukata Masayoshi]]'''<br/><span lang="ja"><span style="font-size:125%;">松方 正義</span></span><br />{{small|''Matsukata Masayoshi''<br/>(1835–1924)}}
+|18 September 1896
+|12 January 1898
+|{{age in days|1896|9|18|1898|1|12}}
+| style="background:{{party color|Independent (politician)}};"|None
+|''6.'' [[:ja:第2次松方内閣|Matsukata II]]
+| —
+|rowspan=2|<ref name="Matsukata"/>
+|-
+| colspan="6" style="text-align:left;"|
+|- style="background:#eee;"
+!rowspan=2 style="background:{{party color|Independent (politician)}};"| {{small|(1)}}
+|rowspan=2|[[File:Itō Hirobumi.jpg|80px]]
+|rowspan=2|'''[[Itō Hirobumi]]'''<br/><span lang="ja"><span style="font-size:125%;">伊藤 博文</span></span><br />{{small|''Itō Hirobumi''<br/>(1841–1909)}}
+|12 January 1898
+|30 June 1898
+|{{age in days|1898|1|12|1898|6|30}}
+| style="background:{{party color|Independent (politician)}};"|None
+|''7.'' [[:ja:第3次伊藤内閣|Itō III]]
+|[[March 1898 Japanese general election|{{small|Mar.}} 1898]]
+|rowspan=2|<ref name="Ito"/>
+|-
+| colspan="6" style="text-align:left;"|
+|- style="background:#eee;"
+!rowspan=2 style="background:{{party color|Kenseito}};"| 5
+|rowspan=2|[[File:Ōkuma Shigenobu.jpg|80px]]
+|rowspan=2|'''[[Ōkuma Shigenobu]]'''<br/><span lang="ja"><span style="font-size:125%;">大隈 重信</span></span><br />{{small|''Ōkuma Shigenobu''<br/>(1838–1922)}}
+|30 June 1898
+|8 November 1898
+|{{age in days|1898|6|30|1898|11|8}}
+| style="background:{{party color|Kenseito}};"|[[Kenseitō]]
+|''8.'' [[:ja:第1次大隈内閣|Ōkuma I]]
+|[[September 1898 Japanese general election|{{small|Sept.}} 1898]]
+|rowspan=2|<ref name=Okuma>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/08.html |script-title=ja:第8•17代 大隈 重信 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=8th/17th Ōkuma Shigenobu |access-date=28 May 2012}}</ref>
+|-
+| colspan="6" style="text-align:left;"|
+|- style="background:#eee;"
+!rowspan=2 style="background:{{party color|Independent (politician)}};"| {{small|(3)}}
+|rowspan=2|[[File:Yamagata Aritomo.jpg|80px]]
+|rowspan=2|'''[[Yamagata Aritomo]]'''<br/><span lang="ja"><span style="font-size:125%;">山縣 有朋</span></span><br />{{small|''Yamagata Aritomo''<br/>(1838–1922)}}
+|8 November 1898
+|19 October 1900
+|{{age in days|1898|11|8|1900|10|19}}
+| style="background:{{party color|Independent (politician)}};"|None
+|''9.'' [[:ja:第2次山縣内閣|Yamagata II]]
+| —
+|rowspan=2|<ref name="Yamagata"/>
+|-
+| colspan="6" style="text-align:left;"|
+|- style="background:#eee;"
+!rowspan=2 style="background:{{party color|Rikken Seiyukai}};"| {{small|(1)}}
+|rowspan=2|[[File:Itō Hirobumi.jpg|80px]]
+|rowspan=2|'''[[Itō Hirobumi]]'''<br/><span lang="ja"><span style="font-size:125%;">伊藤 博文</span></span><br />{{small|''Itō Hirobumi''<br/>(1841–1909)}}
+|19 October 1900
+|10 May 1901
+|{{age in days|1900|10|19|1901|5|10}}
+| style="background:{{party color|Rikken Seiyukai}};"|[[Rikken Seiyūkai]]
+|''10.'' [[:ja:第4次伊藤内閣|Itō IV]]
+| —
+|rowspan=2|<ref name="Ito"/>
+|-
+| colspan="6" style="text-align:left;"|{{small|Resigned.}}
+|- style="background:#eee;"
+|colspan=10 | During this interval, Privy Council Chairman [[Saionji Kinmochi]] (<span lang="ja"><span style="font-size:125%;">西園寺 公望</span></span> ''Saionji Kinmochi'') was the acting prime minister.
+|- style="background:#eee;"
+!rowspan=2 style="background:{{party color|Independent (politician)}};"| 6
+|rowspan=2|[[File:Taro Katsura suit.jpg|80px]]
+|rowspan=2|'''[[Katsura Tarō]]'''<br/><span lang="ja"><span style="font-size:125%;">桂 太郎</span></span><br />{{small|''Katsura Tarō''<br/>(1848–1913)}}
+|2 June 1901
+|7 January 1906
+|{{age in days|1901|6|2|1906|1|7}}
+| style="background:{{party color|Independent (politician)}};"|None {{small|(Retired General)}}
+|''11.'' [[:ja:第1次桂内閣|Katsura I]]
+|[[1902 Japanese general election|1902]]<br/>[[1903 Japanese general election|1903]]<br/>[[1904 Japanese general election|1904]]
+|rowspan=2|<ref name=Katsura>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/11.html |script-title=ja:第11•13•15代 桂 太郎 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=8th/17th Katsura Tarō |access-date=28 May 2012}}</ref>
+|-
+| colspan="6" style="text-align:left;"|
+|- style="background:#eee;"
+!rowspan=2 style="background:{{party color|Rikken Seiyukai}};"| 7
+|rowspan=2|[[File:PM Kinmochi Saionji cropped.jpg|80px]]
+|rowspan=2|'''[[Saionji Kinmochi]]'''<br/><span lang="ja"><span style="font-size:125%;">西園寺 公望</span></span><br />{{small|''Saionji Kinmochi''<br/>(1849–1940)}}
+|7 January 1906
+|14 July 1908
+|{{age in days|1906|1|7|1908|7|14}}
+| style="background:{{party color|Rikken Seiyukai}};"|[[Rikken Seiyūkai]]
+|''12.'' [[:ja:第1次西園寺内閣|Saionji I]]
+|[[1908 Japanese general election|1908]]
+|rowspan=2|<ref name=Saionji>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/14.html |script-title=ja:第12•14代 西園寺 公望 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=12th/14th Saionji Kinmochi |access-date=28 May 2012}}</ref>
+|-
+| colspan="6" style="text-align:left;"|
+|- style="background:#eee;"
+!rowspan=2 style="background:{{party color|Independent (politician)}};"| {{small|(6)}}
+|rowspan=2|[[File:Taro Katsura suit.jpg|80px]]
+|rowspan=2|'''[[Katsura Tarō]]'''<br/><span lang="ja"><span style="font-size:125%;">桂 太郎</span></span><br />{{small|''Katsura Tarō''<br/>(1848–1913)}}
+|14 July 1908
+|30 August 1911
+|{{age in days|1908|7|14|1911|8|30}}
+| style="background:{{party color|Independent (politician)}};"|None {{small|(Retired General)}}
+|''13.'' [[:ja:第2次桂内閣|Katsura II]]
+| —
+|rowspan=2|<ref name="Katsura"/>
+|-
+| colspan="6" style="text-align:left;"|
+|- style="background:#eee;"
+!rowspan=2 style="background:{{party color|Rikken Seiyukai}};"| {{small|(7)}}
+|rowspan=2|[[File:PM Kinmochi Saionji cropped.jpg|80px]]
+|rowspan=2|'''[[Saionji Kinmochi]]'''<br/><span lang="ja"><span style="font-size:125%;">西園寺 公望</span></span><br />{{small|''Saionji Kinmochi''<br/>(1849–1940)}}
+|30 August 1911
+|21 December 1912
+|{{age in days|1911|8|30|1912|12|21}}
+| style="background:{{party color|Rikken Seiyukai}};"|[[Rikken Seiyūkai]]
+|''14.'' [[:ja:第2次西園寺内閣|Saionji II]]
+|[[1912 Japanese general election|1912]]
+|rowspan=2|<ref name="Saionji"/>
+|-
+| colspan="6" style="text-align:left;"|
+|}
+
+===Taishō period (1912–1926)===
+''Prime Ministers of [[Emperor Taishō]]''
+
+{| class="wikitable"  style="text-align:center; width:100%;"
+|-
+!rowspan=2 style="width:25px;"|No.
+!colspan=2 style="width:280px;"|Prime Minister
+!colspan=3|Term of office
+! style="width:100px;" rowspan="2"|Political Party
+! style="width:160px;" rowspan="2"|Government
+!rowspan=2|Elected
+!rowspan=2 style="width:20px;"|Ref
+|-
+!Portrait
+! style="width:180px;"|Name
+!Took office
+!Left office
+!Days
+|- style="background:#eee;"
+!rowspan=2 style="background:{{party color|Independent (politician)}};"| {{small|(6)}}
+|rowspan=2|[[File:Taro Katsura suit.jpg|80px]]
+|rowspan=2|'''[[Katsura Tarō]]'''<br/><span lang="ja"><span style="font-size:125%;">桂 太郎</span></span><br />{{small|''Katsura Tarō''<br/>(1848–1913)}}
+|21 December 1912
+|20 February 1913
+|{{age in days|1912|12|21|1913|2|20}}
+| style="background:{{party color|Independent (politician)}};"|None {{small|(Retired General)}}
+|''15.'' [[:ja:第3次桂内閣|Katsura III]]
+| —
+|rowspan=2|<ref name="Katsura"/>
+|-
+| colspan="6" style="text-align:left;"|
+|- style="background:#eee;"
+!rowspan=2 style="background:{{party color|Military (Japan)}};"| 8
+|rowspan=2|[[File:Gonbee Yamamoto later years cropped.jpg|80px]]
+|rowspan=2|'''[[Yamamoto Gonnohyōe]]'''<br/><span lang="ja"><span style="font-size:125%;">山本 權兵衛</span></span><br />{{small|''Yamamoto Gonnohyōe''<br/>(1852–1933)}}
+|20 February 1913
+|16 April 1914
+|{{age in days|1913|2|20|1914|4|16}}
+| style="background:{{party color|Military (Japan)}};"|[[Military of Japan|Military]] {{small|([[Imperial Japanese Navy|Navy]])}}
+|''16.'' [[:ja:第1次山本内閣|Yamamoto I]]
+| —
+|rowspan=2|<ref name=Yamamoto>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/16.html |script-title=ja:第16•22代 山本 權兵衞 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=16th/22nd Yamamoto Gonnohyōe |access-date=28 May 2012}}</ref>
+|-
+| colspan="6" style="text-align:left;"|
+|- style="background:#eee;"
+!rowspan=2 style="background:{{party color|Rikken Doshikai}};"| {{small|(5)}}
+|rowspan=2|[[File:Ōkuma Shigenobu.jpg|80px]]
+|rowspan=2|'''[[Ōkuma Shigenobu]]'''<br/><span lang="ja"><span style="font-size:125%;">大隈 重信</span></span><br />{{small|''Ōkuma Shigenobu''<br/>(1838–1922)}}
+|16 April 1914
+|9 October 1916
+|{{age in days|1914|4|16|1916|10|9}}
+| style="background:{{party color|Rikken Doshikai}};"|[[Rikken Dōshikai]]
+|''17.'' [[:ja:第2次大隈内閣|Ōkuma II]]
+|[[1915 Japanese general election|1915]]
+|rowspan=2|<ref name="Okuma"/>
+|-
+| colspan="6" style="text-align:left;"|
+|- style="background:#eee;"
+!rowspan=2 style="background:{{party color|Military (Japan)}};"| 9
+|rowspan=2|[[File:Masatake Terauchi uniform.jpg|80px]]
+|rowspan=2|'''[[Terauchi Masatake]]'''<br/><span lang="ja"><span style="font-size:125%;">寺内 正毅</span></span><br />{{small|''Terauchi Masatake''<br/>(1852–1919)}}
+|9 October 1916
+|29 September 1918
+|{{age in days|1916|10|9|1918|9|29}}
+| style="background:{{party color|Military (Japan)}};"|[[Military of Japan|Military]] {{small|([[Imperial Japanese Army|Army]])}}
+|''18.'' [[:ja:寺內内閣|Terauchi]]
+|[[1917 Japanese general election|1917]]
+|rowspan=2|<ref>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/18.html |script-title=ja:第18代 寺内 正毅 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=18th Terauchi Masatake |access-date=28 May 2012}}</ref>
+|-
+| colspan="6" style="text-align:left;"|
+|- style="background:#eee;"
+!rowspan=2 style="background:{{party color|Rikken Seiyukai}};"| 10
+|rowspan=2|[[File:Takashi Hara posing cropped.jpg|80px]]
+|rowspan=2|'''[[Hara Takashi]]'''<br/><span lang="ja"><span style="font-size:125%;">原 敬</span></span><br />{{small|''Hara Takashi''<br/>(1856–1921)}}
+|29 September 1918
+|4 November 1921
+|{{age in days|1918|9|29|1921|11|4}}
+| style="background:{{party color|Rikken Seiyukai}};"|[[Rikken Seiyūkai]]
+|''19.'' [[:ja:原内閣|Hara]]
+|[[1920 Japanese general election|1920]]
+|rowspan=2|<ref>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/19.html |script-title=ja:第19代 原 敬 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=19th Hara Takashi |access-date=28 May 2012}}</ref>
+|-
+| colspan="6" style="text-align:left;"|{{small|Assassinated.}}
+|- style="background:#eee;"
+|colspan=10 | During this interval, Foreign Minister [[Uchida Kosai]] (<span lang="ja"><span style="font-size:125%;">内田 康哉</span></span> ''Uchida Kōsai'') was the acting prime minister.
+|- style="background:#eee;"
+!rowspan=2 style="background:{{party color|Rikken Seiyukai}};"| 11
+|rowspan=2|[[File:Takahashi korekiyo giving an address cropped.jpg|80px]]
+|rowspan=2|'''[[Takahashi Korekiyo]]'''<br/><span lang="ja"><span style="font-size:125%;">高橋 是清</span></span><br />{{small|''Takahashi Korekiyo''<br/>(1854–1936)}}
+|13 November 1921
+|12 June 1922
+|{{age in days|1921|11|4|1922|6|12}}
+| style="background:{{party color|Rikken Seiyukai}};"|[[Rikken Seiyūkai]]
+|''20.'' [[:ja:高橋内閣|Takahashi]]
+| —
+|rowspan=2|<ref>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/20.html |script-title=ja:第20代 高橋 是清 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=20th Takahashi Korekiyo |access-date=28 May 2012}}</ref>
+|-
+| colspan="6" style="text-align:left;"|
+|- style="background:#eee;"
+!rowspan=2 style="background:{{party color|Military (Japan)}};"| 12
+|rowspan=2|[[File:Admiral Kato Tomosaburo cropped.jpg|80px]]
+|rowspan=2|'''[[Katō Tomosaburō]]'''<br/><span lang="ja"><span style="font-size:125%;">加藤 友三郎</span></span><br />{{small|''Katō Tomosaburō''<br/>(1861–1923)}}
+|12 June 1922
+|24 August 1923
+|{{age in days|1922|6|12|1923|8|24}}
+| style="background:{{party color|Military (Japan)}};"|[[Military of Japan|Military]] {{small|([[Imperial Japanese Navy|Navy]])}}
+|''21.'' [[:ja:加藤友三郎内閣|Katō To.]]
+| —
+|rowspan=2|<ref>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/21.html |script-title=ja:第21代 加藤 友三郎 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=21st Katō Tomosaburō |access-date=28 May 2012}}</ref>
+|-
+| colspan="6" style="text-align:left;"|{{small|Died in office of natural causes.}}
+|- style="background:#eee;"
+|colspan=10 | During this interval, Foreign Minister [[Uchida Kosai]] (<span lang="ja"><span style="font-size:125%;">内田 康哉</span></span> ''Uchida Kōsai'') was the acting prime minister.
+|- style="background:#eee;"
+!rowspan=2 style="background:{{party color|Military (Japan)}};"| {{small|(8)}}
+|rowspan=2|[[File:Gonbee Yamamoto later years cropped.jpg|80px]]
+|rowspan=2|'''[[Yamamoto Gonnohyōe]]'''<br/><span lang="ja"><span style="font-size:125%;">山本 權兵衛</span></span><br />{{small|''Yamamoto Gonnohyōe''<br/>(1852–1933)}}
+|2 September 1923
+|7 January 1924
+|{{age in days|1923|9|4|1924|1|7}}
+| style="background:{{party color|Military (Japan)}};"|[[Military of Japan|Military]] {{small|([[Imperial Japanese Navy|Navy]])}}
+|''22.'' [[:ja:第2次山本内閣|Yamamoto II]]
+| —
+|rowspan=2|<ref name="Yamamoto"/>
+|-
+| colspan="6" style="text-align:left;"|
+|- style="background:#eee;"
+!rowspan=2 style="background:{{party color|Independent (politician)}};"| 13
+|rowspan=2|[[File:Kiyoura Keigo.jpg|80px]]
+|rowspan=2|'''[[Kiyoura Keigo]]'''<br/><span lang="ja"><span style="font-size:125%;">清浦 奎吾</span></span><br />{{small|''Kiyoura Keigo''<br/>(1850–1942)}}
+|7 January 1924
+|11 June 1924
+|{{age in days|1924|1|7|1924|6|11}}
+| style="background:{{party color|Independent (politician)}};"|None
+|''23.'' [[:ja:清浦内閣|Kiyoura]]
+|[[1924 Japanese general election|1924]]
+|rowspan=2|<ref>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/23.html |script-title=ja:第23代 清浦 奎吾 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=23rd Kiyoura Keigo |access-date=28 May 2012}}</ref>
+|-
+| colspan="6" style="text-align:left;"|
+|- style="background:#eee;"
+!rowspan=3 style="background:{{party color|Kenseikai}};"| 14
+|rowspan=3|[[File:Takaaki Kato suit.jpg|80px]]
+|rowspan=3|'''[[Katō Takaaki]]'''<br/><span lang="ja"><span style="font-size:125%;">加藤 高明</span></span><br />{{small|''Katō Takaaki''<br/>(1860–1926)}}
+|11 June 1924
+|2 August 1925
+|rowspan=2|{{age in days|1924|6|11|1926|1|28}}
+|rowspan=2 style="background:{{party color|Kenseikai}};"|[[Kenseikai]]
+|rowspan=2|''24.'' [[:ja:加藤高明内閣|Katō Ta.]]
+|rowspan=2| —
+|rowspan=3|<ref>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/24.html |script-title=ja:第24代 加藤 高明 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=24th Katō Takaaki |access-date=28 May 2012}}</ref>
+|- style="background:#eee;"
+|2 August 1925
+|28 January 1926
+|-
+| colspan="6" style="text-align:left;"|{{small|Resigned after the “Grand Coalition of the Three Pro-Constitution Parties” collapsed. Katō was then reinvited by the [[Hirohito#Early life|Prince Regent]] to form a new government with his own party, Kenseitō. Today, however, his second term is generally regarded as continuation of his first. Died in office of natural causes.}}
+|- style="background:#eee;"
+|colspan=10 | During this interval, Interior Minister [[Wakatsuki Reijirō]] (<span lang="ja"><span style="font-size:125%;">若槻 禮次郎</span></span> ''Wakatsuki Reijirō'') was the acting prime minister.
+|- style="background:#eee;"
+!rowspan=2 style="background:{{party color|Kenseikai}};"| 15
+|rowspan=2|[[File:Reijiro Wakatsuki posing cropped.jpg|80px]]
+|rowspan=2|'''[[Wakatsuki Reijirō]]'''<br/><span lang="ja"><span style="font-size:125%;">若槻 禮次郎</span></span><br />{{small|''Wakatsuki Reijirō''<br/>(1866–1949)}}
+|30 January 1926
+|20 April 1927
+|{{age in days|1926|1|30|1927|4|20}}
+| style="background:{{party color|Kenseikai}};"|[[Kenseikai]]
+|''25.'' [[:ja:第1次若槻内閣|Wakatsuki I]]
+| —
+|rowspan=2|<ref name=Wakatsuki>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/25.html |script-title=ja:第25•28代 若槻 禮次郎 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=25th/28th Wakatsuki Reijirō |access-date=24 May 2012}}</ref>
+|-
+| colspan="6" style="text-align:left;"|
+|}
+
+===Shōwa period under 1890 Constitution (1926–1947)===
+
+''Prime Ministers of [[Hirohito|Emperor Shōwa]] under [[Meiji Constitution|1890 Constitution]]''
+
+{| class="wikitable"  style="text-align:center; width:100%;"
+|-
+!rowspan=2 style="width:25px;"|No.
+!colspan=2 style="width:280px;"|Prime Minister
+!colspan=3|Term of office
+! style="width:100px;" rowspan="2"|Political Party
+! style="width:160px;" rowspan="2"|Government
+!rowspan=2|Elected
+!rowspan=2 style="width:20px;"|Ref
+|-
+!Portrait
+! style="width:180px;"|Name
+!Took office
+!Left office
+!Days
+|- style="background:#eee;"
+!rowspan=2 style="background:{{party color|Rikken Seiyukai}};"| 16
+|rowspan=2|[[File:Giichi Tanaka posing cropped.jpg|80px]]
+|rowspan=2|'''[[Tanaka Giichi]]'''<br/><span lang="ja"><span style="font-size:125%;">田中 義一</span></span><br />{{small|''Tanaka Giichi''<br/>(1864–1929)}}
+|20 April 1927
+|2 July 1929
+|{{age in days|1927|4|20|1929|7|2}}
+| style="background:{{party color|Rikken Seiyukai}};"|[[Rikken Seiyūkai]]
+|''26.'' [[:ja:田中義一内閣|Tanaka G.]]
+|[[1928 Japanese general election|1928]]
+|rowspan=2|<ref>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/26.html |script-title=ja:第26代 田中 義一 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=26th Tanaka Giichi |access-date=24 May 2012}}</ref>
+|-
+| colspan="6" style="text-align:left;"|
+|- style="background:#eee;"
+!rowspan=2 style="background:{{party color|Rikken Minseito}};"| 17
+|rowspan=2|[[File:Osachi Hamaguchi posing cropped.jpg|80px]]
+|rowspan=2|'''[[Osachi Hamaguchi]]'''<br/><span lang="ja"><span style="font-size:125%;">濱口 雄幸</span></span><br />{{small|''Hamaguchi Osachi''<br/>(1870–1931)}}
+|2 July 1929
+|14 April 1931
+|{{age in days|1929|7|2|1931|4|14}}
+| style="background:{{party color|Rikken Minseito}};"|[[Rikken Minseito|Rikken Minseitō]]
+|''27.'' [[:ja:濱口内閣|Hamaguchi]]
+|[[1930 Japanese general election|1930]]
+|rowspan=2|<ref>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/27.html |script-title=ja:第27代 濱口 雄幸 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=27th Osachi Hamaguchi |access-date=24 May 2012}}</ref>
+|-
+| colspan="6" style="text-align:left;"|{{small|Incapacitated due to serious wound from assassination plot on 14 November 1930. Foreign Minister [[Kijūrō Shidehara|Shidehara Kijūrō]] served as Deputy Prime Minister until Hamaguchi’s return to the office on 10 March 1931.}}
+|- style="background:#eee;"
+!rowspan=2 style="background:{{party color|Rikken Minseito}};"| {{small|(15)}}
+|rowspan=2|[[File:Reijiro Wakatsuki posing cropped.jpg|80px]]
+|rowspan=2|'''[[Wakatsuki Reijirō]]'''<br/><span lang="ja"><span style="font-size:125%;">若槻 禮次郎</span></span><br />{{small|''Wakatsuki Reijirō''<br/>(1866–1949)}}
+|14 April 1931
+|13 December 1931
+|{{age in days|1931|4|14|1931|12|13}}
+| style="background:{{party color|Rikken Minseito}};"|[[Rikken Minseito|Rikken Minseitō]]
+|''28.'' [[:ja:第2次若槻内閣|Wakatsuki II]]
+| —
+|rowspan=2|<ref name="Wakatsuki"/>
+|-
+| colspan="6" style="text-align:left;"|
+|- style="background:#eee;"
+!rowspan=2 style="background:{{party color|Rikken Seiyukai}};"| 18
+|rowspan=2|[[File:Tsuyoshi Inukai facing left cropped.jpg|80px]]
+|rowspan=2|'''[[Inukai Tsuyoshi]]'''<br/><span lang="ja"><span style="font-size:125%;">犬養 毅</span></span><br />{{small|''Inukai Tsuyoshi''<br/>(1855–1932)}}
+|13 December 1931
+|15 May 1932
+|{{age in days|1931|12|13|1932|5|15}}
+| style="background:{{party color|Rikken Seiyukai}};"|[[Rikken Seiyūkai]]
+|''29.'' [[:ja:犬養内閣|Inukai]]
+|[[1932 Japanese general election|1932]]
+|rowspan=2|<ref>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/29.html |script-title=ja:第29代 犬養 毅 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=29th Inukai Tsuyoshi |access-date=24 May 2012}}</ref>
+|-
+| colspan="6" style="text-align:left;"|{{small|Assassinated.}}
+|- style="background:#eee;"
+|colspan=10 | During this interval, Finance Minister [[Takahashi Korekiyo]] (<span lang="ja"><span style="font-size:125%;">高橋 是清</span></span> ''Takahashi Korekiyo'') was the acting prime minister.
+|- style="background:#eee;"
+!rowspan=2 style="background:{{party color|Military (Japan)}};"| 19
+|rowspan=2|[[File:Makoto Saito 2.jpg|80px]]
+|rowspan=2|'''[[Saitō Makoto]]'''<br/><span lang="ja"><span style="font-size:125%;">齋藤 實</span></span><br />{{small|''Saitō Makoto''<br/>(1858–1936)}}
+|26 May 1932
+|8 July 1934
+|{{age in days|1932|5|26|1934|7|8}}
+| style="background:{{party color|Military (Japan)}};"|[[Military of Japan|Military]] {{small|([[Imperial Japanese Navy|Navy]])}}
+|''30.'' [[:ja:齋藤内閣|Saitō]]
+| —
+|rowspan=2|<ref>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/30.html |script-title=ja:第30代 齋藤 實 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=30th Saito Makoto |access-date=24 May 2012}}</ref>
+|-
+| colspan="6" style="text-align:left;"|
+|- style="background:#eee;"
+!rowspan=2 style="background:{{party color|Military (Japan)}};"| 20
+|rowspan=2|[[File:Keisuke Okada 2 cropped.jpg|80px]]
+|rowspan=2|'''[[Keisuke Okada]]'''<br/><span lang="ja"><span style="font-size:125%;">岡田 啓介</span></span><br />{{small|''Okada Keisuke''<br/>(1868–1952)}}
+|8 July 1934
+|9 March 1936
+|{{age in days|1934|7|8|1936|3|9}}
+| style="background:{{party color|Military (Japan)}};"|[[Military of Japan|Military]] {{small|([[Imperial Japanese Navy|Navy]])}}
+|''31.'' [[Okada Cabinet|Okada]]
+|[[1936 Japanese general election|1936]]
+|rowspan=2|<ref>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/31.html |script-title=ja:第31代 岡田 啓介 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=31st Keisuke Okada |access-date=24 May 2012}}</ref>
+|-
+| colspan="6" style="text-align:left;"|{{small|Thought to be killed by renegade soldiers during the [[February 26 Incident]]. Interior Minister [[Fumio Gotō|Gotō Fumio]] served as Deputy Prime Minister until Okada was found alive on 28 February 1936.}}
+|- style="background:#eee;"
+!rowspan=2 style="background:{{party color|Independent (politician)}};"| 21
+|rowspan=2|[[File:Kohki Hirota suit cropped.jpg|80px]]
+|rowspan=2|'''[[Kōki Hirota]]'''<br/><span lang="ja"><span style="font-size:125%;">廣田 弘毅</span></span><br />{{small|''Hirota Kōki''<br/>(1878–1948)}}
+|9 March 1936
+|2 February 1937
+|{{age in days|1936|3|9|1937|2|2}}
+| style="background:{{party color|Independent (politician)}};"|None
+|''32.'' [[:ja:廣田内閣|Hirota]]
+| —
+|rowspan=2|<ref>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/32.html |script-title=ja:第32代 廣田 弘毅 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=32nd Koki Hirota |access-date=24 May 2012}}</ref>
+|-
+| colspan="6" style="text-align:left;"|
+|- style="background:#eee;"
+!rowspan=2 style="background:{{party color|Military (Japan)}};"| 22
+|rowspan=2|[[File:Senjuro Hayashi suit.jpg|80px]]
+|rowspan=2|'''[[Senjūrō Hayashi]]'''<br/><span lang="ja"><span style="font-size:125%;">林 銑十郎</span></span><br />{{small|''Hayashi Senjūrō''<br/>(1876–1943)}}
+|2 February 1937
+|4 June 1937
+|{{age in days|1937|2|2|1937|6|4}}
+| style="background:{{party color|Military (Japan)}};"|[[Military of Japan|Military]] {{small|([[Imperial Japanese Army|Army]])}}
+|''33.'' [[:ja:林内閣|Hayashi]]
+|[[1937 Japanese general election|1937]]
+|rowspan=2|<ref>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/33.html |script-title=ja:第33代 林 銑十郎 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=33rd Senjuro Hayashi |access-date=24 May 2012}}</ref>
+|-
+| colspan="6" style="text-align:left;"|
+|- style="background:#eee;"
+!rowspan=2 style="background:{{party color|Independent (politician)}};"| 23
+|rowspan=2|[[File:Konoe Humimaro.jpg|80px]]
+|rowspan=2|'''[[Fumimaro Konoe]]'''<br/><span lang="ja"><span style="font-size:125%;">近衞 文麿</span></span><br />{{small|''Konoe Fumimaro''<br/>(1891–1945)}}
+|4 June 1937
+|5 January 1939
+|{{age in days|1937|6|4|1939|1|5}}
+| style="background:{{party color|Independent (politician)}};"|None
+|''34.'' [[:ja:第1次近衞内閣|Konoe I]]
+| —
+|rowspan=2|<ref name=Konoe>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/34.html |script-title=ja:第34•38•39代 近衞 文麿 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=34th/38th/39th Fumimaro Konoe |access-date=24 May 2012}}</ref>
+|-
+| colspan="6" style="text-align:left;"|
+|- style="background:#eee;"
+!rowspan=2 style="background:{{party color|Independent (politician)}};"| 24
+|rowspan=2|[[File:Kiichiro Hiranuma.jpg|80px]]
+|rowspan=2|'''[[Hiranuma Kiichirō]]'''<br/><span lang="ja"><span style="font-size:125%;">平沼 騏一郎</span></span><br />{{small|''Hiranuma Kiichirō''<br/>(1867–1952)}}
+|5 January 1939
+|30 August 1939
+|{{age in days|1939|1|5|1939|8|30}}
+| style="background:{{party color|Independent (politician)}};"|None
+|''35.'' [[:ja:平沼内閣|Hiranuma]]
+| —
+|rowspan=2|<ref>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/35.html |script-title=ja:第35代 平沼 騏一郎 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=35th Hiranuma Kiichiro |access-date=24 May 2012}}</ref>
+|-
+| colspan="6" style="text-align:left;"|
+|- style="background:#eee;"
+!rowspan=2 style="background:{{party color|Military (Japan)}};"| 25
+|rowspan=2|[[File:Nobuyuki Abe formal.jpg|80px]]
+|rowspan=2|'''[[Nobuyuki Abe]]'''<br/><span lang="ja"><span style="font-size:125%;">阿部 信行</span></span><br />{{small|''Abe Nobuyuki''<br/>(1875–1953)}}
+|30 August 1939
+|16 January 1940
+|{{age in days|1939|8|30|1940|1|16}}
+| style="background:{{party color|Military (Japan)}};"|[[Military of Japan|Military]] {{small|([[Imperial Japanese Army|Army]])}}
+|''36.'' [[:ja:阿部内閣|Abe N.]]
+| —
+|rowspan=2|<ref>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/36.html |script-title=ja:第36代 阿部 信行 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=36th Nobuyuki Abe |access-date=24 May 2012}}</ref>
+|-
+| colspan="6" style="text-align:left;"|
+|- style="background:#eee;"
+!rowspan=2 style="background:{{party color|Military (Japan)}};"| 26
+|rowspan=2|[[File:Yonai Mitsumasa.jpg|80px]]
+|rowspan=2|'''[[Mitsumasa Yonai]]'''<br/><span lang="ja"><span style="font-size:125%;">米内 光政</span></span><br />{{small|''Yonai Mitsumasa''<br/>(1880–1948)}}
+|16 January 1940
+|22 July 1940
+|{{age in days|1940|1|16|1940|7|22}}
+| style="background:{{party color|Military (Japan)}};"|[[Military of Japan|Military]] {{small|([[Imperial Japanese Navy|Navy]])}}
+|''37.'' [[:ja:米内内閣|Yonai]]
+| —
+|rowspan=2|<ref>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/37.html |script-title=ja:第37代 米内 光政 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=37th Mitsumasa Yonai |access-date=24 May 2012}}</ref>
+|-
+| colspan="6" style="text-align:left;"|
+|- style="background:#eee;"
+!rowspan=3 style="background:{{party color|Taisei Yokusankai}}; color:white;"|{{small|(23)}}
+|rowspan=3|[[File:Konoe Humimaro.jpg|80px]]
+|rowspan=3|'''[[Fumimaro Konoe]]'''<br/><span lang="ja"><span style="font-size:125%;">近衞 文麿</span></span><br />{{small|''Konoe Fumimaro''<br/>(1891–1945)}}
+|22 July 1940
+|18 July 1941
+|rowspan=2|{{age in days|1940|7|22|1941|10|18}}
+|rowspan=2 style="background:{{party color|Taisei Yokusankai}};"|[[Taisei Yokusankai|{{color|lightgrey|Taisei Yokusankai}}]]
+|''38.'' [[:ja:第2次近衞内閣|Konoe II]]
+| —
+|rowspan=3|<ref name="Konoe"/>
+|- style="background:#eee;"
+|18 July 1941
+|18 October 1941
+|''39.'' [[:ja:第3次近衞内閣|Konoe III]]
+| —
+|-
+| colspan="6" style="text-align:left;"|
+|- style="background:#eee;"
+!rowspan=2 style="background:{{party color|Taisei Yokusankai}}; color:white;"| 27
+|rowspan=2|[[File:Hideki Tōjō.jpg|80px]]
+|rowspan=2|'''[[Hideki Tōjō]]'''<br/><span lang="ja"><span style="font-size:125%;">東條 英機</span></span><br />{{small|''Tōjō Hideki''<br/>(1884–1948)}}
+|18 October 1941
+|22 July 1944
+|{{age in days|1941|10|18|1944|7|22}}
+| style="background:{{party color|Taisei Yokusankai}};"|[[Taisei Yokusankai|{{color|lightgrey|Taisei Yokusankai}}]]
+|''40.'' [[:ja:東條内閣|Tōjō]]
+|[[1942 Japanese general election|1942]]
+|rowspan=2|<ref>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/40.html |script-title=ja:第40代 東條 英機 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=40th Hideki Tojo |access-date=24 May 2012}}</ref>
+|-
+| colspan="6" style="text-align:left;"|
+|- style="background:#eee;"
+!rowspan=2 style="background:{{party color|Military (Japan)}};"| 28
+|rowspan=2|[[File:Kuniaki Koiso.jpg|80px]]
+|rowspan=2|'''[[Kuniaki Koiso]]'''<br/><span lang="ja"><span style="font-size:125%;">小磯 國昭</span></span><br />{{small|''Koiso Kuniaki''<br/>(1880–1950)}}
+|22 July 1944
+|7 April 1945
+|{{age in days|1944|7|22|1945|4|7}}
+| style="background:{{party color|Military (Japan)}};"|[[Military of Japan|Military]] {{small|([[Imperial Japanese Army|Army]])}}
+|''41.'' [[:ja:小磯内閣|Koiso]]
+| —
+|rowspan=2|<ref>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/41.html |script-title=ja:第41代 小磯 國昭 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=41st Kuniaki Koiso |access-date=24 May 2012}}</ref>
+|-
+| colspan="6" style="text-align:left;"|
+|- style="background:#eee;"
+!rowspan=2 style="background:{{party color|Taisei Yokusankai}}; color:white;"| 29
+|rowspan=2|[[File:Kantaro Suzuki suit cropped.jpg|80px]]
+|rowspan=2|'''[[Kantarō Suzuki]]'''<br/><span lang="ja"><span style="font-size:125%;">鈴木 貫太郎</span></span><br />{{small|''Suzuki Kantarō''<br/>(1868–1948)}}
+|7 April 1945
+|17 August 1945
+|{{age in days|1945|4|7|1945|8|17}}
+| style="background:{{party color|Taisei Yokusankai}};"|[[Taisei Yokusankai|{{color|lightgrey|Taisei Yokusankai}}]]
+|''42.'' [[:ja:鈴木貫太郎内閣|Suzuki K.]]
+| —
+|rowspan=2|<ref>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/42.html |script-title=ja:第42代 鈴木 貫太郎 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=42nd Kantaro Suzuki |access-date=24 May 2012}}</ref>
+|-
+| colspan="6" style="text-align:left;"|
+|- style="background:#eee;"
+!rowspan=2 style="background:#be0026;"| 30
+|rowspan=2|[[File:HIH Prince Naruhiko of Higashikuni.jpg|80px]]
+|rowspan=2 nowrap|'''[[Prince Naruhiko Higashikuni|Higashikuni Naruhiko]]'''<br/><span lang="ja"><span style="font-size:125%;">東久邇宮 稔彦 王</span></span><br />{{small|''Higashikuni no miya Naruhiko ō''<br/>(1887–1990)}}
+|17 August 1945
+|9 October 1945
+|{{age in days|1945|8|17|1945|10|9}}
+| style="background:#be0026;"|[[Imperial House of Japan|Imperial Family]]
+|''43.'' [[:ja:東久邇宮内閣|Higashikuni]]
+| —
+|rowspan=2|<ref>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/43.html |script-title=ja:第43代 東久邇宮 稔彦 王 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=43rd Higashikuni Naruhiko |access-date=24 May 2012 |archive-url=https://web.archive.org/web/20150323170419/http://www.kantei.go.jp/jp/rekidai/souri/43.html |archive-date=23 March 2015 |url-status=dead }}</ref>
+|-
+| colspan="6" style="text-align:left;"| {{small|The only member of the Imperial Family to serve as Prime Minister.}}
+|- style="background:#eee;"
+!rowspan=2 style="background:{{party color|Independent (politician)}};"| 31
+|rowspan=2|[[File:Prime_Minister_Kijūrō_Shidehara.jpg|80px]]
+|rowspan=2|'''[[Kijūrō Shidehara]]'''<br/><span lang="ja"><span style="font-size:125%;">幣原 喜重郎</span></span><br />{{small|''Shidehara Kijūrō''<br/>(1872–1951)}}
+|9 October 1945
+|22 May 1946
+|{{age in days|1945|10|9|1946|5|22}}
+| style="background:{{party color|Independent (politician)}};"|None
+|''44.'' [[:ja:幣原内閣|Shidehara]]
+| —
+|rowspan=2|<ref>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/44.html |script-title=ja:第44代 幣原 喜重郎 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=44th Kijuro Shidehara |access-date=24 May 2012}}</ref>
+|-
+| colspan="6" style="text-align:left;"|
+|- style="background:#eee;"
+!rowspan=2 style="background:{{party color|Liberal Party}}; color:black;"| 32
+|rowspan=2|[[File:Shigeru Yoshida smiling2.jpg|80px]]
+|rowspan=2|'''[[Shigeru Yoshida]]'''<br/><span lang="ja"><span style="font-size:125%;">吉田 茂</span></span><br />{{small|''Yoshida Shigeru''<br/>(1878–1967)}}
+|22 May 1946
+|24 May 1947
+|{{age in days|1946|5|22|1947|5|24}}
+| style="background:{{party color|Liberal Party}}; color:black;"|[[Liberal Party (Japan, 1945)|{{color|lightgrey|Japan Liberal}}]]
+|''45.'' [[:ja:第1次吉田内閣|Yoshida I]]
+|[[1946 Japanese general election|1946]]
+|rowspan=2|<ref name=Yoshida>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/45.html |script-title=ja:第45•48•49•50•51代 吉田 茂 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=45th/48th/49th/50th/51st Shigeru Yoshida |access-date=24 May 2012}}</ref>
+|-
+| colspan="6" style="text-align:left;"|
+|}
+
+===Shōwa period under 1947 Constitution (1947–1989)===
+''Prime Ministers of [[Hirohito|Emperor Shōwa]] under [[Constitution of Japan|1947 Constitution]]''
+{|class="wikitable"  style="text-align:center"  width="100%"
+|-
+!rowspan=2 style="width:25px;"|No.
+!colspan=2 style="width:280px;"|Prime Minister
+!colspan=3|Term of office
+! style="width:100px;" rowspan="2"|Political Party
+! style="width:160px;" rowspan="2"|Government
+!colspan=2|Elected
+!rowspan=2 style="width:20px;"|Ref
+|-
+!Portrait
+!width=180px|Name<br /><small>(Birth–Death)</small>
+!Took office
+!Left office
+!Days
+!Gen.
+!Coun.
+|- bgcolor=#EEEEEE
+!rowspan=2 style="background:{{party color|Japan Socialist Party}}; color:white"|33
+|rowspan=2|[[File:Tetsu Katayama.jpg|80px]]
+|rowspan=2|'''[[Tetsu Katayama]]'''<br/><span lang="ja"><span style="font-size:125%;">片山 哲</span></span><br />{{small|''Katayama Tetsu''<br/>(1887–1978)<br/>Rep for [[Kanagawa 3rd district (1947–1993)|Kanagawa 3rd]]}}
+|24 May 1947
+|10 March 1948
+|{{age in days|1947|5|24|1948|3|10}}
+| style="background:{{party color|Japan Socialist Party}};"|[[Japan Socialist Party|{{color|white|JSP<br/><small>Nihon Shakaitō</small>}}]]
+|''46.'' [[:ja:片山内閣|Katayama]]<br/>{{small|[[Japan Socialist Party|JSP]]–[[Democratic Party (Japan, 1947)|DP]]–[[:ja:国民協同党|PCP]]}}
+|[[Japanese general election, 1947|1947]]
+|[[Japanese House of Councillors election, 1947|1947]]
+|rowspan=2|<ref>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/46.html |script-title=ja:第46代 片山 哲 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=46th Tetsu Katayama |access-date=24 May 2012}}</ref>
+|-
+|colspan=7 align=left| {{small|Under [[Occupation of Japan|Allied Occupation]]. The first prime minister and the first socialist to serve as Prime Minister of Japan. Member of Diet from 1930 to 1963. Formed a coalition government with the [[Democratic Party (Japan, 1947)|Democratic Party]] and the [[National Cooperative Party]].}}
+|- bgcolor=#EEEEEE
+!rowspan=2 style="background:{{party color|Democratic Party (Japan, 1947)}}; color:white"| 34
+|rowspan=2|[[File:Hitoshi Ashida.jpg|80px]]
+|rowspan=2|'''[[Hitoshi Ashida]]'''<br/><span lang="ja"><span style="font-size:125%;">芦田 均</span></span><br />{{small|''Ashida Hitoshi''<br/>(1887–1959)<br/>Rep for [[Kyoto 2nd district (1947–1993)|Kyōto 2nd]]}}
+|10 March 1948
+|15 October 1948
+|{{age in days|1948|3|10|1948|10|15}}
+| style="background:{{party color|Democratic Party (Japan, 1947)}};"|[[Democratic Party (Japan, 1947)|{{color|white|DP<br/><small>Minshutō</small>}}]]
+|''47.'' [[:ja:芦田内閣|Ashida]]<br/>{{small|[[Democratic Party (Japan, 1947)|DP]]–[[Japan Socialist Party|JSP]]–[[:ja:国民協同党|PCP]]}}
+| —
+| —
+|rowspan=2|<ref>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/47.html |script-title=ja:第47代 芦田 均 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=47th Hitoshi Ashida |access-date=24 May 2012}}</ref>
+|-
+|colspan=7 align=left| {{small|Under [[Occupation of Japan|Allied Occupation]]. Ashida's cabinet resigned after seven months in office, due to alleged ministerial corruption in the Showa Electric scandal.}}
+|- bgcolor=#EEEEEE
+!rowspan=5 style="background:{{party color|Democratic Liberal Party (Japan)}};"|{{small|(32)}}
+|rowspan=5|[[File:Shigeru Yoshida smiling2.jpg|80px]]
+|rowspan=5|'''[[Shigeru Yoshida]]'''<br/><span lang="ja"><span style="font-size:125%;">吉田 茂</span></span><br />{{small|''Yoshida Shigeru''<br/>(1878–1967)<br/>Rep for [[Kōchi at-large district (House of Representatives)|Kōchi at-large]]}}
+|15 October 1948
+|16 February 1949
+|rowspan=4|{{age in days|1948|10|15|1954|12|10}}
+|rowspan=4 style="background:{{party color|Democratic Liberal Party (Japan)}};"|[[Democratic Liberal Party (Japan)|DLP<br /><small>Minshu Jiyūtō</small>]]<br /><small>(until 1950);</small><br />[[Liberal Party (Japan, 1950)|Liberal<br/><small>Jiyūtō</small>]]
+|''48.'' [[:ja:第2次吉田内閣|Yoshida II]]<br/>{{small|[[Democratic Liberal Party (Japan)|DLP]]}}
+| —
+| —
+|rowspan=5|<ref name="Yoshida"/>
+|- bgcolor=#EEEEEE
+|16 February 1949
+|30 October 1952
+|''49.'' [[:ja:第3次吉田内閣|Yoshida III]]<br/>{{small|([[:ja:第3次吉田内閣 (第1次改造)|Reshuffle 1]] · [[:ja:第3次吉田内閣 (第2次改造)|2]] · [[:ja:第3次吉田内閣 (第3次改造)|3]])<br/>[[Democratic Liberal Party (Japan)|DLP]]/[[Liberal Party (Japan, 1950)|Liberal]]–[[Democratic Party (Japan, 1947)|DP]]}}
+|[[Japanese general election, 1949|1949]]
+|[[Japanese House of Councillors election, 1950|1950]]
+|- bgcolor=#EEEEEE
+|30 October 1952
+|21 May 1953
+|''50.'' [[:ja:第4次吉田内閣|Yoshida IV]]<br/>{{small|[[Liberal Party (Japan, 1950)|Liberal]]}}
+|[[Japanese general election, 1952|1952]]
+| —
+|- bgcolor=#EEEEEE
+|21 May 1953
+|10 December 1954
+|''51.'' [[:ja:第5次吉田内閣|Yoshida V]]<br/>{{small|[[Liberal Party (Japan, 1950)|Liberal]]}}
+|[[Japanese general election, 1953|1953]]
+|[[Japanese House of Councillors election, 1953|1953]]
+|-
+|colspan=7 align=left| {{small|Under [[Occupation of Japan|Allied Occupation]] until the [[Treaty of San Francisco]] came into force on 28 April 1952. Developed the [[Yoshida Doctrine]], prioritising economic development and reliance on [[United States]] military protection.}}
+|- bgcolor=#EEEEEE
+!rowspan=2 style="border-bottom:solid 0 gray; background:{{party color|Japan Democratic Party (1954)}}; color:white" valign=bottom| 35
+|rowspan=4|[[File:Hatoyama Ichirō.jpg|80px]]
+|rowspan=4 style="border-bottom:solid 0 gray;|'''[[Ichirō Hatoyama]]'''<br/><span lang="ja"><span style="font-size:125%;">鳩山 一郎</span></span><br />{{small|Hatoyama Ichirō<br/>(1883–1959)<br/>Rep for [[Tokyo 1st district (1947–1993)|Tokyo 1st]]}}
+|10 December 1954
+|19 March 1955
+|rowspan=3|{{age in days|1954|12|10|1956|12|23}}
+|rowspan=2 style="background:{{party color|Japan Democratic Party (1954)}};"|[[Japan Democratic Party (1954)|{{color|white|JDP<br/><small>Nihon Minshutō</small>}}]]
+|''52.'' [[:ja:第1次鳩山一郎内閣|Hatoyama I. I]]<br/>{{small|[[Japan Democratic Party (1954)|JDP]]}}
+| —
+| —
+|rowspan=4|<ref>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/52.html |script-title=ja:第52•53•54代 鳩山 一郎 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=52nd/53rd/54th Sosuke Uno |access-date=24 May 2012}}</ref>
+|- bgcolor=#EEEEEE
+|19 March 1955
+|22 November 1955
+|''53.'' [[:ja:第2次鳩山一郎内閣|Hatoyama I. II]]<br/>{{small|[[Japan Democratic Party (1954)|JDP]]}}
+|[[Japanese general election, 1955|1955]]
+| —
+|- bgcolor=#EEEEEE
+!rowspan=2 style="border-top:solid 0 gray; background:{{party color|Liberal Democratic Party (Japan)}};"|
+|22 November 1955
+|23 December 1956
+| style="background:{{party color|Liberal Democratic Party (Japan)}};"|[[Liberal Democratic Party (Japan)|{{color|lightgrey|LDP<br/><small>Jimintō</small>}}]]
+|''54.'' [[:ja:第3次鳩山一郎内閣|Hatoyama I. III]]<br/>{{small|[[Liberal Democratic Party (Japan)|LDP]]}}
+| —
+| —
+|-
+|colspan=7 align=left| {{small|Rebuilt diplomatic ties with the [[Soviet Union]]. Favored parole for some of the Class A war criminals who had been sentenced to life imprisonment at the [[Tokyo Trial]].}}
+|- bgcolor=#EEEEEE
+!rowspan=2 style="background:{{party color|Liberal Democratic Party (Japan)}}; color:white"| 36
+|rowspan=2|[[File:Tanzan Ishibashi.jpg|80px]]
+|rowspan=2|'''[[Tanzan Ishibashi]]'''<br/><span lang="ja"><span style="font-size:125%;">石橋 湛山</span></span><br />{{small|''Ishibashi Tanzan''<br/>(1884–1973)<br/>Rep for [[Shizuoka 2nd district (1947–1993)|Shizuoka 2nd]]}}
+|23 December 1956
+|25 February 1957
+|{{age in days|1956|12|23|1957|2|25}}
+| style="background:{{party color|Liberal Democratic Party (Japan)}};"|[[Liberal Democratic Party (Japan)|{{color|lightgrey|LDP<br/><small>Jimintō</small>}}]]
+|''55.'' [[:ja:石橋内閣|Ishibashi]]<br/>{{small|[[Liberal Democratic Party (Japan)|LDP]]}}
+| —
+|[[Japanese House of Councillors election, 1956|1956]]
+|rowspan=2|<ref>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/55.html |script-title=ja:第55代 石橋 湛山 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=55th Tanzan Ishibashi |access-date=24 May 2012}}</ref>
+|-
+|colspan=7 align=left|{{small|Incapacitated due to minor stroke on 31 January 1957. Foreign Minister [[Nobusuke Kishi|Kishi Nobusuke]] served as Deputy Prime Minister until 25 February 1957.}}
+|- bgcolor=#EEEEEE
+!rowspan=3 style="background:{{party color|Liberal Democratic Party (Japan)}}; color:white"| 37
+|rowspan=3|[[File:Nobusuke Kishi.jpg|80px]]
+|rowspan=3|'''[[Nobusuke Kishi]]'''<br/><span lang="ja"><span style="font-size:125%;">岸 信介</span></span><br />{{small|''Kishi Nobusuke''<br/>(1896–1987)<br/>Rep for [[Yamaguchi 1st district (1947–1993)|Yamaguchi 1st]]}}
+|25 February 1957
+|12 June 1958
+|rowspan=2|{{age in days|1957|2|25|1960|7|19}}
+|rowspan=2 style="background:{{party color|Liberal Democratic Party (Japan)}};"|[[Liberal Democratic Party (Japan)|{{color|lightgrey|LDP<br/><small>Jimintō</small>}}]]
+|''56.'' [[:ja:第1次岸内閣|Kishi I]]<br/>{{small|([[:ja:第1次岸内閣 (改造)|Reshuffle]])<br/>[[Liberal Democratic Party (Japan)|LDP]]}}
+| —
+| —
+|rowspan=3|<ref>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/56.html |script-title=ja:第56•57代 岸信介 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=56th/57th Nobusuke Kishi |access-date=24 May 2012}}</ref>
+|- bgcolor=#EEEEEE
+|12 June 1958
+|19 July 1960
+|''57.'' [[:ja:第2次岸内閣|Kishi II]]<br/>{{small|([[:ja:第2次岸内閣 (改造)|Reshuffle]])<br/>[[Liberal Democratic Party (Japan)|LDP]]}}
+|[[Japanese general election, 1958|1958]]
+|[[Japanese House of Councillors election, 1959|1959]]
+|-
+|colspan=7 align=left|
+|- bgcolor=#EEEEEE
+!rowspan=4 style="background:{{party color|Liberal Democratic Party (Japan)}}; color:white"| 38
+|rowspan=4|[[File:Hayato Ikeda.jpg|80px]]
+|rowspan=4|'''[[Hayato Ikeda]]'''<br/><span lang="ja"><span style="font-size:125%;">池田 勇人</span></span><br />{{small|''Ikeda Hayato''<br/>(1899–1965)<br/>Rep for [[Hiroshima 2nd district (1947–1993)|Hiroshima 2nd]]}}
+|19 July 1960
+|8 December 1960
+|rowspan=3|{{age in days|1960|7|19|1964|11|9}}
+|rowspan=3 style="background:{{party color|Liberal Democratic Party (Japan)}};"|[[Liberal Democratic Party (Japan)|{{color|lightgrey|LDP<br/><small>Jimintō</small>}}]]
+|''58.'' [[:ja:第1次池田内閣|Ikeda I]]<br/>{{small|[[Liberal Democratic Party (Japan)|LDP]]}}
+| —
+| —
+|rowspan=4|<ref>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/58.html |script-title=ja:第58•59•60代 池田 勇人 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=58th/59th/60th Hayato Ikeda |access-date=24 May 2012}}</ref>
+|- bgcolor=#EEEEEE
+|8 December 1960
+|9 December 1963
+|''59.'' [[:ja:第2次池田内閣|Ikeda II]]<br/>{{small|([[:ja:第2次池田内閣 (第1次改造)|Reshuffle 1]] · [[:ja:第2次池田内閣 (第2次改造)|2]] · [[:ja:第2次池田内閣 (第3次改造)|3]])<br/>[[Liberal Democratic Party (Japan)|LDP]]}}
+|[[Japanese general election, 1960|1960]]
+|[[Japanese House of Councillors election, 1962|1962]]
+|- bgcolor=#EEEEEE
+|9 December 1963
+|9 November 1964
+|''60.'' [[:ja:第3次池田内閣|Ikeda III]]<br/>{{small|([[:ja:第3次池田内閣 (改造)|Reshuffle]])<br/>[[Liberal Democratic Party (Japan)|LDP]]}}
+|[[Japanese general election, 1963|1963]]
+| —
+|-
+|colspan=7 align=left|
+|- bgcolor=#EEEEEE
+!rowspan=4 style="background:{{party color|Liberal Democratic Party (Japan)}}; color:white"| 39
+|rowspan=4|[[File:Eisaku Sato 19641109.jpg|80px]]
+|rowspan=4|'''[[Eisaku Satō]]'''<br/><span lang="ja"><span style="font-size:125%;">佐藤 榮作</span></span><br />{{small|''Satō Eisaku''<br/>(1901–1975)<br/>Rep for [[Yamaguchi 2nd district (1947–1993)|Yamaguchi 2nd]]}}
+|9 November 1964
+|17 February 1967
+|rowspan=3|{{age in days|1964|11|9|1972|7|7}}
+|rowspan=3 style="background:{{party color|Liberal Democratic Party (Japan)}};"|[[Liberal Democratic Party (Japan)|{{color|lightgrey|LDP<br/><small>Jimintō</small>}}]]
+|''61.'' [[:ja:第1次佐藤内閣|Satō I]]<br/>{{small|([[:ja:第1次佐藤内閣 (第1次改造)|Reshuffle 1]] · [[:ja:第1次佐藤内閣 (第2次改造)|2]] · [[:ja:第1次佐藤内閣 (第3次改造)|3]])<br/>[[Liberal Democratic Party (Japan)|LDP]]}}
+| —
+|[[Japanese House of Councillors election, 1965|1965]]
+|rowspan=4|<ref>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/61.html |script-title=ja:第61•62•63代 佐藤 榮作 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=61st/62nd/63rd Eisaku Sato |access-date=24 May 2012 |archive-url=https://web.archive.org/web/20090830062419/http://www.kantei.go.jp/jp/rekidai/souri/61.html |archive-date=30 August 2009 |url-status=dead }}</ref>
+|- bgcolor=#EEEEEE
+|17 February 1967
+|14 January 1970
+|''62.'' [[:ja:第2次佐藤内閣|Satō II]]<br/>{{small|([[:ja:第2次佐藤内閣 (第1次改造)|Reshuffle 1]] · [[:ja:第2次佐藤内閣 (第2次改造)|2]])<br/>[[Liberal Democratic Party (Japan)|LDP]]}}
+|[[Japanese general election, 1967|1967]]
+|[[Japanese House of Councillors election, 1968|1968]]
+|- bgcolor=#EEEEEE
+|14 January 1970
+|7 July 1972
+|''63.'' [[:ja:第3次佐藤内閣|Satō III]]<br/>{{small|([[:ja:第3次佐藤内閣 (改造)|Reshuffle]])}}
+|[[Japanese general election, 1969|1969]]
+|[[Japanese House of Councillors election, 1971|1971]]
+|-
+|colspan=7 align=left|
+|- bgcolor=#EEEEEE
+!rowspan=3 style="background:{{party color|Liberal Democratic Party (Japan)}}; color:white"| 40
+|rowspan=3|[[File:Kakuei Tanaka 19720707.jpg|80px]]
+|rowspan=3|'''[[Kakuei Tanaka]]'''<br/><span lang="ja"><span style="font-size:125%;">田中 角榮</span></span><br />{{small|''Tanaka Kakuei''<br/>(1918–1993)<br/>Rep for [[Niigata 3rd district (1947–1993)|Niigata 3rd]]}}
+|7 July 1972
+|22 December 1972
+|rowspan=2|{{age in days|1972|7|7|1974|12|9}}
+|rowspan=2 style="background:{{party color|Liberal Democratic Party (Japan)}};"|[[Liberal Democratic Party (Japan)|{{color|lightgrey|LDP<br/><small>Jimintō</small>}}]]
+|''64.'' [[:ja:第1次田中角榮内閣|Tanaka K. I]]<br/>{{small|[[Liberal Democratic Party (Japan)|LDP]]}}
+| —
+| —
+|rowspan=3|<ref>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/64.html |script-title=ja:第64•65代 田中 角榮 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=64th/65th Kakuei Tanaka |access-date=24 May 2012}}</ref>
+|- bgcolor=#EEEEEE
+|22 December 1972
+|9 December 1974
+|''65.'' [[:ja:第2次田中角榮内閣|Tanaka K. II]]<br/>{{small|([[:ja:第2次田中角榮内閣 (第1次改造)|Reshuffle 1]] · [[:ja:第2次田中角榮内閣 (第2次改造)|2]])<br/>[[Liberal Democratic Party (Japan)|LDP]]}}
+|[[Japanese general election, 1972|1972]]
+| —
+|-
+|colspan=7 align=left|{{small|resigned in the midst of scandal. Later, "[[shadow shogun]]".}}
+|colspan=7 align=left|
+|- bgcolor=#EEEEEE
+!rowspan=2 style="background:{{party color|Liberal Democratic Party (Japan)}}; color:white"| 41
+|rowspan=2|[[File:Takeo Miki 19741209.jpg|80px]]
+|rowspan=2|'''[[Takeo Miki]]'''<br/><span lang="ja"><span style="font-size:125%;">三木 武夫</span></span><br />{{small|''Miki Takeo''<br/>(1907–1988)<br/>Rep for [[Tokushima at-large district (House of Representatives)|Tokushima at-large]]}}
+|9 December 1974
+|24 December 1976
+|{{age in days|1974|12|9|1976|12|24}}
+| style="background:{{party color|Liberal Democratic Party (Japan)}};"|[[Liberal Democratic Party (Japan)|{{color|lightgrey|LDP<br/><small>Jimintō</small>}}]]
+|''66.'' [[:ja:三木内閣|Miki]]<br/>{{small|([[:ja:三木内閣 (改造)|Reshuffle]])<br/>[[Liberal Democratic Party (Japan)|LDP]]}}
+| —
+|[[Japanese House of Councillors election, 1974|1974]]
+|rowspan=2|<ref>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/66.html |script-title=ja:第66代 三木 武夫 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=66th Takeo Miki |access-date=24 May 2012}}</ref>
+|-
+|colspan=7 align=left|
+|- bgcolor=#EEEEEE
+!rowspan=2 style="background:{{party color|Liberal Democratic Party (Japan)}}; color:white"| 42
+|rowspan=2|[[File:Takeo Fukuda 19761224.jpg|80px]]
+|rowspan=2|'''[[Takeo Fukuda]]'''<br/><span lang="ja"><span style="font-size:125%;">福田 赳夫</span></span><br />{{small|''Fukuda Takeo''<br/>(1905–1995)<br/>Rep for [[Gunma 3rd district (1947–1993)|Gunma 3rd]]}}
+|24 December 1976
+|7 December 1978
+|{{age in days|1976|12|24|1978|12|7}}
+| style="background:{{party color|Liberal Democratic Party (Japan)}};"|[[Liberal Democratic Party (Japan)|{{color|lightgrey|LDP<br/><small>Jimintō</small>}}]]
+|''67.'' [[:ja:福田赳夫内閣|Fukuda T.]]<br/>{{small|([[:ja:福田赳夫内閣 (改造)|Reshuffle]])<br/>[[Liberal Democratic Party (Japan)|LDP]]}}
+|[[Japanese general election, 1976|1976]]
+|[[Japanese House of Councillors election, 1977|1977]]
+|rowspan=2|<ref>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/67.html |script-title=ja:第67代 福田 赳夫 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=67th Takeo Fukuda |access-date=24 May 2012}}</ref>
+|-
+|colspan=7 align=left|
+|- bgcolor=#EEEEEE
+!rowspan=3 style="background:{{party color|Liberal Democratic Party (Japan)}}; color:white"| 43
+|rowspan=3|[[File:Masayoshi Ohira 19790120.jpg|80px]]
+|rowspan=3|'''[[Masayoshi Ōhira]]'''<br/><span lang="ja"><span style="font-size:125%;">大平 正芳</span></span><br />{{small|''Ōhira Masayoshi''<br/>(1910–1980)<br/>Rep for [[Kagawa 2nd district (1947–1993)|Kagawa 2nd]]}}
+|7 December 1978
+|9 November 1979
+|rowspan=2|{{age in days|1978|12|7|1980|6|12}}
+|rowspan=2 style="background:{{party color|Liberal Democratic Party (Japan)}};"|[[Liberal Democratic Party (Japan)|{{color|lightgrey|LDP<br/><small>Jimintō</small>}}]]
+|''68.'' [[:ja:第1次大平内閣|Ōhira I]]<br/>{{small|[[Liberal Democratic Party (Japan)|LDP]]}}
+| —
+| —
+|rowspan=3|<ref>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/68.html |script-title=ja:第68•69代 大平 正芳 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=68/69th Masayoshi Ohira |access-date=24 May 2012}}</ref>
+|- bgcolor=#EEEEEE
+|9 November 1979
+|12 June 1980
+|''69.'' [[:ja:第2次大平内閣|Ōhira II]]<br/>{{small|[[Liberal Democratic Party (Japan)|LDP]]}}
+|[[Japanese general election, 1979|1979]]
+| —
+|-
+|colspan=7 align=left|{{small|Died in office of natural causes.}}
+|- bgcolor=#EEEEEE
+|colspan=11 | During this interval, Chief Cabinet Secretary [[Masayoshi Ito]] (<span lang="ja"><span style="font-size:125%;">伊東 正義</span></span> ''Itō Masayoshi'') was the acting prime minister.
+|- bgcolor=#EEEEEE
+!rowspan=2 style="background:{{party color|Liberal Democratic Party (Japan)}}; color:white"| 44
+|rowspan=2|[[File:Zenko Suzuki 19800717.jpg|80px]]
+|rowspan=2|'''[[Zenkō Suzuki]]'''<br/><span lang="ja"><span style="font-size:125%;">鈴木 善幸</span></span><br />{{small|''Suzuki Zenkō''<br/>(1911–2004)<br/>Rep for [[Iwate 1st district (1947–1993)|Iwate 1st]]}}
+|17 July 1980
+|27 November 1982
+|{{age in days|1980|7|17|1982|11|27}}
+| style="background:{{party color|Liberal Democratic Party (Japan)}};"|[[Liberal Democratic Party (Japan)|{{color|lightgrey|LDP<br/><small>Jimintō</small>}}]]
+|''70.'' [[:ja:鈴木善幸内閣|Suzuki Z.]]<br/>{{small|([[:ja:鈴木善幸内閣 (改造)|Reshuffle]])<br/>[[Liberal Democratic Party (Japan)|LDP]]}}
+|[[Japanese general election, 1980|1980]]
+|[[Japanese House of Councillors election, 1980|1980]]
+|rowspan=2|<ref>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/70.html |script-title=ja:第70代 鈴木 善幸 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=70th Zenkō Suzuki |access-date=24 May 2012}}</ref>
+|-
+|colspan=7 align=left|
+|- bgcolor=#EEEEEE
+!rowspan=4 style="background:{{party color|Liberal Democratic Party (Japan)}}; color:white"| 45
+|rowspan=4|[[File:Yasuhiro Nakasone 19821127.jpg|80px]]
+|rowspan=4|'''[[Yasuhiro Nakasone]]'''<br/><span lang="ja"><span style="font-size:125%;">中曽根　康弘</span></span><br />{{small|''Nakasone Yasuhiro''<br/>(1918–2019)<br/>Rep for [[Gunma 3rd district (1947–1993)|Gunma 3rd]]}}
+|27 November 1982
+|27 December 1983
+|rowspan=3|{{age in days|1982|11|27|1987|11|6}}
+|rowspan=3 style="background:{{party color|Liberal Democratic Party (Japan)}};"|[[Liberal Democratic Party (Japan)|{{color|lightgrey|LDP<br/><small>Jimintō</small>}}]]
+|''71.'' [[:ja:第1次中曾根内閣|Nakasone I]]<br/>{{small|[[Liberal Democratic Party (Japan)|LDP]]}}
+| —
+| —
+|rowspan=4|<ref>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/71.html |script-title=ja:第71•72•73代 中曽根 康弘 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=71st/72nd/73rd Yasuhiro Nakasone |access-date=24 May 2012}}</ref>
+|- bgcolor=#EEEEEE
+|27 December 1983
+|22 July 1986
+|''72.'' [[:ja:第2次中曾根内閣|Nakasone II]]<br/>{{small|([[:ja:第2次中曾根内閣 (第1次改造)|Reshuffle 1]] · [[:ja:第2次中曾根内閣 (第2次改造)|2]])<br/>[[Liberal Democratic Party (Japan)|LDP]]–[[New Liberal Club|NLC]]}}
+|[[Japanese general election, 1983|1983]]
+|[[Japanese House of Councillors election, 1983|1983]]
+|- bgcolor=#EEEEEE
+|22 July 1986
+|6 November 1987
+|''73.'' [[:ja:第3次中曾根内閣|Nakasone III]]<br/>{{small|[[Liberal Democratic Party (Japan)|LDP]]}}
+|[[Japanese general election, 1986|1986]]
+|[[Japanese House of Councillors election, 1986|1986]]
+|-
+|colspan=7 align=left|
+|- bgcolor=#EEEEEE
+!rowspan=2 style="background:{{party color|Liberal Democratic Party (Japan)}}; color:white"| 46
+|rowspan=2|[[File:Noboru Takeshita 19871106.jpg|80px]]
+|rowspan=2|'''[[Noboru Takeshita]]'''<br/><span lang="ja"><span style="font-size:125%;">竹下 登</span></span><br />{{small|''Takeshita Noboru''<br/>(1924–2000)<br/>Rep for [[Shimane at-large district (House of Representatives)|Shimane at-large]]}}
+|6 November 1987
+|3 June 1989
+|{{age in days|1987|11|6|1989|6|3}}
+| style="background:{{party color|Liberal Democratic Party (Japan)}};"|[[Liberal Democratic Party (Japan)|{{color|lightgrey|LDP<br/><small>Jimintō</small>}}]]
+|''74.'' [[:ja:竹下内閣|Takeshita]]<br/>{{small|([[:ja:竹下内閣 (改造)|Reshuffle]])<br/>[[Liberal Democratic Party (Japan)|LDP]]}}
+| —
+| —
+|rowspan=2|<ref>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/74.html |script-title=ja:第74代 竹下 登 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=74th Noboru Takeshita |access-date=24 May 2012}}</ref>
+|-
+|colspan=7 align=left|{{small|The [[Recruit scandal]] forced his resignation in 1989. Later "Shadow Shogun."}}
+|}
+
+===Heisei period (1989–2019)===
+
+''Prime Ministers of Emperor [[Akihito]]''
+{|class="wikitable"  style="text-align:center"  width="100%"
+|-
+!rowspan=2 style="width:25px;"|No.
+!colspan=2 style="width:280px;"|Prime Minister
+!colspan=3|Term of office
+! style="width:100px;" rowspan="2"|Political Party
+! style="width:160px;" rowspan="2"|Government
+!colspan=2|Elected
+!rowspan=2 style="width:20px;"|Ref
+|-
+!Portrait
+!width=180px|Name<br /><small>(Birth–Death)</small>
+!Took office
+!Left office
+!Days
+!Gen.
+!Coun.
+|- bgcolor=#EEEEEE
+!rowspan=2 style="background:{{party color|Liberal Democratic Party (Japan)}}; color:white"| 47
+|rowspan=2|[[File:Sosuke Uno 19890603.jpg|80px]]
+|rowspan=2|'''[[Sōsuke Uno]]'''<br/><span lang="ja"><span style="font-size:125%;">宇野 宗佑</span></span><br />{{small|''Uno Sōsuke''<br/>(1922–1998)<br/>Rep for [[Shiga at-large district (House of Representatives)|Shiga at-large]]}}
+|3 June 1989
+|10 August 1989
+|{{age in days|1989|6|3|1989|8|10}}
+| style="background:{{party color|Liberal Democratic Party (Japan)}};"|[[Liberal Democratic Party (Japan)|{{color|lightgrey|LDP<br/><small>Jimintō</small>}}]]
+|''75.'' [[:ja:宇野内閣|Uno]]<br/>{{small|[[Liberal Democratic Party (Japan)|LDP]]}}
+| —
+|[[Japanese House of Councillors election, 1989|1989]]
+|rowspan=2|<ref>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/75.html |script-title=ja:第75代 宇野 宗佑 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=75th Sosuke Uno |access-date=17 May 2012}}</ref>
+|-
+|colspan=7 align=left| {{small| Soon after he was elected Prime Minister, allegations arose that he had an extramarital relationship with a geisha, which damaged his reputation and his party's bad performance in the [[Japanese House of Councillors election, 1989|1989 House of Councillors election]], for which he resigned. Served as [[Minister of Defense (Japan)|Minister of Defense]] (1974), [[Ministry of Education, Culture, Sports, Science and Technology|Chief of the Science and Technology Agency]] (1976–1977), [[Chief of the Civil Administration Agency]] (1979–1980), [[Minister of Economy, Trade and Industry (Japan)|Minister of Economy, Trade and Industry]] (1983), and [[Minister for Foreign Affairs (Japan)|Minister for Foreign Affairs]] (1987–1989). Member of the Diet from 1960 to 1996.}}
+|- bgcolor=#EEEEEE
+!rowspan=3 style="background:{{party color|Liberal Democratic Party (Japan)}}; color:white"| 48
+|rowspan=3|[[File:Toshiki Kaifu 19890810.jpg|80px]]
+|rowspan=3|'''[[Toshiki Kaifu]]'''<br/><span lang="ja"><span style="font-size:125%;">海部 俊樹</span></span><br />{{small|''Kaifu Toshiki''<br/>(1931–)<br/>Rep for [[Aichi 3rd district (1947–1993)|Aichi 3rd]]}}
+|10 August 1989
+|28 February 1990
+|rowspan=2|{{age in days|1989|8|10|1991|11|5}}
+|rowspan=2 style="background:{{party color|Liberal Democratic Party (Japan)}};"|[[Liberal Democratic Party (Japan)|{{color|lightgrey|LDP<br/><small>Jimintō</small>}}]]
+|''76.'' [[:ja:第1次海部内閣|Kaifu I]]<br/>{{small|[[Liberal Democratic Party (Japan)|LDP]]}}
+| —
+| —
+|rowspan=3|<ref>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/76.html |script-title=ja:第76•77代 海部 俊樹 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=76th/77th Toshiki Kaifu |access-date=17 May 2012}}</ref>
+|- bgcolor=#EEEEEE
+|28 February 1990
+|5 November 1991
+|''77.'' [[:ja:第2次海部内閣|Kaifu II]]<br/>{{small|([[:ja:第2次海部内閣 (改造)|Reshuffle]])<br/>[[Liberal Democratic Party (Japan)|LDP]]}}
+|[[Japanese general election, 1990|1990]]
+| —
+|-
+|colspan=7 align=left| {{small| Defeated in 2009, he was the longest-serving member of the lower house of the Diet, and he was also the first former prime minister to be defeated at a re-election since 1963. Served as Deputy Chief Cabinet Secretary (1974–1976), [[Ministry of Education, Culture, Sports, Science and Technology|Minister of Education]] (1976–1977, 1985–1986). Member of the Diet from 1960 to 2009.}}
+|- bgcolor=#EEEEEE
+!rowspan=2 style="background:{{party color|Liberal Democratic Party (Japan)}}; color:white"| 49
+|rowspan=2|[[File:Kiichi Miyazawa cropped 1 Kiichi Miyazawa 19911105.jpg|80px]]
+|rowspan=2|'''[[Kiichi Miyazawa]]'''<br/><span lang="ja"><span style="font-size:125%;">宮澤 喜一</span></span><br />{{small|''Miyazawa Kiichi''<br/>(1919–2007)<br/>Rep for [[Hiroshima 3rd district (1947–1993)|Hiroshima 3rd]]}}
+|5 November 1991
+|9 August 1993
+|{{age in days|1991|11|5|1993|8|9}}
+| style="background:{{party color|Liberal Democratic Party (Japan)}};"|[[Liberal Democratic Party (Japan)|{{color|lightgrey|LDP<br/><small>Jimintō</small>}}]]
+|''78.'' [[:ja:宮澤内閣|Miyazawa]]<br/>{{small|([[:ja:宮澤内閣 (改造)|Reshuffle]])<br/>[[Liberal Democratic Party (Japan)|LDP]]}}
+| —
+| [[Japanese House of Councillors election, 1992|1992]]
+|rowspan=2|<ref>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/78.html |script-title=ja:第78代 宮澤 喜一 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=78th Kiichi Miyazawa |access-date=17 May 2012}}</ref>
+|-
+|colspan=7 align=left| {{small| Originally a bureaucrat in the Treasury Ministry, he accompanied Prime Minister [[Shigeru Yoshida]] at the [[Treaty of San Francisco]]. A firm critic of the revision of the constitution, he advocated peace throughout his political career. After his party's stunning defeat in the [[Japanese general election, 1993|1993 general election]], he was forced to resign the prime ministership, but became minister of finance in the cabinet of [[Keizo Obuchi]] and [[Yoshiro Mori]] from 1998 to 2001. He died in 2007. Served as [[Minister of Economy, Trade and Industry (Japan)|Minister of Economy, Trade and Industry]] (1962–1964, 1966–1968, 1970–1971, 1977–1978), [[Chief Cabinet Secretary]] (1980–1982), [[Minister of Finance (Japan)|Minister of Finance]] (1986–1988), [[Minister of Posts and Telecommunications (Japan)|Minister of Posts and Telecommunications]] (1993) and [[Minister of Agriculture, Forestry and Fisheries (Japan)|Minister of Agriculture, Forestry and Fisheries]] (1993). Member of the [[House of Councillors]] (1952–1965). Member of the [[House of Representatives of Japan|House of Representatives]] (1967–2003).}}
+|- bgcolor=#EEEEEE
+!rowspan=2 style="background:{{party color|Japan New Party}}; color:white"| 50
+|rowspan=2|[[File:Morihiro Hosokawa 19930809.jpg|80px]]
+|rowspan=2|'''[[Morihiro Hosokawa]]'''<br/><span lang="ja"><span style="font-size:125%;">細川 護熙</span></span><br />{{small|''Hosokawa Morihiro''<br/>(1938–)<br/>Rep for [[Kumamoto 1st district (1947–1993)|Kumamoto 1st]]}}
+|9 August 1993
+|28 April 1994
+|{{age in days|1993|8|9|1994|4|28}}
+| style="background:{{party color|Japan New Party}};"|[[Japan New Party|{{color|lightgrey|JNP<br/><small>Nihon Shintō</small>}}]]
+|''79.'' [[Hosokawa Cabinet|Hosokawa]]<br/>{{small|[[Japan New Party|JNP]]–[[Social Democratic Party (Japan)|JSP]]–[[Japan Renewal Party|JRP]]–[[Kōmeitō (1962–98)|Komeitō]]–[[New Party Sakigake|NPS]]–[[Democratic Socialist Party (Japan)|DSP]]–[[Socialist Democratic Federation (Japan)|SDF]]}}
+|[[Japanese general election, 1993|1993]]
+| —
+|rowspan=2|<ref>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/79.html |script-title=ja:第79代 細川 護煕 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=79th Morihiro Hosokawa |access-date=17 May 2012}}</ref>
+|-
+|colspan=7 align=left| {{small| He is a member of a noble family that ruled Kumamoto since Medieval times, and during Imperial Japan, his family was part of the aristocracy, his grandfather [[Konoe Fumimaro]] having served as Prime Minister (1937–1939, 1940–1941). Originally member of the [[Liberal Democratic Party (Japan)|Liberal Democratic Party]], he left the party in 1992 to form the [[Japan New Party]], which garnered 35 members in the [[Japanese general election, 1993|1993 general election]]. He served as Prime Minister in 8-party coalition government and spearheaded a reform to change the electoral system. He resigned after allegations arose that he had misused personal funds in the 1980s. Served as Governor of [[Kumamoto Prefecture]] (1983–1991). Member of the [[House of Councilors]] from 1971 to 1983 and 1992 to 1993. Member of the [[House of Representatives of Japan|House of Representatives]] from 1993 to 1998. }}
+|- bgcolor=#EEEEEE
+!rowspan=2 style="background:{{party color|Japan Renewal Party}}; color:white"| 51
+|rowspan=2|[[File:Tsutomu Hata 19940428.jpg|80px]]
+|rowspan=2|'''[[Tsutomu Hata]]'''<br/><span lang="ja"><span style="font-size:125%;">羽田 孜</span></span><br />{{small|''Hata Tsutomu''<br/>(1935–2017)<br/>Rep for [[Nagano 2nd district (1947–1993)|Nagano 2nd]]}}
+|28 April 1994
+|30 June 1994
+|{{age in days|1994|4|28|1994|6|30}}
+| style="background:{{party color|Japan Renewal Party}};"|[[Japan Renewal Party|{{color|white|JRP<br/><small>Shinseitō</small>}}]]
+|''80.'' [[Hata Cabinet|Hata]]<br/>{{small|[[Japan Renewal Party|JRP]]–[[Japan New Party|JNP]]–[[Social Democratic Party (Japan)|JSP]]–[[Social Democratic Party (Japan)|SDP]]–[[Socialist Democratic Federation (Japan)|SDF]]–[[Kōmeitō (1962–98)|Komeitō]]–[[New Party Sakigake|NPS]]}}
+| —
+| —
+!rowspan=2|<ref>{{cite web |url=http://www.kantei.go.jp/jp/rekidai/souri/80.html |script-title=ja:第80代 羽田 孜 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=80th Tsutomu Hata |access-date=17 May 2012}}</ref>
+|-
+|colspan=7 align=left|{{small| Originally member of the [[Liberal Democratic Party (Japan)|Liberal Democratic Party]], he left the party in 1993 with [[Ichirō Ozawa]] to establish the [[Japan Renewal Party]], which garnered 44 seats in the [[Japanese general election, 1993|1993 general election]]. He served as minister for foreign affairs in the cabinet of [[Morihiro Hosokawa]], until the latter resigned after his implication in a banking scandal. Hata then assumed the prime ministership, but since the [[Socialist Party of Japan|Socialist Party]] had left the coalition, his minority government was forced to resign in two months as a non-confidence motion against his cabinet was submitted to the House of Representatives. Currently a member of the [[Democratic Party (Japan, 1998)|Democratic Party of Japan]], he is now one of the elder politicians of the party. Served as [[Minister of Agriculture, Forestry and Fisheries (Japan)|minister of agriculture, forestry and fisheries]] (1985–1986, 1988–1989), [[Minister of Finance (Japan)|minister of finance]] (1991–1992), and [[Minister for Foreign Affairs (Japan)|minister for foreign affairs]]. Member of the Diet from 1969 to 2012.}}
+|- bgcolor=#EEEEEE
+!rowspan=2 style="background:{{party color|Japan Socialist Party}}; color:white"| 52
+|rowspan=2|[[File:Tomiichi Murayama 19940630.jpg|80px]]
+|rowspan=2|'''[[Tomiichi Murayama]]'''<br/><span lang="ja"><span style="font-size:125%;">村山 富市</span></span><br />{{small|''Murayama Tomiichi''<br/>(1924–)<br/>Rep for [[Ōita 1st district (1947–1993)|Ōita 1st]]}}
+|30 June 1994
+|11 January 1996
+|{{age in days|1994|6|30|1996|1|11}}
+| style="background:{{party color|Japan Socialist Party}};"|[[Japan Socialist Party|{{color|white|JSP<br/><small>Nihon Shakaitō</small>}}]]
+|''81.'' [[Murayama Cabinet|Murayama]]<br/>{{small|([[Murayama Cabinet#Reshuffled Cabinet|Reshuffle]])<br/>[[Social Democratic Party (Japan)|JSP]]–[[Liberal Democratic Party (Japan)|LDP]]–[[New Party Sakigake|NPS]]}}
+| —
+|[[Japanese House of Councillors election, 1995|1995]]
+|rowspan=2|<ref>{{cite web |url=http://www.kantei.go.jp/jp/murayamasouri/index.html |script-title=ja:第81代 村山 富市 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=81st Tomiichi Murayama |access-date=17 May 2012 |archive-url=https://web.archive.org/web/20170607164359/http://www.kantei.go.jp/jp/murayamasouri/index.html |archive-date=7 June 2017 |url-status=dead }}</ref>
+|-
+|colspan=7 align=left| {{small| Presided over a coalition that consisted of the [[Liberal Democratic Party (Japan)|Liberal Democratic Party]], the [[Socialist Party of Japan|Socialist Party]], and the [[New Party Sakigake]]. During his tenure, the [[Great Hanshin earthquake]] erupted and a [[Sarin gas attack on the Tokyo subway]] occurred that left 13 dead. He resigned after his party suffered defeat in the [[Japanese general election, 1996|1996 general election]]. Served as General Secretary of the [[Socialist Party of Japan|Socialist Party]]. Member of the Diet from 1972 to 2000.}}
+|- bgcolor=#EEEEEE
+!rowspan=3 style="background:{{party color|Liberal Democratic Party (Japan)}}; color:white"| 53
+|rowspan=3|[[File:Ryutaro Hashimoto cropped 1 Ryutaro Hashimoto 19960111.jpg|80px]]
+|rowspan=3|'''[[Ryutaro Hashimoto|Ryūtarō Hashimoto]]'''<br/><span lang="ja"><span style="font-size:125%;">橋本 龍太郎</span></span><br />{{small|''Hashimoto Ryūtarō''<br/>(1937–2006)<br/>Rep for [[Okayama 4th district|Okayama 4th]]}}
+|11 January 1996
+|7 November 1996
+|rowspan=2|{{age in days|1996|1|11|1998|7|30}}
+|rowspan=2 style="background:{{party color|Liberal Democratic Party (Japan)}};"|[[Liberal Democratic Party (Japan)|{{color|lightgrey|LDP<br/><small>Jimintō</small>}}]]
+|''82.'' [[First Hashimoto Cabinet|Hashimoto I]]<br/>{{small|[[Liberal Democratic Party (Japan)|LDP]]–[[Social Democratic Party (Japan)|JSP]]–[[New Party Sakigake|NPS]]}}
+| —
+| —
+|rowspan=3|<ref>{{cite web |url=http://www.kantei.go.jp/jp/hasimotosouri/index.html |script-title=ja:第82•83代 橋本 龍太郎 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=82nd/83rd Ryutaro Hashimoto |access-date=17 May 2012 |archive-url=https://web.archive.org/web/20100412150709/http://www.kantei.go.jp/jp/hasimotosouri/index.html |archive-date=12 April 2010 |url-status=dead }}</ref>
+|- bgcolor=#EEEEEE
+|7 November 1996
+|30 July 1998
+|''83.'' [[Second Hashimoto Cabinet|Hashimoto II]]<br/>{{small|([[Second Hashimoto Cabinet#Reshuffled Cabinet|Reshuffle]])<br/>[[Liberal Democratic Party (Japan)|LDP]]–[[New Party Sakigake|NPS]]}}
+|[[Japanese general election, 1996|1996]]
+|[[Japanese House of Councillors election, 1998|1998]]
+|-
+|colspan=7 align=left| {{small| He spearheaded widespread reforms during his tenure, including reforms to restructure the health, finance, and the bureaucratic system. He resigned after his party suffered massive defeat in the 1998 House of Councilors Election. He died in 2006. Served as [[Minister of Health]] (1978–1979), [[Minister of Transportation]] (1986–1987), [[Minister of Finance (Japan)|Minister of Finance]] (1989–1991), [[Minister of Economy, Trade and Industry (Japan)|Minister of Economy, Trade and Industry]] (1994–1996). Member of the Diet from 1963 to 2005.}}
+|- bgcolor=#EEEEEE
+!rowspan=2 style="background:{{party color|Liberal Democratic Party (Japan)}}; color:white"| 54
+|rowspan=2|[[File:Keizo Obuchi 19980730.jpg|80px]]
+|rowspan=2|'''[[Keizō Obuchi]]'''<br/><span lang="ja"><span style="font-size:125%;">小渕 恵三</span></span><br />{{small|''Obuchi Keizō''<br/>(1937–2000)<br/>Rep for [[Gunma 5th district|Gunma 5th]]}}
+|30 July 1998
+|5 April 2000
+|{{age in days|1998|7|30|2000|4|5}}
+| style="background:{{party color|Liberal Democratic Party (Japan)}};"|[[Liberal Democratic Party (Japan)|{{color|lightgrey|LDP<br/><small>Jimintō</small>}}]]
+|''84.'' [[Obuchi Cabinet|Obuchi]]<br/>{{small|([[Obuchi Cabinet#First Reshuffled Cabinet|Reshuffle 1]]{{Broken anchor|date=2024-09-23|bot=User:Cewbot/log/20201008/configuration|target_link=Obuchi Cabinet#First Reshuffled Cabinet|reason= The anchor (First Reshuffled Cabinet) [[Special:Diff/1181861594|has been deleted]].}} · [[Obuchi Cabinet#Second Reshuffled Cabinet|2]])<br/>[[Liberal Democratic Party (Japan)|LDP]]–([[Liberal Party (Japan, 1998)|Lib.]]–[[Komeitō]])}}
+| —
+| —
+|rowspan=2|<ref>{{cite web |url=http://www.kantei.go.jp/jp/obutisouri/index.html |script-title=ja:第84代 小渕 恵三 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=84th Keizo Obuchi |access-date=17 May 2012 |archive-url=https://web.archive.org/web/20120611193530/http://www.kantei.go.jp/jp/obutisouri/index.html |archive-date=11 June 2012 |url-status=dead }}</ref>
+|-
+|colspan=7 align=left| {{small| His government was credited with stimulating the economy after a depression caused by the bubble crash. After suffering from a stroke, he fell into a coma on 3 April, and died on 14 May 2000. Chief Cabinet Secretary [[Mikio Aoki|Aoki Mikio]] served as Deputy Prime Minister until 5 April. Served as [[Chief of the Okinawa Development Agency]] (1979–1980), Minister of the Prime Minister's Office (1979–1980), [[Chief Cabinet Secretary]] (1987–1989), and [[Minister for Foreign Affairs (Japan)|Minister for Foreign Affairs]] (1997–1998). Member of the Diet from 1963 to 2000.<!-- Note: Obuchi was brain dead by the morning of 3 April but did not leave the office until the 5th. -->}}
+|- bgcolor=#EEEEEE
+!rowspan=3 style="background:{{party color|Liberal Democratic Party (Japan)}}; color:white"| 55
+|rowspan=3|[[File:Yoshiro Mori 20000405.jpg|80px]]
+|rowspan=3|'''[[Yoshirō Mori]]'''<br/><span lang="ja"><span style="font-size:125%;">森 喜朗</span><br /></span>{{small|''Mori Yoshirō''<br/>(1937–)<br/>Rep for [[Ishikawa 2nd district|Ishikawa 2nd]]}}
+|5 April 2000
+|4 July 2000
+|rowspan=2|{{age in days|2000|4|5|2001|4|26}}
+|rowspan=2 style="background:{{party color|Liberal Democratic Party (Japan)}};"|[[Liberal Democratic Party (Japan)|{{color|lightgrey|LDP<br/><small>Jimintō</small>}}]]
+|''85.'' [[First Mori Cabinet|Mori I]]<br/>{{small|[[Liberal Democratic Party (Japan)|LDP]]–[[Komeitō]]–[[New Conservative Party (Japan)|NCP]]}}
+| —
+| —
+|rowspan=3|<ref>{{cite web |url=http://www.kantei.go.jp/jp/morisouri/index.html |script-title=ja:第85•86代 森 喜朗 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=85th/86th Yoshiro Mori |access-date=17 May 2012 |archive-url=https://web.archive.org/web/20120611193107/http://www.kantei.go.jp/jp/morisouri/index.html |archive-date=11 June 2012 |url-status=dead }}</ref>
+|- bgcolor=#EEEEEE
+|4 July 2000
+|26 April 2001
+|''86.'' [[Second Mori Cabinet|Mori II]]<br/>{{small|([[Second Mori Cabinet#First Reshuffled Cabinet|Reshuffle 1]] · [[Second Mori Cabinet#Second Reshuffled Cabinet|2]])<br/>[[Liberal Democratic Party (Japan)|LDP]]–[[Komeitō]]–[[New Conservative Party (Japan)|NCP]]}}
+|[[Japanese general election, 2000|2000]]
+| —
+|-
+|colspan=7 align=left| {{small| His appointment was decided after a secret meeting by major power brokers within the Liberal Democratic Party after the unexpected death of Prime Minister [[Keizo Obuchi]]. His gaffes and his government's low legitimacy was detrimental to his government's approval ratings, for which he resigned in 2001. Served as [[Ministry of Education, Culture, Sports, Science and Technology|Minister of Education]] (1983–1984), [[Minister of Economy, Trade and Industry (Japan)|Minister of Economy, Trade and Industry]] (1992–1993), [[Minister of Construction]] (1995–1996). Member of the Diet from 1969 to 2012.}}
+|- bgcolor=#EEEEEE
+!rowspan=4 style="background:{{party color|Liberal Democratic Party (Japan)}}; color:white"| 56
+|rowspan=4|[[File:Junichiro Koizumi 20010426 (cropped).jpg|80px]]
+|rowspan=4|'''[[Junichiro Koizumi|Junichirō Koizumi]]'''<br/><span lang="ja"><span style="font-size:125%;">小泉 純一郎</span></span><br />{{small|''Koizumi Jun'ichirō''<br/>(1942–)<br/>Rep for [[Kanagawa 11th district|Kanagawa 11th]]}}
+|26 April 2001
+|19 November 2003
+|rowspan=3|{{age in days|2001|4|26|2006|9|26}}
+|rowspan=3 style="background:{{party color|Liberal Democratic Party (Japan)}};"|[[Liberal Democratic Party (Japan)|{{color|lightgrey|LDP<br/><small>Jimintō</small>}}]]
+|''87.'' [[First Koizumi Cabinet|Koizumi I]]<br/>{{small|([[First Koizumi Cabinet#First Reshuffled Cabinet|Reshuffle 1]] · [[First Koizumi Cabinet#Second Reshuffled Cabinet|2]])<br/>[[Liberal Democratic Party (Japan)|LDP]]–[[Komeitō]]–[[New Conservative Party (Japan)|NCP]]}}
+| —
+|[[Japanese House of Councillors election, 2001|2001]]
+|rowspan=4|<ref>{{cite web |url=http://www.kantei.go.jp/jp/koizumisouri/index.html |script-title=ja:第87•88•89代 小泉 純一郎 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=87th/88th/89th Junichiro Koizumi |access-date=17 May 2012 |archive-url=https://web.archive.org/web/20120611192910/http://www.kantei.go.jp/jp/koizumisouri/index.html |archive-date=11 June 2012 |url-status=dead }}</ref>
+|- bgcolor=#EEEEEE
+|19 November 2003
+|21 September 2005
+|''88.'' [[Second Koizumi Cabinet|Koizumi II]]<br/>{{small|([[Second Koizumi Cabinet#Reshuffled Cabinet|Reshuffle]])<br/>[[Liberal Democratic Party (Japan)|LDP]]–[[Komeitō]]}}
+|[[Japanese general election, 2003|2003]]
+|[[Japanese House of Councillors election, 2004|2004]]
+|- bgcolor=#EEEEEE
+|21 September 2005
+|26 September 2006
+|''89.'' [[Third Koizumi Cabinet|Koizumi III]]<br/>{{small|([[Third Koizumi Cabinet#Reshuffled Cabinet|Reshuffle]])<br/>[[Liberal Democratic Party (Japan)|LDP]]–[[Komeitō]]}}
+|[[Japanese general election, 2005|2005]]
+| —
+|-
+|colspan=7 align=left| {{small| Resigned due to term limits of the Presidency of the Liberal Democratic Party. Served as Vice Minister of Finance (1979), [[Minister of Health and Welfare (Japan)|Minister of Health and Welfare]] (1988–1989), [[Ministry of Posts and Telecommunications (Japan)|Minister of Posts and Telecommunications]] (1992), [[Ministry of Health, Labour and Welfare (Japan)|Minister of Health and Welfare]] (1996–1998), and [[Minister of Foreign Affairs (Japan)|Minister of Foreign Affairs]] (2002). Member of Diet from 1972 to 2009.}}
+|- bgcolor=#EEEEEE
+!rowspan=2 style="background:{{party color|Liberal Democratic Party (Japan)}}; color:white;"| 57
+|rowspan=2|[[File:Abe Shinzo.jpg|80px]]
+|rowspan=2|'''[[Shinzō Abe]]'''<br/><span lang="ja"><span style="font-size:125%;">安倍 晋三</span></span><br />{{small|''Abe Shinzō''<br/>(1954–2022)<br/>Rep for [[Yamaguchi 4th district|Yamaguchi 4th]]}}
+|26 September 2006
+|26 September 2007
+|{{age in days|2006|9|26|2007|9|26}}
+| style="background:{{party color|Liberal Democratic Party (Japan)}};"|[[Liberal Democratic Party (Japan)|{{color|lightgrey|LDP<br/><small>Jimintō</small>}}]]
+|''90.'' [[:ja:第1次安倍内閣|Abe S. I]]<br/>{{small|([[:ja:第1次安倍内閣 (改造)|Reshuffle]])<br/>[[Liberal Democratic Party (Japan)|LDP]]–[[Komeitō]]}}
+| —
+|[[Japanese House of Councillors election, 2007|2007]]
+|rowspan=2|<ref name=Abe>{{cite web |url=http://www.kantei.go.jp/jp/abesouri/index.html |script-title=ja:第90•96•97代 安倍 晋三 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=90th/96th/97th Shinzo Abe |access-date=17 May 2012 |archive-url=https://web.archive.org/web/20120505044316/http://www.kantei.go.jp/jp/abesouri/index.html |archive-date=5 May 2012 |url-status=dead }}</ref>
+|-
+|colspan=7 align=left| {{small|Resigned after suffering from low approval ratings and poor health. Served as [[Chief Cabinet Secretary]] (2005–2006). Member of Diet since 1993.}}
+|- bgcolor=#EEEEEE
+!rowspan=2 style="background:{{party color|Liberal Democratic Party (Japan)}}; color:white;"| 58
+|rowspan=2|[[File:Yasuo Fukuda 200709.jpg|80px]]
+|rowspan=2|'''[[Yasuo Fukuda]]'''<br/><span lang="ja"><span style="font-size:125%;">福田 康夫</span></span><br />{{small|''Fukuda Yasuo''<br/>(1936–)<br/>Rep for [[Gunma 4th district|Gunma 4th]]}}
+|26 September 2007
+|24 September 2008
+|{{age in days|2007|9|26|2008|9|24}}
+| style="background:{{party color|Liberal Democratic Party (Japan)}};"|[[Liberal Democratic Party (Japan)|{{color|lightgrey|LDP<br/><small>Jimintō</small>}}]]
+|''91.'' [[:ja:福田康夫内閣|Fukuda Y.]]<br/>{{small|([[:ja:福田康夫内閣 (改造)|Reshuffle]])<br/>[[Liberal Democratic Party (Japan)|LDP]]–[[Komeitō]]}}
+| —
+| —
+|rowspan=2|<ref>{{cite web |url=http://www.kantei.go.jp/jp/hukudasouri/index.html |script-title=ja:第91代 福田 康夫 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=91st Yasuo Fukuda |access-date=17 May 2012 |archive-url=https://web.archive.org/web/20120507004050/http://www.kantei.go.jp/jp/hukudasouri/index.html |archive-date=7 May 2012 |url-status=dead }}</ref>
+|-
+|colspan=7 align=left| {{small| Resigned after asserting the need to improve the flow of the political process. Served as Minister for Okinawa Development (2000), [[Chief Cabinet Secretary]] (2000–2004), and Minister of State for Gender Equality and Social Affairs (2001–2004). Member of Diet from 1990 to 2012.}}
+|- bgcolor=#EEEEEE
+!rowspan=2 style="background:{{party color|Liberal Democratic Party (Japan)}}; color:white;"| 59
+|rowspan=2|[[File:Taro Aso 20080924.jpg|80px]]
+|rowspan=2|'''[[Tarō Asō]]'''<br/><span lang="ja"><span style="font-size:125%;">麻生 太郎</span></span><br />{{small|''Asō Tarō''<br/>(1940–)<br/>Rep for [[Fukuoka 8th district|Fukuoka 8th]]}}
+|24 September 2008
+|16 September 2009
+|{{age in days|2008|9|24|2009|9|16}}
+| style="background:{{party color|Liberal Democratic Party (Japan)}};"|[[Liberal Democratic Party (Japan)|{{color|lightgrey|LDP<br/><small>Jimintō</small>}}]]
+|''92.'' [[:ja:麻生内閣|Asō]]<br/>{{small|[[Liberal Democratic Party (Japan)|LDP]]–[[Komeitō]]}}
+| —
+| —
+|rowspan=2|<ref>{{cite web |url=http://www.kantei.go.jp/jp/asosouri/index.html |script-title=ja:第92代 麻生 太郎 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=92nd Tarō Asō |access-date=17 May 2012 |archive-url=https://web.archive.org/web/20120611195127/http://www.kantei.go.jp/jp/asosouri/index.html |archive-date=11 June 2012 |url-status=dead }}</ref>
+|-
+|colspan=7 align=left| {{small| Resigned after the [[Japanese general election, 2009|2009 general election]] to accept the responsibility for the worst defeat of the history of the Liberal Democratic Party. Served as Director of Economic Planning Agency (1996–1997), Minister in charge of Economic and Financial Policies (2001), [[Minister of Internal Affairs and Communications]] (2003–2005), [[Minister of Foreign Affairs (Japan)|Minister of Foreign Affairs]] (2005–2007), and Deputy Prime Minister and [[Minister of Finance (Japan)|Minister of Finance]] (since 2012). Member of Diet since 1979.}}
+|- bgcolor=#EEEEEE
+!rowspan=2 style="background:{{party color|Democratic Party (Japan, 1998)}}; color:white"| 60
+|rowspan=2|[[File:Yukio Hatoyama 20090916.jpg|80px]]
+|rowspan=2|'''[[Yukio Hatoyama]]'''<br/><span lang="ja"><span style="font-size:125%;">鳩山 由紀夫</span></span><br />{{small|''Hatoyama Yukio''<br/>(1947–)<br/>Rep for [[Hokkaido 9th district|Hokkaido 9th]]}}
+|16 September 2009
+|8 June 2010
+|{{age in days|2009|9|16|2010|6|8}}
+| style="background:{{party color|Democratic Party (Japan, 1998)}};"|[[Democratic Party (Japan, 1998)|{{color|lightgrey|DPJ<br/><small>Minshutō</small>}}]]
+|''93.'' [[Yukio Hatoyama Cabinet|Hatoyama Y.]]<br/>{{small|[[Democratic Party (Japan, 1998)|DPJ]]–[[Social Democratic Party (Japan)|SDP]]–[[People's New Party|PNP]]}}
+|[[Japanese general election, 2009|2009]]
+| —
+|rowspan=2|<ref>{{cite web |url=http://www.kantei.go.jp/jp/hatoyamasouri/index.html |script-title=ja:第93代 鳩山 由紀夫 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=93rd Yukio Hatoyama |access-date=17 May 2012 |archive-url=https://web.archive.org/web/20120506085542/http://www.kantei.go.jp/jp/hatoyamasouri/index.html |archive-date=6 May 2012 |url-status=dead }}</ref>
+|-
+|colspan=7 align=left| {{small| Won a majority in the [[Japanese general election, 2009|2009 general election]] defeating [[Tarō Asō]] (LDP). Resigned after breaking a campaign promise to close [[Marine Corps Air Station Futenma]] in [[Okinawa Prefecture]]. Member of Diet from 1986 to 2012.}}
+|- bgcolor=#EEEEEE
+!rowspan=2 style="background:{{party color|Democratic Party (Japan, 1998)}}; color:white"| 61
+|rowspan=2|[[File:Kan Naoto.jpg|80px]]
+|rowspan=2|'''[[Naoto Kan]]'''<br/><span lang="ja"><span style="font-size:125%;">菅 直人</span></span><br />{{small|''Kan Naoto''<br/>(1946–)<br/>Rep for [[Tokyo 18th district|Tokyo 18th]]}}
+|8 June 2010
+|2 September 2011
+|{{age in days|2010|6|8|2011|9|2}}
+| style="background:{{party color|Democratic Party (Japan, 1998)}};"|[[Democratic Party (Japan, 1998)|{{color|lightgrey|DPJ<br/><small>Minshutō</small>}}]]
+|''94.'' [[Kan Cabinet|Kan]]<br/>{{small|([[Kan Cabinet#First Reshuffled Cabinet|Reshuffle 1]] · [[Kan Cabinet#Second Reshuffled Cabinet|2]])<br/>[[Democratic Party (Japan, 1998)|DPJ]]–[[People's New Party|PNP]]}}
+| —
+|[[Japanese House of Councillors election, 2010|2010]]
+|rowspan=2|<ref>{{cite web |url=http://www.kantei.go.jp/jp/kan/kansouri.html |script-title=ja:第94代 菅 直人 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=94th Naoto Kan |access-date=17 May 2012 |archive-url=https://web.archive.org/web/20120502075052/http://www.kantei.go.jp/jp/kan/kansouri.html |archive-date=2 May 2012 |url-status=dead }}</ref>
+|-
+|colspan=7 align=left| {{small| Resigned due to poor approval ratings after the [[2011 Tōhoku earthquake and tsunami]] and [[Fukushima Daiichi nuclear disaster]]. Served as [[Ministry of Health, Labour and Welfare (Japan)|Minister of Health and Welfare]] (1996), Deputy Prime Minister of Japan (2009–2010), Minister of State for Economic and Fiscal Policy (2009–2010), Minister of State in charge of National Strategy (2009–2010), [[Ministry of Education, Culture, Sports, Science and Technology|Minister of State for Science and Technology Policy]] (2009–2010), and [[Minister of Finance (Japan)|Minister of Finance]] (2010). Member of Diet since 1980.}}
+|- bgcolor=#EEEEEE
+!rowspan=2 style="background:{{party color|Democratic Party (Japan, 1998)}}; color:white"| 62
+|rowspan=2|[[File:Yoshihiko Noda 20110902 (retouched).jpg|80px]]
+|rowspan=2|'''[[Yoshihiko Noda]]'''<br/><span lang="ja"><span style="font-size:125%;">野田 佳彦</span></span><br />{{small|''Noda Yoshihiko''<br/>(1957–)<br/>Rep for [[Chiba 4th district|Chiba 4th]]}}
+|2 September 2011
+|26 December 2012
+|{{age in days|2011|9|2|2012|12|26}}
+| style="background:{{party color|Democratic Party (Japan, 1998)}};"|[[Democratic Party (Japan, 1998)|{{color|lightgrey|DPJ<br/><small>Minshutō</small>}}]]
+|''95.'' [[Noda Cabinet|Noda]]<br/>{{small|([[Noda Cabinet#First Reshuffled Cabinet|Reshuffle 1]] · [[Noda Cabinet#Second Reshuffled Cabinet|2]] · [[Noda Cabinet#Third Reshuffled Cabinet|3]])<br/>[[Democratic Party (Japan, 1998)|DPJ]]–[[People's New Party|PNP]]}}
+| —
+| —
+|rowspan=2|<ref>{{cite web |url=http://www.kantei.go.jp/jp/noda/nodasouri.html |script-title=ja:第95代 野田 佳彦 |publisher=Official website of the Prime Minister of Japan |language=ja |trans-title=95th Yoshihiko Noda |access-date=26 December 2012 |archive-url=https://web.archive.org/web/20130106062153/http://www.kantei.go.jp/jp/noda/nodasouri.html |archive-date=6 January 2013 |url-status=dead }}</ref>
+|-
+|colspan=7 align=left| {{small|Resigned after the [[Japanese general election, 2012|2012 general election]] to accept the responsibility for the defeat of the Democratic Party. Served as Senior Vice Minister of Finance (2009–2010) and [[Minister of Finance (Japan)|Minister of Finance]] (2010–2011). Member of Diet since 1993.}}
+|- bgcolor=#EEEEEE
+!rowspan=4 style="background:{{party color|Liberal Democratic Party (Japan)}}; color:white;"|{{small|(57)}}
+|rowspan=4|[[File:Shinzō Abe 20120501 (cropped).jpg|80px]]
+|rowspan=4|'''[[Shinzō Abe]]'''<br/><span lang="ja"><span style=font-size:125%;>安倍 晋三</span></span><br />{{small|''Abe Shinzō''<br/>(1954–2022)<br/>Rep for [[Yamaguchi 4th district|Yamaguchi 4th]]}}
+|26 December 2012
+|24 December 2014
+|rowspan=3|{{age in days|2012|12|26|2020|09|16}}
+|rowspan=3 style="background:{{party color|Liberal Democratic Party (Japan)}};"|[[Liberal Democratic Party (Japan)|{{color|lightgrey|LDP<br/><small>Jimintō</small>}}]]
+|''96.'' [[Second Abe Cabinet|Abe S. II]]<br/>{{small|([[Second Abe Cabinet#September 3.2C 2014 - December 24.2C 2014|Reshuffle]])<br/>[[Liberal Democratic Party (Japan)|LDP]]–[[Komeitō]]}}
+|[[Japanese general election, 2012|2012]]
+|[[2013 Japanese House of Councillors election|2013]]
+|rowspan=4|<ref name="Abe"/>
+|-bgcolor=#EEEEEE
+|24 December 2014
+|1 November 2017
+|''97.'' [[Third Abe Cabinet|Abe S. III]]<br/>{{small|([[Third Abe Cabinet#First Reshuffled Cabinet|Reshuffle 1]] · [[Third Abe Cabinet#Second Reshuffled Cabinet|2]] · [[Third Abe Cabinet#Third Reshuffled Cabinet|3]])<br/>[[Liberal Democratic Party (Japan)|LDP]]–[[Komeitō]]}}
+|[[Japanese general election, 2014|2014]]
+|[[2016 Japanese House of Councillors election|2016]]
+|-bgcolor=#EEEEEE
+|1 November 2017
+|16 September 2020
+|''98.'' [[Fourth Abe Cabinet|Abe S. IV]]<br/>{{small|([[Fourth Abe Cabinet#Cabinet|Reshuffle 1]] · [[Fourth Abe Cabinet#Cabinet|2]])<br/>[[Liberal Democratic Party (Japan)|LDP]]–[[Komeitō]]}}
+|[[Japanese general election, 2017|2017]]
+|[[2019 Japanese House of Councillors election|2019]]
+|-
+|colspan=7 align=left| {{small|The first prime minister to serve non-consecutive terms since the end of the US occupation. Won a majority in the [[Japanese general election, 2012|2012 general election]] defeating [[Yoshihiko Noda]] (DPJ). Won the [[Japanese general election, 2014|2014]] and [[Japanese general election, 2017|2017]] general elections retaining a majority in the [[House of Representatives (Japan)|House of Representatives]]. Served as the 90th term Prime Minister (2006–2007), [[Chief Cabinet Secretary]] (2005–2006). Member of Diet from 1993 until his death in 2022. Resigned as Prime Minister in 2020}}
+|}
+
+===Reiwa period (2019–present)===
+''Prime Ministers of Emperor [[Naruhito]]''
+{|class="wikitable"  style="text-align:center"  width="100%"
+|-
+!rowspan=2 style="width:25px;"|No.
+!colspan=2 style="width:280px;"|Prime Minister
+!colspan=3|Term of office
+! style="width:100px;" rowspan="2"|Political Party
+! style="width:160px;" rowspan="2"|Government
+!colspan=2|Elected
+!rowspan=2 style="width:20px;"|Ref
+|-
+!Portrait
+!width=180px|Name<br /><small>(Birth–Death)</small>
+!Took office
+!Left office
+!Days
+!Gen.
+!Coun.
+|- bgcolor=#EEEEEE
+!rowspan=2 style="background:{{party color|Liberal Democratic Party (Japan)}}; color:white"| 63
+|rowspan=2|[[File:Yoshihide Suga 20200924 (cropped).jpg|80px]]
+|rowspan=2|'''[[Yoshihide Suga]]'''<br/><span lang="ja"><span style="font-size:125%;">菅 義偉</span></span><br />{{small|''Suga Yoshihide''<br/>(1948–)<br/>Rep for [[Kanagawa 2nd district|Kanagawa 2nd]]}}
+|16 September 2020
+|4 October 2021
+|{{age in days|2020|9|16|2021|10|4}}
+| style="background:{{party color|Liberal Democratic Party (Japan)}};"|[[Liberal Democratic Party (Japan)|{{color|lightgrey|LDP<br/><small>Jimintō</small>}}]]
+|''99.'' [[Suga Cabinet|Suga]]<br/>{{small|[[Liberal Democratic Party (Japan)|LDP]]–[[Komeitō]]}}
+| —
+| —
+|rowspan="2"|
+|-
+|colspan=7 align=left|{{small|He became Prime Minister of Japan after his selection as Leader of the LDP. He served before as the  [[Chief Cabinet Secretary]] (2012–2020). Member of Diet since 1996. Resigned as Prime Minister in 2021}}
+|- bgcolor=#EEEEEE
+!rowspan=3 style="background:{{party color|Liberal Democratic Party (Japan)}}; color:white"| 64
+|rowspan=3|[[File:Fumio Kishida 20211005 (cropped 2).jpg|80px]]
+|rowspan=3|'''[[Fumio Kishida]]'''<br/><span lang="ja"><span style="font-size:125%;">岸田 文雄</span><br /></span>{{small|''Kishida Fumio''<br/>(1957–)<br/>Rep for [[Hiroshima 1st district|Hiroshima 1st]]}}
+|4 October 2021
+|10 November 2021
+|rowspan=2|{{age in days|2021|10|4}}
+|rowspan=2 style="background:{{party color|Liberal Democratic Party (Japan)}};"|[[Liberal Democratic Party (Japan)|{{color|lightgrey|LDP<br/><small>Jimintō</small>}}]]
+|''100.'' [[First Kishida Cabinet|Kishida I]]<br/>{{small|[[Liberal Democratic Party (Japan)|LDP]]–[[Komeitō]]}}
+| —
+| —
+|rowspan=3|
+|- bgcolor=#EEEEEE
+|10 November 2021
+|Incumbent
+|''101.'' [[Second Kishida Cabinet|Kishida II]]<br/>{{small|([[Second Kishida Cabinet (Reshuffled)|Reshuffle]])<br/>[[Liberal Democratic Party (Japan)|LDP]]–[[Komeitō]]}}
+|[[2021 Japanese general election|2021]]
+|[[2022 Japanese House of Councillors election|2022]]
+|-
+|colspan=7 align=left| {{small|Kishida is the current prime minister of Japan. Won a majority in the [[2021 Japanese general election|2021 general election]] defeating [[Yukio Edano]] (CDP). He served before  as the [[Minister for Foreign Affairs (Japan)|Minister for Foreign Affairs]] (2012–2017). Member of Diet since 1996.}}
+|}
+
+==Politicians==
+{{main|List of Japanese politicians}}
+
+==Religious leaders==
+{{columns-list|colwidth=15em|
+* [[Dogen]]
+* [[Eisai]]
+* [[Kūkai]]
+* [[Nakayama Miki|Miki Nakayama]]
+* [[Nichiren]]
+* [[Nikkō (priest)|Nikkō]]
+* [[Ryōkan]]
+* [[Saigyo]]
+* [[Shinran]]
+* [[Shoko Asahara|Asahara Shōko]]
+* [[Taisen Deshimaru]]
+* [[Peter Doi]]
+* [[Nichidatsu Fujii]]
+* [[Joseph Satoshi Fukahori]]
+* [[Keido Fukushima]]
+* [[Stephen Fumio Hamao]]
+* [[Januarius Kyunosuke Hayasaka]]
+* [[Peter Takaaki Hirayama]]
+* [[Daisaku Ikeda]]
+* [[Peter Baptist Tadamaro Ishigami]]
+* [[Kōshū Itabashi]]
+* [[Terasawa Junsei]]
+* [[Petro Kasui Kibe]]
+* [[Peter Magoshiro Matsuoka]]
+* [[Sōyū Matsuoka]]
+* [[Paulo Miki]]
+* [[Joseph Atsumi Misue]]
+* [[Francis Xavier Osamu Mizobe]]
+* [[Magdalene of Nagasaki]]
+* [[Ikurō Teshima|Teshima Ikurō]]
+* [[Uchimura Kanzo]]
+* [[Yoshihiko Kikuchi]]
+* [[Peter Takeo Okada]]
+* [[Marina of Omura]]
+* [[Joseph Asajiro Satowaki]]
+* [[Kōdō Sawaki]]
+* [[Nyogen Senzaki]]
+* [[Francis Xavier Kaname Shimamoto]]
+* [[Peter Shirayanagi]]
+* [[Takuan Sōhō]]
+* [[Shunryū Suzuki]]
+* [[Daisetz Teitaro Suzuki]]
+* [[Paul Yoshigoro Taguchi]]
+* [[Joseph Mitsuaki Takami]]
+* [[Jacobo Kyushei Tomonaga]]
+* [[Mitsumyo Tottori]]
+* [[Paul Tsuchihashi]]
+* [[Thomas Tsugi]]
+* [[Kōshō Uchiyama]]
+* [[Taitetsu Unno]]
+* [[Paul Hisao Yasuda]]
+}}
+
+==Scientists==
+{{columns-list|colwidth=15em|
+*[[Leo Esaki|Esaki Leo]]
+*[[Kotaro Honda|Honda Kōtarō]]
+*[[Kikunae Ikeda|Ikeda Kikunae]]
+*[[Kitasato Shibasaburō]]
+*[[Shinji Kawasaki]]
+*[[Mikimoto Kōkichi]]
+*[[Yamada Kōrin]]
+*[[Tokuhichi Mishima|Mishima Tokuhichi]]
+*[[Ukichiro Nakaya|Nakaya Ukichirō]]
+*[[Yasujiro Niwa|Niwa Yasujirō]]
+*[[Hirotaka Sugawara|Sugawara Hirotaka]]
+*[[Kyota Sugimoto|Sugimoto Kyōta]]
+*[[Akihiko Tago|Tago Akihiko]]
+*[[Jokichi Takamine|Takamine Jōkichi]]
+*[[Koichi Tanaka|Tanaka Kōichi]]
+*[[Susumu Tonegawa|Tonegawa Susumu]]
+*[[Ted Fujita|Fujita Tetsuya]]
+*[[Sin-Itiro Tomonaga|Tomonaga Shin'ichirō]]
+*[[Sakichi Toyoda|Toyoda Sakichi]]
+*[[Hidetsugu Yagi|Yagi Hidetsugu]]
+*[[Hideki Yukawa|Yukawa Hideki]]
+*[[Norio Kaifu]]
+}}
+
+==Mathematicians==
+{{columns-list|colwidth=15em|
+*[[Heisuke Hironaka]]
+*[[Kenkichi Iwasawa]]
+*[[Masaki Kashiwara]]
+*[[Takahiro Kawai]]
+*[[Kunihiko Kodaira]]
+*[[Shigefumi Mori]]
+*[[Mikio Sato]]
+*[[Seki Kōwa]]
+*[[Goro Shimura]]
+*[[Teiji Takagi]]
+*[[Yutaka Taniyama]]
+*[[Nobuo Yoneda]]
+}}
+
+==Economists==
+{{columns-list|colwidth=15em|
+*[[Takeshi Amemiya]]
+*[[Masahiko Aoki]]
+*[[Masahisa Fujita]]
+*[[Fumio Hayashi]]
+*[[Charles Horioka]]
+*[[Nobuhiro Kiyotaki]]
+*[[Michio Morishima]]
+*[[Morito Tatsuo]]
+*[[Ōuchi Hyōei]]
+*[[Osamu Shimomura (economist)|Osamu Shimomura]]
+*[[Yasuma Takada]]
+*[[Heizō Takenaka]]
+*[[Takano Iwasaburo]]
+*[[Shigeto Tsuru]]
+*[[Yoshihiro Tsurumi]]
+*[[Yukihiro Torikai]]
+*[[Kazuhide Uekusa]]
+*[[Hirofumi Uzawa]]
+}}
+
+==Other notables==
+{{columns-list|colwidth=15em|
+*[[Tomohiro Hase]]<ref>{{cite web |title=Tomohiro Hase |url=https://ieeexplore.ieee.org/author/37086790286 |website=[[IEEE]] |publisher=IEEE Xplore |access-date=26 December 2023}}</ref>
+*[[Hidetsugu Aneha|Aneha Hidetsugu]]
+*[[Yoichi Hatta|Hatta Yoichi]]
+*[[Kenichi Horie|Horie Kenichi]]
+*[[Kiyoshi Kawakami|Kawakami Kiyoshi]]
+*[[Jonathan Kestenbaum, Baron Kestenbaum]]
+*[[Takeru Kobayashi]]
+*[[Shinji Matsuo]]
+*[[Sakae Menda]]
+*[[Masao Miyamoto]]
+*[[Shigeru Miyamoto]]
+*[[Nitobe Inazō]]
+*[[Sakae Ōba]]
+*[[Konosuke Matsushita]]
+*[[Hiroo Onoda|Onoda Hirō]]
+*[[Nui Onoue]]
+*[[Sakae Ōsugi]]
+*[[Airi Ōtsu]], organic farmer
+*[[Sakai Toshihiko]]
+*[[Lady Saigō]]
+*[[Ken Sakamura|Sakamura Ken]]
+*[[San'yūtei Enchō]]
+*[[Chiune Sugihara|Sugihara Chiune]]
+*[[Satoshi Tajiri]]
+*[[Hisao Taoka]], engineer
+*[[Sonoda Tenkoko]]
+*[[Hiro Matsushita]]
+*[[Terada Torahiko]]
+*[[Uchimura Kanzō]]
+*[[Gunpei Yokoi]]
+*[[Yasutaro Koide]]
+*[[Takeo Yoshikawa|Yoshikawa Takeo]]
+*[[Takashi Yuasa|Yuasa Takashi]]
+*[[Hitomi Watanabe]]
+*[[Masumi Watanabe]]
+*[[Hirofumi Yamashita]]
+*[[Naoki Urasawa]]
+*[[Masashi Usami]], engineer
+}}
+
+== Other Japanese ==
+{{columns-list|colwidth=15em|
+*[[Reika Hashimoto]]
+*[[Anna Tsuchiya]]
+*[[Anna Umemiya]]
+*[[Linda Yamamoto]]
+*[[Beni Arashiro]]
+*[[Tadanobu Asano]]
+*[[Meisa Kuroki]]
+*[[Angela Aki]]
+*[[Chieko Kawabe]]
+*[[Megumi Nakajima]]
+*[[Emi Watanabe]]
+*[[Keisuke Ogihara]]
+*[[Masayoshi "Mabo" Kabe]]
+*[[Minami Hinase]]
+*[[Sowelu]]
+*[[Marcus Tulio Tanaka]]
+*[[LISA (Japanese musician, born 1974)|LISA]]
+*[[Koji Murofushi]]
+*[[Hidenori Kusaka]]
+*[[Yuka Murofushi]]
+*[[Masumi Okada]]
+*[[Takeshi Kaneshiro]]
+*[[Yuu Shirota]]
+*[[Koji Ota]]
+*[[Hiromi Hayakawa]]
+*[[Joji (musician)]]
+*[[Tomiko Itooka]]}}
+
+==See also==
+*[[List of people by nationality]]
+
+==References==
+{{Reflist|30em}}
+
+{{list of lists | people |listcat=Lists of Japanese people}}
+
+{{DEFAULTSORT:Japanese People}}

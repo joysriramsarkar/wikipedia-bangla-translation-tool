@@ -1,0 +1,1986 @@
+<!DOCTYPE html>
+<html lang="bn" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>উইকিপিডিয়া বাংলা অনুবাদ টুল — খসড়া ও প্রকাশনা ড্যাশবোর্ড</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- উইকিপিডিয়ার প্রমিত বাংলা ফন্ট (Noto Sans Bengali, SolaimanLipi, Kalpurush) -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    /* ============================================================
+       উইকিপিডিয়া ভেক্টর ২০২২ (Vector Skin) প্রমিত ডিজাইন সিস্টেম
+       ============================================================ */
+    :root {
+      --mw-bg: #f8f9fa;
+      --mw-surface: #ffffff;
+      --mw-border: #a2a9b1;
+      --mw-border-subtle: #c8ccd1;
+      --mw-border-focus: #3366cc;
+      --mw-text: #202122;
+      --mw-text-muted: #54595d;
+      --mw-link: #3366cc;
+      --mw-link-hover: #447ff5;
+      --mw-link-active: #2a4b8d;
+      --mw-link-red: #ba0000;
+      --mw-primary: #3366cc;
+      --mw-primary-hover: #447ff5;
+      --mw-primary-active: #2a4b8d;
+      --mw-success: #14866d;
+      --mw-warning-bg: #fef6e7;
+      --mw-warning-border: #edab00;
+      --mw-notice-bg: #eaf3ff;
+      --mw-notice-border: #3366cc;
+      --mw-header-table: #eaecf0;
+      --mw-font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans Bengali', 'SolaimanLipi', 'Kalpurush', sans-serif;
+      --mw-font-serif: 'Linux Libertine', 'Georgia', 'Times', serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    
+    body {
+      font-family: var(--mw-font-sans);
+      background-color: var(--mw-bg);
+      color: var(--mw-text);
+      font-size: 14px;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ----------------------------------------------------
+       উইকিপিডিয়া ভেক্টর শীর্ষ হেডার (Clean Vector Header)
+       ---------------------------------------------------- */
+    .vector-header {
+      background: #ffffff;
+      border-bottom: 1px solid var(--mw-border-subtle);
+      padding: 10px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+    }
+    .vector-header-start {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .mw-logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: var(--mw-text);
+    }
+    .mw-logo-icon {
+      width: 38px;
+      height: 38px;
+      background: #000;
+      color: #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      font-weight: bold;
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,0.2);
+    }
+    .mw-logo-wordmark {
+      display: flex;
+      flex-direction: column;
+    }
+    .mw-logo-title {
+      font-family: var(--mw-font-serif);
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 1.1;
+      letter-spacing: -0.01em;
+      color: #000;
+    }
+    .mw-logo-tagline {
+      font-size: 11.5px;
+      color: var(--mw-text-muted);
+      font-style: italic;
+    }
+
+    .vector-header-end {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .mw-user-menu {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      font-size: 13px;
+    }
+    .mw-user-item {
+      color: var(--mw-link);
+      cursor: pointer;
+      text-decoration: none;
+      padding: 4px 6px;
+      border-radius: 2px;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .mw-user-item:hover {
+      text-decoration: underline;
+      background: rgba(0,0,0,0.03);
+    }
+
+    /* ----------------------------------------------------
+       উইকিপিডিয়া ভেক্টর পৃষ্ঠা কাঠামো ও ট্যাবসমূহ
+       ---------------------------------------------------- */
+    .mw-page-container {
+      max-width: 1440px;
+      width: 100%;
+      margin: 14px auto 36px;
+      padding: 0 20px;
+      flex: 1;
+    }
+    .vector-page-toolbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      border-bottom: 1px solid var(--mw-border);
+      margin-bottom: -1px;
+      position: relative;
+      z-index: 2;
+    }
+    .vector-tabs-group {
+      display: flex;
+      gap: 4px;
+    }
+    .vector-tab {
+      background: #f8f9fa;
+      border: 1px solid var(--mw-border-subtle);
+      border-bottom: 1px solid var(--mw-border);
+      padding: 7px 16px;
+      font-size: 13.5px;
+      font-weight: 600;
+      color: var(--mw-link);
+      cursor: pointer;
+      border-radius: 3px 3px 0 0;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      text-decoration: none;
+      transition: background 0.15s, color 0.15s;
+    }
+    .vector-tab:hover {
+      background: #ffffff;
+      color: var(--mw-link-hover);
+    }
+    .vector-tab.active {
+      background: #ffffff;
+      border-color: var(--mw-border);
+      border-bottom-color: #ffffff;
+      color: var(--mw-text);
+      font-weight: 700;
+    }
+
+    /* মূল নিবন্ধ ক্যানভাস */
+    .mw-body {
+      background: #ffffff;
+      border: 1px solid var(--mw-border);
+      padding: 24px 32px 40px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+      position: relative;
+      z-index: 1;
+    }
+
+    /* শিরোনাম */
+    .firstHeading {
+      font-family: var(--mw-font-serif);
+      font-size: 27px;
+      font-weight: 400;
+      color: #000;
+      border-bottom: 1px solid var(--mw-border);
+      margin-bottom: 4px;
+      padding-bottom: 4px;
+      line-height: 1.25;
+    }
+    .siteSub {
+      font-size: 12.5px;
+      color: var(--mw-text-muted);
+      margin-bottom: 16px;
+    }
+
+    /* উইকিপিডিয়া নোটিস বার্তা বাক্স */
+    .mw-message-box {
+      border: 1px solid var(--mw-border-subtle);
+      padding: 12px 18px;
+      margin-bottom: 18px;
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      font-size: 13.5px;
+      border-radius: 2px;
+      line-height: 1.5;
+    }
+    .mw-message-box-notice {
+      background: var(--mw-notice-bg);
+      border-left: 4px solid var(--mw-notice-border);
+      color: #102a43;
+    }
+    .mw-message-box-warning {
+      background: var(--mw-warning-bg);
+      border-left: 4px solid var(--mw-warning-border);
+      border-color: var(--mw-warning-border);
+      color: #382400;
+    }
+    .mw-message-box-icon {
+      font-size: 20px;
+      line-height: 1;
+    }
+
+    /* ----------------------------------------------------
+       উইকিপিডিয়া অনুবাদ ও সার্চ প্যানেল (ভাষা নির্বাচনের পর সার্চ)
+       ---------------------------------------------------- */
+    .mw-cx-panel {
+      background: #f8f9fa;
+      border: 1px solid var(--mw-border-subtle);
+      border-radius: 2px;
+      padding: 16px 20px;
+      margin-bottom: 18px;
+    }
+    .mw-cx-step-title {
+      font-size: 14.5px;
+      font-weight: 700;
+      color: #000;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .mw-cx-row {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .mw-field-group {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .mw-label {
+      font-size: 13.5px;
+      font-weight: 600;
+      color: var(--mw-text-muted);
+      white-space: nowrap;
+    }
+    select.mw-select, input.mw-input {
+      background: #ffffff;
+      border: 1px solid var(--mw-border);
+      border-radius: 2px;
+      padding: 7px 12px;
+      font-size: 13.5px;
+      color: var(--mw-text);
+      font-family: inherit;
+      outline: none;
+    }
+    select.mw-select:focus, input.mw-input:focus {
+      border-color: var(--mw-border-focus);
+      box-shadow: inset 0 0 0 1px var(--mw-border-focus);
+    }
+    .mw-arrow {
+      color: var(--mw-link);
+      font-weight: bold;
+      font-size: 16px;
+    }
+    .target-lang-tag {
+      background: #eaecf0;
+      padding: 5px 10px;
+      border-radius: 2px;
+      font-weight: bold;
+      color: #0645ad;
+    }
+
+    /* সার্চ বক্স (ইনপুট ভাষা নির্বাচনের ঠিক পরেই) */
+    .search-box-inner {
+      display: flex;
+      align-items: center;
+      background: #ffffff;
+      border: 1px solid var(--mw-border);
+      border-radius: 2px;
+      transition: border-color 0.15s, box-shadow 0.15s;
+    }
+    .search-box-inner:focus-within {
+      border-color: var(--mw-border-focus);
+      box-shadow: inset 0 0 0 1px var(--mw-border-focus);
+    }
+    .search-icon {
+      padding-left: 10px;
+      color: var(--mw-text-muted);
+      font-size: 14px;
+    }
+    .mw-search-input {
+      flex: 1;
+      border: none;
+      outline: none;
+      padding: 7px 10px;
+      font-family: inherit;
+      font-size: 13.5px;
+      color: var(--mw-text);
+      background: transparent;
+    }
+    .mw-search-btn {
+      background: #f8f9fa;
+      border: none;
+      border-left: 1px solid var(--mw-border-subtle);
+      padding: 7px 14px;
+      font-size: 13.5px;
+      font-weight: 600;
+      color: var(--mw-text);
+      cursor: pointer;
+      transition: background 0.15s;
+      white-space: nowrap;
+    }
+    .mw-search-btn:hover {
+      background: #eaecf0;
+      color: #000;
+    }
+
+    /* সার্চ ড্রপডাউন */
+    .suggestions-dropdown {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: #ffffff;
+      border: 1px solid var(--mw-border);
+      border-radius: 0 0 2px 2px;
+      margin-top: 1px;
+      max-height: 280px;
+      overflow-y: auto;
+      z-index: 1000;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+      display: none;
+    }
+    .suggestion-item {
+      padding: 8px 14px;
+      cursor: pointer;
+      font-size: 13.5px;
+      border-bottom: 1px solid #f1f2f3;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--mw-text);
+    }
+    .suggestion-item:hover, .suggestion-item.active {
+      background: #eaecf0;
+      color: #000;
+    }
+
+    /* উইকি বোতামসমূহ (Wikimedia Codex Buttons) */
+    .mw-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 14px;
+      border-radius: 2px;
+      font-size: 13.5px;
+      font-weight: 600;
+      cursor: pointer;
+      border: 1px solid var(--mw-border);
+      background: #f8f9fa;
+      color: var(--mw-text);
+      text-decoration: none;
+      transition: background 0.15s, border-color 0.15s, color 0.15s;
+    }
+    .mw-btn:hover {
+      background: #ffffff;
+      border-color: var(--mw-border);
+      color: #000;
+    }
+    .mw-btn-primary, .mw-btn-progressive {
+      background: var(--mw-primary);
+      border-color: var(--mw-primary);
+      color: #ffffff;
+    }
+    .mw-btn-primary:hover, .mw-btn-progressive:hover {
+      background: var(--mw-primary-hover);
+      border-color: var(--mw-primary-hover);
+      color: #ffffff;
+    }
+    .mw-btn-primary:active, .mw-btn-progressive:active {
+      background: var(--mw-primary-active);
+      border-color: var(--mw-primary-active);
+    }
+    .mw-btn-success {
+      background: #14866d;
+      border-color: #14866d;
+      color: #ffffff;
+    }
+    .mw-btn-success:hover {
+      background: #106b57;
+      border-color: #106b57;
+      color: #ffffff;
+    }
+    .mw-btn-large {
+      padding: 9px 20px;
+      font-size: 14.5px;
+    }
+
+    /* ----------------------------------------------------
+       উইকিপিডিয়া এডিটর গ্রিড
+       ---------------------------------------------------- */
+    .mw-editor-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin-top: 18px;
+    }
+    @media (max-width: 960px) {
+      .mw-editor-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    .mw-editor-box {
+      border: 1px solid var(--mw-border);
+      background: #ffffff;
+      border-radius: 2px;
+      display: flex;
+      flex-direction: column;
+    }
+    .mw-editor-header {
+      background: #f8f9fa;
+      border-bottom: 1px solid var(--mw-border-subtle);
+      padding: 8px 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .mw-editor-title {
+      font-weight: 700;
+      font-size: 13.5px;
+      color: var(--mw-text);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    /* উইকি এডিট টুলবার */
+    .mw-toolbar {
+      background: #f8f9fa;
+      border-bottom: 1px solid var(--mw-border-subtle);
+      padding: 4px 8px;
+      display: flex;
+      gap: 4px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .mw-tool-btn {
+      background: transparent;
+      border: 1px solid transparent;
+      padding: 3px 7px;
+      border-radius: 2px;
+      font-size: 12.5px;
+      font-weight: 600;
+      color: var(--mw-text);
+      cursor: pointer;
+    }
+    .mw-tool-btn:hover {
+      background: #eaecf0;
+      border-color: var(--mw-border-subtle);
+    }
+
+    /* ভিউ টগল (উইকি কোড বনাম লাইভ প্রাকদর্শন) */
+    .view-mode-group {
+      display: inline-flex;
+      background: #eaecf0;
+      border: 1px solid var(--mw-border);
+      border-radius: 2px;
+      padding: 1px;
+      gap: 2px;
+    }
+    .view-btn {
+      background: transparent;
+      border: none;
+      color: var(--mw-text-muted);
+      padding: 4px 12px;
+      border-radius: 2px;
+      cursor: pointer;
+      font-size: 12.5px;
+      font-weight: 600;
+      transition: all 0.15s;
+    }
+    .view-btn.active {
+      background: #ffffff;
+      color: #000;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    }
+
+    /* টেক্সটবক্স */
+    textarea.mw-textarea {
+      width: 100%;
+      height: 480px;
+      padding: 12px;
+      border: none;
+      outline: none;
+      resize: vertical;
+      font-family: monospace, var(--mw-font-sans);
+      font-size: 13.5px;
+      line-height: 1.6;
+      color: #202122;
+      background: #ffffff;
+    }
+
+    /* ----------------------------------------------------
+       উইকিপিডিয়া লাইভ প্রাকদর্শন ক্যানভাস (Vector Preview Box)
+       ---------------------------------------------------- */
+    .wiki-preview-box {
+      width: 100%;
+      height: 480px;
+      background: #ffffff;
+      color: #202122;
+      border: none;
+      padding: 20px 24px;
+      overflow-y: auto;
+      font-family: var(--mw-font-sans);
+      font-size: 14.5px;
+      line-height: 1.65;
+      display: none;
+    }
+    /* প্রাকদর্শনে কোনো [সম্পাদনা | উৎস সম্পাদনা] থাকবে না */
+    .wiki-preview-box .mw-editsection {
+      display: none !important;
+    }
+    .wiki-preview-box h1, .wiki-preview-box h2, .wiki-preview-box h3, .wiki-preview-box h4 {
+      color: #000;
+      border-bottom: 1px solid var(--mw-border);
+      margin-top: 18px;
+      margin-bottom: 8px;
+      padding-bottom: 3px;
+      font-family: var(--mw-font-serif);
+      font-weight: normal;
+    }
+    .wiki-preview-box p {
+      margin-bottom: 12px;
+    }
+    .wiki-preview-box table.wikitable {
+      background-color: #f8f9fa;
+      color: #202122;
+      margin: 1em 0;
+      border: 1px solid var(--mw-border);
+      border-collapse: collapse;
+      font-size: 13.5px;
+      width: 100%;
+    }
+    .wiki-preview-box table.wikitable > tr > th,
+    .wiki-preview-box table.wikitable > * > tr > th {
+      background-color: var(--mw-header-table);
+      text-align: center;
+      border: 1px solid var(--mw-border);
+      padding: 6px 10px;
+      font-weight: 700;
+    }
+    .wiki-preview-box table.wikitable > tr > td,
+    .wiki-preview-box table.wikitable > * > tr > td {
+      border: 1px solid var(--mw-border);
+      padding: 6px 10px;
+    }
+    .wiki-preview-box a {
+      color: var(--mw-link);
+      text-decoration: none;
+    }
+    .wiki-preview-box a:hover {
+      text-decoration: underline;
+    }
+    .wiki-preview-box .infobox {
+      border: 1px solid var(--mw-border);
+      border-spacing: 3px;
+      background-color: #f8f9fa;
+      color: black;
+      margin: 0.5em 0 0.5em 1.2em;
+      padding: 0.3em;
+      float: right;
+      clear: right;
+      font-size: 88%;
+      line-height: 1.5em;
+      width: 22em;
+    }
+    .wiki-preview-box .thumb {
+      margin-bottom: 0.5em;
+      border: 1px solid var(--mw-border-subtle);
+      padding: 3px;
+      background-color: #f8f9fa;
+      font-size: 88%;
+      text-align: center;
+      float: right;
+      clear: right;
+      margin-left: 1.4em;
+    }
+    .wiki-preview-box .references {
+      font-size: 85%;
+    }
+    .wiki-preview-box .hatnote {
+      font-style: italic;
+      padding-left: 1.6em;
+      margin-bottom: 0.5em;
+      color: var(--mw-text-muted);
+    }
+
+    /* সম্পাদনা অপশন ও অ্যাকশন বার */
+    .mw-edit-options {
+      background: #f8f9fa;
+      border-top: 1px solid var(--mw-border-subtle);
+      padding: 10px 14px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    /* ----------------------------------------------------
+       খসড়া ট্র্যাকার সারণি (Wikitable sortable)
+       ---------------------------------------------------- */
+    .drafts-table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #ffffff;
+      border: 1px solid var(--mw-border);
+      margin-top: 12px;
+      font-size: 13.5px;
+    }
+    .drafts-table th {
+      background: var(--mw-header-table);
+      border: 1px solid var(--mw-border);
+      padding: 8px 12px;
+      text-align: left;
+      font-weight: 700;
+      color: #000;
+    }
+    .drafts-table td {
+      border: 1px solid var(--mw-border);
+      padding: 8px 12px;
+    }
+    .drafts-table tr:nth-child(even) {
+      background: #f8f9fa;
+    }
+    .badge-pending {
+      background: #fff8e7;
+      color: #7c5300;
+      border: 1px solid #edab00;
+      padding: 3px 8px;
+      border-radius: 2px;
+      font-size: 12px;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .badge-ready {
+      background: #e6f9f0;
+      color: #09533f;
+      border: 1px solid #14866d;
+      padding: 3px 8px;
+      border-radius: 2px;
+      font-size: 12px;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    /* ফুটার */
+    footer.vector-footer {
+      background: #f8f9fa;
+      border-top: 1px solid var(--mw-border-subtle);
+      padding: 24px;
+      font-size: 12.5px;
+      color: var(--mw-text-muted);
+      text-align: center;
+      margin-top: auto;
+      line-height: 1.6;
+    }
+
+    /* টোস্ট নোটিফিকেশন */
+    .status-toast {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: #202122;
+      color: #ffffff;
+      border-left: 4px solid var(--mw-primary);
+      padding: 12px 18px;
+      border-radius: 2px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+      display: none;
+      z-index: 2000;
+      font-size: 13.5px;
+    }
+    .spinner {
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      border: 2px solid rgba(255,255,255,0.4);
+      border-radius: 50%;
+      border-top-color: #ffffff;
+      animation: spin 0.8s linear infinite;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ==========================================
+       ১. উইকিপিডিয়া বাংলা অনুবাদ টুল হেডার
+       ========================================== -->
+  <header class="vector-header">
+    <div class="vector-header-start">
+      <a href="https://bn.wikipedia.org/" target="_blank" class="mw-logo">
+        <div class="mw-logo-icon">উ</div>
+        <div class="mw-logo-wordmark">
+          <span class="mw-logo-title">উইকিপিডিয়া বাংলা অনুবাদ টুল</span>
+          <span class="mw-logo-tagline">প্রমিত অনুবাদ, খসড়া ট্র্যাকিং ও প্রকাশনা</span>
+        </div>
+      </a>
+    </div>
+
+    <!-- ব্যবহারকারী মেনু -->
+    <div class="vector-header-end">
+      <div class="mw-user-menu">
+        <span class="mw-user-item">👤 জয়শ্রীরাম সরকার</span>
+        <span class="mw-user-item">💬 বার্তা</span>
+        <span class="mw-user-item" onclick="switchTab('drafts')">📝 খসড়া ট্র্যাকার</span>
+        <a href="https://bn.wikipedia.org/wiki/Special:Watchlist" target="_blank" class="mw-user-item">নজরে রাখুন</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       ২. উইকিপিডিয়া পৃষ্ঠা কনটেইনার ও ট্যাবসমূহ
+       ========================================== -->
+  <div class="mw-page-container">
+    
+    <!-- ভেক্টর নেভিগেশন ট্যাব -->
+    <div class="vector-page-toolbar">
+      <div class="vector-tabs-group">
+        <button class="vector-tab active" id="tab-nav-project" onclick="switchTab('translator')">প্রকল্প পাতা (অনুবাদ)</button>
+        <button class="vector-tab" id="tab-nav-talk" onclick="showToast('টুলটির আলোচনা পাতা bn.wikipedia.org-এ সংরক্ষিত।')">আলোচনা</button>
+      </div>
+      <div class="vector-tabs-group">
+        <button class="vector-tab active" id="tab-nav-edit" onclick="switchTab('translator')">অনুবাদ ও সম্পাদনা</button>
+        <button class="vector-tab" id="tab-nav-drafts" onclick="switchTab('drafts')">খসড়া ট্র্যাকার (২৪ ঘণ্টার নীতি)</button>
+        <a href="https://bn.wikipedia.org/wiki/Special:RecentChanges" target="_blank" class="vector-tab">ইতিহাস ও পরিবর্তন</a>
+      </div>
+    </div>
+
+    <!-- মূল উইকিপিডিয়া বডি -->
+    <main class="mw-body">
+      
+      <!-- উইকিপিডিয়া প্রমিত পাতা শিরোনাম -->
+      <h1 id="firstHeading" class="firstHeading">
+        <span class="mw-page-title-main">উইকিপিডিয়া:অনুবাদ টুল ও খসড়া প্রকাশনা ড্যাশবোর্ড</span>
+      </h1>
+      <div id="siteSub" class="siteSub">উইকিপিডিয়া, মুক্ত বিশ্বকোষ থেকে</div>
+
+      <!-- নীতি বার্তা বাক্স -->
+      <div class="mw-message-box mw-message-box-notice">
+        <div class="mw-message-box-icon">ℹ️</div>
+        <div>
+          <b>খসড়া প্রকাশনা ও ২৪ ঘণ্টার পর্যালোচনার নীতি:</b> উইকিপিডিয়া নীতি অনুযায়ী সরাসরি কোনো সম্পাদনা বা সংশোধন ছাড়া মূল নামস্থানে যান্ত্রিক অনুবাদ প্রকাশ করা অনুচিত। এই টুলের সাহায্যে অনূদিত নিবন্ধ প্রথমে প্রমিত বাংলায় সাজিয়ে সরাসরি <b>খসড়া:</b> নামস্থানে পাঠানো হয় এবং প্রকাশের ঠিক ২৪ ঘণ্টা পর এটি পর্যালোচনা সাপেক্ষে মূল নামস্থানে স্থানান্তরযোগ্য হয়।
+        </div>
+      </div>
+
+      <!-- ট্যাব ১: নিবন্ধ অনুবাদক -->
+      <div id="tab-translator">
+        
+        <!-- ভাষা নির্বাচন ও সার্চ প্যানেল (সার্চ বক্স ভাষা নির্বাচনের ঠিক পরেই) -->
+        <div class="mw-cx-panel">
+          
+          <div class="mw-cx-step-title">ধাপ ১ ও ২: ভাষা নির্বাচন এবং নিবন্ধ অনুসন্ধান</div>
+          
+          <!-- সারি ১: ভাষা নির্বাচন এবং নিবন্ধ অনুসন্ধান বাক্স -->
+          <div class="mw-cx-row" style="margin-bottom: 14px;">
+            
+            <!-- ভাষা নির্বাচন -->
+            <div class="mw-field-group">
+              <span class="mw-label">উৎস ভাষা (Source):</span>
+              <select id="source-lang" class="mw-select" onchange="onLangChange()">
+                <option value="en" selected>English (ইংরেজি)</option>
+                <option value="bn">বাংলা (Bengali)</option>
+                <option value="ja">日本語 (জাপানি)</option>
+                <option value="ru">Русский (রুশ)</option>
+                <option value="de">Deutsch (জার্মান)</option>
+                <option value="zh">中文 (চীনা)</option>
+                <option value="pt">Português (পর্তুগিজ)</option>
+                <option value="fr">Français (ফরাসি)</option>
+                <option value="es">Español (স্প্যানিশ)</option>
+                <option value="ko">한국어 (কোরীয়)</option>
+              </select>
+              <span class="mw-arrow">➔</span>
+              <span class="mw-label">লক্ষ্য ভাষা:</span>
+              <span class="target-lang-tag">বাংলা (bn)</span>
+            </div>
+
+            <!-- সার্চ বক্স (ভাষা নির্বাচনের ঠিক পরেই) -->
+            <div class="mw-field-group" style="flex: 1; min-width: 320px; position: relative;">
+              <div class="search-box-inner" style="width: 100%;">
+                <span class="search-icon">🔍</span>
+                <input type="text" id="article-query" class="mw-search-input" 
+                       placeholder="নিবন্ধের শিরোনাম লিখুন বা লিংক দিন (যেমন: Kolkata Metro, কলকাতা মেট্রো)..." 
+                       autocomplete="off" oninput="onSearchInput()" onkeydown="onSearchKeyDown(event)">
+                <button id="btn-fetch" class="mw-search-btn" onclick="fetchArticle()">
+                  <span id="fetch-spinner" style="display:none;" class="spinner"></span>
+                  <span>📥 নিবন্ধ আনুন</span>
+                </button>
+              </div>
+              <div id="suggestions-box" class="suggestions-dropdown"></div>
+            </div>
+
+          </div>
+
+          <!-- সারি ২: প্রস্তাবিত বাংলা শিরোনাম ও অনুবাদ বোতাম -->
+          <div class="mw-cx-row">
+            <div class="mw-field-group" style="flex: 1; min-width: 280px;">
+              <span class="mw-label">প্রস্তাবিত বাংলা শিরোনাম:</span>
+              <div style="display: flex; gap: 6px; flex: 1;">
+                <input type="text" id="target-title" class="mw-input" style="flex: 1;" placeholder="যেমন: কলকাতা মেট্রো">
+                <button type="button" class="mw-btn" title="শিরোনামটি বাংলায় অনুবাদ করুন" onclick="manualTranslateTitle()" style="padding: 6px 12px; white-space: nowrap; display: inline-flex; align-items: center; gap: 5px;">
+                  <span id="title-tr-spinner" style="display: none;" class="spinner"></span>
+                  <span>🌐 অনুবাদ</span>
+                </button>
+              </div>
+            </div>
+
+            <button id="btn-translate-main" class="mw-btn mw-btn-progressive mw-btn-large" onclick="doTranslate()">
+              <span id="translate-spinner" style="display:none;" class="spinner"></span>
+              <span>⚡ সম্পূর্ণ নিবন্ধ প্রমিত বাংলায় অনুবাদ করুন</span>
+            </button>
+          </div>
+
+          <div id="article-pill" style="display: none; margin-top: 10px; font-size: 13px; color: var(--mw-success); align-items: center;">
+            <span id="pill-text">নিবন্ধ সংগৃহীত হয়েছে ✓</span>
+            <a id="pill-link" href="#" target="_blank" style="color:var(--mw-link); margin-left: 8px; font-weight:600;">মূল উইকিপিডিয়া পাতা ↗</a>
+          </div>
+
+        </div>
+
+        <!-- সতর্কতা: নিবন্ধ বাংলা উইকিতে ইতিমধ্যে থাকলে -->
+        <div id="existing-article-alert" class="mw-message-box mw-message-box-warning" style="display: none;">
+          <div class="mw-message-box-icon">⚠️</div>
+          <div style="flex: 1;">
+            <div style="font-weight: 700; font-size: 14px; margin-bottom: 2px;">
+              সতর্কতা: এই নিবন্ধটি ইতিমধ্যে বাংলা উইকিপিডিয়ায় বিদ্যমান!
+            </div>
+            <p style="margin-bottom: 8px;">
+              বর্তমান বাংলা নিবন্ধের শিরোনাম: 
+              <a id="existing-bn-link" href="#" target="_blank" style="font-weight: 700;">
+                <span id="existing-bn-title"></span> ↗
+              </a>
+            </p>
+            <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+              <a id="btn-view-existing" href="#" target="_blank" class="mw-btn" style="padding: 4px 10px; font-size: 12.5px;">
+                📖 বিদ্যমান নিবন্ধটি পড়ুন
+              </a>
+              <button class="mw-btn mw-btn-primary" onclick="setNewDraftMode()" style="padding: 4px 10px; font-size: 12.5px;">
+                📝 খসড়ায় নতুন সংস্করণ হিসেবে তৈরি করুন (নিরাপদ)
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- উইকি এডিটর গ্রিড -->
+        <div class="mw-editor-grid">
+          
+          <!-- বাম পাশ: মূল উইকিটেক্সট -->
+          <div class="mw-editor-box">
+            <div class="mw-editor-header">
+              <span class="mw-editor-title">📄 মূল পাঠ্য / উইকিটেক্সট ইনপুট</span>
+              <span id="src-stats" style="font-size: 12px; color: var(--mw-text-muted);">উইকিপিডিয়া থেকে সরাসরি সংগৃহীত</span>
+            </div>
+            <div class="mw-toolbar">
+              <button type="button" class="mw-tool-btn" title="বোল্ড"><b>B</b></button>
+              <button type="button" class="mw-tool-btn" title="ইটালিক"><i>I</i></button>
+              <button type="button" class="mw-tool-btn" title="উইকিলিংক">🔗 লিঙ্ক</button>
+              <button type="button" class="mw-tool-btn" title="চিত্র">🖼️ চিত্র</button>
+              <button type="button" class="mw-tool-btn" title="তথ্যসূত্র">📑 তথ্যসূত্র</button>
+              <button type="button" class="mw-tool-btn" title="সিনট্যাক্স">সিনট্যাক্স ▾</button>
+            </div>
+            <textarea id="src-text" class="mw-textarea" placeholder="নিবন্ধ আনুন বোতাম চাপলে এখানে মূল উইকিটেক্সট আসবে, অথবা সরাসরি পেস্ট করুন..."></textarea>
+            <div class="mw-edit-options">
+              <button class="mw-btn" onclick="clearInput()">মুছে ফেলুন</button>
+            </div>
+          </div>
+
+          <!-- ডান পাশ: প্রমিত বাংলা আউটপুট -->
+          <div class="mw-editor-box">
+            <div class="mw-editor-header">
+              <div style="display: flex; align-items: center; gap: 10px;">
+                <span class="mw-editor-title">🌐 প্রমিত বাংলা উইকিটেক্সট</span>
+                <div class="view-mode-group">
+                  <button type="button" id="btn-view-code" class="view-btn active" onclick="switchOutputView('code')">📝 উইকি কোড</button>
+                  <button type="button" id="btn-view-preview" class="view-btn" onclick="switchOutputView('preview')">👁️ লাইভ প্রাকদর্শন</button>
+                </div>
+              </div>
+              <span id="unknown-stats" style="font-size: 12px; color: var(--mw-success); font-weight: 600;">১০০% প্রমিত বাংলা রূপান্তর</span>
+            </div>
+            <div class="mw-toolbar">
+              <button type="button" class="mw-tool-btn" title="বোল্ড"><b>B</b></button>
+              <button type="button" class="mw-tool-btn" title="ইটালিক"><i>I</i></button>
+              <button type="button" class="mw-tool-btn" title="উইকিলিংক">🔗 লিঙ্ক</button>
+              <button type="button" class="mw-tool-btn" title="শিরোনাম">শিরোনাম ▾</button>
+              <button type="button" class="mw-tool-btn" title="টেবিল">সারণি</button>
+              <button type="button" class="mw-tool-btn" title="উদ্ধৃতি">উদ্ধৃতি</button>
+            </div>
+
+            <!-- কোড ভিউ -->
+            <textarea id="out-text" class="mw-textarea" placeholder="অনূদিত ও নিয়ম মেনে সাজানো আউটপুট এখানে প্রদর্শিত হবে..."></textarea>
+
+            <!-- লাইভ প্রাকদর্শন ভিউ (Vector 2022 Skin Style) -->
+            <div id="out-preview" class="wiki-preview-box">
+              <div style="text-align: center; color: var(--mw-text-muted); padding: 50px 10px;">
+                <span style="font-size: 32px; display: block; margin-bottom: 8px;">👁️</span>
+                অনুবাদ সম্পন্ন হলে এখানে নিবন্ধের লাইভ উইকিপিডিয়া রূপ বা প্রাকদর্শন দেখা যাবে।
+              </div>
+            </div>
+
+            <!-- উইকিপিডিয়া প্রকাশনা ও খসড়া অপশন বার -->
+            <div class="mw-edit-options">
+              <div style="display: flex; gap: 8px; align-items: center;">
+                <button type="button" class="mw-btn" onclick="togglePreviewBtn()">👁️ প্রাকদর্শন দেখুন</button>
+                <button type="button" class="mw-btn" onclick="copyOutput()">📋 কোড কপি</button>
+                <button type="button" class="mw-btn" onclick="saveAsDraft()">💾 খসড়া ট্র্যাকিং</button>
+              </div>
+              <button type="button" id="btn-open-draft-form" class="mw-btn mw-btn-progressive" onclick="sendToWikipediaDraft()">
+                🚀 উইকিপিডিয়া খসড়ায় পাঠান ও খুলুন ↗
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- ট্যাব ২: খসড়া ট্র্যাকার -->
+      <div id="tab-drafts" style="display: none;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+          <h2 style="font-family: var(--mw-font-serif); font-size: 20px; font-weight: normal; border:none; margin:0;">
+            সংরক্ষিত খসড়াসমূহ ও ২৪ ঘণ্টার পর্যবেক্ষণ ট্র্যাকার
+          </h2>
+          <button class="mw-btn" onclick="loadDrafts()">🔄 রিফ্রেশ</button>
+        </div>
+        <p style="color: var(--mw-text-muted); margin-bottom: 14px; font-size: 13.5px;">
+          উইকিপিডিয়া নীতিমালা অনুযায়ী খসড়া নামস্থানে প্রকাশিত প্রতিটি নিবন্ধ ২৪ ঘণ্টা পর্যবেক্ষণে থাকে। ২৪ ঘণ্টা পূর্ণ হলে মূল নামস্থানে স্থানান্তর বোতামটি কার্যকর হবে।
+        </p>
+        <div style="overflow-x: auto;">
+          <table class="drafts-table">
+            <thead>
+              <tr>
+                <th>খসড়ার শিরোনাম</th>
+                <th>সংরক্ষণের তারিখ ও সময়</th>
+                <th>২৪ ঘণ্টার অবস্থা</th>
+                <th>উপলব্ধ কার্যক্রম</th>
+              </tr>
+            </thead>
+            <tbody id="drafts-list">
+              <!-- Rendered via JS -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </main>
+  </div>
+
+  <!-- উইকিপিডিয়া ভেক্টর ফুটার -->
+  <footer class="vector-footer">
+    <p style="margin-bottom: 4px;">
+      লেখাগুলো ক্রিয়েটিভ কমন্স অ্যাট্রিবিউশন/শেয়ার-আলাইক লাইসেন্সের আওতাভুক্ত; এর সাথে অন্যান্য শর্ত প্রযোজ্য হতে পারে।
+    </p>
+    <p>
+      উইকিপিডিয়া® হলো একটি অলাভজনক সংস্থা উইকিমিডিয়া ফাউন্ডেশনের নিবন্ধিত ট্রেডমার্ক। • 
+      <a href="https://wikimediafoundation.org/privacy-policy/" target="_blank" style="color:var(--mw-link);">গোপনীয়তার নীতি</a> • 
+      <a href="https://bn.wikipedia.org/wiki/উইকিপিডিয়া:সাধারণ_দাবিত্যাগ" target="_blank" style="color:var(--mw-link);">দাবিত্যাগ</a>
+    </p>
+  </footer>
+
+  <div id="toast" class="status-toast"></div>
+
+  <script>
+    let searchDebounceTimer = null;
+    let existingBnArticleTitle = null;
+
+    function showToast(msg) {
+      const toast = document.getElementById('toast');
+      toast.textContent = msg;
+      toast.style.display = 'block';
+      setTimeout(() => { toast.style.display = 'none'; }, 4000);
+    }
+
+    function switchTab(tab) {
+      const navProject = document.getElementById('tab-nav-project');
+      const navEdit = document.getElementById('tab-nav-edit');
+      const navDrafts = document.getElementById('tab-nav-drafts');
+
+      if (tab === 'translator') {
+        if (navProject) navProject.classList.add('active');
+        if (navEdit) navEdit.classList.add('active');
+        if (navDrafts) navDrafts.classList.remove('active');
+        document.getElementById('tab-translator').style.display = 'block';
+        document.getElementById('tab-drafts').style.display = 'none';
+      } else {
+        if (navProject) navProject.classList.remove('active');
+        if (navEdit) navEdit.classList.remove('active');
+        if (navDrafts) navDrafts.classList.add('active');
+        document.getElementById('tab-translator').style.display = 'none';
+        document.getElementById('tab-drafts').style.display = 'block';
+        loadDrafts();
+      }
+    }
+
+    function onLangChange() {
+      document.getElementById('suggestions-box').style.display = 'none';
+      const langSel = document.getElementById('source-lang');
+      const selText = langSel.options[langSel.selectedIndex]?.text || '';
+      document.getElementById('article-query').placeholder = `${selText}-এর নিবন্ধের শিরোনাম লিখুন বা যেকোনো উইকিপিডিয়ার লিংক দিন...`;
+    }
+
+    // উইকিপিডিয়া URL বা সার্চ কোয়েরি পার্সিং
+    function parseInputQuery(raw) {
+      let q = raw.trim();
+      let lang = document.getElementById('source-lang').value;
+
+      // লিঙ্ক দেওয়া হলে: স্বয়ংক্রিয়ভাবে ভাষা নির্ণয় ও ইনপুট ভাষা লিঙ্কের ভাষায় পরিবর্তন
+      const urlMatch = q.match(/https?:\/\/([a-z\-]+)\.wikipedia\.org\/(?:wiki\/|w\/index\.php\?title=)([^#?&]+)/i);
+      if (urlMatch) {
+        lang = urlMatch[1].toLowerCase();
+        let title = decodeURIComponent(urlMatch[2].replace(/_/g, ' '));
+        const langSelect = document.getElementById('source-lang');
+        let matched = false;
+        for (let opt of langSelect.options) {
+          if (opt.value === lang) {
+            langSelect.value = lang;
+            matched = true;
+            break;
+          }
+        }
+        if (!matched) {
+          const newOpt = document.createElement('option');
+          newOpt.value = lang;
+          newOpt.textContent = `${lang.toUpperCase()} (${lang})`;
+          langSelect.appendChild(newOpt);
+          langSelect.value = lang;
+        }
+        onLangChange();
+        return { lang, title, isUrl: true };
+      }
+
+      q = q.replace(/_/g, ' ');
+      return { lang, title: q, isUrl: false };
+    }
+
+    // সার্চ ইনপুট হ্যান্ডলার: শুধুমাত্র নির্বাচিত উৎস ভাষার নিবন্ধই সার্চে আসবে (অন্য ভাষা বা বাংলা নয়)
+    function onSearchInput() {
+      clearTimeout(searchDebounceTimer);
+      const raw = document.getElementById('article-query').value.trim();
+      const box = document.getElementById('suggestions-box');
+
+      if (!raw) {
+        box.style.display = 'none';
+        return;
+      }
+
+      // যদি সরাসরি উইকিপিডিয়ার লিংক পেস্ট করা হয়, তবে ইনপুট ভাষা লিঙ্কের ভাষায় পরিবর্তিত হবে এবং ড্রপডাউন বন্ধ থাকবে
+      const urlMatch = raw.match(/https?:\/\/([a-z\-]+)\.wikipedia\.org\/(?:wiki\/|w\/index\.php\?title=)([^#?&]+)/i);
+      if (urlMatch) {
+        box.style.display = 'none';
+        const linkLang = urlMatch[1].toLowerCase();
+        const langSelect = document.getElementById('source-lang');
+        let matched = false;
+        for (let opt of langSelect.options) {
+          if (opt.value === linkLang) {
+            langSelect.value = linkLang;
+            matched = true;
+            break;
+          }
+        }
+        if (!matched) {
+          const newOpt = document.createElement('option');
+          newOpt.value = linkLang;
+          newOpt.textContent = `${linkLang.toUpperCase()} (${linkLang})`;
+          langSelect.appendChild(newOpt);
+          langSelect.value = linkLang;
+        }
+        onLangChange();
+        return;
+      }
+
+      // সাধারণ টেক্সট সার্চ: শুধুমাত্র ইনপুট হিসেবে নির্বাচিত ভাষার উইকিপিডিয়া থেকেই ওপেনসার্চ হবে (অন্য কোনো ভাষা নয়)
+      searchDebounceTimer = setTimeout(async () => {
+        const lang = document.getElementById('source-lang').value;
+        const q = raw.replace(/_/g, ' ');
+
+        try {
+          const url = `https://${lang}.wikipedia.org/w/api.php?action=opensearch&search=${encodeURIComponent(q)}&limit=10&namespace=0&format=json&origin=*`;
+          const res = await fetch(url);
+          const data = await res.json();
+          if (data && data[1] && data[1].length > 0) {
+            renderSuggestions(data[1].map((title, i) => ({
+              title: title,
+              url: data[3] ? data[3][i] : ''
+            })));
+            return;
+          }
+        } catch (err) {}
+
+        // লোকাল সার্ভার প্রক্সি (শুধুমাত্র নির্বাচিত ভাষার জন্য)
+        try {
+          const res2 = await fetch(`/search?lang=${encodeURIComponent(lang)}&q=${encodeURIComponent(q)}`);
+          const items = await res2.json();
+          if (items && items.length > 0) {
+            renderSuggestions(items);
+            return;
+          }
+        } catch (e2) {}
+
+        box.style.display = 'none';
+      }, 150);
+    }
+
+    function renderSuggestions(items) {
+      const box = document.getElementById('suggestions-box');
+      if (!items || items.length === 0) {
+        box.style.display = 'none';
+        return;
+      }
+
+      box.innerHTML = items.map(item => `
+        <div class="suggestion-item" onclick="selectSuggestion('${item.title.replace(/'/g, "\\'")}')">
+          <span style="color:var(--mw-text-muted);">📄</span>
+          <span style="font-weight:600;">${item.title}</span>
+        </div>
+      `).join('');
+      box.style.display = 'block';
+    }
+
+    function selectSuggestion(title) {
+      document.getElementById('article-query').value = title;
+      document.getElementById('suggestions-box').style.display = 'none';
+      fetchArticle();
+    }
+
+    function onSearchKeyDown(e) {
+      const box = document.getElementById('suggestions-box');
+      if (box.style.display === 'block') {
+        const items = box.querySelectorAll('.suggestion-item');
+        let activeIdx = -1;
+        items.forEach((it, idx) => {
+          if (it.classList.contains('active')) activeIdx = idx;
+        });
+
+        if (e.key === 'ArrowDown') {
+          e.preventDefault();
+          if (activeIdx < items.length - 1) {
+            if (activeIdx >= 0) items[activeIdx].classList.remove('active');
+            items[activeIdx + 1].classList.add('active');
+            items[activeIdx + 1].scrollIntoView({ block: 'nearest' });
+          }
+        } else if (e.key === 'ArrowUp') {
+          e.preventDefault();
+          if (activeIdx > 0) {
+            items[activeIdx].classList.remove('active');
+            items[activeIdx - 1].classList.add('active');
+            items[activeIdx - 1].scrollIntoView({ block: 'nearest' });
+          }
+        } else if (e.key === 'Enter') {
+          if (activeIdx >= 0 && items[activeIdx]) {
+            e.preventDefault();
+            items[activeIdx].click();
+            return;
+          }
+          box.style.display = 'none';
+          fetchArticle();
+        } else if (e.key === 'Escape') {
+          box.style.display = 'none';
+        }
+      } else if (e.key === 'Enter') {
+        fetchArticle();
+      }
+    }
+
+    // নিবন্ধ সংগ্রহ ও রিডাইরেক্ট হ্যান্ডলিং
+    async function fetchArticle() {
+      const raw = document.getElementById('article-query').value;
+      if (!raw.trim()) {
+        showToast('অনুগ্রহ করে কোনো নিবন্ধের নাম লিখুন বা লিংক দিন!');
+        return;
+      }
+
+      document.getElementById('suggestions-box').style.display = 'none';
+      const { lang, title, isUrl } = parseInputQuery(raw);
+
+      const spinner = document.getElementById('fetch-spinner');
+      const btn = document.getElementById('btn-fetch');
+      spinner.style.display = 'inline-block';
+      btn.disabled = true;
+
+      try {
+        let resolvedTitle = title;
+        let targetLang = lang;
+        let wikitext = '';
+
+        // সোর্স ভাষার উইকিপিডিয়া থেকে redirects=1 সহ আনয়ন চেষ্টা (শুধুমাত্র নির্বাচিত ভাষা বা লিঙ্কের ভাষা থেকে)
+        const url = `https://${lang}.wikipedia.org/w/api.php?action=parse&page=${encodeURIComponent(title)}&prop=wikitext|displaytitle&redirects=1&format=json&origin=*`;
+        const res = await fetch(url);
+        const data = await res.json();
+
+        if (!data.error && data.parse && data.parse.wikitext) {
+          wikitext = data.parse.wikitext['*'] || '';
+          resolvedTitle = data.parse.title || title;
+        }
+
+        if (!wikitext) {
+          // লোকাল সার্ভার থেকে আনয়ন চেষ্টা
+          const localRes = await fetch(`/fetch?lang=${encodeURIComponent(lang)}&title=${encodeURIComponent(title)}`);
+          const localData = await localRes.json();
+          if (localData.ok && localData.wikitext) {
+            wikitext = localData.wikitext;
+            resolvedTitle = localData.title || title;
+            targetLang = localData.lang || lang;
+          }
+        }
+
+        if (!wikitext) {
+          throw new Error(data.error?.info || `'${title}' নিবন্ধটি ${lang.toUpperCase()} উইকিপিডিয়ায় পাওয়া যায়নি!`);
+        }
+
+        document.getElementById('src-text').value = wikitext;
+        document.getElementById('src-stats').textContent = `${wikitext.length} অক্ষর • ${wikitext.split('\n').length} লাইন`;
+
+        const pill = document.getElementById('article-pill');
+        pill.style.display = 'inline-flex';
+        document.getElementById('pill-text').textContent = `নিবন্ধ সংগৃহীত: ${resolvedTitle} (${targetLang})`;
+        document.getElementById('pill-link').href = `https://${targetLang}.wikipedia.org/wiki/${encodeURIComponent(resolvedTitle)}`;
+
+        // নিবন্ধের নামও বাংলায় অনুবাদ করে প্রস্তাবিত শিরোনামে সেট করা
+        await translateArticleTitle(resolvedTitle, targetLang);
+
+        // বাংলা উইকিপিডিয়ায় ইতিমধ্যে আছে কিনা সতর্কতা যাচাই
+        checkExistingBengaliArticle(targetLang, resolvedTitle);
+        showToast(`'${resolvedTitle}' নিবন্ধটি সফলভাবে লোড হয়েছে!`);
+
+      } catch (err) {
+        showToast(err.message || `'${title}' নিবন্ধটি ${lang.toUpperCase()} উইকিপিডিয়ায় পাওয়া যায়নি!`);
+      } finally {
+        spinner.style.display = 'none';
+        btn.disabled = false;
+      }
+    }
+
+    // নিবন্ধের নাম বাংলায় অনুবাদ (ল্যাংলিংকস ও মেশিন ট্রান্সলেশন সমন্বয়)
+    async function translateArticleTitle(title, lang) {
+      if (!title || !title.trim()) return '';
+      const cleanTitle = title.replace(/_/g, ' ').trim();
+      const targetInput = document.getElementById('target-title');
+      const spinner = document.getElementById('title-tr-spinner');
+      if (spinner) spinner.style.display = 'inline-block';
+
+      try {
+        // ১. যদি ভাষা ইতিমধ্যে বাংলা হয়
+        if (lang === 'bn') {
+          targetInput.value = cleanTitle;
+          return cleanTitle;
+        }
+
+        // ২. উইকিপিডিয়া ল্যাংলিংক (langlinks) চেক — যদি বাংলা উইকিপিডিয়ায় প্রচলিত প্রমিত শিরোনাম থাকে
+        try {
+          const llUrl = `https://${lang}.wikipedia.org/w/api.php?action=query&prop=langlinks&titles=${encodeURIComponent(cleanTitle)}&lllang=bn&redirects=1&format=json&origin=*`;
+          const llRes = await fetch(llUrl);
+          const llData = await llRes.json();
+          const pages = llData.query?.pages || {};
+          for (let pid in pages) {
+            const lls = pages[pid].langlinks || [];
+            if (lls.length > 0 && lls[0]['*']) {
+              const bnTitle = lls[0]['*'];
+              targetInput.value = bnTitle;
+              return bnTitle;
+            }
+          }
+        } catch (e1) {}
+
+        // ৩. লোকাল সার্ভার অনুবাদ এন্ডপয়েন্ট (/translate_title)
+        let tr = '';
+        try {
+          const sRes = await fetch(`/translate_title?q=${encodeURIComponent(cleanTitle)}&sl=${encodeURIComponent(lang)}&tl=bn`);
+          const sData = await sRes.json();
+          if (sData.ok && sData.title) {
+            tr = sData.title;
+          }
+        } catch (e2) {}
+
+        // ৪. ক্লায়েন্ট-সাইড গুগল অনুবাদ ফলব্যাক
+        if (!tr) {
+          tr = await fetchGoogleTr(cleanTitle, lang, 'bn');
+        }
+
+        // সংখ্যাগুলোকে প্রমিত বাংলা সংখ্যায় রূপান্তর
+        tr = (tr || cleanTitle).replace(/[0-9]/g, d => '০১২৩৪৫৬৭৮৯'[d]);
+        targetInput.value = tr;
+        return tr;
+      } finally {
+        if (spinner) spinner.style.display = 'none';
+      }
+    }
+
+    async function manualTranslateTitle() {
+      const current = document.getElementById('target-title').value.trim() || document.getElementById('article-query').value.trim();
+      const lang = document.getElementById('source-lang').value || 'en';
+      if (!current) {
+        showToast('অনুবাদ করার জন্য কোনো শিরোনাম নেই!');
+        return;
+      }
+      showToast('শিরোনাম বাংলায় অনুবাদ করা হচ্ছে...');
+      const tr = await translateArticleTitle(current, lang);
+      showToast(`বাংলা শিরোনাম: ${tr} ✓`);
+    }
+
+    // ৩ নম্বর পয়েন্ট: নিবন্ধ ইতিমধ্যে বাংলাতে আছে কিনা চেক
+    async function checkExistingBengaliArticle(lang, title) {
+      const alertBox = document.getElementById('existing-article-alert');
+      alertBox.style.display = 'none';
+      existingBnArticleTitle = null;
+
+      try {
+        // ১. langlinks চেক
+        const url = `https://${lang}.wikipedia.org/w/api.php?action=query&prop=langlinks&titles=${encodeURIComponent(title)}&lllang=bn&redirects=1&format=json&origin=*`;
+        const res = await fetch(url);
+        const data = await res.json();
+        const pages = data.query?.pages || {};
+        for (let pid in pages) {
+          const lls = pages[pid].langlinks || [];
+          if (lls.length > 0 && lls[0]['*']) {
+            existingBnArticleTitle = lls[0]['*'];
+            break;
+          }
+        }
+
+        // ২. যদি langlinks না থাকে, প্রস্তাবিত নামের সাথে চেক
+        if (!existingBnArticleTitle) {
+          const checkTitle = document.getElementById('target-title').value.trim();
+          if (checkTitle && checkTitle !== title) {
+            const url2 = `https://bn.wikipedia.org/w/api.php?action=query&titles=${encodeURIComponent(checkTitle)}&format=json&redirects=1&origin=*`;
+            const res2 = await fetch(url2);
+            const data2 = await res2.json();
+            const pages2 = data2.query?.pages || {};
+            for (let pid in pages2) {
+              if (pid !== '-1' && !pages2[pid].missing) {
+                existingBnArticleTitle = pages2[pid].title;
+                break;
+              }
+            }
+          }
+        }
+
+        if (existingBnArticleTitle) {
+          document.getElementById('existing-bn-title').textContent = existingBnArticleTitle;
+          const link = `https://bn.wikipedia.org/wiki/${encodeURIComponent(existingBnArticleTitle)}`;
+          document.getElementById('existing-bn-link').href = link;
+          document.getElementById('btn-view-existing').href = link;
+          alertBox.style.display = 'flex';
+          showToast(`⚠️ সতর্কতা: '${existingBnArticleTitle}' নামে বাংলা উইকিতে নিবন্ধ ইতিমধ্যে বিদ্যমান!`);
+        }
+      } catch (e) {
+        console.log('Error checking existing bn article:', e);
+      }
+    }
+
+    function setNewDraftMode() {
+      if (existingBnArticleTitle) {
+        document.getElementById('target-title').value = `খসড়া:${existingBnArticleTitle} (নতুন সংস্করণ)`;
+        showToast('প্রস্তাবিত নাম সুরক্ষিত খসড়া সংস্করণে পরিবর্তিত হয়েছে ✓');
+      }
+    }
+
+    function clearInput() {
+      document.getElementById('article-query').value = '';
+      document.getElementById('src-text').value = '';
+      document.getElementById('out-text').value = '';
+      document.getElementById('article-pill').style.display = 'none';
+      document.getElementById('suggestions-box').style.display = 'none';
+      document.getElementById('existing-article-alert').style.display = 'none';
+    }
+
+    async function fetchGoogleTr(phrase, sl, tl) {
+      if (!phrase || !phrase.trim()) return phrase;
+      try {
+        const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=${sl}&tl=${tl}&dt=t&q=${encodeURIComponent(phrase)}`;
+        const r = await fetch(url);
+        const j = await r.json();
+        if (j && j[0]) {
+          return j[0].map(p => p[0]).join('');
+        }
+      } catch (e) {}
+      return phrase;
+    }
+
+    async function translateBlockClient(block, sl, tl) {
+      const placeholders = [];
+      function makePh(val) {
+        const idx = placeholders.length;
+        placeholders.push(val);
+        return ` ZWPHL${idx}Z `;
+      }
+
+      let s = block;
+      s = s.replace(/<ref\b[^>]*>[\s\S]*?<\/ref>/g, makePh);
+      s = s.replace(/<ref\b[^>]*\/>/g, makePh);
+      s = s.replace(/\[\[(File|Image|চিত্র|ফাইল):[\s\S]*?\]\]/gi, makePh);
+      for (let i = 0; i < 3; i++) {
+        s = s.replace(/\{\{[^{}]+\}\}/g, makePh);
+      }
+      s = s.replace(/\[https?:\/\/[^\s\]]+(?:\s+[^\]]+)?\]/g, makePh);
+      // <br/> ও <br> লাইনব্রেক ট্যাগ মাস্ক করা (যাতে নিউলাইনে ভেঙে না যায়)
+      s = s.replace(/<\s*br\s*\/?>/gi, makePh);
+
+      let translated = await fetchGoogleTr(s, sl, tl);
+
+      for (let i = 0; i < placeholders.length; i++) {
+        const ph = placeholders[i];
+        const phRegex = new RegExp(`\\s*ZWPHL${i}Z\\s*`, 'g');
+        if (ph.toLowerCase().startsWith('<br')) {
+          translated = translated.replace(phRegex, ph);
+        } else {
+          translated = translated.replace(phRegex, ` ${ph} `);
+        }
+      }
+      return translated.trim();
+    }
+
+    const TECHNICAL_PARAM_KEYS = new Set([
+      'state', 'navbar', 'border', 'aboveclass', 'belowclass', 
+      'listclass', 'groupstyle', 'bodystyle', 'titlestyle', 'abovestyle', 
+      'belowstyle', 'evenodd', 'evenstyle', 'oddstyle', 'style', 'class',
+      'imageclass', 'image_class'
+    ]);
+
+    const INFOBOX_TYPE_MAP = {
+      'building': 'ভবন',
+      'settlement': 'বসতি',
+      'region': 'অঞ্চল',
+      'country': 'দেশ',
+      'person': 'ব্যক্তি',
+      'officeholder': 'রাজনীতিবিদ',
+      'politician': 'রাজনীতিবিদ',
+      'organization': 'সংস্থা',
+      'company': 'কোম্পানি',
+      'railway line': 'রেলপথ',
+      'rail line': 'রেলপথ',
+      'station': 'স্টেশন',
+      'rail service': 'রেল পরিষেবা',
+      'bridge': 'সেতু',
+      'road': 'সড়ক',
+      'highway': 'মহাসড়ক',
+      'film': 'চলচ্চিত্র',
+      'book': 'বই',
+      'album': 'অ্যালবাম',
+      'single': 'একক',
+      'musical artist': 'সঙ্গীতশিল্পী',
+      'actor': 'অভিনেতা',
+      'writer': 'লেখক',
+      'scientist': 'বিজ্ঞানী',
+      'athlete': 'ক্রীড়াবিদ',
+      'sportsperson': 'ক্রীড়াবিদ',
+      'football biography': 'ফুটবল জীবনী',
+      'cricketer': 'ক্রিকেটার',
+      'university': 'বিশ্ববিদ্যালয়',
+      'school': 'বিদ্যালয়',
+      'college': 'কলেজ',
+      'hospital': 'হাসপাতাল',
+      'airport': 'বিমানবন্দর',
+      'airline': 'বিমান সংস্থা',
+      'aircraft': 'উড়োজাহাজ',
+      'river': 'নদী',
+      'mountain': 'পর্বত',
+      'lake': 'হ্রদ',
+      'island': 'দ্বীপ',
+      'park': 'উদ্যান',
+      'stadium': 'স্টেডিয়াম',
+      'event': 'ঘটনা',
+      'military conflict': ' সামরিক সংঘর্ষ',
+      'election': 'নির্বাচন',
+      'city': 'শহর',
+      'district': 'জেলা',
+      'monument': 'স্মারক',
+      'museum': 'জাদুঘর',
+      'software': 'সফটওয়্যার',
+      'website': 'ওয়েবসাইট',
+      'video game': 'ভিডিও গেম',
+      'dam': 'বাঁধ',
+      'power station': 'বিদ্যুৎ কেন্দ্র',
+      'shopping mall': 'শপিং মল',
+      'hotel': 'হোটেল',
+      'temple': 'মন্দির',
+      'mosque': 'মসজিদ',
+      'church': 'গির্জা',
+      'religious building': 'ধর্মীয় ভবন'
+    };
+
+    async function clientSideWikitextTranslate(wikitext, sl, tl) {
+      const lines = wikitext.split('\n');
+      const outLines = [];
+      let inTable = false;
+
+      for (let line of lines) {
+        const trimmed = line.trim();
+        if (!trimmed) {
+          outLines.push('');
+          continue;
+        }
+
+        // short description বাদ
+        if (/^\{\{\s*(?:(?:Template|টেমপ্লেট)\s*:\s*)?[Ss]hort description\b/i.test(trimmed)) {
+          continue;
+        }
+        // Use British/Indian English ইত্যাদি রক্ষণাবেক্ষণ টেমপ্লেট বাদ
+        if (/^\{\{\s*(?:(?:Template|টেমপ্লেট)\s*:\s*)?(?:Use\s+[^|}]*?(?:English|spelling|dates)|Engvar[A-Za-z]*|[^|}]*?(?:ব্রিটিশ|আমেরিকান|ভারতীয়|অস্ট্রেলীয়)\s+ইংরেজি)/i.test(trimmed)) {
+          continue;
+        }
+
+        // টেমপ্লেট ডিক্লারেশন লাইন (যেমন {{Navbox |child ... বা {{subgroup ...) সরাসরি রাখা
+        if (/^\{\{\s*(?:[Nn]avbox|[Ss]ubgroup|[Ss]idebar|[Tt]axonbar|[Cc]hild|[Cc]ollapsible)/i.test(trimmed)) {
+          outLines.push(line);
+          continue;
+        }
+
+        // ইনফোবক্স শুরু লাইন (যেমন {{infobox building বা {{Infobox settlement বা {{তথ্যবক্ত ভবন)
+        const infoboxMatch = trimmed.match(/^\{\{\s*(?:[Ii]nfobox|তথ্যবক্ত|তথ্যবক্স|তথ্যবাক্স|ইনফোবক্স|তথ্যছক)\b(?:\s+([A-Za-z0-9_ ]+?))?(.*)$/i);
+        if (infoboxMatch) {
+          const rawType = (infoboxMatch[1] || '').trim().toLowerCase();
+          const rest = infoboxMatch[2] || '';
+          const bnType = INFOBOX_TYPE_MAP[rawType] || rawType;
+          outLines.push(`{{তথ্যছক${bnType ? ' ' + bnType : ''}${rest}`);
+          continue;
+        }
+
+        if (trimmed.startsWith('{|')) {
+          inTable = true;
+          outLines.push(line);
+          continue;
+        }
+        if (trimmed.startsWith('|}')) {
+          inTable = false;
+          outLines.push(line);
+          continue;
+        }
+        if (inTable && (trimmed.startsWith('|-') || trimmed.startsWith('|+'))) {
+          outLines.push(line);
+          continue;
+        }
+
+        const hMatch = trimmed.match(/^(={1,6})\s*(.*?)\s*(={1,6})$/);
+        if (hMatch) {
+          const trH = await fetchGoogleTr(hMatch[2], sl, tl);
+          outLines.push(`${hMatch[1]} ${trH} ${hMatch[3]}`);
+          continue;
+        }
+
+        if (trimmed.startsWith('|') && trimmed.includes('=') && !inTable) {
+          const parts = trimmed.split('=');
+          const k = parts[0];
+          const v = parts.slice(1).join('=');
+          const cleanKey = k.replace(/^\|/, '').trim().toLowerCase();
+
+          // কারিগরি প্যারামিটার (ক্লাস, স্টেট) অনুবাদ না করা
+          if (TECHNICAL_PARAM_KEYS.has(cleanKey)) {
+            outLines.push(line);
+            continue;
+          }
+
+          if (/[a-zA-Z]{3,}/.test(v) && !v.trim().startsWith('{{')) {
+            let trV = await translateBlockClient(v, sl, tl);
+            trV = trV.replace(/\r?\n/g, ' ');
+            outLines.push(`${k}= ${trV}`);
+          } else {
+            outLines.push(line);
+          }
+          continue;
+        }
+
+        if (/[a-zA-Z]{2,}/.test(trimmed)) {
+          const trLine = await translateBlockClient(line, sl, tl);
+          outLines.push(trLine);
+        } else {
+          outLines.push(line);
+        }
+      }
+      return outLines.join('\n');
+    }
+
+    // ইংরেজি উপভাষা ও রক্ষণাবেক্ষণ টেমপ্লেট বর্জন এবং তথ্যছক প্রমিতকরণ
+    function cleanEnglishMaintenanceTemplates(str) {
+      if (!str) return str;
+      str = str.replace(/\{\{\s*(?:(?:Template|টেমপ্লেট)\s*:\s*)?[Ss]hort description\s*(?:\|[^}]*)?\}\}\s*\n?/gi, '');
+      str = str.replace(/\{\{\s*(?:(?:Template|টেমপ্লেট)\s*:\s*)?(?:Use\s+[^|}]*?(?:English|spelling|dates)|Engvar[A-Za-z]*|[^|}]*?(?:ব্রিটিশ|আমেরিকান|ভারতীয়|অস্ট্রেলীয়)\s+ইংরেজি\s*(?:ব্যবহার)?)\s*(?:\|[^}]*)?\}\}\s*\n?/gi, '');
+      // তথ্যবক্ত, তথ্যবক্স, তথ্যবাক্স, ইনফোবক্স পরিহার করে প্রমিত 'তথ্যছক'-এ রূপান্তর
+      str = str.replace(/\{\{\s*(?:[Ii]nfobox|তথ্যছক)\s+building\b/gi, '{{তথ্যছক ভবন');
+      str = str.replace(/\{\{\s*তথ্যবক্ত\s+ভবন\b/g, '{{তথ্যছক ভবন');
+      str = str.replace(/\{\{\s*(?:তথ্যবক্ত|তথ্যবক্স|তথ্যবাক্স|ইনফোবক্স)\b/g, '{{তথ্যছক');
+
+      // টেমপ্লেট প্যারামিটার নাম ও ভ্যারিয়েবলের ভেতরের অঙ্ক ল্যাটিন/ASCII (0-9) রাখা
+      const BN_DIGIT_MAP = {'০':'0', '১':'1', '২':'2', '৩':'3', '৪':'4', '৫':'5', '৬':'6', '৭':'7', '৮':'8', '৯':'9'};
+      str = str.replace(/\|\s*[a-zA-Z0-9_\u0980-\u09FF]*[০-৯]+[a-zA-Z0-9_\u0980-\u09FF]*\s*=/g, (m) => {
+        return m.replace(/[০-৯]/g, d => BN_DIGIT_MAP[d]);
+      });
+      str = str.replace(/\{\{\{\s*[a-zA-Z0-9_\u0980-\u09FF]*[০-৯]+[a-zA-Z0-9_\u0980-\u09FF]*\s*(?:\||\}\}\})/g, (m) => {
+        return m.replace(/[০-৯]/g, d => BN_DIGIT_MAP[d]);
+      });
+
+      return str;
+    }
+
+    // সম্পূর্ণ বাক্য ও উইকিটেক্সট প্রমিত বাংলায় অনুবাদ
+    async function doTranslate() {
+      const text = document.getElementById('src-text').value;
+      if (!text.trim()) {
+        showToast('অনুগ্রহ করে প্রথমে একটি নিবন্ধ আনুন বা উইকিটেক্সট পেস্ট করুন!');
+        return;
+      }
+      const sl = document.getElementById('source-lang').value || 'en';
+      showToast('সম্পূর্ণ নিবন্ধ বাক্যসহ বাংলায় অনুবাদ ও প্রমিতকরণ হচ্ছে...');
+
+      // নিবন্ধের শিরোনাম যদি এখনও বাংলায় অনূদিত না হয়ে থাকে, তা স্বয়ংক্রিয়ভাবে অনুবাদ করা
+      const curTitle = document.getElementById('target-title').value.trim();
+      if (!curTitle || /[a-zA-Z]{2,}/.test(curTitle)) {
+        const titleToTr = curTitle || document.getElementById('article-query').value.trim();
+        if (titleToTr) {
+          translateArticleTitle(titleToTr, sl);
+        }
+      }
+
+      const spinner = document.getElementById('translate-spinner');
+      const btn = document.getElementById('btn-translate-main');
+      spinner.style.display = 'inline-block';
+      btn.disabled = true;
+
+      try {
+        let resText = '';
+        try {
+          const res = await fetch('/fix', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ 
+              text: text,
+              translate: true,
+              sl: sl,
+              tl: 'bn'
+            })
+          });
+          const data = await res.json();
+          resText = data.fixed || '';
+        } catch(e) {}
+
+        if (!resText) {
+          showToast('সার্ভার সাড়া না দেওয়ায় বিকল্প মাধ্যমে রূপান্তর হচ্ছে...');
+          const trWikitext = await clientSideWikitextTranslate(text, sl, 'bn');
+          try {
+            const fixRes = await fetch('/fix', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ text: trWikitext, translate: false })
+            });
+            const fixData = await fixRes.json();
+            resText = fixData.fixed || trWikitext;
+          } catch(e2) {
+            resText = trWikitext;
+          }
+        }
+
+        resText = cleanEnglishMaintenanceTemplates(resText);
+        document.getElementById('out-text').value = resText;
+        if (document.getElementById('out-preview').style.display === 'block') {
+          renderLivePreview();
+        }
+        showToast('সম্পূর্ণ বাক্য ও উইকিটেক্সট প্রমিত বাংলায় অনুবাদ সম্পন্ন ✓');
+      } catch (err) {
+        showToast('অনুবাদ সম্পন্ন করতে সমস্যা হয়েছে!');
+      } finally {
+        spinner.style.display = 'none';
+        btn.disabled = false;
+      }
+    }
+
+    // আউটপুট ভিউ স্যুইচিং: কোড বনাম লাইভ প্রাকদর্শন
+    function switchOutputView(mode) {
+      const codeBtn = document.getElementById('btn-view-code');
+      const prevBtn = document.getElementById('btn-view-preview');
+      const codeBox = document.getElementById('out-text');
+      const prevBox = document.getElementById('out-preview');
+
+      if (mode === 'preview') {
+        codeBtn.classList.remove('active');
+        prevBtn.classList.add('active');
+        codeBox.style.display = 'none';
+        prevBox.style.display = 'block';
+        renderLivePreview();
+      } else {
+        prevBtn.classList.remove('active');
+        codeBtn.classList.add('active');
+        prevBox.style.display = 'none';
+        codeBox.style.display = 'block';
+      }
+    }
+
+    function togglePreviewBtn() {
+      const prevBox = document.getElementById('out-preview');
+      if (prevBox.style.display === 'block') {
+        switchOutputView('code');
+      } else {
+        switchOutputView('preview');
+      }
+    }
+
+    // লাইভ প্রাকদর্শন রেন্ডারার (MediaWiki Parse API)
+    async function renderLivePreview() {
+      let text = document.getElementById('out-text').value;
+      const previewDiv = document.getElementById('out-preview');
+
+      if (!text.trim()) {
+        previewDiv.innerHTML = '<div style="text-align: center; color: var(--mw-text-muted); padding: 50px 10px;">প্রাকদর্শন দেখার জন্য কোনো অনূদিত উইকিটেক্সট নেই। প্রথমে অনুবাদ করুন।</div>';
+        return;
+      }
+
+      // স্বয়ংক্রিয়ভাবে তথ্যবক্ত/তথ্যবক্স থাকলে তা তথ্যছক করা
+      const cleaned = cleanEnglishMaintenanceTemplates(text);
+      if (cleaned !== text) {
+        text = cleaned;
+        document.getElementById('out-text').value = cleaned;
+      }
+
+      previewDiv.innerHTML = '<div style="text-align: center; color: var(--mw-text-muted); padding: 50px 10px;"><span class="spinner" style="border-top-color:var(--mw-primary);"></span> উইকিপিডিয়া থেকে লাইভ প্রাকদর্শন তৈরি হচ্ছে...</div>';
+
+      const title = (document.getElementById('target-title').value || 'খসড়া:নিবন্ধ').trim();
+
+      // ১. লোকাল সার্ভারের /preview কল (POST)
+      try {
+        const res = await fetch('/preview', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ text: text, title: title })
+        });
+        const data = await res.json();
+        if (data.ok && data.html) {
+          previewDiv.innerHTML = data.html;
+          fixPreviewLinks(previewDiv);
+          return;
+        }
+      } catch (e) {}
+
+      // ২. ফলব্যাক: সরাসরি bn.wikipedia.org API
+      try {
+        const formData = new URLSearchParams();
+        formData.append('action', 'parse');
+        formData.append('text', text);
+        formData.append('title', title);
+        formData.append('prop', 'text');
+        formData.append('contentmodel', 'wikitext');
+        formData.append('format', 'json');
+        formData.append('origin', '*');
+
+        const res2 = await fetch('https://bn.wikipedia.org/w/api.php', {
+          method: 'POST',
+          body: formData
+        });
+        const data2 = await res2.json();
+        if (data2.parse && data2.parse.text && data2.parse.text['*']) {
+          previewDiv.innerHTML = data2.parse.text['*'];
+          fixPreviewLinks(previewDiv);
+          return;
+        }
+      } catch (e2) {}
+
+      previewDiv.innerHTML = '<div style="color:var(--mw-link-red); padding:20px; text-align:center;">প্রাকদর্শন লোড করতে সমস্যা হয়েছে। ইন্টারনেট সংযোগ যাচাই করুন।</div>';
+    }
+
+    // প্রাকদর্শনের লিঙ্কগুলো ফিক্স করা এবং [সম্পাদনা | উৎস সম্পাদনা] অপসারণ
+    function fixPreviewLinks(container) {
+      container.querySelectorAll('.mw-editsection').forEach(el => el.remove());
+
+      const links = container.querySelectorAll('a');
+      links.forEach(a => {
+        const href = a.getAttribute('href');
+        if (href && href.startsWith('/')) {
+          a.setAttribute('href', 'https://bn.wikipedia.org' + href);
+          a.setAttribute('target', '_blank');
+          a.setAttribute('rel', 'noopener noreferrer');
+        }
+      });
+    }
+
+    function copyOutput() {
+      const out = document.getElementById('out-text');
+      if (!out.value.trim()) {
+        showToast('কপি করার মতো কোনো আউটপুট নেই!');
+        return;
+      }
+      out.select();
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(out.value);
+      } else {
+        document.execCommand('copy');
+      }
+      showToast('ক্লিপবোর্ডে কপি করা হয়েছে ✓');
+    }
+
+    async function saveAsDraft() {
+      const rawTitle = document.getElementById('target-title').value.trim() || document.getElementById('article-query').value.trim() || 'শিরোনামহীন_নিবন্ধ';
+      const cleanTitle = rawTitle.replace(/^খসড়া:/, '').replace(/_/g, ' ').trim();
+      const fullDraftTitle = 'খসড়া:' + cleanTitle;
+
+      try {
+        await fetch('/drafts', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            title: fullDraftTitle,
+            main_title: cleanTitle,
+            created_at: new Date().toISOString()
+          })
+        });
+        showToast(`'${fullDraftTitle}' খসড়া হিসেবে ট্র্যাকিং শুরু হয়েছে ✓`);
+      } catch (err) {
+        showToast('খসড়া সংরক্ষণ ত্রুটি!');
+      }
+    }
+
+    // উইকিপিডিয়া খসড়ায় সরাসরি অনূদিত টেক্সট ও প্রাকদর্শনসহ পাঠানো
+    async function sendToWikipediaDraft() {
+      const text = document.getElementById('out-text').value;
+      if (!text.trim()) {
+        showToast('আগে নিবন্ধটি অনুবাদ করুন! আউটপুট খালি।');
+        return;
+      }
+
+      const rawTitle = document.getElementById('target-title').value.trim() || document.getElementById('article-query').value.trim() || 'শিরোনামহীন_নিবন্ধ';
+      const cleanTitle = rawTitle.replace(/^খসড়া:/, '').replace(/_/g, ' ').trim();
+      const fullDraftTitle = 'খসড়া:' + cleanTitle;
+
+      try {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          await navigator.clipboard.writeText(text);
+        }
+      } catch (e) {}
+
+      try {
+        localStorage.setItem('wiki_draft_preload', text);
+        localStorage.setItem('wiki_draft_title', fullDraftTitle);
+      } catch (e) {}
+
+      try {
+        await fetch('/drafts', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            title: fullDraftTitle,
+            main_title: cleanTitle,
+            created_at: new Date().toISOString()
+          })
+        });
+      } catch (e) {}
+
+      const form = document.createElement('form');
+      form.method = 'POST';
+      form.action = `https://bn.wikipedia.org/w/index.php?title=${encodeURIComponent(fullDraftTitle)}&action=submit`;
+      form.target = '_blank';
+      form.style.display = 'none';
+
+      const textInput = document.createElement('textarea');
+      textInput.name = 'wpTextbox1';
+      textInput.value = text;
+      form.appendChild(textInput);
+
+      const previewInput = document.createElement('input');
+      previewInput.type = 'hidden';
+      previewInput.name = 'wpPreview';
+      previewInput.value = 'প্রাকদর্শন';
+      form.appendChild(previewInput);
+
+      const summaryInput = document.createElement('input');
+      summaryInput.type = 'hidden';
+      summaryInput.name = 'wpSummary';
+      summaryInput.value = 'উইকিপিডিয়া অনুবাদ টুলকিটের মাধ্যমে প্রমিত খসড়া তৈরি';
+      form.appendChild(summaryInput);
+
+      document.body.appendChild(form);
+      form.submit();
+      form.remove();
+
+      showToast(`'${fullDraftTitle}' পাতাটি অনূদিত টেক্সট ও লাইভ প্রাকদর্শনসহ উইকিপিডিয়ায় খোলা হয়েছে! ✓`);
+    }
+
+    async function loadDrafts() {
+      const tbody = document.getElementById('drafts-list');
+      tbody.innerHTML = '<tr><td colspan="4" style="text-align:center;">লোড হচ্ছে...</td></tr>';
+      try {
+        const res = await fetch('/drafts');
+        const drafts = await res.json();
+        if (!drafts || drafts.length === 0) {
+          tbody.innerHTML = '<tr><td colspan="4" style="text-align:center; padding:32px; color:var(--mw-text-muted);">এখনো কোনো খসড়া নিবন্ধ সংরক্ষণ করা হয়নি।</td></tr>';
+          return;
+        }
+
+        const now = new Date().getTime();
+        tbody.innerHTML = drafts.map(d => {
+          const created = new Date(d.created_at).getTime();
+          const elapsedHours = (now - created) / (1000 * 60 * 60);
+          const remainingHours = Math.max(0, 24 - elapsedHours);
+          const isReady = elapsedHours >= 24;
+
+          const timeFormatted = new Date(d.created_at).toLocaleString('bn-BD', {
+            year: 'numeric', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit'
+          });
+
+          let badgeHtml = '';
+          if (isReady) {
+            badgeHtml = `<span class="badge-ready">✓ মূল নামস্থানের জন্য প্রস্তুত (${Math.floor(elapsedHours)} ঘণ্টা অতিক্রান্ত)</span>`;
+          } else {
+            const h = Math.floor(remainingHours);
+            const m = Math.floor((remainingHours - h) * 60);
+            badgeHtml = `<span class="badge-pending">⏳ খসড়ায় পর্যালোচনা বাকি: ${h} ঘণ্টা ${m} মিনিট</span>`;
+          }
+
+          const moveUrl = `https://bn.wikipedia.org/wiki/Special:MovePage/${encodeURIComponent(d.title)}?wpNewTitle=${encodeURIComponent(d.main_title || d.title.replace('খসড়া:', ''))}`;
+          const viewUrl = `https://bn.wikipedia.org/wiki/${encodeURIComponent(d.title)}`;
+
+          return `
+            <tr>
+              <td><b><a href="${viewUrl}" target="_blank" style="color:var(--mw-link); text-decoration:none;">${d.title}</a></b></td>
+              <td>${timeFormatted}</td>
+              <td>${badgeHtml}</td>
+              <td>
+                <a href="${viewUrl}" target="_blank" class="mw-btn" style="padding:4px 10px; font-size:12px;">খসড়া পাতা দেখুন</a>
+                ${isReady ? `<a href="${moveUrl}" target="_blank" class="mw-btn mw-btn-success" style="padding:4px 10px; font-size:12px;">মূল নামস্থানে স্থানান্তর করুন</a>` : ''}
+              </td>
+            </tr>
+          `;
+        }).join('');
+      } catch (err) {
+        tbody.innerHTML = '<tr><td colspan="4" style="text-align:center;color:var(--mw-link-red)">খসড়া তালিকা লোড করতে ব্যর্থ হয়েছে।</td></tr>';
+      }
+    }
+
+    // ডকুমেন্টে বাইরে ক্লিক করলে সাজেশন বন্ধ
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('.search-box-inner')) {
+        document.getElementById('suggestions-box').style.display = 'none';
+      }
+    });
+  </script>
+</body>
+</html>

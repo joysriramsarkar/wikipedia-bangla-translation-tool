@@ -1,0 +1,2024 @@
+{
+  "Arkhangai": [
+    {
+      "en_raw": "Tüvshrüülekh",
+      "en_display": "Tüvshrüülekh",
+      "mn_raw": "Төвшрүүлэх сум",
+      "mn_name": "Төвшрүүлэх"
+    },
+    {
+      "en_raw": "Battsengel",
+      "en_display": "Battsengel",
+      "mn_raw": "Батцэнгэл сум",
+      "mn_name": "Батцэнгэл"
+    },
+    {
+      "en_raw": "Bulgan, Arkhangai|Bulgan",
+      "en_display": "Bulgan",
+      "mn_raw": "Булган сум (Архангай)|Булган сум",
+      "mn_name": "Булган"
+    },
+    {
+      "en_raw": "Chuluut, Arkhangai|Chuluut",
+      "en_display": "Chuluut",
+      "mn_raw": "Чулуут  сум",
+      "mn_name": "Чулуут"
+    },
+    {
+      "en_raw": "Tsetserleg (city)|Erdenebulgan",
+      "en_display": "Erdenebulgan",
+      "mn_raw": "Цэцэрлэг (хот)|Эрдэнэбулган сум",
+      "mn_name": "Эрдэнэбулган"
+    },
+    {
+      "en_raw": "Erdenemandal",
+      "en_display": "Erdenemandal",
+      "mn_raw": "Эрдэнэмандал сум",
+      "mn_name": "Эрдэнэмандал"
+    },
+    {
+      "en_raw": "Ikh-Tamir",
+      "en_display": "Ikh-Tamir",
+      "mn_raw": "Ихтамир сум",
+      "mn_name": "Ихтамир"
+    },
+    {
+      "en_raw": "Jargalant, Arkhangai|Jargalant",
+      "en_display": "Jargalant",
+      "mn_raw": "Жаргалант сум (Архангай)|Жаргалант сум",
+      "mn_name": "Жаргалант"
+    },
+    {
+      "en_raw": "Khangai, Arkhangai|Khangai",
+      "en_display": "Khangai",
+      "mn_raw": "Хангай сум",
+      "mn_name": "Хангай"
+    },
+    {
+      "en_raw": "Khashaat",
+      "en_display": "Khashaat",
+      "mn_raw": "Хашаат сум",
+      "mn_name": "Хашаат"
+    },
+    {
+      "en_raw": "Khairkhan",
+      "en_display": "Khairkhan",
+      "mn_raw": "Хайрхан сум",
+      "mn_name": "Хайрхан"
+    },
+    {
+      "en_raw": "Khotont",
+      "en_display": "Khotont",
+      "mn_raw": "Хотонт сум",
+      "mn_name": "Хотонт"
+    },
+    {
+      "en_raw": "Ögii nuur, Arkhangai|Ögii nuur",
+      "en_display": "Ögii nuur",
+      "mn_raw": "Өгийнуур сум",
+      "mn_name": "Өгийнуур"
+    },
+    {
+      "en_raw": "Ölziit, Arkhangai|Ölziit",
+      "en_display": "Ölziit",
+      "mn_raw": "Өлзийт сум (Архангай)|Өлзийт сум",
+      "mn_name": "Өлзийт"
+    },
+    {
+      "en_raw": "Öndör-Ulaan",
+      "en_display": "Öndör-Ulaan",
+      "mn_raw": "Өндөр-Улаан сум",
+      "mn_name": "Өндөр-Улаан"
+    },
+    {
+      "en_raw": "Tariat",
+      "en_display": "Tariat",
+      "mn_raw": "Тариат сум",
+      "mn_name": "Тариат"
+    },
+    {
+      "en_raw": "Tsakhir",
+      "en_display": "Tsakhir",
+      "mn_raw": "Цахир сум",
+      "mn_name": "Цахир"
+    },
+    {
+      "en_raw": "Tsenkher",
+      "en_display": "Tsenkher",
+      "mn_raw": "Цэнхэр сум",
+      "mn_name": "Цэнхэр"
+    },
+    {
+      "en_raw": "Tsetserleg, Arkhangai|Tsetserleg",
+      "en_display": "Tsetserleg",
+      "mn_raw": "Цэцэрлэг сум (Архангай)|Цэцэрлэг сум",
+      "mn_name": "Цэцэрлэг"
+    }
+  ],
+  "Bayan-Ölgii": [
+    {
+      "en_raw": "Altantsögts",
+      "en_display": "Altantsögts",
+      "mn_raw": "Алтанцөгц сум",
+      "mn_name": "Алтанцөгц"
+    },
+    {
+      "en_raw": "Altai, Bayan-Ölgii|Altai",
+      "en_display": "Altai",
+      "mn_raw": "Алтай сум (Баян-Өлгий)|Алтай сум",
+      "mn_name": "Алтай"
+    },
+    {
+      "en_raw": "Bayannuur, Bayan-Ölgii|Bayannuur",
+      "en_display": "Bayannuur",
+      "mn_raw": "Баяннуур сум (Баян-Өлгий)|Баяннуур сум",
+      "mn_name": "Баяннуур"
+    },
+    {
+      "en_raw": "Bugat, Bayan-Ölgii|Bugat",
+      "en_display": "Bugat",
+      "mn_raw": "Бугат сум (Баян-Өлгий)|Бугат сум",
+      "mn_name": "Бугат"
+    },
+    {
+      "en_raw": "Bulgan, Bayan-Ölgii|Bulgan",
+      "en_display": "Bulgan",
+      "mn_raw": "Булган сум (Баян-Өлгий)|Булган сум",
+      "mn_name": "Булган"
+    },
+    {
+      "en_raw": "Buyant, Bayan-Ölgii|Buyant",
+      "en_display": "Buyant",
+      "mn_raw": "Буянт сум (Баян-Өлгий)|Буянт сум",
+      "mn_name": "Буянт"
+    },
+    {
+      "en_raw": "Delüün",
+      "en_display": "Delüün",
+      "mn_raw": "Дэлүүн сум",
+      "mn_name": "Дэлүүн"
+    },
+    {
+      "en_raw": "Nogoonnuur",
+      "en_display": "Nogoonnuur",
+      "mn_raw": "Ногооннуур сум",
+      "mn_name": "Ногооннуур"
+    },
+    {
+      "en_raw": "Ölgii (city)|Ölgii",
+      "en_display": "Ölgii",
+      "mn_raw": "Өлгий|Өлгий хот",
+      "mn_name": "Өлгий"
+    },
+    {
+      "en_raw": "Sagsai",
+      "en_display": "Sagsai",
+      "mn_raw": "Сагсай сум",
+      "mn_name": "Сагсай"
+    },
+    {
+      "en_raw": "Tolbo",
+      "en_display": "Tolbo",
+      "mn_raw": "Толбо сум",
+      "mn_name": "Толбо"
+    },
+    {
+      "en_raw": "Tsagaannuur (village)",
+      "en_display": "Tsagaannuur (village)",
+      "mn_raw": "Цагааннуур сум (Баян-Өлгий)|Цагааннуур сум",
+      "mn_name": "Цагааннуур"
+    },
+    {
+      "en_raw": "Tsengel, Bayan-Ölgii|Tsengel",
+      "en_display": "Tsengel",
+      "mn_raw": "Цэнгэл сум",
+      "mn_name": "Цэнгэл"
+    },
+    {
+      "en_raw": "Ulaankhus",
+      "en_display": "Ulaankhus",
+      "mn_raw": "Улаанхус сум",
+      "mn_name": "Улаанхус"
+    }
+  ],
+  "Bayankhongor": [
+    {
+      "en_raw": "Baatsagaan",
+      "en_display": "Baatsagaan",
+      "mn_raw": "Баацагаан сум",
+      "mn_name": "Баацагаан"
+    },
+    {
+      "en_raw": "Bayan-Öndör, Bayankhongor|Bayan-Öndör",
+      "en_display": "Bayan-Öndör",
+      "mn_raw": "Баян-Өндөр сум (Баянхонгор)|Баян-Өндөр сум",
+      "mn_name": "Баян-Өндөр"
+    },
+    {
+      "en_raw": "Bayan-Ovoo, Bayankhongor|Bayan-Ovoo",
+      "en_display": "Bayan-Ovoo",
+      "mn_raw": "Баян-Овоо сум (Баянхонгор)|Баян-Овоо сум",
+      "mn_name": "Баян-Овоо"
+    },
+    {
+      "en_raw": "Bayanbulag, Bayankhongor|Bayanbulag",
+      "en_display": "Bayanbulag",
+      "mn_raw": "Баянбулаг сум",
+      "mn_name": "Баянбулаг"
+    },
+    {
+      "en_raw": "Bayangovi, Bayankhongor|Bayangovi",
+      "en_display": "Bayangovi",
+      "mn_raw": "Баянговь сум",
+      "mn_name": "Баянговь"
+    },
+    {
+      "en_raw": "Bayankhongor",
+      "en_display": "Bayankhongor",
+      "mn_raw": "Баянхонгор (хот)|Баянхонгор сум",
+      "mn_name": "Баянхонгор"
+    },
+    {
+      "en_raw": "Bayanlig",
+      "en_display": "Bayanlig",
+      "mn_raw": "Баянлиг сум",
+      "mn_name": "Баянлиг"
+    },
+    {
+      "en_raw": "Bayantsagaan, Bayankhongor|Bayantsagaan",
+      "en_display": "Bayantsagaan",
+      "mn_raw": "Баянцагаан сум (Баянхонгор)|Баянцагаан сум",
+      "mn_name": "Баянцагаан"
+    },
+    {
+      "en_raw": "Bogd, Bayankhongor|Bogd",
+      "en_display": "Bogd",
+      "mn_raw": "Богд сум (Баянхонгор)|Богд сум",
+      "mn_name": "Богд"
+    },
+    {
+      "en_raw": "Bömbögör, Bayankhongor|Bömbögör",
+      "en_display": "Bömbögör",
+      "mn_raw": "Бөмбөгөр сум",
+      "mn_name": "Бөмбөгөр"
+    },
+    {
+      "en_raw": "Buutsagaan",
+      "en_display": "Buutsagaan",
+      "mn_raw": "Бууцагаан сум",
+      "mn_name": "Бууцагаан"
+    },
+    {
+      "en_raw": "Erdenetsogt",
+      "en_display": "Erdenetsogt",
+      "mn_raw": "Эрдэнэцогт сум",
+      "mn_name": "Эрдэнэцогт"
+    },
+    {
+      "en_raw": "Galuut",
+      "en_display": "Galuut",
+      "mn_raw": "Галуут сум",
+      "mn_name": "Галуут"
+    },
+    {
+      "en_raw": "Gurvanbulag, Bayankhongor|Gurvanbulag",
+      "en_display": "Gurvanbulag",
+      "mn_raw": "Гурванбулаг сум (Баянхонгор)|Гурванбулаг сум",
+      "mn_name": "Гурванбулаг"
+    },
+    {
+      "en_raw": "Jargalant, Bayankhongor|Jargalant",
+      "en_display": "Jargalant",
+      "mn_raw": "Жаргалант сум (Баянхонгор)|Жаргалант сум",
+      "mn_name": "Жаргалант"
+    },
+    {
+      "en_raw": "Jinst",
+      "en_display": "Jinst",
+      "mn_raw": "Жинст сум",
+      "mn_name": "Жинст"
+    },
+    {
+      "en_raw": "Khüreemaral",
+      "en_display": "Khüreemaral",
+      "mn_raw": "Хүрээмарал сум",
+      "mn_name": "Хүрээмарал"
+    },
+    {
+      "en_raw": "Ölziit, Bayankhongor|Ölziit",
+      "en_display": "Ölziit",
+      "mn_raw": "Өлзийт сум (Баянхонгор)|Өлзийт сум",
+      "mn_name": "Өлзийт"
+    },
+    {
+      "en_raw": "Shinejinst",
+      "en_display": "Shinejinst",
+      "mn_raw": "Шинэжинст сум",
+      "mn_name": "Шинэжинст"
+    },
+    {
+      "en_raw": "Zag, Mongolia|Zag",
+      "en_display": "Zag",
+      "mn_raw": "Заг сум",
+      "mn_name": "Заг"
+    }
+  ],
+  "Bulgan": [
+    {
+      "en_raw": "Bayannuur, Bulgan|Bayanuur",
+      "en_display": "Bayanuur",
+      "mn_raw": "Баяннуур сум (Булган)|Баяннуур сум",
+      "mn_name": "Баяннуур"
+    },
+    {
+      "en_raw": "Bayan-Agt",
+      "en_display": "Bayan-Agt",
+      "mn_raw": "Баян-Агт сум",
+      "mn_name": "Баян-Агт"
+    },
+    {
+      "en_raw": "Bugat, Bulgan|Bugat",
+      "en_display": "Bugat",
+      "mn_raw": "Бугат сум (Булган)|Бугат сум",
+      "mn_name": "Бугат"
+    },
+    {
+      "en_raw": "Bulgan (city)|Bulgan",
+      "en_display": "Bulgan",
+      "mn_raw": "Булган (хот)|Булган сум",
+      "mn_name": "Булган"
+    },
+    {
+      "en_raw": "Büregkhangai",
+      "en_display": "Büregkhangai",
+      "mn_raw": "Бүрэгхангай сум",
+      "mn_name": "Бүрэгхангай"
+    },
+    {
+      "en_raw": "Dashinchilen",
+      "en_display": "Dashinchilen",
+      "mn_raw": "Дашинчилэн сум",
+      "mn_name": "Дашинчилэн"
+    },
+    {
+      "en_raw": "Gurvanbulag, Bulgan|Gurvanbulag",
+      "en_display": "Gurvanbulag",
+      "mn_raw": "Гурванбулаг сум (Булган)|Гурванбулаг сум",
+      "mn_name": "Гурванбулаг"
+    },
+    {
+      "en_raw": "Khangal",
+      "en_display": "Khangal",
+      "mn_raw": "Хангал сум",
+      "mn_name": "Хангал"
+    },
+    {
+      "en_raw": "Khishig-Öndör",
+      "en_display": "Khishig-Öndör",
+      "mn_raw": "Хишиг-Өндөр сум",
+      "mn_name": "Хишиг-Өндөр"
+    },
+    {
+      "en_raw": "Khutag-Öndör",
+      "en_display": "Khutag-Öndör",
+      "mn_raw": "Хутаг-Өндөр сум",
+      "mn_name": "Хутаг-Өндөр"
+    },
+    {
+      "en_raw": "Mogod",
+      "en_display": "Mogod",
+      "mn_raw": "Могод сум",
+      "mn_name": "Могод"
+    },
+    {
+      "en_raw": "Orkhon, Bulgan|Orkhon",
+      "en_display": "Orkhon",
+      "mn_raw": "Орхон сум (Булган)|Орхон сум",
+      "mn_name": "Орхон"
+    },
+    {
+      "en_raw": "Rashaant, Bulgan|Rashaant",
+      "en_display": "Rashaant",
+      "mn_raw": "Рашаант сум (Булган)|Рашаант сум",
+      "mn_name": "Рашаант"
+    },
+    {
+      "en_raw": "Saikhan, Bulgan|Saikhan",
+      "en_display": "Saikhan",
+      "mn_raw": "Сайхан сум (Булган)|Сайхан сум",
+      "mn_name": "Сайхан"
+    },
+    {
+      "en_raw": "Selenge, Bulgan|Selenge",
+      "en_display": "Selenge",
+      "mn_raw": "Сэлэнгэ сум (Булган)|Сэлэнгэ сум",
+      "mn_name": "Сэлэнгэ"
+    },
+    {
+      "en_raw": "Teshig",
+      "en_display": "Teshig",
+      "mn_raw": "Тэшиг сум",
+      "mn_name": "Тэшиг"
+    }
+  ],
+  "Darkhan-Uul": [
+    {
+      "en_raw": "Darkhan (city)|Darkhan",
+      "en_display": "Darkhan",
+      "mn_raw": "Дархан",
+      "mn_name": "Дархан"
+    },
+    {
+      "en_raw": "Khongor, Darkhan-Uul|Khongor",
+      "en_display": "Khongor",
+      "mn_raw": "Хонгор сум",
+      "mn_name": "Хонгор"
+    },
+    {
+      "en_raw": "Orkhon, Darkhan-Uul|Orkhon",
+      "en_display": "Orkhon",
+      "mn_raw": "Орхон сум (Дархан-Уул)|Орхон сум",
+      "mn_name": "Орхон"
+    },
+    {
+      "en_raw": "Sharyngol, Darkhan-Uul|Sharyngol",
+      "en_display": "Sharyngol",
+      "mn_raw": "Шарынгол сум",
+      "mn_name": "Шарынгол"
+    }
+  ],
+  "Dornod": [
+    {
+      "en_raw": "Bayan-Uul, Dornod|Bayan-Uul",
+      "en_display": "Bayan-Uul",
+      "mn_raw": "Баян-Уул сум (Дорнод)|Баян-Уул сум",
+      "mn_name": "Баян-Уул"
+    },
+    {
+      "en_raw": "Bayandun, Dornod|Bayandun",
+      "en_display": "Bayandun",
+      "mn_raw": "Баяндун сум",
+      "mn_name": "Баяндун"
+    },
+    {
+      "en_raw": "Bayantümen",
+      "en_display": "Bayantümen",
+      "mn_raw": "Баянтүмэн сум",
+      "mn_name": "Баянтүмэн"
+    },
+    {
+      "en_raw": "Bulgan, Dornod|Bulgan",
+      "en_display": "Bulgan",
+      "mn_raw": "Булган сум (Дорнод)|Булган сум",
+      "mn_name": "Булган"
+    },
+    {
+      "en_raw": "Choibalsan (sum)|Choibalsan",
+      "en_display": "Choibalsan",
+      "mn_raw": "Чойбалсан сум",
+      "mn_name": "Чойбалсан"
+    },
+    {
+      "en_raw": "Chuluunkhoroot",
+      "en_display": "Chuluunkhoroot",
+      "mn_raw": "Чулуунхороот сум",
+      "mn_name": "Чулуунхороот"
+    },
+    {
+      "en_raw": "Dashbalbar, Dornod|Dashbalbar",
+      "en_display": "Dashbalbar",
+      "mn_raw": "Дашбалбар сум",
+      "mn_name": "Дашбалбар"
+    },
+    {
+      "en_raw": "Gurvanzagal",
+      "en_display": "Gurvanzagal",
+      "mn_raw": "Гурванзагал сум",
+      "mn_name": "Гурванзагал"
+    },
+    {
+      "en_raw": "Khalkhgol",
+      "en_display": "Khalkhgol",
+      "mn_raw": "Халхгол сум",
+      "mn_name": "Халхгол"
+    },
+    {
+      "en_raw": "Choibalsan (city)|Kherlen",
+      "en_display": "Kherlen",
+      "mn_raw": "Чойбалсан хот|Хэрлэн",
+      "mn_name": "Хэрлэн"
+    },
+    {
+      "en_raw": "Khölönbuir, Dornod|Khölönbuir",
+      "en_display": "Khölönbuir",
+      "mn_raw": "Хөлөнбуйр сум",
+      "mn_name": "Хөлөнбуйр"
+    },
+    {
+      "en_raw": "Matad",
+      "en_display": "Matad",
+      "mn_raw": "Матад сум",
+      "mn_name": "Матад"
+    },
+    {
+      "en_raw": "Sergelen, Dornod|Sergelen",
+      "en_display": "Sergelen",
+      "mn_raw": "Сэргэлэн сум (Дорнод)|Сэргэлэн сум",
+      "mn_name": "Сэргэлэн"
+    },
+    {
+      "en_raw": "Tsagaan-Ovoo",
+      "en_display": "Tsagaan-Ovoo",
+      "mn_raw": "Цагаан-Овоо сум",
+      "mn_name": "Цагаан-Овоо"
+    }
+  ],
+  "Dornogovi": [
+    {
+      "en_raw": "Altanshiree",
+      "en_display": "Altanshiree",
+      "mn_raw": "Алтанширээ сум",
+      "mn_name": "Алтанширээ"
+    },
+    {
+      "en_raw": "Airag, Dornogovi|Airag",
+      "en_display": "Airag",
+      "mn_raw": "Айраг сум",
+      "mn_name": "Айраг"
+    },
+    {
+      "en_raw": "Dalanjargalan",
+      "en_display": "Dalanjargalan",
+      "mn_raw": "Даланжаргалан сум",
+      "mn_name": "Даланжаргалан"
+    },
+    {
+      "en_raw": "Delgerekh",
+      "en_display": "Delgerekh",
+      "mn_raw": "Дэлгэрэх сум",
+      "mn_name": "Дэлгэрэх"
+    },
+    {
+      "en_raw": "Erdene, Dornogovi|Erdene",
+      "en_display": "Erdene",
+      "mn_raw": "Эрдэнэ сум (Дорноговь)|Эрдэнэ сум",
+      "mn_name": "Эрдэнэ"
+    },
+    {
+      "en_raw": "Khatanbulag",
+      "en_display": "Khatanbulag",
+      "mn_raw": "Хатанбулаг сум",
+      "mn_name": "Хатанбулаг"
+    },
+    {
+      "en_raw": "Khövsgöl, Dornogovi|Khövsgöl",
+      "en_display": "Khövsgöl",
+      "mn_raw": "Хөвсгөл сум",
+      "mn_name": "Хөвсгөл"
+    },
+    {
+      "en_raw": "Ikhkhet",
+      "en_display": "Ikhkhet",
+      "mn_raw": "Иххэт сум",
+      "mn_name": "Иххэт"
+    },
+    {
+      "en_raw": "Mandakh, Dornogovi|Mandakh",
+      "en_display": "Mandakh",
+      "mn_raw": "Мандах сум",
+      "mn_name": "Мандах"
+    },
+    {
+      "en_raw": "Örgön",
+      "en_display": "Örgön",
+      "mn_raw": "Өргөн сум",
+      "mn_name": "Өргөн"
+    },
+    {
+      "en_raw": "Saikhandulaan",
+      "en_display": "Saikhandulaan",
+      "mn_raw": "Сайхандулаан сум",
+      "mn_name": "Сайхандулаан"
+    },
+    {
+      "en_raw": "Sainshand",
+      "en_display": "Sainshand",
+      "mn_raw": "Сайншанд",
+      "mn_name": "Сайншанд"
+    },
+    {
+      "en_raw": "Ulaanbadrakh",
+      "en_display": "Ulaanbadrakh",
+      "mn_raw": "Улаанбадрах сум",
+      "mn_name": "Улаанбадрах"
+    },
+    {
+      "en_raw": "Zamyn-Üüd",
+      "en_display": "Zamyn-Üüd",
+      "mn_raw": "Замын-Үүд сум",
+      "mn_name": "Замын-Үүд"
+    }
+  ],
+  "Dundgovi": [
+    {
+      "en_raw": "Mandalgovi|Saintsagaan",
+      "en_display": "Saintsagaan",
+      "mn_raw": "Мандалговь",
+      "mn_name": "Мандалговь"
+    },
+    {
+      "en_raw": "Adaatsag, Dundgovi|Adaatsag",
+      "en_display": "Adaatsag",
+      "mn_raw": "Адаацаг сум",
+      "mn_name": "Адаацаг"
+    },
+    {
+      "en_raw": "Bayanjargalan, Dundgovi|Bayanjargalan",
+      "en_display": "Bayanjargalan",
+      "mn_raw": "Баянжаргалан сум (Дундговь)|Баянжаргалан сум",
+      "mn_name": "Баянжаргалан"
+    },
+    {
+      "en_raw": "Delgerkhangai, Dundgovi|Delgerkhangai",
+      "en_display": "Delgerkhangai",
+      "mn_raw": "Дэлгэрхангай сум",
+      "mn_name": "Дэлгэрхангай"
+    },
+    {
+      "en_raw": "Delgertsogt, Dundgovi|Delgertsogt",
+      "en_display": "Delgertsogt",
+      "mn_raw": "Дэлгэрцогт сум",
+      "mn_name": "Дэлгэрцогт"
+    },
+    {
+      "en_raw": "Deren, Dundgovi|Deren",
+      "en_display": "Deren",
+      "mn_raw": "Дэрэн сум",
+      "mn_name": "Дэрэн"
+    },
+    {
+      "en_raw": "Erdenedalai, Dundgovi|Erdenedalai",
+      "en_display": "Erdenedalai",
+      "mn_raw": "Эрдэнэдалай сум",
+      "mn_name": "Эрдэнэдалай"
+    },
+    {
+      "en_raw": "Govi-Ugtaal, Dundgovi|Govi-Ugtaal",
+      "en_display": "Govi-Ugtaal",
+      "mn_raw": "Говь-Угтаал сум",
+      "mn_name": "Говь-Угтаал"
+    },
+    {
+      "en_raw": "Gurvansaikhan, Dundgovi|Gurvansaikhan",
+      "en_display": "Gurvansaikhan",
+      "mn_raw": "Гурвансайхан сум",
+      "mn_name": "Гурвансайхан"
+    },
+    {
+      "en_raw": "Khuld, Dundgovi|Khuld",
+      "en_display": "Khuld",
+      "mn_raw": "Хулд сум",
+      "mn_name": "Хулд"
+    },
+    {
+      "en_raw": "Luus, Dundgovi|Luus",
+      "en_display": "Luus",
+      "mn_raw": "Луус сум",
+      "mn_name": "Луус"
+    },
+    {
+      "en_raw": "Ölziit, Dundgovi|Ölziit",
+      "en_display": "Ölziit",
+      "mn_raw": "Өлзийт сум (Дундговь)|Өлзийт сум",
+      "mn_name": "Өлзийт"
+    },
+    {
+      "en_raw": "Öndörshil, Dundgovi|Öndörshil",
+      "en_display": "Öndörshil",
+      "mn_raw": "Өндөршил сум",
+      "mn_name": "Өндөршил"
+    },
+    {
+      "en_raw": "Saikhan-Ovoo, Dundgovi|Saikhan-Ovoo",
+      "en_display": "Saikhan-Ovoo",
+      "mn_raw": "Сайхан-Овоо сум",
+      "mn_name": "Сайхан-Овоо"
+    },
+    {
+      "en_raw": "Tsagaandelger, Dundgovi|Tsagaandelger",
+      "en_display": "Tsagaandelger",
+      "mn_raw": "Цагаандэлгэр сум",
+      "mn_name": "Цагаандэлгэр"
+    }
+  ],
+  "Govi-Altai": [
+    {
+      "en_raw": "Altai, Govi-Altai|Altai",
+      "en_display": "Altai",
+      "mn_raw": "Алтай сум (Говь-Алтай)|Алтай сум",
+      "mn_name": "Алтай"
+    },
+    {
+      "en_raw": "Bayan-Uul, Govi-Altai|Bayan-Uul",
+      "en_display": "Bayan-Uul",
+      "mn_raw": "Баян-Уул сум (Говь-Алтай)|Баян-Уул сум",
+      "mn_name": "Баян-Уул"
+    },
+    {
+      "en_raw": "Biger, Govi-Altai|Biger",
+      "en_display": "Biger",
+      "mn_raw": "Бигэр сум",
+      "mn_name": "Бигэр"
+    },
+    {
+      "en_raw": "Bugat, Govi-Altai|Bugat",
+      "en_display": "Bugat",
+      "mn_raw": "Бугат сум (Говь-Алтай)|Бугат сум",
+      "mn_name": "Бугат"
+    },
+    {
+      "en_raw": "Chandmani, Govi-Altai|Chandmani",
+      "en_display": "Chandmani",
+      "mn_raw": "Чандмань сум (Говь-Алтай)|Чандмань сум",
+      "mn_name": "Чандмань"
+    },
+    {
+      "en_raw": "Darvi, Govi-Altai|Darvi",
+      "en_display": "Darvi",
+      "mn_raw": "Дарви сум (Говь-Алтай)|Дарви сум",
+      "mn_name": "Дарви"
+    },
+    {
+      "en_raw": "Delger, Govi-Altai|Delger",
+      "en_display": "Delger",
+      "mn_raw": "Дэлгэр сум",
+      "mn_name": "Дэлгэр"
+    },
+    {
+      "en_raw": "Erdene, Govi-Altai|Erdene",
+      "en_display": "Erdene",
+      "mn_raw": "Эрдэнэ сум (Говь-Алтай)|Эрдэнэ сум",
+      "mn_name": "Эрдэнэ"
+    },
+    {
+      "en_raw": "Khaliun, Govi-Altai|Khaliun",
+      "en_display": "Khaliun",
+      "mn_raw": "Халиун сум",
+      "mn_name": "Халиун"
+    },
+    {
+      "en_raw": "Khökh morit, Govi-Altai|Khökh morit",
+      "en_display": "Khökh morit",
+      "mn_raw": "Хөхморьт сум",
+      "mn_name": "Хөхморьт"
+    },
+    {
+      "en_raw": "Jargalan, Govi-Altai|Jargalan",
+      "en_display": "Jargalan",
+      "mn_raw": "Жаргалан сум",
+      "mn_name": "Жаргалан"
+    },
+    {
+      "en_raw": "Sharga, Govi-Altai|Sharga",
+      "en_display": "Sharga",
+      "mn_raw": "Шарга сум",
+      "mn_name": "Шарга"
+    },
+    {
+      "en_raw": "Taishir, Govi-Altai|Taishir",
+      "en_display": "Taishir",
+      "mn_raw": "Тайшир сум",
+      "mn_name": "Тайшир"
+    },
+    {
+      "en_raw": "Tögrög, Govi-Altai|Tögrög",
+      "en_display": "Tögrög",
+      "mn_raw": "Төгрөг сум (Говь-Алтай)|Төгрөг сум",
+      "mn_name": "Төгрөг"
+    },
+    {
+      "en_raw": "Tonkhil, Govi-Altai|Tonkhil",
+      "en_display": "Tonkhil",
+      "mn_raw": "Тонхил сум",
+      "mn_name": "Тонхил"
+    },
+    {
+      "en_raw": "Tseel, Govi-Altai|Tseel",
+      "en_display": "Tseel",
+      "mn_raw": "Цээл сум (Говь-Алтай)|Цээл сум",
+      "mn_name": "Цээл"
+    },
+    {
+      "en_raw": "Tsogt, Govi-Altai|Tsogt",
+      "en_display": "Tsogt",
+      "mn_raw": "Цогт сум",
+      "mn_name": "Цогт"
+    },
+    {
+      "en_raw": "Yesönbulag, Govi-Altai|Yesönbulag",
+      "en_display": "Yesönbulag",
+      "mn_raw": "Есөнбулаг сум",
+      "mn_name": "Есөнбулаг"
+    }
+  ],
+  "Govisümber": [
+    {
+      "en_raw": "Bayantal, Govisümber|Bayantal",
+      "en_display": "Bayantal",
+      "mn_raw": "Баянтал сум",
+      "mn_name": "Баянтал"
+    },
+    {
+      "en_raw": "Shiveegovi",
+      "en_display": "Shiveegovi",
+      "mn_raw": "Шивээговь сум",
+      "mn_name": "Шивээговь"
+    },
+    {
+      "en_raw": "Sümber, Govisümber|Sümber",
+      "en_display": "Sümber",
+      "mn_raw": "Сүмбэр сум (Говьсүмбэр)|Сүмбэр сум",
+      "mn_name": "Сүмбэр"
+    }
+  ],
+  "Khentii": [
+    {
+      "en_raw": "Bayan-Adarga, Khentii|Bayan-Adarga",
+      "en_display": "Bayan-Adarga",
+      "mn_raw": "Баян-Адрага сум",
+      "mn_name": "Баян-Адрага"
+    },
+    {
+      "en_raw": "Batshireet, Khentii|Eg",
+      "en_display": "Eg",
+      "mn_raw": "Батширээт сум",
+      "mn_name": "Батширээт"
+    },
+    {
+      "en_raw": "Ömöndelger, Khentii|Ömöndelger",
+      "en_display": "Ömöndelger",
+      "mn_raw": "Өмнөдэлгэр сум",
+      "mn_name": "Өмнөдэлгэр"
+    },
+    {
+      "en_raw": "Batnorov, Khentii|Batnorov",
+      "en_display": "Batnorov",
+      "mn_raw": "Батноров сум",
+      "mn_name": "Батноров"
+    },
+    {
+      "en_raw": "Bayankhutag, Khentii|Bayankhutag",
+      "en_display": "Bayankhutag",
+      "mn_raw": "Баянхутаг сум",
+      "mn_name": "Баянхутаг"
+    },
+    {
+      "en_raw": "Bayanmönkh, Khentii|Bayanmönkh",
+      "en_display": "Bayanmönkh",
+      "mn_raw": "Баянмөнх сум",
+      "mn_name": "Баянмөнх"
+    },
+    {
+      "en_raw": "Bayan-Ovoo, Khentii|Bayan-Ovoo",
+      "en_display": "Bayan-Ovoo",
+      "mn_raw": "Баян-Овоо сум (Хэнтий)|Баян-Овоо сум",
+      "mn_name": "Баян-Овоо"
+    },
+    {
+      "en_raw": "Binder, Khentii|Binder",
+      "en_display": "Binder",
+      "mn_raw": "Биндэр сум",
+      "mn_name": "Биндэр"
+    },
+    {
+      "en_raw": "Dadal, Khentii|Dadal",
+      "en_display": "Dadal",
+      "mn_raw": "Дадал сум",
+      "mn_name": "Дадал"
+    },
+    {
+      "en_raw": "Darkhan, Khentii|Darkhan",
+      "en_display": "Darkhan",
+      "mn_raw": "Дархан сум",
+      "mn_name": "Дархан"
+    },
+    {
+      "en_raw": "Delgerkhaan, Khentii|Delgerkhaan",
+      "en_display": "Delgerkhaan",
+      "mn_raw": "Дэлгэрхаан сум (Хэнтий)|Дэлгэрхаан сум",
+      "mn_name": "Дэлгэрхаан"
+    },
+    {
+      "en_raw": "Galshar, Khentii|Galshar",
+      "en_display": "Galshar",
+      "mn_raw": "Галшар сум",
+      "mn_name": "Галшар"
+    },
+    {
+      "en_raw": "Kherlen, Khentii|Kherlen",
+      "en_display": "Kherlen",
+      "mn_raw": "Хэрлэн сум",
+      "mn_name": "Хэрлэн"
+    },
+    {
+      "en_raw": "Jargaltkhaan, Khentii|Jargaltkhaan",
+      "en_display": "Jargaltkhaan",
+      "mn_raw": "Жаргалтхаан сум",
+      "mn_name": "Жаргалтхаан"
+    },
+    {
+      "en_raw": "Mörön, Khentii|Mörön",
+      "en_display": "Mörön",
+      "mn_raw": "Мөрөн сум (Хэнтий)|Мөрөн сум",
+      "mn_name": "Мөрөн"
+    },
+    {
+      "en_raw": "Norovlin, Khentii|Norovlin",
+      "en_display": "Norovlin",
+      "mn_raw": "Норовлин сум",
+      "mn_name": "Норовлин"
+    },
+    {
+      "en_raw": "Tsenkhermandal, Khentii|Tsenkhermandal",
+      "en_display": "Tsenkhermandal",
+      "mn_raw": "Цэнхэрмандал сум",
+      "mn_name": "Цэнхэрмандал"
+    }
+  ],
+  "Khovd": [
+    {
+      "en_raw": "Altai, Khovd|Altai",
+      "en_display": "Altai",
+      "mn_raw": "Алтай сум (Ховд)|Алтай сум",
+      "mn_name": "Алтай"
+    },
+    {
+      "en_raw": "Bulgan, Khovd|Bulgan",
+      "en_display": "Bulgan",
+      "mn_raw": "Булган сум (Ховд)|Булган сум",
+      "mn_name": "Булган"
+    },
+    {
+      "en_raw": "Buyant, Khovd|Buyant",
+      "en_display": "Buyant",
+      "mn_raw": "Буянт сум (Ховд)|Буянт сум",
+      "mn_name": "Буянт"
+    },
+    {
+      "en_raw": "Chandmani, Khovd|Chandmani",
+      "en_display": "Chandmani",
+      "mn_raw": "Чандмань сум (Ховд)|Чандмань сум",
+      "mn_name": "Чандмань"
+    },
+    {
+      "en_raw": "Darvi, Khovd|Darvi",
+      "en_display": "Darvi",
+      "mn_raw": "Дарви сум (Ховд)|Дарви сум",
+      "mn_name": "Дарви"
+    },
+    {
+      "en_raw": "Dörgön, Khovd|Dörgön",
+      "en_display": "Dörgön",
+      "mn_raw": "Дөргөн сум",
+      "mn_name": "Дөргөн"
+    },
+    {
+      "en_raw": "Duut, Khovd|Duut",
+      "en_display": "Duut",
+      "mn_raw": "Дуут сум",
+      "mn_name": "Дуут"
+    },
+    {
+      "en_raw": "Erdenebüren, Khovd|Erdenebüren",
+      "en_display": "Erdenebüren",
+      "mn_raw": "Эрдэнэбүрэн сум",
+      "mn_name": "Эрдэнэбүрэн"
+    },
+    {
+      "en_raw": "Jargalant, Khovd|Jargalant (Khovd city)",
+      "en_display": "Jargalant (Khovd city)",
+      "mn_raw": "Ховд сум (Ховд)|Ховд сум",
+      "mn_name": "Ховд"
+    },
+    {
+      "en_raw": "Khovd, Khovd|Khovd (sum)",
+      "en_display": "Khovd (sum)",
+      "mn_raw": "Ховд (хот)|Ховд",
+      "mn_name": "Ховд"
+    },
+    {
+      "en_raw": "Mankhan, Khovd|Mankhan",
+      "en_display": "Mankhan",
+      "mn_raw": "Манхан сум",
+      "mn_name": "Манхан"
+    },
+    {
+      "en_raw": "Mönkhkhairkhan, Khovd|Mönkhkhairkhan",
+      "en_display": "Mönkhkhairkhan",
+      "mn_raw": "Мөнххайрхан сум",
+      "mn_name": "Мөнххайрхан"
+    },
+    {
+      "en_raw": "Möst, Khovd|Möst",
+      "en_display": "Möst",
+      "mn_raw": "Мөст сум",
+      "mn_name": "Мөст"
+    },
+    {
+      "en_raw": "Myangad, Khovd|Myangad",
+      "en_display": "Myangad",
+      "mn_raw": "Мянгад сум",
+      "mn_name": "Мянгад"
+    },
+    {
+      "en_raw": "Tsetseg, Khovd|Tsetseg",
+      "en_display": "Tsetseg",
+      "mn_raw": "Цэцэг сум",
+      "mn_name": "Цэцэг"
+    },
+    {
+      "en_raw": "Üyench, Khovd|Üyench",
+      "en_display": "Üyench",
+      "mn_raw": "Үенч сум",
+      "mn_name": "Үенч"
+    },
+    {
+      "en_raw": "Zereg, Khovd|Zereg",
+      "en_display": "Zereg",
+      "mn_raw": "Зэрэг сум",
+      "mn_name": "Зэрэг"
+    }
+  ],
+  "Khövsgöl": [
+    {
+      "en_raw": "Alag-Erdene, Khövsgöl|Alag-Erdene",
+      "en_display": "Alag-Erdene",
+      "mn_raw": "Алаг-Эрдэнэ сум",
+      "mn_name": "Алаг-Эрдэнэ"
+    },
+    {
+      "en_raw": "Arbulag, Khövsgöl|Arbulag",
+      "en_display": "Arbulag",
+      "mn_raw": "Арбулаг сум",
+      "mn_name": "Арбулаг"
+    },
+    {
+      "en_raw": "Bayanzürkh, Khövsgöl|Bayanzürkh",
+      "en_display": "Bayanzürkh",
+      "mn_raw": "Баянзүрх сум",
+      "mn_name": "Баянзүрх"
+    },
+    {
+      "en_raw": "Bürentogtokh, Khövsgöl|Bürentogtokh",
+      "en_display": "Bürentogtokh",
+      "mn_raw": "Бүрэнтогтох сум",
+      "mn_name": "Бүрэнтогтох"
+    },
+    {
+      "en_raw": "Chandmani-Öndör, Khövsgöl|Chandmani-Öndör",
+      "en_display": "Chandmani-Öndör",
+      "mn_raw": "Чандмань-Өндөр сум",
+      "mn_name": "Чандмань-Өндөр"
+    },
+    {
+      "en_raw": "Erdenebulgan, Khövsgöl|Erdenebulgan",
+      "en_display": "Erdenebulgan",
+      "mn_raw": "Эрдэнэбулган сум",
+      "mn_name": "Эрдэнэбулган"
+    },
+    {
+      "en_raw": "Galt, Khövsgöl|Galt",
+      "en_display": "Galt",
+      "mn_raw": "Галт сум",
+      "mn_name": "Галт"
+    },
+    {
+      "en_raw": "Khankh, Khövsgöl|Khankh",
+      "en_display": "Khankh",
+      "mn_raw": "Ханх сум",
+      "mn_name": "Ханх"
+    },
+    {
+      "en_raw": "Ikh-Uul, Khövsgöl|Ikh-Uul",
+      "en_display": "Ikh-Uul",
+      "mn_raw": "Их-Уул сум (Хөвсгөл)|Их-Уул сум",
+      "mn_name": "Их-Уул"
+    },
+    {
+      "en_raw": "Jargalant, Khövsgöl|Jargalant",
+      "en_display": "Jargalant",
+      "mn_raw": "Жаргалант сум (Хөвсгөл)|Жаргалант сум",
+      "mn_name": "Жаргалант"
+    },
+    {
+      "en_raw": "Mörön (city)|Mörön",
+      "en_display": "Mörön",
+      "mn_raw": "Мөрөн сум (Хөвсгөл)|Мөрөн сум",
+      "mn_name": "Мөрөн"
+    },
+    {
+      "en_raw": "Rashaant, Khövsgöl|Rashaant",
+      "en_display": "Rashaant",
+      "mn_raw": "Рашаант сум (Хөвсгөл)|Рашаант сум",
+      "mn_name": "Рашаант"
+    },
+    {
+      "en_raw": "Renchinlkhümbe, Khövsgöl|Renchinlkhümbe",
+      "en_display": "Renchinlkhümbe",
+      "mn_raw": "Рэнчинлхүмбэ сум",
+      "mn_name": "Рэнчинлхүмбэ"
+    },
+    {
+      "en_raw": "Shine-Ider, Khövsgöl|Shine-Ider",
+      "en_display": "Shine-Ider",
+      "mn_raw": "Шинэ-Идэр сум",
+      "mn_name": "Шинэ-Идэр"
+    },
+    {
+      "en_raw": "Tarialan, Khövsgöl|Tarialan",
+      "en_display": "Tarialan",
+      "mn_raw": "Тариалан сум (Хөвсгөл)|Тариалан сум",
+      "mn_name": "Тариалан"
+    },
+    {
+      "en_raw": "Tömörbulag, Khövsgöl|Tömörbulag",
+      "en_display": "Tömörbulag",
+      "mn_raw": "Төмөрбулаг сум",
+      "mn_name": "Төмөрбулаг"
+    },
+    {
+      "en_raw": "Tosontsengel, Khövsgöl|Tosontsengel",
+      "en_display": "Tosontsengel",
+      "mn_raw": "Тосонцэнгэл сум (Хөвсгөл)|Тосонцэнгэл сум",
+      "mn_name": "Тосонцэнгэл"
+    },
+    {
+      "en_raw": "Tsagaan-Uul, Khövsgöl|Tsagaan-Uul",
+      "en_display": "Tsagaan-Uul",
+      "mn_raw": "Цагаан-Уул сум",
+      "mn_name": "Цагаан-Уул"
+    },
+    {
+      "en_raw": "Tsagaannuur, Khövsgöl|Tsagaannuur",
+      "en_display": "Tsagaannuur",
+      "mn_raw": "Цагааннуур сум (Хөвсгөл)|Цагааннуур сум",
+      "mn_name": "Цагааннуур"
+    },
+    {
+      "en_raw": "Tsagaan-Üür, Khövsgöl|Tsagaan-Üür",
+      "en_display": "Tsagaan-Üür",
+      "mn_raw": "Цагаан-Үүр сум",
+      "mn_name": "Цагаан-Үүр"
+    },
+    {
+      "en_raw": "Tsetserleg, Khövsgöl|Tsetserleg",
+      "en_display": "Tsetserleg",
+      "mn_raw": "Цэцэрлэг сум (Хөвсгөл)|Цэцэрлэг сум",
+      "mn_name": "Цэцэрлэг"
+    },
+    {
+      "en_raw": "Tünel, Khövsgöl|Tünel",
+      "en_display": "Tünel",
+      "mn_raw": "Түнэл сум",
+      "mn_name": "Түнэл"
+    },
+    {
+      "en_raw": "Ulaan-Uul, Khövsgöl|Ulaan-Uul",
+      "en_display": "Ulaan-Uul",
+      "mn_raw": "Улаан-Уул сум",
+      "mn_name": "Улаан-Уул"
+    }
+  ],
+  "Ömnögovi": [
+    {
+      "en_raw": "Bayan-Ovoo, Ömnögovi|Bayan-Ovoo",
+      "en_display": "Bayan-Ovoo",
+      "mn_raw": "Баян-Овоо сум (Өмнөговь)|Баян-Овоо сум",
+      "mn_name": "Баян-Овоо"
+    },
+    {
+      "en_raw": "Bayandalai, Ömnögovi|Bayandalai",
+      "en_display": "Bayandalai",
+      "mn_raw": "Баяндалай сум",
+      "mn_name": "Баяндалай"
+    },
+    {
+      "en_raw": "Bulgan, Ömnögovi|Bulgan",
+      "en_display": "Bulgan",
+      "mn_raw": "Булган сум (Өмнөговь)|Булган сум",
+      "mn_name": "Булган"
+    },
+    {
+      "en_raw": "Dalanzadgad, Ömnögovi|Dalanzadgad",
+      "en_display": "Dalanzadgad",
+      "mn_raw": "Даланзадгад|Даланзадгад сум",
+      "mn_name": "Даланзадгад"
+    },
+    {
+      "en_raw": "Gurvan tes, Ömnögovi|Gurvan tes",
+      "en_display": "Gurvan tes",
+      "mn_raw": "Гурвантэс сум",
+      "mn_name": "Гурвантэс"
+    },
+    {
+      "en_raw": "Khanbogd, Ömnögovi|Khanbogd",
+      "en_display": "Khanbogd",
+      "mn_raw": "Ханбогд сум",
+      "mn_name": "Ханбогд"
+    },
+    {
+      "en_raw": "Khan khongor, Ömnögovi|Khan khongor",
+      "en_display": "Khan khongor",
+      "mn_raw": "Ханхонгор сум",
+      "mn_name": "Ханхонгор"
+    },
+    {
+      "en_raw": "Khürmen, Ömnögovi|Khürmen",
+      "en_display": "Khürmen",
+      "mn_raw": "Хүрмэн сум",
+      "mn_name": "Хүрмэн"
+    },
+    {
+      "en_raw": "Mandal-Ovoo, Ömnögovi|Mandal-Ovoo",
+      "en_display": "Mandal-Ovoo",
+      "mn_raw": "Мандал-Овоо сум",
+      "mn_name": "Мандал-Овоо"
+    },
+    {
+      "en_raw": "Manlai, Ömnögovi|Manlai",
+      "en_display": "Manlai",
+      "mn_raw": "Манлай сум",
+      "mn_name": "Манлай"
+    },
+    {
+      "en_raw": "Nomgon, Ömnögovi|Nomgon",
+      "en_display": "Nomgon",
+      "mn_raw": "Номгон сум",
+      "mn_name": "Номгон"
+    },
+    {
+      "en_raw": "Noyon, Ömnögovi|Noyon",
+      "en_display": "Noyon",
+      "mn_raw": "Ноён сум",
+      "mn_name": "Ноён"
+    },
+    {
+      "en_raw": "Sevrei, Ömnögovi|Sevrei",
+      "en_display": "Sevrei",
+      "mn_raw": "Сэврэй сум",
+      "mn_name": "Сэврэй"
+    },
+    {
+      "en_raw": "Tsogt-Ovoo, Ömnögovi|Tsogt-Ovoo",
+      "en_display": "Tsogt-Ovoo",
+      "mn_raw": "Цогт-Овоо сум",
+      "mn_name": "Цогт-Овоо"
+    },
+    {
+      "en_raw": "Tsogttsetsii, Ömnögovi|Tsogttsetsii",
+      "en_display": "Tsogttsetsii",
+      "mn_raw": "Цогтцэций сум",
+      "mn_name": "Цогтцэций"
+    }
+  ],
+  "Orkhon": [
+    {
+      "en_raw": "Bayan-Öndör, Orkhon|Bayan-Öndör",
+      "en_display": "Bayan-Öndör",
+      "mn_raw": "Баян-Өндөр сум (Орхон)|Баян-Өндөр сум",
+      "mn_name": "Баян-Өндөр"
+    },
+    {
+      "en_raw": "Jargalant, Orkhon|Jargalant",
+      "en_display": "Jargalant",
+      "mn_raw": "Жаргалант сум (Орхон)|Жаргалант сум",
+      "mn_name": "Жаргалант"
+    }
+  ],
+  "Övörkhangai": [
+    {
+      "en_raw": "Arvaikheer",
+      "en_display": "Arvaikheer",
+      "mn_raw": "Арвайхээр",
+      "mn_name": "Арвайхээр"
+    },
+    {
+      "en_raw": "Baruun Bayan-Ulaan, Övörkhangai|Baruun Bayan-Ulaan",
+      "en_display": "Baruun Bayan-Ulaan",
+      "mn_raw": "Баруунбаян-Улаан сум",
+      "mn_name": "Баруунбаян-Улаан"
+    },
+    {
+      "en_raw": "Bat-Ölzii, Övörkhangai|Bat-Ölzii",
+      "en_display": "Bat-Ölzii",
+      "mn_raw": "Бат-Өлзий сум",
+      "mn_name": "Бат-Өлзий"
+    },
+    {
+      "en_raw": "Bayan-Öndör, Övörkhangai|Bayan-Öndör",
+      "en_display": "Bayan-Öndör",
+      "mn_raw": "Баян-Өндөр сум (Өвөрхангай)|Баян-Өндөр сум",
+      "mn_name": "Баян-Өндөр"
+    },
+    {
+      "en_raw": "Bayangol, Övörkhangai|Bayangol",
+      "en_display": "Bayangol",
+      "mn_raw": "Баянгол сум (Өвөрхангай)|Баянгол сум",
+      "mn_name": "Баянгол"
+    },
+    {
+      "en_raw": "Bogd, Övörkhangai|Bogd",
+      "en_display": "Bogd",
+      "mn_raw": "Богд сум (Өвөрхангай)|Богд сум",
+      "mn_name": "Богд"
+    },
+    {
+      "en_raw": "Bürd, Övörkhangai|Bürd",
+      "en_display": "Bürd",
+      "mn_raw": "Бүрд сум",
+      "mn_name": "Бүрд"
+    },
+    {
+      "en_raw": "Guchin-Us, Övörkhangai|Guchin-Us",
+      "en_display": "Guchin-Us",
+      "mn_raw": "Гучин-Ус сум",
+      "mn_name": "Гучин-Ус"
+    },
+    {
+      "en_raw": "Kharkhorin",
+      "en_display": "Kharkhorin",
+      "mn_raw": "Хархорин сум",
+      "mn_name": "Хархорин"
+    },
+    {
+      "en_raw": "Khairkhandulaan, Övörkhangai|Khairkhandulaan",
+      "en_display": "Khairkhandulaan",
+      "mn_raw": "Хайрхандулаан сум",
+      "mn_name": "Хайрхандулаан"
+    },
+    {
+      "en_raw": "Khujirt, Övörkhangai|Khujirt",
+      "en_display": "Khujirt",
+      "mn_raw": "Хужирт сум",
+      "mn_name": "Хужирт"
+    },
+    {
+      "en_raw": "Nariinteel, Övörkhangai|Nariinteel",
+      "en_display": "Nariinteel",
+      "mn_raw": "Нарийнтээл сум",
+      "mn_name": "Нарийнтээл"
+    },
+    {
+      "en_raw": "Ölziit, Övörkhangai|Ölziit",
+      "en_display": "Ölziit",
+      "mn_raw": "Өлзийт сум (Өвөрхангай)|Өлзийт сум",
+      "mn_name": "Өлзийт"
+    },
+    {
+      "en_raw": "Sant, Övörkhangai|Sant",
+      "en_display": "Sant",
+      "mn_raw": "Сант сум (Өвөрхангай)|Сант сум",
+      "mn_name": "Сант"
+    },
+    {
+      "en_raw": "Taragt, Övörkhangai|Taragt",
+      "en_display": "Taragt",
+      "mn_raw": "Тарагт сум",
+      "mn_name": "Тарагт"
+    },
+    {
+      "en_raw": "Tögrög, Övörkhangai|Tögrög",
+      "en_display": "Tögrög",
+      "mn_raw": "Төгрөг сум (Өвөрхангай)|Төгрөг сум",
+      "mn_name": "Төгрөг"
+    },
+    {
+      "en_raw": "Uyanga, Övörkhangai|Uyanga",
+      "en_display": "Uyanga",
+      "mn_raw": "Уянга сум",
+      "mn_name": "Уянга"
+    },
+    {
+      "en_raw": "Yesönzüil, Övörkhangai|Yesönzüil",
+      "en_display": "Yesönzüil",
+      "mn_raw": "Есөнзүйл сум",
+      "mn_name": "Есөнзүйл"
+    },
+    {
+      "en_raw": "Züünbayan-Ulaan, Övörkhangai|Züünbayan-Ulaan",
+      "en_display": "Züünbayan-Ulaan",
+      "mn_raw": "Зүүнбаян-Улаан сум",
+      "mn_name": "Зүүнбаян-Улаан"
+    }
+  ],
+  "Selenge": [
+    {
+      "en_raw": "Altanbulag, Selenge|Altanbulag",
+      "en_display": "Altanbulag",
+      "mn_raw": "Алтанбулаг сум (Сэлэнгэ)|Алтанбулаг сум",
+      "mn_name": "Алтанбулаг"
+    },
+    {
+      "en_raw": "Baruunbüren, Selenge|Baruunbüren",
+      "en_display": "Baruunbüren",
+      "mn_raw": "Баруунбүрэн сум",
+      "mn_name": "Баруунбүрэн"
+    },
+    {
+      "en_raw": "Bayangol, Selenge|Bayangol",
+      "en_display": "Bayangol",
+      "mn_raw": "Баянгол сум (Сэлэнгэ)|Баянгол сум",
+      "mn_name": "Баянгол"
+    },
+    {
+      "en_raw": "Javkhlant, Selenge|Javkhlant",
+      "en_display": "Javkhlant",
+      "mn_raw": "Жавхлант сум",
+      "mn_name": "Жавхлант"
+    },
+    {
+      "en_raw": "Khüder, Selenge|Khüder",
+      "en_display": "Khüder",
+      "mn_raw": "Хүдэр сум",
+      "mn_name": "Хүдэр"
+    },
+    {
+      "en_raw": "Khushaat, Selenge|Khushaat",
+      "en_display": "Khushaat",
+      "mn_raw": "Хушаат сум",
+      "mn_name": "Хушаат"
+    },
+    {
+      "en_raw": "Mandal, Selenge|Mandal",
+      "en_display": "Mandal",
+      "mn_raw": "Мандал сум",
+      "mn_name": "Мандал"
+    },
+    {
+      "en_raw": "Orkhon, Selenge|Orkhon",
+      "en_display": "Orkhon",
+      "mn_raw": "Орхон сум (Сэлэнгэ)|Орхон сум",
+      "mn_name": "Орхон"
+    },
+    {
+      "en_raw": "Orkhontuul, Selenge|Orkhontuul",
+      "en_display": "Orkhontuul",
+      "mn_raw": "Орхонтуул сум",
+      "mn_name": "Орхонтуул"
+    },
+    {
+      "en_raw": "Sant, Selenge|Sant",
+      "en_display": "Sant",
+      "mn_raw": "Сант сум (Сэлэнгэ)|Сант сум",
+      "mn_name": "Сант"
+    },
+    {
+      "en_raw": "Saikhan, Selenge|Saikhan",
+      "en_display": "Saikhan",
+      "mn_raw": "Сайхан сум (Сэлэнгэ)|Сайхан сум",
+      "mn_name": "Сайхан"
+    },
+    {
+      "en_raw": "Shaamar, Selenge|Shaamar",
+      "en_display": "Shaamar",
+      "mn_raw": "Шаамар сум",
+      "mn_name": "Шаамар"
+    },
+    {
+      "en_raw": "Sükhbaatar (city)|Sükhbaatar",
+      "en_display": "Sükhbaatar",
+      "mn_raw": "Сүхбаатар (хот)|Сүхбаатар сум",
+      "mn_name": "Сүхбаатар"
+    },
+    {
+      "en_raw": "Tsagaannuur, Selenge|Tsagaannuur",
+      "en_display": "Tsagaannuur",
+      "mn_raw": "Цагааннуур сум (Сэлэнгэ)|Цагааннуур сум",
+      "mn_name": "Цагааннуур"
+    },
+    {
+      "en_raw": "Tüshig, Selenge|Tüshig",
+      "en_display": "Tüshig",
+      "mn_raw": "Түшиг сум",
+      "mn_name": "Түшиг"
+    },
+    {
+      "en_raw": "Yeröö, Selenge|Yeröö",
+      "en_display": "Yeröö",
+      "mn_raw": "Ерөө сум",
+      "mn_name": "Ерөө"
+    },
+    {
+      "en_raw": "Züünbüren, Selenge|Züünbüren",
+      "en_display": "Züünbüren",
+      "mn_raw": "Зүүнбүрэн сум",
+      "mn_name": "Зүүнбүрэн"
+    }
+  ],
+  "Sükhbaatar": [
+    {
+      "en_raw": "Asgat, Sükhbaatar|Asgat",
+      "en_display": "Asgat",
+      "mn_raw": "Асгат сум (Сүхбаатар)|Асгат сум",
+      "mn_name": "Асгат"
+    },
+    {
+      "en_raw": "Baruun-Urt",
+      "en_display": "Baruun-Urt",
+      "mn_raw": "Баруун-Урт|Баруун-Урт сум",
+      "mn_name": "Баруун-Урт"
+    },
+    {
+      "en_raw": "Bayandelger, Sükhbaatar|Bayandelger",
+      "en_display": "Bayandelger",
+      "mn_raw": "Баяндэлгэр сум (Сүхбаатар)|Баяндэлгэр сум",
+      "mn_name": "Баяндэлгэр"
+    },
+    {
+      "en_raw": "Dariganga, Sükhbaatar|Dariganga",
+      "en_display": "Dariganga",
+      "mn_raw": "Дарьганга сум",
+      "mn_name": "Дарьганга"
+    },
+    {
+      "en_raw": "Erdenetsagaan, Sükhbaatar|Erdenetsagaan",
+      "en_display": "Erdenetsagaan",
+      "mn_raw": "Эрдэнэцагаан сум",
+      "mn_name": "Эрдэнэцагаан"
+    },
+    {
+      "en_raw": "Khalzan, Sükhbaatar|Khalzan",
+      "en_display": "Khalzan",
+      "mn_raw": "Халзан сум",
+      "mn_name": "Халзан"
+    },
+    {
+      "en_raw": "Mönkhkhaan, Sükhbaatar|Mönkhkhaan",
+      "en_display": "Mönkhkhaan",
+      "mn_raw": "Мөнххаан сум",
+      "mn_name": "Мөнххаан"
+    },
+    {
+      "en_raw": "Naran, Sükhbaatar|Naran",
+      "en_display": "Naran",
+      "mn_raw": "Наран сум",
+      "mn_name": "Наран"
+    },
+    {
+      "en_raw": "Ongon, Sükhbaatar|Ongon",
+      "en_display": "Ongon",
+      "mn_raw": "Онгон сум",
+      "mn_name": "Онгон"
+    },
+    {
+      "en_raw": "Sükhbaatar, Sükhbaatar|Sükhbaatar",
+      "en_display": "Sükhbaatar",
+      "mn_raw": "Сүхбаатар сум",
+      "mn_name": "Сүхбаатар"
+    },
+    {
+      "en_raw": "Tüvshinshiree, Sükhbaatar|Tüvshinshiree",
+      "en_display": "Tüvshinshiree",
+      "mn_raw": "Түвшинширээ сум",
+      "mn_name": "Түвшинширээ"
+    },
+    {
+      "en_raw": "Tümentsogt, Sükhbaatar|Tümentsogt",
+      "en_display": "Tümentsogt",
+      "mn_raw": "Түмэнцогт сум",
+      "mn_name": "Түмэнцогт"
+    },
+    {
+      "en_raw": "Uulbayan, Sükhbaatar|Uulbayan",
+      "en_display": "Uulbayan",
+      "mn_raw": "Уулбаян сум",
+      "mn_name": "Уулбаян"
+    }
+  ],
+  "Töv": [
+    {
+      "en_raw": "Möngönmort",
+      "en_display": "Möngönmort",
+      "mn_raw": "Мөнгөнморьт сум",
+      "mn_name": "Мөнгөнморьт"
+    },
+    {
+      "en_raw": "Altanbulag, Töv|Altanbulag",
+      "en_display": "Altanbulag",
+      "mn_raw": "Алтанбулаг сум (Төв)|Алтанбулаг сум",
+      "mn_name": "Алтанбулаг"
+    },
+    {
+      "en_raw": "Argalant",
+      "en_display": "Argalant",
+      "mn_raw": "Аргалант сум",
+      "mn_name": "Аргалант"
+    },
+    {
+      "en_raw": "Arkhust",
+      "en_display": "Arkhust",
+      "mn_raw": "Архуст сум",
+      "mn_name": "Архуст"
+    },
+    {
+      "en_raw": "Batsümber",
+      "en_display": "Batsümber",
+      "mn_raw": "Батсүмбэр сум",
+      "mn_name": "Батсүмбэр"
+    },
+    {
+      "en_raw": "Bayan, Töv|Bayan",
+      "en_display": "Bayan",
+      "mn_raw": "Баян сум",
+      "mn_name": "Баян"
+    },
+    {
+      "en_raw": "Bayan-Önjüül",
+      "en_display": "Bayan-Önjüül",
+      "mn_raw": "Баян-Өнжүүл сум",
+      "mn_name": "Баян-Өнжүүл"
+    },
+    {
+      "en_raw": "Bayanchandmani",
+      "en_display": "Bayanchandmani",
+      "mn_raw": "Баянчандмань сум",
+      "mn_name": "Баянчандмань"
+    },
+    {
+      "en_raw": "Bayandelger, Töv|Bayandelger",
+      "en_display": "Bayandelger",
+      "mn_raw": "Баяндэлгэр сум (Төв)|Баяндэлгэр сум",
+      "mn_name": "Баяндэлгэр"
+    },
+    {
+      "en_raw": "Bayanjargalan, Töv|Bayanjargalan",
+      "en_display": "Bayanjargalan",
+      "mn_raw": "Баянжаргалан сум (Төв)|Баянжаргалан сум",
+      "mn_name": "Баянжаргалан"
+    },
+    {
+      "en_raw": "Bayankhangai",
+      "en_display": "Bayankhangai",
+      "mn_raw": "Баянхангай сум",
+      "mn_name": "Баянхангай"
+    },
+    {
+      "en_raw": "Bayantsagaan, Töv|Bayantsagaan",
+      "en_display": "Bayantsagaan",
+      "mn_raw": "Баянцагаан сум (Төв)|Баянцагаан сум",
+      "mn_name": "Баянцагаан"
+    },
+    {
+      "en_raw": "Bayantsogt",
+      "en_display": "Bayantsogt",
+      "mn_raw": "Баянцогт сум",
+      "mn_name": "Баянцогт"
+    },
+    {
+      "en_raw": "Bornuur",
+      "en_display": "Bornuur",
+      "mn_raw": "Борнуур сум",
+      "mn_name": "Борнуур"
+    },
+    {
+      "en_raw": "Büren, Töv|Büren",
+      "en_display": "Büren",
+      "mn_raw": "Бүрэн сум",
+      "mn_name": "Бүрэн"
+    },
+    {
+      "en_raw": "Delgerkhaan",
+      "en_display": "Delgerkhaan",
+      "mn_raw": "Дэлгэрхаан сум (Төв)|Дэлгэрхаан сум",
+      "mn_name": "Дэлгэрхаан"
+    },
+    {
+      "en_raw": "Erdene, Töv|Erdene",
+      "en_display": "Erdene",
+      "mn_raw": "Эрдэнэ сум (Төв)|Эрдэнэ сум",
+      "mn_name": "Эрдэнэ"
+    },
+    {
+      "en_raw": "Erdenesant",
+      "en_display": "Erdenesant",
+      "mn_raw": "Эрдэнэсант сум",
+      "mn_name": "Эрдэнэсант"
+    },
+    {
+      "en_raw": "Jargalant, Töv|Jargalant",
+      "en_display": "Jargalant",
+      "mn_raw": "Жаргалант сум (Төв)|Жаргалант сум",
+      "mn_name": "Жаргалант"
+    },
+    {
+      "en_raw": "Lün",
+      "en_display": "Lün",
+      "mn_raw": "Лүн сум",
+      "mn_name": "Лүн"
+    },
+    {
+      "en_raw": "Öndörshireet",
+      "en_display": "Öndörshireet",
+      "mn_raw": "Өндөрширээт сум",
+      "mn_name": "Өндөрширээт"
+    },
+    {
+      "en_raw": "Sergelen, Töv|Sergelen",
+      "en_display": "Sergelen",
+      "mn_raw": "Сэргэлэн сум (Төв)|Сэргэлэн сум",
+      "mn_name": "Сэргэлэн"
+    },
+    {
+      "en_raw": "Sümber, Töv|Sümber",
+      "en_display": "Sümber",
+      "mn_raw": "Сүмбэр сум (Төв)|Сүмбэр сум",
+      "mn_name": "Сүмбэр"
+    },
+    {
+      "en_raw": "Tseel, Töv|Tseel",
+      "en_display": "Tseel",
+      "mn_raw": "Цээл сум (Төв)|Цээл сум",
+      "mn_name": "Цээл"
+    },
+    {
+      "en_raw": "Ugtaal",
+      "en_display": "Ugtaal",
+      "mn_raw": "Угтаалцайдам сум",
+      "mn_name": "Угтаалцайдам"
+    },
+    {
+      "en_raw": "Zaamar",
+      "en_display": "Zaamar",
+      "mn_raw": "Заамар сум",
+      "mn_name": "Заамар"
+    },
+    {
+      "en_raw": "Zuunmod",
+      "en_display": "Zuunmod",
+      "mn_raw": "Зуунмод|Зуунмод сум",
+      "mn_name": "Зуунмод"
+    }
+  ],
+  "Uvs": [
+    {
+      "en_raw": "Baruunturuun, Uvs|Baruunturuun",
+      "en_display": "Baruunturuun",
+      "mn_raw": "Баруунтуруун сум",
+      "mn_name": "Баруунтуруун"
+    },
+    {
+      "en_raw": "Bökhmörön, Uvs|Bökhmörön",
+      "en_display": "Bökhmörön",
+      "mn_raw": "Бөхмөрөн сум",
+      "mn_name": "Бөхмөрөн"
+    },
+    {
+      "en_raw": "Davst, Uvs|Davst",
+      "en_display": "Davst",
+      "mn_raw": "Давст сум",
+      "mn_name": "Давст"
+    },
+    {
+      "en_raw": "Khovd, Uvs|Khovd",
+      "en_display": "Khovd",
+      "mn_raw": "Ховд сум (Увс)|Ховд сум",
+      "mn_name": "Ховд"
+    },
+    {
+      "en_raw": "Khyargas, Uvs|Khyargas",
+      "en_display": "Khyargas",
+      "mn_raw": "Хяргас сум",
+      "mn_name": "Хяргас"
+    },
+    {
+      "en_raw": "Malchin, Uvs|Malchin",
+      "en_display": "Malchin",
+      "mn_raw": "Малчин сум",
+      "mn_name": "Малчин"
+    },
+    {
+      "en_raw": "Naranbulag, Uvs|Naranbulag",
+      "en_display": "Naranbulag",
+      "mn_raw": "Наранбулаг сум",
+      "mn_name": "Наранбулаг"
+    },
+    {
+      "en_raw": "Ölgii, Uvs|Ölgii",
+      "en_display": "Ölgii",
+      "mn_raw": "Өлгий сум",
+      "mn_name": "Өлгий"
+    },
+    {
+      "en_raw": "Ömnögovi, Uvs|Ömnögovi",
+      "en_display": "Ömnögovi",
+      "mn_raw": "Өмнөговь сум",
+      "mn_name": "Өмнөговь"
+    },
+    {
+      "en_raw": "Öndörkhangai, Uvs|Öndörkhangai",
+      "en_display": "Öndörkhangai",
+      "mn_raw": "Өндөрхангай сум",
+      "mn_name": "Өндөрхангай"
+    },
+    {
+      "en_raw": "Sagil, Uvs|Sagil",
+      "en_display": "Sagil",
+      "mn_raw": "Сагил сум",
+      "mn_name": "Сагил"
+    },
+    {
+      "en_raw": "Tarialan, Uvs|Tarialan",
+      "en_display": "Tarialan",
+      "mn_raw": "Тариалан сум (Увс)|Тариалан сум",
+      "mn_name": "Тариалан"
+    },
+    {
+      "en_raw": "Tes, Uvs|Tes",
+      "en_display": "Tes",
+      "mn_raw": "Тэс сум (Увс)|Тэс сум",
+      "mn_name": "Тэс"
+    },
+    {
+      "en_raw": "Tsagaankhairkhan, Uvs|Tsagaankhairkhan",
+      "en_display": "Tsagaankhairkhan",
+      "mn_raw": "Цагаанхайрхан сум (Увс)|Цагаанхайрхан сум",
+      "mn_name": "Цагаанхайрхан"
+    },
+    {
+      "en_raw": "Türgen, Uvs|Türgen",
+      "en_display": "Türgen",
+      "mn_raw": "Түргэн сум",
+      "mn_name": "Түргэн"
+    },
+    {
+      "en_raw": "Ulaangom, Uvs|Ulaangom",
+      "en_display": "Ulaangom",
+      "mn_raw": "Улаангом сум",
+      "mn_name": "Улаангом"
+    },
+    {
+      "en_raw": "Zavkhan, Uvs|Zavkhan",
+      "en_display": "Zavkhan",
+      "mn_raw": "Завхан сум",
+      "mn_name": "Завхан"
+    },
+    {
+      "en_raw": "Züüngovi, Uvs|Züüngovi",
+      "en_display": "Züüngovi",
+      "mn_raw": "Зүүнговь сум",
+      "mn_name": "Зүүнговь"
+    },
+    {
+      "en_raw": "Züünkhangai, Uvs|Züünkhangai",
+      "en_display": "Züünkhangai",
+      "mn_raw": "Зүүнхангай сум",
+      "mn_name": "Зүүнхангай"
+    }
+  ],
+  "Zavkhan": [
+    {
+      "en_raw": "Aldarkhaan, Zavkhan|Aldarkhaan",
+      "en_display": "Aldarkhaan",
+      "mn_raw": "Алдархаан сум",
+      "mn_name": "Алдархаан"
+    },
+    {
+      "en_raw": "Asgat, Zavkhan|Asgat",
+      "en_display": "Asgat",
+      "mn_raw": "Асгат сум (Завхан)|Асгат сум",
+      "mn_name": "Асгат"
+    },
+    {
+      "en_raw": "Bayankhairkhan, Zavkhan|Bayankhairkhan",
+      "en_display": "Bayankhairkhan",
+      "mn_raw": "Баянхайрхан сум",
+      "mn_name": "Баянхайрхан"
+    },
+    {
+      "en_raw": "Bayantes, Zavkhan|Bayantes",
+      "en_display": "Bayantes",
+      "mn_raw": "Баянтэс сум",
+      "mn_name": "Баянтэс"
+    },
+    {
+      "en_raw": "Dörvöljin, Zavkhan|Dörvöljin",
+      "en_display": "Dörvöljin",
+      "mn_raw": "Дөрвөлжин сум",
+      "mn_name": "Дөрвөлжин"
+    },
+    {
+      "en_raw": "Erdenekhairkhan, Zavkhan|Erdenekhairkhan",
+      "en_display": "Erdenekhairkhan",
+      "mn_raw": "Эрдэнэхайрхан сум",
+      "mn_name": "Эрдэнэхайрхан"
+    },
+    {
+      "en_raw": "Ider, Zavkhan|Ider",
+      "en_display": "Ider",
+      "mn_raw": "Идэр сум",
+      "mn_name": "Идэр"
+    },
+    {
+      "en_raw": "Ikh-Uul, Zavkhan|Ikh-Uul",
+      "en_display": "Ikh-Uul",
+      "mn_raw": "Их-Уул сум (Завхан)|Их-Уул сум",
+      "mn_name": "Их-Уул"
+    },
+    {
+      "en_raw": "Nömrög, Zavkhan|Nömrög",
+      "en_display": "Nömrög",
+      "mn_raw": "Нөмрөг сум",
+      "mn_name": "Нөмрөг"
+    },
+    {
+      "en_raw": "Otgon, Zavkhan|Otgon",
+      "en_display": "Otgon",
+      "mn_raw": "Отгон сум",
+      "mn_name": "Отгон"
+    },
+    {
+      "en_raw": "Santmargats, Zavkhan|Santmargats",
+      "en_display": "Santmargats",
+      "mn_raw": "Сантмаргац сум",
+      "mn_name": "Сантмаргац"
+    },
+    {
+      "en_raw": "Shilüüstei, Zavkhan|Shilüüstei",
+      "en_display": "Shilüüstei",
+      "mn_raw": "Шилүүстэй сум",
+      "mn_name": "Шилүүстэй"
+    },
+    {
+      "en_raw": "Songino, Zavkhan|Songino",
+      "en_display": "Songino",
+      "mn_raw": "Сонгино сум",
+      "mn_name": "Сонгино"
+    },
+    {
+      "en_raw": "Telmen, Zavkhan|Telmen",
+      "en_display": "Telmen",
+      "mn_raw": "Тэлмэн сум",
+      "mn_name": "Тэлмэн"
+    },
+    {
+      "en_raw": "Tes, Zavkhan|Tes",
+      "en_display": "Tes",
+      "mn_raw": "Тэс сум (Завхан)|Тэс сум",
+      "mn_name": "Тэс"
+    },
+    {
+      "en_raw": "Tosontsengel, Zavkhan|Tosontsengel",
+      "en_display": "Tosontsengel",
+      "mn_raw": "Тосонцэнгэл сум (Завхан)|Тосонцэнгэл сум",
+      "mn_name": "Тосонцэнгэл"
+    },
+    {
+      "en_raw": "Tsagaanchuluut, Zavkhan|Tsagaanchuluut",
+      "en_display": "Tsagaanchuluut",
+      "mn_raw": "Цагаанчулуут сум",
+      "mn_name": "Цагаанчулуут"
+    },
+    {
+      "en_raw": "Tsagaankhairkhan, Zavkhan|Tsagaankhairkhan",
+      "en_display": "Tsagaankhairkhan",
+      "mn_raw": "Цагаанхайрхан сум (Завхан)|Цагаанхайрхан сум",
+      "mn_name": "Цагаанхайрхан"
+    },
+    {
+      "en_raw": "Tsetsen-Uul, Zavkhan|Tsetsen-Uul",
+      "en_display": "Tsetsen-Uul",
+      "mn_raw": "Цэцэн-Уул сум",
+      "mn_name": "Цэцэн-Уул"
+    },
+    {
+      "en_raw": "Tüdevtei, Zavkhan|Tüdevtei",
+      "en_display": "Tüdevtei",
+      "mn_raw": "Түдэвтэй сум",
+      "mn_name": "Түдэвтэй"
+    },
+    {
+      "en_raw": "Uliastai",
+      "en_display": "Uliastai",
+      "mn_raw": "Улиастай|Жавхлант сум (Улиастай)",
+      "mn_name": "Жавхлант (Улиастай)"
+    },
+    {
+      "en_raw": "Urgamal, Zavkhan|Urgamal",
+      "en_display": "Urgamal",
+      "mn_raw": "Ургамал сум",
+      "mn_name": "Ургамал"
+    },
+    {
+      "en_raw": "Yaruu, Zavkhan|Yaruu",
+      "en_display": "Yaruu",
+      "mn_raw": "Яруу сум",
+      "mn_name": "Яруу"
+    },
+    {
+      "en_raw": "Zavkhanmandal, Zavkhan|Zavkhanmandal",
+      "en_display": "Zavkhanmandal",
+      "mn_raw": "Завханмандал сум",
+      "mn_name": "Завханмандал"
+    }
+  ]
+}

@@ -1,0 +1,1981 @@
+{{ছোট বিবরণ নেই}}
+'''আত্মজীবনীর তালিকা''' হলো বিশিষ্ট ব্যক্তিবর্গের রচিত ও প্রকাশিত গুরুত্বপূর্ণ [[আত্মজীবনী]] ও স্মৃতিকথামূলক গ্রন্থের একটি সংকলন।
+
+{| class="wikitable sortable"
+! লেখক !! বাংলা শিরোনাম !! মূল/রোমান শিরোনাম !! মূল ভাষা !! প্রকাশনার বছর
+|-
+|[[Manfred von Richthofen|ম্যানফ্রেড ফন রিখথোফেন]] ||''[[The Red Fighter Pilot|দ্য রেড ফাইটার পাইলট]]'' ||''[[The Red Fighter Pilot]]'' ||জার্মান ||১৯১৭
+|-
+|[[Billy Bishop|বিলি বিশপ]] ||''উইংড ওয়ারফেয়ার'' ||''Winged Warfare'' ||ইংরেজি ||১৯১৮
+|-
+|[[James McCudden|জেমস ম্যাককাডেন]] ||''ফাইভ ইয়ার্স ইন দ্য রয়্যাল ফ্লাইং কোর'' ||''Five Years in the Royal Flying Corps'' ||ইংরেজি ||১৯১৯
+|-
+|[[René Fonck|রনে ফঙ্ক]] ||''মাই ফাইটস'' ||''My Fights'' (''Mes Combats'') ||ফরাসি ||১৯১৯
+|-
+|[[Richard E. Byrd|রিচার্ড ই. বার্ড]] ||''স্কাইওয়ার্ড'' ||''Skyward'' ||ইংরেজি ||১৯২৮
+|-
+|[[Clarence Chamberlin|ক্ল্যারেন্স চেম্বারলিন]] ||''রেকর্ড ফ্লাইটস'' ||''Record Flights'' ||ইংরেজি ||১৯২৮
+|-
+|[[Frank Hawks|ফ্র্যাঙ্ক হকস]] ||''স্পিড'' ||''Speed'' ||ইংরেজি ||১৯৩১
+|-
+|[[Willy Coppens|উইলি কপেনস]] ||''ডেস গন: মেমোরিজ''{{efn|1=Published in English as ''Days on the Wing'' in 1934 and ''Flying In Flanders'' in 1971.}} ||''Days Gone: Memories'' (''Jours Envolés: Mémoires''){{efn|1=Published in English as ''Days on the Wing'' in 1934 and ''Flying In Flanders'' in 1971.}} ||ফরাসি ||১৯৩২
+|-
+|[[Amelia Earhart|অ্যামেলিয়া এয়ারহার্ট]] ||''[[The Fun of It|দ্য ফান অব ইট]]'' ||''[[The Fun of It]]'' ||ইংরেজি ||১৯৩৩
+|-
+|[[Duncan Grinnell-Milne|ডানকান গ্রিনেল-মিলনে]] ||''উইন্ড ইন দ্য ওয়্যারস'' ||''Wind in the Wires'' ||ইংরেজি ||১৯৩৩
+|-
+|[[C. W. A. Scott|সি. ডব্লিউ. এ. স্কট]] ||''সি. ডব্লিউ. এ. স্কটস বুক: দ্য লাইফ অ্যান্ড মিলডেনহল-মেলবোর্ন ফ্লাইট অব সি. ডব্লিউ. এ. স্কট'' ||''C. W. A. Scott's Book: The Life and Mildenhall-Melbourne Flight of C.W.A. Scott'' ||ইংরেজি ||১৯৩৪
+|-
+|[[Beirne Lay Jr.|বার্ন লে জুনিয়র]] ||''আই ওয়ান্টেড উইংস'' ||''I Wanted Wings'' ||ইংরেজি ||১৯৩৭
+|-
+|[[Frank Glasgow Tinker|ফ্র্যাঙ্ক গ্লাসগো টিঙ্কার]] ||''[[Some Still Live|সাম স্টিল লাইভ]]'' ||''[[Some Still Live]]'' ||ইংরেজি ||১৯৩৮
+|-
+|[[Louise Thaden|লুইস থাডেন]] ||''হাই, ওয়াইড অ্যান্ড ফ্রাইটেন্ড'' ||''High, Wide and Frightened'' ||ইংরেজি ||১৯৩৮
+|-
+|[[Igor Sikorsky|ইগর সিকোরস্কি]] ||''দ্য স্টোরি অব দ্য উইংড-এস'' ||''The Story of the Winged-S'' ||রুশ ||১৯৩৯
+|-
+|[[Richard Hillary|রিচার্ড হিলারি]] ||''[[The Last Enemy (autobiography)|দ্য লাস্ট এনিমি]]'' ||''[[The Last Enemy (autobiography)|The Last Enemy]]'' ||ইংরেজি ||১৯৪০
+|-
+|[[Beryl Markham|বেরিল মারখাম]] ||''[[West with the Night|ওয়েস্ট উইথ দ্য নাইট]]'' ||''[[West with the Night]]'' ||ইংরেজি ||১৯৪২
+|-
+|[[Ted W. Lawson|টেড ডব্লিউ. লসন]] ||''থার্টি সেকেন্ডস ওভার টোকিও'' ||''Thirty Seconds Over Tokyo'' ||ইংরেজি ||১৯৪৩
+|-
+|[[Don S. Gentile|ডন এস. জেনটাইল]] ||''ওয়ান ম্যান এয়ার ফোর্স'' ||''One Man Air Force'' ||ইংরেজি ||১৯৪৪
+|-
+|[[Guy Gibson|গাই গিবসন]] ||''[[Enemy Coast Ahead|এনিমি কোস্ট অ্যাহেড]]'' ||''[[Enemy Coast Ahead]]'' ||ইংরেজি ||১৯৪৬
+|-
+|[[Sir Arthur Harris, 1st Baronet|স্যার আর্থার হ্যারিস]] ||''বোম্বার অফেন্সিভ'' ||''Bomber Offensive'' ||ইংরেজি ||১৯৪৭
+|-
+|[[Bert Stiles|বার্ট স্টাইলস]] ||''সেরেনেড টু দ্য বিগ বার্ড'' ||''Serenade to the Big Bird'' ||ইংরেজি ||১৯৪৭
+|-
+|[[Henry H. Arnold|হেনরি এইচ. আর্নল্ড]] ||''গ্লোবাল মিশন'' ||''Global Mission'' ||ইংরেজি ||১৯৪৯
+|-
+|[[Claire Lee Chennault|ক্লেয়ার লি শেনল্ট]] ||''ওয়ে অব আ ফাইটার: দ্য মেমোয়ার্স অব ক্লেয়ার লি শেনল্ট'' ||''Way of a Fighter: The Memoirs of Claire Lee Chennault'' ||ইংরেজি ||১৯৪৯
+|-
+|[[George Kenney|জর্জ কেনি]] ||''জেনারেল কেনি রিপোর্টস: আ পার্সোনাল হিস্ট্রি অব দ্য প্যাসিফিক ওয়ার'' ||''General Kenney Reports: A Personal History of the Pacific War'' ||ইংরেজি ||১৯৪৯
+|-
+|[[Ivan Kozhedub|ইভান কোঝেদুব]] ||''আই সার্ভ দ্য মাদারল্যান্ড'' ||''I Serve the Motherland'' (''Служу Родине'') ||রুশ ||১৯৪৯
+|-
+|[[Hans-Ulrich Rudel|হান্স-উলরিখ রুডেল]] ||''নেভারদ্যলেস''{{efn|This would later be re-edited and published in English as ''Stuka Pilot''.}} ||''Nevertheless'' (''Trotzdem''){{efn|This would later be re-edited and published in English as ''Stuka Pilot''.}} ||জার্মান ||১৯৪৯
+|-
+|[[Dick Grace|ডিক গ্রেস]] ||''ভিজিবিলিটি আনলিমিটেড'' ||''Visibility Unlimited'' ||ইংরেজি ||১৯৫০
+|-
+|[[William Bushnell Stout|উইলিয়াম বুশনেল স্টাউট]] ||''সো অ্যাওয়ে আই ওয়েন্ট!'' ||''So Away I Went!'' ||ইংরেজি ||১৯৫১
+|-
+|[[Pierre Clostermann|পিয়ের ক্লোস্তেরমান]] ||''দ্য বিগ শো'' ||''The Big Show'' (''Le Grand Cirque'') ||ফরাসি ||১৯৫১
+|-
+|[[Hanna Reitsch|হানা রাইচ]] ||''ফ্লাইং ইজ মাই লাইফ'' ||''Flying is My Life'' (''Fliegen, Mein Leben'') ||জার্মান ||১৯৫১
+|-
+|[[Adolf Galland|এডলফ গ্যালান্ড]] ||''দ্য ফার্স্ট অ্যান্ড দ্য লাস্ট'' ||''The First and the Last'' ||জার্মান ||১৯৫৩
+|-
+|[[Ernst Heinkel|আর্নস্ট হাইঙ্কেল]] ||''স্টর্মি লাইফ'' ||''Stormy Life'' (''Stürmisches Leben'') ||জার্মান ||১৯৫৩
+|-
+|[[Heinz Knoke|হাইনৎস ক্নোকে]] ||''আই ফ্লু ফর দ্য ফিউরার'' ||''I Flew for the Führer'' ||জার্মান ||১৯৫৩
+|-
+|[[Hugh Henry Home Popham|হিউ পপহ্যাম]] ||''সি ফ্লাইট: আ ফ্লিট এয়ার আর্ম পাইলটস স্টোরি'' ||''Sea Flight: A Fleet Air Arm Pilot's Story'' ||ইংরেজি ||১৯৫৪
+|-
+|[[Nevil Shute|নেভিল শুট]] ||''[[Slide Rule: Autobiography of an Engineer|স্লাইড রুল: অটোবায়োগ্রাফি অব অ্যান ইঞ্জিনিয়ার]]'' ||''[[Slide Rule: Autobiography of an Engineer]]'' ||ইংরেজি ||১৯৫৪
+|-
+|[[Bill Bridgeman|বিল ব্রিজম্যান]] ||''দ্য লোনলি স্কাই'' ||''The Lonely Sky'' ||ইংরেজি ||১৯৫৫
+|-
+|[[Eino Luukkanen|এইনো লুক্কানেন]] ||''ফাইটার ওভার ফিনল্যান্ড'' ||''Fighter Over Finland'' (''Hävittäjälentäjänä Kahdessa Sodassa'') ||ফিনীয় ||১৯৫৬
+|-
+|[[Johnnie Johnson (RAF officer, born 1915)|জনি জনসন]] ||''উইং লিডার'' ||''Wing Leader'' ||ইংরেজি ||১৯৫৬
+|-
+|[[John Slessor|জন স্লেসর]] ||''দ্য সেন্ট্রাল ব্লু: রিকলেকশনস অ্যান্ড রিফ্লেকশনস'' ||''The Central Blue: Recollections and Reflections'' ||ইংরেজি ||১৯৫৬
+|-
+|[[Basil Embry|ব্যাসিল এমব্রি]] ||''মিশন কমপ্লিটেড''{{efn|1=A previous book, ''Wingless Victory'' (alternately known as ''Alone He Went''), was published in 1950. However, it was it was "written by an R.A.F. colleague of Embry's, and thus [does not have] the personal touch of autobiography" according to a review.<ref>{{cite magazine |date=27 August 1951 |title=Books: Flyer's Flight |url=https://content.time.com/time/subscriber/article/0,33009,815296,00.html |magazine=Time  |access-date=28 January 2024}}</ref>}} ||''Mission Completed''{{efn|1=A previous book, ''Wingless Victory'' (alternately known as ''Alone He Went''), was published in 1950. However, it was it was "written by an R.A.F. colleague of Embry's, and thus [does not have] the personal touch of autobiography" according to a review.<ref>{{cite magazine |date=27 August 1951 |title=Books: Flyer's Flight |url=https://content.time.com/time/subscriber/article/0,33009,815296,00.html |magazine=Time  |access-date=28 January 2024}}</ref>}} ||ইংরেজি ||১৯৫৭
+|-
+|[[Saburō Sakai|সাবুরো সাকাই]] ||''[[Samurai!|সামুরাই!]]'' ||''[[Samurai!]]'' ||ইংরেজি ||১৯৫৭
+|-
+|[[Pappy Boyington|প্যাপি বোয়িংটন]] ||''বা বা ব্ল্যাক শিপ'' ||''Baa Baa Black Sheep'' ||ইংরেজি ||১৯৫৮
+|-
+|[[Robert S. Johnson|রবার্ট এস. জনসন]] ||''থান্ডারবোল্ট!'' ||''Thunderbolt!'' ||ইংরেজি ||১৯৫৮
+|-
+|[[Alan Deere|অ্যালান ডিয়ার]] ||''নাইন লাইভস'' ||''Nine Lives'' ||ইংরেজি ||১৯৫৯
+|-
+|[[Albert Scott Crossfield|আলবার্ট স্কট ক্রসফিল্ড]] ||''অলওয়েজ অ্যানাদার ডন: দ্য স্টোরি অব আ রকেট টেস্ট পাইলট'' ||''Always Another Dawn: The Story of a Rocket Test Pilot'' ||ইংরেজি ||১৯৬০
+|-
+|[[Eric Brown (pilot)|এরিক ব্রাউন]] ||''উইংস অন মাই স্লিভ'' ||''Wings on My Sleeve'' ||ইংরেজি ||১৯৬১
+|-
+|[[Geoffrey de Havilland|জিওফ্রে ডি হ্যাভিল্যান্ড]] ||''স্কাই ফিভার: দ্য অটোবায়োগ্রাফি অব স্যার জেফ্রি ডি হ্যাভিল্যান্ড'' ||''Sky Fever: The Autobiography of Sir Geoffrey de Havilland'' ||ইংরেজি ||১৯৬১
+|-
+|[[John Braham (RAF officer)|জন ব্রাহাম]] ||''নাইট ফাইটার'' ||''Night Fighter'' ||ইংরেজি ||১৯৬১
+|-
+|[[Nancy Bird|ন্যান্সি বার্ড]] ||''বর্ন টু ফ্লাই'' ||''Born to Fly'' ||ইংরেজি ||১৯৬১
+|-
+|[[Bud Mahurin|বাড মাহুরিন]] ||''অনেস্ট জন'' ||''Honest John'' ||ইংরেজি ||১৯৬২
+|-
+|[[Arch Whitehouse|আর্চ হোয়াইটহাউস]] ||''দ্য ফ্লেজলিং: অ্যান অটোবায়োগ্রাফি'' ||''The Fledgling: An Autobiography'' ||ইংরেজি ||১৯৬৪
+|-
+|[[Curtis LeMay|কার্টিস লেমে]] ||''মিশন উইথ লেমে: মাই স্টোরি'' ||''Mission with LeMay: My Story'' ||ইংরেজি ||১৯৬৫
+|-
+|[[Arthur Tedder|আর্থার টেডার]] ||''উইথ প্রেজুডিস: দ্য ওয়ার মেমোয়ার্স অব মার্শাল অব দ্য রয়্যাল এয়ার ফোর্স, লর্ড টেডার'' ||''With Prejudice: The War Memoirs of Marshal of the Royal Air Force, Lord Tedder'' ||ইংরেজি ||১৯৬৬
+|-
+|[[Eddie Rickenbacker|এডি রিকেনব্যাকার]] ||''রিকেনব্যাকার: অ্যান অটোবায়োগ্রাফি'' ||''Rickenbacker: An Autobiography'' ||ইংরেজি ||১৯৬৭
+|-
+|[[Alexander Sergeyevich Yakovlev|আলেকসান্দর সের্গেইয়েভিচ ইয়াকোভলেভ]] ||''দ্য পারপাস অব লাইফ'' ||''The Purpose of Life'' (''Цель жизни'') ||ইংরেজি ||১৯৬৭
+|-
+|[[Benjamin Foulois|বেঞ্জামিন ফুলা]] ||''ফ্রম দ্য রাইট ব্রাদার্স টু দ্য অ্যাস্ট্রোনটস: দ্য মেমোয়ার্স অব বেঞ্জামিন ডি. ফু্যালোয়া'' ||''From the Wright Brothers to the Astronauts: The Memoirs of Benjamin D. Foulois'' ||ইংরেজি ||১৯৬৮
+|-
+|[[George William Goddard|জর্জ উইলিয়াম গডার্ড]] ||''ওভারভিউ: আ লাইফলং অ্যাডভেঞ্চার ইন অ্যারিয়াল ফটোগ্রাফি'' ||''Overview: A Lifelong Adventure in Aerial Photography'' ||ইংরেজি ||১৯৬৯
+|-
+|[[Francis Gary Powers|ফ্রান্সিস গ্যারি পাওয়ারস]] ||''অপারেশন ওভারফ্লাইট: দ্য ইউ-২ স্পাই পাইলট টেলস হিজ স্টোরি ফর দ্য ফার্স্ট টাইম'' ||''Operation Overflight: The U-2 Spy Pilot Tells His Story for the First Time'' ||ইংরেজি ||১৯৭০
+|-
+|[[Raymond Collishaw|রেমন্ড কলিশ]] ||''এয়ার কমান্ড: আ ফাইটার পাইলটস স্টোরি'' ||''Air Command: A Fighter Pilot's Story'' ||ইংরেজি ||১৯৭৩
+|-
+|[[Donald Wilson (general)|ডোনাল্ড উইলসন]] ||''উয়িং পেপনি: মাই ওডিসি থ্রু মেনি ইয়ার্স'' ||''Wooing Peponi: My Odyssey through Many Years'' ||ইংরেজি ||১৯৭৩
+|-
+|[[Jan Zumbach|ইয়ান জুমবাখ]] ||''মিস্টার ব্রাউন''{{efn|Published in English as ''On Wings of War: My Life as a Pilot Adventurer'' in 1975.}} ||''Mister Brown''{{efn|Published in English as ''On Wings of War: My Life as a Pilot Adventurer'' in 1975.}} ||পোলীয় ||১৯৭৩
+|-
+|[[Arthur Lee (RAF officer)|আর্থার লি]] ||''নো প্যারাস্যুট: আ ফাইটার পাইলট ইন প্রথম বিশ্বযুদ্ধ'' ||''No Parachute: A Fighter Pilot in World War I'' ||ইংরেজি ||১৯৭৪
+|-
+|[[Cecil Arthur Lewis|সিসিল আর্থার লুইস]] ||''নেভার লুক ব্যাক: অ্যান অ্যাটেম্পট অ্যাট অটোবায়োগ্রাফি'' ||''Never Look Back: An Attempt at Autobiography'' ||ইংরেজি ||১৯৭৪
+|-
+|[[Igor Kaberov|ইগর কাবেরভ]] ||''স্বস্তিকা ইন দ্য গানসাইট'' ||''Swastika in the Gunsight'' (''В прицеле свастика'') ||ইংরেজি ||১৯৭৫
+|-
+|[[Alexander Lippisch|আলেকজান্ডার লিপিশ]] ||''আ ট্রায়াঙ্গল ফ্লাইজ: দ্য ডেভেলপমেন্ট অব ডেল্টা এয়ারক্রাফট আনটিল ১৯৪৫''{{efn|1=Published in English as ''The Delta Wing: History and Development'' in 1981.}} ||''A Triangle Flies: The Development of Delta Aircraft Until 1945'' (''Ein Dreieck Fliegt: Die Entwicklung der Delta-Flugzeuge bis 1945''){{efn|1=Published in English as ''The Delta Wing: History and Development'' in 1981.}} ||জার্মান ||১৯৭৬
+|-
+|[[Charles Lamb (Royal Navy officer)|চার্লস ল্যাম্ব]] ||''ওয়ার ইন আ স্ট্রিংব্যাগ'' ||''War in a Stringbag'' ||ইংরেজি ||১৯৭৭
+|-
+|[[Alan Cobham|অ্যালান কোবহাম]] ||''আ টাইম টু ফ্লাই'' ||''A Time to Fly'' ||ইংরেজি ||১৯৭৮
+|-
+|[[Alex Henshaw|অ্যালেক্স হেনশ]] ||''সাই ফর আ মার্লিন: টেস্টিং দ্য স্পিটফায়ার''{{efn|The author published two additional books: ''The Flight of the Mew Gull'' in 1980 and ''Wings Across the Great Divide: Postwar Flying in Africa in the 1940s'' in 2004. They cover his prewar and postwar life, respectively.}} ||''Sigh for a Merlin: Testing the Spitfire''{{efn|The author published two additional books: ''The Flight of the Mew Gull'' in 1980 and ''Wings Across the Great Divide: Postwar Flying in Africa in the 1940s'' in 2004. They cover his prewar and postwar life, respectively.}} ||ইংরেজি ||১৯৭৯
+|-
+|[[Murray Peden|মারি পেডেন]] ||''আ থাউজেন্ড শ্যাল ফল'' ||''A Thousand Shall Fall'' ||ইংরেজি ||১৯৭৯
+|-
+|[[Jean Batten|জিন ব্যাটেন]] ||''অ্যালোন ইন দ্য স্কাই'' ||''Alone in the Sky'' ||ইংরেজি ||১৯৭৯
+|-
+|[[George H. Gay Jr.|জর্জ গে]] ||''সোল সারভাইভার'' ||''Sole Survivor'' ||ইংরেজি ||১৯৮০
+|-
+|[[Władysław Gnyś|ভ্লাদেক গ্নিস]] ||''ফার্স্ট কিল: আ ফাইটার পাইলটস অটোবায়োগ্রাফি'' ||''First Kill: A Fighter Pilot's Autobiography'' ||পোলীয় ||১৯৮১
+|-
+|[[William R. Dunn (aviator)|উইলিয়াম আর. ডান]] ||''ফাইটার পাইলট: দ্য ফার্স্ট আমেরিকান এস অব দ্বিতীয় বিশ্বযুদ্ধ'' ||''Fighter Pilot: The First American Ace of World War II'' ||ইংরেজি ||১৯৮২
+|-
+|[[Robert Mason (writer)|রবার্ট মেসন]] ||''চিকেনহক''{{efn|The author published an additional book: ''Chickenhawk: Back in the World: Life After Vietnam'' in 1993.}} ||''Chickenhawk''{{efn|The author published an additional book: ''Chickenhawk: Back in the World: Life After Vietnam'' in 1993.}} ||ইংরেজি ||১৯৮৩
+|-
+|[[Charles Bond (pilot)|চার্লস বন্ড]] ||''আ ফ্লাইং টাইগারস ডায়েরি'' ||''A Flying Tiger's Diary'' ||ইংরেজি ||১৯৮৪
+|-
+|[[Duke Cunningham|ডিউক কানিংহাম]] ||''ফক্স টু: দ্য স্টোরি অব আমেরিকাস ফার্স্ট এস ইন ভিয়েতনাম'' ||''Fox Two: The Story of America's First Ace in Vietnam'' ||ইংরেজি ||১৯৮৪
+|-
+|[[Gerhard Neumann|গেরহার্ড নিউম্যান]] ||''হারমান দ্য জার্মান: এনিমি এলিয়েন ইউ.এস. আর্মি মাস্টার সার্জেন্ট'' ||''Herman the German: Enemy Alien U.S. Army Master Sergeant'' ||জার্মান ||১৯৮৪
+|-
+|[[Stanley Hooker|স্ট্যানলি হুকার]] ||''নট মাচ অব অ্যান ইঞ্জিনিয়ার'' ||''Not Much of an Engineer'' ||ইংরেজি ||১৯৮৫
+|-
+|[[Al Mooney|আল মুনি]] ||''দ্য অ্যাল মুনি স্টোরি: দে অল ফ্লাই থ্রু দ্য সেম এয়ার'' ||''The Al Mooney Story: They All Fly Through the Same Air'' ||ইংরেজি ||১৯৮৫
+|-
+|[[Chuck Yeager|চাক ইয়েগার]] ||''ইয়েগার: অ্যান অটোবায়োগ্রাফি'' ||''Yeager: An Autobiography'' ||ইংরেজি ||১৯৮৫
+|-
+|[[Roald Dahl|রুয়াল দাল]] ||''[[Going Solo|গোয়িং সোলো]]'' ||''[[Going Solo]]'' ||ইংরেজি ||১৯৮৬
+|-
+|[[Haywood S. Hansell|হেউড এস. হ্যানসেল]] ||''দ্য স্ট্র্যাটেজিক এয়ার ওয়ার অ্যাগেইনস্ট জার্মানি অ্যান্ড জাপান: আ মেমোয়ার'' ||''The Strategic Air War Against Germany and Japan: A Memoir'' ||ইংরেজি ||১৯৮৬
+|-
+|[[Jacqueline Cochran|জ্যাকি কোকরান]] ||''জ্যাকি ককরান: অ্যান অটোবায়োগ্রাফি'' ||''Jackie Cochran: An Autobiography'' ||ইংরেজি ||১৯৮৭
+|-
+|[[Alberto Briganti|আলবের্তো ব্রিগান্তি]] ||''বিয়ন্ড দ্য ক্লাউডস দ্য সেরিন: মেমোরিজ অব ফরটি ইয়ার্স অব ফ্লাইট অ্যান্ড অ্যাডভেঞ্চার'' ||''Beyond the Clouds the Serene: Memories of Forty Years of Flight and Adventure'' (''Oltre le Nubi il Sereno: Ricordi di Quarant'anni di Volo e di Avventura'') ||ইতালীয় ||১৯৮৮
+|-
+|[[Samuel Hynes|স্যামুয়েল হাইনস]] ||''ফ্লাইটস অব প্যাসেজ: রিকলেকশনস অব আ দ্বিতীয় বিশ্বযুদ্ধ অ্যাভিয়েটর'' ||''Flights of Passage: Recollections of a World War II Aviator'' ||ইংরেজি ||১৯৮৮
+|-
+|[[Robert Lee Scott Jr.|রবার্ট লি স্কট জুনিয়র]] ||''দ্য ডে আই ওনড দ্য স্কাই''{{efn|An earlier memoir was published as ''God is My Co-Pilot''.}} ||''The Day I Owned the Sky''{{efn|An earlier memoir was published as ''God is My Co-Pilot''.}} ||ইংরেজি ||১৯৮৮
+|-
+|[[Fred Weick|ফ্রেড উইক]] ||''ফ্রম দ্য গ্রাউন্ড আপ'' ||''From the Ground Up'' ||ইংরেজি ||১৯৮৮
+|-
+|[[John Thomas Blackburn|জন থমাস ব্ল্যাকবার্ন]] ||''দ্য জলি রজার্স: দ্য স্টোরি অব টম ব্ল্যাকবার্ন অ্যান্ড নেভি ফাইটিং স্কোয়াড্রন ভিএফ-১৭'' ||''The Jolly Rogers: The Story of Tom Blackburn and Navy Fighting Squadron VF-17'' ||ইংরেজি ||১৯৮৯
+|-
+|[[Takeo Doi (aircraft designer)|তাকেয়ো দোই]] ||''ফিফটি ইয়ার্স রিকলেকশনস অন এয়ারক্রাফট ডিজাইন'' ||''Fifty Years Recollections on Aircraft Design'' (''航空機設計50年の回想'') ||জাপানি ||১৯৮৯
+|-
+|[[Hugh Dundas|হিউ ডান্ডাস]] ||''ফ্লাইং স্টার্ট: আ ফাইটার পাইলটস ওয়ার ইয়ার্স'' ||''Flying Start: A Fighter Pilot's War Years'' ||ইংরেজি ||১৯৮৯
+|-
+|[[Kelly Johnson (engineer)|কেলি জনসন]] ||''কেলি: মোর দ্যান মাই শেয়ার অব ইট অল'' ||''Kelly: More Than My Share of It All'' ||ইংরেজি ||১৯৮৯
+|-
+|[[Boone Guyton|বুন গাইটন]] ||''হুইসলিং ডেথ: দ্য টেস্ট পাইলটস স্টোরি অব দ্য এফ৪ইউ করসেয়ার'' ||''Whistling Death: The Test Pilot's Story of the F4U Corsair'' ||ইংরেজি ||১৯৯০
+|-
+|[[Bud Anderson|বাড অ্যান্ডারসন]] ||''টু ফ্লাই অ্যান্ড ফাইট'' ||''To Fly and Fight'' ||ইংরেজি ||১৯৯১
+|-
+|[[Jimmy Doolittle|জিমি ডুলিটল]] ||''আই কুড নেভার বি সো লাকি অ্যাগেইন'' ||''I Could Never Be So Lucky Again'' ||ইংরেজি ||১৯৯১
+|-
+|[[Gabby Gabreski|গ্যাবি গ্যাব্রিস্কি]] ||''গ্যাবি: আ ফাইটার পাইলটস লাইফ'' ||''Gabby: A Fighter Pilot's Life'' ||পোলীয় ||১৯৯১
+|-
+|[[Hajo Herrmann|হাজো হেরমান]] ||''ঈগলস উইংস'' ||''Eagle's Wings'' ||জার্মান ||১৯৯১
+|-
+|[[Brian Shul|ব্রায়ান শুল]] ||''স্লেড ড্রাইভার: ফ্লাইং দ্য ওয়ার্ল্ডস ফাস্টেস্ট জেট'' ||''Sled Driver: Flying the World's Fastest Jet'' ||ইংরেজি ||১৯৯১
+|-
+|[[Joe Foss|জো ফস]] ||''আ প্রাউড আমেরিকান: দ্য অটোবায়োগ্রাফি অব জো ফস'' ||''A Proud American: The Autobiography of Joe Foss'' ||ইংরেজি ||১৯৯২
+|-
+|[[Tex Johnson|টেক্স জনসন]] ||''টেক্স জনস্টন: জেট-াগে টেস্ট পাইলট'' ||''Tex Johnston: Jet-Age Test Pilot'' ||ইংরেজি ||১৯৯২
+|-
+|[[Harry Herbert Crosby|হ্যারি এইচ. ক্রসবি]] ||''আ উইং অ্যান্ড আ প্রেয়ার: দ্য "ব্লাডি ১০০তম" বোম গ্রুপ অব দ্য ইউ.এস. এইটথ এয়ার ফোর্স ইন অ্যাকশন ওভার ইউরোপ ইন দ্বিতীয় বিশ্বযুদ্ধ'' ||''A Wing and a Prayer: The "Bloody 100th" Bomb Group of the U.S. Eighth Air Force in Action over Europe in World War II'' ||ইংরেজি ||১৯৯৩
+|-
+|[[Lawrence A. Hyland|লরেন্স এ. হাইল্যান্ড]] ||''কল মি প্যাট: দ্য অটোবায়োগ্রাফি অব দ্য ম্যান হাওয়ার্ড হিউজ চোজ টু লিড হিউজ এয়ারক্রাফট'' ||''Call Me Pat: The Autobiography of the Man Howard Hughes Chose to Lead Hughes Aircraft'' ||ইংরেজি ||১৯৯৩
+|-
+|[[Diana Barnato Walker|ডায়ানা বার্নাতো ওয়াকার]] ||''স্প্রেডিং মাই উইংস: ওয়ান অব ব্রিটানস টপ উইমেন পাইলটস টেলস হার রিমার্কেবল স্টোরি'' ||''Spreading My Wings: One of Britain's Top Women Pilots Tells Her Remarkable Story'' ||ইংরেজি ||১৯৯৪
+|-
+|[[Marion Eugene Carl|মারিয়ন ইউজিন কার্ল]] ||''পুশিং দ্য এনভেলপ: দ্য ক্যারিয়ার অব ফাইটার এস অ্যান্ড টেস্ট পাইলট ম্যারিয়ন কার্ল'' ||''Pushing the Envelope: The Career of Fighter Ace and Test Pilot Marion Carl'' ||ইংরেজি ||১৯৯৪
+|-
+|[[Neal Vernon Loving|নিল ভার্নন লাভিং]] ||''লাভিংস লাভ: আ ব্ল্যাক আমেরিকানস এক্সপেরিয়েন্সেস ইন অ্যাভিয়েশন'' ||''Lovings Love: A Black American's Experiences in Aviation'' ||ইংরেজি ||১৯৯৪
+|-
+|[[Ben Rich (engineer)|বেন রিচ]] ||''স্কাঙ্ক ওয়ার্কস: আ পার্সোনাল মেমোয়ার অব মাই ইয়ার্স অ্যাট লকহিড'' ||''Skunk Works: A Personal Memoir of My Years at Lockheed'' ||ইংরেজি ||১৯৯৪
+|-
+|[[Bob Hoover|বব হুভার]] ||''ফরএভার ফ্লাইং: ফিফটি ইয়ার্স অব হাই-ফ্লাইং অ্যাডভেঞ্চার্স, ফ্রম বার্নস্টর্মিং ইন প্রপ প্লেনস টু ডগফাইটিং জার্মানস টু টেস্টিং সুপারসনিক জেটস'' ||''Forever Flying: Fifty Years of High-flying Adventures, From Barnstorming in Prop Planes to Dogfighting Germans to Testing Supersonic Jets'' ||ইংরেজি ||১৯৯৬
+|-
+|[[No Kum-Sok|নো কুম-সোক]] ||''আ মিগ-১৫ টু ফ্রিডম: মেমোয়ার অব দ্য ওয়ারটাইম নর্থ কোরিয়ান ডিফেক্টর হু ফার্স্ট ডেলিভার্ড দ্য সিক্রেট ফাইটার জেট টু দ্য আমেরিকানস ইন ১৯৫৩'' ||''A MiG-15 to Freedom: Memoir of the Wartime North Korean Defector Who First Delivered the Secret Fighter Jet to the Americans in 1953'' ||ইংরেজি ||১৯৯৬
+|-
+|[[Charles W. Dryden|চার্লস ডব্লিউ. ড্রাইডেন]] ||''এ-ট্রেন: মেমোয়ার্স অব আ টাস্কাগি এয়ারম্যান'' ||''A-Train: Memoirs of a Tuskegee Airman'' ||ইংরেজি ||১৯৯৭
+|-
+|[[James V. Hartinger|জেমস ভি. হার্টিঙ্গার]] ||''ফ্রম ওয়ান স্ট্রাইপ টু ফোর স্টার্স'' ||''From One Stripe to Four Stars'' ||ইংরেজি ||১৯৯৭
+|-
+|[[Frank E. Petersen|ফ্র্যাঙ্ক ই. পিটারসেন]] ||''ইনটু দ্য টাইগারস জ: আমেরিকাস ফার্স্ট ব্ল্যাক মেরিন অ্যাভিয়েটর'' ||''Into the Tiger's Jaw: America's First Black Marine Aviator'' ||ইংরেজি ||১৯৯৮
+|-
+|[[Paul Tibbets|পল টিবেটস]] ||''রিটার্ন অব দ্য ইনোলা গে'' ||''Return of The Enola Gay'' ||ইংরেজি ||১৯৯৮
+|-
+|[[Jeffrey Quill|জেফ্রি কুইল]] ||''স্পিটফায়ার: আ টেস্ট পাইলটস স্টোরি'' ||''Spitfire: A Test Pilot's Story'' ||ইংরেজি ||১৯৯৮
+|-
+|[[Michael J. Novosel|মাইকেল জে. নভোসেল]] ||''ডাস্টঅফ: দ্য মেমোয়ার অব অ্যান আর্মি অ্যাভিয়েটর'' ||''Dustoff: The Memoir of an Army Aviator'' ||ইংরেজি ||১৯৯৯
+|-
+|[[Gene Kranz|জিন ক্রাঞ্জ]] ||''ফেইলিউর ইজ নট অ্যান অপশন: মিশন কন্ট্রোল ফ্রম মার্কারি টু অ্যাপোলো ১৩ অ্যান্ড বিয়ন্ড'' ||''Failure Is Not an Option: Mission Control from Mercury to Apollo 13 and Beyond'' ||ইংরেজি ||২০০০
+|-
+|[[Frederick Libby|ফ্রেডেরিক লিবি]] ||''হর্সেস ডোন্ট ফ্লাই: আ মেমোয়ার অব প্রথম বিশ্বযুদ্ধ'' ||''Horses Don't Fly: A Memoir of World War I'' ||ইংরেজি ||২০০০
+|-
+|[[Roland Beamont|রোল্যান্ড বিমন্ট]] ||''দ্য ইয়ার্স ফ্লু পাস্ট: ৪০ ইয়ার্স অ্যাট দ্য লিডিং এজ অব অ্যাভিয়েশন'' ||''The Years Flew Past: 40 Years at the Leading Edge of Aviation'' ||ইংরেজি ||২০০১
+|-
+|[[Robert K. Morgan|রবার্ট কে. মরগান]] ||''দ্য ম্যান হু ফ্লু দ্য মেমফিস বেল: মেমোয়ার অব আ দ্বিতীয় বিশ্বযুদ্ধ বোম্বার পাইলট'' ||''The Man Who Flew the Memphis Belle: Memoir of a WWII Bomber Pilot'' ||ইংরেজি ||২০০১
+|-
+|[[Peter Masefield|পিটার মেসফিল্ড]] ||''ফ্লাইট পাথ: দ্য অটোবায়োগ্রাফি অব স্যার পিটার মেসফিল্ড'' ||''Flight Path: The Autobiography of Sir Peter Masefield'' ||ইংরেজি ||২০০২
+|-
+|[[Donald L. Mallick|ডোনাল্ড এল. ম্যালিক]] ||''স্মেল অব কেরোসিন: আ টেস্ট পাইলটস ওডিসি'' ||''Smell of Kerosene: A Test Pilot's Odyssey'' ||ইংরেজি ||২০০৩
+|-
+|[[Bernard F. Fisher|বার্নার্ড এফ. ফিশার]] ||''বিয়ন্ড দ্য কল অব ডিউটি: দ্য স্টোরি অব অ্যান আমেরিকান হিরো'' ||''Beyond the Call of Duty: The Story of an American Hero'' ||ইংরেজি ||২০০৪
+|-
+|[[Clayton Kelly Gross|ক্লেটন কেলি গ্রস]] ||''লাইভ বেইট: দ্বিতীয় বিশ্বযুদ্ধ মেমোরিজ অব অ্যান আনডিফিটেড ফাইটার এস'' ||''Live Bait: WWII Memories of an Undefeated Fighter Ace'' ||ইংরেজি ||২০০৬
+|-
+|[[Günther Rall|গুন্থার রাল]] ||''মাই লগবুক: রেমিনিসেন্সেস, ১৯৩৮-২০০৬'' ||''My Logbook: Reminiscences, 1938-2006'' ||জার্মান ||২০০৬
+|-
+|[[Joe Sutter|জো সাটার]] ||''৭৪৭: ক্রিয়েটিং দ্য ওয়ার্ল্ডস ফার্স্ট জাম্বো জেট অ্যান্ড আদার অ্যাডভেঞ্চার্স ফ্রম আ লাইফ ইন অ্যাভিয়েশন'' ||''747: Creating the World's First Jumbo Jet and Other Adventures from a Life in Aviation'' ||ইংরেজি ||২০০৬
+|-
+|[[Jacksel M. Broughton|জ্যাক ব্রটন]] ||''রুপার্ট রেড টু: আ ফাইটার পাইলটস লাইফ ফ্রম থান্ডারবোল্টস টু থান্ডারচিফস''{{efn|1=The author wrote two previous books ''[[Thud Ridge (book)|Thud Ridge]]'' in 1968 and ''Going Downtown: The War Against Hanoi and Washington'' in 1988.}} ||''Rupert Red Two: A Fighter Pilot's Life from Thunderbolts to Thunderchiefs''{{efn|1=The author wrote two previous books ''[[Thud Ridge (book)|Thud Ridge]]'' in 1968 and ''Going Downtown: The War Against Hanoi and Washington'' in 1988.}} ||ইংরেজি ||২০০৭
+|-
+|[[Leland Snow|লেল্যান্ড স্নো]] ||''পুটিং ড্রিমস টু ফ্লাইট'' ||''Putting Dreams to Flight'' ||ইংরেজি ||২০০৮
+|-
+|[[Anna Yegorova|আন্না ইয়েগোরোভা]] ||''রেড স্কাই, ব্ল্যাক ডেথ: আ সোভিয়েত ওম্যান পাইলটস মেমোয়ার অব দ্য ইস্টার্ন ফ্রন্ট'' ||''Red Sky, Black Death: A Soviet Woman Pilot's Memoir of the Eastern Front'' ||ইংরেজি ||২০০৯
+|-
+|[[Ann B. Carl|অ্যান বি. কার্ল]] ||''আ ওয়াস্প অ্যামাং ঈগলস: আ ওম্যান মিলিটারি টেস্ট পাইলট ইন দ্বিতীয় বিশ্বযুদ্ধ'' ||''A WASP Among Eagles: A Woman Military Test Pilot in World War II'' ||ইংরেজি ||২০০০{{efn|1=It is not clear when this book was first published. An edition was published by the Smithsonian Institution in 2010.<ref>{{cite book |title=A Wasp Among Eagles: A Wasp Among Eagles [''sic''] |oclc=833293641  }}</ref> However, her 2008 obituary mentions the work by name.<ref>{{cite news |last1=Calos |first1=Katherine |title=Ann G.B. Carl, First U.S. Woman to Fly Jet, Dies |url=http://www.richmond.com/entertainment/ann-g-b-carl-first-u-s-woman-to-fly-jet-dies/article_aba11996-46dd-5010-94c2-e672b3f6a4e3.html |access-date=29 January 2024 |work=Richmond Times-Dispatch |date=22 March 2008 |archive-url=https://web.archive.org/web/20210319134535/http://www.richmond.com/entertainment/ann-g-b-carl-first-u-s-woman-to-fly-jet-dies/article_aba11996-46dd-5010-94c2-e672b3f6a4e3.html |archive-date=19 March 2021}}</ref> A WorldCat entry with limited details mentions an edition published in 2000.<ref>{{cite book |title=A Wasp Among Eagles: A Woman Military Test Pilot in World War II |oclc=539565861 }}</ref> This date has been used for the entry.}}
+|-
+|[[Mitsuo Fuchida|মিতসুও ফুচিদা]] ||''ফর দ্যাট ওয়ান ডে: দ্য মেমোয়ার্স অব মিৎসুবো ফুচিদা, দ্য কমান্ডার অব দ্য অ্যাটাক অন পার্ল হারবার'' ||''For That One Day: The Memoirs of Mitsuo Fuchida, the Commander of the Attack on Pearl Harbor'' ||জাপানি ||২০১১
+|-
+|[[Harold Brown (Tuskegee Airman)|হ্যারল্ড ব্রাউন]] ||''কিপ ইউর এয়ারস্পিড আপ: দ্য স্টোরি অব আ টাস্কাগি এয়ারম্যান'' ||''Keep Your Airspeed Up: The Story of a Tuskegee Airman'' ||ইংরেজি ||২০১৭
+|-
+|[[Norman Kleiss|নরম্যান ক্লিস]] ||''নেভার কল মি আ হিরো: আ লেজেন্ডারি আমেরিকান ডাইভ-বোম্বার পাইলট রিমেম্বারস দ্য ব্যাটল অব মিডওয়ে'' ||''Never Call Me a Hero: A Legendary American Dive-Bomber Pilot Remembers the Battle of Midway'' ||ইংরেজি ||২০১৭
+|-
+|[[Tammie Jo Shults|ট্যামি জো শাল্টস]] ||''নার্ভস অব স্টিল: হাউ আই ফলোড মাই ড্রিমস, আর্নড মাই উইংস, অ্যান্ড ফেসড মাই গ্রেটেস্ট চ্যালেঞ্জ'' ||''Nerves of Steel: How I Followed My Dreams, Earned My Wings, and Faced My Greatest Challenge'' ||ইংরেজি ||২০১৯
+|-
+|[[Margaret Mead|মার্গারেট মিড]] ||''ব্ল্যাকবেরি উইন্টার: মাই আর্লিয়ার ইয়ার্স'' ||''Blackberry Winter: My Earlier Years'' ||ইংরেজি ||১৯৭২
+|-
+|[[Margaret Murray|মার্গারেট মারি]] ||''মাই ফার্স্ট হান্ড্রেড ইয়ার্স উইথ আম্মু'' ||''My First Hundred Years with Ammu'' ||ইংরেজি ||১৯৬৩
+|-
+|[[Frank Lloyd Wright|ফ্র্যাংক লয়েড রাইট]] ||''অটোবায়োগ্রাফি'' ||''Autobiography'' ||ইংরেজি ||১৯৪৩
+|-
+|[[Salvador Dalí|সালভাদোর দালি]] ||''[[The Secret Life of Salvador Dalí|দ্য সিক্রেট লাইফ অব সালভাদর দালি]]'' ||''[[The Secret Life of Salvador Dalí]]'' ||ইংরেজি ||১৯৪২
+|-
+|[[Claude Monet|ক্লোদ মোনে]] ||''অ্যান ইন্টারভিউ'' ||''An Interview'' ||ফরাসি ||১৯০০
+|-
+|[[Gwen Raverat|গোয়েন রাভেরাত]] ||''[[Period Piece (book)|পিরিয়ড পিস]]'' ||''[[Period Piece (book)|Period Piece]]'' ||ইংরেজি ||১৯৫২
+|-
+|[[Andrew Carnegie|এন্ড্রু কানের্গি]] ||''অটোবায়োগ্রাফি অব অ্যান্ড্রু কার্নেগি: উইথ ইলাস্ট্রেশনস'' ||''Autobiography of Andrew Carnegie: with Illustrations'' ||ইংরেজি ||১৯২০
+|-
+|[[Henry Ford|হেনরি ফোর্ড]] ||''[[My Life and Work|মাই লাইফ অ্যান্ড ওয়ার্ক]]'' ||''[[My Life and Work]]'' ||ইংরেজি ||১৯২২
+|-
+|[[Richard DeVos|রিচার্ড ডিভোস]] ||''সিম্পলি রিচ: লাইফ অ্যান্ড লেসনস ফ্রম দ্য কোফাউন্ডার অব অ্যামওয়ে: আ মেমোয়ার'' ||''Simply Rich: Life and Lessons from the Cofounder of Amway: A Memoir'' ||ইংরেজি ||২০১৪
+|-
+|[[Andrew Grove|অ্যান্ড্রু এস. গ্রোভ]] ||''আ মেমোয়ার: সুইমিং অ্যাক্রস'' ||''A Memoir: Swimming Across'' ||ইংরেজি ||২০০১
+|-
+|[[Terry-Thomas|টেরি-টমাস]] ||''ফিলিং দ্য গ্যাপ'' ||''Filling the Gap'' ||ইংরেজি ||১৯৫৯
+|-
+|[[Harpo Marx|হার্পো মার্ক্স]] ||''হার্পো স্পিকস'' ||''Harpo Speaks'' ||ইংরেজি ||১৯৬১
+|-
+|[[Charlie Chaplin|চার্লি চ্যাপলিন]] ||''মাই অটোবায়োগ্রাফি'' ||''My Autobiography'' ||ইংরেজি ||১৯৬৪
+|-
+|[[Moe Howard|মো হাওয়ার্ড]] ||''[[Moe Howard and the Three Stooges|মো হাওয়ার্ড অ্যান্ড দ্য থ্রি স্টুজেস]]'' ||''[[Moe Howard and the Three Stooges]]'' (published posthumously) ||ইংরেজি ||১৯৭৪
+|-
+|[[Sid Caesar|সিড সিজার]] ||''হোয়ার হ্যাভ আই বিন?'' ||''Where Have I Been?'' ||ইংরেজি ||১৯৮২
+|-
+|[[Kenny Everett|কেনি এভারেট]] ||''দ্য কাস্টার্ড স্টপস অ্যাট হ্যাটফিল্ড'' ||''The Custard Stops at Hatfield'' ||ইংরেজি ||১৯৮২
+|-
+|[[Bill Cosby|বিল কসবি]] ||''ফাদারহুড'' ||''Fatherhood'' ||ইংরেজি ||১৯৮৬
+|-
+|[[Basil Boothroyd|জে. বি. বুথরয়েড]] ||''আ শোল্ডার টু লাফ অন'' ||''A Shoulder To Laugh On'' ||ইংরেজি ||১৯৮৭
+|-
+|[[Mel Blanc|মেল ব্ল্যাংক]] ||''দ্যাটস নট অল, ফোকস'' ||''That's NOT All, Folks'' ||ইংরেজি ||১৯৮৮
+|-
+|[[Gilda Radner|গিল্ডা র‍্যাডনার]] ||''ইটস অলওয়েজ সামথিং'' ||''It's Always Something'' ||ইংরেজি ||১৯৮৯
+|-
+|[[Richard Pryor|রিচার্ড প্রায়র]] ||''[[Pryor Convictions|প্রায়র কনভিকশনস]]'' ||''[[Pryor Convictions]]'' ||ইংরেজি ||১৯৯৫
+|-
+|[[Betty White|বেটি হোয়াইট]] ||''বিডব্লিউ: ইন পার্সন অ্যান্ড হিয়ার উই গো অ্যাগেইন: মাই লাইফ ইন টেলিভিশন'' ||''BW: In Person and Here We Go Again: My Life In Television'' ||ইংরেজি ||both ১৯৯৫
+|-
+|[[Damon Wayans|ড্যামন ওয়াইয়ানস]] ||''বুটলেগ'' ||''Bootleg'' ||ইংরেজি ||১৯৯৬
+|-
+|[[Stephen Fry|স্টিভেন ফ্রাই]] ||''[[Moab Is My Washpot|মোয়াব ইজ মাই ওয়াশপট]]'' ||''[[Moab Is My Washpot]]'' ||ইংরেজি ||১৯৯৭
+|-
+|[[Jenny McCarthy|জেনি ম্যাককার্থি]] ||''জেন-এক্স: মাই ওপেন বুক'' ||''Jen-X: My Open Book'' ||ইংরেজি ||১৯৯৭
+|-
+|[[Chris Rock|ক্রিস রক]] ||''রক দিস'' ||''Rock This'' ||ইংরেজি ||১৯৯৭
+|-
+|[[Sandra Bernhard|স্যান্ড্রা বার্নহার্ড]] ||''কনফেশনস অব আ প্রিটি লেডি'' ||''Confessions of a Pretty Lady'' ||ইংরেজি ||১৯৯৮
+|-
+|[[Danny Bonaduce|ড্যানি বোনাডুচে]] ||''র‍্যান্ডম অ্যাক্টস অব ব্যাডনেস'' ||''Random Acts of Badness'' ||ইংরেজি ||২০০১
+|-
+|[[Fran Drescher|ফ্র্যান ড্রেশার]] ||''ক্যানসার শ্ম্যান্সার'' ||''Cancer Schmancer'' ||ইংরেজি ||২০০২
+|-
+|[[Alan Thicke|অ্যালান থিক]] ||''হাউ মেন হ্যাভ বেবিজ: আ নিউ ফাদারস সারভাইভাল গাইড'' ||''How Men Have Babies: a New Father's Survival Guide'' ||ইংরেজি ||২০০৩
+|-
+|[[Rodney Dangerfield|রোডনি ড্যাঞ্জারফিল্ড]] ||''ইটস নট ইজি বিয়িং মি: আ লাইফটাইম অব নো রেসপেক্ট বাট প্লেন্টি অব সেক্স অ্যান্ড ড্রাগস'' ||''It's Not Easy Being Me: a Lifetime of No Respect But Plenty of Sex and Drugs'' (published posthumously) ||ইংরেজি ||২০০৪
+|-
+|[[Tom Green|টম গ্রিন]] ||''হলিউড কজেস ক্যানসার'' ||''Hollywood Causes Cancer'' ||ইংরেজি ||২০০৪
+|-
+|[[Rik Mayall|রিক মায়াল]] ||''[[Bigger than Hitler – Better than Christ|বিগার দ্যান হিটলার – বেটার দ্যান ক্রাইস্ট]]'' ||''[[Bigger than Hitler – Better than Christ]]'' ||ইংরেজি ||২০০৫
+|-
+|[[Tommy Chong|টমি চং]] ||''দ্য আই চং: মেডিটেশনস ফ্রম দ্য জয়েন্ট'' ||''The I Chong: Meditations From the Joint'' ||ইংরেজি ||২০০৬
+|-
+|[[Bob Newhart|বব নিউহার্ট]] ||''আই শুডন্ট ইভেন বি ডুইং দিস!'' ||''I Shouldn't Even Be Doing This!'' ||ইংরেজি ||২০০৬
+|-
+|[[Alan Thicke|অ্যালান থিক]] ||''হাউ টু রেইজ কিডস হু ওন্ট হেট ইউ'' ||''How to Raise Kids Who Won't Hate You'' ||ইংরেজি ||২০০৬
+|-
+|[[Steve Martin|স্টিভ মার্টিন]] ||''[[Born Standing Up|বর্ন স্ট্যান্ডিং আপ]]'' ||''[[Born Standing Up]]'' ||ইংরেজি ||২০০৭
+|-
+|[[Denis Leary|ডেনিস লিয়ারি]] ||''হোয়াই উই সাক'' ||''Why We Suck'' ||ইংরেজি ||২০০৮
+|-
+|[[Stephen Fry|স্টিভেন ফ্রাই]] ||''আর্নি: দ্য অটোবায়োগ্রাফি'' ||''Ernie: The Autobiography'' ||ইংরেজি ||২০০৯
+|-
+|[[Frankie Boyle|ফ্র্যাঙ্কি বয়েল]] ||''[[My Shit Life So Far|মাই শিট লাইফ সো ফার]]'' ||''[[My Shit Life So Far]]'' ||ইংরেজি ||২০০৯
+|-
+|[[Craig Ferguson|ক্রেগ ফার্গুসন]] ||''[[American on Purpose|আমেরিকান অন পারপাস]]'' ||''[[American on Purpose]]'' ||ইংরেজি ||২০০৯
+|-
+|[[Todd Bridges|টড ব্রিজেস]] ||''কিলিং উইলিস, ওরফে দ্যাটস হোয়াট আই অ্যাম টকিং অ্যাবাউট'' ||''Killing Willis, AKA Thatswhatimtalkinbout'' ||ইংরেজি ||২০১০
+|-
+|[[Gilbert Gottfried|গিলবার্ট গটফ্রিড]] ||''রাবার বলস অ্যান্ড লিকার'' ||''Rubber Balls & Liquor'' ||ইংরেজি ||২০১১
+|-
+|[[Michael Moore|মাইকেল মুর]] ||''হিয়ার কামস ট্রাবল'' ||''Here Comes Trouble'' ||ইংরেজি ||২০১১
+|-
+|[[Victoria Jackson|ভিক্টোরিয়া জ্যাকসন]] ||''ইজ মাই বো টু বিগ? হাউ আই ওয়েন্ট ফ্রম এসএনএল টু দ্য টি পার্টি'' ||''Is My Bow Too Big? How I Went from SNL to the Tea Party'' ||ইংরেজি ||২০১২
+|-
+|[[Kevin Smith|কেভিন স্মিথ]] ||''টাফ শিট: লাইফ অ্যাডভাইস ফ্রম আ ফ্যাট, লেজি স্লব হু স্টিল মেড গুড'' ||''Tough Sh*t: Life Advice from a Fat, Lazy Slob Who Still Made Good'' ||ইংরেজি ||২০১২
+|-
+|[[Jimmie Walker|জিমি ওয়াকার]] ||''ডাইন-ও-মাইট!'' ||''Dyn-o-mite!'' ||ইংরেজি ||২০১২
+|-
+|[[Andrew Dice Clay|অ্যান্ড্রু ডাইস ক্লে]] ||''দ্য ফিলথি ট্রুথ'' ||''The Filthy Truth'' ||ইংরেজি ||২০১৪
+|-
+|[[Andrew Sachs|অ্যান্ড্রু স্যাক্স]] ||''আই নো নাথিং'' ||''I Know Nothing'' (''But Here's What I've Learned'') ||ইংরেজি ||২০১৪
+|-
+|[[John Cleese|জন ক্লিজ]] ||''সো, এনিওয়ে...'' ||''So, Anyway...'' ||ইংরেজি ||২০১৪
+|-
+|[[Bob Saget|বব স্যাগেট]] ||''ডার্টি ড্যাডি'' ||''Dirty Daddy'' ||ইংরেজি ||২০১৪
+|-
+|[[David Jason|ডেভিড জেসন]] ||''অনলি ফুলস অ্যান্ড স্টোরিজ'' ||''Only Fools and Stories'' ||ইংরেজি ||২০১৭
+|-
+|[[Cheech Marin|চিচ মেরিন]] ||''চিচ ইজ নট মাই রিয়েল নেম...বাট ডোন্ট কল মি চং!'' ||''Cheech Is Not My Real Name...But Don't Call Me Chong!'' ||ইংরেজি ||২০১৭
+|-
+|[[Eric Idle|এরিক আইডল]] ||''অলওয়েজ লুক অন দ্য ব্রাইট সাইড অব লাইফ'' ||''Always Look On the Bright Side Of Life'' ||ইংরেজি ||২০১৮
+|-
+|[[Mel Brooks|মেল ব্রুক্স]] ||''অল অ্যাবাউট মি: মাই রিমার্কেবল লাইফ ইন শো বিজনেস'' ||''All About Me: My Remarkable Life In Show Business'' ||ইংরেজি ||২০২১
+|-
+|[[Cassandra Peterson|ক্যাসান্ড্রা পিটারসন]] ||''[[Yours Cruelly, Elvira|ইউরস ক্রুয়েলি, এলভাইরা]]'' ||''[[Yours Cruelly, Elvira]]'' ||ইংরেজি ||২০২১
+|-
+|[[Isadora Duncan|আইসাডোরা ডানকান]] ||''মাই লাইফ'' ||''My Life'' ||ইংরেজি ||১৯২৭
+|-
+|[[Suzanne Farrell|সুজান ফারেল]] ||''হোল্ডিং অনটু দ্য এয়ার'' ||''Holding Onto the Air'' ||ইংরেজি ||১৯৯০
+|-
+|[[Derek Hough|ডেরেক হাফ]] ||''টেকিং দ্য লিড: লেসনস ফ্রম আ লাইফ ইন মোশন'' ||''Taking the Lead: Lessons from a Life in Motion'' ||ইংরেজি ||২০১৪
+|-
+|[[Russ Tamblyn|রাস ট্যাম্বলিন]] ||''ড্যান্সিং অন দ্য এজ: আ জার্নি অব লিভিং, লাভিং, অ্যান্ড টাম্বলিং থ্রু হলিউড'' ||''Dancing On the Edge: A Journey of Living, Loving, and Tumbling Through Hollywood'' ||ইংরেজি ||২০২৪
+|-
+|[[Vincent Price|ভিনসেন্ট প্রাইস]] ||''আই লাইক হোয়াট আই নো'' ||''I Like What I Know'' ||ইংরেজি ||১৯৫৯
+|-
+|[[Fred Astaire|ফ্রেড অ্যাস্টেয়ার]] ||''স্টেপস ইন টাইম'' ||''Steps in Time'' ||ইংরেজি ||১৯৬০
+|-
+|[[Ken Murray (entertainer)|কেন মারি]] ||''লাইফ অন আ পোগো স্টিক'' ||''Life On a Pogo Stick'' ||ইংরেজি ||১৯৬০
+|-
+|[[George Sanders|জর্জ স্যান্ডার্স]] ||''[[Memoirs of a Professional Cad|মেমোয়ার্স অব আ প্রফেশনাল ক্যাড]]'' ||''[[Memoirs of a Professional Cad]]'' ||ইংরেজি ||১৯৬০
+|-
+|[[Sir Cedric Hardwicke|স্যার সেড্রিক হার্ডউইক]] ||''আ ভিক্টোরিয়ান ইন অরবিট'' ||''A Victorian in Orbit'' ||ইংরেজি ||১৯৬১
+|-
+|[[Dick Gregory|ডিক গ্রেগরি]] ||''নিগার'' ||''Nigger'' ||ইংরেজি ||১৯৬৪
+|-
+|[[Brian Aherne|ব্রায়ান আহের্ন]] ||''আ প্রপার জব'' ||''A Proper Job'' ||ইংরেজি ||১৯৬৯
+|-
+|[[Veronica Lake|ভেরোনিকা লেক]] ||''ভল: দ্য অটোবায়োগ্রাফি'' ||''VL: the Autobiography'' ||ইংরেজি ||১৯৭০
+|-
+|[[Orson Bean|অরসন বিন]] ||''[[Me and the Orgone|মি অ্যান্ড দ্য অরগোন]]'' ||''[[Me and the Orgone]]'' ||ইংরেজি ||১৯৭১
+|-
+|[[David Niven|ডেভিড নিভন]] ||''[[The Moon's a Balloon|দ্য মুনস আ বেলুন]]'' ||''[[The Moon's a Balloon]]'' ||ইংরেজি ||১৯৭২
+|-
+|[[Kim Hunter|কিম হান্টার]] ||''লুস ইন দ্য কিচেন'' ||''Loose in the Kitchen'' ||ইংরেজি ||১৯৭৫
+|-
+|[[Robert Mitchum|রবার্ট মিচাম]] ||''ইট সিওর বিটস ওয়ার্কিং'' ||''It Sure Beats Working'' ||ইংরেজি ||১৯৭৫
+|-
+|[[David Niven|ডেভিড নিভন]] ||''ব্রিং অন দ্য এম্পটি হর্সেস'' ||''Bring On The Empty Horses'' ||ইংরেজি ||১৯৭৫
+|-
+|[[Joyce Grenfell|জয়েস গ্রেনফেল]] ||''জয়েস গ্রেনফেল রিকোয়েস্টস দ্য প্লেজার'' ||''Joyce Grenfell Requests the Pleasure'' ||ইংরেজি ||১৯৭৬
+|-
+|[[Christopher Lee|ক্রিস্টোফার লী]] ||''টল, ডার্ক & গ্রুসাম'' ||''Tall, Dark & Gruesome'' ||ইংরেজি ||১৯৭৭
+|-
+|[[Peter Ustinov|পিটার ইউস্টিনফ]] ||''[[Dear Me (book)|ডিয়ার মি]]'' ||''[[Dear Me (book)|Dear Me]]'' ||ইংরেজি ||১৯৭৭
+|-
+|[[Gregory Peck|গ্রেগরি পেক]] ||''অ্যান অ্যাক্টর্স লাইফ'' ||''An Actor's Life'' ||ইংরেজি ||১৯৭৮
+|-
+|[[Ralph Bellamy|রাফ বেলামি]] ||''হোয়েন দ্য স্মোক হিট দ্য ফ্যান'' ||''When the Smoke Hit the Fan'' ||ইংরেজি ||১৯৭৯
+|-
+|[[Dale Evans|ডেল ইভান্স]] ||''হ্যাপি ট্রেইলস'' ||''Happy Trails'' ||ইংরেজি ||১৯৭৯
+|-
+|[[John Gielgud|জন গিলগুড]] ||''অ্যান অ্যাক্টর অ্যান্ড হিজ টাইম'' ||''An Actor and His Time'' ||ইংরেজি ||১৯৭৯
+|-
+|[[Bette Midler|বেট মিডলার]] ||''আ ভিউ ফ্রম আ ব্রড'' ||''A View From a Broad'' ||ইংরেজি ||১৯৮০
+|-
+|[[Ricardo Montalbán|রিকার্দো মন্টালবান]] ||''রিফ্লেকশনস: আ লাইফ ইন টু ওয়ার্ল্ডস'' ||''Reflections: a Life In Two Worlds'' ||স্পেনীয় ||১৯৮০
+|-
+|[[Robert Stack|রবার্ট স্ট্যাক]] ||''স্ট্রেইট শুটিং'' ||''Straight Shooting'' ||ইংরেজি ||১৯৮০
+|-
+|[[Henry Fonda|হেনরি ফন্ডা]] ||''ফন্ডা: মাই লাইফ, ওরফে হাউ ডিড আই গেট টু গোল্ডেন পুকুর?'' ||''Fonda: My Life, AKA How Did I Get to Golden Pond?'' ||ইংরেজি ||১৯৮১
+|-
+|[[Mercedes McCambridge|মার্সেডিস ম্যাক্যামব্রিজ]] ||''দ্য কোয়ালিটি অব মার্সি'' ||''The Quality of Mercy'' ||ইংরেজি ||১৯৮১
+|-
+|[[James Mason|জেমস মেসান]] ||''বিফোর আই ফরগেট'' ||''Before I Forget'' ||ইংরেজি ||১৯৮২
+|-
+|[[Satyajit Ray|সত্যজিৎ রায়]] ||''[[Jakhan Choto Chilam|যখন ছোট ছিলাম]]'' ||''[[Jakhan Choto Chilam]]'' ||বাংলা ||১৯৮২
+|-
+|[[Dirk Bogarde|ডার্ক বোগার্ড]] ||''অ্যান অর্ডারলি ম্যান'' ||''An Orderly Man'' ||ইংরেজি ||১৯৮৩
+|-
+|[[James Fox|জেমস ফক্স]] ||''কামব্যাক: অ্যান অ্যাক্টর্স ডিরেকশন'' ||''Comeback: an Actor's Direction'' ||ইংরেজি ||১৯৮৩
+|-
+|[[Akira Kurosawa|আকিরা কুরোসাওয়া]] ||''[[Something Like an Autobiography|সামথিং লাইক অ্যান অটোবায়োগ্রাফি]]'' ||''[[Something Like an Autobiography]]'' ||জাপানি ||১৯৮৩
+|-
+|[[Laurence Olivier|লরন্স অলিভিয়ে]] ||''[[Confessions of an Actor|কনফেশনস অব অ্যান অ্যাক্টর]]'' ||''[[Confessions of an Actor]]'' ||ইংরেজি ||১৯৮৩
+|-
+|[[Roman Polanski|রোমান পোলান্‌স্কি]] ||''রোমান বাই পোলানস্কি'' ||''Roman by Polanski'' ||পোলীয় ||১৯৮৪
+|-
+|[[Mr. T|মিস্টার টি]] ||''দ্য ম্যান উইথ দ্য গোল্ড'' ||''The Man With the Gold'' ||ইংরেজি ||১৯৮৪
+|-
+|[[Brooke Shields|ব্রুক শিল্ডস]] ||''অন ইউর ওন'' ||''On Your Own'' ||ইংরেজি ||১৯৮৫
+|-
+|[[Alec Guinness|অ্যালেক গিনেস]] ||''ব্লেসিংস ইন ডিসগাইজ'' ||''Blessings in Disguise'' ||ইংরেজি ||১৯৮৬
+|-
+|[[Laurence Olivier|লরন্স অলিভিয়ে]] ||''[[On Acting|অন অ্যাক্টিং]]'' ||''[[On Acting]]'' ||ইংরেজি ||১৯৮৬
+|-
+|[[Franco Zeffirelli|ফ্রাঙ্কো জেফিরেলি]] ||''জেফিরেল্লি: অ্যান অটোবায়োগ্রাফি'' ||''Zeffirelli: an Autobiography'' ||ইতালীয় ||১৯৮৬
+|-
+|[[Ingmar Bergman|ইংমার বারিমান]] ||''দ্য ম্যাজিক ল্যান্টার্ন'' ||''The Magic Lantern'' ||সুইডীয় ||১৯৮৭
+|-
+|[[Patty Duke|প্যাটি ডিউক]] ||''কল মি অ্যানা'' ||''Call Me Anna'' ||ইংরেজি ||১৯৮৭
+|-
+|[[Arthur Miller|আর্থার মিলার]] ||''টাইমবেন্ডস: আ লাইফ'' ||''Timebends: A Life'' ||ইংরেজি ||১৯৮৭
+|-
+|[[Mamie Van Doren|মেমি ভ্যান ডোরেন]] ||''প্লেয়িং দ্য ফিল্ড: সেক্স, স্টারডম, লাভ, অ্যান্ড লাইফ ইন হলিউড'' ||''Playing the Field: Sex, Stardom, Love, and Life in Hollywood'' ||ইংরেজি ||১৯৮৭
+|-
+|[[Orson Bean|অরসন বিন]] ||''টু মাচ ইজ নট এনাফ'' ||''Too Much Is Not Enough'' ||ইংরেজি ||১৯৮৮
+|-
+|[[Chuck Norris|চাক নরিস]] ||''দ্য সিক্রেট অব ইনার স্ট্রেংথ: মাই স্টোরি'' ||''The Secret of Inner Strength: My Story'' ||ইংরেজি ||১৯৮৮
+|-
+|[[Terence Stamp|টেরেন্স স্ট্যাম্প]] ||''কামিং অ্যাট্রাকশনস'' ||''Coming Attractions'' ||ইংরেজি ||১৯৮৮
+|-
+|[[Drew Barrymore|ড্রিউ ব্যারিমোর]] ||''লিটল গার্ল লস্ট'' ||''Little Girl Lost'' ||ইংরেজি ||১৯৮৯
+|-
+|[[Charles Grodin|চার্লস গ্রোডিন]] ||''ইট উড বি সো নাইস ইফ ইউ উইআন্ট হিয়ার: মাই জার্নি থ্রু শো বিজনেস'' ||''It Would Be So Nice If You Weren't Here: My Journey Through Show Business'' ||ইংরেজি ||১৯৮৯
+|-
+|[[Patrick Macnee|প্যাট্রিক ম্যাকনি]] ||''ব্লাইন্ড ইন ওয়ান ইয়ার'' ||''Blind in One Ear'' ||ইংরেজি ||১৯৮৯
+|-
+|[[Wayne Newton|ওয়েইন নিউটন]] ||''ওয়ান্স বিফোর আই গো'' ||''Once Before I Go'' ||ইংরেজি ||১৯৮৯
+|-
+|[[Tony Randall|টনি র‍্যান্ডাল]] ||''হুইচ রিমাইন্ডস মি'' ||''Which Reminds Me'' ||ইংরেজি ||১৯৮৯
+|-
+|[[Cornel Wilde|কর্নেল ওয়াইল্ড]] ||''ওয়াইল্ডলাইফ'' ||''Wildelife'' (published posthumously) ||ইংরেজি ||১৯৮৯
+|-
+|[[Macdonald Carey|ম্যাকডোনাল্ড কেরি]] ||''দ্য ডেস অব মাই লাইফ'' ||''The Days of My Life'' ||ইংরেজি ||১৯৯১
+|-
+|[[Michael York|মাইকেল ইয়র্ক]] ||''অ্যাক্সিডেন্টালি অন পারপাস'' ||''Accidentally on Purpose'' ||ইংরেজি ||১৯৯১
+|-
+|[[Katharine Hepburn|ক্যাথরিন হেপবার্ন]] ||''মি: স্টোরিজ অব মাই লাইফ'' ||''Me: Stories of My Life'' ||ইংরেজি ||১৯৯১
+|-
+|[[Patty Duke|প্যাটি ডিউক]] ||''আ ব্রিলিয়ান্ট ম্যাডনেস'' ||''A Brilliant Madness'' ||ইংরেজি ||১৯৯২
+|-
+|[[Peter O'Toole|পিটার ওটুল]] ||''লয়টারিং উইথ ইনটেন্ট: দ্য চাইল্ড'' ||''Loitering with Intent: The Child'' ||ইংরেজি ||১৯৯২
+|-
+|[[Barry Williams (actor)|ব্যারি উইলিয়ামস]] ||''[[Growing Up Brady|গ্রোয়িং আপ ব্র্যাডি]]'' ||''[[Growing Up Brady]]'' ||ইংরেজি ||১৯৯২
+|-
+|[[Richard Fleischer|রিচার্ড ফ্লাইশার]] ||''জাস্ট টেল মি হোয়েন টু ক্রাই'' ||''Just Tell Me When to Cry'' ||ইংরেজি ||১৯৯৩
+|-
+|[[James Earl Jones|জেমস আর্ল জোন্স]] ||''ভয়েসেস অ্যান্ড সাইলেন্সস'' ||''Voices and Silences'' ||ইংরেজি ||১৯৯৩
+|-
+|[[Jeremy Lloyd|জেরেমি লয়েড]] ||''লিসেন ভেরি কেয়ারফুলি, আই শ্যাল সে দিস অনলি ওয়ান্স'' ||''Listen Very Carefully, I Shall Say This Only Once'' ||ইংরেজি ||১৯৯৩
+|-
+|[[Ann-Margret|অ্যান-মার্গরেট]] ||''মাই স্টোরি'' ||''My Story'' ||ইংরেজি ||১৯৯৪
+|-
+|[[David Cassidy|ডেভিড কাসিডি]] ||''কামান, গেট হ্যাপি: ফিয়ার অ্যান্ড লোথিং অন দ্য পারট্রিজ ফ্যামিলি বাস'' ||''C'mon, Get Happy: Fear and Loathing On the Partridge Family Bus'' ||ইংরেজি ||১৯৯৪
+|-
+|[[Buddy Ebsen|বাডি এবসেন]] ||''দ্য আদার সাইড অব অজ'' ||''The Other Side of Oz'' ||ইংরেজি ||১৯৯৪
+|-
+|[[Sheldon Leonard|শেলডন লিওনার্ড]] ||''অ্যান্ড দ্য শো গোজ অন'' ||''And the Show Goes On'' ||ইংরেজি ||১৯৯৪
+|-
+|[[Burgess Meredith|বার্গেস মেরেডিথ]] ||''সো ফার, সো গুড'' ||''So Far, So Good'' ||ইংরেজি ||১৯৯৪
+|-
+|[[Nichelle Nichols|নিশেল নিকোলস]] ||''বিয়ন্ড উহুরা'' ||''Beyond Uhura'' ||ইংরেজি ||১৯৯৪
+|-
+|[[Burt Reynolds|বার্ট রেনল্ডস]] ||''মাই লাইফ, ওরফে স্মোকি অ্যান্ড আই'' ||''My Life, AKA Smokey and I'' ||ইংরেজি ||১৯৯৪
+|-
+|[[George Takei|জর্জ তাকেই]] ||''টু দ্য স্টার্স'' ||''To the Stars'' ||ইংরেজি ||১৯৯৪
+|-
+|[[Adam West|অ্যাডাম ওয়েস্ট]] ||''ব্যাক টু দ্য ব্যাটকেভ'' ||''Back To the Batcave'' ||ইংরেজি ||১৯৯৪
+|-
+|[[Loni Anderson|লোনি অ্যান্ডারসন]] ||''মাই লাইফ ইন হাই হিলস'' ||''My Life in High Heels'' ||ইংরেজি ||১৯৯৫
+|-
+|[[Marlon Brando|মার্লোন ব্রান্ডো]] ||''সংস মাই মাদার টট মি'' ||''Songs My Mother Taught Me'' ||ইংরেজি ||১৯৯৫
+|-
+|[[Kelsey Grammer|কেলসি গ্রামার]] ||''সো ফার...'' ||''So Far...'' ||ইংরেজি ||১৯৯৫
+|-
+|[[Charlton Heston|চার্লটন হেস্টন]] ||''ইন দ্য অ্যারিনা'' ||''In the Arena'' ||ইংরেজি ||১৯৯৫
+|-
+|[[Garry Marshall|গ্যারি মার্শাল]] ||''ওয়েক মি হোয়েন ইটস ফানি'' ||''Wake Me When It's Funny'' ||ইংরেজি ||১৯৯৫
+|-
+|[[Mary Tyler Moore|ম্যারি টাইলার মুর]] ||''আফটার অল: হাউ আই মেড ইট ডেসপাইট এভরিথিং'' ||''After All: How I Made It Despite Everything'' ||ইংরেজি ||১৯৯৫
+|-
+|[[Leonard Nimoy|লেনার্ড নিময়]] ||''[[I Am Spock|আই অ্যাম স্পক]]'' ||''[[I Am Spock]]'' ||ইংরেজি ||১৯৯৫
+|-
+|[[Anthony Quinn|অ্যান্থনি কুইন]] ||''ওয়ান ম্যান ট্যাঙ্গো'' ||''One Man Tango'' ||স্পেনীয় ||১৯৯৫
+|-
+|[[Maureen Stapleton|মরিন স্ট্যাপলটন]] ||''ওয়ান হেল অব আ লাইফ'' ||''One Hell of a Life'' ||ইংরেজি ||১৯৯৫
+|-
+|[[Burt Ward|বার্ট ওয়ার্ড]] ||''বয় ওয়ান্ডার: মাই লাইফ ইন টাইটস'' ||''Boy Wonder: My Life In Tights'' ||ইংরেজি ||১৯৯৫
+|-
+|[[Claire Bloom|ক্লেয়ার ব্লুম]] ||''[[Leaving a Doll's House|লিভিং আ ডলস হাউস]]'' ||''[[Leaving a Doll's House]]'' ||ইংরেজি ||১৯৯৬
+|-
+|[[James Doohan|জেমস ডুহান]] ||''বিম মি আপ, স্কটি'' ||''Beam Me Up, Scotty'' ||ইংরেজি ||১৯৯৬
+|-
+|[[Fran Drescher|ফ্র্যান ড্রেশার]] ||''এন্টার হোয়াইনিং'' ||''Enter Whining'' ||ইংরেজি ||১৯৯৬
+|-
+|[[Alec Guinness|অ্যালেক গিনেস]] ||''মাই নেম এসকেপস মি'' ||''My Name Escapes Me'' ||ইংরেজি ||১৯৯৬
+|-
+|[[Clayton Moore|ক্লেটন মুর]] ||''আই ওয়াজ দ্যাট মাস্কড ম্যান'' ||''I Was That Masked Man'' ||ইংরেজি ||১৯৯৬
+|-
+|[[Leslie Nielsen|লেসলি নিলসেন]] ||''ব্যাড গলফ মাই ওয়ে'' ||''Bad Golf My Way'' ||ইংরেজি ||১৯৯৬
+|-
+|[[Christopher Reeve|ক্রিস্টোফার রিভ]] ||''[[Still Me|স্টিল মি]]'' ||''[[Still Me]]'' ||ইংরেজি ||১৯৯৬
+|-
+|[[Aaron Spelling|অ্যারন স্পেলিং]] ||''আ প্রিমে-টিমে লাইফ'' ||''A Prime-Time Life'' ||ইংরেজি ||১৯৯৬
+|-
+|[[Cathy Lee Crosby|ক্যাথি লি ক্রসবি]] ||''লেট দ্য ম্যাজিক বিগিন'' ||''Let the Magic Begin'' ||ইংরেজি ||১৯৯৭
+|-
+|[[Yaphet Kotto|ইয়াফেত কোত্তো]] ||''দ্য রয়্যালটি: আ স্পিরিচুয়াল অ্যাওয়াকেনিং'' ||''The Royalty: A Spiritual Awakening'' ||ইংরেজি ||১৯৯৭
+|-
+|[[Jerry Mathers|জেরি ম্যাথার্স]] ||''...অ্যান্ড মাইসেলফ অ্যাজ দ্য বিভার'' ||''...And Myself as the Beaver'' ||ইংরেজি ||১৯৯৭
+|-
+|[[Frank Muir|ফ্র্যাঙ্ক মুর]] ||''আ কেনটিশ ল্যাড'' ||''A Kentish Lad'' ||ইংরেজি ||১৯৯৭
+|-
+|[[Kenneth Branagh|কেনেথ ব্র্যানা]] ||''বিগিনিং'' ||''Beginning'' ||ইংরেজি ||১৯৯৮
+|-
+|[[Jackie Chan|জ্যাকি চ্যান]] ||''[[I Am Jackie Chan|মাই লাইফ ইন অ্যাকশন]]'' ||''[[I Am Jackie Chan|My Life in Action]]'' ||ইংরেজি ||১৯৯৮
+|-
+|[[Peter Coyote|পিটার কোয়োট]] ||''স্লিপিং হোয়ার আই ফল'' ||''Sleeping Where I Fall'' ||ইংরেজি ||১৯৯৮
+|-
+|[[Peter Fonda|পিটার ফন্ডা]] ||''ডোন্ট টেল ড্যাড'' ||''Don't Tell Dad'' ||ইংরেজি ||১৯৯৮
+|-
+|[[Walter Koenig|ওয়াল্টার কোয়েনিগ]] ||''ওয়ার্পড ফ্যাক্টর্স: আ নিউরোটিকস গাইড টু দ্য মহাবিশ্ব'' ||''Warped Factors: A Neurotic's Guide to the Universe'' ||ইংরেজি ||১৯৯৮
+|-
+|[[Patrick Macnee|প্যাট্রিক ম্যাকনি]] ||''দ্য অ্যাভেঞ্জার্স অ্যান্ড মি'' ||''The Avengers and Me'' ||ইংরেজি ||১৯৯৮
+|-
+|[[Carroll O'Connor|ক্যারল ও'কনর]] ||''আই থিংক আই'ম আউটা হিয়ার'' ||''I Think I'm Outta Here'' ||ইংরেজি ||১৯৯৮
+|-
+|[[Grace Lee Whitney|গ্রেস লি হুইটনি]] ||''দ্য লঙ্গেস্ট ট্রেক: মাই ট্যুর অব দ্য গ্যালাক্সি'' ||''The Longest Trek: My Tour of the Galaxy'' ||ইংরেজি ||১৯৯৮
+|-
+|[[Ed Wood, Jr.|এড উড জুনিয়র]] ||''হলিউড র‍্যাট রেস'' ||''Hollywood Rat Race'' (published posthumously) ||ইংরেজি ||১৯৯৮
+|-
+|[[Albert R. Broccoli|আলবার্ট আর. ব্রকলি]] ||''হোয়েন দ্য স্নো মেল্টস'' ||''When the Snow Melts'' (''released posthumously'') ||ইংরেজি ||১৯৯৯
+|-
+|[[Alec Guinness|অ্যালেক গিনেস]] ||''আ পজিটিভলি ফাইনাল অ্যাপিয়ারেন্স'' ||''A Positively Final Appearance'' ||ইংরেজি ||১৯৯৯
+|-
+|[[Gloria Stuart|গ্লোরিয়া স্টুয়ার্ট]] ||''আই জাস্ট কিপ হোপিং'' ||''I Just Keep Hoping'' ||ইংরেজি ||১৯৯৯
+|-
+|[[Esther Williams|এস্থার উইলিয়ামস]] ||''মিলয়ান্ডোলার মারমেইড'' ||''Million-Dollar Mermaid'' ||ইংরেজি ||১৯৯৯
+|-
+|[[Paul Daniels|পল ড্যানিয়েলস]] ||''আন্ডার নো ইল্যুশন'' ||''Under No Illusion'' ||ইংরেজি ||২০০০
+|-
+|[[Michael York|মাইকেল ইয়র্ক]] ||''হাউ আ শেক্সপীয়রীয় প্রিপেয়ার্স'' ||''How a Shakespearean Prepares'' ||ইংরেজি ||২০০০
+|-
+|[[Linda Blair|লিন্ডা ব্লেয়ার]] ||''গোয়িং ভেগান'' ||''Going Vegan'' ||ইংরেজি ||২০০১
+|-
+|[[Larry Hagman|ল্যারি হাগমেন]] ||''হ্যালো ডার্লিন': টল – অ্যান্ড অ্যাবসোলিউটলি ট্রু – টেলস ফ্রম মাই লাইফ'' ||''Hello Darlin': Tall – and Absolutely True – Tales From My Life'' ||ইংরেজি ||২০০১
+|-
+|[[Anne Heche|অ্যান হেচ]] ||''কল মি ক্রেজি'' ||''Call Me Crazy'' ||ইংরেজি ||২০০১
+|-
+|[[Sidney Poitier|সিডনি পোয়াটিয়ে]] ||''[[The Measure of a Man: A Spiritual Autobiography|দ্য মেজার অব আ ম্যান: আ স্পিরিচুয়াল অটোবায়োগ্রাফি]]'' ||''[[The Measure of a Man: A Spiritual Autobiography]]'' ||ইংরেজি ||২০০১
+|-
+|[[Lisa Whelchel|লিসা হোয়েলচেল]] ||''লাইফ লেসনস ফ্রম হেভেনলি ফাদার, ওরফে আই'ভ টেকেন দ্য গুড, আই'ভ টেকেন দ্য ব্যাড...'' ||''Life Lessons From Heavenly Father, AKA I've Taken the Good, I've Taken the Bad...'' ||ইংরেজি ||২০০১
+|-
+|[[Michael York|মাইকেল ইয়র্ক]] ||''ডিসপ্যাচেস ফ্রম আর্মাগেডন'' ||''Dispatches From Armageddon'' ||ইংরেজি ||২০০১
+|-
+|[[Michael J. Fox|মাইকেল জে. ফক্স]] ||''লাকি ম্যান'' ||''Lucky Man'' ||ইংরেজি ||২০০২
+|-
+|[[Richard Kiel|রিচার্ড কিল]] ||''মেকিং ইট বিগ ইন দ্য মুভিস'' ||''Making It Big In the Movies'' ||ইংরেজি ||২০০২
+|-
+|[[Richard Chamberlain|রিচার্ড চেম্বারলিন]] ||''শ্যাটার্ড লাভ'' ||''Shattered Love'' ||ইংরেজি ||২০০৩
+|-
+|[[Tracey Gold|ট্রেসি গোল্ড]] ||''রুম টু গ্রো: অ্যান অ্যাপেটাইট ফর লাইফ'' ||''Room to Grow: an Appetite for Life'' ||ইংরেজি ||২০০৩
+|-
+|[[Traci Lords|ট্রেসি লর্ডস]] ||''[[Traci Lords: Underneath It All|আন্ডারনিথ ইট অল]]'' ||''[[Traci Lords: Underneath It All|Underneath It All]]'' ||ইংরেজি ||২০০৩
+|-
+|[[Caroll Spinney|ক্যারল স্পিনি]] ||''লেসনস ফ্রম আ লাইফ ইন ফেদার্স'' ||''Lessons From a Life in Feathers'' ||ইংরেজি ||২০০৩
+|-
+|[[Gregory Walcott|গ্রেগরি ওয়ালকট]] ||''হলিউড অ্যাডভেঞ্চার্স'' ||''Hollywood Adventures'' ||ইংরেজি ||২০০৩
+|-
+|[[Sean Astin|শন অ্যাস্টিন]] ||''দেয়ার অ্যান্ড ব্যাক অ্যাগেইন: অ্যান অ্যাক্টর্স টেল'' ||''There and Back Again: an Actor's Tale'' ||ইংরেজি ||২০০৪
+|-
+|[[Ben Gazzara|বেন গাজারা]] ||''ইন দ্য মোমেন্ট'' ||''In the Moment'' ||ইংরেজি ||২০০৪
+|-
+|[[Tatum O'Neal|ট্যাটুম ওনিল]] ||''আ পেপার লাইফ'' ||''A Paper Life'' ||ইংরেজি ||২০০৪
+|-
+|[[Alison Sweeney|অ্যালিসন সুইনি]] ||''অল দ্য ডেস অব মাই লাইফ (সো ফার), ওরফে সামি-ি-াম'' ||''All the Days of My Life (So Far), AKA Sami-I-Am'' ||ইংরেজি ||২০০৪
+|-
+|[[Wil Wheaton|উইল হুইটন]] ||''[[Dancing Barefoot (book)|ড্যান্সিং বেয়ারফুট]]'' ||''[[Dancing Barefoot (book)|Dancing Barefoot]]'' ||ইংরেজি ||২০০৪
+|-
+|[[Dick York|ডিক ইয়র্ক]] ||''[[The Seesaw Girl and Me|দ্য সিস গার্ল অ্যান্ড মে|থে সিস গার্ল & মি]]'' ||''[[The Seesaw Girl and Me|The Seesaw Girl & Me]]'' (published posthumously) ||ইংরেজি ||২০০৪
+|-
+|[[Alan Alda|অ্যালান আলডা]] ||''নেভার হ্যাভ ইউর ডগ স্টাফড অ্যান্ড আদার থিংস আই'ভ লার্নড'' ||''Never Have Your Dog Stuffed And Other Things I've Learned'' ||ইংরেজি ||২০০৫
+|-
+|[[Dirk Benedict|ডার্ক বেনেডিক্ট]] ||''কনফেশনস অব আ কামিকাজে কাউবয়'' ||''Confessions of a Kamikaze Cowboy'' ||ইংরেজি ||২০০৫
+|-
+|[[Jane Fonda|জেন ফন্ডা]] ||''মাই লাইফ সো ফার, ওরফে ওয়ার্কিং ইট আউট'' ||''My Life So Far, AKA Working It Out'' ||ইংরেজি ||২০০৫
+|-
+|[[Lauren Bacall|লরেন বাকল]] ||''বাই মাইসেলফ অ্যান্ড দেন সাম'' ||''By Myself and Then Some'' ||ইংরেজি ||২০০৫
+|-
+|[[Tab Hunter|ট্যাব হান্টার]] ||''থ কনফিডেনশিয়াল: দ্য মেকিং অব আ মুভি স্টার'' ||''TH Confidential: the Making of a Movie Star'' ||ইংরেজি ||২০০৫
+|-
+|[[Brooke Shields|ব্রুক শিল্ডস]] ||''ডাউন কেম দ্য রেইন: মাই জার্নি থ্রু পোস্টপার্টাম ডিপ্রেশন'' ||''Down Came the Rain: My Journey Through Postpartum Depression'' ||ইংরেজি ||২০০৫
+|-
+|[[Eli Wallach|এলি ওয়ালাখ]] ||''দ্য গুড, দ্য ব্যাড, অ্যান্ড মি'' ||''The Good, the Bad, and Me'' ||ইংরেজি ||২০০৫
+|-
+|[[Michael York|মাইকেল ইয়র্ক]] ||''আর মাই ব্লিঙ্কার্স শোয়িং? ফিলম-মাকিনগ & আদার অ্যাডভেঞ্চার্স ইন দ্য নিউ রাশিয়া'' ||''Are My Blinkers Showing? Film-making & Other Adventures In the New Russia'' ||ইংরেজি ||২০০৫
+|-
+|[[Nena|নেনা]] ||''"ডু ইউ ওয়ান্ট টু গো উইথ মি?"'' ||''"Do You Want to Go With Me?"'' (''Willst du mit mir gehn?'') ||জার্মান ||২০০৫
+|-
+|[[Adrienne Barbeau|অ্যাড্রিয়েন বারবো]] ||''দেয়ার আর ওয়ার্স থিংস আই কুড ডু'' ||''There Are Worse Things I Could Do'' ||ইংরেজি ||২০০৬
+|-
+|[[Ellen Burstyn|এলেন বার্স্টিন]] ||''লেসনস ইন বিকামিং মাইসেলফ'' ||''Lessons In Becoming Myself'' ||ইংরেজি ||২০০৬
+|-
+|[[Carmen Electra|কারমেন ইলেকট্রা]] ||''হাউ টু বি সেক্সি'' ||''How to Be Sexy'' ||ইংরেজি ||২০০৬
+|-
+|[[Peter Falk|পিটার ফক]] ||''জাস্ট ওয়ান মোর থিং'' ||''Just One More Thing'' ||ইংরেজি ||২০০৬
+|-
+|[[David Hasselhoff|ডেভিড হ্যাসেলহফ]] ||''ডোন্ট হ্যাসেল দ্য হফ'' ||''Don't Hassel the Hoff'' ||ইংরেজি ||২০০৬
+|-
+|[[Denzel Washington|ডেনজেল ওয়াশিংটন]] ||''আ হ্যান্ড টু গাইড মি'' ||''A Hand to Guide Me'' ||ইংরেজি ||২০০৬
+|-
+|[[Willie Aames|উইলি এমস]] ||''গ্রেস ইজ এনাফ'' ||''Grace Is Enough'' ||ইংরেজি ||২০০৭
+|-
+|[[David Cassidy|ডেভিড কাসিডি]] ||''কুড ইট বি ফরএভার?'' ||''Could It Be Forever?'' ||ইংরেজি ||২০০৭
+|-
+|[[Bruce Dern|ব্রুস ডার্ন]] ||''থিংস আই'ভ সেড, বাট প্রবাবলি শুডান্ট হ্যাভ: অ্যান আনরিপেন্ট্যান্ট মেমোয়ার'' ||''Things I've Said, But Probably Shouldn't Have: an Unrepentant Memoir'' ||ইংরেজি ||২০০৭
+|-
+|[[Kirk Douglas|কার্ক ডগলাস]] ||''লেটস ফেস ইট'' ||''Let's Face It'' ||ইংরেজি ||২০০৭
+|-
+|[[Rutger Hauer|রুটগার হাউয়ার]] ||''অল দোজ মোমেন্টস'' ||''All Those Moments'' ||ওলন্দাজ ||২০০৭
+|-
+|[[Norman Jewison|নরম্যান জিউইসন]] ||''দিস টেরিবল বিজনেস হ্যাস বিন গুড টু মি'' ||''This Terrible Business Has Been Good To Me'' ||ইংরেজি ||২০০৭
+|-
+|[[Gabe Kaplan|গেব কাপলান]] ||''কটারস ব্যাক'' ||''Kotter's Back'' ||ইংরেজি ||২০০৭
+|-
+|[[Dave Madden|ডেভ ম্যাডেন]] ||''রুবেন অন রাই'' ||''Reuben on Wry'' ||ইংরেজি ||২০০৭
+|-
+|[[Alan Young|অ্যালান ইয়ং]] ||''মি. এড & মি & মোর'' ||''Mr. Ed & Me & More'' ||ইংরেজি ||২০০৭
+|-
+|[[Ed Begley, Jr.|এড বেগলি জুনিয়র]] ||''লিভিং লাইক এড: আ গাইড টু দ্য একো-ফ্রিয়েনডলয় লাইফ'' ||''Living Like Ed: A Guide to the Eco-Friendly Life'' ||ইংরেজি ||২০০৮
+|-
+|[[Kirk Cameron|কার্ক ক্যামেরন]] ||''স্টিল গ্রোয়িং'' ||''Still Growing'' ||ইংরেজি ||২০০৮
+|-
+|[[Sean Connery|শন কনারি]] ||''বিয়িং আ স্কট'' ||''Being a Scot'' ||ইংরেজি ||২০০৮
+|-
+|[[Tony Curtis|টনি কার্টিস]] ||''আমেরিকান প্রিন্স'' ||''American Prince'' ||হাঙ্গেরীয় ||২০০৮
+|-
+|[[Mark Goddard|মার্ক গডার্ড]] ||''টু স্পেস অ্যান্ড ব্যাক'' ||''To Space and Back'' ||ইংরেজি ||২০০৮
+|-
+|[[Gary David Goldberg|গ্যারি ডেভিড গোল্ডবার্গ]] ||''সিট, উবু, সিট: হাউ আই ওয়েন্ট ফ্রম ব্রুকলিন টু হলিউড উইথ দ্য সেম ওম্যান, দ্য সেম ডগ, অ্যান্ড আ লট লেস হেয়ার'' ||''Sit, Ubu, Sit: How I Went from Brooklyn to Hollywood With the Same Woman, the Same Dog, and a Lot Less Hair'' ||ইংরেজি ||২০০৮
+|-
+|[[George Hamilton (actor)|জর্জ হ্যামিল্টন]] ||''ডোন্ট মাইন্ড ইফ আই ডু'' ||''Don't Mind If I Do'' ||ইংরেজি ||২০০৮
+|-
+|[[Chelsea Handler|চেলসি হ্যান্ডলার]] ||''[[Are You There, Vodka? It's Me, Chelsea|আর ইউ দেয়ার, ভোদকা? ইটস মি, চেলসি]]'' ||''[[Are You There, Vodka? It's Me, Chelsea]]'' ||ইংরেজি ||২০০৮
+|-
+|[[Maureen McCormick|মরিন ম্যাককরমিক]] ||''হিয়ারস দ্য স্টোরি: সারভাইভিং মার্শা ব্র্যাডি অ্যান্ড ফাইন্ডিং মাই ট্রু ভয়েস'' ||''Here's the Story: Surviving Marcia Brady and Finding My True Voice'' ||ইংরেজি ||২০০৮
+|-
+|[[Tori Spelling|টোরি স্পেলিং]] ||''[[Stori Telling|স্টোরি টেলিং]]'' ||''[[Stori Telling]]'' ||ইংরেজি ||২০০৮
+|-
+|[[Robert Wagner|রবার্ট ওয়াগনার]] ||''পিসেস অব মাই হার্ট'' ||''Pieces of My Heart'' ||ইংরেজি ||২০০৮
+|-
+|[[Julie Walters|জুলি ওয়াল্টার্স]] ||''দ্যাটস অ্যানাদার স্টোরি'' ||''That's Another Story'' ||ইংরেজি ||২০০৮
+|-
+|[[Ernest Borgnine|আর্নেস্ট বোর্গনাইন]] ||''আর্নি: দ্য অটোবায়োগ্রাফি'' ||''Ernie: the Autobiography'' ||ইংরেজি ||২০০৯
+|-
+|[[Dustin Diamond|ডাস্টিন ডায়মন্ড]] ||''বিহাইন্ড দ্য বেল'' ||''Behind the Bell'' ||ইংরেজি ||২০০৯
+|-
+|[[Robert Englund|রবার্ট ইংলুন্ড]] ||''হলিউড মনস্টার'' ||''Hollywood Monster'' ||ইংরেজি ||২০০৯
+|-
+|[[Michael J. Fox|মাইকেল জে. ফক্স]] ||''অলওয়েজ লুকিং আপ'' ||''Always Looking Up'' ||ইংরেজি ||২০০৯
+|-
+|[[Alyssa Milano|অ্যালিসা মিলানো]] ||''সেফ অ্যাট হোম'' ||''Safe at Home'' ||ইংরেজি ||২০০৯
+|-
+|[[Roger Moore|রজার মুর]] ||''মাই ওয়ার্ড ইজ মাই বন্ড'' ||''My Word Is My Bond'' ||ইংরেজি ||২০০৯
+|-
+|[[Mackenzie Phillips|ম্যাকেঞ্জি ফিলিপস]] ||''হাই অন অ্যারাইভাল'' ||''High on Arrival'' ||ইংরেজি ||২০০৯
+|-
+|[[Patrick Swayze|প্যাট্রিক সোয়াইজে]] ||''দ্য টাইম অব মাই লাইফ'' ||''The Time of My Life'' ||ইংরেজি ||২০০৯
+|-
+|[[Dick Van Patten|ডিক ভ্যান প্যাটেন]] ||''এইটি ইজ নট এনাফ: ওয়ান অ্যাক্টর্স জার্নি থ্রু দ্য আমেরিকান এন্টারটেইনমেন্ট ইন্ডাস্ট্রি'' ||''Eighty Is Not Enough: One Actor's Journey Through the American Entertainment Industry'' ||ইংরেজি ||২০০৯
+|-
+|[[Melissa Sue Anderson|মেলিসা সু অ্যান্ডারসন]] ||''দ্য ওয়ে আই সি ইট: আ লুক ব্যাক অ্যাট মাই লাইফ'' ||''The Way I See It: a Look Back at My Life'' ||ইংরেজি ||২০১০
+|-
+|[[Peter Bowles|পিটার বোলস]] ||''আস্ক মি ইফ আই'ম হ্যাপি'' ||''Ask Me If I'm Happy'' ||ইংরেজি ||২০১০
+|-
+|[[Michael Caine|মাইকেল কেইন]] ||''হোয়াটস ইট অল অ্যাবাউট; দ্য এলিফ্যান্ট টু হলিউড'' ||''What's It All About; The Elephant to Hollywood'' ||ইংরেজি ||২০১০
+|-
+|[[Judi Dench|জুডি ডেঞ্চ]] ||''অ্যান্ড, ফারদারমোর...'' ||''And, Furthermore...'' ||ইংরেজি ||২০১০
+|-
+|[[Shannen Doherty|শ্যানন ডোহার্টি]] ||''ব্যাডঅ্যাস: আ হারড-িরনেড গাইড টু লিডিং ইউর লাইফ উইথ স্টাইল অ্যান্ড (দ্য রাইট) অ্যাটিটিউড'' ||''Badass: A Hard-Earned Guide to Leading Your Life with Style and (the Right) Attitude'' ||ইংরেজি ||২০১০
+|-
+|[[Michael J. Fox|মাইকেল জে. ফক্স]] ||''আ ফানি থিং হ্যাপেন্ড অন দ্য ওয়ে টু দ্য ফিউচার'' ||''A Funny Thing Happened On the Way To the Future'' ||ইংরেজি ||২০১০
+|-
+|[[Louis Gossett Jr.|লুইস গসেট জুনিয়র]] ||''অ্যান অ্যাক্টর অ্যান্ড আ জেন্টলম্যান'' ||''An Actor and a Gentleman'' ||ইংরেজি ||২০১০
+|-
+|[[Harry Hamlin|হ্যারি হ্যামলিন]] ||''ফুল ফ্রন্টাল নুডিটি'' ||''Full Frontal Nudity'' ||ইংরেজি ||২০১০
+|-
+|[[Molly Ringwald|মলি রিংওয়াল্ড]] ||''গেটিং দ্য প্রিটি ব্যাক'' ||''Getting the Pretty Back'' ||ইংরেজি ||২০১০
+|-
+|[[Tori Spelling|টোরি স্পেলিং]] ||''আনচার্টেড তেরিতোরি'' ||''Uncharted Territori'' ||ইংরেজি ||২০১০
+|-
+|[[Jodie Sweetin|জোডি সুইটিন]] ||''আনসুইটেন্ড'' ||''UnSweetined'' ||ইংরেজি ||২০১০
+|-
+|[[Jerry Weintraub|জেরি ওয়েইনট্রব]] ||''হোয়েন আই স্টপ টকিং, য়ুল নো আই'ম ডেড'' ||''When I Stop Talking, You'll Know I'm Dead'' ||ইংরেজি ||২০১০
+|-
+|[[Meredith Baxter|মেরেডিথ ব্যাক্সটার]] ||''আনটাইড'' ||''Untied'' ||ইংরেজি ||২০১১
+|-
+|[[Julie Dawn Cole|জুলি ডন কোল]] ||''আই ওয়ান্ট ইট নাউ!'' ||''I Want It NOW!'' ||ইংরেজি ||২০১১
+|-
+|[[Barbara Eden|বারবারা ইডেন]] ||''জিনি আউট অব দ্য বটল'' ||''Jeannie Out of the Bottle'' ||ইংরেজি ||২০১১
+|-
+|[[James Garner|জেমস গার্নার]] ||''দ্য গার্নার ফাইলস'' ||''The Garner Files'' ||ইংরেজি ||২০১১
+|-
+|[[Rob Lowe|রব লো]] ||''স্টোরিজ আই অনলি টেল মাই ফ্রেন্ডস'' ||''Stories I Only Tell My Friends'' ||ইংরেজি ||২০১১
+|-
+|[[Hal Needham|হ্যাল নিধাম]] ||''স্টান্টম্যান: মাই ডিথ-ডেফয়িনগ হলিউড লাইফ'' ||''Stuntman: My Death-Defying Hollywood Life'' ||ইংরেজি ||২০১১
+|-
+|[[Julie Newmar|জুলি নিউমার]] ||''দ্য কনশাস ক্যাটওম্যান এক্সপ্লেইনস লাইফ অন আর্থ'' ||''The Conscious Catwoman Explains Life On Earth'' ||ইংরেজি ||২০১১
+|-
+|[[David Prowse|ডেভিড প্রাউজ]] ||''স্ট্রেইট ফ্রম দ্য ফোর্সস মাউথ'' ||''Straight From the Force's Mouth'' ||ইংরেজি ||২০১১
+|-
+|[[Heather Donahue|হেদার ডোনাহু]] ||''[[The Blair Witch Project|দ্য ব্লেয়ার উইচ প্রজেক্ট]]'' ||''[[The Blair Witch Project]]'' ||ইংরেজি ||২০১২
+|-
+|[[Frank Langella|ফ্র্যাঙ্ক ল্যানজেলা]] ||''ড্রপড নেমস'' ||''Dropped Names'' ||ইংরেজি ||২০১২
+|-
+|[[Julie London|জুলি লন্ডন]] ||''ওয়ান্স আই ওয়াজ আ ডেব্যুট্যান্ট'' ||''Once I Was a Debutante'' (published posthumously) ||ইংরেজি ||২০১২
+|-
+|[[R. Lee Ermey|আর. লি আরমি]] ||''গানিস রুলস: হাউ টু গেট স্কয়ার্ড অ্যাওয়ে লাইক আ মেরিন'' ||''Gunny's Rules: How To Get Squared Away Like a Marine'' ||ইংরেজি ||২০১৩
+|-
+|[[Corey Feldman|কোরি ফেল্ডম্যান]] ||''কোরি-োগ্রাফয়'' ||''Corey-ography'' ||ইংরেজি ||২০১৩
+|-
+|[[Gunnar Hansen|গুনার হ্যানসেন]] ||''চেইনস কনফিডেনশিয়াল: মেকিং দ্য ওয়ার্ল্ডস মোস্ট নোটোরিয়াস হরর মুভি'' ||''Chainsaw Confidential: Making the World's Most Notorious Horror Movie'' ||ইংরেজি ||২০১৩
+|-
+|[[Melissa Joan Hart|মেলিসা জোয়ান হার্ট]] ||''মেলিসা এক্সপ্লেইনস ইট অল: টেলস ফ্রম মাই অ্যাবনরমালি নরমাল লাইফ'' ||''Melissa Explains It All: Tales from My Abnormally Normal Life'' ||ইংরেজি ||২০১৩
+|-
+|[[George Lazenby|জর্জ লেজনবি]] ||''দিস ইজ হোয়াট হ্যাপেন্ড টু দ্য আদার ফেলো'' ||''This Is What Happened To the Other Fellow'' ||ইংরেজি ||২০১৩
+|-
+|[[David Suchet|ডেভিড সুশে]] ||''পোয়ারো অ্যান্ড মি'' ||''Poirot and Me'' ||ইংরেজি ||২০১৩
+|-
+|[[Bill Allen (actor)|বিল অ্যালেন]] ||''মাই র‍্যাড ক্যারিয়ার'' ||''My RAD Career'' ||ইংরেজি ||২০১৪
+|-
+|[[Cary Elwes|কেরি এলওয়েস]] ||''অ্যাজ ইউ উইশ'' ||''As You Wish'' ||ইংরেজি ||২০১৪
+|-
+|[[Danielle Fishel|ড্যানিয়েল ফিশেল]] ||''নরমালি, দিস উড বি কজ ফর কনসার্ন: টেলস অব ক্যালামিটি অ্যান্ড আনরিলেন্টিং অকওয়ার্ডনেস'' ||''Normally, This Would Be Cause For Concern: Tales of Calamity and Unrelenting Awkwardness'' ||ইংরেজি ||২০১৪
+|-
+|[[Jennie Garth|জেনি গার্থ]] ||''ডিপ থটস ফ্রম আ হলিউড ব্লন্ড'' ||''Deep Thoughts From a Hollywood Blonde'' ||ইংরেজি ||২০১৪
+|-
+|[[Anjelica Huston|অ্যাঞ্জেলিকা হিউস্টন]] ||''ওয়াচ মি'' ||''Watch Me'' ||ইংরেজি ||২০১৪
+|-
+|[[Ron Perlman|রন পার্লম্যান]] ||''ইজি স্ট্রিট, দ্য হার্ড ওয়ে'' ||''Easy Street, the Hard Way'' ||ইংরেজি ||২০১৪
+|-
+|[[Brooke Shields|ব্রুক শিল্ডস]] ||''দেয়ার ওয়াজ আ লিটল গার্ল: দ্য রিয়েল স্টোরি অব মাই মাদার অ্যান্ড মি'' ||''There Was a Little Girl: The Real Story of My Mother and Me'' ||ইংরেজি ||২০১৪
+|-
+|[[Martin Short|মার্টিন শর্ট]] ||''আই মাস্ট সে: মাই লাইফ অ্যাজ আ হাম্বল লেজেন্ড'' ||''I Must Say: My Life As a Humble Legend'' ||ইংরেজি ||২০১৪
+|-
+|[[Kathy Coleman|ক্যাথি কোলম্যান]] ||''লস্ট গার্ল'' ||''Lost Girl'' ||ইংরেজি ||২০১৫
+|-
+|[[Mariel Hemingway|মারিয়েল হেমিংওয়ে]] ||''আউট কেম দ্য সান'' ||''Out Came the Sun'' ||ইংরেজি ||২০১৫
+|-
+|[[Charlotte Rae|শার্লট রে]] ||''দ্য ফ্যাক্টস অব মাই লাইফ, ওরফে আই হ্যাভান্ট চেঞ্জড; অনলি মাই স্ট্রোকস আর ডিফফ'রেনট'' ||''The Facts Of My Life, AKA I Haven't Changed; Only My Strokes Are Diff'rent'' ||ইংরেজি ||২০১৫
+|-
+|[[Burt Reynolds|বার্ট রেনল্ডস]] ||''...বাট এনাফ অ্যাবাউট মি'' ||''...But Enough About Me'' ||ইংরেজি ||২০১৫
+|-
+|[[Peter Davison|পিটার ডেভিসন]] ||''ইজ দেয়ার লাইফ আউটসাইড দ্য বক্স?'' ||''Is There Life Outside the Box?'' ||ইংরেজি ||২০১৬
+|-
+|[[Peter Engel|পিটার এঙ্গেল]] ||''আই ওয়াজ সেভড বাই দ্য বেল: স্টোরিজ অব লাইফ, লাভ, অ্যান্ড ড্রিমস দ্যাট ইন্ডিড কেম ট্রু'' ||''I Was Saved by the Bell: Stories of Life, Love, and Dreams that Indeed Came True'' ||ইংরেজি ||২০১৬
+|-
+|[[Joel Grey|জোয়েল গ্রে]] ||''মাস্টার অব সেরিমনিজ'' ||''Master of Ceremonies'' ||ইংরেজি ||২০১৬
+|-
+|[[Kathy Coleman|ক্যাথি কোলম্যান]] ||''রান, হলি! রান!'' ||''Run, Holly! Run!'' ||ইংরেজি ||২০১৭
+|-
+|[[William Daniels|উইলিয়াম ড্যানিয়েলস]] ||''দেয়ার আই গো অ্যাগেইন'' ||''There I Go Again'' ||ইংরেজি ||২০১৭
+|-
+|[[Anna Faris|আনা ফারিস]] ||''আনকোয়ালিফাইড'' ||''Unqualified'' ||ইংরেজি ||২০১৭
+|-
+|[[Gary Busey|গ্যারি বিউসি]] ||''বুসি-িস্মস'' ||''Busey-isms'' ||ইংরেজি ||২০১৮
+|-
+|[[Bernard Cribbins|বার্নার্ড ক্রিবিন্স]] ||''বার্নার্ড হু: ৭৫ ইয়ার্স অব ডুইং অ্যাবসোলিউটলি এভরিথিং'' ||''Bernard Who: 75 Years of Doing Absolutely Everything'' ||ইংরেজি ||২০১৮
+|-
+|[[Olivia Hussey|অলিভিয়া হাসি]] ||''দ্য গার্ল অন দ্য ব্যালকনি'' ||''The Girl On the Balcony'' ||ইংরেজি ||২০১৮
+|-
+|[[Patrick Kilpatrick|প্যাট্রিক কিলপ্যাট্রিক]] ||''ডাইং ফর আ লিভিং: সিনস অ্যান্ড কনফেশনস অব আ হলিউড ভিললাইন-টুরনেড-লিবেরটিনে প্যাট্রিয়ট'' ||''Dying For a Living: Sins and Confessions of a Hollywood Villain-Turned-Libertine Patriot'' ||ইংরেজি ||২০১৮
+|-
+|[[Nick Nolte|নিক নল্টে]] ||''রেবেল: মাই লাইফ আউটসাইড দ্য লাইনস'' ||''Rebel: My Life Outside the Lines'' ||ইংরেজি ||২০১৮
+|-
+|মাথিয়াস হিউস ||''শার্টলেস ইন হলিউড'' ||''Shirtless in Hollywood'' ||ইংরেজি ||২০১৯
+|-
+|[[Val Kilmer|ভ্যাল কিলমার]] ||''আই'ম ইউর হাকলবেরি'' ||''I'm Your Huckleberry'' ||ইংরেজি ||২০২০
+|-
+|[[Gabriel Byrne|গ্যাব্রিয়েল বার্ন]] ||''ওয়াকিং উইথ ঘোস্টস'' ||''Walking With Ghosts'' ||ইংরেজি ||২০২১
+|-
+|[[Hayley Mills|হেইলি মিলস]] ||''ফরএভার ইয়াং'' ||''Forever Young'' ||ইংরেজি ||২০২১
+|-
+|[[Jamie Lynn Spears|জেমি লিন স্পিয়ার্স]] ||''থিংস আই শুড হ্যাভ সেড'' ||''Things I Should Have Said'' ||ইংরেজি ||২০২১
+|-
+|[[Sharon Stone|শ্যারন স্টোন]] ||''দ্য বিউটি অব লিভিং টুয়াইস'' ||''The Beauty of Living Twice'' ||ইংরেজি ||২০২১
+|-
+|[[Mena Suvari|মেনা সুভারি]] ||''দ্য গ্রেট পিস'' ||''The Great Peace'' ||ইংরেজি ||২০২১
+|-
+|[[Don Bluth|ডন ব্লুথ]] ||''সামহোয়ার আউট দেয়ার: মাই অ্যানিমেটেড লাইফ'' ||''Somewhere Out There: My Animated Life'' ||ইংরেজি ||২০২২
+|-
+|[[Geena Davis|জিনা ডেভিস]] ||''ডাইং অব পোলাইটনেস'' ||''Dying of Politeness'' ||ইংরেজি ||২০২২
+|-
+|[[Ralph Macchio|রাল্ফ ম্যাকিও]] ||''ওয়াক্সিং অন'' ||''Waxing On'' ||ইংরেজি ||২০২২
+|-
+|[[Matthew Perry|ম্যাথু পেরি]] ||''ফ্রেন্ডস, লাভার্স, অ্যান্ড দ্য বিগ টেরিবল থিং'' ||''Friends, Lovers, and the Big Terrible Thing'' ||ইংরেজি ||২০২২
+|-
+|[[Kelly Ripa|কেলি রিপা]] ||''লাইভ ওয়্যার'' ||''Live Wire'' ||ইংরেজি ||২০২২
+|-
+|[[Bill Mumy|বিল মুমি]] ||''দ্য ফুল মুমি, ওরফে ইটস বিন আ রিয়েল গুড লাইফ'' ||''The Full Mumy, AKA It's Been a Real Good Life'' ||ইংরেজি ||২০২৩
+|-
+|[[Sam Neill|স্যাম নিল]] ||''ডিড আই এভার টেল ইউ দিস...?'' ||''Did I Ever Tell You This...?'' ||ইংরেজি ||২০২৩
+|-
+|[[John Stamos|জন স্ট্যামোস]] ||''ইফ ইউ উড হ্যাভ টোল্ড মি...'' ||''If You Would Have Told Me...'' ||ইংরেজি ||২০২৩
+|-
+|[[Patrick Stewart|প্যাট্রিক স্টুয়ার্ট]] ||''মেকিং ইট সো'' ||''Making It So'' ||ইংরেজি ||২০২৩
+|-
+|[[Josh Brolin|জশ ব্রোলিন]] ||''ফ্রম আন্ডার দ্য ট্রাক'' ||''From Under the Truck'' ||ইংরেজি ||২০২৪
+|-
+|[[Tom Selleck|টম সেলেক]] ||''ইউ নেভার নো'' ||''You Never Know'' ||ইংরেজি ||২০২৪
+|-
+|[[Donald Sutherland|ডোনাল্ড সাদারল্যান্ড]] ||''মেড আপ, বাট স্টিল ট্রু'' ||''Made Up, But Still True'' (published posthumously) ||ইংরেজি ||২০২৪
+|-
+|[[Billy Dee Williams|বিলি ডি উইলিয়ামস]] ||''হোয়াট হ্যাভ উই হিয়ার?'' ||''What Have We Here?'' ||ইংরেজি ||২০২৪
+|-
+|[[Edward Zwick|এডওয়ার্ড জুইক]] ||''হিটস, ফ্লপস, অ্যান্ড আদার ইল্যুশনস: মাই ফোর্টিসামথিং ইয়ার্স ইন হলিউড'' ||''Hits, Flops, and Other Illusions: My Fortysomething Years in Hollywood'' ||ইংরেজি ||২০২৪
+|-
+|[[Tim Curry|টিম কারি]] ||''ভ্যাগাবন্ড'' ||''Vagabond'' ||ইংরেজি ||২০২৫
+|-
+|[[Priscilla Presley|প্রিসিলা প্রেসলি]] ||''সফটলি, অ্যাজ আই লিভ ইউ: লাইফ আফটার এলভিস'' ||''Softly, as I Leave You: Life After Elvis'' ||ইংরেজি ||২০২৫
+|-
+|[[Christina Applegate|ক্রিস্টিনা অ্যাপলগেট]] ||''ইউ উইথ দ্য স্যাড আইজ'' ||''You With the Sad Eyes'' ||ইংরেজি ||২০২৬
+|-
+|[[Valerie Bertinelli|ভ্যালেরি বার্টিনেলি]] ||''গেটিং নেকেড'' ||''Getting Naked'' ||ইংরেজি ||২০২৬
+|-
+|[[Judi Dench|জুডি ডেঞ্চ]] ||''ইজ ইট টু লেট টু মেক আ রান ফর ইট?'' ||''Is It Too Late to Make a Run for It?'' ||ইংরেজি ||২০২৬
+|-
+|[[Jennie Garth|জেনি গার্থ]] ||''আই চুজ মি'' ||''I Choose Me'' ||ইংরেজি ||২০২৬
+|-
+|[[Dustin Hoffman|ডাস্টিন হফম্যান]] ||''লুক অ্যাট মি'' ||''Look at Me'' ||ইংরেজি ||২০২৬
+|-
+|[[Christopher Lloyd|ক্রিস্টোফার লয়েড]] ||''ইন মাই ওন টাইম'' ||''In My Own Time'' ||ইংরেজি ||২০২৬
+|-
+|[[Dolph Lundgren|ডলফ লুন্ডগ্রেন]] ||''ফাইটস ওয়ার্থ ফাইটিং'' ||''Fights Worth Fighting'' ||সুইডীয় ||২০২৬
+|-
+|[[Kyle MacLachlan|কাইল ম্যাকলাকলান]] ||''ফিকশনাল সেলভস'' ||''Fictional Selves'' ||ইংরেজি ||২০২৬
+|-
+|[[Hayden Panettiere|হেইডেন প্যানেটিয়ার]] ||''দিস ইজ মি: আ রেকনিং'' ||''This Is Me: a Reckoning'' ||ইংরেজি ||২০২৬
+|-
+|[[Eve Plumb|ইভ প্লাম্ব]] ||''হ্যাপিনেস ইনক্লুডেড: জ্যান ব্র্যাডি & বিয়ন্ড'' ||''Happiness Included: Jan Brady & Beyond'' ||ইংরেজি ||২০২৬
+|-
+|[[Ke Huy Quan|কি হুই কোয়ান]] ||''নেভার সে ডাই'' ||''Never Say Die'' ||ইংরেজি ||২০২৬
+|-
+|[[Christy Carlson Romano|ক্রিস্টি কার্লসন রোমানো]] ||''ওয়ান্স আপন আ ট্রেনরেক: দ্য ফল অ্যান্ড রাইজ অব আ চাইল্ড স্টার'' ||''Once Upon a Trainwreck: the Fall and Rise of a Child Star'' ||ইংরেজি ||২০২৬
+|-
+|[[Jaclyn Smith|জ্যাকলিন স্মিথ]] ||''আই ওয়ান্স নিউ আ গাই নেমড চার্লি'' ||''I Once Knew a Guy Named Charlie'' ||ইংরেজি ||২০২৬
+|-
+|[[Sylvester Stallone|সিলভেস্টার স্ট্যালোন]] ||''দ্য স্টেপস'' ||''The Steps'' ||ইংরেজি ||২০২৬
+|-
+|[[Edward Gibbon|এডওয়ার্ড গিবন]] ||''[[Memoirs of My Life and Writings|মেমোয়ার্স অব মাই লাইফ অ্যান্ড রাইটিংস]]'' ||''[[Memoirs of My Life and Writings]]'' ||ফরাসি ||১৭xx
+|-
+|[[Henry Adams|হেনরি অ্যাডাম্‌স]] ||''[[The Education of Henry Adams|দ্য এডুকেশন অব হেনরি অ্যাডামস]]'' ||''[[The Education of Henry Adams]]'' ||ইংরেজি ||১৯০৭
+|-
+|[[Martin Latham|মার্টিন ল্যাথাম]] ||''[[The Bookseller's Tale|দ্য বুকসেলারস টেল]]'' ||''[[The Bookseller's Tale]]'' ||ইংরেজি ||২০২০
+|-
+|মেহমুদ হাশমি ||''[[Kashmir Udaas Hai|কাশ্মীর উদাস হ্যায়]]'' ||''[[Kashmir Udaas Hai]]'' ||ইংরেজি ||১৯৫০
+|-
+|[[Lowell Thomas|লোয়েল থমাস]] ||''গুড ইভনিং, এভরিবডি'' ||''Good Evening, Everybody'' ||ইংরেজি ||১৯৭৬
+|-
+|[[Jessica Savitch|জেসিকা স্যাভিচ]] ||''অ্যাঙ্করওম্যান'' ||''Anchorwoman'' ||ইংরেজি ||১৯৮২
+|-
+|[[Peter Sissons|পিটার সিসনস]] ||''হোয়েন ওয়ান ডোর ক্লোজেস'' ||''When One Door Closes'' ||ইংরেজি ||২০১১
+|-
+|[[John Craven|জন ক্র্যাভেন]] ||''হেডলাইনস অ্যান্ড হেজরোজ'' ||''Headlines and Hedgerows'' ||ইংরেজি ||২০১৯
+|-
+|হেলেন ই. শোয়ার্টজ ||''[[Lawyering (book)|লয়ারিং]]'' ||''[[Lawyering (book)|Lawyering]]'' ||ইংরেজি ||১৯৭৬
+|-
+|[[Libanius|লিবানিয়াস]] ||''অরেশন'' ||''Oration'' ||প্রাচীন গ্রিক ||০৩৭৪
+|-
+|[[Sei Shōnagon|সেই শোনাহোন]] ||''[[The Pillow Book|দ্য পিলো বুক]]'' ||''[[The Pillow Book]]'' ||জাপানি ||১০০২
+|-
+|[[Kamo No Chomei|কামো নো চোমেই]] ||''[[Hōjōki|হোজোকি]]'' ||''[[Hōjōki]]'' ||ইংরেজি ||১২১২
+|-
+|[[Leonor López de Córdoba|লেওনোর লোপেস দে কর্দোবা]] ||''মেমোরিয়াস'' ||''Memorias'' (''López de Córdoba'') ||স্পেনীয় ||১৪০০
+|-
+|[[Margery Kempe|মার্জারি কেম্প]] ||''[[The Book of Margery Kempe|দ্য বুক অব মার্জারি কেম্প]]'' ||''[[The Book of Margery Kempe]]'' ||ইংরেজি ||১৪৩৬
+|-
+|[[Girolamo Cardano|জিরোলামো কার্দানো]] ||''দ্য বুক অব মাই লাইফ'' ||''The Book of My Life'' ||ইংরেজি ||১৫৭৬
+|-
+|[[Michel de Montaigne|মিশেল দ্য মঁতেইন]] ||''অব দ্য এডুকেশন অব চিলড্রেন'' ||''Of the Education of Children'' ||লাতিন ||১৫৮০
+|-
+|[[Abraham Cowley|আব্রাহাম কাউলি]] ||''অব মাইসেলফ'' ||''Of Myself'' ||ইংরেজি ||১৬৬৮
+|-
+|[[Colley Cibber|কলি সিব্বার]] ||''অ্যান অ্যাপোলজি ফর দ্য লাইফ অব মি. কলি সিবার, রিটেন বাই হিমসেলফ'' ||''An Apology for the Life of Mr. Colley Cibber, Written by Himself'' ||ইংরেজি ||১৭৪০
+|-
+|[[Voltaire|ভলতেয়ার]] ||''মেমোয়ার্স পুর সের্ভির আ লা ভি দ্য এম. দ্য ভলতেয়ার, এক্রি পার লুই-মেম'' ||''Mémoires pour servir à la vie de M. de Voltaire, écrits par lui-même'' ||ফরাসি ||১৭৫৯
+|-
+|[[Jean-Jacques Rousseau|জঁ-জাক রুসো]] ||''[[Confessions (Rousseau)|কনফেশনস (রুশো)]]'' ||''[[Confessions (Rousseau)|Confessions]]'' ||ফরাসি ||১৭৭০
+|-
+|[[Benjamin Franklin|বেঞ্জামিন ফ্রাঙ্কলিন]] ||''[[The Autobiography of Benjamin Franklin|দ্য অটোবায়োগ্রাফি অব বেঞ্জামিন ফ্র্যাঙ্কলিন]]'' ||''[[The Autobiography of Benjamin Franklin]]'' ||ফরাসি ||১৭৯১
+|-
+|[[Walter Scott|ওয়াল্টার স্কট]] ||''[[Memoirs (Walter Scott)|মেমোয়ার্স]]'' ||''[[Memoirs (Walter Scott)|Memoirs]]'' ||ইংরেজি ||১৮০৮–১৮২৬
+|-
+|[[Johann Wolfgang von Goethe|ইয়োহান ভোলফগাংক ফন গ্যোটে]] ||''[[Dichtung und Wahrheit|ডিকটুং উন্ট ভারহাইট]]'' ||''[[Dichtung und Wahrheit]]'' ||জার্মান ||১৮১১-১৮৩৩
+|-
+|[[Samuel Taylor Coleridge|স্যামুয়েল টেইলর কোলরিজ]] ||''[[Biographia Literaria|বায়োগ্রাফিয়া লিটারারিয়া]]'' ||''[[Biographia Literaria]]'' ||ইংরেজি ||১৮১৭
+|-
+|[[Johann Wolfgang von Goethe|ইয়োহান ভোলফগাংক ফন গ্যোটে]] ||''[[Italian Journey|ইতালীয় জার্নি]]'' ||''[[Italian Journey]]'' ||জার্মান ||১৮১৭
+|-
+|[[Thomas De Quincey|টমাস ডি কুইন্সি]] ||''[[Confessions of an English Opium-Eater|কনফেশনস অব অ্যান ইংলিশ ওপিয়াম-ইটার]]'' ||''[[Confessions of an English Opium-Eater]]'' ||ইংরেজি ||১৮২১
+|-
+|[[James Hogg|জেমস হগ]] ||''অলট্রিভ টেলস: ফিচারিং আ মেমোয়ার অব দ্য অথরস লাইফ'' ||''Altrive Tales: Featuring a Memoir of the Author's Life'' ||ইংরেজি ||১৮৩২
+|-
+|[[Charles Dickens|চার্লস ডিকেন্স]] ||''অটোবায়োগ্রাফিক্যাল ফ্র্যাগমেন্ট'' ||''Autobiographical Fragment'' ||ইংরেজি ||১৮৪৭
+|-
+|[[Johann Wolfgang von Goethe|ইয়োহান ভোলফগাংক ফন গ্যোটে]] ||''দ্য অটোবায়োগ্রাফি অব গ্যোটে: ট্রুথ অ্যান্ড কবিতা, ফ্রম মাই ওন লাইফ'' ||''The Autobiography Of Goethe: Truth And Poetry, From My Own Life'' ||জার্মান ||১৮৪৮
+|-
+|[[William Wordsworth|উইলিয়াম ওয়ার্ডসওয়ার্থ]] ||''[[The Prelude|দ্য প্রেল্যুড]]'' ||''[[The Prelude]]'' ||ইংরেজি ||১৮৫০
+|-
+|[[Leo Tolstoy|লেভ তলস্তয়]] ||''শৈশব, কৈশোর ও তারুণ্য'' ||''Childhood, Boyhood, and Youth'' ||রুশ ||১৮৫৬
+|-
+|[[Alexandre Dumas|আলেক্সঁদ্র দ্যুমা]] ||''মে মেমোয়ার্স'' ||''Mes Mémoires'' ||ফরাসি ||১৮৫৬
+|-
+|[[John Neal|জন নীল]] ||''ওয়ান্ডারিং রিকলেকশনস অব আ সামহোয়াট বিজি লাইফ: অ্যান অটোবায়োগ্রাফি'' ||''Wandering Recollections of a Somewhat Busy Life: An Autobiography'' ||ইংরেজি ||১৮৬৯
+|-
+|[[Sara Coleridge|সারা কোলরিজ]] ||''মেমোয়ার'' ||''Memoir'' ||ইংরেজি ||১৮৭৪
+|-
+|[[Thomas Carlyle|থমাস কার্লাইল]] ||''[[Reminiscences (Carlyle)|রেমিনিসেন্সেস]]'' ||''[[Reminiscences (Carlyle)|Reminiscences]]'' ||ইংরেজি ||১৮৮১
+|-
+|[[Ambrose Bierce|অ্যামব্রোজ বিয়ার্স]] ||''হোয়াট আই স অব শাইলো'' ||''What I Saw of Shiloh'' ||ইংরেজি ||১৮৮১
+|-
+|[[Anthony Trollope|অ্যান্থনি ট্রলপ]] ||''অ্যান অটোবায়োগ্রাফি'' ||''An Autobiography'' ||ইংরেজি ||১৮৮৩
+|-
+|[[Walt Whitman|ওয়াল্ট হুইটম্যান]] ||''স্পেসিমেন ডেস'' ||''Specimen Days'' ||ইংরেজি ||১৮৮৩
+|-
+|[[Leo Tolstoy|লেভ তলস্তয়]] ||''[[A Confession|আ কনফেশন]]'' ||''[[A Confession]]'' ||রুশ ||১৮৮৪
+|-
+|[[John Ruskin|জন রাস্কিন]] ||''প্রেতেরিতা: আউটলাইনস অব সিনস অ্যান্ড থটস পারহ্যাপস ওয়ার্থি অব মেমোরি ইন মাই পাস্ট লাইফ'' ||''Praeterita: Outlines of Scenes and Thoughts Perhaps Worthy of Memory in My Past Life'' ||ইংরেজি ||১৮৮৫
+|-
+|[[Oscar Wilde|অস্কার ওয়াইল্ড]] ||''[[De Profundis (letter)|ডি প্রোফানডিস]]'' ||''[[De Profundis (letter)|De Profundis]]'' ||ইংরেজি ||১৮৯৭
+|-
+|[[Margaret Oliphant|মার্গারেট ওলিফ্যান্ট]] ||''দ্য অটোবায়োগ্রাফি অব মার্গারেট অলিফ্যান্ট'' ||''The Autobiography of Margaret Oliphant'' ||ইংরেজি ||১৮৯৯
+|-
+|[[George Bernard Shaw|জর্জ বার্নার্ড শ']] ||''শ: অ্যান অটোবায়োগ্রাফি, ১৮৯৮–১৯৫০: দ্য প্লেরাইট ইয়ার্স'' ||''Shaw: an Autobiography, 1898–1950: The Playwright Years'' ||ইংরেজি ||১৯০৭
+|-
+|[[Victor Hugo|ভিক্টর হুগো]] ||''ভিক্টর হিউগোস ইন্টেলেকচুয়াল অটোবায়োগ্রাফি'' ||''Victor Hugo's Intellectual Autobiography'' ||ফরাসি ||১৯০৭
+|-
+|[[Henry James|হেনরি জেমস]] ||''[[A Small Boy and Others|আ স্মল বয় অ্যান্ড আদার্স]]'' ||''[[A Small Boy and Others]]'' ||ইংরেজি ||১৯১৩
+|-
+|[[Maxim Gorky|মাক্সিম গোর্কি]] ||''আমার ছেলেবেলা'' ||''My Childhood'' ||রুশ ||১৯১৩
+|-
+|[[William Butler Yeats|উইলিয়াম বাটলার ইয়েটস]] ||''রেভারিজ ওভার চাইল্ডহুড অ্যান্ড ইয়ুথ'' ||''Reveries Over Childhood and Youth'' ||ইংরেজি ||১৯১৬
+|-
+|[[Mark Twain|মার্ক টোয়েইন]] ||''[[Autobiography of Mark Twain|অটোবায়োগ্রাফি অব মার্ক টোয়েন]]'' ||''[[Autobiography of Mark Twain]]'' ||ইংরেজি ||১৯১০
+|-
+|[[Henry James|হেনরি জেমস]] ||''[[Notes of a Son and Brother|নোটস অব আ সান অ্যান্ড ব্রাদার]]'' ||''[[Notes of a Son and Brother]]'' ||ইংরেজি ||১৯১৪
+|-
+|[[Mary Augusta Ward|ম্যারি অগাস্টা ওয়ার্ড]] ||''আ রাইটারস রিকলেকশনস'' ||''A Writer's Recollections'' ||ইংরেজি ||১৯১৮
+|-
+|[[Robert Graves|রবার্ট গ্রেভস]] ||''[[Good-Bye to All That|গিডবাই টু অল দ্যাট]]'' ||''[[Good-Bye to All That]]'' ||ইংরেজি ||১৯২৯
+|-
+|[[Lincoln Steffens|লিংকন স্টিফেনস]] ||''অটোবায়োগ্রাফি অব লিংকন স্টেফেনস'' ||''Autobiography of Lincoln Steffens'' ||ইংরেজি ||১৯৩১
+|-
+|[[Walter Benjamin|ওয়াল্টার বেনিয়ামিন]] ||''আনপ্যাকিং মাই লাইব্রেরি'' ||''Unpacking My Library'' ||জার্মান ||১৯৩১
+|-
+|[[Vera Brittain|ভেরা ব্রিটেইন]] ||''[[Testament of Youth|টেস্টামেন্ট অব ইয়ুথ]]'' ||''[[Testament of Youth]]'' ||ইংরেজি ||১৯৩৩
+|-
+|[[Gertrude Stein|গারট্রুড স্টেইন]] ||''[[The Autobiography of Alice B. Toklas|দ্য অটোবায়োগ্রাফি অব অ্যালিস বি. টোকলাস]]'' ||''[[The Autobiography of Alice B. Toklas]]'' ||ইংরেজি ||১৯৩৩
+|-
+|[[H. G. Wells|এইচ.জি. ওয়েলস]] ||''[[Experiment in Autobiography|এক্সপেরিমেন্ট ইন অটোবায়োগ্রাফি]]'' ||''[[Experiment in Autobiography]]'' ||ইংরেজি ||১৯৩৪
+|-
+|[[William Butler Yeats|উইলিয়াম বাটলার ইয়েটস]] ||''অটোবায়োগ্রাফি'' ||''Autobiography'' ||ইংরেজি ||১৯৩৬
+|-
+|[[G. K. Chesterton|জি. কে. চেস্টারটন]] ||''দ্য অটোবায়োগ্রাফি অব জি.কে. চেস্টারটন'' ||''The Autobiography of G.K. Chesterton'' ||ইংরেজি ||১৯৩৬
+|-
+|[[Claude McKay|ক্লদ ম্যাককে]] ||''আ লং ওয়ে ফ্রম হোম'' ||''A Long Way From Home'' ||ইংরেজি ||১৯৩৭
+|-
+|[[Noël Coward|নোয়েল কাওয়ার্ড]] ||''প্রেজেন্ট ইন্ডিকেটিভ'' ||''Present Indicative'' ||ইংরেজি ||১৯৩৭
+|-
+|[[Virginia Woolf|ভার্জিনিয়া উল্‌ফ]] ||''[[Moments of Being|মোমেন্টস অব বিয়িং]]'' ||''[[Moments of Being]]'' ||ইংরেজি ||১৯৩৮
+|-
+|[[William Butler Yeats|উইলিয়াম বাটলার ইয়েটস]] ||''অটোবায়োগ্রাফিজ অব উইলিয়াম বাটলার ইয়েটস'' ||''Autobiographies of William Butler Yeats'' ||ইংরেজি ||১৯৩৮
+|-
+|[[A. A. Milne|এ.এ.মিলনে]] ||''ইটস টু লেট নাউ'' ||''It's Too Late Now'' ||ইংরেজি ||১৯৩৯
+|-
+|[[John Buchan|জন বুকান]] ||''[[Memory Hold the Door|মেমোরি হোল্ড দ্য ডোর]]'' ||''[[Memory Hold the Door]]'' ||ইংরেজি ||১৯৪০
+|-
+|[[F. Scott Fitzgerald|এফ. স্কট ফিটজেরাল্ড]] ||''আ শর্ট অটোবায়োগ্রাফি'' ||''A Short Autobiography'' ||ইংরেজি ||১৯৪০
+|-
+|[[Zora Neale Hurston|জোরা নিল হার্স্টন]] ||''[[Dust Tracks on a Road|ডাস্ট ট্র্যাকস অন আ রোড]]'' ||''[[Dust Tracks on a Road]]'' ||ইংরেজি ||১৯৪২
+|-
+|[[Stefan Zweig|স্টেফান জুইগ]] ||''[[The World of Yesterday|দ্য ওয়ার্ল্ড অব ইয়েস্টারডে]]'' ||''[[The World of Yesterday]]'' ||জার্মান ||১৯৪২
+|-
+|[[Dylan Thomas|ডিলান টমাস]] ||''হলিডে মেমোরি'' ||''Holiday Memory'' ||ইংরেজি ||১৯৪২
+|-
+|[[Richard Wright (musician)|রিচার্ড রাইট]] ||''[[Black Boy|ব্ল্যাক বয়]]'' ||''[[Black Boy]]'' ||ইংরেজি ||১৯৪৫
+|-
+|[[George Orwell|জর্জ অরওয়েল]] ||''সাচ, সাচ ওয়ার দ্য জয়স...'' ||''Such, Such Were the Joys...'' ||ইংরেজি ||১৯৪৭
+|-
+|[[Nirad C. Chaudhuri|নীরদচন্দ্র চৌধুরী]] ||''[[The Autobiography of an Unknown Indian|দি অটোবায়োগ্রাফি অব অ্যান আননোন ইন্ডিয়ান]]'' ||''[[The Autobiography of an Unknown Indian]]'' ||ইংরেজি ||১৯৫১
+|-
+|[[Christy Brown|ক্রিস্টি ব্রাউন]] ||''[[My Left Foot (book)|মাই লেফট ফুট]]'' ||''[[My Left Foot (book)|My Left Foot]]'' ||ইংরেজি ||১৯৫৪
+|-
+|[[Elie Wiesel|এলি উইজেল]] ||''[[Night (memoir)|নাইট]]'' ||''[[Night (memoir)|Night]]'' ||ফরাসি ||১৯৫৫
+|-
+|[[Mary McCarthy (American writer)|ম্যারি ম্যাককার্থি]] ||''[[Memories of a Catholic Girlhood|মেমোরিজ অব আ ক্যাথলিক গার্লহুড]]'' ||''[[Memories of a Catholic Girlhood]]'' ||ইংরেজি ||১৯৫৭
+|-
+|[[Mary McCarthy (American writer)|ম্যারি ম্যাককার্থি]] ||''হাউ আই গ্রু'' ||''How I Grew'' ||ইংরেজি ||১৯৮৭
+|-
+|[[P. G. Wodehouse|পি. জি. উডহাউস]] ||''[[Over Seventy|ওভার সেভেন্টি]]'' ||''[[Over Seventy]]'' ||ইংরেজি ||১৯৫৭
+|-
+|[[Dick Francis|ডিক ফ্রান্সিস]] ||''দ্য স্পোর্ট অব কুইনস'' ||''The Sport of Queens'' ||ইংরেজি ||১৯৫৭
+|-
+|[[Simone de Beauvoir|সিমন দ্য বোভোয়ার]] ||''দ্য প্রাইম অব লাইফ'' ||''The Prime of Life'' ||ফরাসি ||১৯৬০
+|-
+|[[John Betjeman|জন বেটজেম্যান]] ||''[[Summoned by Bells|সামন্ড বাই বেল্স]]'' ||''[[Summoned by Bells]]'' ||ইংরেজি ||১৯৬০
+|-
+|[[Laurie Lee|লরি লি]] ||''[[Cider with Rosie|সাইডার উইথ রোজি]]'' ||''[[Cider with Rosie]]'' ||ইংরেজি ||১৯৬০
+|-
+|[[Evelyn Waugh|ইভলিন ওয়াঘ]] ||''[[A Little Learning (book)|আ লিটল লার্নিং]]'' ||''[[A Little Learning (book)|A Little Learning]]'' ||ইংরেজি ||১৯৬৬
+|-
+|[[Vladimir Nabokov|ভ্লাদিমির নাবোকভ]] ||''[[Speak, Memory|স্পিক, মেমোরি]]'' ||''[[Speak, Memory]]'' ||ইংরেজি ||১৯৬৬
+|-
+|[[P. J. Kavanagh|পি. জে. কাভানা]] ||''[[The Perfect Stranger (book)|দ্য পারফেক্ট স্ট্রেঞ্জার]]'' ||''[[The Perfect Stranger (book)|The Perfect Stranger]]'' ||ইংরেজি ||১৯৬৬
+|-
+|[[C. S. Lewis|সি. এস. লিউইস]] ||''[[Surprised by Joy|সারপ্রাইজড বাই জয়]]'' ||''[[Surprised by Joy]]'' ||ইংরেজি ||১৯৬৬
+|-
+|[[Rosamond Lehmann|রোজামন্ড লেহম্যান]] ||''দ্য সোয়ান ইন দ্য ইভনিং: ফ্র্যাগমেন্টস অব অ্যান ইনার লাইফ'' ||''The Swan in the Evening: Fragments of an Inner Life'' ||ফরাসি ||১৯৬৭
+|-
+|[[Edward Abbey|এডওয়ার্ড অ্যাবি]] ||''[[Desert Solitaire|মরুভূমি সলিতেয়ার]]'' ||''[[Desert Solitaire]]'' ||ইংরেজি ||১৯৬৮
+|-
+|[[J. R. Ackerley|জে. আর. অ্যাকারলি]] ||''মাই ফাদার অ্যান্ড মাইসেলফ'' ||''My Father and Myself'' ||ইংরেজি ||১৯৬৮
+|-
+|[[Czesław Miłosz|চেসোয়াফ মিওশ]] ||''নেটিভ রেল্ম: আ সার্চ ফর সেলফ-ডেফিনিশন'' ||''Native Realm: A Search for Self-Definition'' ||ফরাসি ||১৯৬৮
+|-
+|[[Laurie Lee|লরি লি]] ||''অ্যাজ আই ওয়াকড আউট ওয়ান মিডসামার মর্নিং'' ||''As I Walked Out One Midsummer Morning'' ||ইংরেজি ||১৯৬৯
+|-
+|[[Maya Angelou|মায়া অ্যাঞ্জেলো]] ||''[[I Know Why the Caged Bird Sings|আই নো হোয়াই দ্যা কেইসড বার্ড সিংস]]'' ||''[[I Know Why the Caged Bird Sings]]'' ||ইংরেজি ||১৯৬৯
+|-
+|[[Anaïs Nin|আনাইস নিন]] ||''[[The Diary of Anaïs Nin|দ্য ডায়েরি অব আনাইস নিন]]'' ||''[[The Diary of Anaïs Nin]]'' ||ইংরেজি ||১৯৭৬
+|-
+|[[Nadezhda Mandelstam|নাদেঝদা মান্দেলস্টাম]] ||''হোপ অ্যাগেইনস্ট হোপ'' ||''Hope Against Hope'' ||রুশ ||১৯৭০
+|-
+|[[Graham Greene|গ্রাহাম গ্রিন]] ||''[[A Sort of Life|আ সর্ট অব লাইফ]]'' ||''[[A Sort of Life]]'' ||ইংরেজি ||১৯৭১
+|-
+|[[Wole Soyinka|ওলে সোয়েনকা]] ||''দ্য ম্যান ডায়েড: প্রিজন নোটস'' ||''The Man Died: Prison Notes'' ||ইংরেজি ||১৯৭১
+|-
+|[[Mario Puzo|মারিও পুজো]] ||''দ্য গডফাদার পেপার্স অ্যান্ড আদার কনফেশনস'' ||''The Godfather Papers & Other Confessions'' ||ইংরেজি ||১৯৭২
+|-
+|[[Joyce Maynard|জয়েস মেনার্ড]] ||''লুকিং ব্যাক: আ ক্রনিকল অব গ্রোয়িং আপ ওল্ড ইন দ্য সিক্সটিজ'' ||''Looking Back: A Chronicle of Growing Up Old in the Sixties'' ||ইংরেজি ||১৯৭৩
+|-
+|[[James Baldwin|জেমস বাল্ডউইন]] ||''[[The Devil Finds Work|দ্য ডেভিল ফাইন্ডস ওয়ার্ক]]'' ||''[[The Devil Finds Work]]'' ||ইংরেজি ||১৯৭৬
+|-
+|[[Pablo Neruda|পাবলো নেরুদা]] ||''মেমোয়ার্স'' ||''Memoirs'' (''Confieso que he vivido: Memorias'') ||স্পেনীয় ||১৯৭৭
+|-
+|[[Agatha Christie|আগাথা ক্রিস্টি]] ||''[[Agatha Christie: An Autobiography|আগাথা ক্রিস্টি: অ্যান অটোবায়োগ্রাফি]]'' ||''[[Agatha Christie: An Autobiography]]'' ||ইংরেজি ||১৯৭৭
+|-
+|[[Wole Soyinka|ওলে সোয়েনকা]] ||''[[Aké: The Years of Childhood|আকে: দ্য ইয়ার্স অব চাইল্ডহুড]]'' ||''[[Aké: The Years of Childhood]]'' ||ইংরেজি ||১৯৮১
+|-
+|[[John Mortimer|জন মর্টিমার]] ||''ক্লিঙিং টু দ্য রেকেজ: আ পার্ট অব লাইফ'' ||''Clinging to the Wreckage: A Part of Life'' ||ইংরেজি ||১৯৮২
+|-
+|[[Michael Ondaatje|মাইকেল ওন্ডাৎজে]] ||''[[Running in the Family (memoir)|রানিং ইন দ্য ফ্যামিলি]]'' ||''[[Running in the Family (memoir)|Running in the Family]]'' ||ইংরেজি ||১৯৮২
+|-
+|[[Janet Frame|জ্যানেট ফ্রেম]] ||''টু দ্য আইল্যান্ড'' ||''To the Is-land'' ||ইংরেজি ||১৯৮২
+|-
+|[[Janet Frame|জ্যানেট ফ্রেম]] ||''অ্যান অ্যাঞ্জেল অ্যাট মাই টেবিল অ্যান্ড দ্য এনভয় ফ্রম মিরর সিটি'' ||''An Angel at My Table and The Envoy From Mirror City'' ||ইংরেজি ||১৯৮৪
+|-
+|[[Eudora Welty|ইউডোরা ওয়েল্টি]] ||''[[One Writer's Beginnings|ওয়ান রাইটারস বিগিনিংস]]'' ||''[[One Writer's Beginnings]]'' ||ইংরেজি ||১৯৮৩
+|-
+|[[Roald Dahl|রুয়াল দাল]] ||''[[Boy (autobiography)|বয়: টেলস অব চাইল্ডহুড]]'' ||''[[Boy (autobiography)|Boy: Tales of Childhood]]'' ||ইংরেজি ||১৯৮৪
+|-
+|[[Roald Dahl|রুয়াল দাল]] ||''[[Going Solo|গোয়িং সোলো]]'' ||''[[Going Solo]]'' ||ইংরেজি ||১৯৮৬
+|-
+|[[Anthony Burgess|অ্যান্থনি বার্জেস]] ||''[[Little Wilson and Big God|লিটল উইলসন অ্যান্ড বিগ গড]]'' ||''[[Little Wilson and Big God]]'' ||ইংরেজি ||১৯৮৬
+|-
+|[[Annie Dillard|অ্যানি ডিলার্ড]] ||''অ্যান আমেরিকান চাইল্ডহুড'' ||''An American Childhood'' ||ইংরেজি ||১৯৮৭
+|-
+|[[Anthony Burgess|অ্যান্থনি বার্জেস]] ||''[[You've Had Your Time|ইউ'ভ হ্যাড ইউর টাইম]]'' ||''[[You've Had Your Time]]'' ||ইংরেজি ||১৯৯০
+|-
+|[[Kurt Vonnegut|কুর্ট ভনেগাট]] ||''[[Fates Worse Than Death|ফেটস ওয়ার্স দ্যান ডেথ]]'' ||''[[Fates Worse Than Death]]'' ||ইংরেজি ||১৯৯১
+|-
+|[[James A. Michener|জেমস এ. মিশেনার]] ||''[[The World Is My Home|দ্য ওয়ার্ল্ড ইজ মাই হোম: আ মেমোয়ার]]'' ||''[[The World Is My Home|The World Is My Home: A Memoir]]'' ||ইংরেজি ||১৯৯২
+|-
+|[[Nina Berberova|নিনা বার্বেরোভা]] ||''[[The Italics are Mine|দ্য ইটালিকস আর মাইন]]'' ||''[[The Italics are Mine]]'' ||রুশ ||১৯৯৩
+|-
+|[[Doris Lessing|ডোরিস লেসিং]] ||''[[Under My Skin (autobiography)|আন্ডার মাই স্কিন: ভলিউম ওয়ান অব মাই অটোবায়োগ্রাফি, টু ১৯৪৯]]'' ||''[[Under My Skin (autobiography)|Under My Skin: Volume One of My Autobiography, to 1949]]'' ||ইংরেজি ||১৯৯৪
+|-
+|[[Alan Sillitoe|অ্যালান সিলিটো]] ||''লাইফ উইদাউট আর্মার'' ||''Life Without Armour'' ||ইংরেজি ||১৯৯৫
+|-
+|[[Gore Vidal|গোর ভিদাল]] ||''পালিম্পসেস্ট: আ মেমোয়ার'' ||''Palimpsest: A Memoir'' ||ইংরেজি ||১৯৯৫
+|-
+|[[J. M. Coetzee|জে. এম. কোয়েটজি]] ||''[[Boyhood: Scenes from Provincial Life|বয়হুড: সিনস ফ্রম প্রভিনশিয়াল লাইফ]]'' ||''[[Boyhood: Scenes from Provincial Life]]'' ||ইংরেজি ||১৯৯৭
+|-
+|[[Doris Lessing|ডোরিস লেসিং]] ||''ওয়াকিং ইন দ্য শেড: ভলিউম টু অব মাই অটোবায়োগ্রাফি, ১৯৪৯ টু ১৯৬২'' ||''Walking in the Shade: Volume Two of My Autobiography, 1949 to 1962'' ||ইংরেজি ||১৯৯৭
+|-
+|[[René Galand|রনে গ্যালান্ড]] ||''ওয়ার হেনতু আন ত্রেমেনেদ'' ||''War Hentoù an Tremened'' ||ফরাসি ||২০০২
+|-
+|[[Amos Oz|আমোস ওজ]] ||''[[A Tale of Love and Darkness|আ টেল অব লাভ অ্যান্ড ডার্কনেস]]'' ||''[[A Tale of Love and Darkness]]'' ||হিব্রু ||২০০২
+|-
+|[[Maya Angelou|মায়া অ্যাঞ্জেলো]] ||''দ্য কালেক্টেড অটোবায়োগ্রাফিজ অব মায়া অ্যাঞ্জেলো'' ||''The Collected Autobiographies of Maya Angelou'' ||ইংরেজি ||২০০২
+|-
+|[[Orhan Pamuk|ওরহান পামুক]] ||''[[Istanbul: Memories and the City|ইস্তাম্বুল: মেমোরিজ অ্যান্ড দ্য সিটি]]'' ||''[[Istanbul: Memories and the City]]'' ||ইংরেজি ||২০০৩
+|-
+|[[Gay Talese|গে টেলিস]] ||''[[A Writer's Life|আ রাইটারস লাইফ]]'' ||''[[A Writer's Life]]'' ||ইংরেজি ||২০০৬
+|-
+|[[Roald Dahl|রুয়াল দাল]] ||''মোর অ্যাবাউট বয়'' ||''More About Boy'' (published posthumously) ||ইংরেজি ||২০০৮
+|-
+|[[Jacqueline Wilson|জ্যাকলিন উইলসন]] ||''জ্যাকি ডেড্রিম & মাই সিক্রেট ডায়েরি'' ||''Jacky Daydream & My Secret Diary'' ||ইংরেজি ||২০০৮
+|-
+|[[Andrea Ashworth|আন্দ্রেয়া অ্যাশওয়ার্থ]] ||''ওয়ান্স ইন আ হাউস অন ফায়ার'' ||''Once in a House on Fire'' ||ইংরেজি ||২০১১
+|-
+|পল কিপচুম্বা ||''টার্নিং পয়েন্ট ইন মাই লাইফ'' ||''Turning Point in My Life'' ||ইংরেজি ||২০১৬
+|-
+|[[G. H. Hardy|গডফ্রি হ্যারল্ড হার্ডি]] ||''[[A Mathematician's Apology|আ ম্যাথমেটিশিয়ানস অ্যাপোলজি]]'' ||''[[A Mathematician's Apology]]'' ||ইংরেজি ||১৯৪০
+|-
+|[[Norbert Wiener|নরবার্ট উইনার]] ||''আই অ্যাম আ ম্যাথমেটিশিয়ান'' ||''I Am a Mathematician'' ||ইংরেজি ||১৯৬৪
+|-
+|[[Bertrand Russell|বারট্রান্ড রাসেল]] ||''অটোবায়োগ্রাফি'' ||''Autobiography'' ||ইংরেজি ||১৯৬৭
+|-
+|[[Freeman Dyson|ফ্রিম্যান ডাইসন]] ||''ডিস্টার্বিং দ্য মহাবিশ্ব'' ||''Disturbing the Universe'' ||ইংরেজি ||১৯৭৯
+|-
+|[[Paul Halmos|পল হালমোস]] ||''আই ওয়ান্ট টু বি আ ম্যাথমেটিশিয়ান: অ্যান অটোম্যাথোগ্রাফি'' ||''I Want to be a Mathematician: An Automathography'' ||ইংরেজি ||১৯৮৫
+|-
+|[[Stanislaw Ulam|স্তানিস্লাভ উলাম]] ||''অ্যাডভেঞ্চার্স অব আ ম্যাথমেটিশিয়ান'' ||''Adventures of a Mathematician'' ||ইংরেজি ||১৯৯১
+|-
+|[[André Weil|আন্দ্রে ভেইল]] ||''দ্য অ্যাপ্রেন্টিসশিপ অব আ ম্যাথমেটিশিয়ান'' ||''The Apprenticeship of a Mathematician'' ||ফরাসি ||১৯৯২
+|-
+|[[Gian-Carlo Rota|জিয়ান-কার্লো রোটা]] ||''ইনডিসক্রিট থটস'' ||''Indiscrete Thoughts'' ||ইতালীয় ||১৯৯৮
+|-
+|[[Vladimir Arnold|ভ্লাদিমির আর্নল্ড]] ||''ইয়েস্টারডে অ্যান্ড লং অ্যাগো'' ||''Yesterday and Long Ago'' ||রুশ ||২০০৬
+|-
+|[[Neal Koblitz|নিল কবলিটজ]] ||''র‍্যান্ডম কার্ভস: জার্নিজ অব আ ম্যাথমেটিশিয়ান'' ||''Random Curves: Journeys of a Mathematician'' ||ইংরেজি ||২০০৭
+|-
+|[[Goro Shimura|গোরো শিমুরা]] ||''দ্য ম্যাপ অব মাই লাইফ'' ||''The Map of My Life'' ||জাপানি ||২০০৮
+|-
+|[[Edward Frenkel|এডওয়ার্ড ফ্রেনকেল]] ||''লাভ অ্যান্ড ম্যাথ: দ্য হার্ট অব হিডেন রিয়েলিটি'' ||''Love and Math: The Heart of Hidden Reality'' ||রুশ ||২০১৪
+|-
+|[[Michael Harris (mathematician)|মাইকেল হ্যারিস]] ||''ম্যাথমেটিক্স উইদাউট অ্যাপোলজিস: পোর্ট্রেট অব আ প্রবলেম্যাটিক ভোকেশন'' ||''Mathematics without Apologies: Portrait of a Problematic Vocation'' ||ইংরেজি ||২০১৫
+|-
+|[[Cédric Villani|সেদ্রিক ভিলানি]] ||''বার্থ অব আ থিওরেম: আ ম্যাথমেটিক্যাল অ্যাডভেঞ্চার'' ||''Birth of a Theorem: A Mathematical Adventure'' ||ফরাসি ||২০১৫
+|-
+|[[Albert Schweitzer|আলবার্ট শোয়েৎজার]] ||''আউট অব মাই লাইফ অ্যান্ড থট'' ||''Out of My Life and Thought'' ||জার্মান ||১৯৩৩
+|-
+|[[Sydney Smith (forensic expert)|সিডনি স্মিথ]] ||''[[Mostly Murder|মোস্টলি মার্ডার]]'' ||''[[Mostly Murder]]'' ||ইংরেজি ||১৯৫৯
+|-
+|[[Sandra Lee (dermatologist)|স্যান্ড্রা লি]] ||''পুট ইউর বেস্ট ফেস ফরোয়ার্ড'' ||''Put Your Best Face Forward'' ||ইংরেজি ||২০১৯
+|-
+|[[Ulysses S. Grant|ইউলিসিস এস. গ্রান্ট]] ||''[[Personal Memoirs of Ulysses S. Grant|পার্সোনাল মেমোয়ার্স অব উইলিসিস এস. গ্রান্ট]]'' ||''[[Personal Memoirs of Ulysses S. Grant]]'' ||ইংরেজি ||১৮৮৫
+|-
+|[[Manfred von Richthofen|ম্যানফ্রেড ফন রিখথোফেন]] ||''দ্য রেড ব্যারন'' ||''The Red Baron'' (''Der rote Kampfflieger'') ||জার্মান ||১৯১৭
+|-
+|[[Heinz Guderian|হাইনৎস গুডেরিয়ান]] ||''[[Panzer Leader (book)|প্যানজার লিডার]]'' ||''[[Panzer Leader (book)|Panzer Leader]]'' ||জার্মান ||১৯৫০
+|-
+|[[Hector Berlioz|হেক্টর বার্লিওজ]] ||''[[Mémoires (Berlioz)|মেমোয়ার্স]]'' ||''[[Mémoires (Berlioz)|Mémoires]]'' ||ফরাসি ||১৮৭০
+|-
+|[[Elsa Reger|এলসা রেগার]] ||''[[Max Reger|মাইন লেবেন মিত উন্ড ফুর মাক্স রেগার]]'' ||''[[Max Reger|Mein Leben mit und für Max Reger]]'' (''My life with and for Max Reger'') ||জার্মান ||১৯৩০
+|-
+|[[Billie Holiday|বিলি হলিডে]] ||''[[Lady Sings the Blues (book)|লেডি সিংস দ্য ব্লুজ]]'' ||''[[Lady Sings the Blues (book)|Lady Sings the Blues]]'' ||ইংরেজি ||১৯৫৬
+|-
+|[[Pat Boone|প্যাট বুন]] ||''আ নিউ সং'' ||''A New Song'' ||ইংরেজি ||১৯৭০
+|-
+|[[Pablo Casals|পাবলো ক্যাসালস]] ||''জয়স অ্যান্ড সরোজ: রিফ্লেকশনস'' ||''Joys and Sorrows: Reflections'' ||স্পেনীয় ||১৯৭০
+|-
+|[[Charles Mingus|চার্লস মিঙ্গাস]] ||''[[Beneath the Underdog|বিনিথ দ্য আন্ডারডগ]]'' ||''[[Beneath the Underdog]]'' ||ইংরেজি ||১৯৭১
+|-
+|[[Paul Bowles|পল বোলস]] ||''উইদাউট স্টপিং'' ||''Without Stopping'' ||ইংরেজি ||১৯৭২
+|-
+|[[Tom Sullivan (singer)|টম সুলিভান]] ||''ইফ ইউ কুড সি হোয়াট আই হিয়ার'' ||''If You Could See What I Hear'' ||ইংরেজি ||১৯৭৫
+|-
+|[[Tom Sullivan (singer)|টম সুলিভান]] ||''অ্যাডভেঞ্চার্স ইন ডার্কনেস'' ||''Adventures In Darkness'' ||ইংরেজি ||১৯৭৬
+|-
+|[[Liberace|লিবারাচি]] ||''দ্য থিংস আই লাভ'' ||''The Things I Love'' ||ইংরেজি ||১৯৭৭
+|-
+|[[Ray Charles|রে চার্লস]] ||''ব্রাদার রে'' ||''Brother Ray'' ||ইংরেজি ||১৯৭৮
+|-
+|[[Pinky Tomlin|পিঙ্কি টমলিন]] ||''দ্য অবজেক্ট অব মাই অ্যাফেকশন'' ||''The Object of My Affection'' ||ইংরেজি ||১৯৮১
+|-
+|[[Dizzy Gillespie|ডিজি গিলেসপি]] ||''[[To Be or Not to Bop|টু বি অর নট টু বপ]]'' ||''[[To Be or Not to Bop]]'' ||ইংরেজি ||১৯৮২
+|-
+|[[Lennon Sisters|লেনন সিস্টার্স]] ||''সেম সং, সেপারেট ভয়েসেস'' ||''Same Song, Separate Voices'' ||ইংরেজি ||১৯৮৫
+|-
+|[[Davy Jones (musician)|ডেভি জোন্স]] ||''দে মেড আ মাঙ্কি আউট অব মি, ওরফে ডু আই টেল ইট লাইক আই'ম জোকিং?'' ||''They Made a Monkee Out Of Me, AKA Do I Tell It Like I'm Joking?'' ||ইংরেজি ||১৯৮৬
+|-
+|[[Tina Turner|টিনা টার্নার]] ||''[[I, Tina|আই, টিনা]]'' ||''[[I, Tina]]'' ||ইংরেজি ||১৯৮৬
+|-
+|[[Michael Jackson|মাইকেল জ্যাকসন]] ||''[[Moonwalk (book)|মুনওয়াক]]'' ||''[[Moonwalk (book)|Moonwalk]]'' ||ইংরেজি ||১৯৮৮
+|-
+|[[Frank Zappa|ফ্র্যাংক জ্যাপা]] ||''দ্য রিয়েল ফজ বুক'' ||''The Real FZ Book'' ||ইংরেজি ||১৯৮৮
+|-
+|[[Debbie Gibson|ডেবি গিবসন]] ||''বিটুইন দ্য লাইনস'' ||''Between the Lines'' ||ইংরেজি ||১৯৮৯
+|-
+|[[Sonny Bono|সনি বোনো]] ||''অ্যান্ড দ্য বিট গোজ অন'' ||''And the Beat Goes On'' ||ইংরেজি ||১৯৯১
+|-
+|[[La Toya Jackson|লা টয়া জ্যাকসন]] ||''[[La Toya: Growing Up in the Jackson Family|লা তোয়া: গ্রোয়িং আপ ইন দ্য জ্যাকসন ফ্যামিলি]]'' ||''[[La Toya: Growing Up in the Jackson Family]]'' ||ইংরেজি ||১৯৯১
+|-
+|[[Vanilla Ice|ভ্যানিলা আইস]] ||''আইস বাই আইস'' ||''Ice By Ice'' ||ইংরেজি ||১৯৯১
+|-
+|[[Micky Dolenz|মিকি ডোলেনজ]] ||''আই'ম আ বিলিভার'' ||''I'm a Believer'' ||ইংরেজি ||১৯৯৩
+|-
+|[[Naomi Judd|নাওমি জাড]] ||''লাভ ক্যান বিল্ড আ ব্রিজ'' ||''Love Can Build a Bridge'' ||ইংরেজি ||১৯৯৩
+|-
+|[[Roy Clark|রয় ক্লার্ক]] ||''মাই লাইফ – ইন স্পাইট অব মাইসেলফ'' ||''My Life – In Spite of Myself'' ||ইংরেজি ||১৯৯৪
+|-
+|[[Ice-T|আইস-টি]] ||''দ্য আইস অপিনিয়ন'' ||''The Ice Opinion'' ||ইংরেজি ||১৯৯৪
+|-
+|[[Dolly Parton|ডলি পার্টন]] ||''মাই লাইফ অ্যান্ড আদার আনফিনিশড বিজনেস'' ||''My Life and Other Unfinished Business'' ||ইংরেজি ||১৯৯৪
+|-
+|[[Boy George|বয় জর্জ]] ||''টেকিং ইট লাইক আ ম্যান'' ||''Taking It Like a Man'' ||ইংরেজি ||১৯৯৫
+|-
+|[[Luciano Pavarotti|লুচিয়ানো পাভারোত্তি]] ||''মাই ওয়ার্ল্ড'' ||''My World'' ||ইতালীয় ||১৯৯৫
+|-
+|[[Wolfman Jack|উলফম্যান জ্যাক]] ||''হ্যাভ মার্সি!'' ||''Have Mercy!'' ||ইংরেজি ||১৯৯৫
+|-
+|[[Waylon Jennings|ওয়েলন জেনিংস]] ||''ওয়েলন, ওরফে জাস্ট অ্যানাদার গুড ওল' বয়'' ||''Waylon, AKA Just Another Good Ol' Boy'' ||ইংরেজি ||১৯৯৬
+|-
+|[[Aerosmith|অ্যারোস্মিথ]] ||''ওয়াক দিস ওয়ে'' ||''Walk This Way'' ||ইংরেজি ||১৯৯৭
+|-
+|[[Chuck D|চাক ডি]] ||''ফাইট দ্য পাওয়ার'' ||''Fight the Power'' ||ইংরেজি ||১৯৯৭
+|-
+|[[John Denver|জন ডেনভার]] ||''টেক মি হোম'' ||''Take Me Home'' ||ইংরেজি ||১৯৯৭
+|-
+|[[LL Cool J|এলএল কুল জে]] ||''আই মেক মাই ওন রুলস'' ||''I Make My Own Rules'' ||ইংরেজি ||১৯৯৭
+|-
+|[[Jimmy Buffett|জিমি বাফেট]] ||''আ পাইরেট লুকস অ্যাট ৫০'' ||''A Pirate Looks At 50'' ||ইংরেজি ||১৯৯৮
+|-
+|[[Marilyn Manson|মেরিলিন ম্যানসন]] ||''[[The Long Hard Road Out of Hell|দ্য লং হার্ড রোড আউট অব হেল]]'' ||''[[The Long Hard Road Out of Hell]]'' ||ইংরেজি ||১৯৯৮
+|-
+|[[Ray Manzarek|রে মানজারেক]] ||''লাইট মাই ফায়ার: লাইফ উইথ দ্য ডোরস'' ||''Light My Fire: Life With the Doors'' ||ইংরেজি ||১৯৯৮
+|-
+|[[Yehudi Menuhin|ইয়েহুদি মেনুহিন]] ||''আনফিনিশড জার্নি: টুয়েন্টি ইয়ার্স লেটার'' ||''Unfinished Journey: Twenty Years Later'' ||ইংরেজি ||১৯৯৯
+|-
+|[[Paul Nicholas|পল নিকোলাস]] ||''বিহাইন্ড দ্য স্মাইল'' ||''Behind the Smile'' ||ইংরেজি ||১৯৯৯
+|-
+|[[Donny Osmond|ডনি অসমন্ড]] ||''লাইফ ইজ জাস্ট হোয়াট ইউ মেক ইট'' ||''Life Is Just What You Make It'' ||ইংরেজি ||১৯৯৯
+|-
+|[[Meat Loaf|মিট লোফ]] ||''[[Meat Loaf: To Hell and Back|টু হেল অ্যান্ড ব্যাক]]'' ||''[[Meat Loaf: To Hell and Back|To Hell and Back]]'' ||ইংরেজি ||২০০০
+|-
+|[[Britney Spears|ব্রিটনি স্পিয়ার্স]] ||''হার্ট টু হার্ট'' ||''Heart to Heart'' ||ইংরেজি ||২০০০
+|-
+|[[Gene Simmons|জিন সিমন্স]] ||''কিস অ্যান্ড মেকআপ'' ||''KISS and Makeup'' ||ইংরেজি ||২০০২
+|-
+|[[Carnie Wilson|কার্নি উইলসন]] ||''আই'ম স্টিল হাংরি'' ||''I'm Still Hungry'' ||ইংরেজি ||২০০৩
+|-
+|[[Sting (musician)|স্টিং (সঙ্গীতজ্ঞ)]] ||''ব্রোকেন মিউজিক'' ||''Broken Music'' ||ইংরেজি ||২০০৩
+|-
+|[[Jimmy Dean|জিমি ডিন]] ||''থার্টি ইয়ার্স অব সসেজ & ফিফটি ইয়ার্স অব হ্যাম'' ||''Thirty Years of Sausage & Fifty Years of Ham'' ||ইংরেজি ||২০০৪
+|-
+|[[Bob Dylan|বব ডিলান]] ||''[[Chronicles: Volume One|ক্রনিকলস: ভলিউম ওয়ান]]'' ||''[[Chronicles: Volume One]]'' ||ইংরেজি ||২০০৪
+|-
+|[[Merle Haggard|মার্ল হ্যাগার্ড]] ||''মাই হাউস অব মেমোরিজ'' ||''My House of Memories'' ||ইংরেজি ||২০০৪
+|-
+|[[Anthony Kiedis|অ্যান্থনি কিডিস]] ||''স্কার টিস্যু'' ||''Scar Tissue'' ||ইংরেজি ||২০০৪
+|-
+|[[Nena|নেনা]] ||''"ডু ইউ ওয়ান্ট টু গো উইথ মি?"'' ||''"Do You Want to Go With Me?"'' (''Willst du mit mir gehn?'') ||জার্মান ||২০০৫
+|-
+|[[Bobby "Boris" Pickett|ববি "বরিস" পিকেট]] ||''মনস্টার ম্যাশ: হালফ-ডিড ইন হলিউড'' ||''Monster Mash: Half-Dead in Hollywood'' ||ইংরেজি ||২০০৫
+|-
+|[[Robie Lester|রবি লেস্টার]] ||''লঁজেরি ফর হুকার্স ইন দ্য স্নো'' ||''Lingerie For Hookers In the Snow'' (''released posthumously'') ||ইংরেজি ||২০০৬
+|-
+|[[John Reed (actor)|জন রিড]] ||''নাথিং হোয়াটএভার টু গ্রাম্বল অ্যাট: হিজ স্টোরি, অ্যাজ টোল্ড টু সিনথিয়া মোরি'' ||''Nothing Whatever to Grumble At: His Story, as told to Cynthia Morey'' ||ইংরেজি ||২০০৬
+|-
+|[[Alice Cooper|অ্যালিস কুপার]] ||''গলফ মনস্টার: আ রক 'এন' রোলারস ১২ স্টেপস টু বিকামিং আ গলফ অ্যাডিক্ট'' ||''Golf Monster: A Rock 'n' Roller's 12 Steps to Becoming a Golf Addict'' ||ইংরেজি ||২০০৭
+|-
+|[[Mike Oldfield|মাইক ওল্ডফিল্ড]] ||''[[Changeling (Mike Oldfield autobiography)|চেঞ্জলিং]]'' ||''[[Changeling (Mike Oldfield autobiography)|Changeling]]'' ||ইংরেজি ||২০০৭
+|-
+|[[Horace Silver|হোরাস সিলভার]] ||''লেটস গেট টু দ্য নিটি গ্রিটি'' ||''Let's Get to the Nitty Gritty'' ||ইংরেজি ||২০০৭
+|-
+|[[Slash (musician)|স্ল্যাশ]] ||''ইট সিমস এক্সেসিভ...বাট দ্যাট ডাজন্ট মিন ইট ডিডন্ট হ্যাপেন'' ||''It Seems Excessive...But That Doesn't Mean it Didn't Happen'' ||ইংরেজি ||২০০৭
+|-
+|[[Miley Cyrus|মাইলি সাইরাস]] ||''মাইলস টু গো'' ||''Miles To Go'' ||ইংরেজি ||২০০৮
+|-
+|[[Eminem|এমিনেম]] ||''দ্য ওয়ে আই অ্যাম'' ||''The Way I Am'' ||ইংরেজি ||২০০৮
+|-
+|[[Westlife|ওয়েস্টলাইফ]] ||''[[Westlife - Our Story|আওয়ার স্টোরি]]'' ||''[[Westlife - Our Story|Our Story]]'' ||ইংরেজি ||২০০৮
+|-
+|[[Carnie Wilson|কার্নি উইলসন]] ||''গাট ফিলিংস'' ||''Gut Feelings'' ||ইংরেজি ||২০০৮
+|-
+|[[Marie Osmond|মারি অসমন্ড]] ||''আই মে অ্যাজ ওয়েল লাফ অ্যাবাউট ইট'' ||''I May As Well Laugh About It'' ||ইংরেজি ||২০০৯
+|-
+|[[Belinda Carlisle|বেলিন্ডা কার্লাইল]] ||''লিপস আনসিল্ড'' ||''Lips Unsealed'' ||ইংরেজি ||২০১০
+|-
+|[[Keith Richards|কিথ রিচার্ডস]] ||''[[Life (Keith Richards)|লাইফ]]'' ||''[[Life (Keith Richards)|Life]]'' ||ইংরেজি ||২০১০
+|-
+|[[Rick Springfield|রিক স্প্রিংফিল্ড]] ||''লেট, লেট অ্যাট নাইট'' ||''Late, Late at Night'' ||ইংরেজি ||২০১০
+|-
+|[[Alice Bag|অ্যালিস ব্যাগ]] ||''ভায়োলেন্স গার্ল'' ||''Violence Girl'' ||ইংরেজি ||২০১১
+|-
+|[[Ace Frehley|এস ফ্রেলি]] ||''নো রিগ্রেটস'' ||''No Regrets'' ||ইংরেজি ||২০১১
+|-
+|[[Florence Henderson|ফ্লোরেন্স হেন্ডারসন]] ||''লাইফ ইজ নট আ স্টেজ: ফ্রম ব্রডওয়ে বেবি টু আ লাভলি লেডি অ্যান্ড বিয়ন্ড, উইথ জোয়েল ব্রোকো'' ||''Life Is Not a Stage: From Broadway Baby to a Lovely Lady and Beyond, with Joel Brokaw'' ||ইংরেজি ||২০১১
+|-
+|[[Shania Twain|শানাইয়া টোয়েইন]] ||''ফ্রম দিস মোমেন্ট অন'' ||''From This Moment On'' ||ইংরেজি ||২০১১
+|-
+|[[Gregg Allman|গ্রেগ অলম্যান]] ||''[[My Cross to Bear|মাই ক্রস টু বেয়ার]]'' ||''[[My Cross to Bear]]'' ||ইংরেজি ||২০১২
+|-
+|[[Larry Butler (producer)|ল্যারি বাটলার]] ||''জাস্ট ফর দ্য রেকর্ড'' ||''Just For the Record'' ||ইংরেজি ||২০১২
+|-
+|[[Peter Criss|পিটার ক্রিস]] ||''মেকআপ টু ব্রেকআপ: মাই লাইফ ইন অ্যান্ড আউট অব কিস'' ||''Makeup to Breakup: My Life In and Out of KISS'' ||ইংরেজি ||২০১২
+|-
+|[[Elton John|এলটন জন]] ||''লাভ ইজ দ্য কিউর'' ||''Love Is the Cure'' ||ইংরেজি ||২০১২
+|-
+|[[Dee Snider|ডি স্নাইডার]] ||''শাট আপ অ্যান্ড গিভ মি দ্য মিক'' ||''Shut Up and Give Me the Mic'' ||ইংরেজি ||২০১২
+|-
+|[[Pete Townshend|পিট টাউনশেন্ড]] ||''[[Who I Am (book)|হু আই অ্যাম]]'' ||''[[Who I Am (book)|Who I Am]]'' ||ইংরেজি ||২০১২
+|-
+|[[Shirley Jones|শার্লি জোন্স]] ||''সজ: আ মেমোয়ার, ওরফে আই ডোন্ট জেস্ট, বাট প্লিজ কল মি শার্লি!'' ||''SJ: a Memoir, AKA I Don't Jest, but Please Call Me Shirley!'' ||ইংরেজি ||২০১৩
+|-
+|[[Shane Filan|শেন ফাইলান]] ||''[[My Side of Life|মাই সাইড অব লাইফ]]'' ||''[[My Side of Life]]'' ||ইংরেজি ||২০১৪
+|-
+|[[Edgar Froese|এডগার ফ্রয়েস]] ||''ফোর্স মাজোর: ৪৭ ইয়ার্স অব ট্যানজারিন ড্রিম-িনগ'' ||''Force Majeure: 47 Years of Tangerine Dream-ing'' ||জার্মান ||২০১৪
+|-
+|[[Paul Stanley|পল স্ট্যানলি]] ||''ফেস দ্য মিউজিক: আ লাইফ এক্সপোজড'' ||''Face the Music: A Life Exposed'' ||ইংরেজি ||২০১৪
+|-
+|[[Sir Tom Jones|স্যার টম জোন্স]] ||''ওভার দ্য টপ & ব্যাক'' ||''Over the Top & Back'' ||ইংরেজি ||২০১৫
+|-
+|[[Sebastian Bach|সেবাস্টিয়ান বাখ]] ||''১৮ & লাইফ অন স্কিড রো'' ||''18 & Life on Skid Row'' ||ইংরেজি ||২০১৬
+|-
+|[[Thomas Dolby|টমাস ডলবি]] ||''দ্য স্পিড অব সাউন্ড'' ||''The Speed of Sound'' ||ইংরেজি ||২০১৬
+|-
+|[[Lita Ford|লিটা ফোর্ড]] ||''লিভিং লাইক আ রানঅ্যাওয়ে'' ||''Living Like a Runaway'' ||ইংরেজি ||২০১৬
+|-
+|[[Grace Jones|গ্রেস জোন্স]] ||''আই'ল নেভার রাইট মাই মেমোয়ার্স'' ||''I'll Never Write My Memoirs'' ||ইংরেজি ||২০১৬
+|-
+|[[Toni Tennille|টনি টেনিল]] ||''টট: আ মেমোয়ার, ওরফে দ্য ক্যাপ্টেন & আই'' ||''TT: a Memoir, AKA The Captain & I'' ||ইংরেজি ||২০১৬
+|-
+|[[Jack Wild|জ্যাক ওয়াইল্ড]] ||''ইটস আ ডজারস লাইফ, ওরফে রিভিউয়িং মাই সিচুয়েশন'' ||''It's a Dodger's Life, AKA Reviewing My Situation'' (published posthumously) ||ইংরেজি ||২০১৬
+|-
+|[[Charlie Daniels|চার্লি ড্যানিয়েলস]] ||''নেভার লুক অ্যাট দ্য এম্পটি সিটস'' ||''Never Look At the Empty Seats'' ||ইংরেজি ||২০১৭
+|-
+|[[Samantha Fox|সামান্থা ফক্স]] ||''ফরএভার, ওরফে আ ফক্স ফর অল সেঞ্চুরিজ'' ||''Forever, AKA A Fox for All Centuries'' ||ইংরেজি ||২০১৭
+|-
+|[[Art Garfunkel|আর্ট গারফাঙ্কেল]] ||''হোয়াট ইজ ইট অল বাট লুমিনাস?'' ||''What Is It All But Luminous?'' ||ইংরেজি ||২০১৭
+|-
+|[[Mike Nesmith|মাইক নেসমিথ]] ||''ইনফিনিট টিউজডে: অ্যান অটোবায়োগ্রাফিক্যাল রিফ'' ||''Infinite Tuesday: an Autobiographical Riff'' ||ইংরেজি ||২০১৭
+|-
+|[[John Oates|জন ওটস]] ||''চেঞ্জ অব সিজনস'' ||''Change of Seasons'' ||ইংরেজি ||২০১৭
+|-
+|[[Roger Daltrey|রজার ডালট্রে]] ||''থ্যাঙ্কস আ লট, মি. কিবলহোয়াইট'' ||''Thanks a Lot, Mr. Kibblewhite'' ||ইংরেজি ||২০১৮
+|-
+|[[K.K. Downing|কে.কে. ডাউনিং]] ||''হেভি ডিউটি: মাই ডেস & নাইটস ইন জুডাস প্রিস্ট'' ||''Heavy Duty: My Days & Nights In Judas Priest'' ||ইংরেজি ||২০১৮
+|-
+|[[Drew Fortier|ড্রু ফোর্টিয়ার]] ||''ডার্ক, ডিপ্রেসিং, অ্যান্ড হিলেরিয়াস'' ||''Dark, Depressing, and Hilarious'' ||ইংরেজি ||২০১৮
+|-
+|[[Steve Lukather|স্টিভ লুকাথার]] ||''দ্য গসপেল অ্যাকর্ডিং টু লুক'' ||''The Gospel According to Luke'' ||ইংরেজি ||২০১৮
+|-
+|[[Olivia Newton-John|অলিভিয়া নিউটন-জন]] ||''ডোন্ট স্টপ বিলিভিং'' ||''Don't Stop Believing'' ||ইংরেজি ||২০১৮
+|-
+|[[Leif Garrett|লেইফ গ্যারেট]] ||''আইডল ট্রুথ'' ||''Idol Truth'' ||ইংরেজি ||২০১৯
+|-
+|[[John Georgiadis|জন জর্জিয়াডিস]] ||''বো টু ব্যাটন: আ লিডারস লাইফ'' ||''Bow to Baton: A Leader's Life'' ||ইংরেজি ||২০১৯
+|-
+|[[Deborah Harry|ডেবোরা হ্যারি]] ||''ফেস ইট'' ||''Face It'' ||ইংরেজি ||২০১৯
+|-
+|[[Liz Phair|লিজ ফেয়ার]] ||''হরর স্টোরিজ'' ||''Horror Stories'' ||ইংরেজি ||২০১৯
+|-
+|[[Andrew Ridgeley|অ্যান্ড্রু রিজলি]] ||''হোয়াম!, জর্জ মাইকেল, & মি'' ||''WHAM!, George Michael, & Me'' ||ইংরেজি ||২০১৯
+|-
+|[[Stephen Morris (musician)|স্টিফেন মরিস]] ||''রেকর্ড প্লে পজ'' ||''Record Play Pause'' ||ইংরেজি ||২০১৯
+|-
+|[[Mariah Carey|মারাইয়া কেরি]] ||''দ্য মিনিং অব এম.সি.'' ||''The Meaning of M.C.'' ||ইংরেজি ||২০২০
+|-
+|[[Jessica Simpson|জেসিকা সিম্পসন]] ||''ওপেন বুক'' ||''Open Book'' ||ইংরেজি ||২০২০
+|-
+|[[Kathy Valentine|ক্যাথি ভ্যালেন্টাইন]] ||''[[Rock 'N' Roll|রক 'এন.' রোল]]'' ||''[[Rock 'N' Roll]]'' ||ইংরেজি ||২০২০
+|-
+|[[Richard Marx|রিচার্ড মার্ক্স]] ||''স্টোরিজ টু টেল'' ||''Stories to Tell'' ||ইংরেজি ||২০২১
+|-
+|[[Stephen Morris (musician)|স্টিফেন মরিস]] ||''ফাস্ট ফরোয়ার্ড'' ||''Fast Forward'' ||ইংরেজি ||২০২১
+|-
+|[[Paul Nicholas|পল নিকোলাস]] ||''মিউজিক্যালস, মেরিগোল্ডস, & মি'' ||''Musicals, Marigolds, & Me'' ||ইংরেজি ||২০২১
+|-
+|[[Sinéad O'Connor|শিনাড ও'কনর]] ||''রিমেম্বারিংস'' ||''Rememberings'' ||ইংরেজি ||২০২১
+|-
+|[[Gina Schock|জিনা শক]] ||''মেড ইন হলিউড: অল অ্যাকসেস উইথ দ্য গো-গো'স'' ||''Made In Hollywood: All Access with the Go-Go's'' ||ইংরেজি ||২০২১
+|-
+|[[Will Smith|উইল স্মিথ]] ||''উইল, ওরফে হোয়ার দেয়ারস আ ওয়ে'' ||''Will, AKA Where There's a Way'' ||ইংরেজি ||২০২১
+|-
+|[[Bono|বোনো]] ||''সারেন্ডার'' ||''Surrender'' ||ইংরেজি ||২০২২
+|-
+|[[Boy George|বয় জর্জ]] ||''কর্ম'' ||''Karma'' ||ইংরেজি ||২০২৩
+|-
+|[[Britney Spears|ব্রিটনি স্পিয়ার্স]] ||''দ্য ওম্যান ইন মি'' ||''The Woman In Me'' ||ইংরেজি ||২০২৩
+|-
+|[[Bonnie Tyler|বনি টাইলার]] ||''স্ট্রেইট ফ্রম দ্য হার্ট'' ||''Straight from the Heart'' ||ইংরেজি ||২০২৩
+|-
+|[[Moon Zappa|মুন জাপ্পা]] ||''আর্থ টু মুন'' ||''Earth to Moon'' ||ইংরেজি ||২০২৪
+|-
+|[[Ozzy Osbourne|ওজি অসবোর্ন]] ||''লাস্ট রাইটস'' ||''Last Rites'' (''released posthumously'') ||ইংরেজি ||২০২৫
+|-
+|[[Lionel Richie|লায়নেল রিচি]] ||''ট্রুলি'' ||''Truly'' ||ইংরেজি ||২০২৫
+|-
+|[[Liza Minnelli|লাইজা মিনেলি]] ||''কিডস, ওয়েট টিল ইউ হিয়ার দিস!'' ||''Kids, Wait Till You Hear This!'' ||ইংরেজি ||২০২৬
+|-
+|[[Charles Darwin|চার্লস ডারউইন]] ||''দ্য রিকলেকশনস অব দ্য ডেভেলপমেন্ট অব মাই মাইন্ড অ্যান্ড ক্যারেক্টার'' ||''The Recollections of the Development of My Mind and Character'' ||ইংরেজি ||১৮৭৬
+|-
+|[[Charles Darwin|চার্লস ডারউইন]] ||''[[The Autobiography of Charles Darwin|চার্লস ডারউইনের আত্মজীবনী]]'' ||''[[The Autobiography of Charles Darwin]]'' ||ইংরেজি ||১৮৮৭
+|-
+|[[Jean-Paul Sartre|জঁ-পল সার্ত্র]] ||''[[The Words (book)|দ্য ওয়ার্ডস]]'' ||''[[The Words (book)|The Words]]'' ||ফরাসি ||১৯৬৪
+|-
+|[[David Hume|ডেভিড হিউম]] ||''মাই ওন লাইফ'' ||''My Own Life'' ||ইংরেজি ||১৭৭৭
+|-
+|[[John Stuart Mill|জন স্টুয়ার্ট মিল]] ||''অটোবায়োগ্রাফি'' ||''Autobiography'' ||ইংরেজি ||১৮৭৪
+|-
+|[[Paramahansa Yogananda|পরমহংস যোগানন্দ]] ||''[[Autobiography of a Yogi|অটোবায়োগ্রাফি অব আ যোগী]]'' ||''[[Autobiography of a Yogi]]'' ||ইংরেজি ||১৯৫৫
+|-
+|[[Simone de Beauvoir|সিমন দ্য বোভোয়ার]] ||''দ্য প্রাইম অব লাইফ'' ||''The Prime of Life'' ||ফরাসি ||১৯৬০
+|-
+|[[Philip M. Morse|ফিলিপ এম. মোর্স]] ||''ইন অ্যাট দ্য বিগিনিংস: আ ফিজিসিস্টস লাইফ'' ||''In at the Beginnings: A Physicist's Life'' ||ইংরেজি ||১৯৭৬
+|-
+|[[Richard Feynman|রিচার্ড ফাইনম্যান]] ||''[[Surely You're Joking, Mr. Feynman!|সিওরলি ইউ আর জোকিং, মি. ফাইনম্যান!]]'' ||''[[Surely You're Joking, Mr. Feynman!]]'' ||ইংরেজি ||১৯৮৫
+|-
+|[[Luis Walter Alvarez|লুইস আলভারেজ]] ||''আলভারেস: অ্যাডভেঞ্চার্স অব আ ফিজিসিস্ট'' ||''Alvarez: Adventures of a Physicist'' ||ইংরেজি ||১৯৮৭
+|-
+|[[Emilio Segrè|এমিলিও সেগরে]] ||''আ মাইন্ড অলওয়েজ ইন মোশন'' ||''A Mind Always in Motion'' ||ইংরেজি ||১৯৯৩
+|-
+|[[Fay Ajzenberg-Selove|ফে আজেনবার্গ-সেলোভ]] ||''আ ম্যাটার অব চয়েসেস: মেমোয়ার্স অব আ ফিমেল ফিজিসিস্ট'' ||''A Matter of Choices: Memoirs of a Female Physicist'' ||ইংরেজি ||১৯৯৪
+|-
+|[[Alvin M. Weinberg|অ্যালভিন এম. ওয়াইনবার্গ]] ||''দ্য ফার্স্ট নিউক্লিয়ার এরা: দ্য লাইফ অ্যান্ড টাইমস অব আ টেকনোলজিক্যাল ফিক্সার'' ||''The First Nuclear Era: The Life and Times of a Technological Fixer'' ||ইংরেজি ||১৯৯৪
+|-
+|[[John Archibald Wheeler|জন হুইলার]] ||''গেওনস, ব্ল্যাক হোলস, অ্যান্ড কোয়ান্টাম ফোম: আ লাইফ ইন ফিজিক্স'' ||''Geons, Black Holes, and Quantum Foam: A Life in Physics'' ||ইংরেজি ||১৯৯৮
+|-
+|[[Maurice Wilkins|মরিস উইলকিন্স]] ||''মরিস উইলকিন্স: দ্য থার্ড ম্যান অব দ্য ডাবল হেলিক্স'' ||''Maurice Wilkins: The Third Man of the Double Helix'' ||ইংরেজি ||২০০৩
+|-
+|[[Isaak Khalatnikov|আইজাক খালাতনিকভ]] ||''ফ্রম দ্য অ্যাটমিক বোম টু দ্য ল্যান্ডাউ ইন্সটিটিউট: অটোবায়োগ্রাফি. টপ নোন-সেক্রেট'' ||''From the Atomic Bomb to the Landau Institute: Autobiography. Top Non-Secret'' ||রুশ ||২০১২
+|-
+|[[Rudolf Peierls|রুডলফ পিয়ার্লস]] ||''বার্ড অব প্যাসেজ: রিকলেকশনস অব আ ফিজিসিস্ট'' ||''Bird of Passage: Recollections of a Physicist'' ||ইংরেজি ||২০১৪
+|-
+|[[Marcus Aurelius|মার্কাস অরেলিয়াস]] ||''[[Meditations|মেডিটেশনস]]'' ||''[[Meditations]]'' ||লাতিন ||০১৭৫
+|-
+|[[Manuel Belgrano|ম্যানুয়েল বেলগ্রানো]] ||''[[Autobiography of Manuel Belgrano|অটোবায়োগ্রাফি অব ম্যানুয়েল বেলগ্রানো]]'' ||''[[Autobiography of Manuel Belgrano]]'' ||স্পেনীয় ||১৮১৪
+|-
+|[[Frederick Douglass|ফ্রেডেরিক ডগলাস]] ||''[[Narrative of the Life of Frederick Douglass, an American Slave|ন্যারেটিভ অব দ্য লাইফ অব ফ্রেডেরিক ডগলাস]]'' ||''[[Narrative of the Life of Frederick Douglass, an American Slave]]'' ||ইংরেজি ||১৮৪৫
+|-
+|[[Frederick Douglass|ফ্রেডেরিক ডগলাস]] ||''[[My Bondage and My Freedom|মাই বন্ডেজ অ্যান্ড মাই ফ্রিডম]]'' ||''[[My Bondage and My Freedom]]'' ||ইংরেজি ||১৮৫৫
+|-
+|[[Joaquim Nabuco|জোয়াকিম নাবুকো]] ||''[[Minha formação|মিনিয়া ফরমাসাঁও]]'' ||''[[Minha formação]]'' ||পর্তুগিজ ||১৯০০
+|-
+|[[Booker T. Washington|বুকার টি. ওয়াশিংটন]] ||''[[Up from Slavery|আপ ফ্রম স্লেভারি]]'' ||''[[Up from Slavery]]'' ||ইংরেজি ||১৯০১
+|-
+|[[Theodore Roosevelt|থিওডোর রুজভেল্ট]] ||''থিওডোর রুজভেল্ট: অ্যান অটোবায়োগ্রাফি'' ||''Theodore Roosevelt: An Autobiography'' ||ইংরেজি ||১৯১৩
+|-
+|[[Stephen A. Douglas|স্টিফেন এ. ডগলাস]] ||''অটোবায়োগ্রাফি অব স্টিফেন আ. ডগলাস'' ||''Autobiography of Stephen A. Douglas'' ||ইংরেজি ||১৯১৩
+|-
+|[[Emmeline Pankhurst|এমেলিন প্যাঙ্কহার্স্ট]] ||''মাই ওন স্টোরি'' ||''My Own Story'' ||ইংরেজি ||১৯১৪
+|-
+|[[Mary Harris Jones|ম্যারি হ্যারিস জোন্স]] ||''অটোবায়োগ্রাফি অব মাদার জোনস'' ||''Autobiography of Mother Jones'' ||ইংরেজি ||১৯২৫
+|-
+|[[Adolf Hitler|এডলফ হিটলার]] ||''[[Mein Kampf|মাইন কাম্পফ]]'' ||''[[Mein Kampf]]'' ||জার্মান ||১৯২৫
+|-
+|[[Benito Mussolini|বেনিতো মুসোলিনি]] ||''[[My Autobiography (Mussolini)|মাই অটোবায়োগ্রাফি]]'' ||''[[My Autobiography (Mussolini)|My Autobiography: With the Political and Social Doctrine of Fascism]]'' ||ইতালীয় ||১৯২৮
+|-
+|[[Calvin Coolidge|ক্যালভিন কুলিজ]] ||''[[The Autobiography of Calvin Coolidge|দ্য অটোবায়োগ্রাফি অব ক্যালভিন কুলিজ]]'' ||''[[The Autobiography of Calvin Coolidge]]'' ||ইংরেজি ||১৯২৯
+|-
+|[[Winston Churchill|উইনস্টন চার্চিল]] ||''[[My Early Life|মাই আর্লি লাইফ]]'' ||''[[My Early Life]]'' ||ইংরেজি ||১৯৩০
+|-
+|[[Jawaharlal Nehru|জওহরলাল নেহরু]] ||''[[An Autobiography (Nehru)|অ্যান অটোবায়োগ্রাফি (নেহেরু)]]'' ||''[[An Autobiography (Nehru)|An Autobiography]]'' ||ইংরেজি ||১৯৩৬
+|-
+|[[Manny Shinwell|ম্যানি শিনওয়েল]] ||''কনফ্লিক্ট উইদাউট ম্যালিস'' ||''Conflict Without Malice'' ||ইংরেজি ||১৯৫৫
+|-
+|[[Winston Churchill|উইনস্টন চার্চিল]] ||''মেমোয়ার্স অব দ্য সেকেন্ড ওয়ার্ল্ড ওয়ার'' ||''Memoirs of the Second World War'' ||ইংরেজি ||১৯৫৯
+|-
+|[[Malcolm X|ম্যালকম এক্স]] ||''[[The Autobiography of Malcolm X|দ্য অটোবায়োগ্রাফি অব ম্যালকম এক্স.]]'' ||''[[The Autobiography of Malcolm X]]'' ||ইংরেজি ||১৯৬৫
+|-
+|[[Golda Meir|গোল্ডা মেয়ার]] ||''[[My Life (Meir autobiography)|মাই লাইফ]]'' ||''[[My Life (Meir autobiography)|My Life]]'' ||ইংরেজি ||১৯৭৩
+|-
+|[[Manny Shinwell|ম্যানি শিনওয়েল]] ||''আই'ভ লিভড থ্রু ইট অল'' ||''I've Lived Through It All'' ||ইংরেজি ||১৯৭৩
+|-
+|[[Manny Shinwell|ম্যানি শিনওয়েল]] ||''লিড উইথ দ্য লেফট: মাই ফার্স্ট নিনেটয়-সিক্স ইয়ার্স'' ||''Lead With the Left: My First Ninety-Six Years'' ||ইংরেজি ||১৯৮১
+|-
+|[[Roy Hattersley|রয় হ্যাটার্সলি]] ||''আ ইয়র্কশায়ার বয়হুড'' ||''A Yorkshire Boyhood'' ||ইংরেজি ||১৯৮৩
+|-
+|[[Ronald Reagan|রোনাল্ড রেগন]] ||''[[An American Life|অ্যান আমেরিকান লাইফ]]'' ||''[[An American Life]]'' ||ইংরেজি ||১৯৯০
+|-
+|[[Margaret Thatcher|মার্গারেট থ্যাচার]] ||''[[The Downing Street Years|দ্য ডাউনিং স্ট্রিট ইয়ার্স]]'' ||''[[The Downing Street Years]]'' ||ইংরেজি ||১৯৯৩
+|-
+|[[Dan Quayle|ড্যান কোয়েল]] ||''স্ট্যান্ডিং ফার্ম'' ||''Standing Firm'' ||ইংরেজি ||১৯৯৪
+|-
+|[[Nelson Mandela|নেলসন ম্যান্ডেলা]] ||''[[Long Walk to Freedom|লং ওয়াক টু ফ্রিডম]]'' ||''[[Long Walk to Freedom]]'' ||ইংরেজি ||১৯৯৫
+|-
+|[[Barack Obama|বারাক ওবামা]] ||''[[Dreams from My Father|আমার পিতার স্বপ্ন থেকে]]'' ||''[[Dreams from My Father]]'' ||ইংরেজি ||১৯৯৫
+|-
+|[[Margaret Thatcher|মার্গারেট থ্যাচার]] ||''[[The Path to Power (Thatcher book)|দ্য পাথ টু পাওয়ার]]'' ||''[[The Path to Power (Thatcher book)|The Path to Power]]'' ||ইংরেজি ||১৯৯৫
+|-
+|[[Dan Quayle|ড্যান কোয়েল]] ||''দ্য আমেরিকান ফ্যামিলি: ডিসকভারিং দ্য ভ্যালুজ দ্যাট মেক আস স্ট্রং'' ||''The American Family: Discovering the Values that Make Us Strong'' ||ইংরেজি ||১৯৯৬
+|-
+|[[Dan Quayle|ড্যান কোয়েল]] ||''ওয়ার্থ ফাইটিং ফর'' ||''Worth Fighting For'' ||ইংরেজি ||১৯৯৯
+|-
+|[[Bill Clinton|বিল ক্লিনটন]] ||''[[My Life (Bill Clinton autobiography)|মাই লাইফ]]'' ||''[[My Life (Bill Clinton autobiography)|My Life]]'' ||ইংরেজি ||২০০৪
+|-
+|[[Medgar Evers|মেডগার এভার্স]] ||''দ্য অটোবায়োগ্রাফি অব মেডগার এভার্স'' ||''The Autobiography of Medgar Evers'' ||ইংরেজি ||২০০৫
+|-
+|[[Barack Obama|বারাক ওবামা]] ||''[[The Audacity of Hope|দ্য অডাসিটি অব হোপ]]'' ||''[[The Audacity of Hope]]'' ||ইংরেজি ||২০০৬
+|-
+|[[Fidel Castro|ফিদেল কাস্ত্রো]] ||''[[My Life: A Spoken Autobiography|মাই লাইফ: আ স্পোকেন অটোবায়োগ্রাফি]]'' ||''[[My Life: A Spoken Autobiography]]'' ||স্পেনীয় ||২০০৬
+|-
+|[[Ronald Reagan|রোনাল্ড রেগন]] ||''[[The Reagan Diaries|দ্য রেগান ডায়েরিজ]]'' ||''[[The Reagan Diaries]]'' ||ইংরেজি ||২০০৭
+|-
+|[[John Howard|জন হাওয়ার্ড]] ||''[[Lazarus Rising: A Personal and Political Autobiography|ল্যাজারাস রাইজিং: আ পার্সোনাল অ্যান্ড পলিটিক্যাল অটোবায়োগ্রাফি]]'' ||''[[Lazarus Rising: A Personal and Political Autobiography]]'' ||ইংরেজি ||২০১০
+|-
+|[[Malala Yousafzai|মালালা ইউসুফজাই]] ||''[[I Am Malala|আই অ্যাম মালালা]]'' ||''[[I Am Malala]]'' ||ইংরেজি ||২০১৩
+|-
+|[[Julia Gillard|জুলিয়া গিলার্ড]] ||''[[My Story (Gillard book)|মাই স্টোরি]]'' ||''[[My Story (Gillard book)|My Story]]'' ||ইংরেজি ||২০১৪
+|-
+|[[Jimmy Carter|জিমি কার্টার]] ||''[[A Full Life: Reflections at 90|আ ফুল লাইফ: রিফ্লেকশনস অ্যাট ৯০]]'' ||''[[A Full Life: Reflections at 90]]'' ||ইংরেজি ||২০১৫
+|-
+|[[Sarah McBride|সারা ম্যাকব্রাইড]] ||''[[Tomorrow Will Be Different|টুমরো উইল বি ডিফারেন্ট]]'' ||''[[Tomorrow Will Be Different]]'' ||ইংরেজি ||২০১৮
+|-
+|[[Sigmund Freud|জিগমুন্ট ফ্রয়েড]] ||''অ্যান অটোবায়োগ্রাফিক্যাল স্টাডি'' ||''An Autobiographical Study'' ||জার্মান ||১৯২৫
+|-
+|[[Carl Jung|কার্ল গুস্তাভ ইয়ুং]] ||''[[Memories, Dreams, Reflections|মেমোরিজ, ড্রিমস, রিফ্লেকশনস]]'' ||''[[Memories, Dreams, Reflections]]'' ||জার্মান ||১৯৬২
+|-
+|[[Babe Ruth|বেব রুথ]] ||''দ্য বেব রুথ স্টোরি'' ||''The Babe Ruth Story'' ||ইংরেজি ||১৯৪৮
+|-
+|[[Joe DiMaggio|জো ডিম্যাজিও]] ||''লাকি টু বি আ ইয়াঙ্কি'' ||''Lucky to Be a Yankee'' ||ইংরেজি ||১৯৫১
+|-
+|[[Ted Husing|টেড হিউসিং]] ||''মাই আইজ আর ইন মাই হার্ট'' ||''My Eyes Are In My Heart'' ||ইংরেজি ||১৯৫৯
+|-
+|[[Jerry Kramer|জেরি ক্রেমার]] ||''ইন্সট্যান্ট রিপ্লে'' ||''Instant Replay'' ||ইংরেজি ||১৯৬৮
+|-
+|[[Earl Weaver|আর্ল ওয়েভার]] ||''উইনিং'' ||''Winning'' ||ইংরেজি ||১৯৭২
+|-
+|[[Muhammad Ali|মুহাম্মদ আলী]] ||''দ্য গ্রেটেস্ট: মাই ওন স্টোরি'' ||''The Greatest: My Own Story'' ||ইংরেজি ||১৯৭৫
+|-
+|[[Bill Russell|বিল রাসেল]] ||''সেকেন্ড উইন্ড: দ্য মেমোয়ার্স অব অ্যান অপিনিয়নেটেড ম্যান'' ||''Second Wind: The Memoirs of an Opinionated Man'' ||ইংরেজি ||১৯৭৯
+|-
+|[[Earl Weaver|আর্ল ওয়েভার]] ||''ইটস হোয়াট ইউ লার্ন আফটার ইউ নো ইট অল দ্যাট কাউন্টস'' ||''It's What You Learn After You Know It All That Counts'' ||ইংরেজি ||১৯৮৩
+|-
+|[[Howard Cosell|হাওয়ার্ড কোসেল]] ||''আই নেভার প্লেড দ্য গেম'' ||''I Never Played the Game'' ||ইংরেজি ||১৯৮৫
+|-
+|[[Kapil Dev|কপিল দেব]] ||''বাই গডস ডিক্রি'' ||''By God's Decree'' ||ইংরেজি ||১৯৮৫
+|-
+|[[Mark "Jacko" Jackson|মার্ক জ্যাকসন]] ||''ডাম লাইক আ ফক্স'' ||''Dumb Like a Fox'' ||ইংরেজি ||১৯৮৬
+|-
+|[[Kapil Dev|কপিল দেব]] ||''ক্রিকেট মাই স্টাইল'' ||''Cricket My Style'' ||ইংরেজি ||১৯৮৭
+|-
+|[[John Matuszak|জন মাটুসাক]] ||''ক্রুজিং উইথ দ্য টুজ'' ||''Cruising With the Tooz'' ||ইংরেজি ||১৯৮৭
+|-
+|[[Steve Howe (baseball)|স্টিভ হাও]] ||''বিটুইন দ্য লাইনস: মাই স্ট্রাগল টু এসকেপ দ্য নাইটমেয়ার অব অ্যাডিকশন'' ||''Between the Lines: My Struggle to Escape the Nightmare of Addiction'' ||ইংরেজি ||১৯৮৯
+|-
+|[[Kareem Abdul-Jabbar|করিম আব্দুল-জব্বার]] ||''[[Giant Steps (book)|জায়ান্ট স্টেপস]]'' ||''[[Giant Steps (book)|Giant Steps]]'' ||ইংরেজি ||১৯৯০
+|-
+|[[Wilt Chamberlain|উইল্ট চেম্বারলিন]] ||''আ ভিউ ফ্রম অ্যাবাভ'' ||''A View From Above'' ||ইংরেজি ||১৯৯০
+|-
+|[[Elizabeth Manley|এলিজাবেথ ম্যানলি]] ||''থাম্বস আপ'' ||''Thumbs Up'' ||ইংরেজি ||১৯৯০
+|-
+|[[Nancy Kerrigan|ন্যান্সি কেরিগান]] ||''ইন মাই ওন ওয়ার্ডস'' ||''In My Own Words'' ||ইংরেজি ||১৯৯৬
+|-
+|[[Dominique Moceanu|ডমিনিক মোচিয়ানু]] ||''ডম: অ্যান অটোবায়োগ্রাফি'' ||''DM: an Autobiography'' ||ইংরেজি ||১৯৯৬
+|-
+|[[Tara Lipinski|তারা লিপিনস্কি]] ||''ট্রায়াম্ফ অন আইস'' ||''Triumph on Ice'' ||পোলীয় ||১৯৯৮
+|-
+|[[Jesse Ventura|জেসি ভেঞ্চুরা]] ||''আই এন্ট গট টাইম টু ব্লিড'' ||''I Ain't Got Time To Bleed'' ||ইংরেজি ||১৯৯৮
+|-
+|[[Durwood Merrill|ডারউড মেরিল]] ||''ইউ'র আউট অ্যান্ড ইউ'র আগলি টু! কনফেশনস অব অ্যান আম্পায়ার উইথ অ্যাটিটিউড'' ||''You're Out and You're Ugly Too! Confessions of an Umpire With Attitude'' ||ইংরেজি ||১৯৯৯
+|-
+|[[Summer Sanders|সামার স্যান্ডার্স]] ||''চ্যাম্পিয়নস আর রেজড, নট বর্ন'' ||''Champions Are Raised, Not Born'' ||ইংরেজি ||১৯৯৯
+|-
+|[[Tony Hawk|টনি হক]] ||''অকুপেশন: স্কেটবোর্ডার'' ||''Occupation: Skateboarder'' ||ইংরেজি ||২০০০
+|-
+|[[Pete Sampras|পিট সাম্প্রাস]] ||''আ চ্যাম্পিয়নস মাইন্ড: লেসনস ফ্রম আ লাইফ ইন টেনিস'' ||''A Champion's Mind: Lessons From a Life In Tennis'' ||ইংরেজি ||২০০০
+|-
+|[[Tiger Woods|টাইগার উডস]] ||''হাউ আই প্লে গলফ'' ||''How I Play Golf'' ||ইংরেজি ||২০০১
+|-
+|[[Rowdy Roddy Piper|রোডি রডি পাইপার]] ||''ইন দ্য পিট'' ||''In the Pit'' ||ইংরেজি ||২০০২
+|-
+|[[Earl Weaver|আর্ল ওয়েভার]] ||''উইভার অন স্ট্র্যাটেজি'' ||''Weaver on Strategy'' ||ইংরেজি ||২০০২
+|-
+|[[Ken Kaiser|কেন কাইজার]] ||''প্ল্যানেট অব দ্য আম্পস: মাই লাইফ বিহাইন্ড দ্য প্লেট, উইথ কেভিন ফিশার'' ||''Planet of the Umps: My Life Behind the Plate, with Kevin Fisher'' ||ইংরেজি ||২০০৩
+|-
+|[[Sasha Cohen|সাশা কোহেন]] ||''ফায়ার অন আইস'' ||''Fire On Ice'' ||ইংরেজি ||২০০৫
+|-
+|[[Katarina Witt|কাতারিনা ভিট]] ||''অনলি উইথ প্যাশন'' ||''Only With Passion'' ||জার্মান ||২০০৫
+|-
+|[[Randy Couture|র্যান্ডি কুচার]] ||''বিকামিং দ্য ন্যাচারাল: মাই লাইফ ইন অ্যান্ড আউট অব দ্য কেজ'' ||''Becoming the Natural: My Life In and Out of the Cage'' ||ইংরেজি ||২০০৮
+|-
+|[[Evander Holyfield|ইভান্ডার হলিফিল্ড]] ||''বিকামিং এ: আ ফাইটারস জার্নি'' ||''Becoming EH: a Fighter's Journey'' ||ইংরেজি ||২০০৮
+|-
+|[[Tito Ortiz|টিটো অর্টিজ]] ||''দিস ইজ গনা হার্ট: দ্য লাইফ অব আ মিক্সড মার্শাল আর্টস চ্যাম্পিয়ন'' ||''This Is Gonna Hurt: the Life of a Mixed Martial Arts Champion'' ||ইংরেজি ||২০০৮
+|-
+|[[Hulk Hogan|হাল্ক হোগান]] ||''মাই লাইফ আউটসাইড দ্য রিং'' ||''My Life Outside the Ring'' ||ইংরেজি ||২০০৯
+|-
+|[[Andre Agassi|আন্দ্রে আগাসি]] ||''[[Open: An Autobiography|ওপেন: অ্যান অটোবায়োগ্রাফি]]'' ||''[[Open: An Autobiography]]'' ||ইংরেজি ||২০১০
+|-
+|[[Big John McCarthy|বিগ জন ম্যাককার্থি]] ||''আর ইউ রেডি? লেটস গেট ইট অন! দ্য মেকিং অব এমএমএ অ্যান্ড ইটস আলটিমেট রেফারি'' ||''Are You Ready? Let's Get It On! The Making of MMA and Its Ultimate Referee'' ||ইংরেজি ||২০১১
+|-
+|[[Shawn Johnson|শন জনসন]] ||''উইনিং ব্যালান্স: হোয়াট আই'ভ লার্নড সো ফার অ্যাবাউট লাভ, ফেইথ, অ্যান্ড লিভিং ইউর ড্রিমস'' ||''Winning Balance: What I've Learned So Far about Love, Faith, and Living Your Dreams'' ||ইংরেজি ||২০১৩
+|-
+|[[Milkha Singh|মিলখা সিং]] ||''[[The Race of My Life|দ্য রেস অব মাই লাইফ]]'' ||''[[The Race of My Life]]'' ||ইংরেজি ||২০১৩
+|-
+|[[Yuvraj Singh|যুবরাজ সিং]] ||''দ্য টেস্ট অব মাই লাইফ'' ||''The Test of My Life'' ||ইংরেজি ||২০১৩
+|-
+|[[Mike Tyson|মাইক টাইসন]] ||''আনডিস্পিউটেড ট্রুথ'' ||''Undisputed Truth'' ||ইংরেজি ||২০১৩
+|-
+|[[Sachin Tendulkar|শচীন তেন্ডুলকর]] ||''প্লেয়িং ইট মাই ওয়ে'' ||''Playing It My Way'' ||ইংরেজি ||২০১৪
+|-
+|[[Nastia Liukin|নাস্তিয়া লিউকিন]] ||''ফাইন্ডিং মাই শাইন'' ||''Finding My Shine'' ||ইংরেজি ||২০১৫
+|-
+|[[Thomas Hitzlsperger|টমাস হিটজলস্পারগার]] ||''[[Mutproben|মুটপ্রোবেন]]'' ||''[[Mutproben]]'' ||জার্মান ||২০২৪
+|-
+|[[Nicole Bobek|নিকোল বোবেক]] ||''বোবেক: দ্য ওয়াইল্ড ওয়ান'' ||''Bobek: the Wild One'' ||ইংরেজি ||২০২৫
+|-
+|[[Augustine of Hippo|আউরেলিয়ুস আউগুস্তিনুস]] ||''[[Confessions (Augustine)|কনফেশনস (অগাস্টিন)]]'' ||''[[Confessions (Augustine)|Confessions]]'' ||লাতিন ||৩৯৮
+|-
+|[[Albert Schweitzer|আলবার্ট শোয়েৎজার]] ||''আউট অব মাই লাইফ অ্যান্ড থট'' ||''Out of My Life and Thought'' ||জার্মান ||১৯৩৩
+|-
+|বব আরলার ||''[[They Called Me the Catch Me Killer|দে কল্ড মি দ্য ক্যাচ মি কিলার]]'' ||''[[They Called Me the Catch Me Killer]]'' ||ইংরেজি ||১৯৮২
+|-
+|[[Dalai Lama|দলাই লামা]] ||''মাই ল্যান্ড অ্যান্ড মাই পিপল'' ||''My Land and My People'' ||ইংরেজি ||১৯৬২
+|-
+|[[Edith Stein|এডিথ স্টেইন]] ||''লাইফ ইন আ ইহুদি ফ্যামিলি'' ||''Life in a Jewish Family'' ||জার্মান ||১৯৮৬
+|-
+|[[Pope John Paul II|পোপ দ্বিতীয় জন পল]] ||''গিফট অ্যান্ড মিস্ট্রি'' ||''Gift and Mystery'' ||পোলীয় ||১৯৯৬
+|-
+|[[Robert H. Schuller|রবার্ট এইচ. শুলার]] ||''মাই জার্নি: ফ্রম অ্যান আইওয়া ফার্ম টু আ ক্যাথেড্রাল অব ড্রিমস'' ||''My Journey: From an Iowa Farm to a Cathedral of Dreams'' ||ইংরেজি ||২০০১
+|-
+|[[Oswald Rufeisen|অসওয়াল্ড রুফিসেন]] ||''আই সোয়ালোড দ্য ক্যাচ অব কুইন অব কার্মেল'' ||''I Swallowed the Catch of Queen of Carmel'' ||পোলীয় ||২০০১
+|-
+|[[Morris Cerullo|মরিস সেরুলো]] ||''দ্য লেজেন্ড অব মরিস সেরুলো: হাউ গড ইউজড অ্যান অরফ্যান টু চেঞ্জ দ্য ওয়ার্ল্ড'' ||''The Legend of Morris Cerullo: How God Used an Orphan to Change the World'' ||ইংরেজি ||২০১৬
+|-
+|[[Lilia Tarawa|লিলিয়া তারাওয়া]] ||''ডটার অব গ্লোরিয়াভেল: মাই লাইফ ইন আ রিলিজিয়াস কাল্ট'' ||''Daughter of Gloriavale: My Life in a Religious Cult'' ||ইংরেজি ||২০১৭
+|-
+|[[Al-Ghazali|আবু হামিদ আল-গাজ্জালি]] ||''দ্য ডেলিভারার ফ্রম এরর'' ||''The Deliverer from Error'' ||ফার্সি ||১১০০
+|-
+|[[Peter Abelard|পিটার এবেলার্ড]] ||''[[Historia Calamitatum|হিস্টোরিয়া কালামিতাতুম]]'' ||''[[Historia Calamitatum]]'' ||ইংরেজি ||১১৩২
+|-
+|[[Firuz Shah Tughlaq|ফিরোজ শাহ তুগলক]] ||''ফুটুহাট-ে-ফিরোজশাহি'' ||''Futuhat-e-firozshahi'' ||ইংরেজি ||১৩৫১
+|-
+|[[Babur|বাবর]] ||''[[Baburnama|বাবরনামা]]'' ||''[[Baburnama]]'' ||ফার্সি ||১৫২০
+|-
+|[[Teresa of Ávila|আভিলার তেরেসা]] ||''লাইফ অব সেন্ট. তেরেসা অব যীশু'' ||''Life of St. Teresa of Jesus'' ||স্পেনীয় ||১৫৬৭
+|-
+|[[Benvenuto Cellini|বেনভেনুতো চেল্লিনি]] ||''বেনভেনুতো চেল্লিনির আত্মজীবনী'' ||''The Autobiography of Benvenuto Cellini'' ||ইতালীয় ||১৫৭০
+|-
+|[[Gerolamo Cardano|জিরোলামো কার্দানো]] ||''ডি ভিতা প্রোপ্রিয়া/ডে প্রোপ্রিয়া ভিতা লাইবার'' ||''De Vita Propria/De Propria Vita Liber'' ||লাতিন ||১৫৭৬
+|-
+|[[Jahangir|জাহাঙ্গীর]] ||''[[Tuzk-e-Jahangiri|তুজুক-ই-জাহাঙ্গিরি]]'' ||''[[Tuzk-e-Jahangiri|Tuzuk-i-Jahangiri]]'' ||ফার্সি ||১৬১০
+|-
+|[[John Bunyan|জন বুনিয়ান]] ||''[[Grace Abounding to the Chief of Sinners|গ্রেস অ্যাবাউন্ডিং টু দ্য চিফ অব সিনার্স]]'' ||''[[Grace Abounding to the Chief of Sinners]]'' ||ইংরেজি ||১৬৬৬
+|-
+|[[Giambattista Vico|জিয়ামবাতিস্তা ভিকো]] ||''দ্য অটোবায়োগ্রাফি অব জামবাতিস্তা ভিকো'' ||''The Autobiography of Giambattista Vico'' ||ইতালীয় ||১৭৪১
+|-
+|[[Charlotte Charke|শার্লট চার্ক]] ||''আ ন্যারেটিভ অব দ্য লাইফ অব মিসেস. শার্লট চার্ক'' ||''A Narrative of the Life of Mrs. Charlotte Charke'' (''Youngest Daughter of Colley Cibber, Esq;'') ||ইংরেজি ||১৭৫৫
+|-
+|[[Elizabeth Ashbridge|এলিজাবেথ অ্যাশব্রিজ]] ||''সাম অ্যাকাউন্ট অব দ্য ফোর পার্ট অব দ্য লাইফ অব এলিজাবেথ অ্যাশব্রিজ'' ||''Some Account of the Fore Part of the Life of Elizabeth Ashbridge'' ||ইংরেজি ||১৭৫৫
+|-
+|[[Jonathan Edwards (theologian)|জোনাথন এডওয়ার্ডস]] ||''পার্সোনাল ন্যারেটিভ'' ||''Personal Narrative'' ||ইংরেজি ||১৭৬৮
+|-
+|[[Olaudah Equiano|ওলাউদাহ ইকুইয়ানো]] ||''[[The Interesting Narrative of the Life of Olaudah Equiano|দ্য ইন্টারেস্টিং ন্যারেটিভ অব দ্য লাইফ অব ওলাউদাহ একুইয়ানো]]'' ||''[[The Interesting Narrative of the Life of Olaudah Equiano]]'' ||ইংরেজি ||১৭৮৯
+|-
+|[[Thomas Jefferson|টমাস জেফারসন]] ||''অটোবায়োগ্রাফি'' ||''Autobiography'' ||ইংরেজি ||১৭৯০
+|-
+|[[Mary Robinson (poet)|ম্যারি রবিনসন]] ||''মেমোয়ার্স অব দ্য লেট মিসেস. রবিনসন, রিটেন বাই হারসেলফ'' ||''Memoirs of the Late Mrs. Robinson, Written by Herself'' ||ইংরেজি ||১৮০১
+|-
+|[[Shen Fu|শেন ফু]] ||''[[Six Records of a Floating Life|সিক্স রেকর্ডস অব আ ফ্লোটিং লাইফ]]'' ||''[[Six Records of a Floating Life]]'' ||চীনা ||১৮০৮
+|-
+|[[William Cowper|উইলিয়াম কাউপার]] ||''মেমোয়ার অব দ্য আর্লি লাইফ অব উইলিয়াম কুপার, এস্কোয়ার., রিটেন বাই হিমসেলফ'' ||''Memoir of the Early Life of William Cowper, Esq., Written by Himself'' ||ইংরেজি ||১৮১৬
+|-
+|[[Harriette Wilson|হ্যারিয়েট উইলসন]] ||''মেমোয়ার্স অব হ্যারিয়েট উইলসন'' ||''Memoirs of Harriette Wilson'' ||ইংরেজি ||১৮২৫
+|-
+|[[Giacomo Casanova|জাকোমো কাসানোভা]] ||''[[Histoire de ma vie|হিস্তোয়ার দ্য মা ভি]]'' ||''[[Histoire de ma vie]]'' ||ফরাসি ||১৮২৬
+|-
+|[[Cornelio Saavedra|কর্নেলিও সাভেদ্রা]] ||''[[Memoria autógrafa|মেমোরিয়া অটোগ্রাফা]]'' ||''[[Memoria autógrafa]]'' ||স্পেনীয় ||১৮২৯
+|-
+|[[Richard Henry Dana Jr.|রিচার্ড হেনরি ডানা জুনিয়র]] ||''[[Two Years Before the Mast|টু ইয়ার্স বিফোর দ্য মাস্ট]]'' ||''[[Two Years Before the Mast]]'' ||ইংরেজি ||১৮৪০
+|-
+|[[Alphonse de Lamartine|আলফন্স দ্য লামারতিন]] ||''লে কনফিডেন্সেস'' ||''Les Confidences'' ||ফরাসি ||১৮৪৯
+|-
+|[[François-René de Chateaubriand|ফ্রঁসোয়া-রনে দ্য শাতোব্রিয়াঁ]] ||''[[Mémoires d'Outre-Tombe|মেমোয়ার্স দোত্র-তোম্ব]]'' ||''[[Mémoires d'Outre-Tombe]]'' ||ফরাসি ||১৮৪৯
+|-
+|[[George Sand|জর্জ স্যান্ড]] ||''স্টোরি অব মাই লাইফ'' ||''Story of My Life'' ||ফরাসি ||১৮৫৪
+|-
+|[[P. T. Barnum|পি. টি. বার্নাম]] ||''দ্য লাইফ অব পি.টি. বার্নাম, রিটেন বাই হিমসেলফ'' ||''The Life of P.T. Barnum, Written by Himself'' ||ইংরেজি ||১৮৫৫
+|-
+|[[Kit Carson|কিট কার্সন]] ||''মেমোয়ার্স'' ||''Memoirs'' ||ইংরেজি ||১৮৫৬
+|-
+|[[Harriet Jacobs|হ্যারিয়েট জ্যাকবস]] ||''[[Incidents in the Life of a Slave Girl|ইনসিডেন্স ইন দ্য লাইফ অব আ স্লেভ গার্ল]]'' ||''[[Incidents in the Life of a Slave Girl]]'' ||ইংরেজি ||১৮৬১
+|-
+|[[John Henry Newman|জন হেনরি নিউম্যান]] ||''[[Apologia Pro Vita Sua|অ্যাপোলজি প্রো ভাইটা সুয়া]]'' ||''[[Apologia Pro Vita Sua]]'' ||ইংরেজি ||১৮৬৪
+|-
+|[[Harriet Martineau|হ্যারিয়েট মার্টিনো]] ||''হ্যারিয়েট মার্টিনোস অটোবায়োগ্রাফি'' ||''Harriet Martineau's Autobiography'' ||ইংরেজি ||১৮৮৭
+|-
+|[[Thomas Henry Huxley|টমাস হেনরি হাক্সলি]] ||''অটোবায়োগ্রাফি'' ||''Autobiography'' ||জার্মান ||১৮৯০
+|-
+|[[Stendhal|স্টেনদাল]] ||''[[The Life of Henry Brulard|দ্য লাইফ অব হেনরি ব্রুলার্দ]]'' ||''[[The Life of Henry Brulard]]'' ||ফরাসি ||১৮৯০
+|-
+|[[Stendhal|স্টেনদাল]] ||''[[Memoirs of an Egotist|মেমোয়ার্স অব অ্যান ইগোটিস্ট]]'' ||''[[Memoirs of an Egotist]]'' ||ফরাসি ||১৮৯২
+|-
+|[[Thérèse of Lisieux|লিসিয়ুর তেরেসা]] ||''[[The Story of a Soul|দ্য স্টোরি অব আ সোল]]'' ||''[[The Story of a Soul]]'' ||ফরাসি ||১৮৯৭
+|-
+|[[Buffalo Bill|বাফেলো বিল]] ||''দ্য লাইফ অ্যান্ড অ্যাডভেঞ্চার্স অব বাফেলো বিল'' ||''The Life and Adventures of Buffalo Bill'' ||ইংরেজি ||১৮৭৯
+|-
+|[[Helen Keller|হেলেন কেলার]] ||''[[The Story of My Life (biography)|দ্য স্টোরি অব মাই লাইফ]]'' ||''[[The Story of My Life (biography)|The Story of My Life]]'' ||ইংরেজি ||১৯০৩
+|-
+|[[Geronimo|জেরোনিমো]] ||''জেরোনিমোস স্টোরি অব হিজ লাইফ'' ||''Geronimo's Story of His Life'' ||স্পেনীয় ||১৯০৬
+|-
+|[[Edmund Gosse|এডমন্ড গস]] ||''[[Father and Son (Gosse book)|ফাদার অ্যান্ড সান]]'' ||''[[Father and Son (Gosse book)|Father and Son]]'' ||ইংরেজি ||১৯০৭
+|-
+|[[Annie Besant|অ্যানি বেসান্ত]] ||''অ্যান অটোবায়োগ্রাফি'' ||''An Autobiography'' ||ইংরেজি ||১৯০৮
+|-
+|[[James Weldon Johnson|জেমস ওয়েলডন জনসন]] ||''[[The Autobiography of an Ex-Colored Man|দ্য অটোবায়োগ্রাফি অব অ্যান এক্স-কোলোরেড ম্যান]]'' ||''[[The Autobiography of an Ex-Colored Man]]'' ||ইংরেজি ||১৯১২
+|-
+|[[John Muir|জন মুর]] ||''দ্য স্টোরি অব মাই বয়হুড অ্যান্ড ইয়ুথ'' ||''The Story of My Boyhood and Youth'' ||ইংরেজি ||১৯১৩
+|-
+|[[Bertrand Russell|বারট্রান্ড রাসেল]] ||''দ্য অটোবায়োগ্রাফি অব বারট্রান্ড রাসেল'' ||''The Autobiography of Bertrand Russell'' (''Vol. 1'') ||ইংরেজি ||১৯১৪
+|-
+|[[Nikola Tesla|নিকোলা টেসলা]] ||''[[My Inventions: The Autobiography of Nikola Tesla|মাই ইনভেনশনস: দ্য অটোবায়োগ্রাফি অব নিকোলা টেসলা]]'' ||''[[My Inventions: The Autobiography of Nikola Tesla]]'' ||ইংরেজি ||১৯১৯
+|-
+|[[Zitkala-Sa|জিৎকালা-সা]] ||''ইমপ্রেশনস অব অ্যান ভারতীয় চাইল্ডহুড'' ||''Impressions of an Indian Childhood'' ||ইংরেজি ||১৯২১
+|-
+|[[Constantin Stanislavski|কনস্ট্যান্টিন স্তানিস্লাভস্কি]] ||''[[My Life in Art|মাই লাইফ ইন আর্ট]]'' ||''[[My Life in Art]]'' ||রুশ ||১৯২৪
+|-
+|[[Mahatma Gandhi|মহাত্মা গান্ধী]] ||''[[The Story of My Experiments with Truth|সত্যের সঙ্গে আমার প্রয়োগ]]'' ||''[[The Story of My Experiments with Truth]]'' ||গুজরাতি ||১৯২৭
+|-
+|[[Francis Yeats-Brown|ফ্রান্সিস ইয়েটস-ব্রাউন]] ||''[[The Lives of a Bengal Lancer (book)|দ্য লাইভস অব আ বেঙ্গল ল্যান্সার]]'' ||''[[The Lives of a Bengal Lancer (book)|The Lives of a Bengal Lancer]]'' ||ইংরেজি ||১৯৩০
+|-
+|[[Black Elk|ব্ল্যাক এল্ক]] ||''[[Black Elk Speaks|ব্ল্যাক এল্ক স্পিকস]]'' ||''[[Black Elk Speaks]]'' ||ইংরেজি ||১৯৩১
+|-
+|[[Beryl Markham|বেরিল মারখাম]] ||''[[West with the Night|ওয়েস্ট উইথ দ্য নাইট]]'' ||''[[West with the Night]]'' ||ইংরেজি ||১৯৪২
+|-
+|[[Bertrand Russell|বারট্রান্ড রাসেল]] ||''দ্য অটোবায়োগ্রাফি অব বারট্রান্ড রাসেল'' ||''The Autobiography of Bertrand Russell'' (''Vol. 2'') ||ইংরেজি ||১৯৪৪
+|-
+|[[Albert Einstein|আলবার্ট আইনস্টাইন]] ||''অটোবায়োগ্রাফিক্যাল নোটস'' ||''Autobiographical Notes'' ||জার্মান ||১৯৪৫
+|-
+|[[Primo Levi|প্রিমো লেভি]] ||''[[If This Is a Man|ইফ দিস ইজ আ ম্যান]]'' ||''[[If This Is a Man]]'' ||ইতালীয় ||১৯৪৭
+|-
+|[[Anne Frank|আনা ফ্রাঙ্ক]] ||''[[The Diary of a Young Girl|একটি কিশোরীর ডায়েরি]]'' ||''[[The Diary of a Young Girl]]'' ||ওলন্দাজ ||১৯৪৭
+|-
+|[[Thomas Merton|টমাস মার্টন]] ||''[[The Seven Storey Mountain|দ্য সেভেন স্টোরি মাউন্টেন]]'' ||''[[The Seven Storey Mountain]]'' ||ইংরেজি ||১৯৪৮
+|-
+|[[William Carlos Williams|উইলিয়াম কার্লোস উইলিয়ামস]] ||''দ্য অটোবায়োগ্রাফি অব উইলিয়াম কার্লোস উইলিয়ামস'' ||''The Autobiography of William Carlos Williams'' ||ইংরেজি ||১৯৪৮
+|-
+|[[H. V. Kaltenborn|এইচ. ভি. কাল্টেনবর্ন]] ||''ফিফটি ফ্যাবুলস ইয়ার্স'' ||''Fifty Fabulous Years'' ||ইংরেজি ||১৯৫০
+|-
+|[[A. J. Cronin|এ. জে. ক্রোনিন]] ||''[[Adventures in Two Worlds|অ্যাডভেঞ্চার্স ইন টু ওয়ার্ল্ডস]]'' ||''[[Adventures in Two Worlds]]'' ||ইংরেজি ||১৯৫২
+|-
+|[[Dorothy Day|ডরোথি ডে]] ||''[[The Long Loneliness|দ্য লং লোনলিনেস]]'' ||''[[The Long Loneliness]]'' ||ইংরেজি ||১৯৫২
+|-
+|[[Whittaker Chambers|হুইটেকার চেম্বারস]] ||''উইটনেস'' ||''Witness'' ||ইংরেজি ||১৯৫২
+|-
+|[[Bing Crosby|বিং ক্রাজবি]] ||''কল মি লাকি'' ||''Call Me Lucky'' ||ইংরেজি ||১৯৫৩
+|-
+|[[Gerald Durrell|গেরাল্ড ডারেল]] ||''[[My Family and Other Animals|মাই ফ্যামিলি অ্যান্ড আদার অ্যানিম্যালস]]'' ||''[[My Family and Other Animals]]'' ||ইংরেজি ||১৯৫৬
+|-
+|[[Jessica Mitford|জেসিকা মিটফোর্ড]] ||''[[Hons and Rebels|হনস অ্যান্ড রেবেলস]]'' ||''[[Hons and Rebels]]'' ||ইংরেজি ||১৯৬০
+|-
+|[[Chet Huntley|চেট হান্টলি]] ||''দ্য জেনারেস ইয়ার্স'' ||''The Generous Years'' ||ইংরেজি ||১৯৬৮
+|-
+|[[Florida Scott-Maxwell|ফ্লোরিডা স্কট-ম্যাক্সওয়েল]] ||''দ্য মেজার অব মাই ডেস'' ||''The Measure of My Days'' ||ইংরেজি ||১৯৬৮
+|-
+|[[Quentin Crisp|কোয়েন্টিন ক্রিস্প]] ||''[[The Naked Civil Servant (book)|দ্য নেকেড সিভিল সার্ভেন্ট]]'' ||''[[The Naked Civil Servant (book)|The Naked Civil Servant]]'' ||ইংরেজি ||১৯৬৮
+|-
+|[[Bertrand Russell|বারট্রান্ড রাসেল]] ||''দ্য অটোবায়োগ্রাফি অব বারট্রান্ড রাসেল'' ||''The Autobiography of Bertrand Russell'' (''Vol. 3'') ||ইংরেজি ||১৯৬৯
+|-
+|[[Albert Speer|আলবার্ট স্পিয়ার]] ||''[[Inside the Third Reich|ইনসাইড দ্য থার্ড রাইখ]]'' ||''[[Inside the Third Reich]]'' ||জার্মান ||১৯৭০
+|-
+|[[Marguerite de Angeli|মার্গারিট ডি অ্যাঞ্জেলি]] ||''[[Butter at the Old Price|বাটার অ্যাট দ্য ওল্ড প্রাইস]]'' ||''[[Butter at the Old Price]]'' ||ইংরেজি ||১৯৭১
+|-
+|[[Michael Collins (astronaut)|মাইকেল কলিন্স]] ||''[[Carrying the Fire: An Astronaut's Journeys|ক্যারিং দ্য ফায়ার: অ্যান অ্যাস্ট্রোনটস জার্নিজ]]'' ||''[[Carrying the Fire: An Astronaut's Journeys]]'' ||ইংরেজি ||১৯৭৪
+|-
+|[[Diana Mitford|ডায়ানা মিটফোর্ড]] ||''[[A Life of Contrasts|আ লাইফ অব কন্ট্রাস্টস]]'' ||''[[A Life of Contrasts]]'' ||ইংরেজি ||১৯৭৭
+|-
+|[[Sheldon Vanauken|শেলডন ভ্যানাউকেন]] ||''[[A Severe Mercy|আ সিভিয়ার মার্সি]]'' ||''[[A Severe Mercy]]'' ||ইংরেজি ||১৯৭৭
+|-
+|[[Albert Facey|আলবার্ট ফেসি]] ||''[[A Fortunate Life|আ ফরচুনেট লাইফ]]'' ||''[[A Fortunate Life]]'' ||ইংরেজি ||১৯৮১
+|-
+|[[Richard Rodriguez|রিচার্ড রদ্রিগেজ]] ||''[[Hunger of Memory|হাঙ্গার অব মেমোরি]]'' ||''[[Hunger of Memory]]'' ||ইংরেজি ||১৯৮২
+|-
+|[[Joseph D. Pistone|জোসেফ ডি. পিস্টোন]] ||''[[Donnie Brasco: My Undercover Life in the Mafia|ডনি ব্রাস্কো: মাই আন্ডারকাভার লাইফ ইন দ্য মাফিয়া]]'' ||''[[Donnie Brasco: My Undercover Life in the Mafia]]'' ||ইংরেজি ||১৯৮৮
+|-
+|[[Jamaica Kincaid|জ্যামাইকা কিনকেড]] ||''[[A Small Place|আ স্মল প্লেস]]'' ||''[[A Small Place]]'' ||ইংরেজি ||১৯৮৮
+|-
+|[[Janet Frame|জ্যানেট ফ্রেম]] ||''অ্যান অটোবায়োগ্রাফি'' ||''An Autobiography'' ||ইংরেজি ||১৯৮৯
+|-
+|[[Eva Hoffman|ইভা হফম্যান]] ||''লস্ট ইন অনুবাদ: আ লাইফ ইন আ নিউ ল্যাঙ্গুয়েজ'' ||''Lost in Translation: A Life in a New Language'' ||ইংরেজি ||১৯৮৯
+|-
+|[[William Styron|উইলিয়াম স্টাইরন]] ||''[[Darkness Visible (memoir)|ডার্কনেস ভিজিবল]]'' ||''[[Darkness Visible (memoir)|Darkness Visible]]'' ||ইংরেজি ||১৯৯০
+|-
+|[[Laurie Lee|লরি লি]] ||''[[A Moment of War|আ মোমেন্ট অব ওয়ার]]'' ||''[[A Moment of War]]'' ||ইংরেজি ||১৯৯১
+|-
+|[[Brian Keenan (writer)|ব্রায়ান কিনান]] ||''অ্যান ইভিল কলিং'' ||''An Evil Calling'' ||ইংরেজি ||১৯৯১
+|-
+|[[14th Dalai Lama|চতুর্দশ দালাই লামা]] ||''[[Freedom in Exile|নির্বাসনে স্বাধীনতা (আত্মজীবনী)]]'' ||''[[Freedom in Exile]]'' ||ইংরেজি ||১৯৯১
+|-
+|[[M. F. K. Fisher|এম. এফ. কে. ফিশার]] ||''লং অ্যাগো ইন ফ্রান্স: দ্য ইয়ার্স ইন দিজোঁ'' ||''Long Ago in France: The Years in Dijon'' ||ইংরেজি ||১৯৯১
+|-
+|[[Reinaldo Arenas|রেইনালদো আরেনাস]] ||''[[Before Night Falls|বিফোর নাইট ফলস]]'' ||''[[Before Night Falls]]'' ||স্পেনীয় ||১৯৯২
+|-
+|[[M. F. K. Fisher|এম. এফ. কে. ফিশার]] ||''টু বিগিন অ্যাগেইন: স্টোরিজ অ্যান্ড মেমোয়ার্স 1908-1929'' ||''To Begin Again: Stories and Memoirs 1908-1929'' ||ইংরেজি ||১৯৯২
+|-
+|[[Jung Chang|চাং জুং]] ||''[[Wild Swans|ওয়াইল্ড সোয়ানস]]'' ||''[[Wild Swans]]'' ||ইংরেজি ||১৯৯২
+|-
+|[[Mario Vargas Llosa|মারিও ভার্গাস য়োসা]] ||''[[A Fish in the Water|আ ফিশ ইন দ্য ওয়াটার]]'' ||''[[A Fish in the Water]]'' ||স্পেনীয় ||১৯৯৩
+|-
+|[[Blake Morrison|ব্লেক মরিসন]] ||''অ্যান্ড হোয়েন ডিড ইউ লাস্ট সি ইউর ফাদার?'' ||''And When Did You Last See Your Father?'' ||ইংরেজি ||১৯৯৩
+|-
+|[[M. F. K. Fisher|এম. এফ. কে. ফিশার]] ||''স্টে মি, ও কমফোর্ট মি: জার্নালস অ্যান্ড স্টোরিজ 1933-1941'' ||''Stay Me, Oh Comfort Me: Journals and Stories 1933-1941'' ||ইংরেজি ||১৯৯৩
+|-
+|ভিক্টর ভিলানুয়েভা ||''[[Bootstraps: From an American Academic of Color|বুটস্ট্র্যাপস: ফ্রম অ্যান আমেরিকান অ্যাকাডেমিক অব কালার]]'' ||''[[Bootstraps: From an American Academic of Color]]'' ||ইংরেজি ||১৯৯৩
+|-
+|[[Naguib Mahfouz|নাগিব মাহফুজ]] ||''ইকোজ অব অ্যান অটোবায়োগ্রাফি'' ||''Echoes of an Autobiography'' ||আরবি ||১৯৯৪
+|-
+|[[Wole Soyinka|ওলে সোয়েনকা]] ||''ইবাদান: দ্য পেনকেলেমেস ইয়ার্স: আ মেমোয়ার 1946-65'' ||''Ibadan: The Penkelemes Years: A Memoir 1946-65'' ||ইংরেজি ||১৯৯৪
+|-
+|[[Tobias Wolff|টোবিয়াস ওলফ]] ||''[[In Pharaoh's Army|ইন ফারাওস আর্মি]]'' ||''[[In Pharaoh's Army]]'' ||ইংরেজি ||১৯৯৪
+|-
+|[[Elie Wiesel|এলি উইজেল]] ||''অল রিভার্স রান টু দ্য সি: মেমোয়ার্স'' ||''All Rivers Run to the Sea: Memoirs'' (''Vol. 1'') ||ইংরেজি ||১৯৯৫
+|-
+|[[M. F. K. Fisher|এম. এফ. কে. ফিশার]] ||''লাস্ট হাউস: রিফ্লেকশনস, ড্রিমস অ্যান্ড অবজারভেশনস 1943-1991'' ||''Last House: Reflections, Dreams and Observations 1943-1991'' ||ইংরেজি ||১৯৯৫
+|-
+|[[Mary Karr|ম্যারি কার]] ||''[[The Liars' Club|দ্য লায়ার্স' ক্লাব]]'' ||''[[The Liars' Club]]'' ||ইংরেজি ||১৯৯৫
+|-
+|[[Frank McCourt|ফ্র্যাঙ্ক ম্যাককোর্ট]] ||''[[Angela's Ashes|অ্যাঞ্জেলাস অ্যাশেস]]'' ||''[[Angela's Ashes]]'' ||ইংরেজি ||১৯৯৬
+|-
+|[[Isaac Bashevis Singer|আইজাক বাশেভিস সিঙ্গার]] ||''লাভ অ্যান্ড এক্সাইল: অ্যান অটোবায়োগ্রাফিক্যাল ট্রিলজি'' ||''Love and Exile: An Autobiographical Trilogy'' ||ইংরেজি ||১৯৯৬
+|-
+|[[Patrick Chamoiseau|প্যাট্রিক চাময়সো]] ||''স্কুল ডেস'' ||''School Days'' (''Une enfance Créole'') ||ফরাসি ||১৯৯৬
+|-
+|[[Harold Brodkey|হ্যারল্ড ব্রডকি]] ||''দ্য ওয়াইল্ড ডার্কনেস: দ্য স্টোরি অব মাই ডেথ'' ||''The Wild Darkness: The Story of My Death'' ||ইংরেজি ||১৯৯৬
+|-
+|[[Spalding Gray|স্পাল্ডিং গ্রে]] ||''ইটস আ স্লিপারি স্লোপ'' ||''It's a Slippery Slope'' ||ইংরেজি ||১৯৯৭
+|-
+|[[David Sedaris|ডেভিড সেডারিস]] ||''[[Naked (book)|নেকেড]]'' ||''[[Naked (book)|Naked]]'' ||ইংরেজি ||১৯৯৭
+|-
+|[[Jesse Lee Kercheval|জেসি লি কারচেভাল]] ||''স্পেস: আ মেমোয়ার'' ||''Space: A Memoir'' ||স্পেনীয় ||১৯৯৮
+|-
+|[[Elie Wiesel|এলি উইজেল]] ||''অ্যান্ড দ্য সি ইজ নেভার ফুল: মেমোয়ার্স'' ||''And the Sea is Never Full: Memoirs'' (''Vol. 3'') ||ইংরেজি ||১৯৯৯
+|-
+|[[John McCain|জন ম্যাককেইন]] ||''[[Faith of My Fathers|ফেইথ অব মাই ফাদার্স]]'' ||''[[Faith of My Fathers]]'' ||ইংরেজি ||১৯৯৯
+|-
+|[[Marc Summers|মার্ক সামার্স]] ||''এভরিথিং ইন ইটস প্লেস'' ||''Everything in Its Place'' ||ইংরেজি ||১৯৯৯
+|-
+|[[Ariel Dorfman|আরিয়েল ডর্ফম্যান]] ||''হেডিং সাউথ, লুকিং নর্থ: আ বাইলিঙ্গুয়াল জার্নি'' ||''Heading South, Looking North: A Bilingual Journey'' ||স্পেনীয় ||১৯৯৯
+|-
+|[[Taslima Nasrin|তসলিমা নাসরিন]] ||''আমার মেয়েবেলা'' ||''My Girlhood'' ||বাংলা ||১৯৯৯
+|-
+|[[A. P. J. Abdul Kalam|এ. পি. জে. আবদুল কালাম]] ||''[[Wings of Fire (autobiography)|অগ্নিপক্ষ]]'' ||''[[Wings of Fire (autobiography)|Wings of Fire]]'' ||ইংরেজি ||১৯৯৯
+|-
+|[[Dave Eggers|ডেভ এগার্স]] ||''[[A Heartbreaking Work of Staggering Genius|আ হার্টব্রেকিং ওয়ার্ক অব স্ট্যাগারিং জিনিয়াস]]'' ||''[[A Heartbreaking Work of Staggering Genius]]'' ||ইংরেজি ||২০০০
+|-
+|[[Lorna Sage|লোর্না সেজ]] ||''ব্যাড ব্লাড, আ মেমোয়ার'' ||''Bad Blood, A Memoir'' ||ইংরেজি ||২০০০
+|-
+|[[Edward Said|এডওয়ার্ড সাঈদ]] ||''আউট অব প্লেস: আ মেমোয়ার'' ||''Out of Place: A Memoir'' ||আরবি ||২০০০
+|-
+|[[Haven Kimmel|হ্যাভেন কিমেল]] ||''[[A Girl Named Zippy|আ গার্ল নেমড জিপি]]'' ||''[[A Girl Named Zippy]]'' ||ইংরেজি ||২০০১
+|-
+|[[Paula Fox|পাউলা ফক্স]] ||''বরোড ফাইনারি'' ||''Borrowed Finery'' ||ইংরেজি ||২০০১
+|-
+|[[Keith Jessop|কিথ জেসপ]] ||''[[Goldfinder|গোল্ডফাইন্ডার]]'' ||''[[Goldfinder]]'' ||ইংরেজি ||২০০১
+|-
+|[[Stan Lee|স্ট্যান লি]] ||''এক্সেলসিয়র'' ||''Excelsior'' ||ইংরেজি ||২০০২
+|-
+|[[Taslima Nasrin|তসলিমা নাসরিন]] ||''উতাল হাওয়া'' ||''Gusty Wind'' ||বাংলা ||২০০২
+|-
+|[[Gabriel García Márquez|গাব্রিয়েল গার্সিয়া মার্কেস]] ||''[[Living to Tell the Tale|বিবির পারা কন্তারলা]]'' ||''[[Living to Tell the Tale]]'' ||স্পেনীয় ||২০০২
+|-
+|[[J. M. Coetzee|জে. এম. কোয়েটজি]] ||''[[Youth: Scenes from Provincial Life II|ইয়ুথ: সিনস ফ্রম প্রভিনশিয়াল লাইফ ইি]]'' ||''[[Youth: Scenes from Provincial Life II]]'' ||ইংরেজি ||২০০২
+|-
+|[[Nuala O'Faolain|নুয়ালা ও'ফাওলেন]] ||''অলমোস্ট দেয়ার: দ্য অনওয়ার্ড জার্নি অব আ ডাবলিন ওম্যান'' ||''Almost There: The Onward Journey of a Dublin Woman'' ||ইংরেজি ||২০০৩
+|-
+|[[Barry Norman|ব্যারি নরম্যান]] ||''অ্যান্ড হোয়াই নট? মেমোয়ার্স অব আ ফিল্ম লাভার'' ||''And Why Not? Memoirs of a Film Lover'' ||ইংরেজি ||২০০৩
+|-
+|[[Craig Thompson|ক্রেগ থম্পসন]] ||''[[Blankets (comics)|ব্ল্যাঙ্কেটস]]'' ||''[[Blankets (comics)|Blankets]]'' ||ইংরেজি ||২০০৩
+|-
+|[[Sherwin B. Nuland|শারউইন বি. নুল্যান্ড]] ||''লস্ট ইন আমেরিকা: আ জার্নি উইথ মাই ফাদার'' ||''Lost in America: A Journey with My Father'' ||ইংরেজি ||২০০৩
+|-
+|[[Azar Nafisi|আজার নাফিসি]] ||''[[Reading Lolita in Tehran|রিডিং লোলিতা ইন তেহরান]]'' ||''[[Reading Lolita in Tehran]]'' ||ইংরেজি ||২০০৩
+|-
+|[[Taslima Nasrin|তসলিমা নাসরিন]] ||''দ্বিখণ্ডিত'' ||''Speak Up or Split Into Two'' ||বাংলা ||২০০৩
+|-
+|[[Carlos Eire|কার্লোস আইরে]] ||''[[Waiting for Snow in Havana|ওয়েটিং ফর স্নো ইন হাভানা]]'' ||''[[Waiting for Snow in Havana]]'' ||ইংরেজি ||২০০৩
+|-
+|[[Aron Ralston|অ্যারন র্যালস্টন]] ||''[[Between a Rock and a Hard Place (book)|বিটুইন আ রক অ্যান্ড আ হার্ড প্লেস]]'' ||''[[Between a Rock and a Hard Place (book)|Between a Rock and a Hard Place]]'' ||ইংরেজি ||২০০৪
+|-
+|[[Emanuel Derman|ইমানুয়েল ডারম্যান]] ||''মাই লাইফ অ্যাজ আ কোয়ান্ট: রিফ্লেকশনস অন ফিজিক্স অ্যান্ড ফিন্যান্স'' ||''My Life as a Quant: Reflections on Physics and Finance'' ||ইংরেজি ||২০০৪
+|-
+|[[Anthony Kiedis|অ্যান্থনি কিডিস]] ||''[[Scar Tissue (autobiography)|স্কার টিস্যু]]'' ||''[[Scar Tissue (autobiography)|Scar Tissue]]'' ||ইংরেজি ||২০০৪
+|-
+|[[Taslima Nasrin|তসলিমা নাসরিন]] ||''সেইসব অন্ধকার'' ||''Those Dark Days'' ||বাংলা ||২০০৪
+|-
+|[[Kapil Dev|কপিল দেব]] ||''স্ট্রেইট ফ্রম দ্য হার্ট'' ||''Straight From the Heart'' ||ইংরেজি ||২০০৪
+|-
+|[[William F. Buckley, Jr.|উইলিয়াম এফ. বাকলি জুনিয়র]] ||''মাইলস গন বাই: আ লিটারারি অটোবায়োগ্রাফি'' ||''Miles Gone By: A Literary Autobiography'' ||ইংরেজি ||২০০৫
+|-
+|[[Chelsea Handler|চেলসি হ্যান্ডলার]] ||''মাই হরাইজন্টাল লাইফ: আ কালেকশন অব ওয়াননাইট স্ট্যান্ডস'' ||''My Horizontal Life: A Collection of One-Night Stands'' ||ইংরেজি ||২০০৫
+|-
+|[[Jeannette Walls|জ্যানেট ওয়ালস]] ||''[[The Glass Castle|দ্য গ্লাস ক্যাসেল]]'' ||''[[The Glass Castle]]'' ||ইংরেজি ||২০০৫
+|-
+|[[Taslima Nasrin|তসলিমা নাসরিন]] ||''আমি ভালো নেই তুমি ভালো থেকো প্রিয় দেশ'' ||''I Am Not Fine, But You Stay Well My Beloved Country'' ||বাংলা ||২০০৬
+|-
+|[[Gordon Ramsay|গর্ডন রামসে]] ||''হাম্বল পাই'' ||''Humble Pie'' ||ফরাসি ||২০০৬
+|-
+|[[Wole Soyinka|ওলে সোয়েনকা]] ||''ইউ মাস্ট সেট ফোর্থ অ্যাট ডন'' ||''You Must Set Forth At Dawn'' ||ইংরেজি ||২০০৬
+|-
+|[[Julia Child|জুলিয়া চাইল্ড]] ||''[[My Life in France|মাই লাইফ ইন ফ্রান্স]]'' ||''[[My Life in France]]'' ||ইংরেজি ||২০০৬
+|-
+|[[Ishmael Beah|ইসমায়েল বিয়াহ]] ||''[[A Long Way Gone|আ লং ওয়ে গন]]'' ||''[[A Long Way Gone]]'' ||ইংরেজি ||২০০৭
+|-
+|[[Bob Barker|বব বার্কার]] ||''প্রাইসলেস মেমোরিজ'' ||''Priceless Memories'' ||ইংরেজি ||২০০৯
+|-
+|[[Lizzie Velásquez|লিজি ভেলাসকেস]] ||''লিজি বিউটিফুল, দ্য লিজি ভেলাসকেস স্টোরি'' ||''Lizzie Beautiful, The Lizzie Velásquez Story'' ||ইংরেজি ||২০১০
+|-
+|[[Taslima Nasrin|তসলিমা নাসরিন]] ||''নেই কিছু নেই'' ||''Nothing Is There'' ||বাংলা ||২০১০
+|-
+|[[Abhinav Bindra|অভিনব বিন্দ্রা]] ||''[[A Shot at History|আ শট অ্যাট হিস্ট্রি]]'' ||''[[A Shot at History]]'' ||ইংরেজি ||২০১১
+|-
+|[[Marcus Samuelsson|মার্কাস স্যামুয়েলসন]] ||''ইয়েস, শেফ: আ মেমোয়ার'' ||''Yes, Chef: A Memoir'' ||ইংরেজি ||২০১২
+|-
+|[[Barry Norman|ব্যারি নরম্যান]] ||''সি ইউ ইন দ্য মর্নিং'' ||''See You in the Morning'' ||ইংরেজি ||২০১৩
+|-
+|[[Zohre Esmaeli|জোহরে এসমায়েলি]] ||''মাইন নয়ে ফ্রাইহাইট: ফন কাবুল উবার ডেন লাউফস্টেগ সু মির সেলবস্ট'' ||''Meine neue Freiheit. Von Kabul über den Laufsteg zu mir selbst'' ||জার্মান ||২০১৪
+|-
+|[[Ree Drummond|রি ড্রামন্ড]] ||''ফ্রন্টিয়ার ফলিজ: অ্যাডভেঞ্চার্স ইন ম্যারিজ অ্যান্ড মাদারহুড ইন দ্য মিডল অব নোহোয়ার'' ||''Frontier Follies: Adventures in Marriage and Motherhood in the Middle of Nowhere'' ||ইংরেজি ||২০২০
+|-
+|[[Alex Trebek|অ্যালেক্স ট্রেবেক]] ||''অ্যান্ড দ্য অ্যানসার ইজ...রিফ্লেকশনস অন মাই লাইফ'' ||''And the Answer Is...Reflections on My Life'' ||ইংরেজি ||২০২০
+|-
+|[[Ranjan Gogoi|রঞ্জন গগৈ]] ||''[[Justice for the Judge: An Autobiography|জাস্টিস ফর দ্য জাজ]]'' ||''[[Justice for the Judge: An Autobiography|Justice for the Judge]]'' ||ইংরেজি ||২০২১
+|-
+|[[Christie Brinkley|ক্রিস্টি ব্রিংকলি]] ||''আপটাউন গার্ল'' ||''Uptown Girl'' ||ইংরেজি ||২০২৫
+|}
+
+== আরও দেখুন ==
+* [[বইয়ের তালিকা]]
+
+== তথ্যসূত্র ==
+=== পাদটীকা ===
+{{Notelist}}
+
+=== নোট ===
+{{সূত্র তালিকা}}
+
+{{DEFAULTSORT:আত্মজীবনীর তালিকা}}
+[[বিষয়শ্রেণী:আত্মজীবনী|*]]
+[[বিষয়শ্রেণী:বইয়ের তালিকা]]
+[[বিষয়শ্রেণী:অ-কাল্পনিক বইয়ের তালিকা]]

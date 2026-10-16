@@ -1,0 +1,188 @@
+===2020s===
+{{sticky header}}
+{| class="wikitable sortable sticky-header" style="font-size:1.00em; line-height:1.5em;"
+|- bgcolor="#bebebe"
+! width="2%"| Year of film release
+! width="40%"| Film
+! width="55%"| Producer(s)
+|- style="background:#FAEB86"
+! rowspan="8"| [[2020 in film|2020/21]]<br />{{efn|name=covid-19|The eligibility period for the 93rd ceremony was extended through to February 28, 2021, due to the impact of the [[COVID-19 pandemic]].}}<br />{{small|[[93rd Academy Awards|(93rd)]]}}
+| '''''[[Nomadland]]'''''
+| '''[[Frances McDormand]], [[Peter Spears]], [[Mollye Asher]], Dan Janvey, and [[Chloé Zhao]]'''
+|-
+| ''[[The Father (2020 film)|The Father]]''
+| [[David Parfitt]], [[Jean-Louis Livi]], and [[Philippe Carcassonne]]
+|- style="background:#eee;"
+| ''[[Judas and the Black Messiah]]''
+| [[Shaka King]], Charles D. King, and [[Ryan Coogler]]
+|-
+| ''[[Mank]]''
+| [[Ceán Chaffin]], [[Eric Roth]], and [[Douglas Urbanski]]
+|- style="background:#eee;"
+| ''[[Minari]]''
+| [[Christina Oh]]
+|-
+| ''[[Promising Young Woman]]''
+| Ben Browning, Ashley Fox, [[Emerald Fennell]], and Josey McNamara
+|- style="background:#eee;"
+| ''[[Sound of Metal]]''
+| Bert Hamelinck and Sacha Ben Harroche
+|-
+| ''[[The Trial of the Chicago 7]]''
+| [[Marc Platt (producer)|Marc Platt]] and [[Stuart M. Besser]]
+|- style="background:#FAEB86"
+! rowspan="10"| [[2021 in film|2021]]<br />{{efn|name=covid-19-b|As a consequence of the eligibility period for the 93rd ceremony being extended through to February 28, 2021, the eligibility period for the 94th ceremony was truncated to ten months, running from March 1 to December 31, 2021.}}<br />{{small|[[94th Academy Awards|(94th)]]}}
+| '''''[[CODA (2021 film)|CODA]]'''''
+| '''[[Philippe Rousselet]], Fabrice Gianfermi, and Patrick Wachsberger'''
+|-
+| ''[[Belfast (film)|Belfast]]''
+| Laura Berwick, [[Kenneth Branagh]], Becca Kovacik, and Tamar Thomas
+|- style="background:#eee;"
+| ''[[Don't Look Up]]''
+| [[Adam McKay]] and [[Kevin Messick]]
+|-
+| ''[[Drive My Car (film)|Drive My Car]]''
+| Teruhisa Yamamoto
+|- style="background:#eee;"
+| ''[[Dune (2021 film)|Dune]]''
+| [[Mary Parent]], [[Denis Villeneuve]], and [[Cale Boyter]]
+|-
+| ''[[King Richard (film)|King Richard]]''
+| [[Tim White (American producer)|Tim White]], [[Trevor White (producer)|Trevor White]], and [[Will Smith]]
+|- style="background:#eee;"
+| ''[[Licorice Pizza]]''
+| [[Sara Murphy (film producer)|Sara Murphy]], [[Adam Somner]], and [[Paul Thomas Anderson]]
+|-
+| ''[[Nightmare Alley (2021 film)|Nightmare Alley]]''
+| [[Guillermo del Toro]], [[J. Miles Dale]], and [[Bradley Cooper]]
+|- style="background:#eee;"
+| ''[[The Power of the Dog (film)|The Power of the Dog]]''
+| [[Jane Campion]], [[Tanya Seghatchian]], [[Emile Sherman]], [[Iain Canning]], and [[Roger Frappier]]
+|-
+| ''[[West Side Story (2021 film)|West Side Story]]''
+| [[Steven Spielberg]] and [[Kristie Macosko Krieger]]
+|- style="background:#FAEB86"
+! rowspan="10"| [[2022 in film|2022]]<br />{{small|[[95th Academy Awards|(95th)]]}}
+| '''''[[Everything Everywhere All at Once]]'''''
+| '''[[Daniels (directors)|Daniel Kwan, Daniel Scheinert]], and [[Jonathan Wang]]'''
+|-
+| ''[[All Quiet on the Western Front (2022 film)|All Quiet on the Western Front]]''
+| [[Malte Grunert]]
+|- style="background:#eee;"
+| ''[[Avatar: The Way of Water]]''
+| [[James Cameron]] and [[Jon Landau (film producer)|Jon Landau]]
+|-
+| ''[[The Banshees of Inisherin]]''
+| [[Graham Broadbent]], [[Peter Czernin]], and [[Martin McDonagh]]
+|- style="background:#eee;"
+| ''[[Elvis (2022 film)|Elvis]]''
+| [[Baz Luhrmann]], [[Catherine Martin (designer)|Catherine Martin]], [[Gail Berman]], Patrick McCormick, and Schuyler Weiss
+|-
+| ''[[The Fabelmans]]''
+| [[Kristie Macosko Krieger]], [[Steven Spielberg]], and [[Tony Kushner]]
+|- style="background:#eee;"
+| ''[[Tár]]''
+| [[Todd Field]], [[Alexandra Milchan]], and Scott Lambert
+|-
+| ''[[Top Gun: Maverick]]''
+| [[Tom Cruise]], [[Christopher McQuarrie]], [[David Ellison]], and [[Jerry Bruckheimer]]
+|- style="background:#eee;"
+| ''[[Triangle of Sadness]]''
+| Erik Hemmendorff and Philippe Bober
+|-
+| ''[[Women Talking (film)|Women Talking]]''
+| [[Dede Gardner]], [[Jeremy Kleiner]], and [[Frances McDormand]]
+|- style="background:#FAEB86"
+! rowspan="10"| [[2023 in film|2023]]<br />{{small|[[96th Academy Awards|(96th)]]}}
+| '''''[[Oppenheimer (film)|Oppenheimer]] '''''
+| '''[[Emma Thomas]], [[Charles Roven]], and [[Christopher Nolan]]'''
+|-
+| ''[[American Fiction (film)|American Fiction]]''
+| Ben LeClair, Nikos Karamigios, [[Cord Jefferson]], and Jermaine Johnson
+|- style="background:#eee;"
+| ''[[Anatomy of a Fall]]''
+| [[Marie-Ange Luciani]] and [[David Thion]]
+|-
+| ''[[Barbie (film)|Barbie]]''
+| [[David Heyman]], [[Margot Robbie]], [[Tom Ackerley]], and [[Robbie Brenner]]
+|- style="background:#eee;"
+| ''[[The Holdovers]]''
+| [[Mark Johnson (producer)|Mark Johnson]]
+|-
+| ''[[Killers of the Flower Moon]]''
+| [[Dan Friedkin]], [[Bradley Thomas (producer)|Bradley Thomas]], [[Martin Scorsese]], and [[Daniel Lupi]]
+|- style="background:#eee;"
+| ''[[Maestro (2023 film)|Maestro]]''
+| [[Bradley Cooper]], [[Steven Spielberg]], [[Fred Berner]], Amy Durning, and [[Kristie Macosko Krieger]]
+|-
+| ''[[Past Lives (film)|Past Lives]]''
+| [[David Hinojosa]], [[Christine Vachon]], and [[Pamela Koffler]]
+|- style="background:#eee;"
+| ''[[Poor Things (film)|Poor Things]]''
+| [[Ed Guiney]], [[Andrew Lowe (producer)|Andrew Lowe]], [[Yorgos Lanthimos]], and [[Emma Stone]]
+|-
+| ''[[The Zone of Interest (film)|The Zone of Interest]]''
+| [[James Wilson (producer)|James Wilson]]
+|- style="background:#FAEB86"
+! rowspan="10"| [[2024 in film|2024]]<br />{{small|[[97th Academy Awards|(97th)]]}}
+| '''''[[Anora]]'''''
+| '''[[Alex Coco]], [[Samantha Quan]], and [[Sean Baker]]'''
+|-
+| ''[[The Brutalist]]''
+| Nick Gordon, Brian Young, [[Andrew Morrison (filmmaker)|Andrew Morrison]], [[D.J. Gugenheim]], and [[Brady Corbet]]
+|- style="background:#eee;"
+| ''[[A Complete Unknown]]''
+| [[Fred Berger (producer)|Fred Berger]], [[James Mangold]], and Alex Heineman
+|-
+| ''[[Conclave (film)|Conclave]]''
+| [[Tessa Ross]], [[Juliette Howell]], and [[Michael Jackman (producer)|Michael A. Jackman]]
+|- style="background:#eee;"
+| ''[[Dune: Part Two]]''
+| [[Mary Parent]], [[Cale Boyter]], [[Tanya Lapointe]], and [[Denis Villeneuve]]
+|-
+| ''[[Emilia Pérez]]''
+| [[Pascal Caucheteux]] and [[Jacques Audiard]]
+|- style="background:#eee;"
+| ''[[I'm Still Here (2024 film)|I'm Still Here]]''
+| Maria Carlota Bruno and [[Rodrigo Teixeira (producer)|Rodrigo Teixeira]]
+|-
+| ''[[Nickel Boys]]''
+| [[Dede Gardner]], [[Jeremy Kleiner]], and [[Joslyn Barnes]]
+|- style="background:#eee;"
+| ''[[The Substance]]''
+| [[Coralie Fargeat]], [[Tim Bevan]], and [[Eric Fellner]]
+|-
+| ''[[Wicked (2024 film)|Wicked]]''
+| [[Marc Platt (producer)|Marc Platt]]
+|- style="background:#FAEB86"
+! rowspan="10"| [[2025 in film|2025]]<br />{{small|[[98th Academy Awards|(98th)]]}}
+| '''''[[One Battle After Another]]'''''
+| '''[[Adam Somner]], [[Sara Murphy (film producer)|Sara Murphy]], and [[Paul Thomas Anderson]]'''
+|-
+| ''[[Bugonia (film)|Bugonia]]''
+| [[Ed Guiney]], [[Andrew Lowe (producer)|Andrew Lowe]], [[Yorgos Lanthimos]], [[Emma Stone]], and [[Lars Knudsen (producer)|Lars Knudsen]]
+|- style="background:#eee;"
+| ''[[F1 (film)|F1]]''
+| Chad Oman, [[Brad Pitt]], [[Dede Gardner]], [[Jeremy Kleiner]], [[Joseph Kosinski]], and [[Jerry Bruckheimer]]
+|-
+| ''[[Frankenstein (2025 film)|Frankenstein]]''
+| [[Guillermo del Toro]], [[J. Miles Dale]], and [[Scott Stuber]]
+|- style="background:#eee;"
+| ''[[Hamnet (film)|Hamnet]]''
+| Liza Marshall, [[Pippa Harris]], Nicolas Gonda, [[Steven Spielberg]], and [[Sam Mendes]]
+|-
+| ''[[Marty Supreme]]''
+| [[Eli Bush]], [[Ronald Bronstein]], [[Josh Safdie]], [[Anthony Katagas]], and [[Timothée Chalamet]]
+|- style="background:#eee;"
+| ''[[The Secret Agent (2025 film)|The Secret Agent]]''
+| [[Emilie Lesclaux]]
+|-
+| ''[[Sentimental Value]]''
+| [[Maria Ekerhovd]] and Andrea Berentsen Ottmar
+|- style="background:#eee;"
+| ''[[Sinners (2025 film)|Sinners]]''
+| [[Zinzi Coogler]], [[Sev Ohanian]], and [[Ryan Coogler]]
+|-
+| ''[[Train Dreams (film)|Train Dreams]]''
+| [[McMahon family|Marissa McMahon]], [[Teddy Schwarzman]], [[Will Janowitz]], Ashley Schlaifer, and [[Michael Heimler]]
+|}

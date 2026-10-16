@@ -1,0 +1,14 @@
+{
+  "folders": [
+    {
+      "name": "উইকিপিডিয়া অনুবাদ টুলকিট",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "window.title": "উইকিপিডিয়া অনুবাদ টুলকিট - ${dirty}${activeEditorShort}${separator}${rootName}",
+    "python.defaultInterpreterPath": "python",
+    "editor.tabSize": 4,
+    "files.encoding": "utf8"
+  }
+}

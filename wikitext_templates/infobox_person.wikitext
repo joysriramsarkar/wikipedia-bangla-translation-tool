@@ -1,0 +1,31 @@
+﻿{{তথ্যছক ব্যক্তি
+| নাম              = 
+| native_name      = 
+| native_name_lang = 
+| image            = 
+| image_size       = 
+| alt              = 
+| caption          = 
+| birth_name       = 
+| birth_date       = {{জন্ম তারিখ|বছর|মাস|দিন}}
+| birth_place      = 
+| death_date       = {{মৃত্যু তারিখ ও বয়স|বছর|মাস|দিন|জন্ম_বছর|জন্ম_মাস|জন্ম_দিন}}
+| death_place      = 
+| nationality      = 
+| citizenship      = 
+| other_names      = 
+| occupation       = 
+| years_active     = 
+| employer         = 
+| organization     = 
+| known_for        = 
+| notable_works    = 
+| spouse           = 
+| children         = 
+| parents          = 
+| relatives        = 
+| awards           = 
+| signature        = 
+| signature_alt    = 
+| website          = 
+}}
