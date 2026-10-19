@@ -40,5 +40,7 @@ canonical implementation।
 npx wrangler deploy
 ```
 
-`public/index.html` → `/dashboard.html` রিডাইরেক্ট করে। শুধু UI/প্রাকদর্শন
-দেখার জন্য এটি যথেষ্ট; সম্পাদনা/যাচাইয়ের জন্য Vercel বা Tunnel ব্যবহার করুন।
+`public/index.html` → `/dashboard.html` রিডাইরেক্ট করে। স্ট্যাটিক মোডেও
+ক্লায়েন্ট-সাইড পথে দৃশ্যমান অঙ্ক বাংলা, ছবির ক্যাপশন অনূদিত এবং
+`{{Series overview}}`-জাতীয় টেবিল-টেমপ্লেটের নাম/প্যারামিটার অক্ষত থাকে।
+সম্পাদনা/যাচাইয়ের API-র জন্য Vercel বা Tunnel ব্যবহার করুন।

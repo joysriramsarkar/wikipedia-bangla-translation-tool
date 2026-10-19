@@ -2082,6 +2082,7 @@
         if (data.ok && data.html) {
           previewDiv.innerHTML = data.html;
           fixPreviewLinks(previewDiv);
+          fixPreviewDigits(previewDiv);
           return;
         }
       } catch (e) {}
@@ -2105,11 +2106,23 @@
         if (data2.parse && data2.parse.text && data2.parse.text['*']) {
           previewDiv.innerHTML = data2.parse.text['*'];
           fixPreviewLinks(previewDiv);
+          fixPreviewDigits(previewDiv);
           return;
         }
       } catch (e2) {}
 
       previewDiv.innerHTML = '<div style="color:var(--mw-link-red); padding:20px; text-align:center;">প্রাকদর্শন লোড করতে সমস্যা হয়েছে। ইন্টারনেট সংযোগ যাচাই করুন।</div>';
+    }
+
+    // প্রাকদর্শনের দৃশ্যমান অঙ্ক বাংলায় (টেবিল/তারিখ/তথ্যছক)
+    function fixPreviewDigits(container) {
+      const walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT);
+      const nodes = [];
+      while (walker.nextNode()) nodes.push(walker.currentNode);
+      for (const node of nodes) {
+        if (node.parentElement && /^(SCRIPT|STYLE)$/i.test(node.parentElement.tagName)) continue;
+        node.nodeValue = node.nodeValue.replace(/[0-9]/g, d => '০১২৩৪৫৬৭৮৯'[Number(d)]);
+      }
     }
 
     // প্রাকদর্শনের লিঙ্কগুলো ফিক্স করা এবং [সম্পাদনা | উৎস সম্পাদনা] অপসারণ
