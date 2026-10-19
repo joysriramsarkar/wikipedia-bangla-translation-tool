@@ -374,7 +374,7 @@ def _extract_and_translate_file_links(text: str, sl: str = "en", tl: str = "bn")
 
 def translate_paragraph_gemini(
     text: str,
-    api_key: str,
+    api_key: str | None,
     model: str = "gemini-1.5-flash",
     sl: str = "en",
     tl: str = "bn"
@@ -440,7 +440,7 @@ def translate_wikitext_block(
     block: str,
     sl: str = "en",
     tl: str = "bn",
-    gemini_key: str = None,
+    gemini_key: str | None = None,
     gemini_model: str = "gemini-1.5-flash"
 ) -> str:
     """
@@ -602,7 +602,7 @@ def translate_wikitext_full(
     wikitext: str,
     sl: str = "en",
     tl: str = "bn",
-    gemini_key: str = None,
+    gemini_key: str | None = None,
     gemini_model: str = "gemini-1.5-flash"
 ) -> str:
     """

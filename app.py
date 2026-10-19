@@ -121,8 +121,9 @@ def fix():
     sl = data.get("sl", "en")
     tl = data.get("tl", "bn")
     do_mt = data.get("translate", True)
-    gemini_key = data.get("gemini_api_key") or os.environ.get("GEMINI_API_KEY")
-    gemini_model = data.get("gemini_model", "gemini-1.5-flash")
+    raw_key = data.get("gemini_api_key") or os.environ.get("GEMINI_API_KEY")
+    gemini_key: str | None = str(raw_key).strip() if raw_key else None
+    gemini_model = str(data.get("gemini_model") or "gemini-1.5-flash")
     engine = data.get("engine", "google")
     use_ai = engine == "gemini" or bool(data.get("use_ai"))
 
@@ -149,10 +150,11 @@ def fix():
 def translate_ai():
     data = _json_request()
     text = data.get("text", "")
-    api_key = data.get("api_key") or data.get("gemini_api_key") or os.environ.get("GEMINI_API_KEY", "")
-    model = data.get("model", "gemini-1.5-flash")
-    sl = data.get("sl", "en")
-    tl = data.get("tl", "bn")
+    raw_api_key = data.get("api_key") or data.get("gemini_api_key") or os.environ.get("GEMINI_API_KEY")
+    api_key = str(raw_api_key).strip() if raw_api_key else ""
+    model = str(data.get("model") or "gemini-1.5-flash")
+    sl = str(data.get("sl") or "en")
+    tl = str(data.get("tl") or "bn")
 
     if not isinstance(text, str) or not text.strip():
         return jsonify({"ok": False, "error": "অনুবাদের জন্য কোনো টেক্সট পাওয়া যায়নি।"}), 400
