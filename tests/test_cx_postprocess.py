@@ -129,3 +129,45 @@ def test_fix_template_parameter_digits_repair():
     assert "{{{1|collapsed}}}" in repaired
     assert "{{{2}}}" in repaired
 
+
+def test_religious_infobox_keeps_english_keys():
+    """bnwiki-র ধর্মীয় ভবন টেমপ্লেট ইংরেজি কী ব্যবহার করে।"""
+    src = (
+        "{{Infobox religious building\n"
+        "| name = Rokuon-ji\n"
+        "| mapframe = yes\n"
+        "| pushpin_map = Japan\n"
+        "| location = Kyoto\n"
+        "}}"
+    )
+    out, unknown = translate_infobox(src)
+    assert "{{তথ্যছক ধর্মীয় ভবন" in out
+    assert "| name = Rokuon-ji" in out
+    assert "| location = Kyoto" in out
+    assert "mapframe" not in out
+    assert "pushpin_map" not in out
+
+
+def test_nested_template_placeholders_are_restored():
+    """বাইরের টেমপ্লেটের ভেতরের placeholder যেন চূড়ান্ত লেখায় না থাকে।"""
+    from cx_postprocess import mt_translate
+
+    original = mt_translate._translate_raw_chunk
+    mt_translate._translate_raw_chunk = lambda text, sl="en", tl="bn": text
+    try:
+        src = "'''X''' ({{Nihongo|金閣寺|{{IPA|ja|abc}}}}) is a temple."
+        out = mt_translate.translate_wikitext_block(src)
+    finally:
+        mt_translate._translate_raw_chunk = original
+
+    assert "ZWPHL" not in out
+    assert "{{Nihongo" in out
+    assert "{{IPA" in out
+
+
+def test_pipeline_translates_category_prefix():
+    from cx_postprocess.pipeline import fix_text
+    out = fix_text("[[Category:Films]]")["fixed"]
+    expected = "[[বিষ" + "\u09df" + "শ্রেণী:Films]]"
+    assert out == expected
+

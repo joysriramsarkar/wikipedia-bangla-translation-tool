@@ -644,6 +644,57 @@
     }
 
     /* ----------------------------------------------------
+       নীতিমালা যাচাই প্যানেল (Rule validator)
+       ---------------------------------------------------- */
+    .rule-check-panel {
+      border-top: 1px solid var(--mw-border-subtle);
+      background: #ffffff;
+      padding: 12px 14px;
+    }
+    .rule-check-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 13.5px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    .rule-check-summary {
+      font-size: 13px;
+      padding: 8px 10px;
+      border-radius: 2px;
+      margin-bottom: 8px;
+      background: var(--mw-notice-bg);
+      border-left: 4px solid var(--mw-notice-border);
+    }
+    .rule-check-summary.bad {
+      background: var(--mw-warning-bg);
+      border-left-color: var(--mw-warning-border);
+    }
+    .rule-row {
+      display: flex;
+      gap: 8px;
+      padding: 6px 0;
+      border-bottom: 1px dashed #eaecf0;
+      font-size: 13px;
+    }
+    .rule-row:last-child { border-bottom: none; }
+    .rule-badge { flex: 0 0 auto; }
+    .rule-body { flex: 1; }
+    .rule-name { font-weight: 600; }
+    .rule-row.bad .rule-name { color: #8a4b00; }
+    .rule-issues {
+      margin: 4px 0 0 18px;
+      color: var(--mw-text-muted);
+      font-size: 12.5px;
+    }
+    .rule-check-foot {
+      margin-top: 8px;
+      font-size: 12px;
+      color: var(--mw-text-muted);
+    }
+
+    /* ----------------------------------------------------
        খসড়া ট্র্যাকার সারণি (Wikitable sortable)
        ---------------------------------------------------- */
     .drafts-table {
@@ -954,12 +1005,24 @@
             <div class="mw-edit-options">
               <div style="display: flex; gap: 8px; align-items: center;">
                 <button type="button" class="mw-btn" onclick="togglePreviewBtn()">👁️ প্রাকদর্শন দেখুন</button>
+                <button type="button" class="mw-btn" onclick="validateRules()">✅ নীতিমালা যাচাই</button>
                 <button type="button" class="mw-btn" onclick="copyOutput()">📋 কোড কপি</button>
                 <button type="button" class="mw-btn" onclick="saveAsDraft()">💾 খসড়া ট্র্যাকিং</button>
               </div>
               <button type="button" id="btn-open-draft-form" class="mw-btn mw-btn-progressive" onclick="sendToWikipediaDraft()">
                 🚀 উইকিপিডিয়া খসড়ায় পাঠান ও খুলুন ↗
               </button>
+            </div>
+
+            <!-- নীতিমালা যাচাই প্যানেল -->
+            <div id="validation-panel" class="rule-check-panel" style="display: none;">
+              <div class="rule-check-head">
+                <span>📋 বাংলা উইকিপিডিয়া নীতিমালা যাচাই</span>
+                <button type="button" class="mw-tool-btn" onclick="hideValidation()" title="বন্ধ করুন">✕</button>
+              </div>
+              <div id="validation-summary" class="rule-check-summary"></div>
+              <div id="validation-list"></div>
+              <div id="validation-foot" class="rule-check-foot"></div>
             </div>
 
           </div>
@@ -1707,6 +1770,7 @@
         if (document.getElementById('out-preview').style.display === 'block') {
           renderLivePreview();
         }
+        validateRules();
         showToast('সম্পূর্ণ বাক্য ও উইকিটেক্সট প্রমিত বাংলায় অনুবাদ সম্পন্ন ✓');
       } catch (err) {
         showToast('অনুবাদ সম্পন্ন করতে সমস্যা হয়েছে!');
@@ -1714,6 +1778,92 @@
         spinner.style.display = 'none';
         btn.disabled = false;
       }
+    }
+
+    // ------------------------------------------------------------
+    // নীতিমালা যাচাই (Rule validator)
+    // ------------------------------------------------------------
+    function bnDigits(value) {
+      return String(value).replace(/[0-9]/g, d => '০১২৩৪৫৬৭৮৯'[Number(d)]);
+    }
+
+    function escapeHtml(value) {
+      return String(value).replace(/[&<>"']/g, ch => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+      }[ch]));
+    }
+
+    function hideValidation() {
+      document.getElementById('validation-panel').style.display = 'none';
+    }
+
+    async function validateRules() {
+      const text = document.getElementById('out-text').value;
+      const panel = document.getElementById('validation-panel');
+      const summary = document.getElementById('validation-summary');
+      const list = document.getElementById('validation-list');
+      const foot = document.getElementById('validation-foot');
+
+      if (!text.trim()) {
+        showToast('যাচাই করার জন্য আগে অনুবাদ করুন বা উইকিটেক্সট দিন।');
+        return;
+      }
+
+      panel.style.display = 'block';
+      summary.className = 'rule-check-summary';
+      summary.textContent = 'যাচাই চলছে...';
+      list.innerHTML = '';
+      foot.textContent = '';
+
+      try {
+        const res = await fetch('/validate', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ text: text })
+        });
+        const data = await res.json();
+        if (!data.ok || !data.report) {
+          throw new Error(data.error || 'যাচাই ব্যর্থ হয়েছে');
+        }
+        renderValidation(data.report);
+      } catch (err) {
+        summary.className = 'rule-check-summary bad';
+        summary.textContent = 'যাচাই করা যায়নি: ' + err.message;
+      }
+    }
+
+    function renderValidation(report) {
+      const summary = document.getElementById('validation-summary');
+      const list = document.getElementById('validation-list');
+      const foot = document.getElementById('validation-foot');
+      const rules = report.rules || {};
+      const checked = report.checked_rules || Object.keys(rules);
+
+      if (report.valid) {
+        summary.className = 'rule-check-summary';
+        summary.textContent = '✅ যাচাইযোগ্য সব নিয়ম পাস করেছে।';
+      } else {
+        summary.className = 'rule-check-summary bad';
+        summary.textContent = `⚠️ ${bnDigits(report.issue_count)}টি সমস্যা পাওয়া গেছে।`;
+      }
+
+      list.innerHTML = checked.map(ruleId => {
+        const info = rules[ruleId] || { ok: true, title: '', issues: [] };
+        const issues = (info.issues || []).map(msg =>
+          `<div class="rule-issues">• ${escapeHtml(msg)}</div>`).join('');
+        return `<div class="rule-row ${info.ok ? 'ok' : 'bad'}">
+          <span class="rule-badge">${info.ok ? '✅' : '⚠️'}</span>
+          <div class="rule-body">
+            <div class="rule-name">নিয়ম ${escapeHtml(ruleId)} — ${escapeHtml(info.title)}</div>
+            ${issues}
+          </div>
+        </div>`;
+      }).join('');
+
+      const unchecked = report.unchecked_rules || [];
+      foot.textContent = unchecked.length
+        ? `অর্থগত বিচারের বিষয়: নিয়ম ${unchecked.join(', ')}`
+        : '';
     }
 
     // আউটপুট ভিউ স্যুইচিং: কোড বনাম লাইভ প্রাকদর্শন

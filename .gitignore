@@ -29,6 +29,11 @@ Thumbs.db
 *.bak
 *.log
 
+# Generated demos, screenshots and local agent state
+demo/
+.zwork/
+.wrangler/
+
 # User-specific
 .DS_Store
 node_modules/

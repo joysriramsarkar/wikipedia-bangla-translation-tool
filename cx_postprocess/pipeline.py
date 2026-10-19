@@ -18,6 +18,7 @@ from .table_fix import fix_tables
 from .currency_fix import fix_currency
 from .units_dates import fix_units_dates
 from .template_fix import fix_templates
+import re
 
 
 NUKTA_MAP = {
@@ -35,6 +36,7 @@ def normalize_nukta(text: str) -> str:
 
 def fix_text(text: str) -> dict:
     s = fix_templates(text)
+    s = re.sub(r'\[\[\s*Category\s*:', '[[বিষয়শ্রেণী:', s, flags=re.IGNORECASE)
     s, unknown = translate_infobox(s)
     s = fix_tables(s)
     s = fix_currency(s)

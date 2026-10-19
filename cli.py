@@ -4,17 +4,37 @@
 CLI interface for Wikipedia Translation Toolkit
 """
 import argparse
-import sys
 import os
+import sys
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 if BASE_DIR not in sys.path:
     sys.path.insert(0, BASE_DIR)
 
 from wikipedia_translation_toolkit import WikipediaTranslator, LANG_MODULES
+from common.bengali_utils import to_bengali_digits
 
 
-def main():
+def print_rule_report(report, label):
+    """নিয়মভিত্তিক যাচাই রিপোর্ট ছাপে।"""
+    print(f"\n🔍 নীতিমালা যাচাই রিপোর্ট ({label}):")
+    for rule_id in report.get('checked_rules', list(report['rules'])):
+        info = report['rules'][rule_id]
+        mark = '✅' if info['ok'] else '⚠️'
+        print(f"  {mark} নিয়ম {rule_id} — {info['title']}")
+        for message in info['issues']:
+            print(f"       • {message}")
+    unchecked = report.get('unchecked_rules', [])
+    if unchecked:
+        print(f"  ℹ️  অর্থগত বিচারের বিষয়: নিয়ম {', '.join(unchecked)}")
+    if report['valid']:
+        print("  ✅ স্বয়ংক্রিয়ভাবে যাচাইযোগ্য কোনো নিয়ম লঙ্ঘন পাওয়া যায়নি।")
+    else:
+        count = to_bengali_digits(str(report['issue_count']))
+        print(f"  ⚠️ মোট {count}টি সমস্যা পাওয়া গেছে।")
+
+
+def main(argv=None):
     parser = argparse.ArgumentParser(
         description='Wikipedia Translation Toolkit — বাংলা উইকিপিডিয়া অনুবাদ টুলকিট',
         formatter_class=argparse.RawDescriptionHelpFormatter,
@@ -31,6 +51,7 @@ Examples:
   python cli.py english -i article.txt -o article_bn.txt
   python cli.py german -i films.txt -o films_bn.txt --table-only
   python cli.py english -i draft.txt --check-rules
+  python cli.py english -i source.txt -o draft.txt --check-rules
         '''
     )
     parser.add_argument('command', choices=['chinese', 'japanese', 'russian', 'german', 'english', 'info'],
@@ -40,10 +61,10 @@ Examples:
     parser.add_argument('--table-only', '-t', action='store_true', help='কেবল সারণি অনুবাদ করুন')
     parser.add_argument('--check-rules', '-c', action='store_true', help='বাংলা উইকিপিডিয়ার নীতিমালা যাচাই করুন')
 
-    args = parser.parse_args()
+    args = parser.parse_args(argv)
 
     if args.command == 'info':
-        print("উইকিপিডিয়া অনুবাদ টুলকিট (Wikipedia Translation Toolkit) v1.0.0")
+        print("উইকিপিডিয়া অনুবাদ টুলকিট (Wikipedia Translation Toolkit) v1.2.0")
         print("অবস্থান:", BASE_DIR)
         print("\nউপলব্ধ ভাষা মডিউলসমূহ:")
         for mod in LANG_MODULES:
@@ -66,18 +87,10 @@ Examples:
     with open(args.input, 'r', encoding='utf-8') as f:
         content = f.read()
 
-    # নিয়মাবলি পরীক্ষা
-    if args.check_rules:
-        report = translator.validate_rules(content)
-        print(f"\n🔍 নীতিমালা যাচাই রিপোর্ট ({args.input}):")
-        if report['valid']:
-            print("  ✅ কোনো নিয়ম লঙ্ঘন পাওয়া যায়নি! ফাইলটি মানসম্মত।")
-        else:
-            print(f"  ⚠️ {report['issue_count']}টি সমস্যা/সতর্কতা পাওয়া গেছে:")
-            for issue in report['issues']:
-                print(f"    - {issue}")
-        if not args.output and not args.table_only:
-            return 0
+    # শুধু যাচাই: ইনপুট ফাইলটি (সাধারণত একটি খসড়া) পরীক্ষা করে থামে
+    if args.check_rules and not args.output and not args.table_only:
+        print_rule_report(translator.validate_rules(content), args.input)
+        return 0
 
     print(f"[{args.command}] অনুবাদ শুরু হচ্ছে: {args.input}...")
 
@@ -85,6 +98,10 @@ Examples:
         translated = translator.translate_table(content, args.command)
     else:
         translated = translator.translate_text(content, args.command)
+
+    # অনুবাদের সঙ্গে যাচাই চাইলে ফলাফলকেই যাচাই করা হয়, উৎস নয়
+    if args.check_rules:
+        print_rule_report(translator.validate_rules(translated), 'অনূদিত ফলাফল')
 
     if args.output:
         with open(args.output, 'w', encoding='utf-8') as f:

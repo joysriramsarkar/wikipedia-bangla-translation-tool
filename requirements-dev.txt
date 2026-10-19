@@ -1,0 +1,7 @@
+# টেস্ট ও ডেভেলপমেন্ট নির্ভরতা (Development dependencies)
+#
+#   python -m pip install -r requirements-dev.txt
+#
+# শুধু টেস্ট চালানোর জন্য pytest লাগে। pytest না থাকলেও
+# `python run_all_tests.py --no-pytest` স্ট্যান্ডার্ড রানারে সব টেস্ট চালায়।
+pytest>=8.0

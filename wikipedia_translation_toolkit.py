@@ -28,7 +28,10 @@ if os.path.exists(common_path) and common_path not in sys.path:
     sys.path.insert(0, common_path)
 
 try:
-    from common.bengali_utils import to_bengali_text, to_bengali_digits, normalize_nukta_chars, has_invalid_nukta
+    from common.bengali_utils import (
+        to_bengali_text, to_bengali_digits, normalize_nukta_chars, has_invalid_nukta,
+        strip_technical_spans,
+    )
 except ImportError:
     try:
         import importlib
@@ -37,11 +40,36 @@ except ImportError:
         to_bengali_digits = getattr(bu, 'to_bengali_digits', lambda x: x)
         normalize_nukta_chars = getattr(bu, 'normalize_nukta_chars', lambda x: x)
         has_invalid_nukta = getattr(bu, 'has_invalid_nukta', lambda x: False)
+        strip_technical_spans = getattr(bu, 'strip_technical_spans', lambda x: x)
     except ImportError:
         to_bengali_text = lambda x: x
         to_bengali_digits = lambda x: x
         normalize_nukta_chars = lambda x: x
         has_invalid_nukta = lambda x: False
+        strip_technical_spans = lambda x: x
+
+try:
+    from common.wikitext_utils import analyze_wikitable
+except ImportError:
+    def analyze_wikitable(text):
+        return {'tables': 0, 'rows': 0, 'header_cols': None, 'issues': []}
+
+
+RULE_TITLES = {
+    '১': '{{Short description}} পরিহার',
+    '২': 'শতভাগ বাংলা সংখ্যা',
+    '৩': 'বাংলা বর্ণানুক্রমিক তালিকা',
+    '৪': 'শব্দের শুরুতে ৎ নিষিদ্ধ',
+    '৫': 'শাসনকালের r. অনুবাদ',
+    '৬': 'সারণির কলাম সমতা ও খালি ঘর',
+    '৭': 'রাষ্ট্রপ্রধান ও প্রধানমন্ত্রীর নাম বিন্যাস',
+    '৮': 'ডিফল্ট সর্ট ও বিষয়শ্রেণী',
+    '৯': 'চলচ্চিত্র তালিকা ও লিপ্যন্তর',
+    '১০': 'চলচ্চিত্র শিরোনাম উপস্থাপন',
+    '১১': 'প্রি-কম্পোজড বর্ণ',
+    '১২': 'এককের সুপারস্ক্রিপ্ট পরিহার',
+    '১৩': 'রক্ষণাবেক্ষণ ও উপভাষা টেমপ্লেট বর্জন',
+}
 
 
 def _load_module(folder_name: str, module_name: str):
@@ -148,35 +176,89 @@ class WikipediaTranslator:
         return translated
 
     def validate_rules(self, text: str) -> dict:
-        """বাংলা উইকিপিডিয়ার নিয়মাবলি যাচাই করে রিপোর্ট দেয়।"""
+        """বাংলা উইকিপিডিয়ার নীতিমালা যাচাই করে বিস্তারিত রিপোর্ট দেয়।
+
+        যন্ত্রে যাচাইযোগ্য ৯টি নিয়ম (১, ২, ৪, ৫, ৬, ৮, ১১, ১২, ১৩) পরীক্ষা
+        করা হয়। বাকি নিয়মগুলো অর্থগত বিচারের বিষয়, তাই `unchecked_rules`-এ
+        আলাদা রাখা হয়।
+
+        রিপোর্টের কী: ``valid``, ``issue_count``, ``issues`` (সমান-সরল তালিকা),
+        ``rules`` (নিয়মভিত্তিক ফল), ``table_report`` (সারণি বিশ্লেষণ)।
+        """
+        text = text or ''
         issues = []
+        rules = {}
 
-        if '{{Short description' in text or '{{short description' in text:
-            issues.append("নিয়ম ১ লঙ্ঘন: {{Short description}} বিদ্যমান")
+        def check(rule_id, message=None):
+            entry = rules.setdefault(rule_id, {
+                'title': RULE_TITLES.get(rule_id, ''),
+                'ok': True,
+                'issues': [],
+            })
+            if message:
+                entry['ok'] = False
+                entry['issues'].append(message)
+                issues.append(f"নিয়ম {rule_id}: {message}")
 
-        latin_digits = re.findall(r'\b\d+\b', re.sub(r'\[\[(?:File|চিত্র):.*?\]\]', '', text))
-        if latin_digits:
-            issues.append(f"নিয়ম ২ সতর্কতা: {len(latin_digits)}টি ল্যাটিন সংখ্যা পাওয়া গেছে")
+        # দৃশ্যমান লেখা (URL, ফাইলনাম, টেমপ্লেট কী বাদ) — নিয়ম ২ ও ১২ এর জন্য
+        visible = strip_technical_spans(text)
 
-        if re.search(r'(^|[\s\(\[\{])ৎ[ক-হ]', text):
-            issues.append("নিয়ম ৪ লঙ্ঘন: শব্দের শুরুতে খণ্ড-ত (ৎ) পাওয়া গেছে")
+        # ১. Short description
+        check('১', '{{Short description}} বিদ্যমান'
+              if re.search(r'\{\{\s*short\s+description', text, flags=re.I) else None)
 
-        if re.search(r'\br\.\s*\d+', text):
-            issues.append("নিয়ম ৫ সতর্কতা: শাসনকাল 'r. YYYY' পাওয়া গেছে")
+        # ২. শতভাগ বাংলা সংখ্যা (শুধু ASCII 0-9; বাংলা অঙ্ক ০-৯ বাদ যাবে না)
+        latin_digits = re.findall(r'[0-9]', visible)
+        check('২', f'{to_bengali_digits(str(len(latin_digits)))}টি ইংরেজি অঙ্ক অবশিষ্ট আছে'
+              if latin_digits else None)
 
-        if has_invalid_nukta(text):
-            issues.append("নিয়ম ১১ লঙ্ঘন: বিশ্লিষ্ট নুক্তাযুক্ত বর্ণ বিদ্যমান (ড়/ঢ়/য় প্রিকম্পোজড নয়)")
+        # ৪. শব্দের শুরুতে ৎ নিষিদ্ধ
+        check('৪', 'শব্দের শুরুতে খণ্ড-ত (ৎ) পাওয়া গেছে'
+              if re.search(r'(^|[\s\(\[\{])ৎ[ক-হ]', text) else None)
 
-        if re.search(r'(?:km|কিমি)[²2]|(?:m|মি)[²2]', text):
-            issues.append("নিয়ম ১২ লঙ্ঘন: এককের সুপারস্ক্রিপ্ট ² পাওয়া গেছে (বর্গকিমি ব্যবহার করুন)")
+        # ৫. শাসনকালের 'r.'
+        check('৫', "শাসনকালের 'r. YYYY' অবশিষ্ট আছে"
+              if re.search(r'\br\.\s*\d', visible) else None)
 
-        if re.search(r'\{\{Use (?:British|Indian|American) English\}\}', text, flags=re.I):
-            issues.append("নিয়ম ১৩ লঙ্ঘন: ইংরেজি উপভাষা/রক্ষণাবেক্ষণ টেমপ্লেট বিদ্যমান")
+        # ৬. সারণির কলাম সমতা ও খালি ঘর
+        check('৬')
+        table_report = analyze_wikitable(text)
+        for item in table_report['issues'][:10]:
+            line = to_bengali_digits(str(item['line']))
+            check('৬', f"{item['message']} (লাইন {line})")
+        if len(table_report['issues']) > 10:
+            extra = to_bengali_digits(str(len(table_report['issues']) - 10))
+            check('৬', f'আরও {extra}টি সারণি সমস্যা আছে')
 
+        # ৮. বিষয়শ্রেণী
+        check('৮', 'ইংরেজি [[Category:...]] উপসর্গ বিদ্যমান'
+              if re.search(r'\[\[\s*Category\s*:', text, flags=re.I) else None)
+
+        # ১১. প্রি-কম্পোজড বর্ণ
+        check('১১', 'বিশ্লিষ্ট নুক্তাযুক্ত বর্ণ বিদ্যমান (য়/ড়/ঢ় প্রিকম্পোজড নয়)'
+              if has_invalid_nukta(text) else None)
+
+        # ১২. এককের সুপারস্ক্রিপ্ট
+        check('১২', 'এককের সুপারস্ক্রিপ্ট ²/³ পাওয়া গেছে (বর্গকিমি/ঘনকিমি ব্যবহার করুন)'
+              if re.search(r'(?:km|কিমি|m|মি)\s*[²³23](?!\d)', visible) else None)
+
+        # ১৩. ইংরেজি রক্ষণাবেক্ষণ ও উপভাষা টেমপ্লেট
+        check('১৩', 'ইংরেজি উপভাষা/রক্ষণাবেক্ষণ টেমপ্লেট বিদ্যমান'
+              if re.search(
+                  r'\{\{\s*(?:Use\s+(?:British|Indian|American|Australian|Canadian|'
+                  r'New Zealand|Irish|Scottish)\s+English|Use\s+(?:dmy|mdy)(?:\s+dates)?|'
+                  r'force cite load)\s*\}\}',
+                  text, flags=re.I) else None)
+
+        checked = set(rules)
         return {
             'valid': len(issues) == 0,
             'issue_count': len(issues),
             'issues': issues,
+            'rules': rules,
+            'checked_rules': [r for r in RULE_TITLES if r in checked],
+            'unchecked_rules': [r for r in RULE_TITLES if r not in checked],
+            'table_report': table_report,
         }
 
 

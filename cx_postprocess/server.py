@@ -10,6 +10,7 @@
 - GET  / or /dashboard → ওয়েব ড্যাশবোর্ড ও খসড়া ট্র্যাকার
 - GET  /health         → {"ok": true}
 - POST /fix            → {"text": "..."} → {"fixed": "...", "unknown_params": [...]}
+- POST /validate       → {"text": "..."} → {"ok": true, "report": {...}}
 - GET  /drafts         → [{"title": "...", "created_at": "...", ...}]
 - POST /drafts         → খসড়া সংরক্ষণ ও ট্র্যাকিং শুরু
 - GET  /v2/list/mt/en/bn
@@ -17,6 +18,7 @@
 """
 import json
 import os
+import sys
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from urllib.parse import unquote, urlparse
 
@@ -42,6 +44,15 @@ def save_drafts(drafts: list) -> None:
             json.dump(drafts, f, ensure_ascii=False, indent=2)
     except Exception as e:
         print(f"Error saving drafts: {e}")
+
+
+def validate_wikitext(text: str) -> dict:
+    """উইকিটেক্সটে বাংলা উইকিপিডিয়ার নীতিমালা যাচাই করে।"""
+    root = os.path.dirname(BASE_DIR)
+    if root not in sys.path:
+        sys.path.insert(0, root)
+    from wikipedia_translation_toolkit import WikipediaTranslator
+    return WikipediaTranslator().validate_rules(text)
 
 
 class _Handler(BaseHTTPRequestHandler):
@@ -259,6 +270,29 @@ class _Handler(BaseHTTPRequestHandler):
 
             body = json.dumps({"fixed": fixed_text, "unknown_params": unknown}, ensure_ascii=False).encode("utf-8")
             self.send_response(200)
+            self._cors()
+            self.send_header("Content-Type", "application/json; charset=utf-8")
+            self.send_header("Content-Length", str(len(body)))
+            self.end_headers()
+            self.wfile.write(body)
+        elif path == "/validate":
+            length = int(self.headers.get("Content-Length", 0))
+            raw = self.rfile.read(length) if length else b"{}"
+            try:
+                data = json.loads(raw.decode("utf-8"))
+            except (ValueError, UnicodeDecodeError):
+                data = {}
+
+            text = data.get("text", "")
+            if not isinstance(text, str):
+                text = ""
+            try:
+                report = validate_wikitext(text)
+                body = json.dumps({"ok": True, "report": report}, ensure_ascii=False).encode("utf-8")
+                self.send_response(200)
+            except Exception as e:
+                body = json.dumps({"ok": False, "error": str(e)}, ensure_ascii=False).encode("utf-8")
+                self.send_response(500)
             self._cors()
             self.send_header("Content-Type", "application/json; charset=utf-8")
             self.send_header("Content-Length", str(len(body)))

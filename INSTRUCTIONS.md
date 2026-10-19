@@ -26,7 +26,9 @@
 ## common/ এর ফাংশনসমূহ
 
 ### bengali_utils.py
-- `to_bengali_digits(text)` - ইংরেজি সংখ্যা → বাংলা সংখ্যা (০-৯)
+- `to_bengali_digits(text)` - ইংরেজি সংখ্যা → বাংলা সংখ্যা (০-৯), সর্বত্র
+- `to_bengali_digits_safe(text)` - শুধু দৃশ্যমান অঙ্ক বাংলা; URL, ফাইলনাম, টেমপ্লেট প্যারামিটার, coord, ISBN অক্ষত
+- `strip_technical_spans(text)` - যাচাইয়ের আগে টেকনিক্যাল অংশ আড়াল করা
 - `fix_r_reigned(text)` - `r. 1202` → `শাসনকাল: ১২০২`
 - `normalize_nukta_chars(text)` - `য+়` → `য়`, `ড+়` → `ড়`, `ঢ+়` → `ঢ়`
 - `replace_short_desc(text)` - `{{Short description}}` মুছে ফেলা
@@ -70,9 +72,11 @@ wt.translate_german('input.txt', 'output.txt')
 
 ## টেস্ট চালানো
 ```bash
-python -m pytest tests/ -v
-# অথবা
 python run_all_tests.py
+# pytest না থাকলেও চলবে:
+python run_all_tests.py --no-pytest
+# অথবা (pytest ইনস্টল থাকলে)
+python -m pytest tests/ -v
 ```
 
 ## মূল নীতিমালা (সংক্ষিপ্ত)

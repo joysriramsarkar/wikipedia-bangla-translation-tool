@@ -4,17 +4,22 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "wikipedia-translation-toolkit"
-version = "1.0.0"
+version = "1.2.0"
 description = "Bengali Wikipedia translation tools for Chinese, Japanese, Russian, German and English content"
 readme = "README.md"
 authors = [
     {name = "Wikipedia Translation Team"}
 ]
 license = {text = "MIT"}
-requires-python = ">=3.8"
+requires-python = ">=3.10"
 dependencies = [
     "requests>=2.31.0",
     "pypinyin>=0.50.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
 ]
 
 [project.urls]

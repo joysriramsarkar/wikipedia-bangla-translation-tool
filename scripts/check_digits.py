@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 ইংরেজি সংখ্যা পরীক্ষক (English Digit Checker)
@@ -14,6 +14,15 @@ import sys
 import re
 import os
 import argparse
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if ROOT not in sys.path:
+    sys.path.insert(0, ROOT)
+
+from common.bengali_utils import (  # noqa: E402
+    strip_technical_spans,
+    to_bengali_digits_safe,
+)
 
 # সংরক্ষিত অঞ্চল: URL, HTML অ্যাট্রিবিউট, <ref>, ISBN,좌표
 PROTECTED_PATTERNS = [
@@ -59,35 +68,32 @@ def restore_protected(text: str, tokens: list) -> str:
 
 
 def check_file(path: str) -> list:
-    """ফাইলে ইংরেজি সংখ্যার অবস্থান তালিকা ফেরত দেয়।"""
+    """ফাইলে দৃশ্যমান ইংরেজি সংখ্যার অবস্থান তালিকা ফেরত দেয়।"""
     issues = []
     with open(path, encoding='utf-8') as f:
         lines = f.readlines()
     for i, line in enumerate(lines, 1):
-        masked, _ = mask_protected(line)
-        if EN_DIGIT_RE.search(masked):
+        # URL, ফাইলনাম, টেমপ্লেট প্যারামিটার, coord, ISBN — বাদ
+        visible = strip_technical_spans(line)
+        if EN_DIGIT_RE.search(visible):
             issues.append((i, line.rstrip()))
     return issues
 
 
 def fix_file(path: str) -> int:
-    """ফাইলে ইংরেজি সংখ্যা বাংলায় রূপান্তর করে; পরিবর্তনের সংখ্যা ফেরত দেয়।"""
+    """ফাইলে দৃশ্যমান ইংরেজি সংখ্যা বাংলায় রূপান্তর করে।
+
+    সুরক্ষিত অংশ (URL, File নাম, টেমপ্লেট কী, coord, ISBN) অক্ষত থাকে।
+    """
     with open(path, encoding='utf-8') as f:
         text = f.read()
-    masked, tokens = mask_protected(text)
-    fixed_masked = to_bn_digits(masked)
-    # Ordinals: 1st -> ১ম, 2nd -> ২য়, 3rd -> ৩য়, Nth -> Nতম
-    def ordinal_repl(m):
-        n = to_bn_digits(m.group(1))
-        suffix = m.group(2)
-        bn_sfx = {'st': 'ম', 'nd': 'য়', 'rd': 'য়', 'th': 'তম'}.get(suffix, suffix)
-        return f'{n}{bn_sfx}'
-    fixed_masked = ORDINAL_RE.sub(ordinal_repl, fixed_masked)
-    fixed = restore_protected(fixed_masked, tokens)
-    count = sum(1 for a, b in zip(text, fixed) if a != b)
+
+    fixed = to_bengali_digits_safe(text)
+    changed = sum(1 for a, b in zip(text, fixed) if a != b)
+
     with open(path, 'w', encoding='utf-8') as f:
         f.write(fixed)
-    return count
+    return changed
 
 
 def main():

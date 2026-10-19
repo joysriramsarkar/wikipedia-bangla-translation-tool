@@ -185,6 +185,11 @@ def _translate_value(value: str) -> str:
     return to_bengali_digits_safe(value)
 
 
+# বাংলা টেমপ্লেটে এই প্যারামিটারগুলো নেই — রাখলে "অসমর্থিত প্যারামিটার" সতর্কবার্তা হয়।
+RELIGIOUS_DROP_KEYS = {"mapframe", "mapframe-zoom", "mapframe-width",
+                       "mapframe-height", "mapframe-wikidata", "pushpin_map"}
+
+
 def translate_infobox(wikitext: str) -> tuple[str, list[str]]:
     """উইকিটেক্সটের Infobox (যেমন Infobox settlement, Infobox building ইত্যাদি) বাংলায় করে।
 
@@ -206,6 +211,7 @@ def translate_infobox(wikitext: str) -> tuple[str, list[str]]:
             header_repl = f"{{{{তথ্যছক {bn_type}".strip() if bn_type else "{{তথ্যছক"
             body = header_repl + body[open_match.end():]
         else:
+            raw_type = ""
             body = re.sub(
                 r"^\{\{\s*(?:[Ii]nfobox|তথ্যবক্ত|তথ্যবক্স|তথ্যবাক্স|ইনফোবক্স)\b",
                 "{{তথ্যছক",
@@ -213,11 +219,20 @@ def translate_infobox(wikitext: str) -> tuple[str, list[str]]:
                 flags=re.IGNORECASE,
             )
 
+        type_key = (raw_type or "").strip().lower()
+        is_religious = ("religious" in type_key or "ধর্ম" in type_key
+                        or type_key in {"church", "mosque", "temple", "monastery",
+                                        "synagogue", "hindu temple"})
+        keep_english_keys = is_religious
+        dropped = RELIGIOUS_DROP_KEYS if is_religious else set()
+
         # ২. প্যারাম: প্রতিটি `| key = value` লাইন
         def _repl_param(pm: re.Match) -> str:
             key = pm.group(1).strip()
             val = pm.group(2)
-            bn_key = PARAM_MAP.get(key, PARAM_MAP.get(key.lower()))
+            if key.lower() in dropped:
+                return ""
+            bn_key = None if keep_english_keys else PARAM_MAP.get(key, PARAM_MAP.get(key.lower()))
             if bn_key is None:
                 if any("a" <= c.lower() <= "z" for c in key):
                     unknown.append(key)
@@ -225,7 +240,7 @@ def translate_infobox(wikitext: str) -> tuple[str, list[str]]:
             return f"| {bn_key} = {_translate_value(val)}"
 
         body = re.sub(
-            r"^\s*\|\s*([A-Za-z0-9_\u0980-\u09FF ]+?)\s*=\s*(.*?)\s*$",
+            r"^\s*\|\s*([A-Za-z0-9_\-\u0980-\u09FF ]+?)\s*=\s*(.*?)\s*$",
             _repl_param,
             body,
             flags=re.MULTILINE,

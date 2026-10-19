@@ -5,12 +5,18 @@ ContentTranslation ড্রপডাউনে ঢোকার আগের ধ�
 ## মডিউল
 
 - `bn_digits_safe.py` — `to_bengali_digits_safe(text)`:
+  কেন্দ্রীয় বাস্তবায়ন `common/bengali_utils.py`-এর পাতলা মোড়ক।
   HTML ট্যাগ অক্ষত রেখে দৃশ্যমান `0-9 → ০-৯`, `2nd → ২য়`।
   URL / `<ref>` / File / coord / ISBN সুরক্ষিত।
 - `infobox_map.py` — `translate_infobox(wikitext)`:
   `{{Infobox settlement}} → {{তথ্যছক বসতি}}`, পরিচিত প্যারাম + লেবেল
   (`Country → দেশ`), মানের সংখ্যা বাংলা। অচেনা প্যারাম ফেলে না,
-  রিপোর্ট করে।
+  রিপোর্ট করে। ধর্মীয় ভবন-জাতীয় টেমপ্লেটে ইংরেজি প্যারাম কী অক্ষত থাকে
+  (bnwiki টেমপ্লেট ইংরেজি কী ব্যবহার করে) এবং অসমর্থিত `mapframe*` বাদ যায়।
+- `mt_translate.py` — উইকিটেক্সট-সচেতন মেশিন অনুবাদ। গুগল gtx ব্যর্থ/429 হলে
+  `clients5` ও শেষে MyMemory ফলব্যাক; প্লেসহোল্ডার উল্টো ক্রমে পুনরুদ্ধার হয়,
+  তাই nested টেমপ্লেটের টোকেন লিক করে না। চিত্র/মানচিত্রের নাম, URL ও
+  হ্যাঁ/না মান অনূদিত হয় না।
 - `currency_fix.py` — চিহ্ন (`R$`, `US$`) রাখা হয় (bn রীতি), নাম বাংলায়:
   `dollars → ডলার`, `USD → মার্কিন ডলার`, `BRL → ব্রাজিলীয় রিয়াল`।
 - `table_fix.py` — `rowspan`/`colspan` ল্যাটিন রাখা, `|-` পৃথক লাইনে,
@@ -28,7 +34,7 @@ python -m pytest tests/test_cx_postprocess.py tests/test_cx_stage2.py tests/test
 
 ```bash
 python -m cx_postprocess.server
-# → http://127.0.0.1:8765  (GET /health, POST /fix)
+# → http://127.0.0.1:8765  (GET /health, POST /fix, POST /validate)
 ```
 
 - `pipeline.py` — `fix_text(text)` → `{"fixed", "unknown_params"}`।

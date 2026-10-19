@@ -50,7 +50,8 @@ else:
 
 try:
     from common.bengali_utils import (
-        to_bengali_text, replace_short_desc, remove_maintenance_templates,
+        to_bengali_text, to_bengali_digits_safe,
+        replace_short_desc, remove_maintenance_templates,
         normalize_units, normalize_nukta_chars, fix_initial_khandatta,
         fix_r_reigned, fix_en_dash_years
     )
@@ -59,6 +60,7 @@ except ImportError:
         import importlib
         bu = importlib.import_module('bengali_utils')
         to_bengali_text = getattr(bu, 'to_bengali_text', lambda t: t)
+        to_bengali_digits_safe = getattr(bu, 'to_bengali_digits_safe', to_bengali_digits)
         replace_short_desc = getattr(bu, 'replace_short_desc', lambda t: t)
         remove_maintenance_templates = getattr(bu, 'remove_maintenance_templates', lambda t: t)
         normalize_units = getattr(bu, 'normalize_units', lambda t: t)
@@ -79,6 +81,7 @@ except ImportError:
         fix_initial_khandatta = lambda t: re.sub(r'(^|[\s\(\[\{])ৎ', r'\1স', t)
         fix_r_reigned = lambda t: re.sub(r'\br\.\s*(\d+)', r'শাসনকাল: \1', t)
         fix_en_dash_years = lambda t: t.replace(' - ', ' – ')
+        to_bengali_digits_safe = to_bengali_digits
 
 
 # পরিচিত অনুচ্ছেদ শিরোনাম ম্যাপিং
@@ -147,8 +150,8 @@ def translate_text(text: str) -> str:
     text = re.sub(r'\[\[Category:', '[[বিষয়শ্রেণী:', text, flags=re.IGNORECASE)
 
     # ১০. নিয়ম ২: সংখ্যা রূপান্তর (শুধু প্রদর্শিত লেখার ক্ষেত্রে, উইকিসিনট্যাক্স নষ্ট না করে)
-    # সাধারণ টেক্সটে সব আরবি সংখ্যা বাংলায় রূপান্তর
-    text = to_bengali_digits(text)
+    # URL, File নাম, টেমপ্লেট প্যারামিটার, coord, ISBN — অক্ষত; দৃশ্যমান অঙ্ক বাংলায়
+    text = to_bengali_digits_safe(text)
     text = fix_en_dash_years(text)
 
     return text.strip()

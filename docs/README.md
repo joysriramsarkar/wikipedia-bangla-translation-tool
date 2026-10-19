@@ -1,4 +1,4 @@
-﻿# উইকিপিডিয়া অনুবাদ টুলকিট — সম্পূর্ণ ডকুমেন্টেশন
+# উইকিপিডিয়া অনুবাদ টুলকিট — সম্পূর্ণ ডকুমেন্টেশন
 
 ## বিষয়সূচি
 
@@ -47,6 +47,9 @@ python examples/demo.py
 
 ### টেস্ট চালানো
 ```bash
+python run_all_tests.py
+# pytest না থাকলেও: python run_all_tests.py --no-pytest
+# অথবা:
 python -m pytest tests/ -v
 ```
 
@@ -161,6 +164,7 @@ ContentTranslation থেকে পাওয়া খসড়া উইকি�
 | `/dashboard` | GET | ওয়েব ড্যাশবোর্ড |
 | `/health` | GET | সার্ভার স্বাস্থ্য পরীক্ষা |
 | `/fix` | POST | উইকিটেক্সট পোস্ট-প্রসেস |
+| `/validate` | POST | ১৩ নীতিমালার মধ্যে যাচাইযোগ্য ৯টির ফল |
 | `/translate` | POST | মেশিন অনুবাদ + পোস্ট-প্রসেস |
 | `/drafts` | GET/POST | খসড়া ট্র্যাকিং |
 | `/preview` | POST | উইকিপিডিয়া API থেকে প্রাকদর্শন |
