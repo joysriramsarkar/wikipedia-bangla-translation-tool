@@ -471,6 +471,11 @@ def translate_wikitext_full(wikitext: str, sl: str = "en", tl: str = "bn") -> st
             translated_lines.append(line)
             continue
 
+        # যেকোনো অ-ইনফোবক্স টেমপ্লেটের নাম অক্ষত (যেমন {{Series overview)
+        if re.match(r"^(?:<onlyinclude>|<noinclude>)?\{\{\s*[A-Za-z][A-Za-z0-9 _]*\s*$", stripped):
+            translated_lines.append(line)
+            continue
+
         # ইনফোবক্স শুরু লাইন (যেমন: {{infobox building বা {{Infobox settlement বা {{তথ্যবক্ত ভবন)
         infobox_header_match = re.match(
             r"^\{\{\s*(?:[Ii]nfobox|তথ্যবক্ত|তথ্যবক্স|তথ্যবাক্স|ইনফোবক্স|তথ্যছক)\b(?:\s+([a-zA-Z0-9_\u0980-\u09FF ]+?))?(.*)$",
@@ -504,6 +509,15 @@ def translate_wikitext_full(wikitext: str, sl: str = "en", tl: str = "bn") -> st
 
             # প্রযুক্তিগত প্যারামিটার (CSS ক্লাস, স্টেট, চিত্র/মানচিত্রের নাম) অক্ষত রাখা
             if param_clean in TECHNICAL_PARAM_KEYS or param_clean in UNTRANSLATABLE_PARAM_KEYS:
+                translated_lines.append(line)
+                continue
+
+            # Series overview-এর link/start/end/color মান যন্ত্র-পাঠ্য; অনুবাদ নয়
+            if re.match(r"^(?:link|start|end|color)\d+$", param_clean):
+                translated_lines.append(line)
+                continue
+
+            if param_val.strip().startswith("<includeonly>"):
                 translated_lines.append(line)
                 continue
 

@@ -96,6 +96,13 @@ def test_hyphenated_template_keys_preserved():
     assert repaired == '|editor-last2 = Kindaichi'
 
 
+def test_date_templates_and_anchors_keep_ascii_digits():
+    src = '{{Start date|2020|4|13}} #Season 17 (2020)'
+    out = to_bengali_digits_safe(src)
+    assert '{{Start date|2020|4|13}}' in out
+    assert '#Season 17 (2020)' in out
+
+
 def test_to_bengali_text_keeps_technical_spans():
     src = '[[File:Photo 2020.jpg|thumb|ছবি 2020]] ওয়েবসাইট https://x.com/2020 এবং সাল 2020'
     out = to_bengali_text(src)

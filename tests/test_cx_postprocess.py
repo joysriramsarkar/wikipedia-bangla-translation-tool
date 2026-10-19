@@ -7,6 +7,17 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from cx_postprocess.bn_digits_safe import to_bengali_digits_safe
 from cx_postprocess.infobox_map import translate_infobox
+from cx_postprocess import mt_translate
+
+
+def _with_mock(func):
+    from cx_postprocess import mt_translate
+    original = mt_translate._translate_raw_chunk
+    mt_translate._translate_raw_chunk = lambda text, sl="en", tl="bn": text
+    try:
+        return func()
+    finally:
+        mt_translate._translate_raw_chunk = original
 
 
 def test_ordinals():
@@ -170,4 +181,22 @@ def test_pipeline_translates_category_prefix():
     out = fix_text("[[Category:Films]]")["fixed"]
     expected = "[[বিষ" + "\u09df" + "শ্রেণী:Films]]"
     assert out == expected
+
+
+def test_series_overview_template_and_params_kept():
+    src = (
+        "<onlyinclude>{{Series overview\n"
+        "| link17     = <includeonly>List of American Dad! episodes</includeonly>#Season 17 (2020)\n"
+        "| episodes17 = 24\n"
+        "| start17    = {{Start date|2020|4|13}}\n"
+        "| color17    = #FF8000\n"
+        "}}"
+    )
+    out = _with_mock(lambda: mt_translate.translate_wikitext_full(src))
+    assert "{{Series overview" in out
+    assert "<includeonly>List of American Dad! episodes</includeonly>" in out
+    assert "#Season 17 (2020)" in out
+    assert "{{Start date|2020|4|13}}" in out
+    assert "#FF8000" in out
+    assert "episodes17 = ২৪" in out
 

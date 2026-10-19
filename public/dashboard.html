@@ -1482,6 +1482,16 @@
 
     async function fetchGoogleTr(phrase, sl, tl) {
       if (!phrase || !phrase.trim()) return phrase;
+      // আগে হালকা clients5 endpoint; gtx 429 হলে সেটাই কাজ করে
+      try {
+        const url5 = `https://clients5.google.com/translate_a/t?client=dict-chrome-ex&sl=${sl}&tl=${tl}&q=${encodeURIComponent(phrase)}`;
+        const r5 = await fetch(url5);
+        const j5 = await r5.json();
+        if (Array.isArray(j5)) {
+          const text = j5.map(part => Array.isArray(part) ? (part[0] || '') : (part || '')).join('');
+          if (text && text.trim()) return text;
+        }
+      } catch (e) {}
       try {
         const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=${sl}&tl=${tl}&dt=t&q=${encodeURIComponent(phrase)}`;
         const r = await fetch(url);
@@ -1493,6 +1503,81 @@
       return phrase;
     }
 
+    function splitTopLevel(text, sep = '|') {
+      const parts = [];
+      let buffer = '';
+      let linkDepth = 0;
+      let templateDepth = 0;
+      for (let i = 0; i < text.length; i++) {
+        const pair = text.slice(i, i + 2);
+        if (pair === '[[') { linkDepth++; buffer += pair; i++; continue; }
+        if (pair === ']]') { linkDepth = Math.max(0, linkDepth - 1); buffer += pair; i++; continue; }
+        if (pair === '{{') { templateDepth++; buffer += pair; i++; continue; }
+        if (pair === '}}') { templateDepth = Math.max(0, templateDepth - 1); buffer += pair; i++; continue; }
+        if (text[i] === sep && linkDepth === 0 && templateDepth === 0) {
+          parts.push(buffer); buffer = ''; continue;
+        }
+        buffer += text[i];
+      }
+      parts.push(buffer);
+      return parts;
+    }
+
+    function findLinkEnd(text, start) {
+      let depth = 0;
+      for (let i = start; i < text.length - 1; i++) {
+        if (text.startsWith('[[', i)) { depth++; i++; continue; }
+        if (text.startsWith(']]', i)) {
+          depth--; i++;
+          if (depth === 0) return i + 1;
+        }
+      }
+      return -1;
+    }
+
+    function isFileOption(part) {
+      const value = part.trim().toLowerCase();
+      if (['thumb', 'thumbnail', 'frame', 'framed', 'frameless', 'border', 'left', 'right',
+           'center', 'none', 'upright', 'baseline', 'sub', 'super', 'top', 'text-top',
+           'middle', 'bottom', 'text-bottom'].includes(value)) return true;
+      if (/^(?:upright\s*=\s*)?[\d.]+(?:x[\d.]+)?\s*px$/.test(value)) return true;
+      if (/^\d+x\d+$/.test(value)) return true;
+      if (/^(?:alt|link|lang|page|class)\s*=/.test(value)) return true;
+      return false;
+    }
+
+    async function translateFileLinksClient(text, sl, tl) {
+      let out = '';
+      let i = 0;
+      const marker = /\[\[\s*(?:File|Image|চিত্র|ফাইল)\s*:/i;
+      while (true) {
+        const rest = text.slice(i);
+        const match = rest.match(marker);
+        if (!match) { out += rest; break; }
+        const start = i + match.index;
+        const end = findLinkEnd(text, start);
+        if (end === -1) { out += text.slice(i); break; }
+        out += text.slice(i, start);
+        const inner = text.slice(start + 2, end - 2);
+        const parts = splitTopLevel(inner);
+        let restParts = parts.slice(1);
+        let caption = null;
+        if (restParts.length && !isFileOption(restParts[restParts.length - 1])) {
+          caption = restParts.pop();
+        }
+        if (caption && /[A-Za-z\u0980-\u09FF]{2,}/.test(caption)
+            && !/\[\[\s*(?:File|Image|চিত্র|ফাইল)\s*:/i.test(caption)) {
+          caption = await translateBlockClient(caption.trim(), sl, tl);
+        }
+        let rebuilt = '[[' + parts[0] + restParts.map(p => '|' + p).join('');
+        if (caption !== null) rebuilt += '|' + caption;
+        rebuilt += ']]';
+        out += rebuilt;
+        i = end;
+      }
+      return out;
+    }
+
     async function translateBlockClient(block, sl, tl) {
       const placeholders = [];
       function makePh(val) {
@@ -1501,20 +1586,24 @@
         return ` ZWPHL${idx}Z `;
       }
 
-      let s = block;
-      s = s.replace(/<ref\b[^>]*>[\s\S]*?<\/ref>/g, makePh);
-      s = s.replace(/<ref\b[^>]*\/>/g, makePh);
+      let s = await translateFileLinksClient(block, sl, tl);
+      // আগে self-closing <ref .../>; নাহলে পরের </ref> পর্যন্ত লেখা গ্রাস হয়
+      s = s.replace(/<ref\b[^>]*?\/\s*>/g, makePh);
+      s = s.replace(/<ref\b[^>]*?(?<!\/)>[\s\S]*?<\/ref>/g, makePh);
+      s = s.replace(/<\/?(?:includeonly|noinclude|onlyinclude)\s*>/gi, makePh);
       s = s.replace(/\[\[(File|Image|চিত্র|ফাইল):[\s\S]*?\]\]/gi, makePh);
       for (let i = 0; i < 3; i++) {
         s = s.replace(/\{\{[^{}]+\}\}/g, makePh);
       }
+      // অনাবৃত টেমপ্লেটের নাম যেন অনূদিত না হয় (যেমন {{Series overview)
+      s = s.replace(/\{\{\s*[A-Za-z][A-Za-z0-9 _]*?(?=\s*\||\s*$)/g, makePh);
       s = s.replace(/\[https?:\/\/[^\s\]]+(?:\s+[^\]]+)?\]/g, makePh);
-      // <br/> ও <br> লাইনব্রেক ট্যাগ মাস্ক করা (যাতে নিউলাইনে ভেঙে না যায়)
-      s = s.replace(/<\s*br\s*\/?>/gi, makePh);
+      s = s.replace(/<\s*br\s*\/?\s*>/gi, makePh);
 
       let translated = await fetchGoogleTr(s, sl, tl);
 
-      for (let i = 0; i < placeholders.length; i++) {
+      // উল্টো ক্রমে পুনরুদ্ধার: বাইরের টেমপ্লেট আগে, ভেতরের টোকেন পরে
+      for (let i = placeholders.length - 1; i >= 0; i--) {
         const ph = placeholders[i];
         const phRegex = new RegExp(`\\s*ZWPHL${i}Z\\s*`, 'g');
         if (ph.toLowerCase().startsWith('<br')) {
@@ -1595,6 +1684,42 @@
       'religious building': 'ধর্মীয় ভবন'
     };
 
+    function toBnDigitsSafeClient(text) {
+      const store = [];
+      const protect = (pattern) => {
+        text = text.replace(pattern, (match) => {
+          const mark = '\uE000' + String.fromCharCode(0xE100 + store.length) + '\uE001';
+          store.push(match);
+          return mark;
+        });
+      };
+      protect(/<[^>]*>/g);
+      protect(/https?:\/\/[^\s<>\]\}|]+/g);
+      protect(/\[\[\s*(?:File|Image|চিত্র|ফাইল)\s*:[^\]\|\n]*/gi);
+      protect(/\b(?:File|Image|চিত্র|ফাইল)\s*:\s*[^\|\]\}\n]+/gi);
+      protect(/\|\s*link\d+\s*=[^\n]*/gi);
+      protect(/#[0-9A-Fa-f]{3,8}\b/g);
+      protect(/\{\{\s*(?:Start date|End date|start date|end date|coord|Coord|ইউটিসি|UTC)\s*\|[^{}]*\}\}/g);
+      protect(/\bISBN[\s:]*(?:97[89][\d\- ]{10,}|[\dXx][\dXx\- ]{8,})/gi);
+      protect(/\|\s*[A-Za-z0-9_\-\u0980-\u09FF]*\d+[A-Za-z0-9_\-\u0980-\u09FF]*\s*=/g);
+      protect(/\|\s*\d+(?:x\d+)?\s*px\b/g);
+      text = text.replace(/[0-9]/g, d => '০১২৩৪৫৬৭৮৯'[Number(d)]);
+      for (let i = store.length - 1; i >= 0; i--) {
+        text = text.replace('\uE000' + String.fromCharCode(0xE100 + i) + '\uE001', store[i]);
+      }
+      return text;
+    }
+
+    function clientFixText(text) {
+      let s = text;
+      s = s.replace(/\[\[\s*Category\s*:/gi, '[[বিষয়শ্রেণী:');
+      s = s.replace(/\br\.\s*(\d{1,4}(?:\s*[-–]\s*\d{1,4})?)/g,
+        (match, group) => 'শাসনকাল: ' + toBnDigitsSafeClient(group));
+      s = s.replace(/\b(km|কিমি)[²2]\b/gi, 'বর্গকিমি').replace(/\b(m|মি)[²2]\b/gi, 'বর্গমি');
+      s = s.replace(/\b(km|কিমি)[³3]\b/gi, 'ঘনকিমি').replace(/\b(m|মি)[³3]\b/gi, 'ঘনমি');
+      return toBnDigitsSafeClient(s);
+    }
+
     async function clientSideWikitextTranslate(wikitext, sl, tl) {
       const lines = wikitext.split('\n');
       const outLines = [];
@@ -1647,6 +1772,21 @@
           continue;
         }
 
+        // টেবিলের সেল: পাইপ/সেপারেটর অক্ষত, শুধু ঘরের লেখা অনুবাদ
+        if (inTable && (trimmed.startsWith('|') || trimmed.startsWith('!'))) {
+          const header = trimmed.startsWith('!');
+          const lead = header ? '!' : '|';
+          const separator = header ? '!!' : '||';
+          const cells = trimmed.slice(1).split(separator);
+          const outCells = [];
+          for (const cell of cells) {
+            if (!cell.trim()) { outCells.push('&nbsp;'); continue; }
+            outCells.push(await translateBlockClient(cell, sl, tl));
+          }
+          outLines.push(lead + outCells.join(separator));
+          continue;
+        }
+
         const hMatch = trimmed.match(/^(={1,6})\s*(.*?)\s*(={1,6})$/);
         if (hMatch) {
           const trH = await fetchGoogleTr(hMatch[2], sl, tl);
@@ -1662,6 +1802,20 @@
 
           // কারিগরি প্যারামিটার (ক্লাস, স্টেট) অনুবাদ না করা
           if (TECHNICAL_PARAM_KEYS.has(cleanKey)) {
+            outLines.push(line);
+            continue;
+          }
+
+          // Series overview-এর link/start/end/color ইত্যাদি কারিগরি কী
+          if (/^(?:link|episodes|start|end|color|season|series)\d+$/i.test(cleanKey)) {
+            if (/^episodes\d+$/i.test(cleanKey)) {
+              outLines.push(`${k}= ${toBnDigitsSafeClient(v)}`);
+            } else {
+              outLines.push(line);
+            }
+            continue;
+          }
+          if (v.trim().startsWith('<includeonly>')) {
             outLines.push(line);
             continue;
           }
@@ -1765,7 +1919,7 @@
           }
         }
 
-        resText = cleanEnglishMaintenanceTemplates(resText);
+        resText = clientFixText(cleanEnglishMaintenanceTemplates(resText));
         document.getElementById('out-text').value = resText;
         if (document.getElementById('out-preview').style.display === 'block') {
           renderLivePreview();
