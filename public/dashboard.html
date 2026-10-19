@@ -1546,7 +1546,7 @@
       return false;
     }
 
-    async function translateFileLinksClient(text, sl, tl) {
+    function maskFileLinksClient(text, makePh) {
       let out = '';
       let i = 0;
       const marker = /\[\[\s*(?:File|Image|চিত্র|ফাইল)\s*:/i;
@@ -1556,26 +1556,48 @@
         if (!match) { out += rest; break; }
         const start = i + match.index;
         const end = findLinkEnd(text, start);
-        if (end === -1) { out += text.slice(i); break; }
+        if (end === -1) { out += text.slice(i, start + 2); i = start + 2; continue; }
+        out += text.slice(i, start);
+        out += makePh(text.slice(start, end));
+        i = end;
+      }
+      return out;
+    }
+
+    async function extractAndTranslateFileLinksClient(text, sl, tl) {
+      let out = '';
+      const placeholders = {};
+      let i = 0;
+      const marker = /\[\[\s*(?:File|Image|চিত্র|ফাইল)\s*:/i;
+      while (true) {
+        const rest = text.slice(i);
+        const match = rest.match(marker);
+        if (!match) { out += rest; break; }
+        const start = i + match.index;
+        const end = findLinkEnd(text, start);
+        if (end === -1) { out += text.slice(i, start + 2); i = start + 2; continue; }
         out += text.slice(i, start);
         const inner = text.slice(start + 2, end - 2);
         const parts = splitTopLevel(inner);
+        const fileTarget = parts[0]; // ফাইলের নাম কখনো অনুবাদ নয়!
         let restParts = parts.slice(1);
         let caption = null;
         if (restParts.length && !isFileOption(restParts[restParts.length - 1])) {
           caption = restParts.pop();
         }
-        if (caption && /[A-Za-z\u0980-\u09FF]{2,}/.test(caption)
-            && !/\[\[\s*(?:File|Image|চিত্র|ফাইল)\s*:/i.test(caption)) {
-          caption = await translateBlockClient(caption.trim(), sl, tl);
+        let captionTr = caption;
+        if (caption && /[A-Za-z\u0980-\u09FF]{2,}/.test(caption)) {
+          captionTr = await translateBlockClient(caption.trim(), sl, tl);
         }
-        let rebuilt = '[[' + parts[0] + restParts.map(p => '|' + p).join('');
-        if (caption !== null) rebuilt += '|' + caption;
+        let rebuilt = '[[' + fileTarget + restParts.map(p => '|' + p).join('');
+        if (captionTr !== null) rebuilt += '|' + captionTr;
         rebuilt += ']]';
-        out += rebuilt;
+        const phKey = `__FILE_LINK_PLACEHOLDER_${Object.keys(placeholders).length}__`;
+        placeholders[phKey] = rebuilt;
+        out += phKey;
         i = end;
       }
-      return out;
+      return { text: out, placeholders };
     }
 
     async function translateBlockClient(block, sl, tl) {
@@ -1586,12 +1608,12 @@
         return ` ZWPHL${idx}Z `;
       }
 
-      let s = await translateFileLinksClient(block, sl, tl);
+      // ফাইল লিঙ্কগুলোকে পুরো ব্লকে খুঁজে মাস্ক করা (যাতে নেস্টেড ব্র্যাকেটে না কাটে)
+      let s = maskFileLinksClient(block, makePh);
       // আগে self-closing <ref .../>; নাহলে পরের </ref> পর্যন্ত লেখা গ্রাস হয়
       s = s.replace(/<ref\b[^>]*?\/\s*>/g, makePh);
       s = s.replace(/<ref\b[^>]*?(?<!\/)>[\s\S]*?<\/ref>/g, makePh);
       s = s.replace(/<\/?(?:includeonly|noinclude|onlyinclude)\s*>/gi, makePh);
-      s = s.replace(/\[\[(File|Image|চিত্র|ফাইল):[\s\S]*?\]\]/gi, makePh);
       for (let i = 0; i < 3; i++) {
         s = s.replace(/\{\{[^{}]+\}\}/g, makePh);
       }
@@ -1605,7 +1627,7 @@
       // উল্টো ক্রমে পুনরুদ্ধার: বাইরের টেমপ্লেট আগে, ভেতরের টোকেন পরে
       for (let i = placeholders.length - 1; i >= 0; i--) {
         const ph = placeholders[i];
-        const phRegex = new RegExp(`\\s*ZWPHL${i}Z\\s*`, 'g');
+        const phRegex = new RegExp(`[\\t ]*ZWPHL${i}Z[\\t ]*`, 'g');
         if (ph.toLowerCase().startsWith('<br')) {
           translated = translated.replace(phRegex, ph);
         } else {
@@ -1697,6 +1719,7 @@
       protect(/https?:\/\/[^\s<>\]\}|]+/g);
       protect(/\[\[\s*(?:File|Image|চিত্র|ফাইল)\s*:[^\]\|\n]*/gi);
       protect(/\b(?:File|Image|চিত্র|ফাইল)\s*:\s*[^\|\]\}\n]+/gi);
+      protect(/\b[A-Za-z0-9_\-\. %()]+\.(?:png|jpe?g|gif|svg|webp|tiff?|ogg|oga|ogv|pdf|djvu|mp3|mp4|webm)\b/gi);
       protect(/\|\s*link\d+\s*=[^\n]*/gi);
       protect(/#[0-9A-Fa-f]{3,8}\b/g);
       protect(/(?:[^\n#|\]\}])#[A-Za-z][^\|\]\}\n]*/g);
@@ -1722,14 +1745,49 @@
     }
 
     async function clientSideWikitextTranslate(wikitext, sl, tl) {
-      const lines = wikitext.split('\n');
+      // ফাইল ও ছবির লিঙ্ক সুরক্ষিত রাখা (ক্যাপশন অনুবাদ ও ফাইলের নাম শতভাগ অক্ষত)
+      const { text: maskedWikitext, placeholders: filePlaceholders } = await extractAndTranslateFileLinksClient(wikitext, sl, tl);
+      const lines = maskedWikitext.split('\n');
       const outLines = [];
       let inTable = false;
+      let inGallery = false;
 
       for (let line of lines) {
         const trimmed = line.trim();
         if (!trimmed) {
           outLines.push('');
+          continue;
+        }
+
+        // ফাইল প্লেসহোল্ডার সরাসরি রাখা
+        if (/^__FILE_LINK_PLACEHOLDER_\d+__$/.test(trimmed)) {
+          outLines.push(line);
+          continue;
+        }
+
+        // <gallery> ফাইল লাইন: File: নাম অক্ষত, ক্যাপশন অনুবাদ
+        if (trimmed.toLowerCase().startsWith('<gallery')) {
+          inGallery = true;
+          outLines.push(line);
+          continue;
+        }
+        if (inGallery) {
+          if (trimmed.toLowerCase().startsWith('</gallery')) {
+            inGallery = false;
+            outLines.push(line);
+            continue;
+          }
+          if (/\.(?:png|jpe?g|gif|svg|webp|tiff?|ogg|oga|ogv|pdf|djvu|mp3|mp4|webm)\b/i.test(trimmed) ||
+              /^(?:file|image|চিত্র|ফাইল)\s*:/i.test(trimmed)) {
+            const parts = splitTopLevel(line);
+            let rest = parts.slice(1);
+            if (rest.length && !isFileOption(rest[rest.length - 1].trim())) {
+              rest[rest.length - 1] = await translateBlockClient(rest[rest.length - 1].trim(), sl, tl);
+            }
+            outLines.push([parts[0], ...rest].join('|'));
+            continue;
+          }
+          outLines.push(line);
           continue;
         }
 
@@ -1821,6 +1879,14 @@
             continue;
           }
 
+          // ফাইলনাম, URL বা মানচিত্রের মান অনুবাদ করা যাবে না
+          if (/\.(?:png|jpe?g|gif|svg|webp|tiff?|ogg|oga|ogv|pdf|djvu|mp3|mp4|webm)\b/i.test(v) ||
+              /^\s*(?:https?:\/\/|www\.)/i.test(v) ||
+              /^\s*(?:File|Image|চিত্র|ফাইল)\s*:/i.test(v)) {
+            outLines.push(line);
+            continue;
+          }
+
           if (/[a-zA-Z]{3,}/.test(v) && !v.trim().startsWith('{{')) {
             let trV = await translateBlockClient(v, sl, tl);
             trV = trV.replace(/\r?\n/g, ' ');
@@ -1838,7 +1904,11 @@
           outLines.push(line);
         }
       }
-      return outLines.join('\n');
+      let resText = outLines.join('\n');
+      for (const [phKey, rebuilt] of Object.entries(filePlaceholders)) {
+        resText = resText.replaceAll(phKey, rebuilt);
+      }
+      return resText;
     }
 
     // ইংরেজি উপভাষা ও রক্ষণাবেক্ষণ টেমপ্লেট বর্জন এবং তথ্যছক প্রমিতকরণ

@@ -35,6 +35,21 @@ def test_file_caption_is_translated_and_name_kept():
     assert "[[gold leaf]]" in out
 
 
+def test_multiline_file_link_name_kept_and_caption_translated():
+    src = (
+        "[[File:Germany Name European Languages.png|thumb|350px|European languages - name derived from:\n"
+        "{{legend|#5599ff|[[Proto-Germanic language|Proto-Germanic]] ''*þeudiskaz''}}\n"
+        "{{legend|#7ecb60|[[Latin]] {{lang|la|Germania}}}}\n"
+        "]]"
+    )
+    out = _with_mock(lambda: mt_translate.translate_wikitext_full(src))
+    assert "File:Germany Name European Languages.png" in out
+    assert "thumb|350px" in out
+    assert "«European languages - name derived from:»" in out or "«European languages" in out
+    assert "{{legend|#5599ff|[[Proto-Germanic language|Proto-Germanic]] ''*þeudiskaz''}}" in out
+    assert "জার্মানি নাম" not in out
+
+
 def test_gallery_file_name_kept_caption_translated():
     src = "<gallery>\nFile:A 2020.jpg|Caption 2020\n</gallery>"
     out = _with_mock(lambda: mt_translate.translate_wikitext_full(src))

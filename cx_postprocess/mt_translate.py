@@ -301,6 +301,77 @@ def _translate_file_links(text: str, sl: str, tl: str) -> str:
     return "".join(out)
 
 
+def _mask_file_links(text: str, make_ph) -> str:
+    """Use bracket depth counting to mask file links without premature cutoff."""
+    out = []
+    i = 0
+    pattern = re.compile(r"\[\[\s*(?:File|Image|চিত্র|ফাইল)\s*:", re.IGNORECASE)
+    while True:
+        match = pattern.search(text[i:])
+        if not match:
+            out.append(text[i:])
+            break
+        start = i + match.start()
+        end = _find_link_end(text, start)
+        if end == -1:
+            out.append(text[i:start + 2])
+            i = start + 2
+            continue
+        out.append(text[i:start])
+        out.append(make_ph(text[start:end]))
+        i = end
+    return "".join(out)
+
+
+def _extract_and_translate_file_links(text: str, sl: str = "en", tl: str = "bn"):
+    """
+    উইকিটেক্সটে থাকা সমস্ত [[File:...]] / [[Image:...]] / [[চিত্র:...]] / [[ফাইল:...]]
+    লিঙ্ক (এক বা একাধিক লাইনব্যাপী) খুঁজে বের করে কেবল ক্যাপশন অংশ অনুবাদ করে।
+    মূল ফাইলের নাম ও অপশন (thumb, 350px ইত্যাদি) সর্বদা অপরিবর্তিত থাকে।
+    """
+    out = []
+    placeholders = {}
+    i = 0
+    pattern = re.compile(r"\[\[\s*(?:File|Image|চিত্র|ফাইল)\s*:", re.IGNORECASE)
+    while True:
+        match = pattern.search(text[i:])
+        if not match:
+            out.append(text[i:])
+            break
+        start = i + match.start()
+        end = _find_link_end(text, start)
+        if end == -1:
+            out.append(text[i:start + 2])
+            i = start + 2
+            continue
+        out.append(text[i:start])
+        inner = text[start + 2:end - 2]
+        parts = _split_top_level(inner)
+        file_target = parts[0]  # ফাইলের নাম কখনো অনুবাদ নয়!
+        rest = parts[1:]
+        caption = None
+        if rest and not _is_file_option(rest[-1].strip()):
+            caption = rest[-1]
+            rest = rest[:-1]
+
+        if caption and re.search(r"[A-Za-z\u0980-\u09FF]{2,}", caption):
+            caption_tr = translate_wikitext_block(caption.strip(), sl=sl, tl=tl).strip()
+        else:
+            caption_tr = caption
+
+        rebuilt = "[[" + file_target + "".join(f"|{p}" for p in rest)
+        if caption_tr is not None:
+            rebuilt += f"|{caption_tr}"
+        rebuilt += "]]"
+
+        ph_key = f"__FILE_LINK_PLACEHOLDER_{len(placeholders)}__"
+        placeholders[ph_key] = rebuilt
+        out.append(ph_key)
+        i = end
+
+    return "".join(out), placeholders
+
+
 def translate_wikitext_block(block: str, sl: str = "en", tl: str = "bn") -> str:
     """
     উইকিটেক্সটের একটি অনুচ্ছেদ সুরক্ষিত রেখে অনুবাদ করে।
@@ -335,7 +406,7 @@ def translate_wikitext_block(block: str, sl: str = "en", tl: str = "bn") -> str:
     s = _translate_file_links(s, sl, tl)
     s = _translate_external_links(s, sl, tl)
     s = _translate_display_templates(s, sl, tl)
-    s = re.sub(r"\[\[(File|Image|চিত্র|ফাইল):[\s\S]*?\]\]", lambda m: make_ph(m.group(0)), s, flags=re.IGNORECASE)
+    s = _mask_file_links(s, make_ph)
 
     # ৩. নেস্টেড টেমপ্লেট {{...}} মাস্ক করা (বাইরের স্তর থেকে)
     # প্রথমে ৩-স্তর পর্যন্ত টেমপ্লেট মাস্ক
@@ -379,9 +450,9 @@ def translate_wikitext_block(block: str, sl: str = "en", tl: str = "bn") -> str:
         ph = placeholders[i]
         # <br> ট্যাগে অতিরিক্ত স্পেস পরিহার করা
         if ph.lower().startswith("<br"):
-            translated = re.sub(rf"\s*ZWPHL{i}Z\s*", ph, translated)
+            translated = re.sub(rf"[^\S\r\n]*ZWPHL{i}Z[^\S\r\n]*", ph, translated)
         else:
-            translated = re.sub(rf"\s*ZWPHL{i}Z\s*", f" {ph} ", translated)
+            translated = re.sub(rf"[^\S\r\n]*ZWPHL{i}Z[^\S\r\n]*", f" {ph} ", translated)
 
     # তথ্যবক্ত/তথ্যবক্স পরিহার ও প্রমিত 'তথ্যছক' নিশ্চিতকরণ
     translated = re.sub(r"\{\{\s*(?:তথ্যবক্ত|তথ্যবক্স|তথ্যবাক্স|ইনফোবক্স)\b", "{{তথ্যছক", translated)
@@ -416,6 +487,7 @@ UNTRANSLATABLE_PARAM_KEYS = {
 _BOOLEAN_VALUES = {"yes", "no", "true", "false"}
 _FILE_VALUE_RE = re.compile(r"^\s*(?:File|Image|চিত্র|ফাইল)\s*:", re.IGNORECASE)
 _URL_VALUE_RE = re.compile(r"^\s*(?:https?://|www\.)", re.IGNORECASE)
+_MEDIA_EXT_RE = re.compile(r"\.(?:png|jpe?g|gif|svg|webp|tiff?|ogg|oga|ogv|pdf|djvu|mp3|mp4|webm)\b", re.IGNORECASE)
 
 
 def translate_wikitext_full(wikitext: str, sl: str = "en", tl: str = "bn") -> str:
@@ -425,7 +497,9 @@ def translate_wikitext_full(wikitext: str, sl: str = "en", tl: str = "bn") -> st
     if not wikitext or not wikitext.strip():
         return ""
 
-    lines = wikitext.splitlines()
+    # ফাইল ও ছবির লিঙ্ক সুরক্ষিত রাখা (ক্যাপশন অনুবাদ ও ফাইলের নাম শতভাগ অক্ষত)
+    masked_wikitext, file_placeholders = _extract_and_translate_file_links(wikitext, sl=sl, tl=tl)
+    lines = masked_wikitext.splitlines()
     translated_lines = []
 
     in_table = False
@@ -440,6 +514,11 @@ def translate_wikitext_full(wikitext: str, sl: str = "en", tl: str = "bn") -> st
             translated_lines.append("")
             continue
 
+        # ফাইল লিঙ্কের প্লেসহোল্ডার সরাসরি রাখা
+        if stripped.startswith("__FILE_LINK_PLACEHOLDER_") and stripped.endswith("__"):
+            translated_lines.append(line)
+            continue
+
         # <gallery> ফাইল লাইন: File: নাম অক্ষত, ক্যাপশন অনুবাদ
         if stripped.lower().startswith("<gallery"):
             in_gallery = True
@@ -450,7 +529,7 @@ def translate_wikitext_full(wikitext: str, sl: str = "en", tl: str = "bn") -> st
                 in_gallery = False
                 translated_lines.append(line)
                 continue
-            if stripped.lower().startswith(("file:", "image:", "চিত্র:", "ফাইল:")):
+            if _MEDIA_EXT_RE.search(stripped) or stripped.lower().startswith(("file:", "image:", "চিত্র:", "ফাইল:")):
                 parts = _split_top_level(line)
                 rest = parts[1:]
                 if rest and not _is_file_option(rest[-1].strip()):
@@ -526,9 +605,10 @@ def translate_wikitext_full(wikitext: str, sl: str = "en", tl: str = "bn") -> st
                 translated_lines.append(line)
                 continue
 
-            # ফাইলনাম, URL ও হ্যাঁ/না-ধরনের মান অনুবাদ করা যাবে না
+            # ফাইলনাম, URL, মিডিয়া এক্সটেনশন বা হ্যাঁ/না-ধরনের মান অনুবাদ করা যাবে না
             value_clean = param_val.strip()
             if (_FILE_VALUE_RE.match(value_clean) or _URL_VALUE_RE.match(value_clean)
+                    or _MEDIA_EXT_RE.search(value_clean)
                     or value_clean.lower() in _BOOLEAN_VALUES):
                 translated_lines.append(line)
                 continue
@@ -568,6 +648,8 @@ def translate_wikitext_full(wikitext: str, sl: str = "en", tl: str = "bn") -> st
         translated_lines.append(translate_wikitext_block(line, sl=sl, tl=tl))
 
     translated_wikitext = "\n".join(translated_lines)
+    for ph_key, rebuilt in file_placeholders.items():
+        translated_wikitext = translated_wikitext.replace(ph_key, rebuilt)
 
     # সবশেষে আমাদের নিয়ম প্রয়োগ (common/cx_postprocess pipeline)
     result = fix_text(translated_wikitext)

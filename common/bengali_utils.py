@@ -171,6 +171,8 @@ _PROTECTED_PATTERNS = (
     r'\[\[\s*(?:File|Image|চিত্র|ফাইল)\s*:[^\]\|\n]*',
     # Bare file name in infobox parameters (| image = File:Photo 2020.jpg)
     r'\b(?:File|Image|চিত্র|ফাইল)\s*:\s*[^\|\]\}\n]+',
+    # Standalone media filenames with extensions (Photo 2020.jpg, Map 1945.svg)
+    r'\b[A-Za-z0-9_\-\. %()]+\.(?:png|jpe?g|gif|svg|webp|tiff?|ogg|oga|ogv|pdf|djvu|mp3|mp4|webm)\b',
     # Technical namespace link targets
     r'\[\[\s*(?:Module|মডিউল|Special|বিশেষ|Wikipedia|উইকিপিডিয়া|Help|সাহায্য|'
     r'Template|টেমপ্লেট|Category|বিষয়শ্রেণী|বিষয়শ্রেণী|Portal|প্রবেশদ্বার|'
