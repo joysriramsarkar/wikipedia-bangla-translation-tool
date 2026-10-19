@@ -24,8 +24,9 @@ from urllib.parse import unquote, urlparse
 
 PORT = 8765
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_DIR = os.path.dirname(BASE_DIR)
 DRAFTS_FILE = os.path.join(BASE_DIR, "tracked_drafts.json")
-DASHBOARD_FILE = os.path.join(BASE_DIR, "dashboard.html")
+DASHBOARD_FILE = os.path.join(PROJECT_DIR, "public", "dashboard.html")
 
 
 def load_drafts() -> list:

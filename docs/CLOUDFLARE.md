@@ -2,50 +2,43 @@
 
 ## সংক্ষেপে
 
-এই রিপোজিটরির অ্যাপটি **লোকাল পাইথন HTTP সার্ভার** (`cx_postprocess/server.py`,
-পোর্ট ৮৭৬৫)। এতে `/fix`, `/validate`, `/fetch`, `/preview`, `/drafts`—
-সব endpoints পাইথনে চলে এবং কিছু ক্ষেত্রে লোকাল ফাইল/ডেটা ব্যবহার করে।
+ড্যাশবোর্ড এখন `public/`-এ স্ট্যাটিক ফাইল হিসেবে আছে এবং `wrangler.toml`
+`[assets]` কনফিগ সহ। তাই `npx wrangler deploy` সফল হবে এবং
+`https://<worker>/dashboard.html` খুলবে।
 
-তাই:
+তবে **Cloudflare ডেপ্লয়ে API নেই**: `/fix`, `/validate`, `/fetch`,
+`/preview` রুট Flask/Python-এ চলে, যা শুধু Vercel বা লোকাল সার্ভারে আছে।
+Cloudflare-এ যাচাই ও অনুবাদ বোতামগুলো `/fix`/`/validate`-এ ৪০৪ পাবে;
+ড্যাশবোর্ডের কিছু ক্লায়েন্ট-সাইড ফলব্যাক থাকলেও পূর্ণ কার্যকারিতা নেই।
 
-- **Cloudflare Pages**-এ সরাসরি ডেপ্লয় করলে শুধু `dashboard.html` স্ট্যাটিক
-  ফাইল হিসেবে খুলবে; অনুবাদ, যাচাই ও প্রাকদর্শন বোতামগুলো ৪০৪/ব্যর্থ হবে।
-- **Cloudflare Workers (Python/Pyodide)**-এও এটি যেমন আছে তেমনি চলবে না:
-  `http.server`, লোকাল ফাইল এবং `pypinyin`-নির্ভর মডিউল Worker-এ চলে না।
-- রিপোতে `wrangler.toml`, `package.json` বা Pages Functions নেই।
+## বিকল্প
 
-## চলার পথ
+### ১. পূর্ণ অ্যাপ: Vercel
 
-### ১. Cloudflare Tunnel (কোড বদল ছাড়া, এখনই সম্ভব)
+`app.py` (Flask) + `public/` — Vercel-এ সব API কাজ করে। বিস্তারিত
+`docs/VERCEL.md`-এ।
 
-লোকাল মেশিনে সার্ভার চালু রেখে Cloudflare Tunnel দিয়ে সেটি প্রকাশ করা যায়:
+### ২. Cloudflare Tunnel (লোকাল Python সার্ভার)
 
 ```bash
 python -m cx_postprocess.server
-# অন্য টার্মিনালে:
 cloudflared tunnel --url http://127.0.0.1:8765
 ```
 
-`cloudflared` এই মেশিনে ইনস্টল নেই। এটি ইনস্টল করে Cloudflare অ্যাকাউন্টে
-লগইন করতে হবে। সুবিধা: সব ফিচার অপরিবর্তিত। অসুবিধা: কম্পিউটার চালু থাকতে হবে;
-এটি স্ট্যাটিক হোস্টিং নয়।
+`cloudflared` ইনস্টল নেই; ইনস্টল ও Cloudflare লগইন লাগবে। কম্পিউটার চালু
+থাকতে হবে।
 
-### ২. Pages Functions-এ পোর্ট (কাজ বাকি)
+### ৩. Cloudflare-এ Pages Functions পোর্ট
 
-`/validate` ও `/fix`-এর যুক্তি JavaScript/TypeScript-এ পোর্ট করে
-`functions/api/...` হিসেবে রাখলে Pages-এ ডেপ্লয় করা যাবে। অনুবাদ ইঞ্জিন
-(পাইথন অভিধান, ইনফোবক্স ম্যাপ, নিয়ম) সম্পূর্ণ পোর্ট করা বড় কাজ; শুধু
-যাচাইকারী পোর্ট করা তুলনামূলক সহজ। এটি এখন করা হয়নি।
+`/fix` ও `/validate`-এর যুক্তি JavaScript-এ পোর্ট করে `functions/api/...`
+বানালে Cloudflare-ও পূর্ণ কার্যকর হবে। এটি এখন করা হয়নি; Python-ই
+canonical implementation।
 
-### ৩. স্ট্যাটিক স্ন্যাপশট
+## স্ট্যাটিক ডেপ্লয়
 
-`demo/কিংকাকু-জি (প্রাকদর্শন).html` একটি স্ট্যাটিক প্রিভিউ। এটি Pages-এ
-ডেমো হিসেবে দেওয়া যায়, কিন্তু ইন্টারঅ্যাকটিভ অনুবাদ টুল নয়।
+```bash
+npx wrangler deploy
+```
 
-## পরবর্তী সিদ্ধান্ত
-
-কোন পথে যেতে চান:
-
-1. Tunnel দিয়ে এখনই ব্যবহার (কোড পরিবর্তন নেই),
-2. Pages Functions-এ যাচাইকারী + অনুবাদ পোর্ট (আলাদা প্রকল্প),
-3. শুধু স্ট্যাটিক ডেমো প্রকাশ।
+`public/index.html` → `/dashboard.html` রিডাইরেক্ট করে। শুধু UI/প্রাকদর্শন
+দেখার জন্য এটি যথেষ্ট; সম্পাদনা/যাচাইয়ের জন্য Vercel বা Tunnel ব্যবহার করুন।

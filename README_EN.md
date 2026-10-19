@@ -32,7 +32,7 @@ A unified, production-grade Python translation and transliteration framework for
 - **100% Compliance with Bengali Wikipedia Policies:** Automatic enforcement of all 13 official editing rules (100% Bengali digits `০-৯`, no word-initial `ৎ`, pre-composed nukta letters `য়, ড়, ঢ়`, `km²` $\to$ `বর্গকিমি`, removal of English maintenance templates).
 - **Wikitable Balancing & Auto-Alignment:** Robust parsing of MediaWiki tables, automatic padding with `&nbsp;` for missing cells to prevent broken table grids.
 - **Visual Web Dashboard:** Built-in web editor and management dashboard (`http://127.0.0.1:8765/dashboard`) with dark-mode UI, live draft processing, and instant policy validation.
-- **Comprehensive Test Suite:** 89 automated unit tests providing complete test coverage across all languages and processing pipelines.
+- **Comprehensive Test Suite:** 94 automated unit tests providing complete test coverage across all languages and processing pipelines.
 
 ---
 
@@ -177,7 +177,7 @@ python examples/demo.py
 
 ## 🧪 Testing & Validation
 
-Run the complete test suite (89 automated tests):
+Run the complete test suite (94 automated tests):
 ```bash
 python run_all_tests.py
 # Falls back to a stdlib runner when pytest is not installed:
@@ -208,7 +208,7 @@ python clean.py
 ├── wikitext_templates/             # Standard infobox & table wikitext templates
 ├── examples/                       # Usage examples & all-in-one demo.py
 ├── docs/                           # Architecture & user documentation
-├── tests/                          # 89-test automated unit test suite
+├── tests/                          # 94-test automated unit test suite
 ├── archive/                        # Completed article data & script archives
 ├── চীনা-বাংলা অনুবাদ/             # Chinese-to-Bengali translation engine
 ├── জাপানি-বাংলা অনুবাদ/           # Japanese-to-Bengali translation engine

@@ -1,0 +1,7 @@
+# Cloudflare Workers/Pages: শুধু স্ট্যাটিক ড্যাশবোর্ড।
+# পূর্ণ API (/fix, /validate) Vercel-এর Flask app.py বা লোকাল সার্ভারে চলে।
+name = "wikipedia-bangla-translation"
+compatibility_date = "2026-10-19"
+
+[assets]
+directory = "./public"

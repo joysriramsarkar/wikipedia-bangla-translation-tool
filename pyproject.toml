@@ -15,6 +15,7 @@ requires-python = ">=3.10"
 dependencies = [
     "requests>=2.31.0",
     "pypinyin>=0.50.0",
+    "flask>=3.0",
 ]
 
 [project.optional-dependencies]
@@ -24,6 +25,9 @@ dev = [
 
 [project.urls]
 Homepage = "https://github.com/example/wikipedia-translation-toolkit"
+
+[tool.vercel]
+entrypoint = "app:app"
 
 [tool.setuptools.packages.find]
 include = ["common*", "*-বাংলা অনুবাদ*"]

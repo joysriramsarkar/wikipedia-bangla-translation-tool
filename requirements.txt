@@ -1,5 +1,6 @@
 # Core dependencies
 requests>=2.31.0
+flask>=3.0
 
 # Chinese transliteration
 pypinyin>=0.50.0
