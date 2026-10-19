@@ -1699,6 +1699,7 @@
       protect(/\b(?:File|Image|চিত্র|ফাইল)\s*:\s*[^\|\]\}\n]+/gi);
       protect(/\|\s*link\d+\s*=[^\n]*/gi);
       protect(/#[0-9A-Fa-f]{3,8}\b/g);
+      protect(/(?:[^\n#|\]\}])#[A-Za-z][^\|\]\}\n]*/g);
       protect(/\{\{\s*(?:Start date|End date|start date|end date|coord|Coord|ইউটিসি|UTC)\s*\|[^{}]*\}\}/g);
       protect(/\bISBN[\s:]*(?:97[89][\d\- ]{10,}|[\dXx][\dXx\- ]{8,})/gi);
       protect(/\|\s*[A-Za-z0-9_\-\u0980-\u09FF]*\d+[A-Za-z0-9_\-\u0980-\u09FF]*\s*=/g);
@@ -1809,7 +1810,7 @@
           // Series overview-এর link/start/end/color ইত্যাদি কারিগরি কী
           if (/^(?:link|episodes|start|end|color|season|series)\d+$/i.test(cleanKey)) {
             if (/^episodes\d+$/i.test(cleanKey)) {
-              outLines.push(`${k}= ${toBnDigitsSafeClient(v)}`);
+              outLines.push(`${k}=${toBnDigitsSafeClient(v)}`);
             } else {
               outLines.push(line);
             }

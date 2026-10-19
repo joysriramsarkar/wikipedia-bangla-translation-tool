@@ -103,6 +103,13 @@ def test_date_templates_and_anchors_keep_ascii_digits():
     assert '#Season 17 (2020)' in out
 
 
+def test_ordered_list_with_digits_converted():
+    src = '# 1999 সালের ঘটনা\n# 2020 সালে মুক্তিপ্রাপ্ত'
+    out = to_bengali_digits_safe(src)
+    assert '# ১৯৯৯ সালের ঘটনা' in out
+    assert '# ২০২০ সালে মুক্তিপ্রাপ্ত' in out
+
+
 def test_to_bengali_text_keeps_technical_spans():
     src = '[[File:Photo 2020.jpg|thumb|ছবি 2020]] ওয়েবসাইট https://x.com/2020 এবং সাল 2020'
     out = to_bengali_text(src)

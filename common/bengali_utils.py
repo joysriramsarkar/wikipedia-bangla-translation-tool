@@ -181,8 +181,10 @@ _PROTECTED_PATTERNS = (
     r'\{\{\s*(?:coord|Coord|COORD|ইউটিসি|UTC)\s*\|[^{}]*\}\}',
     # Date templates are parsed by MediaWiki; their numeric args must stay ASCII
     r'\{\{\s*(?:Start date|End date|start date|end date)\s*\|[^{}]*\}\}',
-    # URL/heading fragments (#Season 17) must keep ASCII digits
-    r'#[^\|\]\}\n]+',
+    # Specific parameter line for series links
+    r'\|\s*link\d+\s*=[^\n]*',
+    # Section/anchor fragments (#Season 17) must keep ASCII digits (not wikitext ordered list items starting with #)
+    r'(?<![\n#|\]\}])#[A-Za-z][^\|\]\}\n]*',
     # Identifiers
     r'\bISBN[\s:]*(?:97[89][\d\- ]{10,}|[\dXx][\dXx\- ]{8,})',
     r'\bDOI[\s:]*[^\s<>\]\}]+',

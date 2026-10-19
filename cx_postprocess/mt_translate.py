@@ -14,6 +14,7 @@ import time
 
 from .infobox_map import INFOBOX_TYPE_MAP
 from .pipeline import fix_text
+from .bn_digits_safe import to_bengali_digits_safe
 
 GOOGLE_TR_URL = "https://translate.googleapis.com/translate_a/single?client=gtx&sl={sl}&tl={tl}&dt=t&q="
 GOOGLE_CLIENT5_URL = "https://clients5.google.com/translate_a/t?client=dict-chrome-ex&sl={sl}&tl={tl}&q="
@@ -328,6 +329,7 @@ def translate_wikitext_block(block: str, sl: str = "en", tl: str = "bn") -> str:
     #    টেক্সট গ্রাস হয়ে অনুবাদ বাদ পড়ে।
     s = re.sub(r"<ref\b[^>]*?/\s*>", lambda m: make_ph(m.group(0)), s)
     s = re.sub(r"<ref\b[^>]*?(?<!/)>[\s\S]*?<\/ref>", lambda m: make_ph(m.group(0)), s)
+    s = re.sub(r"<\/?(?:includeonly|noinclude|onlyinclude)\s*>", lambda m: make_ph(m.group(0)), s, flags=re.IGNORECASE)
 
     # ২. ফাইল/চিত্র লিঙ্কের কেবল ক্যাপশন অনুবাদ করা, তারপর বাকিটা মাস্ক করা
     s = _translate_file_links(s, sl, tl)
@@ -512,9 +514,12 @@ def translate_wikitext_full(wikitext: str, sl: str = "en", tl: str = "bn") -> st
                 translated_lines.append(line)
                 continue
 
-            # Series overview-এর link/start/end/color মান যন্ত্র-পাঠ্য; অনুবাদ নয়
-            if re.match(r"^(?:link|start|end|color)\d+$", param_clean):
-                translated_lines.append(line)
+            # Series overview-এর link/start/end/color/season/series মান যন্ত্র-পাঠ্য; অনুবাদ নয়
+            if re.match(r"^(?:link|episodes|start|end|color|season|series)\d+$", param_clean):
+                if re.match(r"^episodes\d+$", param_clean):
+                    translated_lines.append(f"{param_key}={to_bengali_digits_safe(param_val)}")
+                else:
+                    translated_lines.append(line)
                 continue
 
             if param_val.strip().startswith("<includeonly>"):
