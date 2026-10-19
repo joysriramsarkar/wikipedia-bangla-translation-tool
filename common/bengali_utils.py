@@ -342,7 +342,7 @@ def bengali_sort_key(word: str):
     Generate sort key for Bengali alphabetical order (Rule 3).
     অ-হ, ড়, ঢ়, য়, ৎ, ং, ঃ, ঁ
     """
-    cleaned = re.sub(r'^[\[\'"]+|[\]\'"]+$', '', str(word)).strip()
+    cleaned = re.sub(r'^[\[\'"]+|[\]\'"]+$', '', word).strip()
     return [_BN_CHAR_RANK.get(c, 1000 + ord(c)) for c in cleaned]
 
 

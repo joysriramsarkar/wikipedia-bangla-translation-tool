@@ -28,6 +28,8 @@ def _load_english(module_name):
     folder = os.path.join(ROOT, 'ইংরেজি-বাংলা অনুবাদ')
     path = os.path.join(folder, f'{module_name}.py')
     spec = importlib.util.spec_from_file_location(f'en_{module_name}', path)
+    if spec is None or spec.loader is None:
+        raise ImportError(f"Cannot load module {module_name} from {path}")
     module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)
     return module
