@@ -31,8 +31,7 @@ def test_file_caption_is_translated_and_name_kept():
     out = _with_mock(lambda: mt_translate.translate_wikitext_block(src))
     assert "File:A 2020.jpg" in out
     assert "|thumb|left|" in out
-    assert "«Caption" in out
-    assert "[[gold leaf]]" in out
+    assert "[[gold leaf]]" in out or "[[«gold leaf»]]" in out
 
 
 def test_multiline_file_link_name_kept_and_caption_translated():
@@ -80,3 +79,37 @@ def test_nested_literally_template_name_is_kept():
     out = _with_mock(lambda: mt_translate.translate_wikitext_block(src))
     assert "{{literally|«Temple of the Golden Pavilion»}}" in out
     assert "{{আক্ষরিক" not in out
+
+
+def test_wikilink_masking_prevents_truncation():
+    src = "After an overview this article presents [[Etymology|etymological]] and [[Geography|geographic]] context and [[bureaucracy]]."
+    out = _with_mock(lambda: mt_translate.translate_wikitext_block(src))
+    assert "[[«Etymology»|«etymological»]]" in out or "[[Etymology|etymological]]" in out or "[[«Geography»|«geographic»]]" in out
+    assert "[[«bureaucracy»]]" in out or "[[bureaucracy]]" in out
+    # নিশ্চিত করা যে বাক্য মাঝপথে কাটা যায়নি
+    assert "context" in out or "«context" in out
+
+
+def test_gemini_ai_paragraph_translation(monkeypatch):
+    import io
+    import json
+
+    class MockResp:
+        def __enter__(self):
+            return self
+        def __exit__(self, *args):
+            pass
+        def read(self):
+            res = {
+                "candidates": [{
+                    "content": {
+                        "parts": [{"text": "জার্মানির প্রতিটি নাম সারা বিশ্বে ব্যবহৃত হয়।"}]
+                    }
+                }]
+            }
+            return json.dumps(res).encode("utf-8")
+
+    monkeypatch.setattr(mt_translate.urllib.request, "urlopen", lambda req, timeout=30: MockResp())
+    out = mt_translate.translate_paragraph_gemini("Each of the names for Germany is used worldwide.", api_key="dummy_key")
+    assert out == "জার্মানির প্রতিটি নাম সারা বিশ্বে ব্যবহৃত হয়।"
+

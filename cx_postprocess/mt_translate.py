@@ -372,7 +372,77 @@ def _extract_and_translate_file_links(text: str, sl: str = "en", tl: str = "bn")
     return "".join(out), placeholders
 
 
-def translate_wikitext_block(block: str, sl: str = "en", tl: str = "bn") -> str:
+def translate_paragraph_gemini(
+    text: str,
+    api_key: str,
+    model: str = "gemini-1.5-flash",
+    sl: str = "en",
+    tl: str = "bn"
+) -> str:
+    """
+    গুগল জেমিনাই (Gemini AI) এপিআই ব্যবহার করে উইকিটেক্সট অনুচ্ছেদ
+    সাবলীল, প্রমিত ও প্রাসঙ্গিক বাংলায় অনুবাদ করে।
+    """
+    if not text or not text.strip() or not api_key:
+        return text
+
+    if not re.search(r"[a-zA-Z]{2,}", text):
+        return text
+
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
+    system_prompt = (
+        "তুমি বাংলা উইকিপিডিয়ার একজন অভিজ্ঞ সম্পাদক ও অনুবাদক। "
+        "প্রদত্ত ইংরেজি উইকিটেক্সট অনুচ্ছেদটি (Paragraph) অত্যন্ত সাবলীল, প্রাঞ্জল ও প্রমিত বাংলায় অনুবাদ করো।\n\n"
+        "বাধ্যতামূলক উইকিপিডিয়া নিয়মাবলি:\n"
+        "১. কোনো যান্ত্রিক ভাব রাখা যাবে না; খাঁটি বাংলা ভাষারীতিতে স্বাভাবিক ও প্রাঞ্জল বাক্য গঠন করো।\n"
+        "২. উইকিটেক্সট ফরম্যাটিং (যেমন [[লিংক|প্রদর্শন]], [[লিংক]], <ref>...</ref>, {{...}}, ''ইটালিক'', '''বোল্ড''') অক্ষত রাখো।\n"
+        "৩. লিংকের প্রদর্শিত টেক্সট বাক্যের ব্যাকরণ ও অর্থের সাথে মিলিয়ে প্রমিত বাংলায় অনুবাদ করো (যেমন: [[Geography|geographic]] -> [[ভূগোল|ভৌগোলিক]], [[Etymology|etymological]] -> [[ব্যুৎপত্তিবিদ্যা|ব্যুৎপত্তিগত]])।\n"
+        "৪. দৃশ্যমান সমস্ত সংখ্যা বাংলায় (০-৯) রূপান্তর করো। তবে ফাইলের নাম, URL, প্যারামিটারের নাম বা ref name-এর ভেতরের সংখ্যা ইংরেজিতেই রাখো।\n"
+        "৫. প্রি-কম্পোজড বাংলা বর্ণ (য়, ড়, ঢ়) ব্যবহার করো।\n"
+        "৬. শব্দের শুরুতে কখনো 'ৎ' ব্যবহার করবে না (যেমন tsunami -> সুনামি)।\n"
+        "৭. ক্ষেত্রফলের এককে ল্যাটিন সুপারস্ক্রিপ্ট (km²) পরিহার করে 'বর্গকিমি' বা 'কিমি<sup>২</sup>' ব্যবহার করো।\n"
+        "৮. কোনো অতিরিক্ত ভূমিকা বা ব্যাখ্যা ছাড়া শুধুমাত্র অনূদিত উইকিটেক্সট অনুচ্ছেদটি ফেরত দাও।"
+    )
+    payload = {
+        "contents": [
+            {
+                "parts": [
+                    {"text": f"উইকিটেক্সট অনুচ্ছেদটি অনুবাদ করো:\n\n{text}"}
+                ]
+            }
+        ],
+        "systemInstruction": {
+            "parts": [
+                {"text": system_prompt}
+            ]
+        },
+        "generationConfig": {
+            "temperature": 0.2,
+            "maxOutputTokens": 2048
+        }
+    }
+    data = json.dumps(payload).encode("utf-8")
+    req = urllib.request.Request(url, data=data, headers={"Content-Type": "application/json"})
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        res_json = json.loads(resp.read().decode("utf-8"))
+        candidates = res_json.get("candidates", [])
+        if candidates and "content" in candidates[0]:
+            parts = candidates[0]["content"].get("parts", [])
+            if parts and "text" in parts[0]:
+                out = parts[0]["text"].strip()
+                out = re.sub(r"^```(?:wikitext|wiki)?\s*", "", out)
+                out = re.sub(r"\s*```$", "", out)
+                return out.strip()
+    return ""
+
+
+def translate_wikitext_block(
+    block: str,
+    sl: str = "en",
+    tl: str = "bn",
+    gemini_key: str = None,
+    gemini_model: str = "gemini-1.5-flash"
+) -> str:
     """
     উইকিটেক্সটের একটি অনুচ্ছেদ সুরক্ষিত রেখে অনুবাদ করে।
     টেমপ্লেট {{...}}, রেফারেন্স <ref>...</ref>, ইমেজ [[File:...]] অক্ষত রাখা হয়।
@@ -385,6 +455,15 @@ def translate_wikitext_block(block: str, sl: str = "en", tl: str = "bn") -> str:
         return block
     if re.match(r"^\[\[(Category|বিষয়শ্রেণী):", block, re.IGNORECASE):
         return block
+
+    # যদি জেমিনাই এআই কী দেওয়া থাকে, তবে অনুচ্ছেদটি সরাসরি এআই দিয়ে সাবলীল অনুবাদ করা
+    if gemini_key and re.search(r"[a-zA-Z]{2,}", block):
+        try:
+            ai_tr = translate_paragraph_gemini(block, api_key=gemini_key, model=gemini_model, sl=sl, tl=tl)
+            if ai_tr and ai_tr.strip():
+                return ai_tr
+        except Exception as exc:
+            print(f"Gemini AI paragraph translation failed, falling back to MT: {exc}")
 
     placeholders = []
 
@@ -419,15 +498,41 @@ def translate_wikitext_block(block: str, sl: str = "en", tl: str = "bn") -> str:
     # ৫. <br/> ও <br> লাইনব্রেক ট্যাগ মাস্ক করা (যাতে গুগল অনুবাদ এটিকে নিউলাইনে ভেঙে না ফেলে)
     s = re.sub(r"<\s*br\s*/?\s*>", lambda m: make_ph(m.group(0)), s, flags=re.IGNORECASE)
 
-    # ৬. উইকিলিংক [[Link|Text]] বা [[Link]] সুরক্ষা
-    # [[A|B]] থাকলে B অনুবাদযোগ্য রাখা এবং A লিঙ্ক রাখা
-    def link_repl(m):
-        full = m.group(0)
+    # ৬. উইকিলিংক [[Link|Text]] বা [[Link]] অনুবাদ ও মাস্ক করা
+    # গুগল অনুবাদ ব্র্যাকেটের ভেতরের পাইপ '|' দেখে বাক্য কাটাকাটি করে ফেলে
+    # (যেমন '[[ভূগোল'-এ পুরো বাক্য ট্রাঙ্কেট হওয়া রোধ করা)।
+    def _wl_repl(m):
         target = m.group(1).strip()
-        disp = m.group(2).strip() if m.group(2) else target
-        # লিংক টার্গেট মাস্ক করা
-        return f"[[{target}|{disp}]]"
-    # সোজাসুজি উইকিলিংকও অনেক সময় টেক্সটের অংশ, তাই সরাসরি রাখা নিরাপদ
+        disp = m.group(2).strip() if m.group(2) else None
+
+        if re.match(r"^(?:Category|বিষয়শ্রেণী|File|Image|চিত্র|ফাইল):", target, re.IGNORECASE):
+            return m.group(0)
+
+        base_target, sep, anchor = target.partition("#")
+        tr_base = base_target
+        if re.search(r"[a-zA-Z]{2,}", base_target):
+            tr_base = _translate_raw_chunk(base_target, sl=sl, tl=tl).strip()
+
+        tr_anchor = anchor
+        if anchor and re.search(r"[a-zA-Z]{2,}", anchor):
+            tr_anchor = _translate_raw_chunk(anchor, sl=sl, tl=tl).strip()
+
+        rebuilt_target = tr_base + (f"#{tr_anchor}" if tr_anchor else "")
+
+        if disp is not None:
+            tr_disp = disp
+            if re.search(r"[a-zA-Z]{2,}", disp):
+                tr_disp = _translate_raw_chunk(disp, sl=sl, tl=tl).strip()
+            if rebuilt_target == tr_disp:
+                rebuilt = f"[[{rebuilt_target}]]"
+            else:
+                rebuilt = f"[[{rebuilt_target}|{tr_disp}]]"
+        else:
+            rebuilt = f"[[{rebuilt_target}]]"
+
+        return make_ph(rebuilt)
+
+    s = re.sub(r"\[\[([^\|\]\n]+)(?:\|([^\]\n]+))?\]\]", _wl_repl, s)
 
     # অনুবাদ কল করা (যদি অনুবাদের মতো শব্দ থাকে)
     if re.search(r"[a-zA-Z]{2,}", s):
@@ -453,6 +558,9 @@ def translate_wikitext_block(block: str, sl: str = "en", tl: str = "bn") -> str:
             translated = re.sub(rf"[^\S\r\n]*ZWPHL{i}Z[^\S\r\n]*", ph, translated)
         else:
             translated = re.sub(rf"[^\S\r\n]*ZWPHL{i}Z[^\S\r\n]*", f" {ph} ", translated)
+
+    translated = re.sub(r"  +", " ", translated)
+    translated = re.sub(r"\s+([,।\.\?!])", r"\1", translated)
 
     # তথ্যবক্ত/তথ্যবক্স পরিহার ও প্রমিত 'তথ্যছক' নিশ্চিতকরণ
     translated = re.sub(r"\{\{\s*(?:তথ্যবক্ত|তথ্যবক্স|তথ্যবাক্স|ইনফোবক্স)\b", "{{তথ্যছক", translated)
@@ -490,7 +598,13 @@ _URL_VALUE_RE = re.compile(r"^\s*(?:https?://|www\.)", re.IGNORECASE)
 _MEDIA_EXT_RE = re.compile(r"\.(?:png|jpe?g|gif|svg|webp|tiff?|ogg|oga|ogv|pdf|djvu|mp3|mp4|webm)\b", re.IGNORECASE)
 
 
-def translate_wikitext_full(wikitext: str, sl: str = "en", tl: str = "bn") -> str:
+def translate_wikitext_full(
+    wikitext: str,
+    sl: str = "en",
+    tl: str = "bn",
+    gemini_key: str = None,
+    gemini_model: str = "gemini-1.5-flash"
+) -> str:
     """
     সম্পূর্ণ উইকিটেক্সট অনুবাদ ও পাইপলাইন প্রসেসিং।
     """
@@ -645,7 +759,7 @@ def translate_wikitext_full(wikitext: str, sl: str = "en", tl: str = "bn") -> st
             continue
 
         # সাধারণ অনুচ্ছেদ / বুলেট পয়েন্ট
-        translated_lines.append(translate_wikitext_block(line, sl=sl, tl=tl))
+        translated_lines.append(translate_wikitext_block(line, sl=sl, tl=tl, gemini_key=gemini_key, gemini_model=gemini_model))
 
     translated_wikitext = "\n".join(translated_lines)
     for ph_key, rebuilt in file_placeholders.items():

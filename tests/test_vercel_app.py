@@ -45,3 +45,22 @@ def test_preview_empty_is_ok():
     response = client.post("/preview", json={"text": ""})
     assert response.status_code == 200
     assert response.get_json()["ok"] is True
+
+
+def test_translate_ai_requires_text_and_key():
+    client = app.test_client()
+    res1 = client.post("/translate_ai", json={"text": ""})
+    assert res1.status_code == 400
+    res2 = client.post("/translate_ai", json={"text": "Hello world", "api_key": ""})
+    assert res2.status_code == 400
+
+
+def test_translate_ai_success(monkeypatch):
+    import app as app_module
+    monkeypatch.setattr(app_module, "translate_paragraph_gemini", lambda *args, **kwargs: "ওহে বিশ্ব")
+    client = app.test_client()
+    res = client.post("/translate_ai", json={"text": "Hello world", "api_key": "dummy_key"})
+    assert res.status_code == 200
+    assert res.get_json()["ok"] is True
+    assert res.get_json()["translated"] == "ওহে বিশ্ব"
+

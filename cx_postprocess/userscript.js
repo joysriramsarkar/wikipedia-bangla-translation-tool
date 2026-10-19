@@ -96,7 +96,7 @@
     });
   }
 
-  // ৩. মূল নামস্থানের পরিবর্তে "খসড়া:" নিশ্চিত করা ও ২৪ ঘণ্টার ট্র্যাকিং
+  // ৩. মূল নামস্থানের পরিবর্তে "খসড়া:" নিশ্চিত করা ও ট্র্যাকিং
   function ensureDraftNamespace() {
     // CX হেডারের প্রকাশনা বোতাম
     var publishBtn = document.querySelector('.cx-header__publish, .ve-ui-toolbar-saveButton, button[data-action="publish"]');
@@ -120,7 +120,7 @@
       console.log('Draft tracked:', draftTitle);
     });
 
-    notify(`নীতি: এটি সরাসরি '${draftTitle}' পাতায় প্রকাশিত হবে। ২৪ ঘণ্টা পর মূল নামস্থানে স্থানান্তরযোগ্য।`);
+    notify(`খসড়া ট্র্যাকার: '${draftTitle}' পাতায় সংরক্ষিত। প্রয়োজন অনুসারে যেকোনো সময় মূল নামস্থানে স্থানান্তর করা যাবে।`);
   }
 
   function notify(msg) {

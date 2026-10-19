@@ -826,7 +826,7 @@
       </div>
       <div class="vector-tabs-group">
         <button class="vector-tab active" id="tab-nav-edit" onclick="switchTab('translator')">অনুবাদ ও সম্পাদনা</button>
-        <button class="vector-tab" id="tab-nav-drafts" onclick="switchTab('drafts')">খসড়া ট্র্যাকার (২৪ ঘণ্টার নীতি)</button>
+        <button class="vector-tab" id="tab-nav-drafts" onclick="switchTab('drafts')">খসড়া ট্র্যাকার ও প্রকাশনা</button>
         <a href="https://bn.wikipedia.org/wiki/Special:RecentChanges" target="_blank" class="vector-tab">ইতিহাস ও পরিবর্তন</a>
       </div>
     </div>
@@ -844,7 +844,7 @@
       <div class="mw-message-box mw-message-box-notice">
         <div class="mw-message-box-icon">ℹ️</div>
         <div>
-          <b>খসড়া প্রকাশনা ও ২৪ ঘণ্টার পর্যালোচনার নীতি:</b> উইকিপিডিয়া নীতি অনুযায়ী সরাসরি কোনো সম্পাদনা বা সংশোধন ছাড়া মূল নামস্থানে যান্ত্রিক অনুবাদ প্রকাশ করা অনুচিত। এই টুলের সাহায্যে অনূদিত নিবন্ধ প্রথমে প্রমিত বাংলায় সাজিয়ে সরাসরি <b>খসড়া:</b> নামস্থানে পাঠানো হয় এবং প্রকাশের ঠিক ২৪ ঘণ্টা পর এটি পর্যালোচনা সাপেক্ষে মূল নামস্থানে স্থানান্তরযোগ্য হয়।
+          <b>খসড়া ট্র্যাকার ও প্রকাশনা:</b> অনূদিত নিবন্ধ প্রথমে প্রমিত বাংলায় সাজিয়ে সরাসরি <b>খসড়া:</b> নামস্থানে পাঠানো যায় এবং এখান থেকে তাৎক্ষণিকভাবে বা পর্যালোচনার পর যেকোনো সময় মূল নামস্থানে স্থানান্তর ও প্রকাশ করা যায়।
         </div>
       </div>
 
@@ -896,7 +896,34 @@
 
           </div>
 
-          <!-- সারি ২: প্রস্তাবিত বাংলা শিরোনাম ও অনুবাদ বোতাম -->
+          <!-- সারি ২: অনুবাদ ইঞ্জিন ও জেমিনাই এআই সেটিংস -->
+          <div class="mw-cx-row" style="margin-bottom: 12px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px 14px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px;">
+            <div style="display: flex; align-items: center; gap: 14px; flex-wrap: wrap;">
+              <span class="mw-label" style="font-weight: 600; color: #1e293b;">🤖 অনুবাদ ইঞ্জিন:</span>
+              <label style="display: flex; align-items: center; gap: 6px; cursor: pointer; font-size: 13.5px; font-weight: 500;">
+                <input type="radio" name="tr-engine" value="gemini" id="engine-gemini" checked onchange="onEngineChange()">
+                <span>জেমিনাই এআই (Gemini AI — সাবলীল প্যারাগ্রাফ)</span>
+                <span style="background: #10b981; color: white; font-size: 10px; font-weight: bold; padding: 2px 7px; border-radius: 10px;">প্রস্তাবিত</span>
+              </label>
+              <label style="display: flex; align-items: center; gap: 6px; cursor: pointer; font-size: 13.5px;">
+                <input type="radio" name="tr-engine" value="google" id="engine-google" onchange="onEngineChange()">
+                <span>গুগল অনুবাদ (Google MT)</span>
+              </label>
+            </div>
+
+            <div id="gemini-key-container" style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+              <span style="font-size: 12.5px; color: #475569;">🔑 Gemini API Key:</span>
+              <input type="password" id="gemini-api-key" placeholder="AIzaSy... ফ্রি জেমিনাই কী দিন" 
+                     style="padding: 5px 8px; font-size: 12.5px; border: 1px solid #cbd5e1; border-radius: 4px; width: 175px;" 
+                     onchange="saveGeminiKey()" oninput="updateGeminiKeyStatus(!!this.value.trim())">
+              <button type="button" class="mw-btn" onclick="toggleGeminiKeyVisibility()" title="কী দেখুন/লুকান" style="padding: 4px 8px; font-size: 11px;">👁️</button>
+              <button type="button" class="mw-btn mw-btn-success" onclick="saveGeminiKey()" style="padding: 4px 10px; font-size: 12px;">সংরক্ষণ</button>
+              <span id="gemini-key-status" style="font-size: 12px; font-weight: 600;"></span>
+              <a href="https://aistudio.google.com/app/apikey" target="_blank" style="font-size: 12px; color: var(--mw-link); text-decoration: underline;" title="Google AI Studio থেকে সম্পূর্ণ বিনামূল্যে ১ ক্লিকে API Key তৈরি করুন">ফ্রি API Key নিন ↗</a>
+            </div>
+          </div>
+
+          <!-- সারি ৩: প্রস্তাবিত বাংলা শিরোনাম ও অনুবাদ বোতাম -->
           <div class="mw-cx-row">
             <div class="mw-field-group" style="flex: 1; min-width: 280px;">
               <span class="mw-label">প্রস্তাবিত বাংলা শিরোনাম:</span>
@@ -1035,12 +1062,12 @@
       <div id="tab-drafts" style="display: none;">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
           <h2 style="font-family: var(--mw-font-serif); font-size: 20px; font-weight: normal; border:none; margin:0;">
-            সংরক্ষিত খসড়াসমূহ ও ২৪ ঘণ্টার পর্যবেক্ষণ ট্র্যাকার
+            সংরক্ষিত খসড়াসমূহ ও প্রকাশনা ট্র্যাকার
           </h2>
           <button class="mw-btn" onclick="loadDrafts()">🔄 রিফ্রেশ</button>
         </div>
         <p style="color: var(--mw-text-muted); margin-bottom: 14px; font-size: 13.5px;">
-          উইকিপিডিয়া নীতিমালা অনুযায়ী খসড়া নামস্থানে প্রকাশিত প্রতিটি নিবন্ধ ২৪ ঘণ্টা পর্যবেক্ষণে থাকে। ২৪ ঘণ্টা পূর্ণ হলে মূল নামস্থানে স্থানান্তর বোতামটি কার্যকর হবে।
+          খসড়া নামস্থানে সংরক্ষিত নিবন্ধসমূহ এখান থেকে সরাসরি এক ক্লিকে মূল নামস্থানে স্থানান্তর বা প্রকাশ করা যায়।
         </p>
         <div style="overflow-x: auto;">
           <table class="drafts-table">
@@ -1048,7 +1075,7 @@
               <tr>
                 <th>খসড়ার শিরোনাম</th>
                 <th>সংরক্ষণের তারিখ ও সময়</th>
-                <th>২৪ ঘণ্টার অবস্থা</th>
+                <th>অবস্থা ও স্থিতিকাল</th>
                 <th>উপলব্ধ কার্যক্রম</th>
               </tr>
             </thead>
@@ -1600,6 +1627,113 @@
       return { text: out, placeholders };
     }
 
+    // ------------------------------------------------------------
+    // জেমিনাই এআই (Gemini AI) অনুচ্ছেদ অনুবাদ ও কী ব্যবস্থাপনা
+    // ------------------------------------------------------------
+    function loadSavedGeminiKey() {
+      const saved = localStorage.getItem('wikitool_gemini_api_key') || '';
+      const input = document.getElementById('gemini-api-key');
+      if (input && saved) {
+        input.value = saved;
+        updateGeminiKeyStatus(true);
+      } else {
+        updateGeminiKeyStatus(false);
+      }
+    }
+
+    function saveGeminiKey() {
+      const input = document.getElementById('gemini-api-key');
+      const val = (input?.value || '').trim();
+      if (val) {
+        localStorage.setItem('wikitool_gemini_api_key', val);
+        updateGeminiKeyStatus(true);
+        showToast('Gemini API Key সফলভাবে সংরক্ষিত হয়েছে ✓');
+      } else {
+        localStorage.removeItem('wikitool_gemini_api_key');
+        updateGeminiKeyStatus(false);
+        showToast('Gemini API Key মুছে ফেলা হয়েছে।');
+      }
+    }
+
+    function toggleGeminiKeyVisibility() {
+      const input = document.getElementById('gemini-api-key');
+      if (input) {
+        input.type = input.type === 'password' ? 'text' : 'password';
+      }
+    }
+
+    function updateGeminiKeyStatus(hasKey) {
+      const statusEl = document.getElementById('gemini-key-status');
+      if (statusEl) {
+        if (hasKey) {
+          statusEl.textContent = '✅ কী সংরক্ষিত';
+          statusEl.style.color = '#10b981';
+        } else {
+          statusEl.textContent = '⚠️ কী নেই';
+          statusEl.style.color = '#f59e0b';
+        }
+      }
+    }
+
+    function onEngineChange() {
+      const engine = document.querySelector('input[name="tr-engine"]:checked')?.value;
+      const keyBox = document.getElementById('gemini-key-container');
+      if (keyBox) {
+        keyBox.style.opacity = engine === 'gemini' ? '1' : '0.6';
+      }
+    }
+
+    async function translateParagraphGeminiClient(text, apiKey, model = 'gemini-1.5-flash', sl = 'en', tl = 'bn') {
+      if (!text || !text.trim() || !apiKey) return text;
+      if (!/[a-zA-Z]{2,}/.test(text)) return text;
+
+      // ১. প্রথমে লোকাল/সার্ভার /translate_ai কল করার চেষ্টা (যদি পাইথন সার্ভার থাকে)
+      try {
+        const sRes = await fetch('/translate_ai', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ text, api_key: apiKey, model, sl, tl })
+        });
+        const sData = await sRes.json();
+        if (sData.ok && sData.translated) {
+          return sData.translated.trim();
+        }
+      } catch (e1) {}
+
+      // ২. সরাসরি গুগল জেমিনাই API কল (Vercel ও ক্লায়েন্ট ফ্রন্টএন্ডে সরাসরি ব্রাউজার থেকে)
+      const systemPrompt = `তুমি বাংলা উইকিপিডিয়ার একজন অভিজ্ঞ সম্পাদক ও অনুবাদক। প্রদত্ত ইংরেজি উইকিটেক্সট অনুচ্ছেদটি (Paragraph) অত্যন্ত সাবলীল, প্রাঞ্জল ও প্রমিত বাংলায় অনুবাদ করো।
+
+বাধ্যতামূলক উইকিপিডিয়া নিয়মাবলি:
+১. কোনো যান্ত্রিক ভাব রাখা যাবে না; খাঁটি বাংলা ভাষারীতিতে স্বাভাবিক ও প্রাঞ্জল বাক্য গঠন করো।
+২. উইকিটেক্সট ফরম্যাটিং (যেমন [[লিংক|প্রদর্শন]], [[লিংক]], <ref>...</ref>, {{...}}, ''ইটালিক'', '''বোল্ড''') অক্ষত রাখো।
+৩. লিংকের প্রদর্শিত টেক্সট বাক্যের ব্যাকরণ ও অর্থের সাথে মিলিয়ে প্রমিত বাংলায় অনুবাদ করো (যেমন: [[Geography|geographic]] -> [[ভূগোল|ভৌগোলিক]], [[Etymology|etymological]] -> [[ব্যুৎপত্তিবিদ্যা|ব্যুৎপত্তিগত]])।
+৪. দৃশ্যমান সমস্ত সংখ্যা বাংলায় (০-৯) রূপান্তর করো। তবে ফাইলের নাম, URL, প্যারামিটারের নাম বা ref name-এর ভেতরের সংখ্যা ইংরেজিতেই রাখো।
+৫. প্রি-কম্পোজড বাংলা বর্ণ (য়, ড়, ঢ়) ব্যবহার করো।
+৬. শব্দের শুরুতে কখনো 'ৎ' ব্যবহার করবে না (যেমন tsunami -> সুনামি)।
+৭. ক্ষেত্রফলের এককে ল্যাটিন সুপারস্ক্রিপ্ট (km²) পরিহার করে 'বর্গকিমি' বা 'কিমি<sup>২</sup>' ব্যবহার করো।
+৮. কোনো অতিরিক্ত ভূমিকা বা ব্যাখ্যা ছাড়া শুধুমাত্র অনূদিত উইকিটেক্সট অনুচ্ছেদটি ফেরত দাও।`;
+
+      const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${encodeURIComponent(apiKey)}`;
+      const payload = {
+        contents: [{ parts: [{ text: `উইকিটেক্সট অনুচ্ছেদটি অনুবাদ করো:\n\n${text}` }] }],
+        systemInstruction: { parts: [{ text: systemPrompt }] },
+        generationConfig: { temperature: 0.2, maxOutputTokens: 2048 }
+      };
+
+      const res = await fetch(url, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      });
+      const data = await res.json();
+      if (data.error) {
+        throw new Error(data.error.message || 'Gemini API ত্রুটি');
+      }
+      let out = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
+      out = out.replace(/^```(?:wikitext|wiki)?\s*/i, '').replace(/\s*```$/i, '').trim();
+      return out || text;
+    }
+
     async function translateBlockClient(block, sl, tl) {
       const placeholders = [];
       function makePh(val) {
@@ -1622,6 +1756,44 @@
       s = s.replace(/\[https?:\/\/[^\s\]]+(?:\s+[^\]]+)?\]/g, makePh);
       s = s.replace(/<\s*br\s*\/?\s*>/gi, makePh);
 
+      // উইকিলিংক [[Link|Text]] বা [[Link]] অনুবাদ ও মাস্ক করা
+      // যাতে গুগল অনুবাদ [[ এর ভেতরে পাইপ '|' দেখে বাক্য কাটাকাটি না করে
+      const wlRegex = /\[\[([^\|\]\n]+)(?:\|([^\]\n]+))?\]\]/g;
+      const wlMatches = [];
+      let m;
+      while ((m = wlRegex.exec(s)) !== null) {
+        const full = m[0];
+        const target = m[1].trim();
+        const disp = m[2] ? m[2].trim() : null;
+        if (!/^(?:Category|বিষয়শ্রেণী|File|Image|চিত্র|ফাইল):/i.test(target)) {
+          wlMatches.push({ full, target, disp });
+        }
+      }
+
+      for (const item of wlMatches) {
+        let [baseTarget, anchor] = item.target.split('#');
+        let trBase = baseTarget;
+        if (/[a-zA-Z]{2,}/.test(baseTarget)) {
+          trBase = (await fetchGoogleTr(baseTarget, sl, tl)).trim();
+        }
+        let trAnchor = anchor;
+        if (anchor && /[a-zA-Z]{2,}/.test(anchor)) {
+          trAnchor = (await fetchGoogleTr(anchor, sl, tl)).trim();
+        }
+        let rebuiltTarget = trBase + (trAnchor ? '#' + trAnchor : '');
+        let rebuilt = '';
+        if (item.disp !== null) {
+          let trDisp = item.disp;
+          if (/[a-zA-Z]{2,}/.test(item.disp)) {
+            trDisp = (await fetchGoogleTr(item.disp, sl, tl)).trim();
+          }
+          rebuilt = (rebuiltTarget === trDisp) ? `[[${rebuiltTarget}]]` : `[[${rebuiltTarget}|${trDisp}]]`;
+        } else {
+          rebuilt = `[[${rebuiltTarget}]]`;
+        }
+        s = s.replace(item.full, makePh(rebuilt));
+      }
+
       let translated = await fetchGoogleTr(s, sl, tl);
 
       // উল্টো ক্রমে পুনরুদ্ধার: বাইরের টেমপ্লেট আগে, ভেতরের টোকেন পরে
@@ -1634,6 +1806,8 @@
           translated = translated.replace(phRegex, ` ${ph} `);
         }
       }
+      translated = translated.replace(/  +/g, ' ');
+      translated = translated.replace(/\s+([,।\.\?!])/g, '$1');
       return translated.trim();
     }
 
@@ -1744,7 +1918,7 @@
       return toBnDigitsSafeClient(s);
     }
 
-    async function clientSideWikitextTranslate(wikitext, sl, tl) {
+    async function clientSideWikitextTranslate(wikitext, sl, tl, useAi = false, geminiKey = '', geminiModel = 'gemini-1.5-flash') {
       // ফাইল ও ছবির লিঙ্ক সুরক্ষিত রাখা (ক্যাপশন অনুবাদ ও ফাইলের নাম শতভাগ অক্ষত)
       const { text: maskedWikitext, placeholders: filePlaceholders } = await extractAndTranslateFileLinksClient(wikitext, sl, tl);
       const lines = maskedWikitext.split('\n');
@@ -1897,8 +2071,20 @@
           continue;
         }
 
+        // সাধারণ প্যারাগ্রাফ / বুলেট পয়েন্ট: এআই সক্ষম থাকলে সাবলীল জেমিনাই অনুবাদ
         if (/[a-zA-Z]{2,}/.test(trimmed)) {
-          const trLine = await translateBlockClient(line, sl, tl);
+          let trLine = '';
+          if (useAi && geminiKey) {
+            try {
+              trLine = await translateParagraphGeminiClient(line, geminiKey, geminiModel, sl, tl);
+            } catch (aiErr) {
+              console.warn('Gemini paragraph translation failed, falling back to MT:', aiErr);
+              trLine = '';
+            }
+          }
+          if (!trLine) {
+            trLine = await translateBlockClient(line, sl, tl);
+          }
           outLines.push(trLine);
         } else {
           outLines.push(line);
@@ -1941,7 +2127,27 @@
         return;
       }
       const sl = document.getElementById('source-lang').value || 'en';
-      showToast('সম্পূর্ণ নিবন্ধ বাক্যসহ বাংলায় অনুবাদ ও প্রমিতকরণ হচ্ছে...');
+      const engine = document.querySelector('input[name="tr-engine"]:checked')?.value || 'gemini';
+      const geminiKey = (document.getElementById('gemini-api-key')?.value || '').trim();
+      const useAi = engine === 'gemini' && !!geminiKey;
+
+      if (engine === 'gemini' && !geminiKey) {
+        const proceedWithGoogle = confirm(
+          'জেমিনাই এআই দিয়ে সাবলীল অনুবাদের জন্য আপনার একটি ফ্রি Gemini API Key প্রয়োজন।\n\n' +
+          '১. আপনি কি aistudio.google.com থেকে ১ ক্লিকে ফ্রি API Key নিতে চান? (OK চাপলে পেজ খুলবে)\n' +
+          '২. অথবা সরাসরি গুগল অনুবাদ (Google MT) দিয়ে অনুবাদ করতে চান? (Cancel চাপলে গুগল অনুবাদ চালু হবে)'
+        );
+        if (proceedWithGoogle) {
+          window.open('https://aistudio.google.com/app/apikey', '_blank');
+          return;
+        } else {
+          const googleRadio = document.getElementById('engine-google');
+          if (googleRadio) googleRadio.checked = true;
+          onEngineChange();
+        }
+      }
+
+      showToast(useAi ? 'জেমিনাই এআই দিয়ে সম্পূর্ণ নিবন্ধ প্রাঞ্জল বাংলায় অনুবাদ হচ্ছে...' : 'সম্পূর্ণ নিবন্ধ বাক্যসহ বাংলায় অনুবাদ ও প্রমিতকরণ হচ্ছে...');
 
       // নিবন্ধের শিরোনাম যদি এখনও বাংলায় অনূদিত না হয়ে থাকে, তা স্বয়ংক্রিয়ভাবে অনুবাদ করা
       const curTitle = document.getElementById('target-title').value.trim();
@@ -1967,7 +2173,9 @@
               text: text,
               translate: true,
               sl: sl,
-              tl: 'bn'
+              tl: 'bn',
+              engine: engine,
+              gemini_api_key: geminiKey
             })
           });
           const data = await res.json();
@@ -1975,8 +2183,8 @@
         } catch(e) {}
 
         if (!resText) {
-          showToast('সার্ভার সাড়া না দেওয়ায় বিকল্প মাধ্যমে রূপান্তর হচ্ছে...');
-          const trWikitext = await clientSideWikitextTranslate(text, sl, 'bn');
+          showToast('সার্ভার সাড়া না দেওয়ায় সরাসরি ক্লায়েন্ট-সাইডে রূপান্তর হচ্ছে...');
+          const trWikitext = await clientSideWikitextTranslate(text, sl, 'bn', useAi, geminiKey);
           try {
             const fixRes = await fetch('/fix', {
               method: 'POST',
@@ -2327,21 +2535,24 @@
         tbody.innerHTML = drafts.map(d => {
           const created = new Date(d.created_at).getTime();
           const elapsedHours = (now - created) / (1000 * 60 * 60);
-          const remainingHours = Math.max(0, 24 - elapsedHours);
-          const isReady = elapsedHours >= 24;
 
           const timeFormatted = new Date(d.created_at).toLocaleString('bn-BD', {
             year: 'numeric', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit'
           });
 
-          let badgeHtml = '';
-          if (isReady) {
-            badgeHtml = `<span class="badge-ready">✓ মূল নামস্থানের জন্য প্রস্তুত (${Math.floor(elapsedHours)} ঘণ্টা অতিক্রান্ত)</span>`;
+          // সময়ের ব্যবধান বাংলায় ফরম্যাট
+          let timeAgo = '';
+          if (elapsedHours < 1) {
+            const mins = Math.max(1, Math.floor(elapsedHours * 60));
+            timeAgo = `${bnDigits(mins)} মিনিট আগে`;
+          } else if (elapsedHours < 24) {
+            timeAgo = `${bnDigits(Math.floor(elapsedHours))} ঘণ্টা আগে`;
           } else {
-            const h = Math.floor(remainingHours);
-            const m = Math.floor((remainingHours - h) * 60);
-            badgeHtml = `<span class="badge-pending">⏳ খসড়ায় পর্যালোচনা বাকি: ${h} ঘণ্টা ${m} মিনিট</span>`;
+            const days = Math.floor(elapsedHours / 24);
+            timeAgo = `${bnDigits(days)} দিন আগে`;
           }
+
+          const badgeHtml = `<span class="badge-ready">✓ মূল নামস্থানে স্থানান্তরের জন্য প্রস্তুত (${timeAgo})</span>`;
 
           const moveUrl = `https://bn.wikipedia.org/wiki/Special:MovePage/${encodeURIComponent(d.title)}?wpNewTitle=${encodeURIComponent(d.main_title || d.title.replace('খসড়া:', ''))}`;
           const viewUrl = `https://bn.wikipedia.org/wiki/${encodeURIComponent(d.title)}`;
@@ -2353,7 +2564,7 @@
               <td>${badgeHtml}</td>
               <td>
                 <a href="${viewUrl}" target="_blank" class="mw-btn" style="padding:4px 10px; font-size:12px;">খসড়া পাতা দেখুন</a>
-                ${isReady ? `<a href="${moveUrl}" target="_blank" class="mw-btn mw-btn-success" style="padding:4px 10px; font-size:12px;">মূল নামস্থানে স্থানান্তর করুন</a>` : ''}
+                <a href="${moveUrl}" target="_blank" class="mw-btn mw-btn-success" style="padding:4px 10px; font-size:12px; margin-left:4px;">মূল নামস্থানে স্থানান্তর করুন ↗</a>
               </td>
             </tr>
           `;
@@ -2368,6 +2579,11 @@
       if (!e.target.closest('.search-box-inner')) {
         document.getElementById('suggestions-box').style.display = 'none';
       }
+    });
+
+    // পেজ লোড হলে সংরক্ষিত জেমিনাই এআই কী লোড করা
+    document.addEventListener('DOMContentLoaded', () => {
+      loadSavedGeminiKey();
     });
   </script>
 </body>

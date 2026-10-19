@@ -35,6 +35,7 @@ from cx_postprocess.pipeline import fix_text  # noqa: E402
 from cx_postprocess.server import DRAFTS_FILE, validate_wikitext  # noqa: E402
 from cx_postprocess.mt_translate import (  # noqa: E402
     _translate_clients5,
+    translate_paragraph_gemini,
     translate_wikitext_full,
 )
 
@@ -120,10 +121,20 @@ def fix():
     sl = data.get("sl", "en")
     tl = data.get("tl", "bn")
     do_mt = data.get("translate", True)
+    gemini_key = data.get("gemini_api_key") or os.environ.get("GEMINI_API_KEY")
+    gemini_model = data.get("gemini_model", "gemini-1.5-flash")
+    engine = data.get("engine", "google")
+    use_ai = engine == "gemini" or bool(data.get("use_ai"))
 
     try:
         if do_mt:
-            fixed = translate_wikitext_full(text, sl=sl, tl=tl)
+            fixed = translate_wikitext_full(
+                text,
+                sl=sl,
+                tl=tl,
+                gemini_key=gemini_key if use_ai else None,
+                gemini_model=gemini_model
+            )
             unknown = []
         else:
             result = fix_text(text)
@@ -132,6 +143,27 @@ def fix():
     except Exception as exc:
         return jsonify({"ok": False, "error": str(exc)}), 500
     return jsonify({"fixed": fixed, "unknown_params": unknown})
+
+
+@app.post("/translate_ai")
+def translate_ai():
+    data = _json_request()
+    text = data.get("text", "")
+    api_key = data.get("api_key") or data.get("gemini_api_key") or os.environ.get("GEMINI_API_KEY", "")
+    model = data.get("model", "gemini-1.5-flash")
+    sl = data.get("sl", "en")
+    tl = data.get("tl", "bn")
+
+    if not isinstance(text, str) or not text.strip():
+        return jsonify({"ok": False, "error": "অনুবাদের জন্য কোনো টেক্সট পাওয়া যায়নি।"}), 400
+    if not api_key:
+        return jsonify({"ok": False, "error": "Gemini API Key প্রয়োজন। aistudio.google.com থেকে বিনামূল্যে তৈরি করুন।"}), 400
+
+    try:
+        translated = translate_paragraph_gemini(text, api_key=api_key, model=model, sl=sl, tl=tl)
+        return jsonify({"ok": True, "translated": translated})
+    except Exception as exc:
+        return jsonify({"ok": False, "error": str(exc)}), 500
 
 
 @app.post("/validate")
