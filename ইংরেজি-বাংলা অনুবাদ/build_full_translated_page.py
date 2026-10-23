@@ -14,7 +14,7 @@ with open('clean_film_titles.json', encoding='utf-8') as f:
 with open('notes_translations.json', encoding='utf-8') as f:
     notes_dict = json.load(f)
 
-sorted_note_keys = sorted(notes_dict.keys(), key=len, reverse=True)
+sorted_note_keys: list[str] = sorted(list(notes_dict.keys()), key=lambda s: len(s), reverse=True)
 
 # Digit converter
 BN_DIGITS = {'0': '০', '1': '১', '2': '২', '3': '৩', '4': '৪', '5': '৫', '6': '৬', '7': '৭', '8': '৮', '9': '৯'}

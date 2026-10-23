@@ -9,7 +9,7 @@ with open('notes_translations.json', encoding='utf-8') as f:
     notes_dict = json.load(f)
 
 # Sort note keys by length descending to match longest phrases first
-sorted_keys = sorted(notes_dict.keys(), key=len, reverse=True)
+sorted_keys: list[str] = sorted(list(notes_dict.keys()), key=lambda s: len(s), reverse=True)
 
 untranslated_segments = []
 

@@ -1,0 +1,27 @@
+{{About|জাপানের কিয়োটোর একটি বৌদ্ধ মন্দির|ইংরেজিতে "টেম্পল অব দ্য গোল্ডেন প্যাভিলিয়ন" বা "গোল্ডেন প্যাভিলিয়ন টেম্পল" নামে অনূদিত অন্যান্য বিষয়ের জন্য|টেম্পল অব দ্য গোল্ডেন প্যাভিলিয়ন (দ্ব্যর্থতা নিরসন)}}
+{{তথ্যছক ধর্মীয় ভবন
+| name = রোকুন-জি
+| native_name = {{lang|ja|鹿苑寺}}
+| image = File:Golden Pavilion Kinkaku-ji water mirror 2024.jpg
+| alt = | caption               = রোকুওন-জি-তে ''শারিডেন'',<br />সাধারণত গোল্ডেন প্যাভিলিয়ন (''কিনকাকুজি'') নামে পরিচিত
+
+
+
+
+| location = ১ কিনকাকুজি-চো, [[কিতা-কু, কিয়োটো|কিতা-কু]], [[কিয়োটো]], [[কিয়োটো প্রিফেকচার]] <ref name="jnto">{{cite web |url=http://www.jnto.go.jp/eng/arrange/attractions/facilities/gardens/83dn3a000000ee6g.html |title=Tourist Facilities of Japan - Kinkaku-ji Temple Garden |publisher=Japan National Tourism Organization |access-date=২০১০-০৭-১৫}}</ref>
+| coordinates = {{Coord|35.0395|N|135.7285|E|format=dms|region:JP_type:landmark|display=title,inline}}
+| religious_affiliation = [[বৌদ্ধধর্ম]]
+| sect = [[জেন]], [[রিনজাই]] সম্প্রদায়, [[শোকোকু-জি]] স্কুল
+| deity = [[অবলোকিতেশ্বর|কানন বোসাতসু]] (আভালোকিতেশ্বরা)
+| country = জাপান
+| functional_status = | website               = {{URL|https://www.shokoku-ji.jp/en/kinkakuji/|www.shokoku-ji.jp/en/kinkakuji/}}
+| founded_by = [[আশিকাগা ইয়োশিমিতসু]]
+| completed = ১৩৯৭<br />১৯৫৫ <small>(পুনঃনির্মাণ)</small>
+}}
+
+[[File:Kinkaku-ji, Kyoto.jpg|thumb|কিনকাকু-জি, কিয়োটো, ২০২৪]]
+
+বা সোনার পাত]] দিয়ে মোড়ানো।
+            Let's check "reliquary": পূতাস্থি আধার / ধ্বংসাবশেষের আধার / রিলিকোয়ারি। বৌদ্ধ পরিভাষায় 'শারীদেন' হলো শাক্যমুনি বুদ্ধের পূতাস্থি বা অবশেষ সংরক্ষণের ভবন (রিলিক হল)। বাংলা উইকিপিডিয়ায় [[Reliquary]]
+
+== ইতিহাস ==

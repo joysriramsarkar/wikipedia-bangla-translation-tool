@@ -20,6 +20,11 @@ from .units_dates import fix_units_dates
 from .template_fix import fix_templates
 import re
 
+from common.bengali_utils import fix_r_reigned
+
+
+from .ref_healer import audit_citations, heal_named_references
+
 
 NUKTA_MAP = {
     '\u09af\u09bc': '\u09df',  # য+় -> য়
@@ -34,13 +39,29 @@ def normalize_nukta(text: str) -> str:
     return text
 
 
-def fix_text(text: str) -> dict:
+def fix_text(text: str, source_text: str = "") -> dict:
     s = fix_templates(text)
     s = re.sub(r'\[\[\s*Category\s*:', '[[বিষয়শ্রেণী:', s, flags=re.IGNORECASE)
     s, unknown = translate_infobox(s)
     s = fix_tables(s)
     s = fix_currency(s)
     s = fix_units_dates(s)
+    # নিয়ম ৫: `r. 1995–2005` → `শাসনকাল: ১৯৯৫–২০০৫` (আগে পাইপলাইনে বাদ পড়েছিল)
+    s = fix_r_reigned(s)
     s = to_bengali_digits_safe(s)
     s = normalize_nukta(s)
-    return {"fixed": s, "unknown_params": unknown}
+
+    healed_refs = []
+    broken_refs = []
+    if source_text:
+        s, healed_refs, broken_refs = heal_named_references(s, source_text)
+
+    citations = audit_citations(s, source_text)
+
+    return {
+        "fixed": s,
+        "unknown_params": unknown,
+        "healed_refs": healed_refs,
+        "broken_refs": broken_refs,
+        "citations": citations,
+    }

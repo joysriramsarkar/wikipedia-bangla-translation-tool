@@ -39,3 +39,9 @@ demo/
 node_modules/
 *.sublime-workspace
 *.sublime-project
+
+# Secrets — .env কখনো কমিট হবে না (কেবল .env.example রাখা হয়)
+.env
+.env.*
+!.env.example
+*.key

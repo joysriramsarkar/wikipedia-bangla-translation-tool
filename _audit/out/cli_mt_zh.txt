@@ -1,0 +1,42 @@
+{{Otheruses|subject=杭州西湖|other=其他称为西湖的湖泊|西湖 (消歧义)}}
+{{noteTA
+|G1=单位
+|1=zh-cn:晓钟;zh-tw:曉鐘;
+|2=zh-cn:晚钟;zh-tw:晚鐘;
+}}
+{{তথ্যছক body of water
+| নাম = 西湖
+| image = West Lake, Hangzhou 2025.jpg
+| caption = 三潭印月与雷峰塔
+| অবস্থান = [[浙江省]][[杭州市]]
+| স্থানাঙ্ক = {{coord|30|14|45|N|120|8|30|E|region:CN-33_type:landmark|display=inline,title}}
+| 湖泊類別 = [[淡水湖]]
+| 湖泊長度 = ৩.২千米（南北）
+| 湖泊闊度 = ২.৮千米（东西）
+| 湖泊面積 = ৬.৩৯平方千米
+| 平均深度 = ২.২৭米
+| 最深深度 = 约৫米
+| 水體體積 = ১৪২৯万立方米
+| 湖水停留時間 = 
+| 湖岸線長度 = ১৫千米
+| 海拔高度 = ১০米
+| 湖中島嶼 = [[孤山 (西湖)|孤山]]、[[三潭印月|小瀛洲]]、[[湖心亭 (杭州)|湖心亭]]、[[阮公墩]]
+| 湖邊城鎮 = 杭州
+| embedded = {{Infobox UNESCO World Heritage Site
+| child = yes
+| official_name = 杭州西湖文化景观
+| অবস্থান = {{CHN}}
+| criteria = (ii)(iii)(vi)
+| ID = ১৩৩৪
+| year = ২০১১
+| area = {{convert|৩,৩২২.৮৮|ha}}
+| buffer_zone = {{convert|৭,২৭০.৩১|ha}}
+}}
+}}
+''''ওয়েস্ট লেক'''' [[中华人民共和国]] [[浙江省]] [[杭州城墙|杭州旧城]] এর পশ্চিম দিকে অবস্থিত এবং এটি চীনের মূল ভূখণ্ডের প্রথম [[国家重点风景名胜区]] এবং [[中国十大风景名胜]] এর মধ্যে একটি। চীনের অন্যতম প্রধান শোভাময় [[淡水湖|淡水湖泊]]।
+
+পশ্চিম হ্রদটি পূর্বে হাংজু শহরের নগর এলাকা সংলগ্ন এবং অন্য তিন দিকে পাহাড় দ্বারা বেষ্টিত। এটি প্রায় ৬.৩৯ বর্গ কিলোমিটার <ref>{{Cite web|url=http://www.sbsm.gov.cn/article//dlxxshgb/201107/20110700086263.shtml|title=浙江省测绘与地理信息局关于启用浙江省主要河流长度、流域面积、主要湖泊面积数据的公告|publisher=浙江省测绘与地理信息局|date=2010-09-30|accessdate=2011-09-05|deadurl=yes|archiveurl=https://web.archive.org/web/20131202231114/http://www.sbsm.gov.cn/article//dlxxshgb/201107/20110700086263.shtml|archivedate=2013-12-02}}</ref> এলাকা জুড়ে, উত্তর থেকে দক্ষিণে প্রায় ৩.২ কিলোমিটার দীর্ঘ এবং পূর্ব থেকে পশ্চিমে প্রায় ২.৮ কিলোমিটার প্রশস্ত। এটি লেকের চারপাশে প্রায় ১৫ কিলোমিটার। <ref>{{cite book| last =| first =| authorlink =| coauthors =| title =《杭州市志》| publisher =中华书局| date =| location =| pages =第二卷风景名胜篇第一章| url =http://www.hangzhou.gov.cn/main/zjhz/hzsz/citymark/349/T83052.shtml?catalogid=5391| isbn =7101017193| accessdate =2009-06-23| archive-date =2013-03-19| archive-url =https://web.archive.org/web/20130319234418/http://www.hangzhou.gov.cn/main/zjhz/hzsz/citymark/349/T83052.shtml?catalogid=5391| dead-url =yes}}</ref> পশ্চিম লেকের গড় পানির গভীরতা ২.২৭ মিটার এবং পানির পরিমাণ প্রায় ১৪.২৯ মিলিয়ন ঘনমিটার। <ref>{{cite news| first=| last=| coauthors=| title=西湖大规模疏浚工程完成| date=2004-12-13| publisher=| url=http://www.hangzhou.gov.cn/main/zjhz/hzlj/2004/1083/T86431.shtml| work=《杭州年鉴(২০০৪年版)》| pages=| accessdate=2008-01-25| deadurl=yes| archiveurl=https://web.archive.org/web/20090921004029/http://www.hangzhou.gov.cn/main/zjhz/hzlj/2004/1083/T86431.shtml| archivedate=2009-09-21}}</ref> হ্রদটি [[孤山 (西湖)|孤山]], [[白堤]], [[苏堤]] এবং [[杨公堤]] দ্বারা পৃথক করা হয়েছে। এলাকা অনুসারে, এটি পাঁচটি জলাশয়ে বিভক্ত: আউটার ওয়েস্ট লেক, জিলি লেক (এছাড়াও "হাউক্সি লেক" বা "ব্যাক লেক" নামে পরিচিত), বেইলি লেক ("লিক্সি লেক" নামেও পরিচিত), জিয়াওনান লেক ("দক্ষিণ লেক" নামেও পরিচিত) এবং ইউ লেক। আউটার ওয়েস্ট লেকটি বৃহত্তম। গুশান পশ্চিম লেকের বৃহত্তম প্রাকৃতিক দ্বীপ। সু কজওয়ে এবং বাই কজওয়ে হ্রদ অতিক্রম করে। তিনটি কৃত্রিম দ্বীপ, [[三潭印月|小瀛洲]], [[湖心亭 (杭州)|湖心亭]] এবং [[阮公墩]], বাইরের পশ্চিম হ্রদের কেন্দ্রে দাঁড়িয়ে আছে। [[雷峰塔]] এবং [[保俶塔]] হ্রদ জুড়ে রয়েছে, "একটি পর্বত, দুটি টাওয়ার, তিনটি দ্বীপ, চারটি কজওয়ে এবং পাঁচটি হ্রদ" <ref>২০০৩年，西湖恢复了杨公堤景观，但对于新形成的水面尚未正式命名</ref> এর একটি মৌলিক প্যাটার্ন তৈরি করে।
+
+ওয়েস্ট লেক ঐতিহাসিকভাবে জাতীয় কী নৈসর্গিক স্থানগুলির প্রথম ব্যাচ (১৯৮২), [[中国十大风景名胜]] (১৯৮৫) এবং [[中国国家৫A级旅游景区|国家৫A级旅游景区]] (২০০৬) এর প্রথম ব্যাচ হিসেবে নির্বাচিত হয়েছে। এছাড়াও, [[三潭印月]] প্যাটার্নটি ১৯৭৯ সালে গণপ্রজাতন্ত্রী চীন দ্বারা জারি করা [[中国银行外汇兑换券|外汇兑换券]] ওয়ান-ইউয়ান নোট এবং ২০০৪ সালে জারি করা [[第五套人民币]] এক-ইউয়ান নোটের পিছনে ব্যবহার করা হয়েছে। [[中华人民共和国护照]] -এর ২০ পৃষ্ঠায়, ওয়েস্ট লেক ভিস্তার চিত্র ব্যবহার করা হয়েছে। ২৪ জুন, ২০১১-এ, হ্যাংজু ওয়েস্ট লেকের সাংস্কৃতিক ল্যান্ডস্কেপ [[世界遗产]] তালিকা <ref name="whc.unesco.org">{{cite web|url=http://whc.unesco.org/en/news/767|title=Ancient Chinese cultural landscape, the West Lake of Hangzhou, inscribed on UNESCO’s World Heritage List|first=UNESCO World Heritage|last=Centre|date=|website=whc.unesco.org|accessdate=2018-10-28|archive-url=https://web.archive.org/web/20180827142459/http://whc.unesco.org/en/news/767|archive-date=2018-08-27|dead-url=no}}</ref> -এ অন্তর্ভুক্ত করা হয়েছিল।
+
+== নাম ==

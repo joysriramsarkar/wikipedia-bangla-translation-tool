@@ -1,0 +1,167 @@
+[
+  {
+    "lang": "en",
+    "exit_code": 0,
+    "seconds": 16.8,
+    "src_chars": 3447,
+    "out_chars": 3115,
+    "bengali_pct": 98.48,
+    "source_script_pct": 1.52,
+    "structure": {
+      "src": {
+        "table_open": 0,
+        "table_close": 1,
+        "template_open": 18,
+        "template_close": 18,
+        "link_open": 21,
+        "link_close": 21,
+        "ref_open": 5,
+        "ref_close": 5
+      },
+      "out": {
+        "table_open": 0,
+        "table_close": 1,
+        "template_open": 17,
+        "template_close": 17,
+        "link_open": 21,
+        "link_close": 21,
+        "ref_open": 5,
+        "ref_close": 5
+      }
+    },
+    "leaks": [],
+    "citation_dates_bengali": 0
+  },
+  {
+    "lang": "zh",
+    "exit_code": 0,
+    "seconds": 6.1,
+    "src_chars": 3128,
+    "out_chars": 4190,
+    "bengali_pct": 91.79,
+    "source_script_pct": 8.21,
+    "structure": {
+      "src": {
+        "table_open": 0,
+        "table_close": 0,
+        "template_open": 12,
+        "template_close": 12,
+        "link_open": 29,
+        "link_close": 29,
+        "ref_open": 5,
+        "ref_close": 5
+      },
+      "out": {
+        "table_open": 0,
+        "table_close": 0,
+        "template_open": 12,
+        "template_close": 12,
+        "link_open": 29,
+        "link_close": 29,
+        "ref_open": 5,
+        "ref_close": 5
+      }
+    },
+    "leaks": [],
+    "citation_dates_bengali": 0
+  },
+  {
+    "lang": "ja",
+    "exit_code": 0,
+    "seconds": 36.4,
+    "src_chars": 7901,
+    "out_chars": 12208,
+    "bengali_pct": 88.19,
+    "source_script_pct": 11.81,
+    "structure": {
+      "src": {
+        "table_open": 0,
+        "table_close": 0,
+        "template_open": 19,
+        "template_close": 19,
+        "link_open": 161,
+        "link_close": 161,
+        "ref_open": 19,
+        "ref_close": 19
+      },
+      "out": {
+        "table_open": 0,
+        "table_close": 0,
+        "template_open": 19,
+        "template_close": 19,
+        "link_open": 153,
+        "link_close": 153,
+        "ref_open": 18,
+        "ref_close": 18
+      }
+    },
+    "leaks": [],
+    "citation_dates_bengali": 0
+  },
+  {
+    "lang": "ru",
+    "exit_code": 0,
+    "seconds": 32.8,
+    "src_chars": 7902,
+    "out_chars": 7590,
+    "bengali_pct": 67.53,
+    "source_script_pct": 32.47,
+    "structure": {
+      "src": {
+        "table_open": 0,
+        "table_close": 4,
+        "template_open": 28,
+        "template_close": 28,
+        "link_open": 64,
+        "link_close": 64,
+        "ref_open": 6,
+        "ref_close": 6
+      },
+      "out": {
+        "table_open": 0,
+        "table_close": 4,
+        "template_open": 27,
+        "template_close": 26,
+        "link_open": 62,
+        "link_close": 62,
+        "ref_open": 5,
+        "ref_close": 5
+      }
+    },
+    "leaks": [],
+    "citation_dates_bengali": 0
+  },
+  {
+    "lang": "de",
+    "exit_code": 0,
+    "seconds": 42.3,
+    "src_chars": 4761,
+    "out_chars": 4716,
+    "bengali_pct": 98.27,
+    "source_script_pct": 1.73,
+    "structure": {
+      "src": {
+        "table_open": 0,
+        "table_close": 0,
+        "template_open": 3,
+        "template_close": 3,
+        "link_open": 48,
+        "link_close": 48,
+        "ref_open": 6,
+        "ref_close": 6
+      },
+      "out": {
+        "table_open": 0,
+        "table_close": 0,
+        "template_open": 3,
+        "template_close": 3,
+        "link_open": 48,
+        "link_close": 48,
+        "ref_open": 6,
+        "ref_close": 6
+      }
+    },
+    "leaks": [],
+    "citation_dates_bengali": 0
+  }
+]

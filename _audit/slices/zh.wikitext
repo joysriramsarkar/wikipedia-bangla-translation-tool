@@ -1,0 +1,42 @@
+{{Otheruses|subject=杭州西湖|other=其他称为西湖的湖泊|西湖 (消歧义)}}
+{{noteTA
+|G1=单位
+|1=zh-cn:晓钟;zh-tw:曉鐘;
+|2=zh-cn:晚钟;zh-tw:晚鐘;
+}}
+{{Infobox body of water
+| name = 西湖
+| image = West Lake, Hangzhou 2025.jpg
+| caption = 三潭印月与雷峰塔
+| location = [[浙江省]][[杭州市]]
+| coordinates = {{coord|30|14|45|N|120|8|30|E|region:CN-33_type:landmark|display=inline,title}}
+| 湖泊類別 = [[淡水湖]]
+| 湖泊長度 = 3.2千米（南北）
+| 湖泊闊度 = 2.8千米（东西）
+| 湖泊面積 = 6.39平方千米
+| 平均深度 = 2.27米
+| 最深深度 = 约5米
+| 水體體積 = 1429万立方米
+| 湖水停留時間 = 
+| 湖岸線長度 = 15千米
+| 海拔高度 = 10米
+| 湖中島嶼 = [[孤山 (西湖)|孤山]]、[[三潭印月|小瀛洲]]、[[湖心亭 (杭州)|湖心亭]]、[[阮公墩]]
+| 湖邊城鎮 = 杭州
+| embedded = {{Infobox UNESCO World Heritage Site
+| child = yes
+| official_name = 杭州西湖文化景观
+| location = {{CHN}}
+| criteria = (ii)(iii)(vi)
+| ID = 1334
+| year = 2011
+| area = {{convert|3,322.88|ha}}
+| buffer_zone = {{convert|7,270.31|ha}}
+}}
+}}
+'''西湖'''位于[[中华人民共和国]][[浙江省]][[杭州城墙|杭州旧城]]西侧，是中国大陆首批[[国家重点风景名胜区]]和[[中国十大风景名胜]]之一。中国主要的观赏性[[淡水湖|淡水湖泊]]之一。
+
+西湖东靠杭州市区，其余三面环山，面积约6.39平方千米<ref>{{Cite web|url=http://www.sbsm.gov.cn/article//dlxxshgb/201107/20110700086263.shtml|title=浙江省测绘与地理信息局关于启用浙江省主要河流长度、流域面积、主要湖泊面积数据的公告|publisher=浙江省测绘与地理信息局|date=2010-09-30|accessdate=2011-09-05|deadurl=yes|archiveurl=https://web.archive.org/web/20131202231114/http://www.sbsm.gov.cn/article//dlxxshgb/201107/20110700086263.shtml|archivedate=2013-12-02}}</ref>，南北长约3.2千米，东西宽约2.8千米，绕湖一周近15千米。<ref>{{cite book| last =| first =| authorlink =| coauthors =| title =《杭州市志》| publisher =中华书局| date =| location =| pages =第二卷风景名胜篇第一章| url =http://www.hangzhou.gov.cn/main/zjhz/hzsz/citymark/349/T83052.shtml?catalogid=5391| isbn =7101017193| accessdate =2009-06-23| archive-date =2013-03-19| archive-url =https://web.archive.org/web/20130319234418/http://www.hangzhou.gov.cn/main/zjhz/hzsz/citymark/349/T83052.shtml?catalogid=5391| dead-url =yes}}</ref>西湖平均水深2.27米，水体容量约为1429万立方米。<ref>{{cite news| first=| last=| coauthors=| title=西湖大规模疏浚工程完成| date=2004-12-13| publisher=| url=http://www.hangzhou.gov.cn/main/zjhz/hzlj/2004/1083/T86431.shtml| work=《杭州年鉴(2004年版)》| pages=| accessdate=2008-01-25| deadurl=yes| archiveurl=https://web.archive.org/web/20090921004029/http://www.hangzhou.gov.cn/main/zjhz/hzlj/2004/1083/T86431.shtml| archivedate=2009-09-21}}</ref>湖中被[[孤山 (西湖)|孤山]]、[[白堤]]、[[苏堤]]、[[杨公堤]]分隔，按面积大小分别为外西湖、西里湖（又称“后西湖”或“后湖”）、北里湖（又称“里西湖”）、小南湖（又称“南湖”）及岳湖等五片水面，其中外西湖面积最大。孤山是西湖中最大的天然岛屿，苏堤、白堤越过湖面，[[三潭印月|小瀛洲]]、[[湖心亭 (杭州)|湖心亭]]、[[阮公墩]]三个人工小岛鼎立于外西湖湖心，[[雷峰塔]]与[[保俶塔]]隔湖相映，由此形成了“一山、二塔、三岛、四堤、五湖”的基本格局<ref>2003年，西湖恢复了杨公堤景观，但对于新形成的水面尚未正式命名</ref>。
+
+西湖在历史上曾被评选为首批国家重点风景名胜区（1982年）、[[中国十大风景名胜]]（1985年）和首批[[中国国家5A级旅游景区|国家5A级旅游景区]]（2006年）。此外，1979年中华人民共和国发行的[[中国银行外汇兑换券|外汇兑换券]]壹圆券以及2004年发行的[[第五套人民币]]壹圆纸币背面均使用了[[三潭印月]]的图案。而在[[中华人民共和国护照]]第20页上则使用了西湖远景的图案。2011年6月24日，杭州西湖文化景观列入[[世界遗产]]名录<ref name="whc.unesco.org">{{cite web|url=http://whc.unesco.org/en/news/767|title=Ancient Chinese cultural landscape, the West Lake of Hangzhou, inscribed on UNESCO’s World Heritage List|first=UNESCO World Heritage|last=Centre|date=|website=whc.unesco.org|accessdate=2018-10-28|archive-url=https://web.archive.org/web/20180827142459/http://whc.unesco.org/en/news/767|archive-date=2018-08-27|dead-url=no}}</ref>。
+
+== 名称 ==

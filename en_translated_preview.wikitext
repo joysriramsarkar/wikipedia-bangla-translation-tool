@@ -1,0 +1,26 @@
+{{About|জাপানের কিয়োটোতে একটি বৌদ্ধ মন্দির|অন্যান্য বিষয়গুলি ইংরেজিতে "Temple of the Golden Pavilion" বা "Golden Pavilion Temple" হিসাবে অনুবাদ করা হয়েছে|গোল্ডেন প্যাভিলিয়নের মন্দির (দ্ব্যর্থতা নিরসন)}}
+{{তথ্যছক ধর্মীয় ভবন
+| name = রোকুন-জি
+| native_name = {{lang|ja|鹿苑寺}}
+| image = File:Golden Pavilion Kinkaku-ji water mirror 2024.jpg
+| alt = | caption               = রোকুওন-জি-তে ''শারিডেন'',<br />সাধারণত গোল্ডেন প্যাভিলিয়ন (''কিনকাকুজি'') নামে পরিচিত
+
+
+
+
+| location = ১ কিনকাকুজি-চো, [[কিতা-কু, কিয়োটো|কিতা-কু]], [[কিয়োটো]], [[কিয়োটো প্রিফেকচার]] <ref name="jnto">{{cite web |url=http://www.jnto.go.jp/eng/arrange/attractions/facilities/gardens/83dn3a000000ee6g.html |title=Tourist Facilities of Japan - Kinkaku-ji Temple Garden |publisher=Japan National Tourism Organization |access-date=2010-07-15}}</ref>
+| coordinates = {{Coord|35.0395|N|135.7285|E|format=dms|region:JP_type:landmark|display=title,inline}}
+| religious_affiliation = [[বৌদ্ধধর্ম]]
+| sect = [[জেন]], [[রিনজাই]] সম্প্রদায়, [[শোকোকু-জি]] স্কুল
+| deity = [[অবলোকিতেশ্বর|কানন বোসাতসু]] (আভালোকিতেশ্বরা)
+| country = জাপান
+| functional_status = | website               = {{URL|https://www.shokoku-ji.jp/en/kinkakuji/|www.shokoku-ji.jp/en/kinkakuji/}}
+| founded_by = [[আশিকাগা ইয়োশিমিতসু]]
+| completed = ১৩৯৭<br />১৯৫৫ <small>(পুনঃনির্মাণ)</small>
+}}
+
+[[File:Kinkaku-ji, Kyoto.jpg|thumb|কিনকাকু-জি, কিয়োটো, ২০২৪]]
+
+{{nihongo|'''কিনকাকু-জি'''|金閣寺|| {{IPA|ja|kʲiꜜŋ.ka.kɯ.dʑi}}, <ref name=NHK>{{cite book|script-title=ja:NHK日本語発音アクセント新辞典|publisher=NHK Publishing|editor=NHK Broadcasting Culture Research Institute|date=24 May 2016|language=ja}}</ref> <ref>{{cite book|script-title=ja:新明解日本語アクセント辞典|edition=২য়|editor-last=Kindaichi|editor-first=Haruhiko|editor-link=Haruhiko Kindaichi|editor-last2=Akinaga|editor-first2=Kazue|publisher=[[Sanseidō]]|date=10 March 2025|language=ja}}</ref> {{literally|গোল্ডেন প্যাভিলিয়নের মন্দির}} }}, আনুষ্ঠানিকভাবে {{nihongo|'''রোকুন-জি'''|鹿苑寺|| {{IPA|ja|ɾoꜜ.kɯ.oɲ.dʑi|}}, <ref name=NHK/> {{literally|[[সারনাথ|হরিণের বাগান]] মন্দির}} }} নামে পরিচিত, [[কিয়োটো]], [[জাপান]] -এ একটি [[জেন]] [[জাপানে বৌদ্ধ মন্দির|বৌদ্ধ মন্দির]] এবং একটি পর্যটক আকর্ষণ। <ref name="orientalarch">{{cite web |url=http://www.orientalarchitecture.com/japan/kyoto/kinkakuji.php |title=Kinkakuji Temple - 金阁寺, Kyoto, Japan |publisher=Oriental Architecture |access-date=2010-07-13}}</ref> এটি একটি [[ওয়ার্ল্ড হেরিটেজ সাইট]], একটি জাতীয় বিশেষ ঐতিহাসিক সাইট, একটি জাতীয় বিশেষ ল্যান্ডস্কেপ এবং ১৭ [[প্রাচীন কিয়োটোর ঐতিহাসিক স্মৃতিস্তম্ভ (কিয়োটো, উজি এবং ওটসু শহর)|প্রাচীন কিয়োটোর ঐতিহাসিক স্মৃতিস্তম্ভ]] এর মধ্যে একটি হিসাবে মনোনীত। <ref name="kyotoasano02">{{cite web |url=http://kyoto.asanoxn.com/places/ps_popularity.htm |title=Places of Interest in Kyoto (Top ১৫ most visited places in Kyoto by visitors from overseas) |publisher=Asano Noboru |access-date=2010-07-15}}</ref> মন্দিরটির ডাকনাম তার [[রিলিকুয়ারি]] (''শ্যারিডেন''), {{nihongo|'''গোল্ডেন প্যাভিলিয়ন'''|金閣|Kinkaku}}, যার উপরের দুটি মেঝে ০.৫ [[μm]] [[সোনার পাতা]] এ লেপা। বর্তমান প্যাভিলিয়নটি ১৯৫৫ সালে অগ্নিসংযোগের হামলায় ধ্বংস হয়ে যাওয়ার পরে পুনর্নির্মাণ করা হয়েছিল।
+
+== ইতিহাস ==

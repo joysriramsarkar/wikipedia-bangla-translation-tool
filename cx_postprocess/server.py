@@ -19,8 +19,10 @@
 import json
 import os
 import sys
+import urllib.parse
+import urllib.request
 from http.server import BaseHTTPRequestHandler, HTTPServer
-from urllib.parse import unquote, urlparse
+from urllib.parse import parse_qs, quote, unquote, urlparse
 
 PORT = 8765
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -45,6 +47,88 @@ def save_drafts(drafts: list) -> None:
             json.dump(drafts, f, ensure_ascii=False, indent=2)
     except Exception as e:
         print(f"Error saving drafts: {e}")
+
+
+def _env_gemini_key() -> str:
+    """`.env` / প্রসেস-এনভায়রনমেন্ট থেকে Gemini কী (নতুন লোডার)।"""
+    if PROJECT_DIR not in sys.path:
+        sys.path.insert(0, PROJECT_DIR)
+    try:
+        from common.env_loader import get_gemini_key
+        return get_gemini_key()
+    except Exception:
+        return ""
+
+
+def _env_gemini_model() -> str:
+    """`.env`-এ দেওয়া মডেল, না থাকলে যাচাই করা ডিফল্ট।"""
+    if PROJECT_DIR not in sys.path:
+        sys.path.insert(0, PROJECT_DIR)
+    try:
+        from common.env_loader import get_gemini_model
+        return get_gemini_model()
+    except Exception:
+        return "gemini-3.5-flash"
+
+
+def _env_ollama_key() -> str:
+    if PROJECT_DIR not in sys.path:
+        sys.path.insert(0, PROJECT_DIR)
+    try:
+        from common.env_loader import get_ollama_key
+        return get_ollama_key()
+    except Exception:
+        return ""
+
+
+def _env_ollama_base_url() -> str:
+    if PROJECT_DIR not in sys.path:
+        sys.path.insert(0, PROJECT_DIR)
+    try:
+        from common.env_loader import get_ollama_base_url, DEFAULT_OLLAMA_BASE_URL
+        return get_ollama_base_url(DEFAULT_OLLAMA_BASE_URL)
+    except Exception:
+        return "http://localhost:11434"
+
+
+def _env_ollama_model() -> str:
+    if PROJECT_DIR not in sys.path:
+        sys.path.insert(0, PROJECT_DIR)
+    try:
+        from common.env_loader import get_ollama_model, DEFAULT_OLLAMA_MODEL
+        return get_ollama_model(DEFAULT_OLLAMA_MODEL)
+    except Exception:
+        return "llama3.1"
+
+
+def _env_openrouter_key() -> str:
+    if PROJECT_DIR not in sys.path:
+        sys.path.insert(0, PROJECT_DIR)
+    try:
+        from common.env_loader import get_openrouter_key
+        return get_openrouter_key()
+    except Exception:
+        return ""
+
+
+def _env_openrouter_base_url() -> str:
+    if PROJECT_DIR not in sys.path:
+        sys.path.insert(0, PROJECT_DIR)
+    try:
+        from common.env_loader import get_openrouter_base_url, DEFAULT_OPENROUTER_BASE_URL
+        return get_openrouter_base_url(DEFAULT_OPENROUTER_BASE_URL)
+    except Exception:
+        return "https://openrouter.ai/api/v1"
+
+
+def _env_openrouter_model() -> str:
+    if PROJECT_DIR not in sys.path:
+        sys.path.insert(0, PROJECT_DIR)
+    try:
+        from common.env_loader import get_openrouter_model, DEFAULT_OPENROUTER_MODEL
+        return get_openrouter_model(DEFAULT_OPENROUTER_MODEL)
+    except Exception:
+        return "openai/gpt-4o-mini"
 
 
 def validate_wikitext(text: str) -> dict:
@@ -134,8 +218,6 @@ class _Handler(BaseHTTPRequestHandler):
             self.end_headers()
             self.wfile.write(body)
         elif path == "/fetch":
-            from urllib.parse import parse_qs
-            import urllib.request
             qs = parse_qs(urlparse(self.path).query)
             url_arg = qs.get("url", [None])[0]
             lang_arg = qs.get("lang", ["en"])[0]
@@ -152,7 +234,7 @@ class _Handler(BaseHTTPRequestHandler):
                 body = json.dumps({"ok": False, "error": "Missing title"}, ensure_ascii=False).encode("utf-8")
                 self.send_response(400)
             else:
-                api_url = f"https://{lang_arg}.wikipedia.org/w/api.php?action=parse&page={urllib.parse.quote(title_arg)}&prop=wikitext&redirects=1&format=json"
+                api_url = f"https://{lang_arg}.wikipedia.org/w/api.php?action=parse&page={quote(title_arg)}&prop=wikitext&redirects=1&format=json"
                 try:
                     req = urllib.request.Request(api_url, headers={"User-Agent": "WikipediaTranslationBot/1.0"})
                     with urllib.request.urlopen(req, timeout=15) as resp:
@@ -179,8 +261,6 @@ class _Handler(BaseHTTPRequestHandler):
             self.end_headers()
             self.wfile.write(body)
         elif path == "/search":
-            from urllib.parse import parse_qs
-            import urllib.request
             qs = parse_qs(urlparse(self.path).query)
             q = qs.get("q", [""])[0]
             lang = qs.get("lang", ["en"])[0]
@@ -188,7 +268,7 @@ class _Handler(BaseHTTPRequestHandler):
                 body = b"[]"
                 self.send_response(200)
             else:
-                api_url = f"https://{lang}.wikipedia.org/w/api.php?action=opensearch&search={urllib.parse.quote(q)}&limit=8&namespace=0&format=json"
+                api_url = f"https://{lang}.wikipedia.org/w/api.php?action=opensearch&search={quote(q)}&limit=8&namespace=0&format=json"
                 try:
                     req = urllib.request.Request(api_url, headers={"User-Agent": "WikipediaTranslationBot/1.0"})
                     with urllib.request.urlopen(req, timeout=10) as resp:
@@ -209,7 +289,6 @@ class _Handler(BaseHTTPRequestHandler):
             self.end_headers()
             self.wfile.write(body)
         elif path == "/translate_title":
-            from urllib.parse import parse_qs
             qs = parse_qs(urlparse(self.path).query)
             q = qs.get("q", [""])[0]
             sl = qs.get("sl", ["en"])[0]
@@ -245,21 +324,81 @@ class _Handler(BaseHTTPRequestHandler):
             raw = self.rfile.read(length) if length else b"{}"
             try:
                 data = json.loads(raw.decode("utf-8"))
-            except (ValueError, UnicodeDecodeError):
+            except ValueError:
                 data = {}
 
             text = data.get("text", "")
             sl = data.get("sl", "en")
             tl = data.get("tl", "bn")
             do_mt = data.get("translate", True)
+            engine = str(data.get("engine") or data.get("provider") or "google").lower()
 
             if do_mt:
                 try:
                     from .mt_translate import translate_wikitext_full
                 except ImportError:
                     from mt_translate import translate_wikitext_full  # type: ignore[no-redef]
-                fixed_text = translate_wikitext_full(text, sl=sl, tl=tl)
-                unknown = []
+
+                # ড্যাশবোর্ডে Gemini বেছে নিলে এখানেও তা মানতে হবে; আগে এই
+                # (stdlib) সার্ভার অনুরোধের engine/কী উপেক্ষা করে চুপচাপ
+                # গুগল অনুবাদে চলে যেত।
+                use_ai = engine in ("gemini", "ollama", "openrouter", "ai")
+                gemini_key = ""
+                gemini_model = ""
+                base_url = None
+                if use_ai:
+                    if engine == "ollama":
+                        gemini_key = str(data.get("ollama_api_key") or data.get("api_key") or "")
+                        if not gemini_key:
+                            gemini_key = _env_ollama_key()
+                        gemini_model = str(data.get("model") or data.get("gemini_model") or "")
+                        base_url = data.get("base_url") or data.get("ollama_base_url") or _env_ollama_base_url()
+                        if not gemini_model:
+                            gemini_model = _env_ollama_model()
+                    elif engine == "openrouter":
+                        gemini_key = str(data.get("openrouter_api_key") or data.get("api_key") or "")
+                        gemini_model = str(data.get("model") or data.get("gemini_model") or "")
+                        if not gemini_key:
+                            try:
+                                from common.env_loader import get_openrouter_key
+                                gemini_key = get_openrouter_key()
+                            except Exception:
+                                gemini_key = ""
+                        if not gemini_model:
+                            try:
+                                from common.env_loader import get_openrouter_model
+                                gemini_model = get_openrouter_model()
+                            except Exception:
+                                gemini_model = "openai/gpt-4o-mini"
+                        base_url = data.get("base_url") or data.get("openrouter_base_url") or _env_openrouter_base_url()
+                    else:
+                        gemini_key = str(data.get("gemini_api_key") or data.get("api_key") or "")
+                        gemini_model = str(data.get("model") or data.get("gemini_model") or "")
+                        if use_ai and not gemini_key:
+                            gemini_key = _env_gemini_key()
+                        if not gemini_model:
+                            gemini_model = _env_gemini_model()
+                try:
+                    fixed_text = translate_wikitext_full(
+                        text, sl=sl, tl=tl,
+                        gemini_key=gemini_key if use_ai else None,
+                        gemini_model=gemini_model,
+                        title=data.get("title", ""),
+                        provider=engine if use_ai else None,
+                        api_key=gemini_key if use_ai else None,
+                        base_url=base_url,
+                    )
+                    unknown = []
+                except Exception as exc:
+                    body = json.dumps({"ok": False, "error": str(exc)},
+                                      ensure_ascii=False).encode("utf-8")
+                    self.send_response(500)
+                    self._cors()
+                    self.send_header("Content-Type", "application/json; charset=utf-8")
+                    self.send_header("Content-Length", str(len(body)))
+                    self.end_headers()
+                    self.wfile.write(body)
+                    return
             else:
                 try:
                     from .pipeline import fix_text
@@ -276,12 +415,81 @@ class _Handler(BaseHTTPRequestHandler):
             self.send_header("Content-Length", str(len(body)))
             self.end_headers()
             self.wfile.write(body)
+        elif path == "/translate_ai":
+            length = int(self.headers.get("Content-Length", 0))
+            raw = self.rfile.read(length) if length else b"{}"
+            try:
+                data = json.loads(raw.decode("utf-8"))
+            except ValueError:
+                data = {}
+
+            text = data.get("text", "")
+            provider = str(data.get("provider") or data.get("engine") or "gemini").lower()
+            if provider not in ("gemini", "ollama", "openrouter"):
+                provider = "gemini"
+
+            raw_key = data.get("api_key")
+            if raw_key is None:
+                if provider == "ollama":
+                    raw_key = data.get("ollama_api_key") or _env_ollama_key()
+                elif provider == "openrouter":
+                    raw_key = data.get("openrouter_api_key") or _env_openrouter_key()
+                else:
+                    raw_key = data.get("gemini_api_key") or _env_gemini_key()
+            api_key = str(raw_key).strip() if raw_key else ""
+
+            if provider == "ollama":
+                model = str(data.get("model") or _env_ollama_model())
+                base_url = data.get("base_url") or data.get("ollama_base_url") or _env_ollama_base_url()
+            elif provider == "openrouter":
+                model = str(data.get("model") or _env_openrouter_model())
+                base_url = data.get("base_url") or data.get("openrouter_base_url") or _env_openrouter_base_url()
+            else:
+                model = str(data.get("model") or data.get("gemini_model") or _env_gemini_model())
+                base_url = None
+            sl = str(data.get("sl") or "en")
+            tl = str(data.get("tl") or "bn")
+
+            if not isinstance(text, str) or not text.strip():
+                status = 400
+                payload = {"ok": False, "error": "অনুবাদের জন্য কোনো টেক্সট পাওয়া যায়নি।"}
+            elif provider != "ollama" and not api_key:
+                status = 400
+                payload = {"ok": False, "error": "API Key প্রয়োজন।"}
+            else:
+                try:
+                    try:
+                        from .mt_translate import translate_paragraph_ai
+                    except ImportError:
+                        from mt_translate import translate_paragraph_ai  # type: ignore[no-redef]
+                    translated = translate_paragraph_ai(
+                        text,
+                        provider=provider,
+                        api_key=api_key or None,
+                        model=model,
+                        base_url=base_url,
+                        sl=sl,
+                        tl=tl,
+                    )
+                    status = 200
+                    payload = {"ok": True, "translated": translated, "provider": provider}
+                except Exception as exc:
+                    status = 500
+                    payload = {"ok": False, "error": str(exc)}
+
+            body = json.dumps(payload, ensure_ascii=False).encode("utf-8")
+            self.send_response(status)
+            self._cors()
+            self.send_header("Content-Type", "application/json; charset=utf-8")
+            self.send_header("Content-Length", str(len(body)))
+            self.end_headers()
+            self.wfile.write(body)
         elif path == "/validate":
             length = int(self.headers.get("Content-Length", 0))
             raw = self.rfile.read(length) if length else b"{}"
             try:
                 data = json.loads(raw.decode("utf-8"))
-            except (ValueError, UnicodeDecodeError):
+            except ValueError:
                 data = {}
 
             text = data.get("text", "")
@@ -304,7 +512,7 @@ class _Handler(BaseHTTPRequestHandler):
             raw = self.rfile.read(length) if length else b"{}"
             try:
                 data = json.loads(raw.decode("utf-8"))
-            except (ValueError, UnicodeDecodeError):
+            except ValueError:
                 data = {}
 
             if data and data.get("title"):
@@ -328,7 +536,7 @@ class _Handler(BaseHTTPRequestHandler):
             raw = self.rfile.read(length) if length else b"{}"
             try:
                 data = json.loads(raw.decode("utf-8"))
-            except (ValueError, UnicodeDecodeError):
+            except ValueError:
                 data = {}
 
             wikitext = data.get("text", "")
@@ -374,8 +582,8 @@ class _Handler(BaseHTTPRequestHandler):
             self._cors()
             self.end_headers()
 
-    def log_message(self, fmt: str, *args: object) -> None:
-        print("cx-server:", fmt % args)
+    def log_message(self, format: str, *args: object) -> None:
+        print("cx-server:", format % args)
 
 
 def main() -> None:

@@ -1,0 +1,33 @@
+{{Infobox Kirchengebäude
+ | Name                = Kölner Dom
+ | Bild                = Kölner Dom nachts 2013.jpg
+ | Bildunterschrift    = Ansicht vom [[Deutz (Köln)|Deutzer]] Rheinufer bei Nacht (2013)
+ | Konfession          = [[Römisch-katholische Kirche|römisch-katholisch]]
+ | Patrozinium         = [[Simon Petrus|St. Peter]]
+ | Diözese             = [[Erzbistum Köln]]
+ | Ort                 = [[Köln]]
+ | Bauherr             = [[Konrad von Hochstaden|Konrad I.]], [[Friedrich Wilhelm IV.]]
+ | Architekt           = [[Meister Gerhard]], [[Ernst Friedrich Zwirner]]
+ | Baubeginn           = 1248
+ | Fertigstellung      = 1880
+ | Einweihung          = 15. Oktober 1880
+ | Widmungen           =
+ | Profanierung        =
+ | Profaniert          =
+ | Baustil             = [[Gotik]], [[Neugotik]]
+ | Ausstattungsstil    =
+ | Bautyp              = [[Basilika (Bautyp)|Basilika]]
+ | Funktion und Titel  = [[Kathedrale]]
+ | Breitengrad         = 50.94129
+ | Längengrad          = 6.95817
+ | Region-ISO          = DE-NW
+ | Folgebox            =
+}}
+
+Der '''Kölner Dom''' (offiziell '''Hohe Domkirche zu Köln'''<ref>{{Internetquelle |url=https://www.koelner-dom.de/meta/impressum |titel=Kölner Dom {{!}} Impressum |abruf=2025-11-02}}</ref>) ist eine [[Römisch-katholische Kirche|römisch-katholische]] [[Kirche (Bauwerk)|Kirche]] in [[Köln]] unter dem [[Patrozinium]] des [[Apostel]]s [[Simon Petrus|Petrus]].<ref name="DomblattPetrus" /> Er ist die [[Kathedrale]] des [[Erzbistum Köln|Erzbistums Köln]] sowie [[Metropolit]]an&shy;kirche der [[Kirchenprovinz Köln]]. Hausherr ist der [[Dompropst]].<ref name="Klosterbuch">[[Alheydis Plassmann]], Martin Bock: Art. ''Köln – Domstift.'' In: ''Nordrheinisches Klosterbuch. Lexikon der Stifte und Klöster bis 1815'' (= ''Studien zur Kölner Kirchengeschichte.'' Band 37). Teil 3: ''Köln.'' Verlag Franz Schmitt, Siegburg 2022, ISBN 978-3-87710-462-0, S. 157–198, hier S. 159.</ref> Der Dom ist eine der größten Kathedralen im [[Gotik|gotischen]] [[Baustil]], mit 157,22 Metern die [[Liste der höchsten Sakralgebäude|vierthöchste Kirche der Welt]] und nach dem [[Ulmer Münster]] der [[Liste der höchsten Sakralgebäude in Deutschland|zweithöchste Sakralbau Deutschlands]].
+
+Sein Bau wurde 1248 im Auftrag von [[Konrad von Hochstaden|Konrad I.]] nach Entwurf von [[Meister Gerhard]] begonnen und 1880 im Auftrag von [[Friedrich Wilhelm IV.]] nach Entwurf von [[Ernst Friedrich Zwirner]] vollendet. Einige [[Kunsthistoriker]] haben den Dom wegen seiner einheitlichen und ausgewogenen Bauform als „vollkommene Kathedrale“ bezeichnet.<ref>Rüdiger Marco Booz: ''Kölner Dom – die vollkommene Kathedrale.'' Michael Imhof Verlag, Petersberg 2022, ISBN 978-3-7319-1215-6, S. 254–268; [[Arnold Wolff]]: ''Die vollkommene Kathedrale. Der Kölner Dom und die Kathedralen der Ile-de-France.'' In: ''Dombau und Theologie im mittelalterlichen Köln.'' Festschrift zur 750-Jahrfeier der Grundsteinlegung des Kölner Domes und zum 65. Geburtstag von Joachim Kardinal Meisner 1998 (= ''Studien zum Kölner Dom.'' Band 6). Hrsg. im Auftrag des Metropolitankapitels von [[Ludger Honnefelder]]. Verlag Kölner Dom, Köln 1998, ISBN 3-922442-27-7, S. 15–47.</ref>  Ursprünglich als repräsentative Kathedrale der [[Liste der Erzbischöfe und Bischöfe von Köln|Kölner Erzbischöfe]] und monumentales [[Reliquiar]] für die Gebeine der [[Heilige Drei Könige|Heiligen Drei Könige]] geplant,<ref>Thomas Becker: [http://www.thomas-p-becker.de/TPB/Geschichte/DomStadt.htm ''Der Kölner Dom. Kulturgeschichtliche Impressionen.''] Vortrag im Rahmen der Veranstaltung „DomStadt“ der [[Thomas-Morus-Akademie Bensberg]] im Kölner Dom am 29. Oktober 2001.</ref> galt der Dom bei seiner Vollendung im 19.&nbsp;Jahrhundert als [[Nationalsymbol]] für Deutschland.
+
+Nach dem [[Zweiter Weltkrieg|Zweiten Weltkrieg]] wurde der scheinbar unversehrte Dom inmitten der ausgebombten Stadt als „Wunder“ verstanden<ref name="ross">Der britische Kunstschutzoffizier Michael Ross notierte: „Ein Wunder, dass sie noch stand, die einzige Kirche – in der ganzen City fast das einzige bedeutende Gebäude, das nicht eine vollständige Ruine war.“ Zit. nach Niklas Möring: ''Der Kölner Dom im Zweiten Weltkrieg'' (= ''Meisterwerke des Kölner Domes.'' Band 10). Verlag Kölner Dom, Köln 2011, ISBN 978-3-922442-72-1, S. 94.</ref> und zu einem emotionalen Symbol für den Lebenswillen.<ref name="faz_15185169">[[Andreas Rossmann]]: ''Die Wucht am Rhein.'' In: ''[[Frankfurter Allgemeine Zeitung]].'' 8. September 2017 ([https://www.faz.net/aktuell/reise/koelner-dom-mehr-als-nur-ein-gotteshaus-15185169.html faz.net]; beschränkter Zugang).</ref> Der Dom zählt seit 1996 zum [[UNESCO-Weltkulturerbe]] und gehört zu den meistbesuchten [[Sehenswürdigkeit]]en [[Deutschland]]s. 
+
+== Vorgängerbauten ==

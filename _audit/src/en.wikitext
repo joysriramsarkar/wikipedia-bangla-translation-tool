@@ -1,0 +1,130 @@
+{{Short description|Zen Buddhist temple in Kyoto, Japan}}
+{{About|a Buddhist temple in Kyoto, Japan|other topics translated as "Temple of the Golden Pavilion" or "Golden Pavilion Temple" in English|Temple of the Golden Pavilion (disambiguation)}}
+{{Infobox religious building
+| name                  = Rokuon-ji
+| native_name           = {{lang|ja|鹿苑寺}}
+| image                 = File:Golden Pavilion Kinkaku-ji water mirror 2024.jpg
+| alt                   = 
+| caption               = The ''shariden'' at Rokuon-ji, <br />commonly known as the Golden Pavilion (''Kinkakuji'')
+| mapframe              = yes
+| mapframe-zoom         = 14
+| mapframe-wikidata     = yes
+| pushpin_map           = Japan
+| location              = 1 Kinkakuji-chō, [[Kita-ku, Kyoto|Kita-ku]], [[Kyoto|Kyōto]], [[Kyoto Prefecture]]<ref name="jnto">{{cite web |url=http://www.jnto.go.jp/eng/arrange/attractions/facilities/gardens/83dn3a000000ee6g.html |title=Tourist Facilities of Japan - Kinkaku-ji Temple Garden |publisher=Japan National Tourism Organization |access-date=2010-07-15}}</ref>
+| coordinates           = {{Coord|35.0395|N|135.7285|E|format=dms|region:JP_type:landmark|display=title,inline}}
+| religious_affiliation = [[Buddhism]]
+| sect                  = [[Zen]], [[Rinzai]] sect, [[Shōkoku-ji]] school
+| deity                 = [[Avalokiteśvara|Kannon Bosatsu]] (Avalokiteśvara)
+| country               = Japan
+| functional_status     = 
+| website               = {{URL|https://www.shokoku-ji.jp/en/kinkakuji/|www.shokoku-ji.jp/en/kinkakuji/}}
+| founded_by            = [[Ashikaga Yoshimitsu]]
+| completed             = 1397<br />1955 <small>(reconstruction)</small>
+}}
+
+[[File:Kinkaku-ji, Kyoto.jpg|thumb|Kinkaku-ji, Kyoto, 2024]]
+
+{{nihongo|'''Kinkaku-ji'''|金閣寺||{{IPA|ja|kʲiꜜŋ.ka.kɯ.dʑi}},<ref name=NHK>{{cite book|script-title=ja:NHK日本語発音アクセント新辞典|publisher=NHK Publishing|editor=NHK Broadcasting Culture Research Institute|date=24 May 2016|language=ja}}</ref><ref>{{cite book|script-title=ja:新明解日本語アクセント辞典|edition=2nd|editor-last=Kindaichi|editor-first=Haruhiko|editor-link=Haruhiko Kindaichi|editor-last2=Akinaga|editor-first2=Kazue|publisher=[[Sanseidō]]|date=10 March 2025|language=ja}}</ref> {{literally|Temple of the Golden Pavilion}}}}, officially named {{nihongo|'''Rokuon-ji'''|鹿苑寺||{{IPA|ja|ɾoꜜ.kɯ.oɲ.dʑi|}},<ref name=NHK/> {{literally|[[Sarnath|Deer Garden]] Temple}}}}, is a [[Zen]] [[Buddhist temples in Japan|Buddhist temple]] in [[Kyoto]], [[Japan]] and a tourist attraction.<ref name="orientalarch">{{cite web |url=http://www.orientalarchitecture.com/japan/kyoto/kinkakuji.php |title=Kinkakuji Temple - 金阁寺, Kyoto, Japan |publisher=Oriental Architecture |access-date=2010-07-13}}</ref> It is designated as a [[World Heritage Site]], a National Special Historic Site, a National Special Landscape, and one of the 17 [[Historic Monuments of Ancient Kyoto (Kyoto, Uji and Otsu Cities)|Historic Monuments of Ancient Kyoto]].<ref name="kyotoasano02">{{cite web |url=http://kyoto.asanoxn.com/places/ps_popularity.htm |title=Places of Interest in Kyoto (Top 15 most visited places in Kyoto by visitors from overseas) |publisher=Asano Noboru |access-date=2010-07-15}}</ref> The temple is nicknamed after its [[reliquary]] (''shariden''), the {{nihongo|'''Golden Pavilion'''|金閣|Kinkaku}}, whose top two floors are coated in 0.5 [[μm]] [[gold leaf]]. The current pavilion was rebuilt in 1955 after being destroyed in an arson attack.
+
+==History==
+[[Image:Japon-1886-41.jpg|thumb|left|Painted photograph of the Golden Pavilion in 1885. The [[gold leaf]] is peeling off due to deterioration over time.]]
+
+The site of Kinkaku-ji was originally a villa called ''Kitayama-dai'' (北山第), belonging to a powerful statesman, [[Saionji Kintsune]].<ref name="kyotoasano01">{{cite web |url=http://kyoto.asanoxn.com/places/kinkaku/kinkakuji.htm |title=Kinkaku-ji in Kyoto |publisher=Asano Noboru |access-date=2010-07-15}}</ref> Kinkaku-ji's history dates to 1397, when the villa was purchased from the Saionji family by ''[[shōgun]]'' [[Ashikaga Yoshimitsu]] and transformed into the Kinkaku-ji complex.<ref name="kyotoasano01"/> When Yoshimitsu died the building was converted into a [[Zen Buddhism|Zen]] temple by his son, according to his wishes.<ref name="fodors1996">Scott, David (1996). ''Exploring Japan''. Fodor's Travel Publications, Inc. {{ISBN|0-679-03011-5}}.{{page needed|date=June 2020}}</ref>
+[[Image:Burned Kinkaku.jpg|thumb|left|Golden Pavilion following the 1950 arson]]
+
+The original Golden Pavilion is believed to have been constructed in 1399.<ref name="早島">早島大祐「室町幕府論」（講談社選書メチエ）</ref> Gold was an important addition to the pavilion because of its underlying meaning. The gold employed was intended to mitigate and purify any pollution or negative thoughts and feelings towards death.<ref name="Gerhart, Karen M 2009">Gerhart, Karen M. The material culture of Death in medieval Japan. N.p.: University of Hawaii Press, 2009. N. pag. Print.{{page needed|date=June 2020}}</ref> Other than the symbolic meaning behind the gold leaf, the [[Muromachi period]] heavily relied on visual excesses.<ref name="Pregil, Philip 1992"/> With the focus on the Golden Pavilion, the way that the structure is mainly covered in that material creates an impression that stands out because of the sunlight reflecting and the effect the reflection creates on the pond.
+
+During the [[Ōnin war]] (1467–1477), all of the buildings in the complex aside from the pavilion were burned down.<ref name="kyotoasano01"/>
+
+On 2 July 1950, at 2:30 am, the pavilion was burned down<ref name="whe1">{{cite web |last1=Cartwright |first1=Mark |title=Kinkakuji |url=https://www.worldhistory.org/Kinkakuji/ |website=World History Encyclopedia |publisher=UNESCO |access-date=23 March 2021}}</ref> by a 22-year-old novice monk, Hayashi Shoken ([[Kinkaku-ji arson incident]]), who then attempted suicide on the Daimon-ji hill behind the building. He survived, and was subsequently taken into custody. The monk was sentenced to seven years in prison, but was released because of mental illnesses ([[persecution complex]] and [[schizophrenia]]) on 29 September 1955; he died of [[tuberculosis]] in March 1956.<ref>{{cite book|author=Albert Borowitz|title=Terrorism for self-glorification: the Herostratos syndrome|url=https://archive.org/details/terrorismforself0000boro|url-access=registration|access-date=1 July 2011|year=2005|publisher=Kent State University Press|isbn=978-0-87338-818-4|pages=[https://archive.org/details/terrorismforself0000boro/page/49 49]–62}} See: [[Herostratos syndrome]]</ref> During the fire, the original statue of Ashikaga Yoshimitsu was lost to the flames (now restored). A fictionalized version of these events is at the center of [[Yukio Mishima]]'s 1956 book ''[[The Temple of the Golden Pavilion]]'',<ref name="orientalarch"/> and another in the ballet ''[[RAkU (ballet)|RAkU]]''.
+
+The present pavilion structure dates from 1955, when it was rebuilt.<ref name="orientalarch"/> The pavilion is three stories high, {{convert|12.5|m|ft|adj=off|sp=us|abbr=off|-1}} in height.<ref name="Young, David 2007">Young, David, and Michiko Young. The art of Japanese Architecture. North Claredon, VT: Turtle Publishing, 2007. N. pag. Print.{{page needed|date=June 2020}}</ref> The reconstruction is said to be a close copy of the original, although some have questioned whether such an extensive gold-leaf coating was used on the original structure. In 1984, it was discovered that the gold leaf on the reconstructed building had peeled off, and from 1986 to 1987, it was replaced with 0.5 μm gold leaf weighing 20&nbsp;kg, five times the thickness and ten times the weight of the original.<ref>{{cite web |title=レファレンス事例詳細 |url=https://crd.ndl.go.jp/reference/entry/index.php?id=1000004492&page=ref_view |website=National Diet Library |access-date=6 September 2026 |language=ja |date=4 August 2004 |trans-title=Details of Reference Case Study}}</ref><ref>{{cite web |title=金閣寺の金箔量と値段が衝撃的！どれぐらいの金が使われているの？ |url=https://www.shichinokura.com/gold-kaitoriblog/Kinkakuji-goldleaf/ |website=Shichinokura |access-date=6 September 2026 |language=ja |date=30 September 2021 |trans-title=The amount of gold leaf and the cost for Kinkaku-ji are shocking! Just how much gold is used?}}</ref> Although Japanese gold leaf has become thinner with the passage of time due to improved technology, the 0.5 μm gold leaf is as thick as traditional Japanese gold leaf.<ref>{{cite web |url=http://www.koetsuan.jp/kinkaku/index.html |first=Kazuo | last=Yaguchi |archive-url=https://web.archive.org/web/20211023011422/http://www.koetsuan.jp/kinkaku/index.html |script-title=ja:金閣寺大修復 金閣修復 五倍箔 |language=ja | archive-date=23 October 2021| url-status=live}}</ref> The interior of the building, including the paintings and Yoshimitsu's statue, were also restored. The roof was restored in 2003.
+
+==Design details==
+[[File:Kinkaku-ji 04.jpg|thumb|right|Roof ornament]]
+
+The {{nihongo|Golden Pavilion|金閣|Kinkaku}} is a three-story building on the grounds of the Rokuon-ji temple complex.<ref name="dk2000"/> The top two stories of the pavilion are covered with pure [[gold leaf]].<ref name="dk2000"/> The pavilion functions as a ''shariden'' (舎利殿), housing relics of the [[Gautama Buddha|Buddha]] (Buddha's Ashes). The building was an important model for [[Ginkaku-ji]] (Silver Pavilion Temple) and [[Shōkoku-ji]], which are also located in Kyoto.<ref name="orientalarch"/> When these buildings were constructed, [[Ashikaga Yoshimasa]] employed the styles used at Kinkaku-ji and even borrowed the names of its second and third floors.<ref name="orientalarch"/>
+
+===Architectural design===
+[[File:Kinkakuji Kyoto05s3s3990.jpg|thumb|left|The fishing deck and small islets at the rear of the pavilion]]
+
+The pavilion successfully incorporates three distinct styles of architecture, which are shinden, samurai and zen, specifically on each floor.<ref name="Young, David 2007"/> Each floor of the Kinkaku uses a different architectural style.<ref name="orientalarch"/>
+
+The first floor, called ''The Chamber of Dharma Waters'' (法水院, Hō-sui-in), is rendered in ''[[shinden-zukuri]]'' style, reminiscent of the residential style of the 11th century [[Heian period|Heian]] imperial aristocracy.<ref name="orientalarch"/> It is evocative of the Shinden palace style. It is designed as an open space with adjacent verandas and uses natural, unpainted wood and white plaster.<ref name="Young, David 2007"/> This helps to emphasize the surrounding landscape. The walls and fenestration also affect the views from inside the pavilion. Most of the walls are made of shutters that can vary the amount of light and air into the pavilion<ref name="Young, David 2007"/> and change the view by controlling the shutters' heights. The second floor, called ''The Tower of Sound Waves'' (潮音洞, Chō-on-dō ),<ref name="orientalarch"/> is built in the style of warrior aristocrats, or ''[[buke-zukuri]]''. On this floor, sliding wood doors and latticed windows create a feeling of impermanence. The second floor also contains a Buddha Hall and a shrine dedicated to the goddess of mercy, Kannon.<ref name="Young, David 2007"/> The third floor is built in traditional [[Chinese Chán|Chinese ''chán'']] (Jpn. [[zen]]) style, also known as ''zenshū-[[butsuden]]-zukuri''. It is called the ''Cupola of the Ultimate'' (究竟頂, Kukkyō-chō). The zen typology depicts a more religious ambiance in the pavilion, as was popular during the Muromachi period.<ref name="Young, David 2007"/>
+
+The roof is in a thatched pyramid with shingles.<ref name="Young, David 2005">Young, David, Michiko Young, and Tan Hong. The material culture of Death in medieval Japan. North Claredon, VT: Turtle Publishing, 2005. N. pag. Print.</ref> The building is topped with a bronze [[Fenghuang|''hōō'']] (phoenix) ornament.<ref name="dk2000"/> From the outside, viewers can see gold plating added to the upper stories of the pavilion. The gold leaf covering the upper stories hints at what is housed inside: the shrines.<ref name="Gerhart, Karen M 2009"/> The outside is a reflection of the inside. The elements of nature, death, religion, are formed together to create this connection between the pavilion and outside intrusions.
+
+===Garden design===
+The Golden Pavilion is set in a Japanese {{nihongo|strolling garden|回遊式庭園|kaiyū-shiki-teien|lit. a landscape garden in the go-round style}}.<ref name="fodors1996"/> The location implements the idea of [[borrowing of scenery ("shakkei")]] that integrates the outside and the inside, creating an extension of the views surrounding the pavilion and connecting it with the outside world. The pavilion extends over a pond, called {{nihongo|''Kyōko-chi''|鏡湖池|Mirror Pond}}, that reflects the building.<ref name="kyotoasano01"/> The pond contains 10 smaller islands.<ref name="Young, David 2007"/>  The zen typology is seen through the rock composition; the bridges and plants are arranged in a specific way to represent famous places in Chinese and Japanese literature.<ref name="Young, David 2007"/>  Vantage points and focal points were established because of the strategic placement of the pavilion to view the gardens surrounding the pavilion.<ref name="Pregil, Philip 1992"/>  A small {{nihongo|fishing hall|釣殿|tsuri-dono}} or roofed deck is attached to the rear of the pavilion building, allowing a small boat to be moored under it.<ref name="kyotoasano01"/> The pavilion grounds were built according to descriptions of the [[Pure Land Buddhism#Early history|Western Paradise of the Buddha Amida]], intending to illustrate a harmony between heaven and earth.<ref name="fodors1996"/> The largest [[islet]] in the pond represents the Japanese islands.<ref name="kyotoasano01"/> The four stones forming a straight line in the pond near the pavilion are intended to represent sailboats anchored at night, bound for the ''Isle of Eternal Life'' in Chinese mythology.<ref name="kyotoasano01"/>
+
+The garden complex is an excellent example of [[Muromachi period]] garden design.<ref name="dk2000">''Eyewitness Travel Guides: Japan''. Dorling Kindersley Publishing (2000). {{ISBN|0-7894-5545-5}}.</ref> The Muromachi period is considered to be a classical age of Japanese garden design.<ref name="Pregil, Philip 1992">“Pregil, Philip, and Nancy Volkman. Landscapes in History: Design and Planning in the Eastern and Western tradition. Hoboken, NJ: John Wiley & Sons Inc., 1992. N. pag. Print.”.</ref> The correlation between buildings and its settings were greatly emphasized during this period.<ref name="Pregil, Philip 1992"/> It was an artistic way to integrate the structure within the landscape. The garden designs were characterized by a reduction in scale, a more central purpose, and a distinct setting.<ref name="Boults, Elizabeth 2010">Boults, Elizabeth, and Chip Sullivan. Illustrated History of Landscape Design. Hoboken, NJ: John Wiley & Sons INc., 2010. N. pag. Print.</ref> A minimalistic approach was brought to the garden design by recreating larger landscapes in a smaller scale around a structure.<ref name="Boults, Elizabeth 2010"/>
+
+==Gallery==
+<gallery mode="packed">
+File:1930s Japan Travel Poster - 15.jpg|1930s travel poster
+File:Kinkaku-ji entrance.jpg|Entrance and ticket booth
+File:Kinkaku-ji the Golden Temple in Kyoto overlooking the lake - high rez.JPG|Kinkaku-ji in 2013
+File:Kinkaku-ji close up.jpg|Kinkaku-ji close up
+File:Kyoto Rokuon-ji Kinkaku-ji c12.jpg|Kinkaku-ji during snowfall
+File:Kinkaku-ji 03.jpg|Interior
+File:Kinkaku-ji garden.jpg|Kinkaku-ji garden
+File:Golden Pavillion 2010 03 29 32.jpg|The lower pond
+File:Yōshū Chikanobu Kinkaku haiken.jpg|[[Toyohara Chikanobu]]
+File:Kyoto-Kinkaku-ji-White-Snake.jpg|White Snake Pagoda of Kinkaku-ji
+File:Kinkaku-ji temple in Kyoto.jpg|Kinkaku-Ji, Kyoto in May 2019
+File:Kinkakuji Keychain from Japan, from personal collection, photographed by Yogabrata Chakraborty, on May 6, 2023.jpg|Kinkaku-ji keychain
+File:Snowfall at Golden pavillion in kyoto.jpeg|Frozen Lake at Kinkakuji (January 1, 2011)
+</gallery>
+
+==See also==
+{{Portal|Japan|Religion|Gardening|Architecture}}
+
+* ''[[The Temple of the Golden Pavilion]]'' by Yukio Mishima, a novel loosely based on the 1950 destruction of Kinkaku-ji
+* [[Buntenkaku]] in Nagoya, modeled after the Golden Pavilion
+* [[Ginkaku-ji]]
+* [[Shōkoku-ji]] 
+* [[Chūson-ji]] with golden Konjiki-dō
+* [[Golden Tea Room]]
+* [[List of Special Places of Scenic Beauty, Special Historic Sites and Special Natural Monuments]]
+* [[Historic Monuments of Ancient Kyoto (Kyoto, Uji and Otsu Cities)]]
+
+==Notes==
+{{reflist|30em}}
+
+== References ==
+* Boults, Elizabeth, and Chip Sullivan. ''Illustrated History of Landscape Design''. Hoboken, NJ: John Wiley & Sons, 2010.
+* Gerhart, Karen M. ''The Material Culture of Death in Medieval Japan''. Honolulu: University of Hawaii Press, 2009.
+* Pregil, Philip, and Nancy Volkman. ''Landscapes in History: Design and Planning in the Eastern and Western Tradition''. Hoboken, NJ: John Wiley & Sons, 1992.
+* Young, David, and Michiko Young. ''The Art of Japanese Architecture''. North Claredon, VT: Tuttle Publishing, 2007.
+* Young, David, Michiko Young, and Tan Hong. ''Introduction to Japanese Architecture''. North Claredon, VT: Periplus, 2005.
+
+== Further reading ==
+* {{cite book |last= Kawaguchi |first= Yoko |title= Japanese Zen Gardens |location= London |publisher= Francis Lincoln |date= 2014 |type= Hardback |isbn= 978-0-7112-3447-5}}  
+* [[Schirokauer, Conrad]]; Lurie, David; Gay, Suzanne (2005). A Brief History of Japanese Civilization. Wadsworth Publishing. {{ISBN|978-0-618-91522-4}}. OCLC 144227752.
+
+==External links==
+{{Commons category|Kinkaku-ji}}
+* [https://www.shokoku-ji.jp/en/kinkakuji/ Official site of Kinkaku-ji]
+* [http://www.orientalarchitecture.com/japan/kyoto/kinkakuji.php Oriental Architecture – Kinkakuji Temple]
+* [https://www.omamori.com/en/4_kinkaku-ji Omamori Charms Amulets of Kinkaku-ji Temple]
+* {{OSM way|98115917}}
+
+{{World Heritage Kyoto}}
+{{Buddhist temples in Japan}}
+{{Authority control}}
+
+{{DEFAULTSORT:Kinkaku-Ji}}
+[[Category:1397 establishments]]
+[[Category:14th-century Buddhist temples in Japan]]
+[[Category:20th-century Buddhist temples in Japan]]
+[[Category:Buddhist temples in Kyoto]]
+[[Category:Important Cultural Properties (Japan)]]
+[[Category:Myoshin-ji temples]]
+[[Category:Rebuilt buildings and structures in Japan]]
+[[Category:Religious buildings and structures completed in 1955]]
+[[Category:Religious buildings and structures destroyed by arson]]
+[[Category:Special Historic Sites]]
+[[Category:Special Places of Scenic Beauty]]
+[[Category:World Heritage Sites in Japan]]
+[[Category:Religious building and structure arson attacks in Japan]]
+[[Category:Temples of Avalokiteśvara]]

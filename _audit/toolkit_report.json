@@ -1,0 +1,518 @@
+[
+  {
+    "lang": "en",
+    "status": "ok",
+    "error": "",
+    "seconds": 0.05,
+    "src_chars": 18731,
+    "out_chars": 18694,
+    "identical": false,
+    "src_script": {
+      "bengali": 0,
+      "latin": 8304,
+      "cjk": 15,
+      "cyrillic": 0
+    },
+    "out_script": {
+      "bengali": 328,
+      "latin": 8134,
+      "cjk": 15,
+      "cyrillic": 0
+    },
+    "src_bengali_pct": 0.0,
+    "out_bengali_pct": 3.87,
+    "out_src_script_pct": 96.13,
+    "structure": {
+      "src": {
+        "table_open": 0,
+        "table_close": 1,
+        "template_open": 44,
+        "template_close": 44,
+        "link_open": 80,
+        "link_close": 80,
+        "ref_open": 19,
+        "ref_close": 19
+      },
+      "out": {
+        "table_open": 0,
+        "table_close": 1,
+        "template_open": 43,
+        "template_close": 43,
+        "link_open": 80,
+        "link_close": 80,
+        "ref_open": 19,
+        "ref_close": 19
+      }
+    },
+    "leaks": [],
+    "leftover_words_top": [
+      [
+        "the",
+        108
+      ],
+      [
+        "and",
+        46
+      ],
+      [
+        "The",
+        46
+      ],
+      [
+        "pavilion",
+        22
+      ],
+      [
+        "was",
+        20
+      ],
+      [
+        "Kinkaku",
+        19
+      ],
+      [
+        "gold",
+        13
+      ],
+      [
+        "File",
+        13
+      ]
+    ],
+    "headings_src": [
+      "History",
+      "Design details",
+      "Architectural design",
+      "Garden design",
+      "Gallery",
+      "See also"
+    ],
+    "headings_out": [
+      "ইতিহাস",
+      "Design details",
+      "Architectural design",
+      "Garden design",
+      "Gallery",
+      "আরও দেখুন"
+    ],
+    "rules_valid": false,
+    "rules_issue_count": 1,
+    "rules_issues": [
+      "নিয়ম ১১: বিশ্লিষ্ট নুক্তাযুক্ত বর্ণ বিদ্যমান (য়/ড়/ঢ় প্রিকম্পোজড নয়)"
+    ]
+  },
+  {
+    "lang": "zh",
+    "status": "ok",
+    "error": "",
+    "seconds": 0.28,
+    "src_chars": 58461,
+    "out_chars": 58833,
+    "identical": false,
+    "src_script": {
+      "bengali": 0,
+      "latin": 586,
+      "cjk": 14505,
+      "cyrillic": 0
+    },
+    "out_script": {
+      "bengali": 535,
+      "latin": 978,
+      "cjk": 14505,
+      "cyrillic": 0
+    },
+    "src_bengali_pct": 0.0,
+    "out_bengali_pct": 3.34,
+    "out_src_script_pct": 96.66,
+    "structure": {
+      "src": {
+        "table_open": 3,
+        "table_close": 3,
+        "template_open": 139,
+        "template_close": 139,
+        "link_open": 541,
+        "link_close": 541,
+        "ref_open": 109,
+        "ref_close": 110
+      },
+      "out": {
+        "table_open": 3,
+        "table_close": 5,
+        "template_open": 139,
+        "template_close": 139,
+        "link_open": 541,
+        "link_close": 541,
+        "ref_open": 109,
+        "ref_close": 110
+      }
+    },
+    "leaks": [],
+    "leftover_words_top": [
+      [
+        "ISBN",
+        10
+      ],
+      [
+        "File",
+        9
+      ],
+      [
+        "panoramio",
+        7
+      ],
+      [
+        "净慈寺",
+        6
+      ],
+      [
+        "西湖十景",
+        6
+      ],
+      [
+        "湖山便览",
+        6
+      ],
+      [
+        "雷峰夕照",
+        6
+      ],
+      [
+        "万立方米",
+        5
+      ]
+    ],
+    "headings_src": [
+      "名称",
+      "沿革",
+      "秦汉－唐代",
+      "五代－宋代",
+      "元代－清代",
+      "清末至1949年"
+    ],
+    "headings_out": [
+      "名称",
+      "沿革",
+      "秦汉－唐代",
+      "五代－宋代",
+      "元代－清代",
+      "清末至1949年"
+    ],
+    "rules_valid": false,
+    "rules_issue_count": 2,
+    "rules_issues": [
+      "নিয়ম ২: ৭২৪টি ইংরেজি অঙ্ক অবশিষ্ট আছে",
+      "নিয়ম ৮: ইংরেজি [[Category:...]] উপসর্গ বিদ্যমান"
+    ]
+  },
+  {
+    "lang": "ja",
+    "status": "ok",
+    "error": "",
+    "seconds": 0.04,
+    "src_chars": 18819,
+    "out_chars": 18819,
+    "identical": false,
+    "src_script": {
+      "bengali": 0,
+      "latin": 404,
+      "cjk": 7196,
+      "cyrillic": 0
+    },
+    "out_script": {
+      "bengali": 626,
+      "latin": 404,
+      "cjk": 7196,
+      "cyrillic": 0
+    },
+    "src_bengali_pct": 0.0,
+    "out_bengali_pct": 7.61,
+    "out_src_script_pct": 92.39,
+    "structure": {
+      "src": {
+        "table_open": 0,
+        "table_close": 0,
+        "template_open": 33,
+        "template_close": 33,
+        "link_open": 340,
+        "link_close": 340,
+        "ref_open": 43,
+        "ref_close": 43
+      },
+      "out": {
+        "table_open": 0,
+        "table_close": 0,
+        "template_open": 33,
+        "template_close": 33,
+        "link_open": 340,
+        "link_close": 340,
+        "ref_open": 43,
+        "ref_close": 43
+      }
+    },
+    "leaks": [],
+    "leftover_words_top": [
+      [
+        "Category",
+        17
+      ],
+      [
+        "舎利殿",
+        7
+      ],
+      [
+        "金閣寺",
+        6
+      ],
+      [
+        "鹿苑寺",
+        4
+      ],
+      [
+        "ファイル",
+        4
+      ],
+      [
+        "Kinkakuji",
+        4
+      ],
+      [
+        "金閣寺放火事件",
+        3
+      ],
+      [
+        "古都京都の文化財",
+        3
+      ]
+    ],
+    "headings_src": [
+      "歴史",
+      "舎利殿（金閣）",
+      "建築形式と間取り",
+      "放火事件（昭和25年7月2日）からの再建",
+      "境内",
+      "文化財"
+    ],
+    "headings_out": [
+      "歴史",
+      "舎利殿（金閣）",
+      "建築形式と間取り",
+      "放火事件（昭和২৫年৭月২日）からの再建",
+      "境内",
+      "文化財"
+    ],
+    "rules_valid": false,
+    "rules_issue_count": 1,
+    "rules_issues": [
+      "নিয়ম ৮: ইংরেজি [[Category:...]] উপসর্গ বিদ্যমান"
+    ]
+  },
+  {
+    "lang": "ru",
+    "status": "ok",
+    "error": "",
+    "seconds": 0.02,
+    "src_chars": 104521,
+    "out_chars": 107392,
+    "identical": false,
+    "src_script": {
+      "bengali": 0,
+      "latin": 785,
+      "cjk": 0,
+      "cyrillic": 44323
+    },
+    "out_script": {
+      "bengali": 1897,
+      "latin": 785,
+      "cjk": 0,
+      "cyrillic": 44323
+    },
+    "src_bengali_pct": 0.0,
+    "out_bengali_pct": 4.04,
+    "out_src_script_pct": 95.96,
+    "structure": {
+      "src": {
+        "table_open": 0,
+        "table_close": 4,
+        "template_open": 278,
+        "template_close": 278,
+        "link_open": 397,
+        "link_close": 397,
+        "ref_open": 64,
+        "ref_close": 64
+      },
+      "out": {
+        "table_open": 0,
+        "table_close": 4,
+        "template_open": 278,
+        "template_close": 278,
+        "link_open": 419,
+        "link_close": 419,
+        "ref_open": 64,
+        "ref_close": 64
+      }
+    },
+    "leaks": [],
+    "leftover_words_top": [
+      [
+        "собора",
+        72
+      ],
+      [
+        "церкви",
+        69
+      ],
+      [
+        "году",
+        62
+      ],
+      [
+        "века",
+        58
+      ],
+      [
+        "что",
+        46
+      ],
+      [
+        "собор",
+        42
+      ],
+      [
+        "Блаженного",
+        40
+      ],
+      [
+        "Василия",
+        38
+      ]
+    ],
+    "headings_src": [
+      "Основание и датировка",
+      "Причины основания и датировка",
+      "Версии возведения собора",
+      "Изменения в XVI веке",
+      "Доработки храма в XVII веке",
+      "Пожар и восстановление в XVIII веке"
+    ],
+    "headings_out": [
+      "প্রশাসনিক জেলাসমূহ",
+      "Основание и датировка",
+      "Причины основания и датировка",
+      "Версии возведения собора",
+      "Изменения в XVI веке",
+      "Доработки храма в XVII веке"
+    ],
+    "rules_valid": false,
+    "rules_issue_count": 1,
+    "rules_issues": [
+      "নিয়ম ২: ২৪৬৬টি ইংরেজি অঙ্ক অবশিষ্ট আছে"
+    ]
+  },
+  {
+    "lang": "de",
+    "status": "ok",
+    "error": "",
+    "seconds": 0.65,
+    "src_chars": 256583,
+    "out_chars": 251223,
+    "identical": false,
+    "src_script": {
+      "bengali": 0,
+      "latin": 124564,
+      "cjk": 0,
+      "cyrillic": 0
+    },
+    "out_script": {
+      "bengali": 2809,
+      "latin": 123217,
+      "cjk": 0,
+      "cyrillic": 0
+    },
+    "src_bengali_pct": 0.0,
+    "out_bengali_pct": 2.23,
+    "out_src_script_pct": 97.77,
+    "structure": {
+      "src": {
+        "table_open": 3,
+        "table_close": 3,
+        "template_open": 157,
+        "template_close": 157,
+        "link_open": 1205,
+        "link_close": 1205,
+        "ref_open": 392,
+        "ref_close": 392
+      },
+      "out": {
+        "table_open": 3,
+        "table_close": 3,
+        "template_open": 152,
+        "template_close": 152,
+        "link_open": 1193,
+        "link_close": 1193,
+        "ref_open": 381,
+        "ref_close": 381
+      }
+    },
+    "leaks": [],
+    "leftover_words_top": [
+      [
+        "der",
+        860
+      ],
+      [
+        "die",
+        637
+      ],
+      [
+        "und",
+        519
+      ],
+      [
+        "des",
+        367
+      ],
+      [
+        "von",
+        342
+      ],
+      [
+        "den",
+        295
+      ],
+      [
+        "Dom",
+        214
+      ],
+      [
+        "mit",
+        191
+      ]
+    ],
+    "headings_src": [
+      "Vorgängerbauten",
+      "Römische und merowingische Bischofskirche",
+      "Taufkirche",
+      "Alter Dom",
+      "Baugeschichte des gotischen Domes",
+      "Bau des Kapellenkranzes (1248–1277)"
+    ],
+    "headings_out": [
+      "Vorgängerbauten",
+      "Römische und merowingische Bischofskirche",
+      "Taufkirche",
+      "Alter Dom",
+      "Baugeschichte des gotischen Domes",
+      "Bau des Kapellenkranzes (১২৪৮–১২৭৭)"
+    ],
+    "rules_valid": false,
+    "rules_issue_count": 7,
+    "rules_issues": [
+      "নিয়ম ২: ৪টি ইংরেজি অঙ্ক অবশিষ্ট আছে",
+      "নিয়ম ৬: ১ নম্বর ঘরটি খালি — &nbsp; ব্যবহার করুন (লাইন ৭৮৬)",
+      "নিয়ম ৬: ২ নম্বর ঘরটি খালি — &nbsp; ব্যবহার করুন (লাইন ৭৮৬)",
+      "নিয়ম ৬: ৩ নম্বর ঘরটি খালি — &nbsp; ব্যবহার করুন (লাইন ৭৮৬)",
+      "নিয়ম ৬: ১ নম্বর ঘরটি খালি — &nbsp; ব্যবহার করুন (লাইন ৮০৬)",
+      "নিয়ম ৬: ২ নম্বর ঘরটি খালি — &nbsp; ব্যবহার করুন (লাইন ৮০৬)"
+    ]
+  }
+]

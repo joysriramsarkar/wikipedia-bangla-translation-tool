@@ -14,6 +14,8 @@ bn_digits_safe-এর দায়িত্ব; এই মডিউল শুধ
 """
 import re
 
+from .bn_digits_safe import protect_machine_spans, restore_spans
+
 LARGE_NUMBERS = {
     "trillion": "ট্রিলিয়ন",
     "billion": "বিলিয়ন",
@@ -83,8 +85,14 @@ def translate_months(text: str) -> str:
 
 
 def fix_units_dates(text: str) -> str:
-    """শব্দ-স্তরের ফিক্স (অঙ্ক ছাড়া)। পাইপলাইনে অঙ্ক পরে বসে।"""
-    s = translate_large_numbers(text)
+    """শব্দ-স্তরের ফিক্স (অঙ্ক ছাড়া)। পাইপলাইনে অঙ্ক পরে বসে।
+
+    URL, ফাইলনাম, সহায়ক প্যারামিটার ও সূত্রের তারিখ আড়ালে রাখা হয়,
+    নতুবা `http://x.org/May/2016` → `http://x.org/মে/২০১৬` হয়ে
+    লিংক ভাঙত (২০২৬-১০-২১ যাচাইয়ে ধরা পড়ে)।
+    """
+    masked, saved = protect_machine_spans(text)
+    s = translate_large_numbers(masked)
     s = translate_units(s)
     s = translate_months(s)
-    return s
+    return restore_spans(s, saved)

@@ -805,7 +805,6 @@
     <!-- ব্যবহারকারী মেনু -->
     <div class="vector-header-end">
       <div class="mw-user-menu">
-        <span class="mw-user-item">👤 জয়শ্রীরাম সরকার</span>
         <span class="mw-user-item">💬 বার্তা</span>
         <span class="mw-user-item" onclick="switchTab('drafts')">📝 খসড়া ট্র্যাকার</span>
         <a href="https://bn.wikipedia.org/wiki/Special:Watchlist" target="_blank" class="mw-user-item">নজরে রাখুন</a>
@@ -896,14 +895,22 @@
 
           </div>
 
-          <!-- সারি ২: অনুবাদ ইঞ্জিন ও জেমিনাই এআই সেটিংস -->
-          <div class="mw-cx-row" style="margin-bottom: 12px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px 14px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px;">
+          <!-- সারি ২: অনুবাদ ইঞ্জিন ও এআই সেটিংস (Gemini / Ollama / OpenRouter) -->
+          <div class="mw-cx-row" style="margin-bottom: 12px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px 14px; display: flex; flex-direction: column; gap: 10px;">
             <div style="display: flex; align-items: center; gap: 14px; flex-wrap: wrap;">
               <span class="mw-label" style="font-weight: 600; color: #1e293b;">🤖 অনুবাদ ইঞ্জিন:</span>
               <label style="display: flex; align-items: center; gap: 6px; cursor: pointer; font-size: 13.5px; font-weight: 500;">
                 <input type="radio" name="tr-engine" value="gemini" id="engine-gemini" checked onchange="onEngineChange()">
-                <span>জেমিনাই এআই (Gemini AI — সাবলীল প্যারাগ্রাফ)</span>
+                <span>জেমিনাই এআই (Gemini)</span>
                 <span style="background: #10b981; color: white; font-size: 10px; font-weight: bold; padding: 2px 7px; border-radius: 10px;">প্রস্তাবিত</span>
+              </label>
+              <label style="display: flex; align-items: center; gap: 6px; cursor: pointer; font-size: 13.5px; font-weight: 500;">
+                <input type="radio" name="tr-engine" value="ollama" id="engine-ollama" onchange="onEngineChange()">
+                <span>ওলামা (Ollama — লোকাল/স্ব-হোস্ট)</span>
+              </label>
+              <label style="display: flex; align-items: center; gap: 6px; cursor: pointer; font-size: 13.5px; font-weight: 500;">
+                <input type="radio" name="tr-engine" value="openrouter" id="engine-openrouter" onchange="onEngineChange()">
+                <span>ওপেনরাউটার (OpenRouter)</span>
               </label>
               <label style="display: flex; align-items: center; gap: 6px; cursor: pointer; font-size: 13.5px;">
                 <input type="radio" name="tr-engine" value="google" id="engine-google" onchange="onEngineChange()">
@@ -911,15 +918,59 @@
               </label>
             </div>
 
-            <div id="gemini-key-container" style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+            <!-- Gemini কনফিগ -->
+            <div id="gemini-key-container" class="ai-provider-config" style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
               <span style="font-size: 12.5px; color: #475569;">🔑 Gemini API Key:</span>
-              <input type="password" id="gemini-api-key" placeholder="AIzaSy... ফ্রি জেমিনাই কী দিন" 
-                     style="padding: 5px 8px; font-size: 12.5px; border: 1px solid #cbd5e1; border-radius: 4px; width: 175px;" 
+              <input type="password" id="gemini-api-key" placeholder="AIzaSy... ফ্রি জেমিনাই কী দিন"
+                     style="padding: 5px 8px; font-size: 12.5px; border: 1px solid #cbd5e1; border-radius: 4px; width: 175px;"
                      onchange="saveGeminiKey()" oninput="updateGeminiKeyStatus(!!this.value.trim())">
               <button type="button" class="mw-btn" onclick="toggleGeminiKeyVisibility()" title="কী দেখুন/লুকান" style="padding: 4px 8px; font-size: 11px;">👁️</button>
               <button type="button" class="mw-btn mw-btn-success" onclick="saveGeminiKey()" style="padding: 4px 10px; font-size: 12px;">সংরক্ষণ</button>
               <span id="gemini-key-status" style="font-size: 12px; font-weight: 600;"></span>
               <a href="https://aistudio.google.com/app/apikey" target="_blank" style="font-size: 12px; color: var(--mw-link); text-decoration: underline;" title="Google AI Studio থেকে সম্পূর্ণ বিনামূল্যে ১ ক্লিকে API Key তৈরি করুন">ফ্রি API Key নিন ↗</a>
+            </div>
+
+            <!-- Ollama কনফিগ (লোকাল / ক্লাউড) -->
+            <div id="ollama-config-container" class="ai-provider-config" style="display: none; align-items: center; gap: 8px; flex-wrap: wrap;">
+              <span style="font-size: 12.5px; color: #475569;">🦙 Ollama:</span>
+              <select id="ollama-mode" onchange="onOllamaModeChange()"
+                      style="padding: 5px 8px; font-size: 12.5px; border: 1px solid #cbd5e1; border-radius: 4px;">
+                <option value="local">লোকাল</option>
+                <option value="cloud">ক্লাউড</option>
+              </select>
+              <span style="font-size: 12.5px; color: #475569;">URL:</span>
+              <input type="text" id="ollama-base-url" placeholder="http://localhost:11434"
+                     style="padding: 5px 8px; font-size: 12.5px; border: 1px solid #cbd5e1; border-radius: 4px; width: 190px;"
+                     onchange="saveOllamaConfig()">
+              <span style="font-size: 12.5px; color: #475569;">মডেল:</span>
+              <input type="text" id="ollama-model" placeholder="llama3.1"
+                     style="padding: 5px 8px; font-size: 12.5px; border: 1px solid #cbd5e1; border-radius: 4px; width: 150px;"
+                     onchange="saveOllamaConfig()">
+              <span style="font-size: 12.5px; color: #475569;">API Key <span id="ollama-key-label">(ঐচ্ছিক)</span>:</span>
+              <input type="password" id="ollama-api-key" placeholder="ক্লাউডে আবশ্যক"
+                     style="padding: 5px 8px; font-size: 12.5px; border: 1px solid #cbd5e1; border-radius: 4px; width: 150px;"
+                     onchange="saveOllamaConfig()" oninput="updateOllamaStatus(document.getElementById('ollama-mode')?.value || 'local')">
+              <button type="button" class="mw-btn mw-btn-success" onclick="saveOllamaConfig()" style="padding: 4px 10px; font-size: 12px;">সংরক্ষণ</button>
+              <span id="ollama-config-status" style="font-size: 12px; font-weight: 600;"></span>
+              <span id="ollama-config-hint" style="font-size: 11.5px; color: #64748b;">লোকাল Ollama চালু থাকলে (<code>ollama serve</code>) কী ছাড়াই কাজ করবে।</span>
+              <a id="ollama-cloud-key-link" href="https://ollama.com/settings/keys" target="_blank" style="display: none; font-size: 12px; color: var(--mw-link); text-decoration: underline;">ক্লাউড API Key নিন ↗</a>
+            </div>
+
+
+            <!-- OpenRouter কনফিগ -->
+            <div id="openrouter-config-container" class="ai-provider-config" style="display: none; align-items: center; gap: 8px; flex-wrap: wrap;">
+              <span style="font-size: 12.5px; color: #475569;">🔑 OpenRouter API Key:</span>
+              <input type="password" id="openrouter-api-key" placeholder="sk-or-v1-..."
+                     style="padding: 5px 8px; font-size: 12.5px; border: 1px solid #cbd5e1; border-radius: 4px; width: 180px;"
+                     onchange="saveOpenRouterConfig()" oninput="updateOpenRouterStatus(!!this.value.trim())">
+              <span style="font-size: 12.5px; color: #475569;">মডেল:</span>
+              <input type="text" id="openrouter-model" placeholder="openai/gpt-4o-mini"
+                     style="padding: 5px 8px; font-size: 12.5px; border: 1px solid #cbd5e1; border-radius: 4px; width: 165px;"
+                     onchange="saveOpenRouterConfig()">
+              <button type="button" class="mw-btn" onclick="toggleOpenRouterKeyVisibility()" title="কী দেখুন/লুকান" style="padding: 4px 8px; font-size: 11px;">👁️</button>
+              <button type="button" class="mw-btn mw-btn-success" onclick="saveOpenRouterConfig()" style="padding: 4px 10px; font-size: 12px;">সংরক্ষণ</button>
+              <span id="openrouter-key-status" style="font-size: 12px; font-weight: 600;"></span>
+              <a href="https://openrouter.ai/keys" target="_blank" style="font-size: 12px; color: var(--mw-link); text-decoration: underline;">API Key নিন ↗</a>
             </div>
           </div>
 
@@ -1675,12 +1726,174 @@
       }
     }
 
-    function onEngineChange() {
-      const engine = document.querySelector('input[name="tr-engine"]:checked')?.value;
-      const keyBox = document.getElementById('gemini-key-container');
-      if (keyBox) {
-        keyBox.style.opacity = engine === 'gemini' ? '1' : '0.6';
+    // ---- Ollama কনফিগ (লোকাল / ক্লাউড) ----
+    const OLLAMA_LOCAL_URL = 'http://localhost:11434';
+    const OLLAMA_CLOUD_URL = 'https://ollama.com';
+    const OLLAMA_LOCAL_MODEL = 'llama3.1';
+    const OLLAMA_CLOUD_MODEL = 'gpt-oss:120b';
+
+    function loadSavedOllamaConfig() {
+      const savedUrl = localStorage.getItem('wikitool_ollama_base_url') || '';
+      const mode = localStorage.getItem('wikitool_ollama_mode') || (savedUrl.includes('ollama.com') ? 'cloud' : 'local');
+      const url = savedUrl || (mode === 'cloud' ? OLLAMA_CLOUD_URL : OLLAMA_LOCAL_URL);
+      const model = localStorage.getItem('wikitool_ollama_model') || (mode === 'cloud' ? OLLAMA_CLOUD_MODEL : OLLAMA_LOCAL_MODEL);
+      const key = localStorage.getItem('wikitool_ollama_api_key') || '';
+      const modeEl = document.getElementById('ollama-mode');
+      const urlEl = document.getElementById('ollama-base-url');
+      const modelEl = document.getElementById('ollama-model');
+      const keyEl = document.getElementById('ollama-api-key');
+      if (modeEl) modeEl.value = mode;
+      if (urlEl) urlEl.value = url;
+      if (modelEl) modelEl.value = model;
+      if (keyEl) keyEl.value = key;
+      onOllamaModeChange(true);
+    }
+
+    function onOllamaModeChange(isLoad = false) {
+      const mode = document.getElementById('ollama-mode')?.value || 'local';
+      const urlEl = document.getElementById('ollama-base-url');
+      const modelEl = document.getElementById('ollama-model');
+      if (!isLoad) {
+        if (mode === 'cloud') {
+          if (urlEl) urlEl.value = OLLAMA_CLOUD_URL;
+          if (modelEl && (!modelEl.value.trim() || modelEl.value.trim() === OLLAMA_LOCAL_MODEL)) {
+            modelEl.value = OLLAMA_CLOUD_MODEL;
+          }
+        } else {
+          if (urlEl) urlEl.value = OLLAMA_LOCAL_URL;
+          if (modelEl && (!modelEl.value.trim() || modelEl.value.trim() === OLLAMA_CLOUD_MODEL)) {
+            modelEl.value = OLLAMA_LOCAL_MODEL;
+          }
+        }
       }
+      const keyLabel = document.getElementById('ollama-key-label');
+      if (keyLabel) keyLabel.textContent = mode === 'cloud' ? '(আবশ্যক)' : '(ঐচ্ছিক)';
+      const hint = document.getElementById('ollama-config-hint');
+      if (hint) {
+        hint.innerHTML = mode === 'cloud'
+          ? 'Ollama Cloud-এর জন্য API Key আবশ্যক। কী নিন: ollama.com/settings/keys'
+          : 'লোকাল Ollama চালু থাকলে (<code>ollama serve</code>) কী ছাড়াই কাজ করবে।';
+      }
+      const cloudLink = document.getElementById('ollama-cloud-key-link');
+      if (cloudLink) cloudLink.style.display = mode === 'cloud' ? 'inline' : 'none';
+      updateOllamaStatus(mode);
+    }
+
+    function updateOllamaStatus(mode = 'local') {
+      const statusEl = document.getElementById('ollama-config-status');
+      if (!statusEl) return;
+      if (mode === 'cloud') {
+        const hasKey = !!(document.getElementById('ollama-api-key')?.value || '').trim();
+        statusEl.textContent = hasKey ? '✅ ক্লাউড কী সংরক্ষিত' : '⚠️ ক্লাউড কী নেই';
+        statusEl.style.color = hasKey ? '#10b981' : '#f59e0b';
+      } else {
+        statusEl.textContent = '✅ লোকাল Ollama';
+        statusEl.style.color = '#10b981';
+      }
+    }
+
+    function saveOllamaConfig() {
+      const mode = document.getElementById('ollama-mode')?.value || 'local';
+      const defaultUrl = mode === 'cloud' ? OLLAMA_CLOUD_URL : OLLAMA_LOCAL_URL;
+      const defaultModel = mode === 'cloud' ? OLLAMA_CLOUD_MODEL : OLLAMA_LOCAL_MODEL;
+      const url = (document.getElementById('ollama-base-url')?.value || defaultUrl).trim() || defaultUrl;
+      const model = (document.getElementById('ollama-model')?.value || defaultModel).trim() || defaultModel;
+      const key = (document.getElementById('ollama-api-key')?.value || '').trim();
+      localStorage.setItem('wikitool_ollama_mode', mode);
+      localStorage.setItem('wikitool_ollama_base_url', url);
+      localStorage.setItem('wikitool_ollama_model', model);
+      if (key) localStorage.setItem('wikitool_ollama_api_key', key);
+      else localStorage.removeItem('wikitool_ollama_api_key');
+      updateOllamaStatus(mode);
+      if (mode === 'cloud' && !key) {
+        showToast('⚠️ Ollama Cloud ব্যবহার করতে API Key দিন।');
+      } else {
+        showToast(mode === 'cloud' ? 'Ollama Cloud কনফিগ সংরক্ষিত হয়েছে ✓' : 'Ollama লোকাল কনফিগ সংরক্ষিত হয়েছে ✓');
+      }
+    }
+
+    // ---- OpenRouter কনফিগ ----
+    function loadSavedOpenRouterConfig() {
+      const key = localStorage.getItem('wikitool_openrouter_api_key') || '';
+      const model = localStorage.getItem('wikitool_openrouter_model') || 'openai/gpt-4o-mini';
+      const keyEl = document.getElementById('openrouter-api-key');
+      const modelEl = document.getElementById('openrouter-model');
+      if (keyEl) keyEl.value = key;
+      if (modelEl) modelEl.value = model;
+      updateOpenRouterStatus(!!key);
+    }
+
+    function saveOpenRouterConfig() {
+      const key = (document.getElementById('openrouter-api-key')?.value || '').trim();
+      const model = (document.getElementById('openrouter-model')?.value || 'openai/gpt-4o-mini').trim() || 'openai/gpt-4o-mini';
+      if (key) localStorage.setItem('wikitool_openrouter_api_key', key);
+      else localStorage.removeItem('wikitool_openrouter_api_key');
+      localStorage.setItem('wikitool_openrouter_model', model);
+      updateOpenRouterStatus(!!key);
+      showToast(key ? 'OpenRouter কনফিগ সংরক্ষিত হয়েছে ✓' : 'OpenRouter API Key মুছে ফেলা হয়েছে।');
+    }
+
+    function toggleOpenRouterKeyVisibility() {
+      const input = document.getElementById('openrouter-api-key');
+      if (input) input.type = input.type === 'password' ? 'text' : 'password';
+    }
+
+    function updateOpenRouterStatus(hasKey) {
+      const statusEl = document.getElementById('openrouter-key-status');
+      if (statusEl) {
+        if (hasKey) {
+          statusEl.textContent = '✅ কী সংরক্ষিত';
+          statusEl.style.color = '#10b981';
+        } else {
+          statusEl.textContent = '⚠️ কী নেই';
+          statusEl.style.color = '#f59e0b';
+        }
+      }
+    }
+
+
+    function onEngineChange() {
+      const engine = document.querySelector('input[name="tr-engine"]:checked')?.value || 'gemini';
+      const geminiBox = document.getElementById('gemini-key-container');
+      const ollamaBox = document.getElementById('ollama-config-container');
+      const openrouterBox = document.getElementById('openrouter-config-container');
+      if (geminiBox) geminiBox.style.display = engine === 'gemini' ? 'flex' : 'none';
+      if (ollamaBox) ollamaBox.style.display = engine === 'ollama' ? 'flex' : 'none';
+      if (openrouterBox) openrouterBox.style.display = engine === 'openrouter' ? 'flex' : 'none';
+    }
+
+    // বর্তমান ইঞ্জিন অনুযায়ী AI কনফিগ ফেরত দেয়
+    function getAiConfig() {
+      const engine = document.querySelector('input[name="tr-engine"]:checked')?.value || 'gemini';
+      if (engine === 'ollama') {
+        const mode = document.getElementById('ollama-mode')?.value || 'local';
+        const defaultUrl = mode === 'cloud' ? OLLAMA_CLOUD_URL : OLLAMA_LOCAL_URL;
+        const defaultModel = mode === 'cloud' ? OLLAMA_CLOUD_MODEL : OLLAMA_LOCAL_MODEL;
+        return {
+          engine,
+          provider: 'ollama',
+          mode,
+          apiKey: (document.getElementById('ollama-api-key')?.value || '').trim(),
+          model: (document.getElementById('ollama-model')?.value || defaultModel).trim() || defaultModel,
+          baseUrl: (document.getElementById('ollama-base-url')?.value || defaultUrl).trim() || defaultUrl
+        };
+      }
+      if (engine === 'openrouter') {
+        return {
+          engine,
+          provider: 'openrouter',
+          apiKey: (document.getElementById('openrouter-api-key')?.value || '').trim(),
+          model: (document.getElementById('openrouter-model')?.value || 'openai/gpt-4o-mini').trim() || 'openai/gpt-4o-mini',
+          baseUrl: 'https://openrouter.ai/api/v1'
+        };
+      }
+      return {
+        engine: 'gemini',
+        provider: 'gemini',
+        apiKey: (document.getElementById('gemini-api-key')?.value || '').trim(),
+        model: 'gemini-3.5-flash',
+        baseUrl: ''
+      };
     }
 
     async function translateParagraphGeminiClient(text, apiKey, model = 'gemini-1.5-flash', sl = 'en', tl = 'bn') {
@@ -1732,6 +1945,117 @@
       let out = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
       out = out.replace(/^```(?:wikitext|wiki)?\s*/i, '').replace(/\s*```$/i, '').trim();
       return out || text;
+    }
+
+    // প্রোভাইডার-নিরপেক্ষ AI অনুবাদ (Gemini / Ollama / OpenRouter)
+    async function translateParagraphAiClient(text, config = {}, sl = 'en', tl = 'bn') {
+      const provider = (config.provider || 'gemini').toLowerCase();
+      const apiKey = (config.apiKey || '').trim();
+      const model = (config.model || '').trim();
+      const baseUrl = (config.baseUrl || '').trim();
+
+      if (!text || !text.trim()) return text;
+      if (!/[a-zA-Z]{2,}/.test(text)) return text;
+
+      // ১. সার্ভার-সাইড /translate_ai (সব প্রোভাইডার)
+      try {
+        const body = { text, provider, model, sl, tl };
+        if (apiKey) body.api_key = apiKey;
+        if (baseUrl) body.base_url = baseUrl;
+        const sRes = await fetch('/translate_ai', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(body)
+        });
+        const sData = await sRes.json();
+        if (sData.ok && sData.translated) {
+          return String(sData.translated).trim();
+        }
+      } catch (e1) {}
+
+      const systemPrompt = `তুমি বাংলা উইকিপিডিয়ার একজন অভিজ্ঞ সম্পাদক ও অনুবাদক। প্রদত্ত উইকিটেক্সট অনুচ্ছেদটি (Paragraph) অত্যন্ত সাবলীল, প্রাঞ্জল ও প্রমিত বাংলায় অনুবাদ করো।
+উইকিটেক্সট ফরম্যাটিং ([[লিংক|প্রদর্শন]], <ref>...</ref>, {{...}}, ''ইটালিক'', '''বোল্ড''') অক্ষত রাখো। দৃশ্যমান সংখ্যা বাংলায় রূপান্তর করো। কোনো অতিরিক্ত ভূমিকা ছাড়া শুধু অনূদিত উইকিটেক্সট ফেরত দাও।`;
+
+      // ২. Gemini সরাসরি
+      if (provider === 'gemini') {
+        return await translateParagraphGeminiClient(text, apiKey, model || 'gemini-3.5-flash', sl, tl);
+      }
+
+      // ৩. OpenRouter সরাসরি (OpenAI-সামঞ্জস্যপূর্ণ)
+      if (provider === 'openrouter') {
+        if (!apiKey) return text;
+        try {
+          const res = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              'Authorization': `Bearer ${apiKey}`,
+              'HTTP-Referer': location.origin,
+              'X-Title': 'Wikipedia Bangla Translation Tool'
+            },
+            body: JSON.stringify({
+              model: model || 'openai/gpt-4o-mini',
+              messages: [
+                { role: 'system', content: systemPrompt },
+                { role: 'user', content: `উইকিটেক্সট অনুচ্ছেদটি অনুবাদ করো:\n\n${text}` }
+              ],
+              temperature: 0.2,
+              max_tokens: 4096
+            })
+          });
+          const data = await res.json();
+          if (data.error) throw new Error(data.error.message || 'OpenRouter API ত্রুটি');
+          let out = data.choices?.[0]?.message?.content || data.choices?.[0]?.text || '';
+          return out.replace(/^```(?:wikitext|wiki)?\s*/i, '').replace(/\s*```$/i, '').trim() || text;
+        } catch (e) {
+          console.warn('OpenRouter direct call failed:', e);
+          return text;
+        }
+      }
+
+
+      // ৪. Ollama সরাসরি (লোকাল / ক্লাউড)
+      if (provider === 'ollama') {
+        const base = (baseUrl || 'http://localhost:11434').replace(/\/+$/, '');
+        const isOpenAiLike = base.endsWith('/v1');
+        const url = isOpenAiLike
+          ? `${base}/chat/completions`
+          : (base.endsWith('/api') ? `${base}/chat` : `${base}/api/chat`);
+        try {
+          const headers = { 'Content-Type': 'application/json' };
+          if (apiKey) headers['Authorization'] = `Bearer ${apiKey}`;
+          const payload = isOpenAiLike ? {
+            model: model || 'llama3.1',
+            messages: [
+              { role: 'system', content: systemPrompt },
+              { role: 'user', content: `উইকিটেক্সট অনুচ্ছেদটি অনুবাদ করো:\n\n${text}` }
+            ],
+            temperature: 0.2
+          } : {
+            model: model || 'llama3.1',
+            messages: [
+              { role: 'system', content: systemPrompt },
+              { role: 'user', content: `উইকিটেক্সট অনুচ্ছেদটি অনুবাদ করো:\n\n${text}` }
+            ],
+            stream: false,
+            options: { temperature: 0.2 }
+          };
+          const res = await fetch(url, {
+            method: 'POST',
+            headers,
+            body: JSON.stringify(payload)
+          });
+          const data = await res.json();
+          if (data.error) throw new Error(data.error.message || 'Ollama API ত্রুটি');
+          let out = data.message?.content || data.response || data.choices?.[0]?.message?.content || data.choices?.[0]?.text || '';
+          return out.replace(/^```(?:wikitext|wiki)?\s*/i, '').replace(/\s*```$/i, '').trim() || text;
+        } catch (e) {
+          console.warn('Ollama direct call failed:', e);
+          return text;
+        }
+      }
+
+      return text;
     }
 
     async function translateBlockClient(block, sl, tl) {
@@ -1908,7 +2232,475 @@
       return text;
     }
 
+    function isTemplateWikitextClient(text, title = '') {
+      const t = (title || '').trim().toLowerCase();
+      if (t.startsWith('template:') || t.startsWith('টেমপ্লেট:') || t.startsWith('module:') || t.startsWith('মডিউল:')) {
+        return true;
+      }
+      if (!text) return false;
+      return /\{\{\s*#(?:switch|if|ifeq|expr|time)\b/i.test(text) ||
+             /\{\{\{[A-Za-z0-9_\-\u0980-\u09FF ]+(?:\|[^\}]*)?\}\}\}/.test(text) ||
+             /^\s*\{\{\s*(?:Navbox|Sidebar|Subgroup)\b/im.test(text);
+    }
+
+    const TECHNICAL_PARAMS_CLIENT = new Set([
+      "name", "navbar", "border", "state", "tracking",
+      "bodyclass", "listclass", "groupclass", "aboveclass", "belowclass", "titleclass", "class",
+      "style", "bodystyle", "titlestyle", "groupstyle", "basestyle", "abovestyle", "belowstyle",
+      "evenstyle", "oddstyle", "imagestyle", "imageleftstyle", "imagerightstyle",
+      "image", "imageleft", "imageright", "image_flag", "image_coat",
+      "width", "align", "cellpadding", "cellspacing", "nowrap"
+    ]);
+
+    function isTechnicalParamClient(param) {
+      const p = (param || '').trim().toLowerCase();
+      if (TECHNICAL_PARAMS_CLIENT.has(p) || p.endsWith('style') || p.endsWith('class')) return true;
+      if (/^(?:link|color|image|icon|url)\d*$/.test(p)) return true;
+      return false;
+    }
+
+    const COMMON_LEAGUE_MAP_CLIENT = {
+      "Premier League": "প্রিমিয়ার লিগ",
+      "EFL Championship": "ইএফএল চ্যাম্পিয়নশিপ",
+      "EFL League One": "ইএফএল লিগ ওয়ান",
+      "EFL League Two": "ইএফএল লিগ টু",
+      "National League North": "ন্যাশনাল লিগ নর্থ",
+      "National League South": "ন্যাশনাল লিগ সাউথ",
+      "National League": "ন্যাশনাল লিগ",
+      "FA Cup": "এফএ কাপ",
+      "EFL Cup": "ইএফএল কাপ",
+      "Champions League": "চ্যাম্পিয়নস লিগ",
+      "Europa League": "ইউরোপা লিগ",
+      "Bundesliga": "বুন্দেসলিগা",
+      "La Liga": "লা লিগা",
+      "Serie A": "সেরিয়ে আ",
+      "Ligue 1": "লিগ ১"
+    };
+
+    const ORDINAL_MAP_CLIENT = {
+      '1': '১ম', '2': '২য়', '3': '৩য়', '4': '৪র্থ', '5': '৫ম',
+      '6': '৬ষ্ঠ', '7': '৭ম', '8': '৮ম', '9': '৯ম', '10': '১০ম',
+      '11': '১১তম', '12': '১২তম', '13': '১৩তম', '14': '১৪তম', '15': '১৫তম',
+      '16': '১৬তম', '17': '১৭তম', '18': '১৮তম', '19': '১৯তম', '20': '২০তম',
+      '21': '২১তম', '22': '২২তম', '23': '২৩তম', '24': '২৪তম'
+    };
+
+    function splitTopLevelPipesClient(line) {
+      const parts = [];
+      let buf = '';
+      let linkDepth = 0;
+      let tplDepth = 0;
+      let i = 0;
+      const n = line.length;
+
+      while (i < n) {
+        if (i < n - 1 && line.substring(i, i + 2) === '[[') {
+          linkDepth++;
+          buf += '[[';
+          i += 2;
+          continue;
+        }
+        if (i < n - 1 && line.substring(i, i + 2) === ']]') {
+          linkDepth = Math.max(0, linkDepth - 1);
+          buf += ']]';
+          i += 2;
+          continue;
+        }
+        if (i < n - 1 && line.substring(i, i + 2) === '{{') {
+          tplDepth++;
+          buf += '{{';
+          i += 2;
+          continue;
+        }
+        if (i < n - 1 && line.substring(i, i + 2) === '}}') {
+          tplDepth = Math.max(0, tplDepth - 1);
+          buf += '}}';
+          i += 2;
+          continue;
+        }
+        if (line[i] === '|' && linkDepth === 0 && tplDepth === 0) {
+          if (buf) {
+            parts.push(buf);
+            buf = '';
+          }
+          i++;
+          continue;
+        }
+        buf += line[i];
+        i++;
+      }
+      if (buf) parts.push(buf);
+      return parts;
+    }
+
+    function clientSideSwitchTranslate(wikitext) {
+      if (!wikitext) return '';
+      const varPlaceholders = {};
+      let varIdx = 0;
+      let text = wikitext.replace(/\{\{\{[A-Za-z0-9_\-\u0980-\u09FF ]+(?:\|[^\}]*)?\}\}\}/g, m => {
+        const tok = `__MW_VAR_PH_${varIdx++}__`;
+        varPlaceholders[tok] = m;
+        return tok;
+      });
+
+      const pfnPlaceholders = {};
+      let pfnIdx = 0;
+      text = text.replace(/\{\{\s*#(?:switch|if|ifeq|ifexpr|iferror|expr|time|tag|invoke)\s*:/gi, m => {
+        const tok = `__MW_PFN_PH_${pfnIdx++}__`;
+        pfnPlaceholders[tok] = m;
+        return tok;
+      });
+
+      const lines = text.split('\n');
+      const outLines = [];
+      let inNoinclude = false;
+
+      for (let line of lines) {
+        const stripped = line.trim();
+        const hasCatOrDoc = /\[\[category:/i.test(line) || /\{\{documentation/i.test(line) ||
+                            /<noinclude>/i.test(line) || /<\/noinclude>/i.test(line);
+
+        if (stripped.includes('<noinclude>')) inNoinclude = true;
+
+        if (hasCatOrDoc || inNoinclude) {
+          let mod = line;
+          mod = mod.replace(/\{\{\s*(?:template\s*:\s*)?documentation\s*\}\}/gi, '{{ডকুমেন্টেশন}}');
+          mod = mod.replace(/\[\[\s*category\s*:\s*([^\]]+)\]\]/gi, '[[বিষয়শ্রেণী:$1]]');
+          mod = mod.replace(/English football updater templates/g, 'ইংরেজি ফুটবল আপডেটার টেমপ্লেট');
+          mod = mod.replace(/England football templates/g, 'ইংল্যান্ড ফুটবল টেমপ্লেট');
+          mod = mod.replace(/Association football infobox updater templates/g, 'অ্যাসোসিয়েশন ফুটবল তথ্যছক আপডেটার টেমপ্লেট');
+          if (stripped.includes('</noinclude>')) inNoinclude = false;
+          outLines.push(mod);
+          continue;
+        }
+
+        if (stripped.includes('</noinclude>')) inNoinclude = false;
+
+        const commentRegex = new RegExp('<' + '!--\\s*(.*?)\\s*--' + '>', 'g');
+        line = line.replace(commentRegex, (match, cText) => {
+          const trimmedC = cText.trim();
+          return '<' + '!--' + (COMMON_LEAGUE_MAP_CLIENT[trimmedC] || trimmedC) + '--' + '>';
+        });
+
+        if (stripped === '}}' || stripped.startsWith('| #default') || stripped.startsWith('|#default')) {
+          outLines.push(line);
+          continue;
+        }
+
+        if (stripped.startsWith('|') && stripped.includes('=')) {
+          const parts = splitTopLevelPipesClient(line);
+          const outParts = [];
+          for (let part of parts) {
+            const pStrip = part.trim();
+            if (!pStrip) continue;
+            if (part.includes('=')) {
+              const eqIdx = part.indexOf('=');
+              const k = part.substring(0, eqIdx).trim();
+              let v = part.substring(eqIdx + 1).trim();
+
+              const subTpls = {};
+              let subIdx = 0;
+              v = v.replace(/\{\{[^{}]*\}\}/g, m => {
+                const tok = `__SUB_TPL_${subIdx++}__`;
+                subTpls[tok] = m;
+                return tok;
+              });
+
+              v = v.replace(/\[\[([^|\]]+)(?:\|([^\]]+))?\]\]/g, (m, target, label) => {
+                target = target.trim();
+                label = label ? label.trim() : '';
+                const seasonMatch = target.match(/^(\d{4})[–\-](\d{2,4})\s+(.*)$/);
+                if (seasonMatch) {
+                  const y1 = seasonMatch[1].replace(/[0-9]/g, d => '০১২৩৪৫৬৭৮৯'[d]);
+                  const y2 = seasonMatch[2].replace(/[0-9]/g, d => '০১২৩৪৫৬৭৮৯'[d]);
+                  const lg = COMMON_LEAGUE_MAP_CLIENT[seasonMatch[3]] || seasonMatch[3];
+                  const bnSeason = `${y1}–${y2}`;
+                  const bnTarget = `${bnSeason} ${lg}`;
+                  let bnLabel = bnSeason;
+                  if (label) {
+                    const lm = label.match(/^(\d{4})[–\-](\d{2,4})$/);
+                    if (lm) {
+                      bnLabel = `${lm[1].replace(/[0-9]/g, d => '০১২৩৪৫৬৭৮৯'[d])}–${lm[2].replace(/[0-9]/g, d => '০১২৩৪৫৬৭৮৯'[d])}`;
+                    } else {
+                      bnLabel = label.replace(/[0-9]/g, d => '০১২৩৪৫৬৭৮৯'[d]);
+                    }
+                  }
+                  return `[[${bnTarget}|${bnLabel}]]`;
+                }
+                if (COMMON_LEAGUE_MAP_CLIENT[target]) {
+                  const bnTarget = COMMON_LEAGUE_MAP_CLIENT[target];
+                  return label ? `[[${bnTarget}|${COMMON_LEAGUE_MAP_CLIENT[label] || label}]]` : `[[${bnTarget}]]`;
+                }
+                const bnTarget = toBnDigitsSafeClient(target);
+                const bnLabel = label ? toBnDigitsSafeClient(label) : '';
+                return bnLabel ? `[[${bnTarget}|${bnLabel}]]` : `[[${bnTarget}]]`;
+              });
+
+              v = v.replace(/\b(\d+)(?:st|nd|rd|th)\s+of\s+(\d+)\b/gi, (m, r, tot) => {
+                const bnR = ORDINAL_MAP_CLIENT[r] || (r.replace(/[0-9]/g, d => '০১২৩৪৫৬৭৮৯'[d]) + 'তম');
+                const bnTot = tot.replace(/[0-9]/g, d => '০১২৩৪৫৬৭৮৯'[d]);
+                return `${bnTot}-এর মধ্যে ${bnR}`;
+              });
+
+              v = v.replace(/\(promoted via play-offs\)/g, '(প্লে-অফের মাধ্যমে উন্নীত)')
+                   .replace(/\(relegated via play-offs\)/g, '(প্লে-অফের মাধ্যমে অবনমিত)')
+                   .replace(/\(promoted\)/g, '(উন্নীত)')
+                   .replace(/\(relegated\)/g, '(অবনমিত)')
+                   .replace(/\(champions\)/g, '(চ্যাম্পিয়ন)')
+                   .replace(/\(runners-up\)/g, '(রানার্স-আপ)')
+                   .replace(/\(resigned\)/g, '(পদত্যাগ)')
+                   .replace(/\(withdrew\)/g, '(প্রত্যাহার)')
+                   .replace(/\(folded\)/g, '(বিলুপ্ত)')
+                   .replace(/\(transferred\)/g, '(স্থানান্তরিত)')
+                   .replace(/\bSenior Division\b/g, 'সিনিয়র বিভাগ')
+                   .replace(/\bPremier Division\b/g, 'প্রিমিয়ার বিভাগ')
+                   .replace(/\bFirst Division\b/g, 'প্রথম বিভাগ')
+                   .replace(/\bSecond Division\b/g, 'দ্বিতীয় বিভাগ');
+
+              v = toBnDigitsSafeClient(v);
+
+              for (let tok in subTpls) {
+                v = v.replace(tok, subTpls[tok]);
+              }
+
+              outParts.push(`${k} = ${v}`);
+            } else {
+              outParts.push(pStrip);
+            }
+          }
+          if (outParts.length > 0) {
+            outLines.push('| ' + outParts.join(' | '));
+          } else {
+            outLines.push(line);
+          }
+          continue;
+        }
+
+        outLines.push(line);
+      }
+
+      let res = outLines.join('\n');
+      for (let tok in varPlaceholders) {
+        res = res.replace(tok, varPlaceholders[tok]);
+      }
+      for (let tok in pfnPlaceholders) {
+        res = res.replace(tok, pfnPlaceholders[tok]);
+      }
+      return res;
+    }
+
+    const CITY_AND_ENTITY_MAP_CLIENT = {
+      // আন্তর্জাতিক ক্রীড়া সংস্থা ও সংক্ষিপ্ত রূপ
+      "CPISRA": "সিপিসরা",
+      "IFCPF": "আইএফসিপিএফ",
+      "FESPIC": "ফেসপিক",
+      "ASEAN": "আসিয়ান",
+      "FIFA": "ফিফা",
+      "UEFA": "উয়েফা",
+      "CONCACAF": "কনকাকাফ",
+      "CONMEBOL": "কনমেবল",
+      "AFC": "এএফসি",
+      "CAF": "ক্যাফ",
+      "OFC": "ওএফসি",
+      "IOC": "আইওসি",
+      "IPC": "আইপিসি",
+
+      // আন্তর্জাতিক প্রতিযোগিতা ও পর্ব
+      "Parapan American Games": "পারাপান আমেরিকান গেমস",
+      "Parapan American": "পারাপান আমেরিকান",
+      "Asian Para Games": "এশিয়ান প্যারা গেমস",
+      "Americas Championships": "আমেরিকাস চ্যাম্পিয়নশিপ",
+      "Americas Championship": "আমেরিকাস চ্যাম্পিয়নশিপ",
+      "Asia-Oceania Championships": "এশিয়া-ওশেনিয়া চ্যাম্পিয়নশিপ",
+      "Asia-Oceania Championship": "এশিয়া-ওশেনিয়া চ্যাম্পিয়নশিপ",
+      "European Championships": "ইউরোপীয় চ্যাম্পিয়নশিপ",
+      "European Championship": "ইউরোপীয় চ্যাম্পিয়নশিপ",
+      "World Championships": "বিশ্ব চ্যাম্পিয়নশিপ",
+      "World Championship": "বিশ্ব চ্যাম্পিয়নশিপ",
+      "Intercontinental Cup": "আন্তঃমহাদেশীয় কাপ",
+      "International Cup": "আন্তর্জাতিক কাপ",
+      "International Cups": "আন্তর্জাতিক কাপ",
+      "American Cup": "আমেরিকান কাপ",
+      "World Cup": "বিশ্বকাপ",
+      "World Games": "ওয়ার্ল্ড গেমস",
+      "qualification": "যোগ্যতা",
+      "Qualification": "যোগ্যতা",
+      "Summer Paralympics": "গ্রীষ্মকালীন প্যারালিম্পিক",
+      "Winter Paralympics": "শীতকালীন প্যারালিম্পিক",
+
+      // বিশ্বের স্বাগতিক শহর ও স্থানসমূহ
+      "Sangolquí": "সাঙ্গোলকি",
+      "Sangolqui": "সাঙ্গোলকি",
+      "Brasschaat": "ব্রাসখাত",
+      "Zeist": "জেইস্ট",
+      "Oristano": "ওরিস্তানো",
+      "Naypyidaw": "নেপিডো",
+      "Naypyitaw": "নেপিডো",
+      "Nay Pyi Taw": "নেপিডো",
+      "Arnheim": "আর্নহেম",
+      "Arnhem": "আর্নহেম",
+      "Sant Cugat del Vallès": "সান্ত কুগাত দেল ভায়েস",
+      "Sant Cugat": "সান্ত কুগাত দেল ভায়েস",
+      "San Luis": "সান লুইস",
+      "Burton": "বার্টন",
+      "Salou": "সালো",
+      "Seville": "সেভিল",
+      "Sevilla": "সেভিল",
+      "Maia": "মাইয়া",
+      "Surakarta": "সুরাকার্তা",
+      "Nakhon Ratchasima": "নাখোন রাতচাসিমা",
+      "Phnom Penh": "ফনম পেন",
+      "Kish Island": "কিশ দ্বীপ",
+      "Kish": "কিশ",
+      "Kyiv": "কিয়েভ",
+      "Kiev": "কিয়েভ",
+      "Glasgow": "গ্লাসগো",
+      "Dublin": "ডাবলিন",
+      "Nottingham": "নটিংহাম",
+      "New London": "নিউ লন্ডন",
+      "Assen": "আসেন",
+      "Greve": "গ্রেভ",
+      "Santiago": "সান্তিয়াগো",
+      "Toronto": "টরন্টো",
+      "Lima": "লিমা",
+      "Busan": "বুসান",
+      "Kuala Lumpur": "কুয়ালালামপুর",
+      "Guangzhou": "গুয়াংজু",
+      "Incheon": "ইঞ্চিওন",
+      "Melbourne": "মেলবোর্ন",
+      "Singapore": "সিঙ্গাপুর",
+      "Athens": "এথেন্স",
+      "Beijing": "বেইজিং",
+      "London": "লন্ডন",
+      "Atlanta": "আটলান্টা",
+      "Sydney": "সিডনি",
+      "Barcelona": "বার্সেলোনা",
+      "Seoul": "সিউল",
+      "New York": "নিউ ইয়র্ক",
+      "Edinburgh": "এডিনবরা"
+    };
+
+    function cleanTemplateEntitiesClient(text) {
+      if (!text) return '';
+      let s = text;
+      s = s.replace(/\bCPISRA\s*\/\s*IFCPF\b/gi, 'সিপিসরা/আইএফসিপিএফ');
+      s = s.replace(/\bCP\b/g, 'সিপি');
+
+      const keys = Object.keys(CITY_AND_ENTITY_MAP_CLIENT).sort((a, b) => b.length - a.length);
+      for (const eng of keys) {
+        const bn = CITY_AND_ENTITY_MAP_CLIENT[eng];
+        const reg = new RegExp('\\b' + eng.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b', 'gi');
+        s = s.replace(reg, bn);
+      }
+      return toBnDigitsSafeClient(s);
+    }
+
+    async function clientSideNavboxTranslate(wikitext, sl = 'en', tl = 'bn') {
+      if (!wikitext) return '';
+      const varMap = {};
+      let vIdx = 0;
+      let text = wikitext.replace(/\{\{\{[A-Za-z0-9_\-\u0980-\u09FF ]+(?:\|[^\}]*)?\}\}\}/g, m => {
+        const k = `__MW_VAR_PH_${vIdx++}__`;
+        varMap[k] = m;
+        return k;
+      });
+
+      const comMap = {};
+      let cIdx = 0;
+      const comRegex = new RegExp('<' + '!--[\\s\\S]*?--' + '>', 'g');
+      text = text.replace(comRegex, m => {
+        const k = `__MW_COM_PH_${cIdx++}__`;
+        comMap[k] = m;
+        return k;
+      });
+
+      const lines = text.split('\n');
+      const translatableItems = [];
+      const outLines = [...lines];
+
+      for (let idx = 0; idx < lines.length; idx++) {
+        const line = lines[idx];
+
+        if (/\{\{\s*(?:[Tt]emplate\s*:\s*)?(?:[Dd]ocumentation|[Nn]avbox\s+documentation)\s*\}\}/i.test(line)) {
+          outLines[idx] = line.replace(/\{\{\s*(?:[Tt]emplate\s*:\s*)?(?:[Dd]ocumentation|[Nn]avbox\s+documentation)\s*\}\}/gi, '{{ডকুমেন্টেশন}}');
+          continue;
+        }
+
+        const catMatch = line.match(/^(\s*\[\[\s*Category\s*:\s*)([^\]|]+)(\|.*)?(\]\]\s*)$/i);
+        if (catMatch) {
+          translatableItems.push({ idx, type: 'category', prefix: catMatch[1], name: catMatch[2].trim(), pipe: catMatch[3] || '', suffix: catMatch[4] });
+          continue;
+        }
+
+        const bMatch = line.match(/^(\s*[\*\#]+)\s*(.*)$/);
+        if (bMatch && bMatch[2].trim()) {
+          translatableItems.push({ idx, type: 'bullet', prefix: bMatch[1] + ' ', content: bMatch[2].trim() });
+          continue;
+        }
+
+        const pMatch = line.match(/^(\s*\|\s*([a-zA-Z0-9_\-]+)\s*=\s*)(.*)$/);
+        if (pMatch) {
+          const param = pMatch[2];
+          const val = pMatch[3].trim();
+          if (isTechnicalParamClient(param)) continue;
+          if (!val || val.startsWith('{{')) continue;
+          translatableItems.push({ idx, type: 'param', prefix: pMatch[1], content: val });
+        }
+      }
+
+      const batchSize = 20;
+      for (let b = 0; b < translatableItems.length; b += batchSize) {
+        const chunk = translatableItems.slice(b, b + batchSize);
+        const contents = chunk.map(item => item.type === 'category' ? item.name : item.content);
+        const sep = '\n___MW_SEP___\n';
+        const joined = contents.join(sep);
+        const trRaw = await fetchGoogleTr(joined, sl, tl);
+        const parts = trRaw ? trRaw.split('___MW_SEP___') : [];
+
+        if (parts.length === chunk.length) {
+          chunk.forEach((item, i) => {
+            const clean = toBnDigitsSafeClient(parts[i].trim());
+            if (item.type === 'category') {
+              outLines[item.idx] = `[[বিষয়শ্রেণী:${clean}${item.pipe}]]`;
+            } else {
+              outLines[item.idx] = `${item.prefix}${clean}`;
+            }
+          });
+        } else {
+          for (let item of chunk) {
+            const orig = item.type === 'category' ? item.name : item.content;
+            const singleTr = await fetchGoogleTr(orig, sl, tl);
+            const clean = toBnDigitsSafeClient(singleTr.trim());
+            if (item.type === 'category') {
+              outLines[item.idx] = `[[বিষয়শ্রেণী:${clean}${item.pipe}]]`;
+            } else {
+              outLines[item.idx] = `${item.prefix}${clean}`;
+            }
+          }
+        }
+      }
+
+      let res = outLines.join('\n');
+      for (let k in comMap) res = res.replace(k, comMap[k]);
+      for (let k in varMap) res = res.replace(k, varMap[k]);
+      return cleanTemplateEntitiesClient(res);
+    }
+
+    async function clientSideTemplateTranslate(wikitext, sl = 'en', tl = 'bn') {
+      if (!wikitext) return '';
+      const hasSwitch = /\{\{\s*#(?:switch)\b/i.test(wikitext);
+      const hasNavboxRoot = /^\s*\{\{\s*(?:Navbox|Sidebar|Subgroup)\b/im.test(wikitext);
+
+      if (hasSwitch && !hasNavboxRoot) {
+        return clientSideSwitchTranslate(wikitext);
+      }
+      return await clientSideNavboxTranslate(wikitext, sl, tl);
+    }
+
     function clientFixText(text) {
+      if (isTemplateWikitextClient(text)) {
+        return cleanTemplateEntitiesClient(text);
+      }
       let s = text;
       s = s.replace(/\[\[\s*Category\s*:/gi, '[[বিষয়শ্রেণী:');
       s = s.replace(/\br\.\s*(\d{1,4}(?:\s*[-–]\s*\d{1,4})?)/g,
@@ -1918,7 +2710,14 @@
       return toBnDigitsSafeClient(s);
     }
 
-    async function clientSideWikitextTranslate(wikitext, sl, tl, useAi = false, geminiKey = '', geminiModel = 'gemini-1.5-flash') {
+    async function clientSideWikitextTranslate(wikitext, sl, tl, useAi = false, aiConfig = null) {
+      const cfg = (typeof aiConfig === 'string')
+        ? { provider: 'gemini', apiKey: aiConfig, model: 'gemini-3.5-flash', baseUrl: '' }
+        : (aiConfig || { provider: 'gemini', apiKey: '', model: 'gemini-3.5-flash', baseUrl: '' });
+      const pageTitle = document.getElementById('target-title')?.value?.trim() || document.getElementById('article-query')?.value?.trim() || '';
+      if (isTemplateWikitextClient(wikitext, pageTitle)) {
+        return await clientSideTemplateTranslate(wikitext, sl, tl);
+      }
       // ফাইল ও ছবির লিঙ্ক সুরক্ষিত রাখা (ক্যাপশন অনুবাদ ও ফাইলের নাম শতভাগ অক্ষত)
       const { text: maskedWikitext, placeholders: filePlaceholders } = await extractAndTranslateFileLinksClient(wikitext, sl, tl);
       const lines = maskedWikitext.split('\n');
@@ -1992,7 +2791,7 @@
 
         if (trimmed.startsWith('{|')) {
           inTable = true;
-          outLines.push(line);
+          outLines.push(line.replace(/\btype\s*=\s*Event\b/gi, 'type=ইভেন্ট'));
           continue;
         }
         if (trimmed.startsWith('|}')) {
@@ -2005,18 +2804,29 @@
           continue;
         }
 
-        // টেবিলের সেল: পাইপ/সেপারেটর অক্ষত, শুধু ঘরের লেখা অনুবাদ
-        if (inTable && (trimmed.startsWith('|') || trimmed.startsWith('!'))) {
-          const header = trimmed.startsWith('!');
-          const lead = header ? '!' : '|';
-          const separator = header ? '!!' : '||';
-          const cells = trimmed.slice(1).split(separator);
-          const outCells = [];
-          for (const cell of cells) {
-            if (!cell.trim()) { outCells.push('&nbsp;'); continue; }
-            outCells.push(await translateBlockClient(cell, sl, tl));
+        // টেবিলের সেল বা ধারাবাহিক লাইন (পাইপ/সেপারেটর অক্ষত, শুধু ঘরের লেখা অনুবাদ)
+        if (inTable) {
+          if (trimmed.startsWith('|') || trimmed.startsWith('!')) {
+            const header = trimmed.startsWith('!');
+            const lead = header ? '!' : '|';
+            const separator = header ? '!!' : '||';
+            const cells = trimmed.slice(1).split(separator);
+            const outCells = [];
+            for (const cell of cells) {
+              if (!cell.trim()) { outCells.push('&nbsp;'); continue; }
+              const attrMatch = cell.match(/^(\s*(?:class|style|rowspan|colspan|scope|align|valign|width|height|bgcolor)\s*=[^|]*\|\s*)([\s\S]*)$/i);
+              if (attrMatch) {
+                const trContent = await translateBlockClient(attrMatch[2], sl, tl);
+                outCells.push(attrMatch[1] + trContent);
+              } else {
+                outCells.push(await translateBlockClient(cell, sl, tl));
+              }
+            }
+            outLines.push(lead + outCells.join(separator));
+          } else {
+            // টেবিলের ভেতরের সেল ধারাবাহিক লাইন (যেমন [[Arno de Jong]] <br/>)
+            outLines.push(await translateBlockClient(line, sl, tl));
           }
-          outLines.push(lead + outCells.join(separator));
           continue;
         }
 
@@ -2071,14 +2881,18 @@
           continue;
         }
 
-        // সাধারণ প্যারাগ্রাফ / বুলেট পয়েন্ট: এআই সক্ষম থাকলে সাবলীল জেমিনাই অনুবাদ
+        // সাধারণ প্যারাগ্রাফ / বুলেট পয়েন্ট: শুধুমাত্র আসল বর্ণনামূলক অনুচ্ছেদে জেমিনাই এআই
         if (/[a-zA-Z]{2,}/.test(trimmed)) {
           let trLine = '';
-          if (useAi && geminiKey) {
+          const isProse = trimmed.split(/\s+/).length >= 6 &&
+                          !/^[*#:;!|{\[]|<br|\{\{/i.test(trimmed) &&
+                          !/<\s*br\s*\/?>$/i.test(trimmed);
+          const canUseAi = useAi && cfg && (cfg.provider === 'ollama' || !!cfg.apiKey);
+          if (canUseAi && isProse) {
             try {
-              trLine = await translateParagraphGeminiClient(line, geminiKey, geminiModel, sl, tl);
+              trLine = await translateParagraphAiClient(line, cfg, sl, tl);
             } catch (aiErr) {
-              console.warn('Gemini paragraph translation failed, falling back to MT:', aiErr);
+              console.warn('AI paragraph translation failed, falling back to MT:', aiErr);
               trLine = '';
             }
           }
@@ -2127,11 +2941,15 @@
         return;
       }
       const sl = document.getElementById('source-lang').value || 'en';
-      const engine = document.querySelector('input[name="tr-engine"]:checked')?.value || 'gemini';
-      const geminiKey = (document.getElementById('gemini-api-key')?.value || '').trim();
-      const useAi = engine === 'gemini' && !!geminiKey;
+      const aiConfig = getAiConfig();
+      const engine = aiConfig.engine;
+      const geminiKey = aiConfig.apiKey; // backward-compatible নাম
+      const useAi = (engine === 'ollama') || ((engine === 'gemini' || engine === 'openrouter') && !!aiConfig.apiKey);
+      const aiLabel = engine === 'ollama'
+        ? (aiConfig.mode === 'cloud' ? 'ওলামা ক্লাউড' : 'ওলামা')
+        : (engine === 'openrouter' ? 'ওপেনরাউটার' : 'জেমিনাই এআই');
 
-      if (engine === 'gemini' && !geminiKey) {
+      if (engine === 'gemini' && !aiConfig.apiKey) {
         const proceedWithGoogle = confirm(
           'জেমিনাই এআই দিয়ে সাবলীল অনুবাদের জন্য আপনার একটি ফ্রি Gemini API Key প্রয়োজন।\n\n' +
           '১. আপনি কি aistudio.google.com থেকে ১ ক্লিকে ফ্রি API Key নিতে চান? (OK চাপলে পেজ খুলবে)\n' +
@@ -2146,17 +2964,29 @@
           onEngineChange();
         }
       }
+      if (engine === 'openrouter' && !aiConfig.apiKey) {
+        showToast('⚠️ OpenRouter ব্যবহার করতে Settings থেকে API Key দিন।');
+        return;
+      }
 
-      showToast(useAi ? 'জেমিনাই এআই দিয়ে সম্পূর্ণ নিবন্ধ প্রাঞ্জল বাংলায় অনুবাদ হচ্ছে...' : 'সম্পূর্ণ নিবন্ধ বাক্যসহ বাংলায় অনুবাদ ও প্রমিতকরণ হচ্ছে...');
+      if (engine === 'ollama' && aiConfig.mode === 'cloud' && !aiConfig.apiKey) {
+        showToast('⚠️ Ollama Cloud ব্যবহার করতে API Key দিন।');
+        return;
+      }
+
+      showToast(useAi ? `${aiLabel} দিয়ে সম্পূর্ণ নিবন্ধ প্রাঞ্জল বাংলায় অনুবাদ হচ্ছে...` : 'সম্পূর্ণ নিবন্ধ বাক্যসহ বাংলায় অনুবাদ ও প্রমিতকরণ হচ্ছে...');
 
       // নিবন্ধের শিরোনাম যদি এখনও বাংলায় অনূদিত না হয়ে থাকে, তা স্বয়ংক্রিয়ভাবে অনুবাদ করা
       const curTitle = document.getElementById('target-title').value.trim();
+      const pageTitle = curTitle || document.getElementById('article-query')?.value?.trim() || '';
       if (!curTitle || /[a-zA-Z]{2,}/.test(curTitle)) {
-        const titleToTr = curTitle || document.getElementById('article-query').value.trim();
-        if (titleToTr) {
-          translateArticleTitle(titleToTr, sl);
+        if (pageTitle) {
+          translateArticleTitle(pageTitle, sl);
         }
       }
+
+      const isTpl = isTemplateWikitextClient(text, pageTitle);
+      showToast(isTpl ? '🧩 টেমপ্লেট কোড ও ভ্যারিয়েবল সুরক্ষিত রেখে প্রমিত বাংলায় অনুবাদ হচ্ছে...' : (useAi ? `${aiLabel} দিয়ে সম্পূর্ণ নিবন্ধ প্রাঞ্জল বাংলায় অনুবাদ হচ্ছে...` : 'সম্পূর্ণ নিবন্ধ বাক্যসহ বাংলায় অনুবাদ ও প্রমিতকরণ হচ্ছে...'));
 
       const spinner = document.getElementById('translate-spinner');
       const btn = document.getElementById('btn-translate-main');
@@ -2175,7 +3005,16 @@
               sl: sl,
               tl: 'bn',
               engine: engine,
-              gemini_api_key: geminiKey
+              provider: aiConfig.provider,
+              gemini_api_key: engine === 'gemini' ? aiConfig.apiKey : undefined,
+              api_key: aiConfig.apiKey,
+              model: aiConfig.model,
+              base_url: aiConfig.baseUrl,
+              ollama_api_key: engine === 'ollama' ? aiConfig.apiKey : undefined,
+              openrouter_api_key: engine === 'openrouter' ? aiConfig.apiKey : undefined,
+              
+              title: pageTitle,
+              source_text: text
             })
           });
           const data = await res.json();
@@ -2184,12 +3023,12 @@
 
         if (!resText) {
           showToast('সার্ভার সাড়া না দেওয়ায় সরাসরি ক্লায়েন্ট-সাইডে রূপান্তর হচ্ছে...');
-          const trWikitext = await clientSideWikitextTranslate(text, sl, 'bn', useAi, geminiKey);
+          const trWikitext = await clientSideWikitextTranslate(text, sl, 'bn', useAi, aiConfig);
           try {
             const fixRes = await fetch('/fix', {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify({ text: trWikitext, translate: false })
+              body: JSON.stringify({ text: trWikitext, translate: false, source_text: text, title: pageTitle })
             });
             const fixData = await fixRes.json();
             resText = fixData.fixed || trWikitext;
@@ -2199,6 +3038,9 @@
         }
 
         resText = clientFixText(cleanEnglishMaintenanceTemplates(resText));
+        if (isTemplateWikitextClient(resText, pageTitle)) {
+          resText = cleanTemplateEntitiesClient(resText);
+        }
         document.getElementById('out-text').value = resText;
         if (document.getElementById('out-preview').style.display === 'block') {
           renderLivePreview();
@@ -2581,9 +3423,12 @@
       }
     });
 
-    // পেজ লোড হলে সংরক্ষিত জেমিনাই এআই কী লোড করা
+    // পেজ লোড হলে সংরক্ষিত AI কনফিগ (Gemini/Ollama/OpenRouter/Experiential Labs) লোড করা
     document.addEventListener('DOMContentLoaded', () => {
       loadSavedGeminiKey();
+      loadSavedOllamaConfig();
+      loadSavedOpenRouterConfig();
+      onEngineChange();
     });
   </script>
 </body>

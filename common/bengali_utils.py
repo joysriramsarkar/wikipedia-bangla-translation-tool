@@ -187,12 +187,19 @@ _PROTECTED_PATTERNS = (
     r'\|\s*link\d+\s*=[^\n]*',
     # Section/anchor fragments (#Season 17) must keep ASCII digits (not wikitext ordered list items starting with #)
     r'(?<![\n#|\]\}])#[A-Za-z][^\|\]\}\n]*',
-    # Identifiers
-    r'\bISBN[\s:]*(?:97[89][\d\- ]{10,}|[\dXx][\dXx\- ]{8,})',
-    r'\bDOI[\s:]*[^\s<>\]\}]+',
-    r'\bPMID[\s:]*\d+',
-    # Magic words and signatures
-    r'__[A-Z]+__',
+    # Identifiers (English and Bengali; standalone and parameters)
+    r'(?i)\bISBN[\s:=]*(?:97[89][\d\- ]{10,}|[\dXx][\dXx\- ]{8,})',
+    r'আইএসবিএন[\s:=]*(?:97[89][\d\- ]{10,}|[\dXx][\dXx\- ]{8,})',
+    r'(?i)\b(?:DOI|PMID|PMC|ISSN|OCLC|BIBCODE|ARXIV)[\s:=]*[^\s<>\]\}|]+',
+    r'(?:ডিওআই|পিএমআইডি|পিএমসি|আইএসএসএন|ওসিএলসি|বিবকোড)[\s:=]*[^\s<>\]\}|]+',
+    # Citation template parameters with machine-readable identifiers or ISO dates
+    r'\|\s*(?i:isbn|issn|doi|pmid|pmc|oclc|bibcode|arxiv)\s*=\s*[^|}\n]+',
+    r'\|\s*(?:আইএসবিএন|আইএসএসএন|ডিওআই|পিএমআইডি|পিএমসি|ওসিএলসি|বিবকোড)\s*=\s*[^|}\n]+',
+    r'\|\s*(?i:date|access-?date|archive-?date|publication-?date|lay-?date)\s*=\s*\d{4}[–\-]\d{1,2}(?:[–\-]\d{1,2})?',
+    r'\|\s*(?:তারিখ|সংগ্রহের-?তারিখ|সংগ্রহেরতারিখ|আর্কাইভের-?তারিখ|আর্কাইভেরতারিখ)\s*=\s*\d{4}[–\-]\d{1,2}(?:[–\-]\d{1,2})?',
+    # Magic words, signatures and internal translation placeholders
+    r'__[A-Za-z0-9_]+__',
+    r'\bZWPHL\d+Z\b',
     r'~{3,}',
     # Template parameter keys (|group1 =, |list10 =, |editor-last2 =)
     r'\|\s*[A-Za-z0-9_\-\u0980-\u09FF]*\d+[A-Za-z0-9_\-\u0980-\u09FF]*\s*=',
@@ -246,6 +253,57 @@ def _convert_text_node(node: str) -> str:
     return _restore_spans(protected, placeholders)
 
 
+def repair_machine_identifiers(text: str) -> str:
+    """Keep machine identifiers and ISO dates in ASCII digits.
+
+    In MediaWiki / Bengali Wikipedia, Module:Citation/CS1 evaluates checksums
+    and lengths for ISBN, ISSN, DOI, PMID, PMC, OCLC, etc., requiring ASCII
+    digits. If Bengali digits (০-৯) leak into these parameters, CS1 displays
+    fatal validation errors (e.g. '|আইএসবিএন= মান: অবৈধ অক্ষর পরীক্ষা করুন').
+    """
+    if not text:
+        return text
+
+    # 1. Template parameters: |isbn=..., |আইএসবিএন=..., |doi=..., |pmid=..., etc.
+    def _repl_param(m):
+        return m.group(1) + m.group(2).translate(BN_TO_ASCII_DIGITS)
+
+    text = re.sub(
+        r'(\|\s*(?:isbn|issn|doi|pmid|pmc|oclc|bibcode|arxiv|'
+        r'আইএসবিএন|আইএসএসএন|ডিওআই|পিএমআইডি|পিএমসি|ওসিএলসি|বিবকোড)\s*=\s*)'
+        r'([^|}\n]+)',
+        _repl_param,
+        text,
+        flags=re.IGNORECASE,
+    )
+
+    # 2. Standalone ISBN / আইএসবিএন in wikitext (e.g. "আইএসবিএন ৯৭৮-১-৪০৩৩-১০৩৯-৫")
+    def _repl_isbn(m):
+        return m.group(1) + m.group(2).translate(BN_TO_ASCII_DIGITS)
+
+    text = re.sub(
+        r'(\b(?:ISBN|আইএসবিএন)[\s:=-]+)([০-৯0-9Xx\-\s]{9,})',
+        _repl_isbn,
+        text,
+        flags=re.IGNORECASE,
+    )
+
+    # 3. ISO citation dates (YYYY-MM-DD or YYYY-MM) inside citation parameters
+    def _repl_date(m):
+        return m.group(1) + m.group(2).translate(BN_TO_ASCII_DIGITS)
+
+    text = re.sub(
+        r'(\|\s*(?:date|access-?date|archive-?date|publication-?date|lay-?date|'
+        r'তারিখ|সংগ্রহের-?তারিখ|সংগ্রহেরতারিখ|আর্কাইভের-?তারিখ|আর্কাইভেরতারিখ)\s*=\s*)'
+        r'([০-৯0-9]{4}[–\-][০-৯0-9]{1,2}(?:[–\-][০-৯0-9]{1,2})?)',
+        _repl_date,
+        text,
+        flags=re.IGNORECASE,
+    )
+
+    return text
+
+
 def to_bengali_digits_safe(text):
     """Convert visible digits to Bengali while keeping wikitext working.
 
@@ -266,7 +324,8 @@ def to_bengali_digits_safe(text):
             out.append(part)  # tag/attribute: untouched
         else:
             out.append(_convert_text_node(part))
-    return fix_template_parameter_digits(''.join(out))
+    res = fix_template_parameter_digits(''.join(out))
+    return repair_machine_identifiers(res)
 
 
 def strip_technical_spans(text):
@@ -358,4 +417,4 @@ def to_bengali_text(text):
     text = normalize_units(text)
     text = to_bengali_digits_safe(text)
     text = fix_en_dash_years(text)
-    return text
+    return repair_machine_identifiers(text)

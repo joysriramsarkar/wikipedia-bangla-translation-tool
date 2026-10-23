@@ -13,7 +13,8 @@ for idx, yr, rest in items:
     if m:
         # parsed
         full_match = m.group(1)
-        trailer = m.group(m.lastindex).strip()
+        idx_to_use = m.lastindex if m.lastindex is not None else 0
+        trailer = m.group(idx_to_use).strip()
         extracted_titles.append((idx, yr, full_match, trailer))
     else:
         # Check if no quotes, e.g. När Kapten Grogg...

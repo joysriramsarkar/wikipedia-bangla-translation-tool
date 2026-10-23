@@ -1,0 +1,37 @@
+[
+  {
+    "lang": "en",
+    "title": "Kinkaku-ji",
+    "chars": 18731,
+    "lines": 130,
+    "path": "C:\\Users\\joysr\\Documents\\উইকিপিডিয়া অনুবাদ\\_audit\\src\\en.wikitext"
+  },
+  {
+    "lang": "zh",
+    "title": "西湖",
+    "chars": 58461,
+    "lines": 461,
+    "path": "C:\\Users\\joysr\\Documents\\উইকিপিডিয়া অনুবাদ\\_audit\\src\\zh.wikitext"
+  },
+  {
+    "lang": "ja",
+    "title": "鹿苑寺",
+    "chars": 18819,
+    "lines": 242,
+    "path": "C:\\Users\\joysr\\Documents\\উইকিপিডিয়া অনুবাদ\\_audit\\src\\ja.wikitext"
+  },
+  {
+    "lang": "ru",
+    "title": "Храм Василия Блаженного",
+    "chars": 104521,
+    "lines": 1062,
+    "path": "C:\\Users\\joysr\\Documents\\উইকিপিডিয়া অনুবাদ\\_audit\\src\\ru.wikitext"
+  },
+  {
+    "lang": "de",
+    "title": "Kölner Dom",
+    "chars": 256583,
+    "lines": 1013,
+    "path": "C:\\Users\\joysr\\Documents\\উইকিপিডিয়া অনুবাদ\\_audit\\src\\de.wikitext"
+  }
+]

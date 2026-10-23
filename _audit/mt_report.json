@@ -1,0 +1,377 @@
+[
+  {
+    "lang": "en",
+    "status": "ok",
+    "error": "",
+    "seconds": 28.9,
+    "src_chars": 8873,
+    "out_chars": 8151,
+    "out_bengali_pct": 98.87,
+    "out_src_script_pct": 1.13,
+    "structure": {
+      "src": {
+        "table_open": 0,
+        "table_close": 1,
+        "template_open": 29,
+        "template_close": 29,
+        "link_open": 38,
+        "link_close": 38,
+        "ref_open": 15,
+        "ref_close": 15
+      },
+      "out": {
+        "table_open": 0,
+        "table_close": 1,
+        "template_open": 27,
+        "template_close": 27,
+        "link_open": 37,
+        "link_close": 37,
+        "ref_open": 14,
+        "ref_close": 14
+      }
+    },
+    "leaks": [],
+    "leftover_words_top": [
+      [
+        "the",
+        44
+      ],
+      [
+        "The",
+        13
+      ],
+      [
+        "and",
+        12
+      ],
+      [
+        "gold",
+        10
+      ],
+      [
+        "leaf",
+        9
+      ],
+      [
+        "pavilion",
+        6
+      ],
+      [
+        "Pavilion",
+        5
+      ],
+      [
+        "Golden",
+        4
+      ],
+      [
+        "Kinkaku",
+        4
+      ],
+      [
+        "from",
+        4
+      ]
+    ]
+  },
+  {
+    "lang": "zh",
+    "status": "ok",
+    "error": "",
+    "seconds": 83.9,
+    "src_chars": 25557,
+    "out_chars": 40861,
+    "out_bengali_pct": 93.42,
+    "out_src_script_pct": 6.58,
+    "structure": {
+      "src": {
+        "table_open": 0,
+        "table_close": 0,
+        "template_open": 60,
+        "template_close": 60,
+        "link_open": 217,
+        "link_close": 217,
+        "ref_open": 59,
+        "ref_close": 59
+      },
+      "out": {
+        "table_open": 0,
+        "table_close": 0,
+        "template_open": 52,
+        "template_close": 52,
+        "link_open": 205,
+        "link_close": 205,
+        "ref_open": 52,
+        "ref_close": 52
+      }
+    },
+    "leaks": [],
+    "leftover_words_top": [
+      [
+        "西湖十景",
+        5
+      ],
+      [
+        "净慈寺",
+        4
+      ],
+      [
+        "六和塔",
+        2
+      ],
+      [
+        "灵隐寺",
+        2
+      ],
+      [
+        "平方千米",
+        1
+      ],
+      [
+        "万立方米",
+        1
+      ],
+      [
+        "小瀛洲",
+        1
+      ],
+      [
+        "湖心亭",
+        1
+      ],
+      [
+        "中国十大风景名胜",
+        1
+      ],
+      [
+        "A级旅游景区",
+        1
+      ]
+    ]
+  },
+  {
+    "lang": "ja",
+    "status": "ok",
+    "error": "",
+    "seconds": 43.0,
+    "src_chars": 7901,
+    "out_chars": 12286,
+    "out_bengali_pct": 87.93,
+    "out_src_script_pct": 12.07,
+    "structure": {
+      "src": {
+        "table_open": 0,
+        "table_close": 0,
+        "template_open": 19,
+        "template_close": 19,
+        "link_open": 161,
+        "link_close": 161,
+        "ref_open": 19,
+        "ref_close": 19
+      },
+      "out": {
+        "table_open": 0,
+        "table_close": 0,
+        "template_open": 19,
+        "template_close": 19,
+        "link_open": 153,
+        "link_close": 153,
+        "ref_open": 19,
+        "ref_close": 19
+      }
+    },
+    "leaks": [],
+    "leftover_words_top": [
+      [
+        "舎利殿",
+        4
+      ],
+      [
+        "ファイル",
+        4
+      ],
+      [
+        "金閣寺放火事件",
+        2
+      ],
+      [
+        "文化遺産",
+        2
+      ],
+      [
+        "古都京都の文化財",
+        2
+      ],
+      [
+        "北山第",
+        2
+      ],
+      [
+        "蔭涼軒日録",
+        2
+      ],
+      [
+        "Kinkakuji",
+        2
+      ],
+      [
+        "金閣寺",
+        2
+      ],
+      [
+        "鹿苑寺",
+        1
+      ]
+    ]
+  },
+  {
+    "lang": "ru",
+    "status": "ok",
+    "error": "",
+    "seconds": 50.0,
+    "src_chars": 7902,
+    "out_chars": 7609,
+    "out_bengali_pct": 67.58,
+    "out_src_script_pct": 32.42,
+    "structure": {
+      "src": {
+        "table_open": 0,
+        "table_close": 4,
+        "template_open": 28,
+        "template_close": 28,
+        "link_open": 64,
+        "link_close": 64,
+        "ref_open": 6,
+        "ref_close": 6
+      },
+      "out": {
+        "table_open": 0,
+        "table_close": 4,
+        "template_open": 27,
+        "template_close": 26,
+        "link_open": 62,
+        "link_close": 62,
+        "ref_open": 5,
+        "ref_close": 5
+      }
+    },
+    "leaks": [],
+    "leftover_words_top": [
+      [
+        "храм",
+        2
+      ],
+      [
+        "Блаженного",
+        2
+      ],
+      [
+        "ров",
+        2
+      ],
+      [
+        "Храм",
+        1
+      ],
+      [
+        "православный",
+        1
+      ],
+      [
+        "площади",
+        1
+      ],
+      [
+        "Казань",
+        1
+      ],
+      [
+        "Пресвятой",
+        1
+      ],
+      [
+        "Богородицы",
+        1
+      ],
+      [
+        "Святой",
+        1
+      ]
+    ]
+  },
+  {
+    "lang": "de",
+    "status": "ok",
+    "error": "",
+    "seconds": 286.9,
+    "src_chars": 23893,
+    "out_chars": 22565,
+    "out_bengali_pct": 99.05,
+    "out_src_script_pct": 0.95,
+    "structure": {
+      "src": {
+        "table_open": 0,
+        "table_close": 0,
+        "template_open": 7,
+        "template_close": 7,
+        "link_open": 184,
+        "link_close": 184,
+        "ref_open": 33,
+        "ref_close": 33
+      },
+      "out": {
+        "table_open": 0,
+        "table_close": 0,
+        "template_open": 7,
+        "template_close": 7,
+        "link_open": 180,
+        "link_close": 180,
+        "ref_open": 32,
+        "ref_close": 32
+      }
+    },
+    "leaks": [],
+    "leftover_words_top": [
+      [
+        "der",
+        92
+      ],
+      [
+        "die",
+        41
+      ],
+      [
+        "des",
+        40
+      ],
+      [
+        "und",
+        38
+      ],
+      [
+        "dem",
+        28
+      ],
+      [
+        "Dom",
+        24
+      ],
+      [
+        "wurde",
+        22
+      ],
+      [
+        "als",
+        21
+      ],
+      [
+        "den",
+        19
+      ],
+      [
+        "von",
+        16
+      ]
+    ]
+  }
+]

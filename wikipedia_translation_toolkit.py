@@ -23,6 +23,16 @@ for mod in LANG_MODULES:
     if os.path.exists(mod_path) and mod_path not in sys.path:
         sys.path.insert(0, mod_path)
 
+#: পাঁচ ভাষার ফোল্ডারে একই নামের এই মডিউলগুলো আছে — লোডের সময় আলাদা করতে হয়।
+_SHARED_MODULE_NAMES = (
+    'table_translator', 'number_converter', 'links_dictionary', 'pinyin_table',
+    'transliteration', 'transliterate_engine', 'federal_subjects',
+    'prime_minister_notes', 'film_title_translator', 'german_transliteration',
+    'japanese_transliteration', 'cyrillic_transliteration', 'translate_page',
+)
+_LANG_DIRS = [os.path.join(BASE_DIR, name) for name in LANG_MODULES]
+_LOADED_MODULES = {}
+
 common_path = os.path.join(BASE_DIR, 'common')
 if os.path.exists(common_path) and common_path not in sys.path:
     sys.path.insert(0, common_path)
@@ -71,18 +81,58 @@ RULE_TITLES = {
     '১৩': 'রক্ষণাবেক্ষণ ও উপভাষা টেমপ্লেট বর্জন',
 }
 
+#: সূত্র টেমপ্লেটে ASCII রাখা হয় এমন প্যারামিটার — নিয়ম ২-এর গণনায় বাদ।
+_CITATION_MACHINE_PARAM_RE = re.compile(
+    r'\|\s*(?:access-?date|accessdate|archive-?date|archivedate|date|'
+    r'publication-?date|lay-?date|year|orig-?year|pmc|pmid|doi|isbn|oclc)\s*=[^|{}\n]+',
+    re.IGNORECASE,
+)
+
 
 def _load_module(folder_name: str, module_name: str):
-    """গতিশীলভাবে নির্দিষ্ট ভাষা ফোল্ডার থেকে পাইথন মডিউল লোড করে।"""
+    """গতিশীলভাবে নির্দিষ্ট ভাষা ফোল্ডার থেকে পাইথন মডিউল লোড করে।
+
+    সমস্যা: পাঁচটি ভাষা-ফোল্ডারে একই নামের মডিউল আছে (`table_translator.py`,
+    `number_converter.py`, `links_dictionary.py` …)। সব ফোল্ডার একসঙ্গে
+    `sys.path`-এ থাকায় প্রথমটি পরেরগুলোকে ছায়া করত — ফলে
+    `python cli.py chinese` ImportError দিয়ে ক্র্যাශ করত
+    (`translate_main_table` পাওয়া যায়নি)। এখন শুধু লক্ষ্য ফোল্ডারই
+    সাময়িকভাবে `sys.path`-এ রাখা হয়, আর একই নামের মডিউলগুলো পরস্পরকে
+    ছায়া না করার জন্য ধারে সরিয়ে রাখা হয়।
+    """
+    cache_key = (folder_name, module_name)
+    cached = _LOADED_MODULES.get(cache_key)
+    if cached is not None:
+        return cached
+
     path = os.path.join(BASE_DIR, folder_name, f"{module_name}.py")
     if not os.path.exists(path):
         raise FileNotFoundError(f"মডিউল ফাইলটি পাওয়া যায়নি: {path}")
-    spec = importlib.util.spec_from_file_location(f"{folder_name}_{module_name}", path)
-    if spec and spec.loader:
-        mod = importlib.util.module_from_spec(spec)
+    folder = os.path.join(BASE_DIR, folder_name)
+    spec = importlib.util.spec_from_file_location(f"bnwiki_{folder_name}_{module_name}", path)
+    if not (spec and spec.loader):
+        raise ImportError(f"মডিউল লোড করা সম্ভব হয়নি: {path}")
+
+    mod = importlib.util.module_from_spec(spec)
+    saved_path = list(sys.path)
+    shadowed = {}
+    try:
+        for directory in _LANG_DIRS:
+            while directory in sys.path:
+                sys.path.remove(directory)
+        sys.path.insert(0, folder)
+        for name in _SHARED_MODULE_NAMES:
+            if name in sys.modules:
+                shadowed[name] = sys.modules.pop(name)
         spec.loader.exec_module(mod)
-        return mod
-    raise ImportError(f"মডিউল লোড করা সম্ভব হয়নি: {path}")
+    finally:
+        for name in _SHARED_MODULE_NAMES:
+            sys.modules.pop(name, None)
+        sys.modules.update(shadowed)
+        sys.path[:] = saved_path
+
+    _LOADED_MODULES[cache_key] = mod
+    return mod
 
 
 class WikipediaTranslator:
@@ -108,8 +158,17 @@ class WikipediaTranslator:
             raise ValueError(f"অজানা ভাষা: {lang}। সমর্থিত ভাষাসমূহ: {list(self.available_languages.keys())}")
         return self.available_languages[key]
 
-    def translate_text(self, text: str, source_lang: str) -> str:
+    def translate_text(self, text: str, source_lang: str, engine: str = 'module') -> str:
         """যেকোনো সমর্থিত ভাষার উইকিটেক্সট প্রমিত বাংলায় অনুবাদ করে।"""
+        if engine == 'mt':
+            lang_code = {
+                'chinese': 'zh', 'japanese': 'ja', 'russian': 'ru',
+                'german': 'de', 'english': 'en',
+                'zh': 'zh', 'ja': 'ja', 'ru': 'ru', 'de': 'de', 'en': 'en'
+            }.get(source_lang.lower().strip(), source_lang)
+            from cx_postprocess.mt_translate import translate_wikitext_full
+            return translate_wikitext_full(text, sl=lang_code, tl='bn')
+
         mod_name = self._resolve_lang(source_lang)
 
         if mod_name == 'চীনা-বাংলা অনুবাদ':
@@ -162,18 +221,38 @@ class WikipediaTranslator:
 
         return table_text
 
-    def translate_file(self, input_path: str, output_path: str | None = None, source_lang: str = 'english') -> str:
+    def translate_file(self, input_path: str, output_path: str | None = None, source_lang: str = 'english', engine: str = 'module') -> str:
         """ফাইল পড়ে অনুবাদ করে এবং ঐচ্ছিকভাবে ফলাফল সংরক্ষণ করে।"""
         with open(input_path, 'r', encoding='utf-8') as f:
             content = f.read()
 
-        translated = self.translate_text(content, source_lang)
+        translated = self.translate_text(content, source_lang, engine=engine)
 
         if output_path:
             with open(output_path, 'w', encoding='utf-8') as f:
                 f.write(translated)
 
         return translated
+
+    def translate_german(self, input_path: str, output_path: str | None = None, engine: str = 'module') -> str:
+        """জার্মান নিবন্ধ ফাইল বাংলায় অনুবাদ করে (INSTRUCTIONS.md অনুযায়ী)।"""
+        return self.translate_file(input_path, output_path, source_lang='german', engine=engine)
+
+    def translate_chinese(self, input_path: str, output_path: str | None = None, engine: str = 'module') -> str:
+        """চীনা নিবন্ধ ফাইল বাংলায় অনুবাদ করে।"""
+        return self.translate_file(input_path, output_path, source_lang='chinese', engine=engine)
+
+    def translate_japanese(self, input_path: str, output_path: str | None = None, engine: str = 'module') -> str:
+        """জাপানি নিবন্ধ ফাইল বাংলায় অনুবাদ করে।"""
+        return self.translate_file(input_path, output_path, source_lang='japanese', engine=engine)
+
+    def translate_russian(self, input_path: str, output_path: str | None = None, engine: str = 'module') -> str:
+        """রুশ নিবন্ধ ফাইল বাংলায় অনুবাদ করে।"""
+        return self.translate_file(input_path, output_path, source_lang='russian', engine=engine)
+
+    def translate_english(self, input_path: str, output_path: str | None = None, engine: str = 'module') -> str:
+        """ইংরেজি নিবন্ধ ফাইল বাংলায় অনুবাদ করে।"""
+        return self.translate_file(input_path, output_path, source_lang='english', engine=engine)
 
     def validate_rules(self, text: str) -> dict:
         """বাংলা উইকিপিডিয়ার নীতিমালা যাচাই করে বিস্তারিত রিপোর্ট দেয়।
@@ -202,6 +281,9 @@ class WikipediaTranslator:
 
         # দৃশ্যমান লেখা (URL, ফাইলনাম, টেমপ্লেট কী বাদ) — নিয়ম ২ ও ১২ এর জন্য
         visible = strip_technical_spans(text)
+        # সূত্র টেমপ্লেটের তারিখ/ISBN ইচ্ছাকৃতভাবে ASCII রাখা হয় (CS1 ত্রুটি
+        # এড়াতে) — তাই সেগুলো নিয়ম ২-এর “ইংরেজি অঙ্ক” গণনায় ধরবে না।
+        visible = _CITATION_MACHINE_PARAM_RE.sub(' ', visible)
 
         # ১. Short description
         check('১', '{{Short description}} বিদ্যমান'
@@ -223,12 +305,15 @@ class WikipediaTranslator:
         # ৬. সারণির কলাম সমতা ও খালি ঘর
         check('৬')
         table_report = analyze_wikitable(text)
-        for item in table_report['issues'][:10]:
-            line = to_bengali_digits(str(item['line']))
-            check('৬', f"{item['message']} (লাইন {line})")
-        if len(table_report['issues']) > 10:
-            extra = to_bengali_digits(str(len(table_report['issues']) - 10))
-            check('৬', f'আরও {extra}টি সারণি সমস্যা আছে')
+        table_issues = table_report.get('issues') if isinstance(table_report, dict) else []
+        if isinstance(table_issues, list):
+            for item in table_issues[:10]:
+                if isinstance(item, dict):
+                    line = to_bengali_digits(str(item.get('line', '')))
+                    check('৬', f"{item.get('message', '')} (লাইন {line})")
+            if len(table_issues) > 10:
+                extra = to_bengali_digits(str(len(table_issues) - 10))
+                check('৬', f'আরও {extra}টি সারণি সমস্যা আছে')
 
         # ৮. বিষয়শ্রেণী
         check('৮', 'ইংরেজি [[Category:...]] উপসর্গ বিদ্যমান'

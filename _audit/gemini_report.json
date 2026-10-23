@@ -1,0 +1,60 @@
+{
+  "default-1.5": {
+    "status": "ok",
+    "seconds": 16.5,
+    "chars": 3114,
+    "bengali_pct": 98.48,
+    "structure": {
+      "src": {
+        "table_open": 0,
+        "table_close": 1,
+        "template_open": 18,
+        "template_close": 18,
+        "link_open": 21,
+        "link_close": 21,
+        "ref_open": 5,
+        "ref_close": 5
+      },
+      "out": {
+        "table_open": 0,
+        "table_close": 1,
+        "template_open": 17,
+        "template_close": 17,
+        "link_open": 21,
+        "link_close": 21,
+        "ref_open": 5,
+        "ref_close": 5
+      }
+    },
+    "leaks": []
+  },
+  "gemini-3.8": {
+    "status": "ok",
+    "seconds": 16.5,
+    "chars": 1633,
+    "bengali_pct": 84.31,
+    "structure": {
+      "src": {
+        "table_open": 0,
+        "table_close": 1,
+        "template_open": 18,
+        "template_close": 18,
+        "link_open": 21,
+        "link_close": 21,
+        "ref_open": 5,
+        "ref_close": 5
+      },
+      "out": {
+        "table_open": 0,
+        "table_close": 0,
+        "template_open": 6,
+        "template_close": 6,
+        "link_open": 11,
+        "link_close": 12,
+        "ref_open": 1,
+        "ref_close": 1
+      }
+    },
+    "leaks": []
+  }
+}

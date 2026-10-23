@@ -9,7 +9,8 @@ notes = []
 for idx, yr, rest in items:
     m = re.match(r"^('{2,3}\[\[([^\]\|]+)(?:\|([^\]]+))?\]\]'{2,3}|\[\[([^\]\|]+)(?:\|([^\]]+))?\]\]|'{2,3}([^']+)('{2,3}))(.*)$", rest)
     if m:
-        trailer = m.group(m.lastindex).strip()
+        idx_to_use = m.lastindex if m.lastindex is not None else 0
+        trailer = m.group(idx_to_use).strip()
         if trailer:
             notes.append((idx, yr, trailer))
     else:

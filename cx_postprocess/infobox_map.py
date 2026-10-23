@@ -76,6 +76,35 @@ INFOBOX_TYPE_MAP = {
     "mosque": "মসজিদ",
     "church": "গির্জা",
     "religious building": "ধর্মীয় ভবন",
+    "saint": "সাধু",
+    "christian leader": "খ্রিস্টান নেতা",
+    "religious biography": "ধর্মীয় ব্যক্তি",
+    "philosopher": "দার্শনিক",
+    "monarch": "শাসক",
+    "royalty": "রাজপরিবার",
+    "noble": "অভিজাত",
+    "military person": "সামরিক ব্যক্তিত্ব",
+    "cardinal": "কার্ডিনাল",
+    "pope": "পোপ",
+    "bishop": "বিশপ",
+    "priest": "যাজক",
+    "theologian": "ধর্মতত্ত্ববিদ",
+    "artist": "শিল্পী",
+    "painter": "চিত্রশিল্পী",
+    "sculptor": "ভাস্কর",
+    "body of water": "জলাশয়",
+    "waterfall": "জলপ্রপাত",
+    "valley": "উপত্যকা",
+    "forest": "বন",
+    "volcano": "আগ্নেয়গিরি",
+    "spacecraft": "মহাকাশযান",
+    "telescope": "দূরবীক্ষণ যন্ত্র",
+    "weapon": "অস্ত্র",
+    "battle": "যুদ্ধ",
+    "treaty": "চুক্তি",
+    "medical condition": "চিকিৎসা অবস্থা",
+    "disease": "রোগ",
+    "drug": "ঔষধ",
 }
 
 INFOBOX_NAME_MAP = {
@@ -190,6 +219,47 @@ RELIGIOUS_DROP_KEYS = {"mapframe", "mapframe-zoom", "mapframe-width",
                        "mapframe-height", "mapframe-wikidata", "pushpin_map"}
 
 
+KEEP_ENGLISH_KEYS_INFOBOXES = {
+    # Sports & Biography
+    "football biography", "ফুটবল জীবনী",
+    "cricketer", "ক্রিকেটার",
+    "athlete", "ক্রীড়াবিদ",
+    "sportsperson",
+    "person", "ব্যক্তি",
+    "officeholder", "রাজনীতিবিদ",
+    "politician",
+    "actor", "অভিনেতা",
+    "actress", "অভিনেত্রী",
+    "writer", "লেখক",
+    "scientist", "বিজ্ঞানী",
+    "military person", "সামরিক ব্যক্তিত্ব",
+    "artist", "শিল্পী",
+    "painter", "চিত্রশিল্পী",
+    "sculptor", "ভাস্কর",
+    "noble", "অভিজাত",
+    "monarch", "শাসক",
+    "royalty", "রাজপরিবার",
+    "cardinal", "কার্ডিনাল",
+    "pope", "পোপ",
+    "bishop", "বিশপ",
+    "priest", "যাজক",
+    "theologian", "ধর্মতত্ত্ববিদ",
+    # Media & Arts
+    "film", "চলচ্চিত্র",
+    "television", "টেলিভিশন",
+    "album", "অ্যালবাম",
+    "single", "একক",
+    "musical artist", "সঙ্গীতশিল্পী",
+    # Tech
+    "software", "সফটওয়্যার",
+    "video game", "ভিডিও গেম",
+    # Religious
+    "saint", "সাধু",
+    "christian leader", "খ্রিস্টান নেতা",
+    "religious biography", "ধর্মীয় ব্যক্তি",
+}
+
+
 def translate_infobox(wikitext: str) -> tuple[str, list[str]]:
     """উইকিটেক্সটের Infobox (যেমন Infobox settlement, Infobox building ইত্যাদি) বাংলায় করে।
 
@@ -201,29 +271,42 @@ def translate_infobox(wikitext: str) -> tuple[str, list[str]]:
     def _repl_box(body: str) -> str:
         # ১. নাম ও ধরন প্রমিত বাংলায় রূপান্তর
         open_match = re.match(
-            r"^\{\{\s*(?:[Ii]nfobox|তথ্যবক্ত|তথ্যবক্স|তথ্যবাক্স|ইনফোবক্স|তথ্যছক)\b(?:\s+([a-zA-Z0-9_\u0980-\u09FF ]+?))?(?=\s*[\n|\|\}])",
+            r"^\{\{\s*(?:([Ii]nfobox)|(তথ্যবক্ত|তথ্যবক্স|তথ্যবাক্স|ইনফোবক্স|তথ্যছক))\b(?:\s+([a-zA-Z0-9_\u0980-\u09FF ]+?))?(?=\s*[\n|\|\}])",
             body,
             re.IGNORECASE,
         )
+        raw_type = ""
+        bn_type = ""
         if open_match:
-            raw_type = (open_match.group(1) or "").strip()
-            bn_type = INFOBOX_TYPE_MAP.get(raw_type.lower(), raw_type)
-            header_repl = f"{{{{তথ্যছক {bn_type}".strip() if bn_type else "{{তথ্যছক"
-            body = header_repl + body[open_match.end():]
+            is_en = bool(open_match.group(1))
+            raw_type = (open_match.group(3) or "").strip()
+            bn_type = INFOBOX_TYPE_MAP.get(raw_type.lower(), "")
+            if bn_type:
+                header_repl = f"{{{{তথ্যছক {bn_type}"
+                body = header_repl + body[open_match.end():]
+            elif is_en:
+                # বাংলা নাম যাচাই না হলে মূল ইংরেজি নাম অক্ষত থাকবে (যেমন {{Infobox ...}})
+                pass
+            else:
+                header_repl = f"{{{{তথ্যছক {raw_type}".strip() if raw_type else "{{তথ্যছক"
+                body = header_repl + body[open_match.end():]
         else:
             raw_type = ""
             body = re.sub(
-                r"^\{\{\s*(?:[Ii]nfobox|তথ্যবক্ত|তথ্যবক্স|তথ্যবাক্স|ইনফোবক্স)\b",
+                r"^\{\{\s*(?:তথ্যবক্ত|তথ্যবক্স|তথ্যবাক্স|ইনফোবক্স)\b",
                 "{{তথ্যছক",
                 body,
                 flags=re.IGNORECASE,
             )
 
         type_key = (raw_type or "").strip().lower()
-        is_religious = ("religious" in type_key or "ধর্ম" in type_key
-                        or type_key in {"church", "mosque", "temple", "monastery",
-                                        "synagogue", "hindu temple"})
-        keep_english_keys = is_religious
+        bn_type_lower = (bn_type or "").strip().lower()
+        is_religious = (
+            "religious" in type_key or "ধর্ম" in type_key
+            or type_key in {"church", "mosque", "temple", "monastery", "synagogue", "hindu temple", "saint", "christian leader"}
+            or bn_type_lower in {"গির্জা", "মসজিদ", "মন্দির", "সাধু"}
+        )
+        keep_english_keys = is_religious or type_key in KEEP_ENGLISH_KEYS_INFOBOXES or bn_type_lower in KEEP_ENGLISH_KEYS_INFOBOXES
         dropped = RELIGIOUS_DROP_KEYS if is_religious else set()
 
         # ২. প্যারাম: প্রতিটি `| key = value` লাইন
@@ -234,7 +317,7 @@ def translate_infobox(wikitext: str) -> tuple[str, list[str]]:
                 return ""
             bn_key = None if keep_english_keys else PARAM_MAP.get(key, PARAM_MAP.get(key.lower()))
             if bn_key is None:
-                if any("a" <= c.lower() <= "z" for c in key):
+                if not keep_english_keys and any("a" <= c.lower() <= "z" for c in key):
                     unknown.append(key)
                 return f"| {key} = {_translate_value(val)}"
             return f"| {bn_key} = {_translate_value(val)}"

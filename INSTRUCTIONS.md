@@ -58,8 +58,20 @@ print(bengali_utils.to_bengali_text(text))
 
 ### ৩) CLI ব্যবহার
 ```bash
+# সিস্টেম তথ্য ও মডিউল স্থিতি
 python cli.py info
-python cli.py german --input input.txt --output output.txt
+
+# ভাষা মডিউল ব্যবহার করে অনুবাদ (নির্দিষ্ট সারণি/নিবন্ধের জন্য)
+python cli.py german --input input.txt --output output.txt --table-only
+
+# সাধারণ এমটি ইঞ্জিন (Machine Translation) ব্যবহার করে যেকোনো নিবন্ধ অনুবাদ
+python cli.py english -i input.txt -o output.txt --engine mt
+
+# Gemini AI অনুচ্ছেদ অনুবাদসহ অনুবাদ
+python cli.py english -i input.txt -o output.txt --engine mt --ai
+
+# অনূদিত খসড়া ফাইলের উইকিপিডিয়া নীতিমালা যাচাই
+python cli.py check -i draft.txt
 ```
 
 ### ৪) ইউনিফাইড API
@@ -67,7 +79,20 @@ python cli.py german --input input.txt --output output.txt
 from wikipedia_translation_toolkit import WikipediaTranslator
 
 wt = WikipediaTranslator()
+
+# ভাষা-নির্দিষ্ট ফাইল অনুবাদ পদ্ধতি
 wt.translate_german('input.txt', 'output.txt')
+wt.translate_chinese('input.txt', 'output.txt')
+wt.translate_japanese('input.txt', 'output.txt')
+wt.translate_russian('input.txt', 'output.txt')
+wt.translate_english('input.txt', 'output.txt')
+
+# সাধারণ এমটি ইঞ্জিন (engine='mt')
+bn_text = wt.translate_text(wikitext, source_lang='russian', engine='mt')
+
+# বাংলা উইকিপিডিয়ার ১৩টি নীতিমালা যাচাই
+report = wt.validate_rules(bn_text)
+print("নীতিমালা মেনেছে?", report['valid'])
 ```
 
 ## টেস্ট চালানো

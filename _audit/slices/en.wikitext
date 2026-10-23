@@ -1,0 +1,29 @@
+{{Short description|Zen Buddhist temple in Kyoto, Japan}}
+{{About|a Buddhist temple in Kyoto, Japan|other topics translated as "Temple of the Golden Pavilion" or "Golden Pavilion Temple" in English|Temple of the Golden Pavilion (disambiguation)}}
+{{Infobox religious building
+| name                  = Rokuon-ji
+| native_name           = {{lang|ja|鹿苑寺}}
+| image                 = File:Golden Pavilion Kinkaku-ji water mirror 2024.jpg
+| alt                   = 
+| caption               = The ''shariden'' at Rokuon-ji, <br />commonly known as the Golden Pavilion (''Kinkakuji'')
+| mapframe              = yes
+| mapframe-zoom         = 14
+| mapframe-wikidata     = yes
+| pushpin_map           = Japan
+| location              = 1 Kinkakuji-chō, [[Kita-ku, Kyoto|Kita-ku]], [[Kyoto|Kyōto]], [[Kyoto Prefecture]]<ref name="jnto">{{cite web |url=http://www.jnto.go.jp/eng/arrange/attractions/facilities/gardens/83dn3a000000ee6g.html |title=Tourist Facilities of Japan - Kinkaku-ji Temple Garden |publisher=Japan National Tourism Organization |access-date=2010-07-15}}</ref>
+| coordinates           = {{Coord|35.0395|N|135.7285|E|format=dms|region:JP_type:landmark|display=title,inline}}
+| religious_affiliation = [[Buddhism]]
+| sect                  = [[Zen]], [[Rinzai]] sect, [[Shōkoku-ji]] school
+| deity                 = [[Avalokiteśvara|Kannon Bosatsu]] (Avalokiteśvara)
+| country               = Japan
+| functional_status     = 
+| website               = {{URL|https://www.shokoku-ji.jp/en/kinkakuji/|www.shokoku-ji.jp/en/kinkakuji/}}
+| founded_by            = [[Ashikaga Yoshimitsu]]
+| completed             = 1397<br />1955 <small>(reconstruction)</small>
+}}
+
+[[File:Kinkaku-ji, Kyoto.jpg|thumb|Kinkaku-ji, Kyoto, 2024]]
+
+{{nihongo|'''Kinkaku-ji'''|金閣寺||{{IPA|ja|kʲiꜜŋ.ka.kɯ.dʑi}},<ref name=NHK>{{cite book|script-title=ja:NHK日本語発音アクセント新辞典|publisher=NHK Publishing|editor=NHK Broadcasting Culture Research Institute|date=24 May 2016|language=ja}}</ref><ref>{{cite book|script-title=ja:新明解日本語アクセント辞典|edition=2nd|editor-last=Kindaichi|editor-first=Haruhiko|editor-link=Haruhiko Kindaichi|editor-last2=Akinaga|editor-first2=Kazue|publisher=[[Sanseidō]]|date=10 March 2025|language=ja}}</ref> {{literally|Temple of the Golden Pavilion}}}}, officially named {{nihongo|'''Rokuon-ji'''|鹿苑寺||{{IPA|ja|ɾoꜜ.kɯ.oɲ.dʑi|}},<ref name=NHK/> {{literally|[[Sarnath|Deer Garden]] Temple}}}}, is a [[Zen]] [[Buddhist temples in Japan|Buddhist temple]] in [[Kyoto]], [[Japan]] and a tourist attraction.<ref name="orientalarch">{{cite web |url=http://www.orientalarchitecture.com/japan/kyoto/kinkakuji.php |title=Kinkakuji Temple - 金阁寺, Kyoto, Japan |publisher=Oriental Architecture |access-date=2010-07-13}}</ref> It is designated as a [[World Heritage Site]], a National Special Historic Site, a National Special Landscape, and one of the 17 [[Historic Monuments of Ancient Kyoto (Kyoto, Uji and Otsu Cities)|Historic Monuments of Ancient Kyoto]].<ref name="kyotoasano02">{{cite web |url=http://kyoto.asanoxn.com/places/ps_popularity.htm |title=Places of Interest in Kyoto (Top 15 most visited places in Kyoto by visitors from overseas) |publisher=Asano Noboru |access-date=2010-07-15}}</ref> The temple is nicknamed after its [[reliquary]] (''shariden''), the {{nihongo|'''Golden Pavilion'''|金閣|Kinkaku}}, whose top two floors are coated in 0.5 [[μm]] [[gold leaf]]. The current pavilion was rebuilt in 1955 after being destroyed in an arson attack.
+
+==History==

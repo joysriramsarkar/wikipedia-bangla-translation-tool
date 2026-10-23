@@ -7,7 +7,7 @@ with open('missing_film_words.txt', encoding='utf-8') as f:
 
 results = {}
 for w in words:
-    bn = te.transliterate_word(w)
+    bn = te.transliterate_title_word(w)
     results[w] = bn
 
 with open('missing_film_words_translit.json', 'w', encoding='utf-8') as f:

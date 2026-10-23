@@ -355,4 +355,8 @@ def transliterate_title_phrase(phrase):
             out.append(transliterate_title_word(t))
     return ''.join(out)
 
-print("transliterate_engine.py written successfully.")
+
+transliterate_word = transliterate_title_word
+
+if __name__ == "__main__":
+    print("transliterate_engine.py ready.")

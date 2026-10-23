@@ -52,8 +52,17 @@ def translate_table_header(header_text: str) -> str:
     return s
 
 def translate_table_row(row_str: str) -> str:
-    """একটি জেলার সারি অনুবাদ করে।"""
+    """একটি সারি অনুবাদ করে।
+
+    সারির শুরুের নিউলাইন/হোয়াইটস্পেস অক্ষত রাখা হয়: সারণিতে `|`-এর আগে
+    সারি-বিভাজক `\n|-` বাধ্যতামূলক। আগে `translate_admin_center()`-এর
+    `.strip()` ওই নিউলাইন মুছে দিত, ফলে `|-` পরের ঘরের সাথে জুড়ে গিয়ে
+    (`|-|[[...`) সারণির সারি ভাঙত।
+    """
     s = row_str
+    leading = re.match(r'^\s*', s).group(0)
+    if leading:
+        s = s[len(leading):]
 
     # ১. প্রথম উইকিলিংকটি জেলা লিঙ্ক, যা বাংলা জেলায় রূপান্তরিত হবে
     m_dist = re.search(r'\[\[([^\]]+)\]\]', s)
@@ -82,7 +91,7 @@ def translate_table_row(row_str: str) -> str:
     # ৫. সংখ্যা ও জনসংখ্যা রূপান্তর
     s = to_bengali_digits(s)
 
-    return s
+    return leading + s
 
 def translate_wikitable(table_text: str) -> str:
     """সম্পূর্ণ উইকিটেবিল অনুবাদ করে।"""
