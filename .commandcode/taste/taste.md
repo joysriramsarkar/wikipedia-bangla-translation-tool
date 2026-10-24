@@ -1,0 +1,5 @@
+- Prefers Ollama-hosted Gemma models for AI translation tasks. Confidence: 0.9
+- Communicates in Bengali (Bangla) and expects responses in Bengali. Confidence: 0.9
+- Prefers the agent to perform tasks by driving the browser UI (mouse/keyboard interactions) rather than only opening a browser or calling APIs. Confidence: 0.75
+- Prefers generated translation outputs to be saved into a dedicated folder rather than only shown in chat. Confidence: 0.7
+- Prefers adding support for a new source language by creating a dedicated per-language translation package (number converter, table translator, and translate-page module) and registering it in the central toolkit and CLI, following the existing language-folder pattern. Confidence: 0.8

@@ -1,0 +1,6 @@
+{{Navbox
+| name = European cities
+|title = প্রধান শহর
+|group1 = পাশ্চাত্য
+|list1 = * প্যারিস * লন্ডন
+}}

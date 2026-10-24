@@ -162,7 +162,7 @@ class WikipediaTranslator:
         """যেকোনো সমর্থিত ভাষার উইকিটেক্সট প্রমিত বাংলায় অনুবাদ করে।"""
         if engine == 'mt':
             lang_code = {
-                'chinese': 'zh', 'japanese': 'ja', 'russian': 'ru',
+                'chinese': 'zh', 'japanese': 'ja', 'russian': 'ru', 'tamil': 'ta',
                 'german': 'de', 'english': 'en',
                 'zh': 'zh', 'ja': 'ja', 'ru': 'ru', 'de': 'de', 'en': 'en'
             }.get(source_lang.lower().strip(), source_lang)

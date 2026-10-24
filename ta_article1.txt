@@ -1,0 +1,129 @@
+{{தமிழ்த் திரைப்படம்}}
+
+'''தமிழ்த் திரைப்படங்களின் பட்டியல் 2020''' என்பது 2021 ஆம் ஆண்டு [[தமிழகத் திரைப்படத்துறை]]யில் அல்லது [[தமிழ்]] மொழியில் வெளியான திரைப்படங்களின் பட்டியல் ஆகும்.
+
+==வெளியான திரைப்படங்கள் ==
+=== சனவரி - மார்ச்சு===
+{| class="wikitable sortable"
+! colspan="2" |வெளியீடு 
+! style="width:30%;" |தலைப்பு
+! இயக்குநர்
+! நடிகர்கள்
+! மேற்
+|-
+| rowspan="15" style="text-align:center; background:#ffa07a; textcolor:#000;" |'''ச<br />ன<br />வ<br />ரி'''
+| rowspan="2" style="text-align:center; background:#ffdacc;" |'''1'''
+|style="text-align:center;" | ஆதிக்க வர்க்கம் || பகவதி பாலா || பகவதி பாலா, பிருந்தா ரவி || <ref>{{Cite web|date=|title=Aathikka Varkkam date|url=https://timesofindia.indiatimes.com/entertainment/tamil/movie-details/aathikka-varkkam/movieshow/80027242.cms|access-date=|website=timesofindia.indiatimes.com|language=en}}</ref>
+|-
+|style="text-align:center;" | [[பேய் இருக்க பயமேன்]]|| கார்த்தீஸ்வரன் || கார்த்தீஸ்வரன், காயத்ரி ரேமா || <ref>{{Cite web|date=|title=Pei Irukku Payamen movie |date|url=https://timesofindia.indiatimes.com/entertainment/tamil/movie-reviews/pei-irukka-bayamen/movie-review/80062851.cms|access-date=|website=timesofindia.indiatimes.com|language=en}}</ref>
+|-
+| rowspan="4" style="text-align:center; background:#ffdacc;" |'''8'''
+|style="text-align:center;" | குலசேகர பட்டினம் || ஆல்வான் || ஜேம்ஸ், ஸ்ரீதேவி, ஆல்வான்  || <ref>{{Cite web|date=|title=Kulasekara Pattinam movie |date|url=https://timesofindia.indiatimes.com/entertainment/tamil/movie-details/kulasekara-pattinam/movieshow/80250673.cms|access-date=|website=timesofindia.indiatimes.com|language=en}}</ref>
+|-
+|style="text-align:center;" | [[மாறா]] || [[திலீப் குமார் (இயக்குநர்)|திலீப் குமார்]] || [[மாதவன்]], [[சிரத்தா சிறீநாத்]] || <ref>{{Cite web|date=2020-12-15|title=Madhavan-starrer Maara gets a new release date|url=https://indianexpress.com/article/entertainment/tamil/madhavan-starrer-maara-gets-a-new-release-date-7105874/|access-date=2020-12-31|website=[[இந்தியன் எக்சுபிரசு]]|language=en}}</ref>
+|-
+|style="text-align:center;" | பச்சைக்கிளி  || எம்.கே.செல்வம்  || ஜிப்சி ராஜ்குமார், ஹேமா, பாபு  || <ref>{{Cite web|date=|title=Pachaikili movie |date|url=https://cinema.maalaimalar.com/cinema/review/2021/01/09211747/2245160/Pachaikili-movie-review-in-tamil.vpf|access-date=|website=cinema.maalaimalar.com|language=ta}}</ref>
+|-
+|style="text-align:center;" | V || டேவின்சி சரவணன் || ராகவ், லூதியா || <ref>{{Cite web|date=|title=V movie |date|url=https://cinema.maalaimalar.com/cinema/review/2021/01/08222955/2234907/We-Movie-review-in-tamil.vpf|access-date=|website=cinema.maalaimalar.com|language=ta}}</ref>
+|-
+| rowspan="1" style="text-align:center; background:#ffdacc;" |'''13'''
+| style="text-align:center;" | [[மாஸ்டர்]] || [[லோகேஷ் கனகராஜ்|லோகேஷ்]] || [[விஜய் (நடிகர்)|விஜய்]], [[விஜய் சேதுபதி]], [[ஆண்ட்ரியா ஜெரெமையா|ஆண்ட்ரியா]] ||<ref>{{Cite web|date=2020-12-29|title=Vijay film Master gets a release date|url=https://indianexpress.com/article/entertainment/tamil/vijays-master-gets-a-release-date-7124419/|access-date=2020-12-29|website=[[இந்தியன் எக்சுபிரசு]]|language=en}}</ref>
+|-
+| rowspan="2" style="text-align:center; background:#ffdacc;" |'''14'''
+| style="text-align:center;" | [[பூமி (திரைப்படம்)|பூமி]] || [[லட்சுமன்]] ||  [[ஜெயம் ரவி]], [[நிதி அகர்வால்]] || <ref>{{Cite web|date=2020-12-24|title=Jayam Ravi-starrer Bhoomi to release on Disney Plus Hotstar|url=https://indianexpress.com/article/entertainment/tamil/jayam-ravi-starrer-bhoomi-to-release-on-disney-plus-hotstar-7116478/|access-date=2020-12-29|website=[[இந்தியன் எக்சுபிரசு]]|language=en}}</ref>
+|-
+| style="text-align:center;" | [[ஈஸ்வரன் (திரைப்படம்)|ஈஸ்வரன்]] || [[சுசீந்திரன்]] || [[சிலம்பரசன்]], [[பாரதிராஜா]], [[நிதி அகர்வால்]] || <ref>{{Cite web|date=2020-12-31|title=STR confirms Eeswaran’s release date|url=https://indianexpress.com/article/entertainment/tamil/simbu-confirms-eeswarans-release-date-7126630/|access-date=2021-01-04|website=[[இந்தியன் எக்சுபிரசு]]|language=en}}</ref>
+|-
+| rowspan="1" style="text-align:center; background:#ffdacc;" |'''15'''
+| style="text-align:center;" | [[புலிக்குத்தி பாண்டி]] || [[எம். முத்தையா (இயக்குநர்)|முத்தையா]] || [[விக்ரம் பிரபு]], [[லட்சுமி மேனன் (நடிகை)|லட்சுமி மேனன்]] || <ref>{{Cite web|last=Winters|first=Bryce J.|date=2021-01-12|title=Sun Tv Pongal 2021 movie list is here, a treat for fans|url=https://thenewscrunch.com/sun-tv-pongal-2021-movie-list-is-here-a-treat-for-fans/30461/|access-date=2021-01-13|website=TheNewsCrunch|language=en-US}}</ref><ref>{{Cite web|last=World|first=Republic|title=From 'Soorarai Pottru' to 'Penguin', popular films to bigne-watch on Pongal 2021|url=https://www.republicworld.com/entertainment-news/regional-indian-cinema/from-soorarai-pottru-to-penguin-popular-films-to-bigne-watch-on-pongal-2021.html|access-date=2021-01-13|website=Republic World|language=en}}</ref>
+|-
+| rowspan="5" style="text-align:center; background:#ffdacc;" |'''29'''
+| style="text-align:center;" | எங்க ஊரு பூக்காரி  || வசந்த சேகர்  || வசந்த சேகர்  || 
+|-
+| style="text-align:center;" | [[கபடதாரி]] || பிரதீப் கிருஷ்ணமூர்த்தி  || [[சிபிராஜ்]], [[நந்திதா (நடிகை)|நந்திதா]] || <ref>{{Cite web|date=|title=Kabadadaari flim date| url=https://timesofindia.indiatimes.com/entertainment/tamil/movie-reviews/kabadadaari/movie-review/80498660.cms|access-date=|website=timesofindia.indiatimes.com|language=en}}</ref>
+|-
+| style="text-align:center;" | கீலக்காடு || சத்தியமூர்த்தி ஜெயகுரு || அஜய் கார்த்திக், சுரேஷ், சுகன்யா || 
+|-
+| style="text-align:center;" | குக்கிராமம் || கே.ராமன் || சிவன், அனிதா செல்வராஜ் ||
+|-
+| style="text-align:center;" | செஞ்சோலை || பாரூக்  || பாரூக்  ||
+|-
+|- பிப்ரவரி!
+| rowspan="24" style="text-align:center; background:#dcc7df; textcolor:#000;" |'''பி<br />ப்<br />ர<br />வ<br />ரி'''
+| rowspan="4" style="text-align:center; background:#ede3ef;"|'''5'''
+|style="text-align:center;" | ஆட்கள் தேவை || சக்தி சிவன் || சக்தி சிவன், ஈசன் நடராஜன் || 
+|-
+|style="text-align:center;" | சிதம்பரம் ரயில்வே கேட் || சிவபாலன் || அன்பு மயில்சாமி, [[மகேந்திரன் (நடிகர்)|மகேந்திரன்]] || 
+|-
+|style="text-align:center;" | கலத்தில் சாந்திப்போம் || என்.ராஜசேகர் || [[ஜீவா (திரைப்பட நடிகர்)|ஜீவா]], [[அருள்நிதி]] || 
+|-
+|style="text-align:center;" | டிரிப் || டென்னிஸ் மஞ்சுநாத் || [[யோகி பாபு]], [[சுனைனா (நடிகை)|சுனைனா]] || 
+|-
+| rowspan="6" style="text-align:center; background:#ede3ef;"|'''12'''
+|style="text-align:center;" | C/o காதல்  || ஹேமாம்பர் || ஜஸ்தி வெத்ரி, மும்தாஜ் சோர்கார் || 
+|-
+|style="text-align:center;" | இது விபத்து பகுதி  || விஜய் திருமூலம் || சசி, அனு கிருஷ்ணா || 
+|-
+|style="text-align:center;" | கசகசா  || தமிழ் சுதர் || சம்பத் ராம், சைவினோத் || 
+|-
+|style="text-align:center;" | குட்டி கதை  || நான்கு இயக்குநர்கள் || [[விஜய் சேதுபதி]], [[கௌதம் மேனன்]] || 
+|-
+|style="text-align:center;" | நானும் சிங்கிள் தான்  || ஆர்.கோபி  || [[அட்டகத்தி தினேஷ்]], தீப்தி சதி || 
+|-
+|style="text-align:center;" | பாரிஸ் ஜெயராஜ்  || கே. ஜான்சன் || [[சந்தானம் (நடிகர்)|சந்தானம்]], அனைகா சோதி || 
+|-
+| rowspan="6" style="text-align:center; background:#ede3ef;"|'''19'''
+|style="text-align:center;" | ஆண்கள் ஜாக்கிரதை || கே.எஸ்.முத்து மனோகரன் || முருகானந்தம், ஜெமினி ராகவா || 
+|-
+|style="text-align:center;" | சக்ரா || எம்.எஸ்.நந்தன் || [[விஷால்]], [[சிரத்தா சிறீநாத்]] || 
+|-
+|style="text-align:center;" | கமலி  || ராஜசேகர் துரைசாமி  || [[ஆனந்தி (நடிகை)|ஆனந்தி]], ரோஹித் சுரேஷ் சரஃப்  || 
+|-
+|style="text-align:center;" | லோகா  || டி.எஸ். திவாகர் || யோகேந்திரா, அக்ஷதா மாதவ் || 
+|-
+|style="text-align:center;" | பழகிய நாட்கள்  || ராம்தேவ் மீரன்  ||  மேகனா, ஸ்ரீநாத் || 
+|-
+|style="text-align:center;" | சில்லு வண்டுகள்  || கே.வெங்கிடி  || டி.கே.நாராயணன், அருணாசலம் || 
+|-
+| rowspan="7" style="text-align:center; background:#ede3ef;"|'''26'''
+|style="text-align:center;" | கால்ஸ் || ஜே.சபரிஷ்  || [[சித்ரா (நடிகை)|சித்ரா]], [[வினோதினி]] || 
+|-
+|style="text-align:center;" | செந்தா  || சாகயநாதன் || தீபா உமபதி, டிட்டோ || 
+|-
+|style="text-align:center;" | சென்னையில் ஓடா ஓடா || சஞ்சீவ்  || குருமுருகா, காசி விஸ்வநாதன் || 
+|-
+|style="text-align:center;" | பாதி உனக்கு பாதி எனக்கு  || எம். விஜயகுமார்  || ஆரியன், சரவணன், சுவாதி  || 
+|-
+|style="text-align:center;" | சங்கத்லைவன்   || மணிமாறன்  ||  [[சமுத்திரக்கனி]], ரம்யா சுப்பிரமணியன்  || 
+|-
+|style="text-align:center;" | சரியா தவறா  || எஸ்.சவரிமுத்து  || சவரிமுத்து, கதால் சுகுமார் || 
+|-
+|style="text-align:center;" | வேட்டை நாய் || எஸ்.ஜெய்சங்கர்  || ஆர்.கே.சுரேஷ், [[ராம்கி (நடிகர்)|ராம்கி]] || 
+|-
+| rowspan="1" style="text-align:center; background:#ede3ef;"|'''28'''
+|style="text-align:center;" | [[ஏலே]] || [[ஹலிதா ஷமீம்]]  || [[சமுத்திரக்கனி]], மணிகண்டன் || 
+|-
+|}
+
+==வலைத் தொடர்கள்==
+{| class="wikitable sortable"
+! colspan="2" |வெளியீடு 
+! style="width:20%;" |தலைப்பு
+! இயக்குநர்
+! நடிகர்கள்
+! தளம்
+! மேற்
+|-
+| rowspan="1" style="text-align:center; background:#ffa07a; textcolor:#000;" |'''ச<br />ன<br />வ<br />ரி'''
+| rowspan="1" style="text-align:center; background:#ffdacc;" |'''29'''
+|style="text-align:center;" | குருதி கலாம் || பி.ராஜபாண்டி, தனுஷ் || சந்தோஷ் பிரதாப், [[சனம் ஷெட்டி]] || [[எம்எக்ஸ் பிளேயர்]] || <ref>{{Cite web|date=|title=kuruthi kalam review|url=https://www.letsott.com/kuruthi-kalam-review|access-date=|website=www.letsott.com|language=en|archive-date=2021-01-22|archive-url=https://web.archive.org/web/20210122130913/https://www.letsott.com/kuruthi-kalam-review/|url-status=dead}}</ref>
+|-
+|}
+
+== மேற்கோள்கள் ==
+{{Reflist|2}}
+
+{{கோலிவுட்}}
+
+[[பகுப்பு:2021 தமிழ்த் திரைப்படங்கள்| ]]
+[[பகுப்பு:தமிழ்த் திரைப்படங்களின் பட்டியல்கள்]]

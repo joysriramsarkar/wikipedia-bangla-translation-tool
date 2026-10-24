@@ -1,0 +1,6 @@
+{{Navbox
+| name = Deutsche Städte
+|title = গুরুত্বপূর্ণ শহর
+|group1 = উত্তর
+|list1 = * বার্লিন * হামবুর্গ
+}}

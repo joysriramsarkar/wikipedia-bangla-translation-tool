@@ -1,0 +1,6 @@
+{{Navbox
+| name = European capitals
+|title = রাজধানী শহর
+|group1 = পশ্চিম ইউরোপ
+|list1 = *লন্ডন* প্যারিস
+}}

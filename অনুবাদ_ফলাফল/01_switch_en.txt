@@ -1,0 +1,4 @@
+{{#switch: {{{1}}}
+| AFCBourn = {{ENGLs|PL}} | AFCBourn2 = [[২০২৫–২৬ প্রিমিয়ার লিগ|২০২৫–২৬]] | AFCBourn3 = {{ENGLs|PL}}, ২০-এর মধ্যে ৬ষ্ঠ
+| default = ০}}
+<noinclude>{{ডকুমেন্টেশন}}[[বিষয়শ্রেণী:ইংরেজি ফুটবল আপডেটার টেমপ্লেট]]</noinclude>

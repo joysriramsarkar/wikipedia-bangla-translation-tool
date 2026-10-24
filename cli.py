@@ -21,6 +21,7 @@ LANG_CODES = {
     'russian': 'ru',
     'german': 'de',
     'english': 'en',
+    'tamil': 'ta',
 }
 
 
@@ -107,7 +108,7 @@ Examples:
   python cli.py english -i source.txt -o draft.txt --check-rules
         '''
     )
-    parser.add_argument('command', choices=['chinese', 'japanese', 'russian', 'german', 'english', 'info', 'check'],
+    parser.add_argument('command', choices=['chinese', 'japanese', 'russian', 'german', 'english', 'tamil', 'info', 'check'],
                         help='অনুবাদ কমান্ড, তথ্য বা যাচাই')
     parser.add_argument('--input', '-i', help='ইনপুট ফাইলের পথ')
     parser.add_argument('--output', '-o', help='আউটপুট ফাইলের পথ')

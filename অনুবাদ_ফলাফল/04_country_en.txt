@@ -1,0 +1,5 @@
+{{তথ্যছক দেশ
+| common_name = জার্মানি
+| capital = বার্লিন
+| population_census = ৮৩০০০০০০
+}}
