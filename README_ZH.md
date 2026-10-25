@@ -32,7 +32,7 @@
 - **100% 遵循孟加拉语维基百科编辑规范：** 自动实施所有13项官方强制规则（如100%全孟加拉数字 `০-৯`、词首禁止出现'ৎ'、预组装变音字母 `য়, ড়, ঢ়`、面积单位强制转换为 `বর্গকিমি`、清除英语维护模板等）。
 - **维基表格自动平衡与防错机制：** 解析 MediaWiki 表格标记，当单元格缺失时自动补全 `&nbsp;`，防止渲染表格右侧出现空白或错位。
 - **本地可视化管理仪表盘：** 内置轻量级 Web 服务器与暗色调仪表盘界面（`http://127.0.0.1:8765/dashboard`），支持草稿实时后处理与一键规范验证。
-- **高测试覆盖率：** 配备 96 项自动化单元测试，确保各语言模块、表格转换器与后处理流程 100% 稳定运行。
+- **高测试覆盖率：** 配备 134 项自动化单元测试，确保各语言模块、表格转换器与后处理流程 100% 稳定运行。
 
 ---
 
@@ -112,8 +112,8 @@ python cx_postprocess/server.py
 
 ### 1. 克隆代码仓库
 ```bash
-git clone https://github.com/example/wikipedia-translation-toolkit.git
-cd "উইকিপিডিয়া অনুবাদ"
+git clone https://github.com/joysriramsarkar/wikipedia-bangla-translation-tool.git
+cd wikipedia-bangla-translation-tool
 ```
 
 ### 2. 安装依赖包
@@ -177,7 +177,7 @@ python examples/demo.py
 
 ## 🧪 测试与规范验证
 
-运行完整的自动化测试套件（共96项测试）：
+运行完整的自动化测试套件（共134项测试）：
 ```bash
 python run_all_tests.py
 # 未安装 pytest 时自动使用标准库运行器：
@@ -208,7 +208,7 @@ python clean.py
 ├── wikitext_templates/             # 维基百科标准信息框与表格模板
 ├── examples/                       # 调用示例与 demo.py 演示脚本
 ├── docs/                           # 架构设计与技术文档
-├── tests/                          # 96项自动化单元测试集合
+├── tests/                          # 134项自动化单元测试集合
 ├── archive/                        # 历史翻译任务归档与原始数据
 ├── চীনা-বাংলা অনুবাদ/             # 中文-孟加拉语翻译引擎
 ├── জাপানি-বাংলা অনুবাদ/           # 日文-孟加拉语翻译引擎
