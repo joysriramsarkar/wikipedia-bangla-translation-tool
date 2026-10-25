@@ -13,7 +13,6 @@ authors = [
 license = {text = "MIT"}
 requires-python = ">=3.10"
 dependencies = [
-    "requests>=2.31.0",
     "pypinyin>=0.50.0",
     "flask>=3.0",
 ]
@@ -24,13 +23,16 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/example/wikipedia-translation-toolkit"
+Homepage = "https://github.com/joysriramsarkar/wikipedia-bangla-translation-tool"
 
 [tool.vercel]
 entrypoint = "app:app"
 
+[tool.setuptools]
+py-modules = ["wikipedia_translation_toolkit"]
+
 [tool.setuptools.packages.find]
-include = ["common*", "*-বাংলা অনুবাদ*"]
+include = ["common*", "cx_postprocess*", "*-বাংলা অনুবাদ*"]
 exclude = ["__pycache__", "*.egg-info"]
 
 [tool.pyright]
